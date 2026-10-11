@@ -1,6 +1,6 @@
 # Sources
 
-Atlas Ladder quotes only short passages, for study and criticism. Each quotation below is copied as a contiguous wording checked against the Ayn Rand Lexicon (aynrandlexicon.com) or, where noted, against a published excerpt of Leonard Peikoff’s *Objectivism: The Philosophy of Ayn Rand*. If a line is an excerpt from a longer sentence, the entry says so.
+Atlas Ladder quotes only short passages, for study and criticism. Each quotation below is copied as a contiguous wording checked against the Ayn Rand Lexicon (aynrandlexicon.com). If a line is an excerpt from a longer sentence, the entry says so. A few lines are from essays published with Rand’s epistemological work, or from The Ominous Parallels, and the citation names that source.
 
 Page numbers for Galt’s speech follow *For the New Intellectual*, the pagination the Lexicon uses. The speech was written for *Atlas Shrugged* and is reprinted there.
 
@@ -27,12 +27,6 @@ Do not treat this file as a license to copy the books. Read the works.
 > 4. "Give me liberty or give me death."
 
 > Reality exists as an objective absolute—facts are facts, independent of man's feelings, wishes, hopes or fears.
-
-## Leonard Peikoff, Objectivism: The Philosophy of Ayn Rand, chapter 1, "Reality"
-
-> Philosophy, according to Objectivism, consists of five branches.
-
-> Metaphysics is the branch of philosophy that studies the nature of the universe as a whole.
 
 ## Ayn Rand, "Axiomatic Concepts," Introduction to Objectivist Epistemology, 55
 

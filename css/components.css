@@ -328,6 +328,54 @@
   to { transform: translate3d(var(--dx), 78vh, 0) rotate(var(--rot)); opacity: 0; }
 }
 
+@media (min-width: 1024px) {
+  :host-context(body.is-wide):host(skill-tree) {
+    background: transparent;
+    position: relative;
+    z-index: 1;
+    min-height: calc(100dvh - 96px);
+  }
+  :host-context(body.is-wide):host(skill-tree) .entrance atlas-mascot,
+  :host-context(body.is-wide):host(skill-tree) .pose-name,
+  :host-context(body.is-wide):host(skill-tree) .pose-row,
+  :host-context(body.is-wide):host(skill-tree) .play-poses { display: none; }
+  :host-context(body.is-wide):host(skill-tree) .lede { max-width: 46ch; }
+  :host-context(body.is-wide):host(skill-tree) h1 { font-size: 2.8rem; }
+  :host-context(body.is-wide):host(skill-tree) .floor { min-height: 148px; }
+  :host-context(body.is-wide):host(skill-tree) .floor.left { padding-left: 8%; }
+  :host-context(body.is-wide):host(skill-tree) .floor.right { padding-right: 8%; }
+  :host-context(body.is-wide):host(skill-tree) .node { width: 220px; }
+  :host-context(body.is-wide):host(skill-tree) .octo { width: 92px; height: 92px; }
+  :host-context(body.is-wide):host(skill-tree) .octo-face { width: 76px; height: 76px; font-size: 1.35rem; }
+  :host-context(body.is-wide):host(skill-tree) .floor-label { font-size: 0.95rem; }
+  :host-context(body.is-wide):host(skill-tree) .is-current .node::before { top: -8px; width: 108px; height: 108px; }
+  :host-context(body.is-wide):host(skill-tree) .plaque { max-width: 640px; margin-left: auto; margin-right: auto; padding: 18px 20px; }
+  :host-context(body.is-wide):host(skill-tree) .plaque h2 { font-size: 1.8rem; }
+  :host-context(body.is-wide):host(skill-tree) .soon { max-width: 720px; margin-left: auto; margin-right: auto; padding: 16px 18px; }
+  :host-context(body.is-wide):host(skill-tree) .unit-name { font-size: 1.45rem; }
+
+  :host(lesson-player) .lp { max-width: 1160px; margin: 0 auto; padding: 28px 8px 48px; }
+  :host(lesson-player) .intro h2 { font-size: 2.6rem; }
+  :host(lesson-player) .intro p { font-size: 1.2rem; }
+  :host(lesson-player) .lp-hero { min-height: 120px; }
+  :host(lesson-player) .banner { width: min(1160px, calc(100% - 48px)); grid-template-columns: 140px 1fr; }
+  :host(exercise-choice) .prompt,
+  :host(exercise-quote) .prompt,
+  :host(exercise-match) .prompt,
+  :host(exercise-fill) .prompt { font-size: 1.5rem; }
+  :host(exercise-choice) .options,
+  :host(exercise-quote) .options { grid-template-columns: 1fr 1fr; gap: 16px; }
+  :host(exercise-choice) .option,
+  :host(exercise-quote) .option,
+  :host(exercise-match) .chip,
+  :host(exercise-fill) .token,
+  :host(exercise-fill) .slot { min-height: 72px; padding: 16px 18px; font-size: 1.12rem; }
+  :host(exercise-match) .match { gap: 28px; }
+  :host(exercise-match) .col { gap: 14px; }
+  :host(lesson-complete) .done { max-width: 760px; margin: 0 auto; padding-top: 48px; }
+  :host(lesson-complete) h2 { font-size: 2.8rem; }
+}
+
 @media (max-width: 380px) {
   :host(xp-bar) .num { display: none; }
 }

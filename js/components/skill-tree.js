@@ -69,7 +69,7 @@ export class SkillTreeElement extends HTMLElement {
         <p class="pose-name" data-pose-name>Idle</p>
         <div class="pose-row">${buttons}</div>
         <button type="button" class="play-poses">Play the five poses</button>
-        <p class="footnote">Short quotations are cited. Anything labeled Paraphrase is our wording, not Rand’s or Peikoff’s.</p>
+        <p class="footnote">Short quotations are cited. Anything labeled Paraphrase is our wording, not a quotation.</p>
       </section>
     `;
   }
@@ -115,10 +115,9 @@ export class SkillTreeElement extends HTMLElement {
       }
     }
     return `
-      <section class="stage" data-accent="${escapeHtml(section.accent || 'gold')}">
+      <section class="stage" data-section-id="${escapeHtml(section.id)}" data-accent="${escapeHtml(section.accent || 'gold')}">
         <div class="section-stack">
           <header class="plaque">
-            <p class="plaque-kicker">${escapeHtml(section.opar || '')}</p>
             <h2>${escapeHtml(section.title)}</h2>
             <p>${escapeHtml(section.summary || '')}</p>
           </header>

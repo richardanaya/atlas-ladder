@@ -1,6 +1,6 @@
 # Atlas Ladder
 
-A mobile-first study tower for Objectivism, Ayn Rand’s philosophy, following Leonard Peikoff’s *Objectivism: The Philosophy of Ayn Rand*. The first climb is Section 1, Unit 1 (metaphysics: the axioms) and Section 2, Unit 1 (epistemology: the senses). Later units are on the tower as coming soon, and they do not block a unit that is already built.
+A mobile-first study tower for Objectivism, Ayn Rand’s philosophy, organized by topic. The first climb is Metaphysics, Unit 1 (the axioms) and Epistemology, Unit 1 (the senses). Later units are on the tower as coming soon, and they do not block a unit that is already built. On a wide screen the tower uses the full window: sections in a left rail, the climb in the center, and Atlas with your progress on the right.
 
 There is no build step. `index.html` at the repository root is the page. Styles live in `css/`. Behavior is native ES modules under `js/`. Lesson text is JSON under `content/`.
 
@@ -52,7 +52,7 @@ node --test tests/progress.test.js
 
 ### Catalog
 
-`content/catalog.json` is the tower. A section has `id`, `title`, `accent` (`gold` or `copper`), `opar`, `summary`, `file` (or `null` when nothing is built yet), and `units`. A unit has `id`, `title`, `status` (`ready` or `soon`), and `summary`. A ready unit also has `lessons`: `{ id, title, objective }`.
+`content/catalog.json` is the tower. A section has `id`, `title`, `accent` (`gold` or `copper`), `summary`, `file` (or `null` when nothing is built yet), and `units`. A unit has `id`, `title`, `status` (`ready` or `soon`), and `summary`. A ready unit also has `lessons`: `{ id, title, objective }`. Sections are topics. They are not keyed to a chapter outline.
 
 Coming-soon units stay in the catalog so the tower can show them. They are left out of the unlock sequence.
 

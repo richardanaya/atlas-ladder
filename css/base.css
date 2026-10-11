@@ -31,6 +31,15 @@ body.is-sources {
   position: relative;
 }
 
+.frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.rail, .dossier { display: none; }
+
 body.is-tower .app-shell {
   box-shadow: 0 0 0 1px var(--gold), 0 0 0 7px var(--navy), 0 0 0 8px var(--copper);
 }
@@ -171,6 +180,238 @@ dialog h2 {
 @media (max-width: 420px) {
   .brand { font-size: 0.68rem; letter-spacing: 0.08em; }
   #reset { display: none; }
+}
+
+.rail-btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 8px;
+  padding: 10px 12px;
+  text-align: left;
+  background: transparent;
+  color: var(--ivory);
+  border: 1px solid rgba(201, 162, 39, 0.55);
+  font-family: var(--font);
+  cursor: pointer;
+}
+
+.rail-btn.is-on { background: var(--gold); color: var(--navy); border-color: var(--gold); }
+
+.rail-index {
+  font-family: var(--display);
+  font-size: 1.1rem;
+  letter-spacing: 0.06em;
+}
+
+.rail-copy { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+
+.rail-title {
+  font-family: var(--display);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.92rem;
+}
+
+.rail-meta { font-size: 0.75rem; letter-spacing: 0.04em; opacity: 0.85; }
+
+.dossier-card {
+  margin: 8px 8px 16px 4px;
+  padding: 16px 14px 18px;
+  text-align: center;
+  border: 1px solid var(--gold);
+  outline: 1px solid var(--copper);
+  outline-offset: 4px;
+  background: rgba(14, 26, 43, 0.9);
+}
+
+.dossier-pose {
+  margin: 4px 0 8px;
+  font-family: var(--sub);
+  letter-spacing: 0.08em;
+  font-size: 1.35rem;
+  color: var(--gold-bright);
+}
+
+.dossier .pose-row { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-bottom: 8px; }
+
+.dossier .pose-row button, .dossier .play-poses {
+  font-family: var(--font);
+  background: transparent;
+  color: var(--ivory);
+  border: 1px solid var(--gold);
+  min-height: 34px;
+  padding: 0 8px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.dossier .pose-row button.is-on, .dossier .play-poses { background: var(--gold); color: var(--navy); }
+
+.dossier-meters {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  margin: 14px 0;
+  text-align: left;
+}
+
+.dossier-meters xp-bar, .dossier-meters streak-flame { width: 100%; }
+
+.dossier-kicker {
+  margin: 0 0 4px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-size: 0.72rem;
+}
+
+.dossier-unit h2 {
+  margin: 0 0 4px;
+  font-family: var(--sub);
+  font-weight: 400;
+  font-size: 1.35rem;
+  letter-spacing: 0.04em;
+  color: var(--gold-bright);
+}
+
+.dossier-count { margin: 0 0 8px; color: var(--ivory); font-size: 0.85rem; }
+
+.dossier-unit ul { list-style: none; margin: 0; padding: 0; text-align: left; }
+
+.dossier-unit li {
+  padding: 7px 0;
+  border-top: 1px solid rgba(201, 162, 39, 0.35);
+  font-size: 0.92rem;
+}
+
+.dossier-unit li[data-state="now"] { color: var(--gold-bright); }
+
+.dossier-unit li[data-state="done"]::before { content: "✓ "; color: var(--gold); }
+
+.dossier-unit li[data-state="wait"] { opacity: 0.55; }
+
+@media (min-width: 1024px) {
+  body.is-wide .app-shell {
+    width: 100%;
+    max-width: none;
+    box-shadow: none;
+  }
+
+  body.is-wide {
+    background-image: none;
+  }
+
+  body.is-wide .frame {
+    display: grid;
+    grid-template-columns: 272px minmax(0, 1fr) 332px;
+    align-items: start;
+  }
+
+  body.is-wide .rail,
+  body.is-wide .dossier {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 57px;
+    max-height: calc(100dvh - 72px);
+    overflow: auto;
+    background: rgba(14, 26, 43, 0.96);
+    z-index: 2;
+  }
+
+  body.is-wide #mute { margin-left: auto; }
+
+  body.is-wide .rail { padding: 16px 14px 24px 16px; border-right: 1px solid var(--gold); }
+
+  body.is-wide .dossier { border-left: 1px solid var(--copper); padding: 12px 12px 16px; }
+
+  body.is-wide .dossier-card {
+    margin: 0;
+    padding: 12px 12px 14px;
+    outline-offset: 3px;
+  }
+
+  body.is-wide #side-atlas {
+    width: 132px;
+    height: 172px;
+  }
+
+  body.is-wide .dossier-pose { font-size: 1.15rem; margin: 2px 0 6px; }
+
+  body.is-wide .dossier .pose-row button,
+  body.is-wide .dossier .play-poses {
+    min-height: 30px;
+    font-size: 0.72rem;
+    padding: 0 6px;
+  }
+
+  body.is-wide .dossier-meters {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin: 12px 0 8px;
+  }
+
+  body.is-wide .dossier-meters streak-flame { width: auto; flex: 0 0 auto; }
+
+  body.is-wide .dossier-meters xp-bar { flex: 1 1 auto; width: auto; min-width: 0; }
+
+  body.is-wide .dossier-unit h2 { font-size: 1.15rem; }
+
+  body.is-wide .dossier-unit li { padding: 5px 0; font-size: 0.88rem; }
+
+  body.is-wide #main {
+    min-width: 0;
+    position: relative;
+  }
+
+  body.is-wide #main::before {
+    content: "";
+    position: fixed;
+    z-index: 0;
+    pointer-events: none;
+    top: 57px;
+    bottom: 0;
+    left: 272px;
+    width: calc(100vw - 604px);
+    background:
+      radial-gradient(circle at 50% 0, rgba(201, 162, 39, 0.28), transparent 42%),
+      repeating-conic-gradient(from 0deg at 50% -8%, transparent 0 8deg, rgba(201, 162, 39, 0.45) 8deg 9.2deg),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 900'%3E%3Cg fill='none' stroke='%23C9A227' stroke-width='1.6'%3E%3Cpath d='M20 900V640H40V520H58V400H78V280H96V180H112V250H130V390H148V560H168V900'/%3E%3Cpath d='M34 900V700H52V620H70V700H88V540H110V460H132V600H150V900'/%3E%3Cpath d='M96 180H112'/%3E%3C/g%3E%3Cg fill='%23C9A227'%3E%3Crect x='84' y='300' width='4' height='8'/%3E%3Crect x='92' y='300' width='4' height='8'/%3E%3Crect x='84' y='316' width='4' height='8'/%3E%3Crect x='92' y='316' width='4' height='8'/%3E%3Crect x='100' y='360' width='4' height='8'/%3E%3Crect x='108' y='360' width='4' height='8'/%3E%3Crect x='48' y='540' width='4' height='8'/%3E%3Crect x='56' y='540' width='4' height='8'/%3E%3Crect x='48' y='556' width='4' height='8'/%3E%3Crect x='56' y='556' width='4' height='8'/%3E%3C/g%3E%3C/svg%3E"),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 900'%3E%3Cg fill='none' stroke='%23B87333' stroke-width='1.6'%3E%3Cpath d='M160 900V600H140V470H122V340H104V220H88V160H74V230H58V360H40V520H24V900'/%3E%3Cpath d='M150 900V720H132V640H114V720H96V560H78V470H60V620H42V900'/%3E%3Cpath d='M88 160H104'/%3E%3C/g%3E%3Cg fill='%23B87333'%3E%3Crect x='70' y='280' width='4' height='8'/%3E%3Crect x='78' y='280' width='4' height='8'/%3E%3Crect x='70' y='296' width='4' height='8'/%3E%3Crect x='78' y='296' width='4' height='8'/%3E%3Crect x='118' y='400' width='4' height='8'/%3E%3Crect x='126' y='400' width='4' height='8'/%3E%3Crect x='118' y='416' width='4' height='8'/%3E%3Crect x='126' y='416' width='4' height='8'/%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center top, center top, left bottom, right bottom;
+    background-size: auto, 100% 340px, 240px 78%, 240px 78%;
+  }
+
+  body.is-lesson .app-shell,
+  body.is-sources .app-shell {
+    width: min(1240px, calc(100% - 64px));
+  }
+
+  body.is-lesson,
+  body.is-sources {
+    background-image:
+      linear-gradient(var(--gold), var(--gold)),
+      linear-gradient(var(--copper), var(--copper));
+    background-size: 1px 100%, 1px 100%;
+    background-position: max(16px, calc(50% - 640px)) 0, min(calc(100% - 16px), calc(50% + 640px)) 0;
+    background-repeat: no-repeat;
+  }
+
+  body.is-celebrate .app-shell { width: 100%; max-width: none; }
+
+  body.is-celebrate {
+    background-image:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 900'%3E%3Cg fill='none' stroke='%23C9A227' stroke-width='1.3' opacity='0.45'%3E%3Cpath d='M20 900V640H40V520H58V400H78V280H96V180H112V250H130V390H148V560H168V900'/%3E%3C/g%3E%3C/svg%3E"),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 900'%3E%3Cg fill='none' stroke='%23B87333' stroke-width='1.3' opacity='0.4'%3E%3Cpath d='M160 900V600H140V470H122V340H104V220H88V160H74V230H58V360H40V520H24V900'/%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: left bottom, right bottom;
+    background-size: 220px 100vh, 220px 100vh;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

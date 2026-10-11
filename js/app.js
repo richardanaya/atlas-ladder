@@ -3,7 +3,8 @@ import { ContentLoader } from './content-loader.js';
 import { ProgressStore } from './progress-store.js';
 import { SoundManager } from './sound-manager.js';
 import { Router } from './router.js';
-import { isLessonUnlocked, lessonKey, levelFor, readyLessons, todayISO, xpAward } from './progress-rules.js';
+import { escapeHtml } from './dom.js';
+import { currentLessonKey, isLessonUnlocked, lessonKey, levelFor, readyLessons, todayISO, xpAward } from './progress-rules.js';
 
 export class App {
   constructor({ main }) {
@@ -14,6 +15,8 @@ export class App {
     this.router = new Router();
     this.catalog = null;
     this.fresh = [];
+    this._sideTimer = 0;
+    this._wideQuery = window.matchMedia('(min-width: 1024px)');
   }
 
   async start() {
@@ -46,6 +49,19 @@ export class App {
       this.router.go('/');
     });
     document.querySelector('#sources-link').addEventListener('click', () => this.router.go('/sources'));
+    this._wideQuery.addEventListener('change', () => this._placeChrome());
+    document.querySelector('#rail').addEventListener('click', (event) => {
+      const button = event.target.closest('[data-section]');
+      if (!button) return;
+      this._scrollToSection(button.dataset.section);
+    });
+    document.querySelector('#side-poses').addEventListener('click', (event) => {
+      const pose = event.target.closest('[data-pose]');
+      if (!pose) return;
+      clearInterval(this._sideTimer);
+      this._setSidePose(pose.dataset.pose);
+    });
+    document.querySelector('#side-play').addEventListener('click', () => this._cycleSidePose());
   }
 
   _renderChrome() {
@@ -56,6 +72,95 @@ export class App {
     if (this.store.state.lastActiveDate === todayISO() && this.store.streak > 0) streak.setAttribute('lit', '');
     else streak.removeAttribute('lit');
     this._renderMute(this.store.muted);
+    this._renderDossier();
+  }
+
+  _placeChrome() {
+    const wide = this._wideQuery.matches && document.body.classList.contains('is-tower');
+    document.body.classList.toggle('is-wide', wide);
+    const streak = document.querySelector('#streak');
+    const xp = document.querySelector('#xp');
+    const meters = document.querySelector('#dossier-meters');
+    const mute = document.querySelector('#mute');
+    if (wide) meters.append(streak, xp);
+    else mute.before(streak, xp);
+    if (wide) {
+      this._renderRail();
+      this._renderDossier();
+    }
+  }
+
+  _renderRail() {
+    if (!this.catalog) return;
+    const current = currentLessonKey(this.catalog, this.store.state.completed);
+    const currentSection = current ? current.split('/')[0] : this.catalog.sections[0]?.id;
+    const rail = document.querySelector('#rail');
+    rail.innerHTML = this.catalog.sections.map((section, index) => {
+      const ready = section.units.filter((unit) => unit.status === 'ready').length;
+      const meta = ready ? `${ready} unit${ready === 1 ? '' : 's'} open` : 'Coming soon';
+      const on = section.id === currentSection ? ' is-on' : '';
+      return `<button type="button" data-section="${escapeHtml(section.id)}" class="rail-btn${on}">
+        <span class="rail-index">${String(index + 1).padStart(2, '0')}</span>
+        <span class="rail-copy"><span class="rail-title">${escapeHtml(section.title)}</span><span class="rail-meta">${meta}</span></span>
+      </button>`;
+    }).join('');
+  }
+
+  _renderDossier() {
+    const box = document.querySelector('#dossier-unit');
+    if (!box || !this.catalog) return;
+    const completed = this.store.state.completed;
+    const current = currentLessonKey(this.catalog, completed);
+    let section = this.catalog.sections[0];
+    let unit = section?.units[0];
+    if (current) {
+      const [sectionId, unitId] = current.split('/');
+      section = this.catalog.sections.find((item) => item.id === sectionId) || section;
+      unit = section.units.find((item) => item.id === unitId) || section.units.find((item) => item.status === 'ready') || unit;
+    }
+    const lessons = unit?.lessons || [];
+    const done = lessons.filter((lesson) => completed[lessonKey(section.id, unit.id, lesson.id)]).length;
+    const items = lessons.map((lesson) => {
+      const key = lessonKey(section.id, unit.id, lesson.id);
+      const state = completed[key] ? 'done' : key === current ? 'now' : 'wait';
+      return `<li data-state="${state}">${escapeHtml(lesson.title)}</li>`;
+    }).join('');
+    box.innerHTML = `
+      <p class="dossier-kicker">${escapeHtml(section?.title || '')}</p>
+      <h2>${escapeHtml(unit?.title || '')}</h2>
+      <p class="dossier-count">${lessons.length ? `${done} of ${lessons.length} floors` : 'Coming soon'}</p>
+      ${items ? `<ul>${items}</ul>` : ''}
+    `;
+  }
+
+  _scrollToSection(id) {
+    const tree = this.main.querySelector('skill-tree');
+    const node = tree?.shadowRoot?.querySelector(`[data-section-id="${id}"]`);
+    node?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    document.querySelectorAll('.rail-btn').forEach((button) => {
+      button.classList.toggle('is-on', button.dataset.section === id);
+    });
+  }
+
+  _setSidePose(state) {
+    const mascot = document.querySelector('#side-atlas');
+    const label = document.querySelector('#side-pose');
+    mascot?.setAttribute('state', state);
+    if (label) label.textContent = state.charAt(0).toUpperCase() + state.slice(1);
+    document.querySelectorAll('#side-poses [data-pose]').forEach((button) => {
+      button.classList.toggle('is-on', button.dataset.pose === state);
+    });
+  }
+
+  _cycleSidePose() {
+    const poses = ['idle', 'thinking', 'encourage', 'cheer', 'celebrate'];
+    clearInterval(this._sideTimer);
+    let index = 0;
+    this._setSidePose(poses[0]);
+    this._sideTimer = setInterval(() => {
+      index = (index + 1) % poses.length;
+      this._setSidePose(poses[index]);
+    }, 1500);
   }
 
   _renderMute(muted) {
@@ -69,6 +174,8 @@ export class App {
     document.body.classList.toggle('is-lesson', mode === 'lesson' || mode === 'sources');
     document.body.classList.toggle('is-celebrate', mode === 'celebrate');
     document.body.classList.toggle('is-tower', mode === 'tower');
+    if (mode !== 'tower') clearInterval(this._sideTimer);
+    this._placeChrome();
   }
 
   async _route() {

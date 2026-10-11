@@ -1,13 +1,12 @@
 {
   "title": "Atlas Ladder",
-  "basedOn": "Leonard Peikoff, Objectivism: The Philosophy of Ayn Rand (OPAR), with Rand’s own formulations where a short quotation can be cited exactly.",
+  "basedOn": "Ayn Rand’s philosophy, organized by topic. Short quotations are from her own works and are listed in SOURCES.md.",
   "sections": [
     {
       "id": "metaphysics",
       "title": "Metaphysics",
       "accent": "gold",
-      "opar": "OPAR chapter 1, plus volition from chapter 2",
-      "summary": "What exists, and what it is to exist. Volition, which OPAR treats beside sense perception, is the top floor of this section.",
+      "summary": "What exists, and what it is to exist. Volition is the top floor of this section, after the axioms, primacy, causality, and the metaphysically given.",
       "file": "metaphysics.json",
       "units": [
         {
@@ -59,13 +58,13 @@
           "id": "given",
           "title": "The Metaphysically Given",
           "status": "soon",
-          "summary": "Facts that are, as against facts that human choice brings into existence. OPAR’s “metaphysically given as absolute.”"
+          "summary": "Facts that are, as against facts that human choice brings into existence. What is given is not up for a vote."
         },
         {
           "id": "volition",
           "title": "Volition",
           "status": "soon",
-          "summary": "The primary choice to focus or not, and volition as axiomatic. OPAR places this in chapter 2. This ladder puts it here, after the given."
+          "summary": "The primary choice to focus or not, and volition as axiomatic. This ladder places it after the metaphysically given."
         }
       ]
     },
@@ -73,13 +72,12 @@
       "id": "epistemology",
       "title": "Epistemology",
       "accent": "copper",
-      "opar": "OPAR chapters 2–5",
-      "summary": "How you know. This section starts with the senses. Volition is on the metaphysics ladder in this course.",
+      "summary": "How you know. This section starts with the senses. Volition is on the metaphysics ladder.",
       "file": "epistemology.json",
       "units": [
         {
           "id": "senses",
-          "title": "The Senses as Necessarily Valid",
+          "title": "The Validity of the Senses",
           "status": "ready",
           "summary": "The senses as your only direct contact, percepts as the given, and the stolen-concept trap in attacking them.",
           "lessons": [
@@ -114,7 +112,7 @@
           "id": "concepts",
           "title": "Concept-Formation and Measurement-Omission",
           "status": "soon",
-          "summary": "Differentiation, integration, and concepts as a mathematical process of measurement-omission. OPAR chapter 3."
+          "summary": "Differentiation, integration, and concepts as a mathematical process of measurement-omission."
         },
         {
           "id": "definitions",
@@ -126,19 +124,19 @@
           "id": "objectivity",
           "title": "Objectivity",
           "status": "soon",
-          "summary": "Volitional adherence to reality by the method of logic. Knowledge as contextual and hierarchical. OPAR chapter 4."
+          "summary": "Volitional adherence to reality by the method of logic. Knowledge as contextual and hierarchical."
         },
         {
           "id": "reason-rivals",
           "title": "Reason, Mysticism, and Skepticism",
           "status": "soon",
-          "summary": "Reason as the only means of knowledge, and mysticism and skepticism as denials of it. OPAR chapter 5."
+          "summary": "Reason as the only means of knowledge, and mysticism and skepticism as denials of it."
         },
         {
           "id": "certainty",
           "title": "Certainty and the Arbitrary",
           "status": "soon",
-          "summary": "The arbitrary as neither true nor false, and certainty as contextual. OPAR chapter 5."
+          "summary": "The arbitrary as neither true nor false, and certainty as contextual."
         }
       ]
     },
@@ -146,7 +144,6 @@
       "id": "human-nature",
       "title": "Human Nature",
       "accent": "gold",
-      "opar": "OPAR chapter 6",
       "summary": "What kind of organism a human being is, once metaphysics and epistemology are in place.",
       "file": null,
       "units": [
@@ -180,7 +177,6 @@
       "id": "ethics",
       "title": "Ethics",
       "accent": "copper",
-      "opar": "OPAR chapters 7–9",
       "summary": "The code that guides choices, once you know what you are and how you know.",
       "file": null,
       "units": [
@@ -226,7 +222,6 @@
       "id": "politics",
       "title": "Politics",
       "accent": "gold",
-      "opar": "OPAR chapters 10–11",
       "summary": "The social principles that follow when each person is an end in himself.",
       "file": null,
       "units": [
@@ -260,7 +255,6 @@
       "id": "aesthetics",
       "title": "Aesthetics",
       "accent": "copper",
-      "opar": "OPAR chapter 12",
       "summary": "Art as a need of a conceptual consciousness, and the standards for judging it.",
       "file": null,
       "units": [
@@ -294,7 +288,6 @@
       "id": "integration",
       "title": "Integration",
       "accent": "gold",
-      "opar": "OPAR epilogue",
       "summary": "The philosophy as one whole, and what it asks of a life.",
       "file": null,
       "units": [

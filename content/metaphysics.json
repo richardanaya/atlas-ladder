@@ -163,22 +163,22 @@
         {
           "id": "m1e6",
           "type": "choice",
-          "prompt": "Peikoff says Objectivism consists of how many branches?",
-          "answer": "5",
+          "prompt": "How many branches does the 1962 one-foot summary name?",
+          "answer": "4",
           "feedback": {
             "kind": "quote",
-            "quote": "Philosophy, according to Objectivism, consists of five branches.",
-            "note": "The 1962 one-foot list names four. OPAR presents five, adding esthetics. Both statements are in the record. They are not the same list.",
-            "citation": "Leonard Peikoff, Objectivism: The Philosophy of Ayn Rand, chapter 1, \"Reality\""
+            "quote": "1. Metaphysics: Objective Reality\n2. Epistemology: Reason\n3. Ethics: Self-interest\n4. Politics: Capitalism",
+            "note": "The summary names metaphysics, epistemology, ethics, and politics. Esthetics is not on that list.",
+            "citation": "Ayn Rand, \"Introducing Objectivism,\" The Objectivist Newsletter, August 1962, 35"
           },
           "choices": [
             {
-              "id": "5",
-              "text": "Five"
-            },
-            {
               "id": "4",
               "text": "Four"
+            },
+            {
+              "id": "5",
+              "text": "Five"
             },
             {
               "id": "3",
@@ -1566,30 +1566,29 @@
         {
           "id": "m5e10",
           "type": "choice",
-          "prompt": "Which description of metaphysics matches Peikoff’s chapter opening?",
+          "prompt": "On this ladder, metaphysics is the study of what?",
           "answer": "uni",
           "feedback": {
-            "kind": "quote",
-            "quote": "Metaphysics is the branch of philosophy that studies the nature of the universe as a whole.",
-            "note": "He then assigns epistemology to chapters 2–5, the nature of man to chapter 6, ethics to chapters 7–9, politics to chapters 10 and 11, and esthetics to chapter 12. This ladder follows that order, with volition placed on the metaphysics side of the tower.",
-            "citation": "Leonard Peikoff, Objectivism: The Philosophy of Ayn Rand, chapter 1, \"Reality\""
+            "kind": "paraphrase",
+            "note": "Our wording. Metaphysics, here, is the study of existence as such: that things are, and that they are something. The quotations for existence, identity, and consciousness are on the floors below this one.",
+            "citation": ""
           },
           "choices": [
             {
               "id": "uni",
-              "text": "The branch that studies the nature of the universe as a whole"
+              "text": "What exists, and what it is to exist"
             },
             {
               "id": "art",
-              "text": "The branch that studies esthetic judgment only"
+              "text": "How to judge a painting’s brushwork only"
             },
             {
               "id": "law",
-              "text": "The branch that designs a constitution"
+              "text": "How to draft a constitution"
             },
             {
               "id": "mood",
-              "text": "The branch that catalogs feelings"
+              "text": "How to name a feeling"
             }
           ]
         }

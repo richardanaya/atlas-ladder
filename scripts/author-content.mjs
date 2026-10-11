@@ -20,9 +20,7 @@ const C = {
   cog: 'Ayn Rand, "Cognition and Measurement," Introduction to Objectivist Epistemology, 5',
   fore: 'Ayn Rand, "Foreword to the First Edition," Introduction to Objectivist Epistemology, 4',
   peik109: 'Leonard Peikoff, "The Analytic-Synthetic Dichotomy," Introduction to Objectivist Epistemology, 109',
-  peik112: 'Leonard Peikoff, "The Analytic-Synthetic Dichotomy," Introduction to Objectivist Epistemology, 112–113',
   omin: 'Leonard Peikoff, The Ominous Parallels, 303',
-  opar: 'Leonard Peikoff, Objectivism: The Philosophy of Ayn Rand, chapter 1, "Reality"',
   vos: 'Ayn Rand, "The Objectivist Ethics," The Virtue of Selfishness, 20',
   kant: 'Ayn Rand, "Kant Versus Sullivan," Philosophy: Who Needs It, 90',
   pwni: 'Ayn Rand, "Philosophy: Who Needs It," Philosophy: Who Needs It, 5',
@@ -111,12 +109,12 @@ const lessonsMeta = {
       { type: 'blank', id: 'b1', answer: 'Objective' },
       { type: 'text', text: ' Reality' },
     ], ['Objective', 'Subjective', 'Collective', 'Divine'], q(oneFoot, 'The word she uses is Objective, not a social or supernatural substitute.', C.intro)),
-    choice('m1e6', 'Peikoff says Objectivism consists of how many branches?', [
-      ['5', 'Five'], ['4', 'Four'], ['3', 'Three'], ['7', 'Seven'],
-    ], '5', q(
-      'Philosophy, according to Objectivism, consists of five branches.',
-      'The 1962 one-foot list names four. OPAR presents five, adding esthetics. Both statements are in the record. They are not the same list.',
-      C.opar,
+    choice('m1e6', 'How many branches does the 1962 one-foot summary name?', [
+      ['4', 'Four'], ['5', 'Five'], ['3', 'Three'], ['7', 'Seven'],
+    ], '4', q(
+      oneFoot,
+      'The summary names metaphysics, epistemology, ethics, and politics. Esthetics is not on that list.',
+      C.intro,
     )),
     choice('m1e7', 'Which are the first and primary axiomatic concepts?', [
       ['eic', 'Existence, identity, and consciousness'],
@@ -482,15 +480,13 @@ const lessonsMeta = {
       'The cause is the nature of the entities that act. The sentence does not say a free-floating event pushes them.',
       C.g152,
     )),
-    choice('m5e10', 'Which description of metaphysics matches Peikoff’s chapter opening?', [
-      ['uni', 'The branch that studies the nature of the universe as a whole'],
-      ['art', 'The branch that studies esthetic judgment only'],
-      ['law', 'The branch that designs a constitution'],
-      ['mood', 'The branch that catalogs feelings'],
-    ], 'uni', q(
-      'Metaphysics is the branch of philosophy that studies the nature of the universe as a whole.',
-      'He then assigns epistemology to chapters 2–5, the nature of man to chapter 6, ethics to chapters 7–9, politics to chapters 10 and 11, and esthetics to chapter 12. This ladder follows that order, with volition placed on the metaphysics side of the tower.',
-      C.opar,
+    choice('m5e10', 'On this ladder, metaphysics is the study of what?', [
+      ['uni', 'What exists, and what it is to exist'],
+      ['art', 'How to judge a painting’s brushwork only'],
+      ['law', 'How to draft a constitution'],
+      ['mood', 'How to name a feeling'],
+    ], 'uni', para(
+      'Our wording. Metaphysics, here, is the study of existence as such: that things are, and that they are something. The quotations for existence, identity, and consciousness are on the floors below this one.',
     )),
   ],
 };
@@ -742,7 +738,7 @@ const lessonsEpi = {
       ['old', 'Because older books said so, and that is enough'],
       ['hid', 'Because the senses are hidden and therefore guilty'],
     ], 'use', para(
-      'Our wording of the trap: you cannot claim the senses are invalid without relying on sensory evidence to make and check the claim. Galt’s version is the sentence quoted on this floor that begins Let the witch doctor. The OPAR section title says the senses are necessarily valid. That title is not a sentence of Rand’s quoted here.',
+      'Our wording of the trap: you cannot claim the senses are invalid without relying on sensory evidence to make and check the claim. Galt’s version is the sentence quoted on this floor that begins Let the witch doctor.',
       C.g155,
     )),
     match('e4e6', 'Match the idea to the role it plays in this floor.', [
@@ -762,7 +758,7 @@ const lessonsEpi = {
       'Disagreement and misidentification happen at the conceptual level, where the process is volitional and fallible. That does not convert the sense organs into inventors. The quotations for the organs, the percept, and the stolen concept are on this unit’s earlier questions.',
       C.con,
     )),
-    choice('e4e8', 'OPAR’s next built topic after the validity of the senses, on this ladder, is:', [
+    choice('e4e8', 'The next epistemology topic on this ladder, after the validity of the senses, is:', [
       ['cf', 'Concept-formation, which is marked coming soon'],
       ['cap', 'The moral basis of capitalism'],
       ['rom', 'Romanticism in art'],
@@ -831,7 +827,7 @@ const lessonsEpi = {
       ['law', 'A statute'],
     ], 'int', q(
       'A philosophic system is an integrated view of existence.',
-      'The lecture’s point, which Peikoff quotes at the start of OPAR, is that you need that integration whether or not you build it deliberately. This floor only asks for the definition.',
+      'The sentence defines a philosophic system as one view, not a pile of tips. This floor only asks for that definition.',
       C.pwni,
     )),
     choice('e5e8', 'Which mistake does this unit treat as a stolen-concept move?', [
@@ -849,14 +845,13 @@ const lessonsEpi = {
 
 const catalog = {
   title: 'Atlas Ladder',
-  basedOn: 'Leonard Peikoff, Objectivism: The Philosophy of Ayn Rand (OPAR), with Rand’s own formulations where a short quotation can be cited exactly.',
+  basedOn: 'Ayn Rand’s philosophy, organized by topic. Short quotations are from her own works and are listed in SOURCES.md.',
   sections: [
     {
       id: 'metaphysics',
       title: 'Metaphysics',
       accent: 'gold',
-      opar: 'OPAR chapter 1, plus volition from chapter 2',
-      summary: 'What exists, and what it is to exist. Volition, which OPAR treats beside sense perception, is the top floor of this section.',
+      summary: 'What exists, and what it is to exist. Volition is the top floor of this section, after the axioms, primacy, causality, and the metaphysically given.',
       file: 'metaphysics.json',
       units: [
         {
@@ -874,21 +869,20 @@ const catalog = {
         },
         { id: 'primacy', title: 'Primacy of Existence', status: 'soon', summary: 'The universe exists independent of consciousness. Consciousness apprehends. It does not decree.' },
         { id: 'causality', title: 'Causality as a Corollary of Identity', status: 'soon', summary: 'The law of causality as the law of identity applied to action. A fuller floor than the preview you just climbed.' },
-        { id: 'given', title: 'The Metaphysically Given', status: 'soon', summary: 'Facts that are, as against facts that human choice brings into existence. OPAR’s “metaphysically given as absolute.”' },
-        { id: 'volition', title: 'Volition', status: 'soon', summary: 'The primary choice to focus or not, and volition as axiomatic. OPAR places this in chapter 2. This ladder puts it here, after the given.' },
+        { id: 'given', title: 'The Metaphysically Given', status: 'soon', summary: 'Facts that are, as against facts that human choice brings into existence. What is given is not up for a vote.' },
+        { id: 'volition', title: 'Volition', status: 'soon', summary: 'The primary choice to focus or not, and volition as axiomatic. This ladder places it after the metaphysically given.' },
       ],
     },
     {
       id: 'epistemology',
       title: 'Epistemology',
       accent: 'copper',
-      opar: 'OPAR chapters 2–5',
-      summary: 'How you know. This section starts with the senses. Volition is on the metaphysics ladder in this course.',
+      summary: 'How you know. This section starts with the senses. Volition is on the metaphysics ladder.',
       file: 'epistemology.json',
       units: [
         {
           id: 'senses',
-          title: 'The Senses as Necessarily Valid',
+          title: 'The Validity of the Senses',
           status: 'ready',
           summary: 'The senses as your only direct contact, percepts as the given, and the stolen-concept trap in attacking them.',
           lessons: [
@@ -899,18 +893,17 @@ const catalog = {
             { id: 'holding-it', title: 'From percept to reason', objective: 'Put the unit in one order: material, percept, identification, truth.' },
           ],
         },
-        { id: 'concepts', title: 'Concept-Formation and Measurement-Omission', status: 'soon', summary: 'Differentiation, integration, and concepts as a mathematical process of measurement-omission. OPAR chapter 3.' },
+        { id: 'concepts', title: 'Concept-Formation and Measurement-Omission', status: 'soon', summary: 'Differentiation, integration, and concepts as a mathematical process of measurement-omission.' },
         { id: 'definitions', title: 'Definitions and the Hierarchy', status: 'soon', summary: 'Definition as the last step of concept-formation, and concepts as a hierarchy rather than a pile.' },
-        { id: 'objectivity', title: 'Objectivity', status: 'soon', summary: 'Volitional adherence to reality by the method of logic. Knowledge as contextual and hierarchical. OPAR chapter 4.' },
-        { id: 'reason-rivals', title: 'Reason, Mysticism, and Skepticism', status: 'soon', summary: 'Reason as the only means of knowledge, and mysticism and skepticism as denials of it. OPAR chapter 5.' },
-        { id: 'certainty', title: 'Certainty and the Arbitrary', status: 'soon', summary: 'The arbitrary as neither true nor false, and certainty as contextual. OPAR chapter 5.' },
+        { id: 'objectivity', title: 'Objectivity', status: 'soon', summary: 'Volitional adherence to reality by the method of logic. Knowledge as contextual and hierarchical.' },
+        { id: 'reason-rivals', title: 'Reason, Mysticism, and Skepticism', status: 'soon', summary: 'Reason as the only means of knowledge, and mysticism and skepticism as denials of it.' },
+        { id: 'certainty', title: 'Certainty and the Arbitrary', status: 'soon', summary: 'The arbitrary as neither true nor false, and certainty as contextual.' },
       ],
     },
     {
       id: 'human-nature',
       title: 'Human Nature',
       accent: 'gold',
-      opar: 'OPAR chapter 6',
       summary: 'What kind of organism a human being is, once metaphysics and epistemology are in place.',
       file: null,
       units: [
@@ -924,7 +917,6 @@ const catalog = {
       id: 'ethics',
       title: 'Ethics',
       accent: 'copper',
-      opar: 'OPAR chapters 7–9',
       summary: 'The code that guides choices, once you know what you are and how you know.',
       file: null,
       units: [
@@ -940,7 +932,6 @@ const catalog = {
       id: 'politics',
       title: 'Politics',
       accent: 'gold',
-      opar: 'OPAR chapters 10–11',
       summary: 'The social principles that follow when each person is an end in himself.',
       file: null,
       units: [
@@ -954,7 +945,6 @@ const catalog = {
       id: 'aesthetics',
       title: 'Aesthetics',
       accent: 'copper',
-      opar: 'OPAR chapter 12',
       summary: 'Art as a need of a conceptual consciousness, and the standards for judging it.',
       file: null,
       units: [
@@ -968,7 +958,6 @@ const catalog = {
       id: 'integration',
       title: 'Integration',
       accent: 'gold',
-      opar: 'OPAR epilogue',
       summary: 'The philosophy as one whole, and what it asks of a life.',
       file: null,
       units: [
@@ -999,7 +988,7 @@ for (const item of registry) {
 const lines = [];
 lines.push('# Sources');
 lines.push('');
-lines.push('Atlas Ladder quotes only short passages, for study and criticism. Each quotation below is copied as a contiguous wording checked against the Ayn Rand Lexicon (aynrandlexicon.com) or, where noted, against a published excerpt of Leonard Peikoff’s *Objectivism: The Philosophy of Ayn Rand*. If a line is an excerpt from a longer sentence, the entry says so.');
+lines.push('Atlas Ladder quotes only short passages, for study and criticism. Each quotation below is copied as a contiguous wording checked against the Ayn Rand Lexicon (aynrandlexicon.com). If a line is an excerpt from a longer sentence, the entry says so. A few lines are from essays published with Rand’s epistemological work, or from The Ominous Parallels, and the citation names that source.');
 lines.push('');
 lines.push('Page numbers for Galt’s speech follow *For the New Intellectual*, the pagination the Lexicon uses. The speech was written for *Atlas Shrugged* and is reprinted there.');
 lines.push('');

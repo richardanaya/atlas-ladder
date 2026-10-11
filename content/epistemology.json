@@ -941,7 +941,7 @@
           "answer": "use",
           "feedback": {
             "kind": "paraphrase",
-            "note": "Our wording of the trap: you cannot claim the senses are invalid without relying on sensory evidence to make and check the claim. Galt’s version is the sentence quoted on this floor that begins Let the witch doctor. The OPAR section title says the senses are necessarily valid. That title is not a sentence of Rand’s quoted here.",
+            "note": "Our wording of the trap: you cannot claim the senses are invalid without relying on sensory evidence to make and check the claim. Galt’s version is the sentence quoted on this floor that begins Let the witch doctor.",
             "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 155"
           },
           "choices": [
@@ -1022,7 +1022,7 @@
         {
           "id": "e4e8",
           "type": "choice",
-          "prompt": "OPAR’s next built topic after the validity of the senses, on this ladder, is:",
+          "prompt": "The next epistemology topic on this ladder, after the validity of the senses, is:",
           "answer": "cf",
           "feedback": {
             "kind": "paraphrase",
@@ -1262,7 +1262,7 @@
           "feedback": {
             "kind": "quote",
             "quote": "A philosophic system is an integrated view of existence.",
-            "note": "The lecture’s point, which Peikoff quotes at the start of OPAR, is that you need that integration whether or not you build it deliberately. This floor only asks for the definition.",
+            "note": "The sentence defines a philosophic system as one view, not a pile of tips. This floor only asks for that definition.",
             "citation": "Ayn Rand, \"Philosophy: Who Needs It,\" Philosophy: Who Needs It, 5"
           },
           "choices": [
