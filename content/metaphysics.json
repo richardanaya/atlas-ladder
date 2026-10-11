@@ -1,0 +1,1599 @@
+{
+  "id": "metaphysics",
+  "lessons": {
+    "axioms/where-it-starts": {
+      "exercises": [
+        {
+          "id": "m1e1",
+          "type": "choice",
+          "prompt": "What name did Ayn Rand choose for her philosophy?",
+          "answer": "o",
+          "feedback": {
+            "kind": "quote",
+            "quote": "The name I have chosen for my philosophy is Objectivism.",
+            "note": "She states the name at the opening of that preface.",
+            "citation": "Ayn Rand, \"Preface,\" For the New Intellectual, viii"
+          },
+          "choices": [
+            {
+              "id": "o",
+              "text": "Objectivism"
+            },
+            {
+              "id": "e",
+              "text": "Existentialism"
+            },
+            {
+              "id": "p",
+              "text": "Pragmatism"
+            },
+            {
+              "id": "l",
+              "text": "Logical positivism"
+            }
+          ]
+        },
+        {
+          "id": "m1e2",
+          "type": "quote",
+          "prompt": "Which work is the citation for this sentence?",
+          "quote": "The name I have chosen for my philosophy is Objectivism.",
+          "answer": "pre",
+          "choices": [
+            {
+              "id": "pre",
+              "text": "For the New Intellectual, Preface"
+            },
+            {
+              "id": "fh",
+              "text": "The Fountainhead"
+            },
+            {
+              "id": "an",
+              "text": "Anthem"
+            },
+            {
+              "id": "rm",
+              "text": "The Romantic Manifesto"
+            }
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "The name I have chosen for my philosophy is Objectivism.",
+            "note": "The sentence is the preface’s statement of the name, not a line from the novels.",
+            "citation": "Ayn Rand, \"Preface,\" For the New Intellectual, viii"
+          }
+        },
+        {
+          "id": "m1e3",
+          "type": "choice",
+          "prompt": "In the 1962 “on one foot” summary, what does she put beside Metaphysics?",
+          "answer": "or",
+          "feedback": {
+            "kind": "quote",
+            "quote": "1. Metaphysics: Objective Reality\n2. Epistemology: Reason\n3. Ethics: Self-interest\n4. Politics: Capitalism",
+            "note": "Those four labels are the whole of the one-foot list. Esthetics is not in it.",
+            "citation": "Ayn Rand, \"Introducing Objectivism,\" The Objectivist Newsletter, August 1962, 35"
+          },
+          "choices": [
+            {
+              "id": "or",
+              "text": "Objective Reality"
+            },
+            {
+              "id": "rs",
+              "text": "Rational self-interest"
+            },
+            {
+              "id": "cap",
+              "text": "Laissez-faire capitalism"
+            },
+            {
+              "id": "rr",
+              "text": "Romantic Realism"
+            }
+          ]
+        },
+        {
+          "id": "m1e4",
+          "type": "match",
+          "prompt": "Match each branch to its one-foot label.",
+          "feedback": {
+            "kind": "quote",
+            "quote": "1. Metaphysics: Objective Reality\n2. Epistemology: Reason\n3. Ethics: Self-interest\n4. Politics: Capitalism",
+            "note": "Keep the four pairings in that order. The summary stops at politics.",
+            "citation": "Ayn Rand, \"Introducing Objectivism,\" The Objectivist Newsletter, August 1962, 35"
+          },
+          "pairs": [
+            {
+              "id": "meta",
+              "left": "Metaphysics",
+              "right": "Objective Reality"
+            },
+            {
+              "id": "epi",
+              "left": "Epistemology",
+              "right": "Reason"
+            },
+            {
+              "id": "eth",
+              "left": "Ethics",
+              "right": "Self-interest"
+            },
+            {
+              "id": "pol",
+              "left": "Politics",
+              "right": "Capitalism"
+            }
+          ]
+        },
+        {
+          "id": "m1e5",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the one-foot line for metaphysics.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Metaphysics: "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "Objective"
+            },
+            {
+              "type": "text",
+              "text": " Reality"
+            }
+          ],
+          "bank": [
+            "Objective",
+            "Subjective",
+            "Collective",
+            "Divine"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "1. Metaphysics: Objective Reality\n2. Epistemology: Reason\n3. Ethics: Self-interest\n4. Politics: Capitalism",
+            "note": "The word she uses is Objective, not a social or supernatural substitute.",
+            "citation": "Ayn Rand, \"Introducing Objectivism,\" The Objectivist Newsletter, August 1962, 35"
+          }
+        },
+        {
+          "id": "m1e6",
+          "type": "choice",
+          "prompt": "Peikoff says Objectivism consists of how many branches?",
+          "answer": "5",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Philosophy, according to Objectivism, consists of five branches.",
+            "note": "The 1962 one-foot list names four. OPAR presents five, adding esthetics. Both statements are in the record. They are not the same list.",
+            "citation": "Leonard Peikoff, Objectivism: The Philosophy of Ayn Rand, chapter 1, \"Reality\""
+          },
+          "choices": [
+            {
+              "id": "5",
+              "text": "Five"
+            },
+            {
+              "id": "4",
+              "text": "Four"
+            },
+            {
+              "id": "3",
+              "text": "Three"
+            },
+            {
+              "id": "7",
+              "text": "Seven"
+            }
+          ]
+        },
+        {
+          "id": "m1e7",
+          "type": "choice",
+          "prompt": "Which are the first and primary axiomatic concepts?",
+          "answer": "eic",
+          "feedback": {
+            "kind": "quote",
+            "quote": "The first and primary axiomatic concepts are \"existence,\" \"identity\" (which is a corollary of \"existence\") and \"consciousness.\"",
+            "note": "Identity is named as a corollary of existence, not as a separate kind of stuff.",
+            "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+          },
+          "choices": [
+            {
+              "id": "eic",
+              "text": "Existence, identity, and consciousness"
+            },
+            {
+              "id": "mbs",
+              "text": "Mind, body, and spirit"
+            },
+            {
+              "id": "tas",
+              "text": "Thesis, antithesis, and synthesis"
+            },
+            {
+              "id": "fhc",
+              "text": "Faith, hope, and charity"
+            }
+          ]
+        },
+        {
+          "id": "m1e8",
+          "type": "match",
+          "prompt": "Match each formula to the axiom it states.",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Existence exists—Consciousness is conscious—A is A.",
+            "note": "Rand says axiomatic concepts can be stated only in that repetitive form.",
+            "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+          },
+          "pairs": [
+            {
+              "id": "ex",
+              "left": "Existence exists",
+              "right": "Existence"
+            },
+            {
+              "id": "aa",
+              "left": "A is A",
+              "right": "Identity"
+            },
+            {
+              "id": "cc",
+              "left": "Consciousness is conscious",
+              "right": "Consciousness"
+            }
+          ]
+        },
+        {
+          "id": "m1e9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the three formulas in the order Rand lists them.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Existence exists"
+            },
+            {
+              "id": "t2",
+              "text": "Consciousness is conscious"
+            },
+            {
+              "id": "t3",
+              "text": "A is A"
+            },
+            {
+              "id": "d1",
+              "text": "Wishing won't"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Existence exists—Consciousness is conscious—A is A.",
+            "note": "The order in that sentence is existence, then consciousness, then identity.",
+            "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+          }
+        },
+        {
+          "id": "m1e10",
+          "type": "choice",
+          "prompt": "On Rand’s account, an axiom defeats its opponents because they must do what?",
+          "answer": "use",
+          "feedback": {
+            "kind": "quote",
+            "quote": "An axiom is a proposition that defeats its opponents by the fact that they have to accept it and use it in the process of any attempt to deny it.",
+            "note": "Denial is still an act of consciousness about something that exists.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 155"
+          },
+          "choices": [
+            {
+              "id": "use",
+              "text": "Accept it and use it in any attempt to deny it"
+            },
+            {
+              "id": "vote",
+              "text": "Wait until a majority accepts it"
+            },
+            {
+              "id": "pref",
+              "text": "Treat it as an arbitrary preference"
+            },
+            {
+              "id": "exp",
+              "text": "Leave it to experts"
+            }
+          ]
+        }
+      ]
+    },
+    "axioms/existence-exists": {
+      "exercises": [
+        {
+          "id": "m2e1",
+          "type": "choice",
+          "prompt": "In this philosophy, what does “Existence exists” rule in?",
+          "answer": "is",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Existence exists—and the act of grasping that statement implies two corollary axioms: that something exists which one perceives and that one exists possessing consciousness, consciousness being the faculty of perceiving that which exists.",
+            "note": "The sentence starts from the fact that something is, and then names what grasping that fact already uses.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+          },
+          "choices": [
+            {
+              "id": "is",
+              "text": "There is something. Reality is."
+            },
+            {
+              "id": "idea",
+              "text": "Only ideas exist"
+            },
+            {
+              "id": "conv",
+              "text": "Existence is a linguistic convention"
+            },
+            {
+              "id": "perc",
+              "text": "Reality exists only while it is perceived"
+            }
+          ]
+        },
+        {
+          "id": "m2e2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the axiom.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Existence "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "exists"
+            }
+          ],
+          "bank": [
+            "exists",
+            "wishes",
+            "depends",
+            "votes"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Existence exists—Consciousness is conscious—A is A.",
+            "note": "The first formula is two words: Existence exists.",
+            "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+          }
+        },
+        {
+          "id": "m2e3",
+          "type": "quote",
+          "prompt": "The Lexicon cites this opening from Galt’s speech in which book?",
+          "quote": "Existence exists—and the act of grasping that statement implies two corollary axioms: that something exists which one perceives and that one exists possessing consciousness, consciousness being the faculty of perceiving that which exists.",
+          "answer": "ftni",
+          "choices": [
+            {
+              "id": "ftni",
+              "text": "For the New Intellectual (Galt's speech, from Atlas Shrugged)"
+            },
+            {
+              "id": "fh",
+              "text": "The Fountainhead"
+            },
+            {
+              "id": "an",
+              "text": "Anthem"
+            },
+            {
+              "id": "wl",
+              "text": "We the Living"
+            }
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Existence exists—and the act of grasping that statement implies two corollary axioms: that something exists which one perceives and that one exists possessing consciousness, consciousness being the faculty of perceiving that which exists.",
+            "note": "The speech was written for Atlas Shrugged and is reprinted in For the New Intellectual. The page number used here is from that reprint.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+          }
+        },
+        {
+          "id": "m2e4",
+          "type": "choice",
+          "prompt": "What does Rand say about a consciousness with nothing to be conscious of?",
+          "answer": "con",
+          "feedback": {
+            "kind": "quote",
+            "quote": "A consciousness with nothing to be conscious of is a contradiction in terms.",
+            "note": "Awareness with no object is not a special case of awareness. The concept cancels itself.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+          },
+          "choices": [
+            {
+              "id": "con",
+              "text": "It is a contradiction in terms"
+            },
+            {
+              "id": "ok",
+              "text": "It is the primary axiom"
+            },
+            {
+              "id": "goal",
+              "text": "It is the goal of knowledge"
+            },
+            {
+              "id": "fine",
+              "text": "It is a higher form of awareness"
+            }
+          ]
+        },
+        {
+          "id": "m2e5",
+          "type": "choice",
+          "prompt": "Peikoff calls existence which of these?",
+          "answer": "pri",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Existence is a self-sufficient primary.",
+            "note": "He adds that there is nothing antecedent to existence and no alternative to it. That further sentence is his, in the same essay. The line above is the one to hold.",
+            "citation": "Leonard Peikoff, \"The Analytic-Synthetic Dichotomy,\" Introduction to Objectivist Epistemology, 109"
+          },
+          "choices": [
+            {
+              "id": "pri",
+              "text": "A self-sufficient primary"
+            },
+            {
+              "id": "sup",
+              "text": "A product of a supernatural dimension"
+            },
+            {
+              "id": "word",
+              "text": "A convention of language"
+            },
+            {
+              "id": "add",
+              "text": "An attribute added to things later"
+            }
+          ]
+        },
+        {
+          "id": "m2e6",
+          "type": "match",
+          "prompt": "Match the item to the description used in these texts.",
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Three different lines are being matched, so this banner is a paraphrase rather than one quotation. Peikoff calls existence a self-sufficient primary. Galt calls consciousness the faculty of perceiving that which exists. Rand calls identity a corollary of existence. Each of those wordings is quoted on its own floor.",
+            "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+          },
+          "pairs": [
+            {
+              "id": "ex",
+              "left": "Existence",
+              "right": "A self-sufficient primary"
+            },
+            {
+              "id": "co",
+              "left": "Consciousness",
+              "right": "The faculty of perceiving that which exists"
+            },
+            {
+              "id": "id",
+              "left": "Identity",
+              "right": "A corollary of existence"
+            }
+          ]
+        },
+        {
+          "id": "m2e7",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build Peikoff’s sentence.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Existence"
+            },
+            {
+              "id": "t2",
+              "text": "is"
+            },
+            {
+              "id": "t3",
+              "text": "a"
+            },
+            {
+              "id": "t4",
+              "text": "self-sufficient"
+            },
+            {
+              "id": "t5",
+              "text": "primary"
+            },
+            {
+              "id": "d1",
+              "text": "derivative"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Existence is a self-sufficient primary.",
+            "note": "Nothing in that sentence makes existence a product of something prior.",
+            "citation": "Leonard Peikoff, \"The Analytic-Synthetic Dichotomy,\" Introduction to Objectivist Epistemology, 109"
+          }
+        },
+        {
+          "id": "m2e8",
+          "type": "choice",
+          "prompt": "Why does this philosophy refuse the demand to prove that existence exists from outside existence?",
+          "answer": "pre",
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Galt’s answer is that the demand asks you to prove existence by means of non-existence, and consciousness by means of unconsciousness. The wording here is ours. His statement of what an axiom is, and of the two corollaries, is quoted in the other questions of this floor.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 155"
+          },
+          "choices": [
+            {
+              "id": "pre",
+              "text": "Any proof already uses something that exists and a consciousness aware of it"
+            },
+            {
+              "id": "ban",
+              "text": "Textbooks forbid the proof"
+            },
+            {
+              "id": "mys",
+              "text": "Only mystics are allowed to prove axioms"
+            },
+            {
+              "id": "fic",
+              "text": "Existence is a useful fiction"
+            }
+          ]
+        },
+        {
+          "id": "m2e9",
+          "type": "choice",
+          "prompt": "In the one-foot summary, which plain-language line does she attach to metaphysics?",
+          "answer": "w",
+          "feedback": {
+            "kind": "quote",
+            "quote": "1. \"Nature, to be commanded, must be obeyed\" or \"Wishing won't make it so.\"\n2. \"You can't eat your cake and have it, too.\"\n3. \"Man is an end in himself.\"\n4. \"Give me liberty or give me death.\"",
+            "note": "She also offers Francis Bacon’s “Nature, to be commanded, must be obeyed” for the same branch. Item 2 is her plain language for epistemology, item 3 for ethics, item 4 for politics. The Bacon and Henry lines are familiar sayings she uses, not sentences she originated.",
+            "citation": "Ayn Rand, \"Introducing Objectivism,\" The Objectivist Newsletter, August 1962, 35"
+          },
+          "choices": [
+            {
+              "id": "w",
+              "text": "Wishing won't make it so."
+            },
+            {
+              "id": "e",
+              "text": "Man is an end in himself."
+            },
+            {
+              "id": "l",
+              "text": "Give me liberty or give me death."
+            },
+            {
+              "id": "c",
+              "text": "You can't eat your cake and have it, too."
+            }
+          ]
+        },
+        {
+          "id": "m2e10",
+          "type": "choice",
+          "prompt": "“Reality exists as an objective absolute” means facts are independent of what?",
+          "answer": "f",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Reality exists as an objective absolute—facts are facts, independent of man's feelings, wishes, hopes or fears.",
+            "note": "That is her first numbered statement of Objectivism in the same essay as the one-foot list.",
+            "citation": "Ayn Rand, \"Introducing Objectivism,\" The Objectivist Newsletter, August 1962, 35"
+          },
+          "choices": [
+            {
+              "id": "f",
+              "text": "Man's feelings, wishes, hopes or fears"
+            },
+            {
+              "id": "l",
+              "text": "The law of identity"
+            },
+            {
+              "id": "m",
+              "text": "Measurement"
+            },
+            {
+              "id": "c",
+              "text": "Causality"
+            }
+          ]
+        }
+      ]
+    },
+    "axioms/identity": {
+      "exercises": [
+        {
+          "id": "m3e1",
+          "type": "choice",
+          "prompt": "On Rand’s statement, to exist is to what?",
+          "answer": "some",
+          "feedback": {
+            "kind": "quote",
+            "quote": "To exist is to be something, as distinguished from the nothing of nonexistence, it is to be an entity of a specific nature made of specific attributes.",
+            "note": "Existence and identity are not two layers, a bare “that” plus a later “what.”",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+          },
+          "choices": [
+            {
+              "id": "some",
+              "text": "Be something, of a specific nature"
+            },
+            {
+              "id": "any",
+              "text": "Be anything one wishes"
+            },
+            {
+              "id": "void",
+              "text": "Be a formless void"
+            },
+            {
+              "id": "thot",
+              "text": "Be only a thought"
+            }
+          ]
+        },
+        {
+          "id": "m3e2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the formula.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "A is "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "A"
+            }
+          ],
+          "bank": [
+            "A",
+            "B",
+            "not-A",
+            "whatever"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "A is A. A thing is itself.",
+            "note": "The second sentence is her plain restatement of the same formula.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 125"
+          }
+        },
+        {
+          "id": "m3e3",
+          "type": "quote",
+          "prompt": "Where does the Lexicon cite “A is A. A thing is itself.”?",
+          "quote": "A is A. A thing is itself.",
+          "answer": "ftni",
+          "choices": [
+            {
+              "id": "ftni",
+              "text": "For the New Intellectual (Galt's speech, from Atlas Shrugged)"
+            },
+            {
+              "id": "fh",
+              "text": "The Fountainhead"
+            },
+            {
+              "id": "pwni",
+              "text": "Philosophy: Who Needs It"
+            },
+            {
+              "id": "rm",
+              "text": "The Romantic Manifesto"
+            }
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "A is A. A thing is itself.",
+            "note": "She attributes the formula’s ancestry to Aristotle and says she is completing it. The completion is the next question.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 125"
+          }
+        },
+        {
+          "id": "m3e4",
+          "type": "choice",
+          "prompt": "Which situation does she use to state the law of identity?",
+          "answer": "leaf",
+          "feedback": {
+            "kind": "quote",
+            "quote": "A leaf cannot be a stone at the same time, it cannot be all red and all green at the same time, it cannot freeze and burn at the same time.",
+            "note": "The law rules out being and not-being in the same respect at the same time. Change across time is a different fact. She discusses change elsewhere. This question uses only the leaf sentence.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 125"
+          },
+          "choices": [
+            {
+              "id": "leaf",
+              "text": "A leaf cannot be a stone at the same time"
+            },
+            {
+              "id": "grow",
+              "text": "A leaf cannot change color over a season"
+            },
+            {
+              "id": "side",
+              "text": "A leaf cannot be green on one side"
+            },
+            {
+              "id": "two",
+              "text": "There cannot be two leaves"
+            }
+          ]
+        },
+        {
+          "id": "m3e5",
+          "type": "match",
+          "prompt": "Match the line to the role she gives it.",
+          "feedback": {
+            "kind": "quote",
+            "quote": "You cannot have your cake and eat it, too.",
+            "note": "In Galt’s speech that sentence is the simpler statement of identity. Do not confuse it with the one-foot line for epistemology in the 1962 essay, which reverses the word order: eat your cake and have it. Both wordings are quoted in the sources list.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 125"
+          },
+          "pairs": [
+            {
+              "id": "aa",
+              "left": "A is A",
+              "right": "The law of identity"
+            },
+            {
+              "id": "ei",
+              "left": "Existence is Identity",
+              "right": "Her completion of A is A"
+            },
+            {
+              "id": "th",
+              "left": "A thing is itself",
+              "right": "The plain restatement"
+            },
+            {
+              "id": "ck",
+              "left": "You cannot have your cake and eat it, too",
+              "right": "Her simpler wording in Galt’s speech"
+            }
+          ]
+        },
+        {
+          "id": "m3e6",
+          "type": "choice",
+          "prompt": "“Existence is Identity” means which of these?",
+          "answer": "is",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Existence is Identity, Consciousness is Identification.",
+            "note": "The second half names consciousness as the act of identifying, not as the maker of identity.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+          },
+          "choices": [
+            {
+              "id": "is",
+              "text": "To be is to be something specific"
+            },
+            {
+              "id": "feel",
+              "text": "Existence is a feeling about identity"
+            },
+            {
+              "id": "lang",
+              "text": "Identity is invented by language, and existence is not"
+            },
+            {
+              "id": "mind",
+              "text": "Only minds have identity"
+            }
+          ]
+        },
+        {
+          "id": "m3e7",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the completion of the formula.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Existence"
+            },
+            {
+              "id": "t2",
+              "text": "is"
+            },
+            {
+              "id": "t3",
+              "text": "Identity"
+            },
+            {
+              "id": "d1",
+              "text": "Wish"
+            },
+            {
+              "id": "d2",
+              "text": "Society"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Existence is Identity, Consciousness is Identification.",
+            "note": "This floor stops at the first half. Consciousness is the next floor.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+          }
+        },
+        {
+          "id": "m3e8",
+          "type": "choice",
+          "prompt": "When your thinking arrives at a contradiction, where is the error?",
+          "answer": "err",
+          "feedback": {
+            "kind": "quote",
+            "quote": "To arrive at a contradiction is to confess an error in one's thinking; to maintain a contradiction is to abdicate one's mind and to evict oneself from the realm of reality.",
+            "note": "The error the sentence names is in one’s thinking. Maintaining it, she says in the same breath, throws you out of reality. Reality is not what contains the break.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 125"
+          },
+          "choices": [
+            {
+              "id": "err",
+              "text": "Reality contains no contradictions. A contradiction is an error in thinking."
+            },
+            {
+              "id": "real",
+              "text": "Contradictions are real features of nature"
+            },
+            {
+              "id": "game",
+              "text": "Logic is a game unrelated to facts"
+            },
+            {
+              "id": "both",
+              "text": "Some entities both are and are not, in the same respect"
+            }
+          ]
+        },
+        {
+          "id": "m3e9",
+          "type": "choice",
+          "prompt": "In Introduction to Objectivist Epistemology, identity is described as what?",
+          "answer": "cor",
+          "feedback": {
+            "kind": "quote",
+            "quote": "The first and primary axiomatic concepts are \"existence,\" \"identity\" (which is a corollary of \"existence\") and \"consciousness.\"",
+            "note": "A corollary here means a restatement of the same primary fact, not a later discovery.",
+            "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+          },
+          "choices": [
+            {
+              "id": "cor",
+              "text": "A corollary of existence"
+            },
+            {
+              "id": "uni",
+              "text": "A separate universe"
+            },
+            {
+              "id": "opt",
+              "text": "An optional assumption"
+            },
+            {
+              "id": "pol",
+              "text": "A political slogan"
+            }
+          ]
+        },
+        {
+          "id": "m3e10",
+          "type": "quote",
+          "prompt": "In Galt’s speech, this simpler line states the law of identity. Which citation fits?",
+          "quote": "You cannot have your cake and eat it, too.",
+          "answer": "ftni",
+          "choices": [
+            {
+              "id": "ftni",
+              "text": "For the New Intellectual (Galt's speech, from Atlas Shrugged)"
+            },
+            {
+              "id": "ton",
+              "text": "The Objectivist Newsletter, as the epistemology slogan"
+            },
+            {
+              "id": "fh",
+              "text": "The Fountainhead"
+            },
+            {
+              "id": "an",
+              "text": "Anthem"
+            }
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "You cannot have your cake and eat it, too.",
+            "note": "The newsletter’s epistemology slogan reverses the order: eat your cake and have it. This question uses the Galt wording, with have before eat. Both are quoted in the sources list.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 125"
+          }
+        }
+      ]
+    },
+    "axioms/consciousness": {
+      "exercises": [
+        {
+          "id": "m4e1",
+          "type": "choice",
+          "prompt": "Which definition does Rand give?",
+          "answer": "fac",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Consciousness is the faculty of awareness—the faculty of perceiving that which exists.",
+            "note": "Perception here is of what exists. The definition does not say consciousness produces its object.",
+            "citation": "Ayn Rand, \"Concepts of Consciousness,\" Introduction to Objectivist Epistemology, 37"
+          },
+          "choices": [
+            {
+              "id": "fac",
+              "text": "The faculty of awareness: the faculty of perceiving that which exists"
+            },
+            {
+              "id": "cre",
+              "text": "The creator of existence"
+            },
+            {
+              "id": "soc",
+              "text": "A social agreement"
+            },
+            {
+              "id": "ill",
+              "text": "An illusion produced by language"
+            }
+          ]
+        },
+        {
+          "id": "m4e2",
+          "type": "quote",
+          "prompt": "Which work contains this definition?",
+          "quote": "Consciousness is the faculty of awareness—the faculty of perceiving that which exists.",
+          "answer": "itoe",
+          "choices": [
+            {
+              "id": "itoe",
+              "text": "Introduction to Objectivist Epistemology, “Concepts of Consciousness”"
+            },
+            {
+              "id": "fh",
+              "text": "The Fountainhead"
+            },
+            {
+              "id": "an",
+              "text": "Anthem"
+            },
+            {
+              "id": "wl",
+              "text": "We the Living"
+            }
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Consciousness is the faculty of awareness—the faculty of perceiving that which exists.",
+            "note": "Galt also calls consciousness the faculty of perceiving that which exists. This full sentence, which adds faculty of awareness, is the ITOE wording.",
+            "citation": "Ayn Rand, \"Concepts of Consciousness,\" Introduction to Objectivist Epistemology, 37"
+          }
+        },
+        {
+          "id": "m4e3",
+          "type": "choice",
+          "prompt": "A consciousness conscious of nothing but itself is, in Galt’s speech:",
+          "answer": "con",
+          "feedback": {
+            "kind": "quote",
+            "quote": "A consciousness conscious of nothing but itself is a contradiction in terms.",
+            "note": "Before it could identify itself as consciousness, it had to be conscious of something. That next clause is in the same paragraph.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+          },
+          "choices": [
+            {
+              "id": "con",
+              "text": "A contradiction in terms"
+            },
+            {
+              "id": "ax",
+              "text": "The primary axiom"
+            },
+            {
+              "id": "goal",
+              "text": "The goal of introspection"
+            },
+            {
+              "id": "pri",
+              "text": "The primacy of existence"
+            }
+          ]
+        },
+        {
+          "id": "m4e4",
+          "type": "choice",
+          "prompt": "“Awareness is awareness of something” is there to rule out which idea?",
+          "answer": "none",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Awareness is awareness of something.",
+            "note": "In the same essay she says a content-less state of consciousness is a contradiction in terms. This question uses the shorter sentence as the one to remember.",
+            "citation": "Ayn Rand, \"Concepts of Consciousness,\" Introduction to Objectivist Epistemology, 37"
+          },
+          "choices": [
+            {
+              "id": "none",
+              "text": "A contentless state of consciousness"
+            },
+            {
+              "id": "ext",
+              "text": "Awareness of an external world"
+            },
+            {
+              "id": "act",
+              "text": "Awareness as an active process"
+            },
+            {
+              "id": "man",
+              "text": "Human awareness in particular"
+            }
+          ]
+        },
+        {
+          "id": "m4e5",
+          "type": "match",
+          "prompt": "Match the formula to the job it does.",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Existence is Identity, Consciousness is Identification.",
+            "note": "The four lines are two pairs: the repetitive axioms, and her completion of them.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+          },
+          "pairs": [
+            {
+              "id": "ex",
+              "left": "Existence exists",
+              "right": "Something is"
+            },
+            {
+              "id": "cc",
+              "left": "Consciousness is conscious",
+              "right": "Awareness is awareness"
+            },
+            {
+              "id": "aa",
+              "left": "A is A",
+              "right": "What is, is what it is"
+            },
+            {
+              "id": "ci",
+              "left": "Consciousness is Identification",
+              "right": "Awareness identifies what exists"
+            }
+          ]
+        },
+        {
+          "id": "m4e6",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the formula.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Existence is Identity, Consciousness is "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "Identification"
+            }
+          ],
+          "bank": [
+            "Identification",
+            "Creation",
+            "Whim",
+            "Neutrality"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Existence is Identity, Consciousness is Identification.",
+            "note": "Identification is the act. It is not a license to decide what the object is.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+          }
+        },
+        {
+          "id": "m4e7",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Awareness"
+            },
+            {
+              "id": "t2",
+              "text": "is"
+            },
+            {
+              "id": "t3",
+              "text": "awareness"
+            },
+            {
+              "id": "t4",
+              "text": "of"
+            },
+            {
+              "id": "t5",
+              "text": "something"
+            },
+            {
+              "id": "d1",
+              "text": "nothing"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Awareness is awareness of something.",
+            "note": "The word “something” is the whole point of the sentence.",
+            "citation": "Ayn Rand, \"Concepts of Consciousness,\" Introduction to Objectivist Epistemology, 37"
+          }
+        },
+        {
+          "id": "m4e8",
+          "type": "choice",
+          "prompt": "Grasping the statement that existence exists implies two corollary axioms. They are:",
+          "answer": "two",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Existence exists—and the act of grasping that statement implies two corollary axioms: that something exists which one perceives and that one exists possessing consciousness, consciousness being the faculty of perceiving that which exists.",
+            "note": "The two corollaries are inside the act of grasping the first axiom. They are not extra assumptions added later.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+          },
+          "choices": [
+            {
+              "id": "two",
+              "text": "Something exists which one perceives, and one exists possessing consciousness"
+            },
+            {
+              "id": "soc",
+              "text": "Society exists, and the state is sovereign"
+            },
+            {
+              "id": "god",
+              "text": "God exists, and faith is knowledge"
+            },
+            {
+              "id": "mat",
+              "text": "Matter exists, and mind does not"
+            }
+          ]
+        },
+        {
+          "id": "m4e9",
+          "type": "choice",
+          "prompt": "On the conceptual level, Rand says the process of awareness is:",
+          "answer": "vol",
+          "feedback": {
+            "kind": "quote",
+            "quote": "On the higher, conceptual level, the process is psychological, conscious and volitional.",
+            "note": "She contrasts this with the perceptual level, which she says is automatic and non-volitional. Volition as a full topic is a later floor.",
+            "citation": "Ayn Rand, \"Concepts of Consciousness,\" Introduction to Objectivist Epistemology, 37"
+          },
+          "choices": [
+            {
+              "id": "vol",
+              "text": "Psychological, conscious, and volitional"
+            },
+            {
+              "id": "auto",
+              "text": "Automatic and infallible"
+            },
+            {
+              "id": "tribe",
+              "text": "Dictated by the tribe"
+            },
+            {
+              "id": "imp",
+              "text": "Impossible"
+            }
+          ]
+        },
+        {
+          "id": "m4e10",
+          "type": "choice",
+          "prompt": "Which line is a fair reading of why you cannot stand outside existence and consciousness to prove them?",
+          "answer": "act",
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "This is our compression of Galt’s challenge to the person who demands that the axioms be proved from outside them. His image is a zero gaining knowledge about a zero. We are not quoting that image here.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 155"
+          },
+          "choices": [
+            {
+              "id": "act",
+              "text": "The proof would already be an act of consciousness about something that exists"
+            },
+            {
+              "id": "book",
+              "text": "Because a sacred text has not authorized it"
+            },
+            {
+              "id": "exp",
+              "text": "Because only specialists perceive axioms"
+            },
+            {
+              "id": "fic",
+              "text": "Because existence is a useful fiction"
+            }
+          ]
+        }
+      ]
+    },
+    "axioms/three-together": {
+      "exercises": [
+        {
+          "id": "m5e1",
+          "type": "choice",
+          "prompt": "Which trio is the one Rand states?",
+          "answer": "ok",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Existence exists—Consciousness is conscious—A is A.",
+            "note": "Hold them as one set. Each names a fact the others already use.",
+            "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+          },
+          "choices": [
+            {
+              "id": "ok",
+              "text": "Existence exists. Consciousness is conscious. A is A."
+            },
+            {
+              "id": "bad",
+              "text": "Existence depends. Consciousness creates. A is B."
+            },
+            {
+              "id": "no",
+              "text": "Nothing exists. Consciousness is empty. A is not-A."
+            },
+            {
+              "id": "txt",
+              "text": "Reality is a text. Consciousness is a byproduct. A is optional."
+            }
+          ]
+        },
+        {
+          "id": "m5e2",
+          "type": "match",
+          "prompt": "Match each axiom to the fact it names.",
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The match uses our labels for the three facts. The formulas themselves are Rand’s: Existence exists, A is A, Consciousness is conscious.",
+            "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+          },
+          "pairs": [
+            {
+              "id": "ex",
+              "left": "Existence",
+              "right": "Something is"
+            },
+            {
+              "id": "id",
+              "left": "Identity",
+              "right": "It is something specific"
+            },
+            {
+              "id": "co",
+              "left": "Consciousness",
+              "right": "You are aware of it"
+            }
+          ]
+        },
+        {
+          "id": "m5e3",
+          "type": "choice",
+          "prompt": "The only philosophical debt Rand says she can acknowledge is to whom?",
+          "answer": "ar",
+          "feedback": {
+            "kind": "quote",
+            "quote": "The only philosophical debt I can acknowledge is to Aristotle.",
+            "note": "She immediately says she disagrees with a great many parts of his system, and that his laws of logic and his account of the means of knowledge are the debt that matters. That next sentence is in the same note. This question asks only for the name.",
+            "citation": "Ayn Rand, \"About the Author,\" Atlas Shrugged"
+          },
+          "choices": [
+            {
+              "id": "ar",
+              "text": "Aristotle"
+            },
+            {
+              "id": "pl",
+              "text": "Plato"
+            },
+            {
+              "id": "ka",
+              "text": "Kant"
+            },
+            {
+              "id": "he",
+              "text": "Hegel"
+            }
+          ]
+        },
+        {
+          "id": "m5e4",
+          "type": "quote",
+          "prompt": "Which work contains “The only philosophical debt I can acknowledge is to Aristotle.”?",
+          "quote": "The only philosophical debt I can acknowledge is to Aristotle.",
+          "answer": "as",
+          "choices": [
+            {
+              "id": "as",
+              "text": "Atlas Shrugged, “About the Author”"
+            },
+            {
+              "id": "fh",
+              "text": "The Fountainhead"
+            },
+            {
+              "id": "an",
+              "text": "Anthem"
+            },
+            {
+              "id": "itoe",
+              "text": "Introduction to Objectivist Epistemology"
+            }
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "The only philosophical debt I can acknowledge is to Aristotle.",
+            "note": "It is in the author note at the end of Atlas Shrugged, the same note that states her philosophy in essence.",
+            "citation": "Ayn Rand, \"About the Author,\" Atlas Shrugged"
+          }
+        },
+        {
+          "id": "m5e5",
+          "type": "choice",
+          "prompt": "She defines logic as the art of what?",
+          "answer": "nc",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Logic is the art of non-contradictory identification.",
+            "note": "In the same passage she says logic rests on the axiom that existence exists, and that all thinking is a process of identification and integration.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 125"
+          },
+          "choices": [
+            {
+              "id": "nc",
+              "text": "Non-contradictory identification"
+            },
+            {
+              "id": "sc",
+              "text": "Social consensus"
+            },
+            {
+              "id": "in",
+              "text": "Innate ideas with no connection to percepts"
+            },
+            {
+              "id": "fa",
+              "text": "Faith"
+            }
+          ]
+        },
+        {
+          "id": "m5e6",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build her definition of logic.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Logic"
+            },
+            {
+              "id": "t2",
+              "text": "is"
+            },
+            {
+              "id": "t3",
+              "text": "the"
+            },
+            {
+              "id": "t4",
+              "text": "art"
+            },
+            {
+              "id": "t5",
+              "text": "of"
+            },
+            {
+              "id": "t6",
+              "text": "non-contradictory"
+            },
+            {
+              "id": "t7",
+              "text": "identification"
+            },
+            {
+              "id": "d1",
+              "text": "whim"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6",
+            "t7"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Logic is the art of non-contradictory identification.",
+            "note": "Every word is doing work. Non-contradictory names the standard. Identification names the goal.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 125"
+          }
+        },
+        {
+          "id": "m5e7",
+          "type": "choice",
+          "prompt": "Peikoff’s line on the function of consciousness is which of these?",
+          "answer": "app",
+          "feedback": {
+            "kind": "quote",
+            "quote": "The function of consciousness is not to create reality, but to apprehend it.",
+            "note": "That is the bridge to the next floor, primacy of existence, which is still being built. This question only asks you to hold the sentence.",
+            "citation": "Leonard Peikoff, The Ominous Parallels, 303"
+          },
+          "choices": [
+            {
+              "id": "app",
+              "text": "Not to create reality, but to apprehend it"
+            },
+            {
+              "id": "dec",
+              "text": "To decree what the facts are"
+            },
+            {
+              "id": "rep",
+              "text": "To replace identity"
+            },
+            {
+              "id": "opt",
+              "text": "Optional for knowledge"
+            }
+          ]
+        },
+        {
+          "id": "m5e8",
+          "type": "choice",
+          "prompt": "Galt says the law of causality is the law of identity applied to what?",
+          "answer": "act",
+          "feedback": {
+            "kind": "quote",
+            "quote": "The law of causality is the law of identity applied to action.",
+            "note": "Causality as its own floor comes later. The sentence already tells you the dependence: causality is not a break from identity.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 152"
+          },
+          "choices": [
+            {
+              "id": "act",
+              "text": "Action"
+            },
+            {
+              "id": "law",
+              "text": "Legislation"
+            },
+            {
+              "id": "mood",
+              "text": "Mood"
+            },
+            {
+              "id": "vote",
+              "text": "Voting"
+            }
+          ]
+        },
+        {
+          "id": "m5e9",
+          "type": "choice",
+          "prompt": "Which clause states the same point about action?",
+          "answer": "nat",
+          "feedback": {
+            "kind": "quote",
+            "quote": "The nature of an action is caused and determined by the nature of the entities that act; a thing cannot act in contradiction to its nature.",
+            "note": "The cause is the nature of the entities that act. The sentence does not say a free-floating event pushes them.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 152"
+          },
+          "choices": [
+            {
+              "id": "nat",
+              "text": "A thing cannot act in contradiction to its nature"
+            },
+            {
+              "id": "any",
+              "text": "A thing can act as any nature one prefers"
+            },
+            {
+              "id": "none",
+              "text": "Actions have no natures"
+            },
+            {
+              "id": "mind",
+              "text": "Only minds are causes"
+            }
+          ]
+        },
+        {
+          "id": "m5e10",
+          "type": "choice",
+          "prompt": "Which description of metaphysics matches Peikoff’s chapter opening?",
+          "answer": "uni",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Metaphysics is the branch of philosophy that studies the nature of the universe as a whole.",
+            "note": "He then assigns epistemology to chapters 2–5, the nature of man to chapter 6, ethics to chapters 7–9, politics to chapters 10 and 11, and esthetics to chapter 12. This ladder follows that order, with volition placed on the metaphysics side of the tower.",
+            "citation": "Leonard Peikoff, Objectivism: The Philosophy of Ayn Rand, chapter 1, \"Reality\""
+          },
+          "choices": [
+            {
+              "id": "uni",
+              "text": "The branch that studies the nature of the universe as a whole"
+            },
+            {
+              "id": "art",
+              "text": "The branch that studies esthetic judgment only"
+            },
+            {
+              "id": "law",
+              "text": "The branch that designs a constitution"
+            },
+            {
+              "id": "mood",
+              "text": "The branch that catalogs feelings"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

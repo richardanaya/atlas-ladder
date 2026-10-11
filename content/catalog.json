@@ -1,0 +1,316 @@
+{
+  "title": "Atlas Ladder",
+  "basedOn": "Leonard Peikoff, Objectivism: The Philosophy of Ayn Rand (OPAR), with Rand’s own formulations where a short quotation can be cited exactly.",
+  "sections": [
+    {
+      "id": "metaphysics",
+      "title": "Metaphysics",
+      "accent": "gold",
+      "opar": "OPAR chapter 1, plus volition from chapter 2",
+      "summary": "What exists, and what it is to exist. Volition, which OPAR treats beside sense perception, is the top floor of this section.",
+      "file": "metaphysics.json",
+      "units": [
+        {
+          "id": "axioms",
+          "title": "Existence, Identity, Consciousness",
+          "status": "ready",
+          "summary": "The three axioms and the formulas that state them.",
+          "lessons": [
+            {
+              "id": "where-it-starts",
+              "title": "Where philosophy starts",
+              "objective": "Name Objectivism, the one-foot branches, and the three axiomatic concepts."
+            },
+            {
+              "id": "existence-exists",
+              "title": "Existence exists",
+              "objective": "Hold the first axiom: something is, and it does not depend on a wish."
+            },
+            {
+              "id": "identity",
+              "title": "A is A",
+              "objective": "To exist is to be something. A contradiction is an error in thinking, not a feature of reality."
+            },
+            {
+              "id": "consciousness",
+              "title": "Consciousness",
+              "objective": "Consciousness perceives what exists. Awareness with no object cancels itself."
+            },
+            {
+              "id": "three-together",
+              "title": "One set of axioms",
+              "objective": "Hold the three formulas together, and see why causality and primacy come next."
+            }
+          ]
+        },
+        {
+          "id": "primacy",
+          "title": "Primacy of Existence",
+          "status": "soon",
+          "summary": "The universe exists independent of consciousness. Consciousness apprehends. It does not decree."
+        },
+        {
+          "id": "causality",
+          "title": "Causality as a Corollary of Identity",
+          "status": "soon",
+          "summary": "The law of causality as the law of identity applied to action. A fuller floor than the preview you just climbed."
+        },
+        {
+          "id": "given",
+          "title": "The Metaphysically Given",
+          "status": "soon",
+          "summary": "Facts that are, as against facts that human choice brings into existence. OPAR’s “metaphysically given as absolute.”"
+        },
+        {
+          "id": "volition",
+          "title": "Volition",
+          "status": "soon",
+          "summary": "The primary choice to focus or not, and volition as axiomatic. OPAR places this in chapter 2. This ladder puts it here, after the given."
+        }
+      ]
+    },
+    {
+      "id": "epistemology",
+      "title": "Epistemology",
+      "accent": "copper",
+      "opar": "OPAR chapters 2–5",
+      "summary": "How you know. This section starts with the senses. Volition is on the metaphysics ladder in this course.",
+      "file": "epistemology.json",
+      "units": [
+        {
+          "id": "senses",
+          "title": "The Senses as Necessarily Valid",
+          "status": "ready",
+          "summary": "The senses as your only direct contact, percepts as the given, and the stolen-concept trap in attacking them.",
+          "lessons": [
+            {
+              "id": "direct-contact",
+              "title": "The only direct contact",
+              "objective": "The senses provide the material. Reason integrates it. Emotions do not replace either."
+            },
+            {
+              "id": "percepts",
+              "title": "Percepts are the given",
+              "objective": "You are aware of entities, not of free-floating sensations stored one by one."
+            },
+            {
+              "id": "do-not-invent",
+              "title": "The senses do not invent",
+              "objective": "The organs have no volition to distort. The mind still has to identify what they give."
+            },
+            {
+              "id": "stolen-concept",
+              "title": "The stolen concept",
+              "objective": "An attack on the senses that uses sensory evidence has stolen its own base."
+            },
+            {
+              "id": "holding-it",
+              "title": "From percept to reason",
+              "objective": "Put the unit in one order: material, percept, identification, truth."
+            }
+          ]
+        },
+        {
+          "id": "concepts",
+          "title": "Concept-Formation and Measurement-Omission",
+          "status": "soon",
+          "summary": "Differentiation, integration, and concepts as a mathematical process of measurement-omission. OPAR chapter 3."
+        },
+        {
+          "id": "definitions",
+          "title": "Definitions and the Hierarchy",
+          "status": "soon",
+          "summary": "Definition as the last step of concept-formation, and concepts as a hierarchy rather than a pile."
+        },
+        {
+          "id": "objectivity",
+          "title": "Objectivity",
+          "status": "soon",
+          "summary": "Volitional adherence to reality by the method of logic. Knowledge as contextual and hierarchical. OPAR chapter 4."
+        },
+        {
+          "id": "reason-rivals",
+          "title": "Reason, Mysticism, and Skepticism",
+          "status": "soon",
+          "summary": "Reason as the only means of knowledge, and mysticism and skepticism as denials of it. OPAR chapter 5."
+        },
+        {
+          "id": "certainty",
+          "title": "Certainty and the Arbitrary",
+          "status": "soon",
+          "summary": "The arbitrary as neither true nor false, and certainty as contextual. OPAR chapter 5."
+        }
+      ]
+    },
+    {
+      "id": "human-nature",
+      "title": "Human Nature",
+      "accent": "gold",
+      "opar": "OPAR chapter 6",
+      "summary": "What kind of organism a human being is, once metaphysics and epistemology are in place.",
+      "file": null,
+      "units": [
+        {
+          "id": "rational-animal",
+          "title": "Man as a Rational Animal",
+          "status": "soon",
+          "summary": "Living organisms as goal-directed, and reason as the human means of survival."
+        },
+        {
+          "id": "mind-body",
+          "title": "Mind and Body",
+          "status": "soon",
+          "summary": "No war between a ghostly mind and a mechanical body. Reason is an attribute of the individual."
+        },
+        {
+          "id": "emotions",
+          "title": "Emotions as Products of Ideas",
+          "status": "soon",
+          "summary": "Emotions as consequences of value-judgments, not as tools that discover facts."
+        },
+        {
+          "id": "character",
+          "title": "Free Will and Character",
+          "status": "soon",
+          "summary": "Character as the self you build by the choices you automate. A later floor, not a substitute for volition."
+        }
+      ]
+    },
+    {
+      "id": "ethics",
+      "title": "Ethics",
+      "accent": "copper",
+      "opar": "OPAR chapters 7–9",
+      "summary": "The code that guides choices, once you know what you are and how you know.",
+      "file": null,
+      "units": [
+        {
+          "id": "why-morality",
+          "title": "Why Man Needs Morality",
+          "status": "soon",
+          "summary": "Why a code of values is a requirement of human life, not a decoration."
+        },
+        {
+          "id": "life-standard",
+          "title": "Life as the Standard",
+          "status": "soon",
+          "summary": "Life as the root of value, and one’s own life as the standard of moral value."
+        },
+        {
+          "id": "cardinal",
+          "title": "The Three Cardinal Values",
+          "status": "soon",
+          "summary": "Reason, purpose, and self-esteem."
+        },
+        {
+          "id": "virtues",
+          "title": "The Seven Virtues",
+          "status": "soon",
+          "summary": "Rationality, independence, integrity, honesty, justice, productiveness, and pride."
+        },
+        {
+          "id": "happiness",
+          "title": "Happiness",
+          "status": "soon",
+          "summary": "Happiness as the emotional state that follows from achieved values, not as a whim."
+        },
+        {
+          "id": "egoism",
+          "title": "Egoism and Altruism",
+          "status": "soon",
+          "summary": "The individual as the proper beneficiary of his own action, against the demand that he live for others."
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "title": "Politics",
+      "accent": "gold",
+      "opar": "OPAR chapters 10–11",
+      "summary": "The social principles that follow when each person is an end in himself.",
+      "file": null,
+      "units": [
+        {
+          "id": "rights",
+          "title": "Individual Rights",
+          "status": "soon",
+          "summary": "Rights as principles that sanction freedom of action in a social context."
+        },
+        {
+          "id": "force",
+          "title": "The Initiation of Force",
+          "status": "soon",
+          "summary": "Why starting the use of physical force is the basic political evil."
+        },
+        {
+          "id": "government",
+          "title": "Government’s Proper Role",
+          "status": "soon",
+          "summary": "Government as an agent that protects rights, limited to retaliatory force."
+        },
+        {
+          "id": "capitalism",
+          "title": "Capitalism and Its Moral Basis",
+          "status": "soon",
+          "summary": "Laissez-faire capitalism as the system that follows from rights, not as a brute economic preference."
+        }
+      ]
+    },
+    {
+      "id": "aesthetics",
+      "title": "Aesthetics",
+      "accent": "copper",
+      "opar": "OPAR chapter 12",
+      "summary": "Art as a need of a conceptual consciousness, and the standards for judging it.",
+      "file": null,
+      "units": [
+        {
+          "id": "selective",
+          "title": "Art as Selective Re-creation",
+          "status": "soon",
+          "summary": "Art as a selective re-creation of reality according to metaphysical value-judgments."
+        },
+        {
+          "id": "sense-of-life",
+          "title": "Sense of Life",
+          "status": "soon",
+          "summary": "A sense of life as a pre-conceptual, emotional appraisal of man and of existence."
+        },
+        {
+          "id": "romanticism",
+          "title": "Romanticism",
+          "status": "soon",
+          "summary": "Romanticism as the school committed to volition, and its place in Rand’s esthetics."
+        },
+        {
+          "id": "judgment",
+          "title": "Esthetic Judgment",
+          "status": "soon",
+          "summary": "How to judge a work by what it does as art, which is not the same as agreeing with its philosophy."
+        }
+      ]
+    },
+    {
+      "id": "integration",
+      "title": "Integration",
+      "accent": "gold",
+      "opar": "OPAR epilogue",
+      "summary": "The philosophy as one whole, and what it asks of a life.",
+      "file": null,
+      "units": [
+        {
+          "id": "whole",
+          "title": "The Philosophy as a Whole",
+          "status": "soon",
+          "summary": "Why an idea pulled out of the middle cannot be validated or used."
+        },
+        {
+          "id": "applying",
+          "title": "Applying It",
+          "status": "soon",
+          "summary": "Holding the principles in concrete choices, without turning the philosophy into a script."
+        }
+      ]
+    }
+  ]
+}

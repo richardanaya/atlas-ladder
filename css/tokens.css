@@ -1,0 +1,15 @@
+:root {
+  --navy: #0E1A2B;
+  --gold: #C9A227;
+  --ivory: #F3EBDD;
+  --copper: #B87333;
+  --gold-bright: #E4C56A;
+  --ink: #0E1A2B;
+  --correct: #1E6B45;
+  --wrong: #8E2F2B;
+  --paper: #fffdf8;
+  --font: "Josefin Sans", "Avenir Next", "Segoe UI", sans-serif;
+  --display: "Limelight", Palatino, "Palatino Linotype", serif;
+  --sub: "Poiret One", "Josefin Sans", sans-serif;
+  --octagon: polygon(30% 0, 70% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0 70%, 0 30%);
+}
