@@ -1,15 +1,36 @@
+/* Sampled from https://objectivism.io/index.css on 2026-10-12.
+   Antonio and Merriweather are the families that page loads from Google Fonts (SIL OFL). */
 :root {
-  --navy: #0E1A2B;
-  --gold: #C9A227;
-  --ivory: #F3EBDD;
-  --copper: #B87333;
-  --gold-bright: #E4C56A;
-  --ink: #0E1A2B;
-  --correct: #1E6B45;
-  --wrong: #8E2F2B;
-  --paper: #fffdf8;
-  --font: "Josefin Sans", "Avenir Next", "Segoe UI", sans-serif;
-  --display: "Limelight", Palatino, "Palatino Linotype", serif;
-  --sub: "Poiret One", "Josefin Sans", sans-serif;
+  --color-text: #477B8E;
+  --color-text-muted: rgba(71, 123, 142, 0.78);
+  --color-surface: #F2F2F2;
+  --color-page: #f7f7f5;
+  --color-border: #c5d5dc;
+  --color-border-strong: #a8c4cf;
+  --color-danger: #8b4a4a;
+  --color-danger-hover: #a85a5a;
+  --color-primary-hover: #5a94a8;
+  --color-input-text: #020202;
+  --color-brand: #477B8E;
+  --color-brand-mid: #376270;
+  --color-brand-deep: #2A4E5A;
+  --color-on-brand: #f7f7f5;
+  --color-white: #ffffff;
+
+  /* #376270 is the mid stop of their brand gradient. Body text uses it because
+     #477B8E on #f7f7f5 measures 4.36:1, under 4.5:1 for 1rem type. */
+  --navy: var(--color-brand-deep);
+  --ink: var(--color-brand-mid);
+  --ivory: var(--color-page);
+  --paper: var(--color-white);
+  --gold: var(--color-border-strong);
+  --copper: var(--color-text);
+  --gold-bright: var(--color-on-brand);
+  --correct: var(--color-brand-mid);
+  --wrong: var(--color-danger);
+
+  --font: "Merriweather", Georgia, "Palatino Linotype", serif;
+  --display: "Antonio", "Avenir Next", "Segoe UI", sans-serif;
+  --sub: "Antonio", "Avenir Next", "Segoe UI", sans-serif;
   --octagon: polygon(30% 0, 70% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0 70%, 0 30%);
 }

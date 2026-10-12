@@ -4,7 +4,7 @@ import { reducedMotion } from './motion.js';
 export class Celebration {
   confetti(container, count = 42) {
     if (!container || reducedMotion()) return;
-    const colors = ['#C9A227', '#B87333', '#F3EBDD', '#E4C56A', '#8C6A1F'];
+    const colors = ['#A8C4CF', '#C5D5DC', '#F7F7F5', '#FFFFFF', '#5A94A8'];
     for (let i = 0; i < count; i += 1) {
       const piece = document.createElement('i');
       piece.className = 'confetti';

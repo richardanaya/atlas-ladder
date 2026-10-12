@@ -15,13 +15,13 @@ const ART = `
 <svg class="atlas" viewBox="0 0 260 340" role="img" aria-hidden="true">
   <defs>
     <linearGradient id="bronze" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F2DC96"/>
-      <stop offset="42%" stop-color="#C9A227"/>
-      <stop offset="100%" stop-color="#7A5810"/>
+      <stop offset="0%" stop-color="#F7F7F5"/>
+      <stop offset="42%" stop-color="#A8C4CF"/>
+      <stop offset="100%" stop-color="#477B8E"/>
     </linearGradient>
     <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#F6E4A8"/>
-      <stop offset="100%" stop-color="#C9A227"/>
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#A8C4CF"/>
     </linearGradient>
     <filter id="globeGlow" x="-40%" y="-40%" width="180%" height="180%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
@@ -32,31 +32,31 @@ const ART = `
     </filter>
     <style>
       .arm { fill: none; stroke: url(#bronze); stroke-width: 16; stroke-linecap: round; }
-      .hand, .fist, .leg { fill: url(#bronze); stroke: #5C430E; stroke-width: 1; }
-      .head, .ear { fill: url(#face); stroke: #7A5810; stroke-width: 1.2; }
-      .boot { fill: #C9A227; stroke: #5C430E; stroke-width: 1.2; }
-      .tunic { fill: #0E1A2B; stroke: #C9A227; stroke-width: 2; }
-      .hem, .boot-line, .band { fill: none; stroke: #C9A227; stroke-width: 3; stroke-linecap: round; }
-      .belt { fill: #B87333; }
-      .eye { fill: #1A1208; }
-      .catch { fill: #F3EBDD; }
-      .lid { fill: #E8CC78; }
-      .cheek { fill: #B87333; opacity: 0.35; }
-      .mouth, .brow { fill: none; stroke: #5C430E; stroke-width: 2.3; stroke-linecap: round; }
-      .gem { fill: #F3EBDD; stroke: #5C430E; stroke-width: 0.6; }
+      .hand, .fist, .leg { fill: url(#bronze); stroke: #2A4E5A; stroke-width: 1; }
+      .head, .ear { fill: url(#face); stroke: #2A4E5A; stroke-width: 1.2; }
+      .boot { fill: #A8C4CF; stroke: #2A4E5A; stroke-width: 1.2; }
+      .tunic { fill: #2A4E5A; stroke: #A8C4CF; stroke-width: 2; }
+      .hem, .boot-line, .band { fill: none; stroke: #A8C4CF; stroke-width: 3; stroke-linecap: round; }
+      .belt { fill: #477B8E; }
+      .eye { fill: #020202; }
+      .catch { fill: #F7F7F5; }
+      .lid { fill: #C5D5DC; }
+      .cheek { fill: #477B8E; opacity: 0.35; }
+      .mouth, .brow { fill: none; stroke: #2A4E5A; stroke-width: 2.3; stroke-linecap: round; }
+      .gem { fill: #F7F7F5; stroke: #2A4E5A; stroke-width: 0.6; }
       .shadow { fill: #000; opacity: 0.28; }
-      .motion { fill: none; stroke: #C9A227; stroke-width: 2.2; stroke-linecap: round; opacity: 0.75; }
-      .rays line { stroke: #E4C56A; stroke-width: 3; stroke-linecap: round; }
+      .motion { fill: none; stroke: #A8C4CF; stroke-width: 2.2; stroke-linecap: round; opacity: 0.75; }
+      .rays line { stroke: #C5D5DC; stroke-width: 3; stroke-linecap: round; }
     </style>
     <symbol id="globe" viewBox="0 0 100 100">
-      <circle cx="50" cy="50" r="46" fill="#16324A"/>
-      <circle cx="50" cy="50" r="46" fill="none" stroke="#C9A227" stroke-width="3.5"/>
-      <ellipse cx="50" cy="50" rx="18" ry="46" fill="none" stroke="#E4C56A" stroke-width="1.6"/>
-      <ellipse cx="50" cy="50" rx="46" ry="15" fill="none" stroke="#E4C56A" stroke-width="1.4"/>
-      <path d="M8 50h84M50 6v88" stroke="#C9A227" stroke-width="1.1" opacity="0.7"/>
-      <path d="M30 30c8-7 18-3 20 6 1 8-7 13-15 11-8-2-12-9-5-17z" fill="#C9A227"/>
-      <path d="M58 46c9 0 14 7 10 14-5 6-15 4-18-3-2-5 2-11 8-11z" fill="#E6C86A"/>
-      <path d="M36 64c6 1 11 7 7 12-4 4-12 1-14-4-1-4 3-8 7-8z" fill="#B87333"/>
+      <circle cx="50" cy="50" r="46" fill="#F7F7F5"/>
+      <circle cx="50" cy="50" r="46" fill="none" stroke="#2A4E5A" stroke-width="3.5"/>
+      <ellipse cx="50" cy="50" rx="18" ry="46" fill="none" stroke="#477B8E" stroke-width="1.6"/>
+      <ellipse cx="50" cy="50" rx="46" ry="15" fill="none" stroke="#477B8E" stroke-width="1.4"/>
+      <path d="M8 50h84M50 6v88" stroke="#376270" stroke-width="1.1" opacity="0.7"/>
+      <path d="M30 30c8-7 18-3 20 6 1 8-7 13-15 11-8-2-12-9-5-17z" fill="#376270"/>
+      <path d="M58 46c9 0 14 7 10 14-5 6-15 4-18-3-2-5 2-11 8-11z" fill="#477B8E"/>
+      <path d="M36 64c6 1 11 7 7 12-4 4-12 1-14-4-1-4 3-8 7-8z" fill="#2A4E5A"/>
     </symbol>
   </defs>
 
@@ -96,8 +96,8 @@ const ART = `
       <circle class="hand" cx="90" cy="100" r="10"/>
       <path class="arm" d="M162 184 C188 196 184 214 176 206"/>
       <g class="thumb" transform="translate(162,178) rotate(-8)">
-        <rect x="0" y="4" width="28" height="34" rx="11" fill="url(#bronze)" stroke="#5C430E" stroke-width="1.4"/>
-        <rect x="16" y="-14" width="13" height="26" rx="6" fill="url(#bronze)" stroke="#5C430E" stroke-width="1.4"/>
+        <rect x="0" y="4" width="28" height="34" rx="11" fill="url(#bronze)" stroke="#2A4E5A" stroke-width="1.4"/>
+        <rect x="16" y="-14" width="13" height="26" rx="6" fill="url(#bronze)" stroke="#2A4E5A" stroke-width="1.4"/>
       </g>
       ${body(124, 158, 'grin')}
     </g>
@@ -202,8 +202,8 @@ function body(x, headY, expression, options = {}) {
       <path class="hem" d="M86 240 H174"/>
       <rect class="belt" x="96" y="228" width="68" height="11" rx="2"/>
       <g class="sun" transform="translate(130 210)">
-        <circle r="7" fill="none" stroke="#C9A227" stroke-width="1.3"/>
-        <path d="M0-11V-7M0 7V11M-11 0H-7M7 0H11M-7-7l3 3M7 7l-3-3M7-7l-3 3M-7 7l3-3" fill="none" stroke="#C9A227" stroke-width="1.2"/>
+        <circle r="7" fill="none" stroke="#A8C4CF" stroke-width="1.3"/>
+        <path d="M0-11V-7M0 7V11M-11 0H-7M7 0H11M-7-7l3 3M7 7l-3-3M7-7l-3 3M-7 7l3-3" fill="none" stroke="#A8C4CF" stroke-width="1.2"/>
       </g>
       ${tilt ? '' : face(expression)}
     </g>

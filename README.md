@@ -88,7 +88,7 @@ Accuracy matters more than color. The app quotes only short passages that were c
 
 ## Mascot
 
-Atlas is an inline SVG in `js/components/atlas-mascot.js`, drawn as a chunky Art Deco bronze figure with a globe. Looping motion is CSS. The hop, nod, and hoist use the Web Animations API. To swap in Rive or Lottie later, replace the SVG inside `.stage` and keep the `state` attribute (`idle`, `thinking`, `encourage`, `cheer`, `celebrate`).
+Atlas is an inline SVG in `js/components/atlas-mascot.js`, drawn as a chunky figure with a globe, colored in the same teal and paper palette as the rest of the tower. Looping motion is CSS. The hop, nod, and hoist use the Web Animations API. To swap in Rive or Lottie later, replace the SVG inside `.stage` and keep the `state` attribute (`idle`, `thinking`, `encourage`, `cheer`, `celebrate`).
 
 ## Code map
 

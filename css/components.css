@@ -68,13 +68,13 @@
 :host(xp-bar) .num { font-size: 0.68rem; letter-spacing: 0.06em; color: var(--gold-bright); white-space: nowrap; }
 
 :host(streak-flame) { display: inline-flex; }
-:host(streak-flame) .flame { display: flex; align-items: center; gap: 2px; color: var(--ivory); font-family: var(--font); }
+:host(streak-flame) .flame { display: flex; align-items: center; gap: 2px; color: var(--ivory); font-family: var(--sub); font-weight: 500; }
 :host(streak-flame) svg { width: 22px; height: 28px; }
-:host(streak-flame) .outer { fill: #5c4630; }
-:host(streak-flame) .inner { fill: #3d3428; }
-:host(streak-flame) .count { font-weight: 700; font-size: 0.85rem; min-width: 1ch; }
-:host(streak-flame) .is-lit .outer { fill: var(--copper); transform-origin: center bottom; animation: flicker 0.9s ease-in-out infinite; }
-:host(streak-flame) .is-lit .inner { fill: var(--gold); transform-origin: center bottom; animation: flicker 0.7s ease-in-out infinite reverse; }
+:host(streak-flame) .outer { fill: #376270; }
+:host(streak-flame) .inner { fill: #2A4E5A; }
+:host(streak-flame) .count { font-weight: 500; font-size: 0.85rem; min-width: 1ch; }
+:host(streak-flame) .is-lit .outer { fill: var(--color-border); transform-origin: center bottom; animation: flicker 0.9s ease-in-out infinite; }
+:host(streak-flame) .is-lit .inner { fill: var(--color-on-brand); transform-origin: center bottom; animation: flicker 0.7s ease-in-out infinite reverse; }
 :host(streak-flame) .is-lit .count { color: var(--gold-bright); }
 @keyframes flicker {
   50% { transform: scaleY(1.08) scaleX(0.94); opacity: 0.85; }
@@ -83,7 +83,7 @@
 :host(skill-tree) {
   display: block;
   background:
-    radial-gradient(circle at 50% 0, rgba(201, 162, 39, 0.16), transparent 28%),
+    radial-gradient(circle at 50% 0, rgba(168, 196, 207, 0.16), transparent 28%),
     var(--navy);
   color: var(--ivory);
   font-family: var(--font);
@@ -92,18 +92,18 @@
 :host(skill-tree) .tower { display: flex; flex-direction: column-reverse; }
 :host(skill-tree) .entrance, :host(skill-tree) .crown { text-align: center; padding: 28px 18px 36px; }
 :host(skill-tree) .eyebrow, :host(skill-tree) .plaque-kicker, :host(skill-tree) .soon-kicker {
-  letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); font-size: 0.72rem; margin: 0 0 6px;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); font-size: 0.78rem; margin: 0 0 6px;
 }
 :host(skill-tree) h1 {
-  font-family: var(--display); font-weight: 400; letter-spacing: 0.12em; text-transform: uppercase;
-  font-size: 2.1rem; margin: 0 0 8px; color: var(--gold-bright);
+  font-family: var(--display); font-weight: 100; letter-spacing: 0.06em; text-transform: uppercase;
+  font-size: clamp(2.5rem, 5vw, 3.75rem); margin: 0 0 8px; color: var(--gold-bright); line-height: 1.05;
 }
 :host(skill-tree) .lede, :host(skill-tree) .footnote { margin: 8px auto 14px; max-width: 34ch; line-height: 1.4; color: var(--ivory); }
 :host(skill-tree) .footnote { color: var(--gold-bright); font-size: 0.82rem; }
-:host(skill-tree) .pose-name { font-family: var(--sub); font-size: 1.4rem; margin: 4px 0; letter-spacing: 0.08em; }
+:host(skill-tree) .pose-name { font-family: var(--display); font-weight: 100; font-size: 1.5rem; margin: 4px 0; letter-spacing: 0.04em; }
 :host(skill-tree) .pose-row { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-bottom: 10px; }
 :host(skill-tree) .pose-row button, :host(skill-tree) .play-poses {
-  font-family: var(--font); background: transparent; color: var(--ivory); border: 1px solid var(--gold);
+  font-family: var(--sub); font-weight: 500; background: transparent; color: var(--ivory); border: 1px solid var(--gold);
   min-height: 36px; padding: 0 8px; letter-spacing: 0.05em; text-transform: capitalize; cursor: pointer;
 }
 :host(skill-tree) .pose-row button.is-on, :host(skill-tree) .play-poses { background: var(--gold); color: var(--navy); }
@@ -113,17 +113,17 @@
 }
 :host(skill-tree) .section-stack::before {
   content: ""; position: absolute; left: 50%; top: 12px; bottom: 12px; width: 2px;
-  background: linear-gradient(var(--gold), var(--copper)); transform: translateX(-50%);
+  background: linear-gradient(var(--gold), var(--color-border)); transform: translateX(-50%);
 }
 :host(skill-tree) .plaque {
   margin: 18px 28px; padding: 14px 12px; text-align: center; position: relative; z-index: 1;
-  border: 1px solid var(--gold); outline: 1px solid var(--copper); outline-offset: 4px; background: rgba(14, 26, 43, 0.92);
+  border: 1px solid var(--gold); outline: 1px solid var(--color-border); outline-offset: 4px; background: rgba(42, 78, 90, 0.92);
 }
 :host(skill-tree) .plaque h2 {
-  font-family: var(--display); font-weight: 400; letter-spacing: 0.14em; text-transform: uppercase; margin: 0 0 6px; font-size: 1.45rem;
+  font-family: var(--display); font-weight: 100; letter-spacing: 0.04em; text-transform: uppercase; margin: 0 0 6px; font-size: 1.5rem;
 }
 :host(skill-tree) .stage[data-accent="copper"] .plaque h2,
-:host(skill-tree) .stage[data-accent="copper"] .plaque-kicker { color: var(--copper); }
+:host(skill-tree) .stage[data-accent="copper"] .plaque-kicker { color: var(--color-border); }
 :host(skill-tree) .plaque p { margin: 0; color: var(--ivory); line-height: 1.4; font-size: 0.92rem; }
 :host(skill-tree) .unit-name {
   position: relative; z-index: 1; margin: 8px 16px 0; text-align: center;
@@ -152,10 +152,10 @@
 }
 :host(skill-tree) .node[data-state="done"] .octo-face { background: var(--gold); color: var(--navy); }
 :host(skill-tree) .node[data-state="locked"] { cursor: default; opacity: 0.55; }
-:host(skill-tree) .floor-label { font-size: 0.78rem; line-height: 1.25; text-align: center; }
+:host(skill-tree) .floor-label { font-size: 0.78rem; line-height: 1.25; text-align: center; text-shadow: 0 1px 2px #2A4E5A, 0 0 8px #2A4E5A; }
 :host(skill-tree) .is-current .node::before {
   content: ""; position: absolute; top: -6px; width: 86px; height: 86px;
-  background: rgba(201, 162, 39, 0.55); clip-path: var(--octagon); z-index: -1;
+  background: rgba(168, 196, 207, 0.55); clip-path: var(--octagon); z-index: -1;
   animation: halo 1.6s ease-in-out infinite;
 }
 :host(skill-tree) .is-current .octo-face { background: var(--gold); color: var(--navy); }
@@ -171,15 +171,15 @@
 :host(skill-tree) .soon {
   position: relative; z-index: 1; margin: 14px 18px; padding: 12px;
   display: flex; gap: 12px; align-items: center;
-  border: 1px dashed var(--copper); background: rgba(14, 26, 43, 0.88);
+  border: 1px dashed var(--color-border); background: rgba(42, 78, 90, 0.88);
 }
 :host(skill-tree) .soon h3 { margin: 0 0 4px; font-size: 1rem; font-weight: 600; }
 :host(skill-tree) .soon p { margin: 0; color: var(--ivory); font-size: 0.85rem; line-height: 1.35; }
-:host(skill-tree) .octo.dim { width: 54px; height: 54px; flex: none; background: var(--copper); }
+:host(skill-tree) .octo.dim { width: 54px; height: 54px; flex: none; background: var(--gold); }
 :host(skill-tree) .octo.dim .octo-face { width: 44px; height: 44px; font-size: 0.9rem; }
 :host(skill-tree) .crown .sun {
   width: 120px; height: 120px; margin: 0 auto 8px;
-  background: repeating-conic-gradient(from 0deg, transparent 0 10deg, rgba(201, 162, 39, 0.85) 10deg 12deg);
+  background: repeating-conic-gradient(from 0deg, transparent 0 10deg, rgba(168, 196, 207, 0.85) 10deg 12deg);
   border-radius: 50%;
   -webkit-mask: radial-gradient(circle, transparent 0 38%, #000 40%);
   mask: radial-gradient(circle, transparent 0 38%, #000 40%);
@@ -202,23 +202,23 @@
   font: inherit; background: none; border: 0; color: var(--copper); letter-spacing: 0.08em;
   text-transform: uppercase; cursor: pointer; padding: 8px 0;
 }
-:host(lesson-player) .track { flex: 1; height: 8px; background: #e4d7c4; overflow: hidden; }
+:host(lesson-player) .track { flex: 1; height: 8px; background: var(--color-border); overflow: hidden; }
 :host(lesson-player) .track span { display: block; height: 100%; background: var(--gold); transform: scaleX(0); transform-origin: left center; }
 :host(lesson-player) .hearts { display: flex; gap: 3px; }
-:host(lesson-player) .heart { width: 16px; height: 15px; fill: #d9cbb6; }
+:host(lesson-player) .heart { width: 16px; height: 15px; fill: var(--color-border-strong); }
 :host(lesson-player) .heart.is-on { fill: var(--copper); }
 :host(lesson-player) .lp-hero { display: flex; align-items: center; gap: 8px; min-height: 72px; }
-:host(lesson-player) .kicker { margin: 0; letter-spacing: 0.08em; text-transform: uppercase; color: var(--copper); font-size: 0.78rem; }
+:host(lesson-player) .kicker { margin: 0; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink); font-size: 0.82rem; font-family: var(--sub); font-weight: 500; }
 :host(lesson-player) .intro h2 {
-  font-family: var(--display); font-weight: 400; letter-spacing: 0.06em; font-size: 1.8rem; margin: 8px 0;
+  font-family: var(--display); font-weight: 100; letter-spacing: 0.04em; font-size: clamp(1.75rem, 4vw, 2.5rem); line-height: 1.1; margin: 8px 0;
 }
-:host(lesson-player) .intro p { line-height: 1.45; font-size: 1.05rem; }
-:host(lesson-player) .meta { color: var(--copper); font-size: 0.9rem; }
+:host(lesson-player) .intro p { line-height: 1.65; font-size: 1.05rem; font-weight: 300; }
+:host(lesson-player) .meta { color: var(--ink); font-size: 0.9rem; }
 :host(lesson-player) .actions { position: sticky; bottom: 0; padding-top: 12px; background: linear-gradient(transparent, var(--ivory) 28%); }
 :host(lesson-player) .check, :host(lesson-player) .continue, :host(lesson-complete) .continue {
   width: 100%; min-height: 52px; border: 0; cursor: pointer;
-  background: var(--navy); color: var(--gold-bright); font-family: var(--font);
-  letter-spacing: 0.14em; text-transform: uppercase; font-size: 1rem;
+  background: var(--navy); color: var(--gold-bright); font-family: var(--sub); font-weight: 500;
+  letter-spacing: 0.12em; text-transform: uppercase; font-size: 1rem;
 }
 :host(lesson-player) .check:disabled { opacity: 0.4; cursor: default; }
 :host(lesson-player) .banner {
@@ -235,7 +235,7 @@
 :host(lesson-player) .verdict { margin: 0; font-family: var(--display); letter-spacing: 0.08em; font-size: 1.4rem; }
 :host(lesson-player) .badge { margin: 2px 0; letter-spacing: 0.14em; text-transform: uppercase; font-size: 0.72rem; color: var(--gold-bright); }
 :host(lesson-player) .quoted, :host(lesson-player) .note, :host(lesson-player) .cite { margin: 4px 0; line-height: 1.35; }
-:host(lesson-player) .quoted { font-family: Georgia, Palatino, serif; }
+:host(lesson-player) .quoted { font-family: var(--font); font-weight: 300; font-style: italic; }
 :host(lesson-player) .cite { font-size: 0.78rem; opacity: 0.9; }
 :host(lesson-player) .continue { grid-column: 1 / -1; background: var(--ivory); color: var(--navy); }
 :host(lesson-player) .shake { animation: shake 0.42s ease; }
@@ -250,11 +250,11 @@
   display: block; font-family: var(--font); color: var(--ink);
 }
 :host(exercise-choice) .prompt, :host(exercise-quote) .prompt, :host(exercise-match) .prompt, :host(exercise-fill) .prompt {
-  font-size: 1.18rem; line-height: 1.35; margin: 4px 0 12px;
+  font-size: 1.05rem; line-height: 1.65; font-weight: 400; margin: 4px 0 12px;
 }
 :host(exercise-quote) blockquote {
   margin: 0 0 14px; padding: 14px 14px 14px 16px; border-left: 3px solid var(--gold);
-  background: var(--paper); font-family: Georgia, Palatino, serif; font-size: 1.05rem; line-height: 1.4;
+  background: var(--paper); font-family: var(--font); font-weight: 300; font-style: italic; font-size: 1.05rem; line-height: 1.65;
 }
 :host(exercise-choice) .options, :host(exercise-quote) .options { display: grid; gap: 10px; }
 :host(exercise-choice) .option, :host(exercise-quote) .option, :host(exercise-match) .chip, :host(exercise-fill) .token, :host(exercise-fill) .slot {
@@ -278,7 +278,7 @@
   display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px;
 }
 :host(exercise-fill) .built, :host(exercise-fill) .line {
-  min-height: 64px; padding: 8px; border: 1px solid var(--gold); background: rgba(255, 253, 248, 0.7);
+  min-height: 64px; padding: 8px; border: 1px solid var(--gold); background: var(--color-surface);
 }
 :host(exercise-fill) .slot { min-width: 84px; }
 :host(exercise-fill) .slot.is-filled { background: var(--navy); color: var(--ivory); }
@@ -287,23 +287,23 @@
 :host(lesson-complete) {
   display: block; position: relative; overflow: hidden; min-height: calc(100dvh - 110px);
   background:
-    radial-gradient(circle at 50% 18%, rgba(201, 162, 39, 0.2), transparent 32%),
+    radial-gradient(circle at 50% 18%, rgba(168, 196, 207, 0.2), transparent 32%),
     var(--navy);
   color: var(--ivory); font-family: var(--font); text-align: center;
 }
 :host(lesson-complete) .done { position: relative; padding: 28px 18px 36px; }
 :host(lesson-complete) .sun {
   width: 160px; height: 160px; margin: -20px auto -80px;
-  background: repeating-conic-gradient(from 0deg, transparent 0 10deg, rgba(201, 162, 39, 0.75) 10deg 12deg);
+  background: repeating-conic-gradient(from 0deg, transparent 0 10deg, rgba(168, 196, 207, 0.75) 10deg 12deg);
   border-radius: 50%;
   -webkit-mask: radial-gradient(circle, transparent 0 42%, #000 44%);
   mask: radial-gradient(circle, transparent 0 42%, #000 44%);
 }
-:host(lesson-complete) .kicker { letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); }
-:host(lesson-complete) h2 { font-family: var(--display); font-weight: 400; letter-spacing: 0.08em; font-size: 2rem; margin: 0 0 8px; }
+:host(lesson-complete) .kicker { letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); font-family: var(--sub); font-weight: 500; }
+:host(lesson-complete) h2 { font-family: var(--display); font-weight: 100; letter-spacing: 0.06em; font-size: clamp(2.5rem, 5vw, 3.75rem); line-height: 1.05; margin: 0 0 8px; }
 :host(lesson-complete) .xp-pop { font-family: var(--display); font-size: 2.4rem; color: var(--gold-bright); margin: 8px 0; }
 :host(lesson-complete) .stats { list-style: none; padding: 0; margin: 8px auto 18px; max-width: 280px; text-align: left; }
-:host(lesson-complete) .stats li { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid rgba(201, 162, 39, 0.35); padding: 8px 0; }
+:host(lesson-complete) .stats li { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid rgba(168, 196, 207, 0.35); padding: 8px 0; }
 :host(lesson-complete) .level-burst {
   position: relative; display: grid; place-items: center; min-height: 52px; margin: 0 auto 12px;
 }
@@ -340,7 +340,7 @@
   :host-context(body.is-wide):host(skill-tree) .pose-row,
   :host-context(body.is-wide):host(skill-tree) .play-poses { display: none; }
   :host-context(body.is-wide):host(skill-tree) .lede { max-width: 46ch; }
-  :host-context(body.is-wide):host(skill-tree) h1 { font-size: 2.8rem; }
+  :host-context(body.is-wide):host(skill-tree) h1 { font-size: clamp(2.5rem, 4vw, 3.75rem); }
   :host-context(body.is-wide):host(skill-tree) .floor { min-height: 148px; }
   :host-context(body.is-wide):host(skill-tree) .floor.left { padding-left: 8%; }
   :host-context(body.is-wide):host(skill-tree) .floor.right { padding-right: 8%; }
@@ -350,19 +350,19 @@
   :host-context(body.is-wide):host(skill-tree) .floor-label { font-size: 0.95rem; }
   :host-context(body.is-wide):host(skill-tree) .is-current .node::before { top: -8px; width: 108px; height: 108px; }
   :host-context(body.is-wide):host(skill-tree) .plaque { max-width: 640px; margin-left: auto; margin-right: auto; padding: 18px 20px; }
-  :host-context(body.is-wide):host(skill-tree) .plaque h2 { font-size: 1.8rem; }
+  :host-context(body.is-wide):host(skill-tree) .plaque h2 { font-size: 1.5rem; }
   :host-context(body.is-wide):host(skill-tree) .soon { max-width: 720px; margin-left: auto; margin-right: auto; padding: 16px 18px; }
-  :host-context(body.is-wide):host(skill-tree) .unit-name { font-size: 1.45rem; }
+  :host-context(body.is-wide):host(skill-tree) .unit-name { font-size: 1.25rem; }
 
   :host(lesson-player) .lp { max-width: 1160px; margin: 0 auto; padding: 28px 8px 48px; }
-  :host(lesson-player) .intro h2 { font-size: 2.6rem; }
-  :host(lesson-player) .intro p { font-size: 1.2rem; }
+  :host(lesson-player) .intro h2 { font-size: clamp(1.75rem, 3vw, 2.5rem); }
+  :host(lesson-player) .intro p { font-size: 1.05rem; }
   :host(lesson-player) .lp-hero { min-height: 120px; }
   :host(lesson-player) .banner { width: min(1160px, calc(100% - 48px)); grid-template-columns: 140px 1fr; }
   :host(exercise-choice) .prompt,
   :host(exercise-quote) .prompt,
   :host(exercise-match) .prompt,
-  :host(exercise-fill) .prompt { font-size: 1.5rem; }
+  :host(exercise-fill) .prompt { font-size: 1.25rem; }
   :host(exercise-choice) .options,
   :host(exercise-quote) .options { grid-template-columns: 1fr 1fr; gap: 16px; }
   :host(exercise-choice) .option,
@@ -373,7 +373,7 @@
   :host(exercise-match) .match { gap: 28px; }
   :host(exercise-match) .col { gap: 14px; }
   :host(lesson-complete) .done { max-width: 760px; margin: 0 auto; padding-top: 48px; }
-  :host(lesson-complete) h2 { font-size: 2.8rem; }
+  :host(lesson-complete) h2 { font-size: clamp(2.5rem, 4vw, 3.75rem); }
 }
 
 @media (max-width: 380px) {
