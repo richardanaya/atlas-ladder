@@ -2,6 +2,12 @@
 
 A mobile-first study tower for Objectivism, Ayn Rand’s philosophy, organized by topic. The first climb is Metaphysics, Unit 1 (the axioms) and Epistemology, Unit 1 (the senses). Later units are on the tower as coming soon, and they do not block a unit that is already built. On a wide screen the tower uses the full window: sections in a left rail, the climb in the center, and Atlas with your progress on the right.
 
+Repository: [richardanaya/atlas-ladder](https://github.com/richardanaya/atlas-ladder)
+
+```bash
+git clone https://github.com/richardanaya/atlas-ladder.git
+```
+
 There is no build step. `index.html` at the repository root is the page. Styles live in `css/`. Behavior is native ES modules under `js/`. Lesson text is JSON under `content/`.
 
 ## Run it locally
@@ -18,7 +24,9 @@ Progress (finished floors, XP, streak, and the mute setting) stays in `localStor
 
 ## GitHub Pages
 
-The site uses a hash router (`#/`, `#/lesson/...`, `#/sources`) and relative URLs, so it can live at a project path such as `/objectivist-duolingo/` or `/atlas-ladder/` without a rebuild.
+The published site is [https://richardanaya.github.io/atlas-ladder/](https://richardanaya.github.io/atlas-ladder/).
+
+The site uses a hash router (`#/`, `#/lesson/...`, `#/sources`) and relative URLs, so it can live at the project path `/atlas-ladder/` without a rebuild.
 
 Two ways to publish:
 

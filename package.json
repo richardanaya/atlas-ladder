@@ -1,5 +1,11 @@
 {
+  "name": "atlas-ladder",
   "private": true,
   "type": "module",
-  "description": "Atlas Ladder is a static site. No install and no build step are required to run it."
+  "description": "Atlas Ladder is a static site. No install and no build step are required to run it.",
+  "homepage": "https://richardanaya.github.io/atlas-ladder/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardanaya/atlas-ladder.git"
+  }
 }

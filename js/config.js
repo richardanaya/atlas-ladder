@@ -1,9 +1,9 @@
 /**
  * Atlas Ladder runtime settings.
  *
- * Asset URLs are resolved relative to the module that fetches them, so a
- * GitHub Pages project site works under /objectivist-duolingo/, /atlas-ladder/,
- * or any other repository name without a rebuild.
+ * Asset URLs are resolved relative to the module that fetches them, so the
+ * GitHub Pages project site at /atlas-ladder/
+ * (https://richardanaya.github.io/atlas-ladder/) works without a rebuild.
  *
  * Set BASE_PATH only if you intentionally serve the files from a nested folder
  * and need absolute URLs (include the leading and trailing slash, for example
