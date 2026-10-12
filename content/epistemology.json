@@ -1,0 +1,1320 @@
+{
+  "id": "epistemology",
+  "lessons": {
+    "senses/direct-contact": {
+      "exercises": [
+        {
+          "id": "e1e1",
+          "type": "choice",
+          "prompt": "Rand says man’s only direct cognitive contact with reality is:",
+          "answer": "s",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Man's senses are his only direct cognitive contact with reality and, therefore, his only source of information.",
+            "note": "The second half of that sentence calls the senses his only source of information. Later integration still starts from that contact.",
+            "citation": "Ayn Rand, \"Kant Versus Sullivan,\" Philosophy: Who Needs It, 90"
+          },
+          "choices": [
+            {
+              "id": "s",
+              "text": "His senses"
+            },
+            {
+              "id": "t",
+              "text": "Tradition"
+            },
+            {
+              "id": "l",
+              "text": "Logic with no observation"
+            },
+            {
+              "id": "r",
+              "text": "Revelation"
+            }
+          ]
+        },
+        {
+          "id": "e1e2",
+          "type": "quote",
+          "prompt": "Which essay is the citation for that sentence?",
+          "quote": "Man's senses are his only direct cognitive contact with reality and, therefore, his only source of information.",
+          "answer": "pwni",
+          "choices": [
+            {
+              "id": "pwni",
+              "text": "Philosophy: Who Needs It, “Kant Versus Sullivan”"
+            },
+            {
+              "id": "as",
+              "text": "Atlas Shrugged"
+            },
+            {
+              "id": "fh",
+              "text": "The Fountainhead"
+            },
+            {
+              "id": "vos",
+              "text": "The Virtue of Selfishness"
+            }
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Man's senses are his only direct cognitive contact with reality and, therefore, his only source of information.",
+            "note": "The sentence is in the Kant essay, not in the novels.",
+            "citation": "Ayn Rand, \"Kant Versus Sullivan,\" Philosophy: Who Needs It, 90"
+          }
+        },
+        {
+          "id": "e1e3",
+          "type": "choice",
+          "prompt": "Without sensory evidence, she says, there can be no:",
+          "answer": "c",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Without sensory evidence, there can be no concepts; without concepts, there can be no language; without language, there can be no knowledge and no science.",
+            "note": "The chain runs evidence, concepts, language, knowledge. It does not say the senses hand you finished science.",
+            "citation": "Ayn Rand, \"Kant Versus Sullivan,\" Philosophy: Who Needs It, 90"
+          },
+          "choices": [
+            {
+              "id": "c",
+              "text": "Concepts"
+            },
+            {
+              "id": "s",
+              "text": "Suns"
+            },
+            {
+              "id": "r",
+              "text": "Rocks"
+            },
+            {
+              "id": "e",
+              "text": "Entities"
+            }
+          ]
+        },
+        {
+          "id": "e1e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the sentence.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Man's senses are his only direct cognitive contact with "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "reality"
+            }
+          ],
+          "bank": [
+            "reality",
+            "society",
+            "scripture",
+            "chance"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Man's senses are his only direct cognitive contact with reality and, therefore, his only source of information.",
+            "note": "The missing word is reality, not a social or sacred substitute.",
+            "citation": "Ayn Rand, \"Kant Versus Sullivan,\" Philosophy: Who Needs It, 90"
+          }
+        },
+        {
+          "id": "e1e5",
+          "type": "choice",
+          "prompt": "She defines reason as the faculty that does what with sensory material?",
+          "answer": "id",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Reason is the faculty that identifies and integrates the material provided by man's senses.",
+            "note": "Reason is not a rival of the senses. It is what you do with what they provide.",
+            "citation": "Ayn Rand, \"The Objectivist Ethics,\" The Virtue of Selfishness, 20"
+          },
+          "choices": [
+            {
+              "id": "id",
+              "text": "Identifies and integrates it"
+            },
+            {
+              "id": "ig",
+              "text": "Ignores it in favor of innate ideas"
+            },
+            {
+              "id": "re",
+              "text": "Replaces it with revelation"
+            },
+            {
+              "id": "vo",
+              "text": "Votes on it"
+            }
+          ]
+        },
+        {
+          "id": "e1e6",
+          "type": "match",
+          "prompt": "Match each item to the job these texts give it.",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Emotions are not tools of cognition.",
+            "note": "The senses, reason, and logic lines are quoted on this floor and the metaphysics floors. The emotion line is from the 1964 interview.",
+            "citation": "Ayn Rand, interview with Alvin Toffler, Playboy, March 1964"
+          },
+          "pairs": [
+            {
+              "id": "se",
+              "left": "Senses",
+              "right": "Provide the material of knowledge"
+            },
+            {
+              "id": "re",
+              "left": "Reason",
+              "right": "Identify and integrate that material"
+            },
+            {
+              "id": "lo",
+              "left": "Logic",
+              "right": "Non-contradictory identification"
+            },
+            {
+              "id": "em",
+              "left": "Emotions",
+              "right": "Not tools of cognition"
+            }
+          ]
+        },
+        {
+          "id": "e1e7",
+          "type": "quote",
+          "prompt": "“Emotions are not tools of cognition.” Which source is the citation?",
+          "quote": "Emotions are not tools of cognition.",
+          "answer": "pb",
+          "choices": [
+            {
+              "id": "pb",
+              "text": "Playboy interview, March 1964"
+            },
+            {
+              "id": "vos",
+              "text": "The Virtue of Selfishness"
+            },
+            {
+              "id": "as",
+              "text": "Atlas Shrugged"
+            },
+            {
+              "id": "pwni",
+              "text": "Philosophy: Who Needs It"
+            }
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Emotions are not tools of cognition.",
+            "note": "The same interview says what you feel tells you nothing about the facts. It tells you something about your estimate of the facts.",
+            "citation": "Ayn Rand, interview with Alvin Toffler, Playboy, March 1964"
+          }
+        },
+        {
+          "id": "e1e8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the interview sentence.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Emotions"
+            },
+            {
+              "id": "t2",
+              "text": "are"
+            },
+            {
+              "id": "t3",
+              "text": "not"
+            },
+            {
+              "id": "t4",
+              "text": "tools"
+            },
+            {
+              "id": "t5",
+              "text": "of"
+            },
+            {
+              "id": "t6",
+              "text": "cognition"
+            },
+            {
+              "id": "d1",
+              "text": "guides"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "What you feel tells you nothing about the facts; it merely tells you something about your estimate of the facts.",
+            "note": "The sentence you built is the shorter line from the same answer. Feelings register your estimate. They do not inspect the facts for you.",
+            "citation": "Ayn Rand, interview with Alvin Toffler, Playboy, March 1964"
+          }
+        }
+      ]
+    },
+    "senses/percepts": {
+      "exercises": [
+        {
+          "id": "e2e1",
+          "type": "choice",
+          "prompt": "In Introduction to Objectivist Epistemology, a percept is:",
+          "answer": "p",
+          "feedback": {
+            "kind": "quote",
+            "quote": "A percept is a group of sensations automatically retained and integrated by the brain of a living organism.",
+            "note": "A closely related sentence in The Virtue of Selfishness uses the word perception. This exact sentence, which begins with the words A percept is, is the ITOE wording.",
+            "citation": "Ayn Rand, \"Cognition and Measurement,\" Introduction to Objectivist Epistemology, 5"
+          },
+          "choices": [
+            {
+              "id": "p",
+              "text": "A group of sensations automatically retained and integrated by the brain"
+            },
+            {
+              "id": "w",
+              "text": "A word chosen by convention"
+            },
+            {
+              "id": "i",
+              "text": "An innate idea"
+            },
+            {
+              "id": "g",
+              "text": "A guess about an unknowable object"
+            }
+          ]
+        },
+        {
+          "id": "e2e2",
+          "type": "quote",
+          "prompt": "This exact sentence begins with the words A percept is. Which work is the citation?",
+          "quote": "A percept is a group of sensations automatically retained and integrated by the brain of a living organism.",
+          "answer": "itoe",
+          "choices": [
+            {
+              "id": "itoe",
+              "text": "Introduction to Objectivist Epistemology"
+            },
+            {
+              "id": "vos",
+              "text": "The Virtue of Selfishness"
+            },
+            {
+              "id": "as",
+              "text": "Atlas Shrugged"
+            },
+            {
+              "id": "an",
+              "text": "Anthem"
+            }
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "A percept is a group of sensations automatically retained and integrated by the brain of a living organism.",
+            "note": "The Virtue of Selfishness uses the word perception and then continues a related sentence. If you chose that book, you were near the right family of texts. This wording is ITOE page 5.",
+            "citation": "Ayn Rand, \"Cognition and Measurement,\" Introduction to Objectivist Epistemology, 5"
+          }
+        },
+        {
+          "id": "e2e3",
+          "type": "choice",
+          "prompt": "Epistemologically, she says the base of man’s knowledge is:",
+          "answer": "per",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Although, chronologically, man's consciousness develops in three stages: the stage of sensations, the perceptual, the conceptual—epistemologically, the base of all of man's knowledge is the perceptual stage.",
+            "note": "Chronological order and epistemological base are not the same claim. The base, she says, is the perceptual stage.",
+            "citation": "Ayn Rand, \"Cognition and Measurement,\" Introduction to Objectivist Epistemology, 5"
+          },
+          "choices": [
+            {
+              "id": "per",
+              "text": "The perceptual stage"
+            },
+            {
+              "id": "sen",
+              "text": "Isolated sensations retained as such"
+            },
+            {
+              "id": "inn",
+              "text": "Innate propositions"
+            },
+            {
+              "id": "txt",
+              "text": "Texts"
+            }
+          ]
+        },
+        {
+          "id": "e2e4",
+          "type": "choice",
+          "prompt": "What does she say are the given, the self-evident?",
+          "answer": "per",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Percepts, not sensations, are the given, the self-evident.",
+            "note": "She also says sensations as such are not retained in memory, and that man is not able to experience a pure isolated sensation.",
+            "citation": "Ayn Rand, \"Cognition and Measurement,\" Introduction to Objectivist Epistemology, 5"
+          },
+          "choices": [
+            {
+              "id": "per",
+              "text": "Percepts, not sensations"
+            },
+            {
+              "id": "sen",
+              "text": "Sensations, not percepts"
+            },
+            {
+              "id": "con",
+              "text": "Concepts, with no percepts under them"
+            },
+            {
+              "id": "wor",
+              "text": "Words, before any awareness"
+            }
+          ]
+        },
+        {
+          "id": "e2e5",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the sentence.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Percepts, not sensations, are the "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "given"
+            },
+            {
+              "type": "text",
+              "text": ", the self-evident."
+            }
+          ],
+          "bank": [
+            "given",
+            "optional",
+            "invented",
+            "hidden"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Percepts, not sensations, are the given, the self-evident.",
+            "note": "“Given” here means the base you are aware of, not a gift from a second world.",
+            "citation": "Ayn Rand, \"Cognition and Measurement,\" Introduction to Objectivist Epistemology, 5"
+          }
+        },
+        {
+          "id": "e2e6",
+          "type": "match",
+          "prompt": "Match the item to the point made in “Cognition and Measurement.”",
+          "feedback": {
+            "kind": "quote",
+            "quote": "It is in the form of percepts that man grasps the evidence of his senses and apprehends reality.",
+            "note": "The concept line in the match is our label for the contrast she draws: the conceptual level comes after, and on that level the process is volitional. The percept sentence is the quotation.",
+            "citation": "Ayn Rand, \"Cognition and Measurement,\" Introduction to Objectivist Epistemology, 5"
+          },
+          "pairs": [
+            {
+              "id": "sen",
+              "left": "Sensation",
+              "right": "Not retained in man’s memory as such"
+            },
+            {
+              "id": "per",
+              "left": "Percept",
+              "right": "The form in which man grasps sensory evidence"
+            },
+            {
+              "id": "con",
+              "left": "Concept",
+              "right": "A later, volitional level of awareness"
+            }
+          ]
+        },
+        {
+          "id": "e2e7",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Percepts"
+            },
+            {
+              "id": "t2",
+              "text": "not"
+            },
+            {
+              "id": "t3",
+              "text": "sensations"
+            },
+            {
+              "id": "t4",
+              "text": "are"
+            },
+            {
+              "id": "t5",
+              "text": "the"
+            },
+            {
+              "id": "t6",
+              "text": "given"
+            },
+            {
+              "id": "d1",
+              "text": "optional"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Percepts, not sensations, are the given, the self-evident.",
+            "note": "The bank omits the comma and the second clause. The order of the six words is the claim.",
+            "citation": "Ayn Rand, \"Cognition and Measurement,\" Introduction to Objectivist Epistemology, 5"
+          }
+        },
+        {
+          "id": "e2e8",
+          "type": "choice",
+          "prompt": "She says man is not able to experience which of these?",
+          "answer": "iso",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Sensations, as such, are not retained in man's memory, nor is man able to experience a pure isolated sensation.",
+            "note": "Discriminated awareness, she says, begins on the level of percepts. The knowledge that sensations are components of percepts is a later scientific discovery, not the form in which you are aware.",
+            "citation": "Ayn Rand, \"Cognition and Measurement,\" Introduction to Objectivist Epistemology, 5"
+          },
+          "choices": [
+            {
+              "id": "iso",
+              "text": "A pure isolated sensation"
+            },
+            {
+              "id": "ent",
+              "text": "An entity"
+            },
+            {
+              "id": "per",
+              "text": "A percept"
+            },
+            {
+              "id": "day",
+              "text": "The daylight"
+            }
+          ]
+        }
+      ]
+    },
+    "senses/do-not-invent": {
+      "exercises": [
+        {
+          "id": "e3e1",
+          "type": "choice",
+          "prompt": "In Galt’s speech, the organs of perception are physical and have no power to do which of these?",
+          "answer": "inv",
+          "feedback": {
+            "kind": "quote",
+            "quote": "his organs of perception are physical and have no volition, no power to invent or to distort",
+            "note": "This is a contiguous excerpt from a longer sentence. The speech is arguing that the organs do not invent their object. The mind still has to identify what they provide.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+          },
+          "choices": [
+            {
+              "id": "inv",
+              "text": "Invent or distort"
+            },
+            {
+              "id": "see",
+              "text": "Respond to entities"
+            },
+            {
+              "id": "act",
+              "text": "Act at all"
+            },
+            {
+              "id": "exi",
+              "text": "Exist"
+            }
+          ]
+        },
+        {
+          "id": "e3e2",
+          "type": "choice",
+          "prompt": "The same passage says his senses cannot do what?",
+          "answer": "dec",
+          "feedback": {
+            "kind": "quote",
+            "quote": "His senses cannot deceive him",
+            "note": "Excerpt. The surrounding argument says the evidence is absolute and the mind must learn to understand it. A misidentification is a failure of that later work, not a lie told by the eye.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+          },
+          "choices": [
+            {
+              "id": "dec",
+              "text": "Deceive him"
+            },
+            {
+              "id": "rep",
+              "text": "Report entities"
+            },
+            {
+              "id": "dif",
+              "text": "Differ from one another"
+            },
+            {
+              "id": "exi",
+              "text": "Exist in a body"
+            }
+          ]
+        },
+        {
+          "id": "e3e3",
+          "type": "quote",
+          "prompt": "“His senses cannot deceive him” is an excerpt from which speech?",
+          "quote": "His senses cannot deceive him",
+          "answer": "ftni",
+          "choices": [
+            {
+              "id": "ftni",
+              "text": "For the New Intellectual (Galt's speech, from Atlas Shrugged)"
+            },
+            {
+              "id": "fh",
+              "text": "The Fountainhead"
+            },
+            {
+              "id": "pwni",
+              "text": "Philosophy: Who Needs It"
+            },
+            {
+              "id": "rm",
+              "text": "The Romantic Manifesto"
+            }
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "His senses cannot deceive him",
+            "note": "Page 156 in the For the New Intellectual reprint. The line is an excerpt, not a full sentence by itself.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+          }
+        },
+        {
+          "id": "e3e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the excerpt.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "His senses cannot "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "deceive"
+            },
+            {
+              "type": "text",
+              "text": " him"
+            }
+          ],
+          "bank": [
+            "deceive",
+            "obey",
+            "create",
+            "replace"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "His senses cannot deceive him",
+            "note": "The verb is deceive. The excerpt does not say the senses cannot err in the sense that your conclusions cannot err.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+          }
+        },
+        {
+          "id": "e3e5",
+          "type": "choice",
+          "prompt": "Which reading fits the passage?",
+          "answer": "mat",
+          "feedback": {
+            "kind": "quote",
+            "quote": "the evidence they give him is an absolute, but his mind must learn to understand it",
+            "note": "Excerpt. “Absolute” names the evidence. “Must learn” names the work still to be done. Both halves are required.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+          },
+          "choices": [
+            {
+              "id": "mat",
+              "text": "The senses give material. The mind must identify it."
+            },
+            {
+              "id": "fin",
+              "text": "The senses hand him finished scientific knowledge"
+            },
+            {
+              "id": "gui",
+              "text": "The senses are guilty until proved innocent"
+            },
+            {
+              "id": "for",
+              "text": "If a percept can be misread, the sense organ forged the object"
+            }
+          ]
+        },
+        {
+          "id": "e3e6",
+          "type": "match",
+          "prompt": "Match the item to the point in this passage.",
+          "feedback": {
+            "kind": "quote",
+            "quote": "physical objects cannot act without causes",
+            "note": "Another contiguous excerpt from the same sentence. The three match-lines are three excerpts, not one continuous quotation.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+          },
+          "pairs": [
+            {
+              "id": "org",
+              "left": "Sense organs",
+              "right": "No volition to invent or distort"
+            },
+            {
+              "id": "min",
+              "left": "Mind",
+              "right": "Must learn to understand the evidence"
+            },
+            {
+              "id": "obj",
+              "left": "Physical objects",
+              "right": "Cannot act without causes"
+            }
+          ]
+        },
+        {
+          "id": "e3e7",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the excerpt in order.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "His"
+            },
+            {
+              "id": "t2",
+              "text": "senses"
+            },
+            {
+              "id": "t3",
+              "text": "cannot"
+            },
+            {
+              "id": "t4",
+              "text": "deceive"
+            },
+            {
+              "id": "t5",
+              "text": "him"
+            },
+            {
+              "id": "d1",
+              "text": "invent"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "His senses cannot deceive him",
+            "note": "Five words, in that order. It is an excerpt.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+          }
+        },
+        {
+          "id": "e3e8",
+          "type": "choice",
+          "prompt": "Which claim does the passage make about physical objects?",
+          "answer": "cau",
+          "feedback": {
+            "kind": "quote",
+            "quote": "physical objects cannot act without causes",
+            "note": "Excerpt from the same speech. It sits next to the claim that the sense organs themselves are physical.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+          },
+          "choices": [
+            {
+              "id": "cau",
+              "text": "They cannot act without causes"
+            },
+            {
+              "id": "non",
+              "text": "They act without causes"
+            },
+            {
+              "id": "min",
+              "text": "They are ideas in a mind"
+            },
+            {
+              "id": "opt",
+              "text": "Their action is optional"
+            }
+          ]
+        }
+      ]
+    },
+    "senses/stolen-concept": {
+      "exercises": [
+        {
+          "id": "e4e1",
+          "type": "choice",
+          "prompt": "Rand says arguments that attack the senses are variants of which fallacy?",
+          "answer": "st",
+          "feedback": {
+            "kind": "quote",
+            "quote": "The arguments of those who attack the senses are merely variants of the fallacy of the \"stolen concept.\"",
+            "note": "The foreword names the fallacy. It does not, in this sentence, spell out every form the attack can take.",
+            "citation": "Ayn Rand, \"Foreword to the First Edition,\" Introduction to Objectivist Epistemology, 4"
+          },
+          "choices": [
+            {
+              "id": "st",
+              "text": "The stolen concept"
+            },
+            {
+              "id": "ad",
+              "text": "Appeal to authority"
+            },
+            {
+              "id": "eq",
+              "text": "Equivocation on a word’s spelling"
+            },
+            {
+              "id": "ci",
+              "text": "Appeal to the city"
+            }
+          ]
+        },
+        {
+          "id": "e4e2",
+          "type": "quote",
+          "prompt": "Which work contains that sentence about the stolen concept?",
+          "quote": "The arguments of those who attack the senses are merely variants of the fallacy of the \"stolen concept.\"",
+          "answer": "itoe",
+          "choices": [
+            {
+              "id": "itoe",
+              "text": "Introduction to Objectivist Epistemology, foreword"
+            },
+            {
+              "id": "as",
+              "text": "Atlas Shrugged"
+            },
+            {
+              "id": "fh",
+              "text": "The Fountainhead"
+            },
+            {
+              "id": "rm",
+              "text": "The Romantic Manifesto"
+            }
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "The arguments of those who attack the senses are merely variants of the fallacy of the \"stolen concept.\"",
+            "note": "It is in the foreword to the first edition, page 4 in the citation used by the Lexicon.",
+            "citation": "Ayn Rand, \"Foreword to the First Edition,\" Introduction to Objectivist Epistemology, 4"
+          }
+        },
+        {
+          "id": "e4e3",
+          "type": "choice",
+          "prompt": "Galt’s challenge to someone who rejects sensory perception is to:",
+          "answer": "pr",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Let the witch doctor who does not choose to accept the validity of sensory perception, try to prove it without using the data he obtained by sensory perception.",
+            "note": "The sentence opens with the words Let the witch doctor. That is Galt’s phrase. The challenge is the logical point: the denial still uses the data it denies.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 155"
+          },
+          "choices": [
+            {
+              "id": "pr",
+              "text": "Try to prove the rejection without using data gained by sensory perception"
+            },
+            {
+              "id": "vo",
+              "text": "Take a vote"
+            },
+            {
+              "id": "hi",
+              "text": "Hide the senses and keep the conclusion"
+            },
+            {
+              "id": "in",
+              "text": "Start from innate ideas that mention no percepts"
+            }
+          ]
+        },
+        {
+          "id": "e4e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the excerpt you already used.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "His"
+            },
+            {
+              "id": "t2",
+              "text": "senses"
+            },
+            {
+              "id": "t3",
+              "text": "cannot"
+            },
+            {
+              "id": "t4",
+              "text": "deceive"
+            },
+            {
+              "id": "t5",
+              "text": "him"
+            },
+            {
+              "id": "d1",
+              "text": "replace"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "His senses cannot deceive him",
+            "note": "Same excerpt as the previous floor. Repetition is the point of a ladder.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+          }
+        },
+        {
+          "id": "e4e5",
+          "type": "choice",
+          "prompt": "Why does the challenge matter?",
+          "answer": "use",
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Our wording of the trap: you cannot claim the senses are invalid without relying on sensory evidence to make and check the claim. Galt’s version is the sentence quoted on this floor that begins Let the witch doctor.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 155"
+          },
+          "choices": [
+            {
+              "id": "use",
+              "text": "A denial of the senses still uses sensory evidence to state the denial"
+            },
+            {
+              "id": "pol",
+              "text": "Because politics requires it"
+            },
+            {
+              "id": "old",
+              "text": "Because older books said so, and that is enough"
+            },
+            {
+              "id": "hid",
+              "text": "Because the senses are hidden and therefore guilty"
+            }
+          ]
+        },
+        {
+          "id": "e4e6",
+          "type": "match",
+          "prompt": "Match the idea to the role it plays in this floor.",
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Stolen concept is Rand’s name, quoted in the foreword in that form. The two glosses beside it in the match are ours: the fallacy is relying on what you deny, and the challenge is to do without the data.",
+            "citation": "Ayn Rand, \"Foreword to the First Edition,\" Introduction to Objectivist Epistemology, 4"
+          },
+          "pairs": [
+            {
+              "id": "st",
+              "left": "Stolen concept",
+              "right": "Using a conclusion while denying what it rests on"
+            },
+            {
+              "id": "se",
+              "left": "Sensory evidence",
+              "right": "The base the denial still uses"
+            },
+            {
+              "id": "pr",
+              "left": "The challenge",
+              "right": "Prove the denial without that data"
+            }
+          ]
+        },
+        {
+          "id": "e4e7",
+          "type": "choice",
+          "prompt": "Which conclusion does this floor license?",
+          "answer": "pre",
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Disagreement and misidentification happen at the conceptual level, where the process is volitional and fallible. That does not convert the sense organs into inventors. The quotations for the organs, the percept, and the stolen concept are on this unit’s earlier questions.",
+            "citation": "Ayn Rand, \"Concepts of Consciousness,\" Introduction to Objectivist Epistemology, 37"
+          },
+          "choices": [
+            {
+              "id": "pre",
+              "text": "You cannot throw out the senses and keep a proof that uses them"
+            },
+            {
+              "id": "bad",
+              "text": "The senses are guilty because people sometimes misidentify"
+            },
+            {
+              "id": "inn",
+              "text": "Knowledge starts from innate sentences"
+            },
+            {
+              "id": "no",
+              "text": "If two people disagree, neither perceived anything"
+            }
+          ]
+        },
+        {
+          "id": "e4e8",
+          "type": "choice",
+          "prompt": "The next epistemology topic on this ladder, after the validity of the senses, is:",
+          "answer": "cf",
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Concept-formation is the next epistemology floor on this tower, and it is not written yet. Rand’s bridge, already quoted, is that without sensory evidence there can be no concepts.",
+            "citation": "Ayn Rand, \"Kant Versus Sullivan,\" Philosophy: Who Needs It, 90"
+          },
+          "choices": [
+            {
+              "id": "cf",
+              "text": "Concept-formation, which is marked coming soon"
+            },
+            {
+              "id": "cap",
+              "text": "The moral basis of capitalism"
+            },
+            {
+              "id": "rom",
+              "text": "Romanticism in art"
+            },
+            {
+              "id": "tax",
+              "text": "A theory of tax rates"
+            }
+          ]
+        }
+      ]
+    },
+    "senses/holding-it": {
+      "exercises": [
+        {
+          "id": "e5e1",
+          "type": "choice",
+          "prompt": "Which order matches the texts in this unit?",
+          "answer": "ok",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Reason is the faculty that identifies and integrates the material provided by man's senses.",
+            "note": "Put the percept under that sentence: percepts, not isolated sensations, are the given form of the material.",
+            "citation": "Ayn Rand, \"The Objectivist Ethics,\" The Virtue of Selfishness, 20"
+          },
+          "choices": [
+            {
+              "id": "ok",
+              "text": "Senses provide material. Percepts are the given. Reason identifies and integrates."
+            },
+            {
+              "id": "bad",
+              "text": "Reason invents material. The senses vote on it. Percepts are optional."
+            },
+            {
+              "id": "inn",
+              "text": "Innate ideas come first. Percepts decorate them."
+            },
+            {
+              "id": "emo",
+              "text": "Emotions report the facts. The senses illustrate the emotions."
+            }
+          ]
+        },
+        {
+          "id": "e5e2",
+          "type": "match",
+          "prompt": "Match the sentence to its source.",
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each line is quoted in full on an earlier floor of this unit. This match asks only for the source, so the left column is a short tag rather than a fresh quotation.",
+            "citation": ""
+          },
+          "pairs": [
+            {
+              "id": "se",
+              "left": "Man's only direct cognitive contact",
+              "right": "Philosophy: Who Needs It"
+            },
+            {
+              "id": "pe",
+              "left": "Percepts, not sensations, are the given",
+              "right": "Introduction to Objectivist Epistemology"
+            },
+            {
+              "id": "em",
+              "left": "Emotions are not tools of cognition",
+              "right": "Playboy interview, March 1964"
+            },
+            {
+              "id": "de",
+              "left": "His senses cannot deceive him",
+              "right": "Galt's speech"
+            }
+          ]
+        },
+        {
+          "id": "e5e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the definition of reason.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Reason is the faculty that identifies and integrates the material provided by man's "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "senses"
+            }
+          ],
+          "bank": [
+            "senses",
+            "feelings",
+            "ancestors",
+            "rulers"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Reason is the faculty that identifies and integrates the material provided by man's senses.",
+            "note": "The last word is senses. Substituting feelings would make reason a rationalizer of emotion, which the interview denies.",
+            "citation": "Ayn Rand, \"The Objectivist Ethics,\" The Virtue of Selfishness, 20"
+          }
+        },
+        {
+          "id": "e5e4",
+          "type": "quote",
+          "prompt": "Which citation fits this standard of truth?",
+          "quote": "Truth is the recognition of reality; reason, man's only means of knowledge, is his only standard of truth.",
+          "answer": "ftni",
+          "choices": [
+            {
+              "id": "ftni",
+              "text": "For the New Intellectual (Galt's speech, from Atlas Shrugged)"
+            },
+            {
+              "id": "fh",
+              "text": "The Fountainhead"
+            },
+            {
+              "id": "rm",
+              "text": "The Romantic Manifesto"
+            },
+            {
+              "id": "an",
+              "text": "Anthem"
+            }
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Truth is the recognition of reality; reason, man's only means of knowledge, is his only standard of truth.",
+            "note": "Truth is tied to reality, and the standard named in the sentence is reason, not feeling and not a vote.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 126"
+          }
+        },
+        {
+          "id": "e5e5",
+          "type": "choice",
+          "prompt": "“Reason is man’s only means of grasping reality and of acquiring knowledge” implies which consequence, in the same sentence?",
+          "answer": "rej",
+          "feedback": {
+            "kind": "quote",
+            "quote": "Reason is man's only means of grasping reality and of acquiring knowledge—and, therefore, the rejection of reason means that men should act regardless of and/or in contradiction to the facts of reality.",
+            "note": "The “therefore” is part of the sentence. It is a consequence she draws, not a separate slogan.",
+            "citation": "Ayn Rand, \"The Left: Old and New,\" Return of the Primitive: The Anti-Industrial Revolution, 162"
+          },
+          "choices": [
+            {
+              "id": "rej",
+              "text": "Rejecting reason means acting regardless of, or against, the facts"
+            },
+            {
+              "id": "ok",
+              "text": "Rejecting reason leaves the facts untouched and the action rational"
+            },
+            {
+              "id": "emo",
+              "text": "Emotion then becomes the means of knowledge"
+            },
+            {
+              "id": "soc",
+              "text": "Society becomes the means of knowledge"
+            }
+          ]
+        },
+        {
+          "id": "e5e6",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the shorter truth sentence’s opening.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Truth"
+            },
+            {
+              "id": "t2",
+              "text": "is"
+            },
+            {
+              "id": "t3",
+              "text": "the"
+            },
+            {
+              "id": "t4",
+              "text": "recognition"
+            },
+            {
+              "id": "t5",
+              "text": "of"
+            },
+            {
+              "id": "t6",
+              "text": "reality"
+            },
+            {
+              "id": "d1",
+              "text": "feeling"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6"
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Truth is the recognition of reality; reason, man's only means of knowledge, is his only standard of truth.",
+            "note": "You built the opening clause. The sentence goes on to name reason as the only standard.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 126"
+          }
+        },
+        {
+          "id": "e5e7",
+          "type": "choice",
+          "prompt": "A philosophic system, in the West Point lecture, is:",
+          "answer": "int",
+          "feedback": {
+            "kind": "quote",
+            "quote": "A philosophic system is an integrated view of existence.",
+            "note": "The sentence defines a philosophic system as one view, not a pile of tips. This floor only asks for that definition.",
+            "citation": "Ayn Rand, \"Philosophy: Who Needs It,\" Philosophy: Who Needs It, 5"
+          },
+          "choices": [
+            {
+              "id": "int",
+              "text": "An integrated view of existence"
+            },
+            {
+              "id": "bag",
+              "text": "A grab bag of isolated tips"
+            },
+            {
+              "id": "mood",
+              "text": "A mood"
+            },
+            {
+              "id": "law",
+              "text": "A statute"
+            }
+          ]
+        },
+        {
+          "id": "e5e8",
+          "type": "choice",
+          "prompt": "Which mistake does this unit treat as a stolen-concept move?",
+          "answer": "atk",
+          "feedback": {
+            "kind": "quote",
+            "quote": "The arguments of those who attack the senses are merely variants of the fallacy of the \"stolen concept.\"",
+            "note": "You can now say what is stolen: the evidential base the argument still stands on.",
+            "citation": "Ayn Rand, \"Foreword to the First Edition,\" Introduction to Objectivist Epistemology, 4"
+          },
+          "choices": [
+            {
+              "id": "atk",
+              "text": "Attacking the senses while using sensory evidence to make the attack"
+            },
+            {
+              "id": "see",
+              "text": "Reporting what you see"
+            },
+            {
+              "id": "int",
+              "text": "Integrating two percepts"
+            },
+            {
+              "id": "nam",
+              "text": "Naming an entity"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

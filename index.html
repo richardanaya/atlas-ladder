@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atlas Ladder</title>
+  <meta name="description" content="Atlas Ladder is a study tower for Objectivism, the philosophy of Ayn Rand.">
+  <meta name="theme-color" content="#2A4E5A">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpolygon points='10,1 22,1 31,10 31,22 22,31 10,31 1,22 1,10' fill='%232A4E5A' stroke='%23A8C4CF'/%3E%3Ccircle cx='16' cy='16' r='5' fill='none' stroke='%23A8C4CF'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;500&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body class="is-tower">
+  <div class="app-shell">
+    <header class="topbar">
+      <button type="button" class="icon-btn" id="home" aria-label="Back to the tower">⌂</button>
+      <p class="brand">Atlas Ladder</p>
+      <streak-flame id="streak" count="0"></streak-flame>
+      <xp-bar id="xp" xp="0"></xp-bar>
+      <button type="button" class="icon-btn" id="mute" aria-pressed="false">Sound</button>
+      <button type="button" class="icon-btn" id="reset" aria-label="Reset progress">Reset</button>
+    </header>
+    <div class="frame">
+      <nav class="rail" id="rail" aria-label="Sections"></nav>
+      <main id="main"></main>
+      <aside class="dossier" id="dossier" aria-label="Your climb">
+        <div class="dossier-card">
+          <atlas-mascot id="side-atlas" state="idle" size="lg"></atlas-mascot>
+          <p class="dossier-pose" id="side-pose">Idle</p>
+          <div class="pose-row" id="side-poses">
+            <button type="button" data-pose="idle">Idle</button>
+            <button type="button" data-pose="thinking">Thinking</button>
+            <button type="button" data-pose="encourage">Encourage</button>
+            <button type="button" data-pose="cheer">Cheer</button>
+            <button type="button" data-pose="celebrate">Celebrate</button>
+          </div>
+          <button type="button" class="play-poses" id="side-play">Play the five poses</button>
+          <div class="dossier-meters" id="dossier-meters"></div>
+          <div class="dossier-unit" id="dossier-unit"></div>
+        </div>
+      </aside>
+    </div>
+    <footer class="colophon">
+      <button type="button" id="sources-link">Sources</button>
+      <span>A study aid. Not a substitute for the books.</span>
+    </footer>
+  </div>
+  <dialog id="reset-dialog">
+    <form method="dialog">
+      <h2>Reset the climb?</h2>
+      <p>XP, the streak, and every finished floor will be cleared from this browser.</p>
+      <div class="dialog-actions">
+        <button type="submit" value="cancel">Keep going</button>
+        <button type="submit" value="reset">Reset</button>
+      </div>
+    </form>
+  </dialog>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
