@@ -1,0 +1,805 @@
+{
+  "sectionId": "epistemology",
+  "sectionFile": "epistemology.json",
+  "unitId": "concepts",
+  "title": "Concept-Formation and Measurement-Omission",
+  "summary": "Differentiation, integration, and concepts as a mathematical process of measurement-omission.",
+  "lessons": [
+    {
+      "id": "differentiation",
+      "title": "Set the group apart",
+      "objective": "Isolate units by what they share with each other and how they differ from a wider background.",
+      "exercises": [
+        {
+          "id": "diff-start",
+          "type": "choice",
+          "prompt": "What is the first move in forming a concept?",
+          "answer": "isolate",
+          "choices": [
+            { "id": "isolate", "text": "Isolate a group from a wider background" },
+            { "id": "define", "text": "Write a dictionary definition first" },
+            { "id": "name", "text": "Invent a word with no observed group" },
+            { "id": "feel", "text": "Wait until the items feel alike" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Concept-formation starts by setting some existents apart from the rest of what you perceive."
+          }
+        },
+        {
+          "id": "diff-two",
+          "type": "choice",
+          "prompt": "A similarity you can use for a concept holds between how many existents?",
+          "answer": "two",
+          "choices": [
+            { "id": "two", "text": "At least two" },
+            { "id": "one", "text": "Exactly one, with nothing to compare" },
+            { "id": "none", "text": "None; likeness is supplied by the word" },
+            { "id": "all", "text": "Only when every existent in the world is included" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Differentiation needs more than one unit. A lone item has no similar members to group."
+          }
+        },
+        {
+          "id": "diff-match",
+          "type": "match",
+          "prompt": "Match each move to what it does in differentiation.",
+          "pairs": [
+            { "id": "sim", "left": "Notice a shared characteristic", "right": "See what the members have in common" },
+            { "id": "con", "left": "Notice a contrast", "right": "See how the group differs from the background" },
+            { "id": "iso", "left": "Isolate the units", "right": "Treat the similar existents as one group" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "You differentiate by likeness inside the group and difference from what you leave outside it."
+          }
+        },
+        {
+          "id": "diff-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the two sides of differentiation.",
+          "parts": [
+            { "type": "text", "text": "Members are grouped by " },
+            { "type": "blank", "id": "b1", "answer": "similarity" },
+            { "type": "text", "text": " and set off by " },
+            { "type": "blank", "id": "b2", "answer": "difference" },
+            { "type": "text", "text": " from the wider background." }
+          ],
+          "bank": ["similarity", "difference", "whim", "faith"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Both sides are required. Similarity without a contrast does not mark a group off from the rest."
+          }
+        },
+        {
+          "id": "diff-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Put the first step in order.",
+          "tokens": [
+            { "id": "t1", "text": "Perceive" },
+            { "id": "t2", "text": "similar units" },
+            { "id": "t3", "text": "against a wider background" },
+            { "id": "d1", "text": "then invent the facts" },
+            { "id": "d2", "text": "skip observation" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Differentiation works on what you already perceive. It does not invent the units."
+          }
+        },
+        {
+          "id": "diff-unit",
+          "type": "choice",
+          "prompt": "In this process, a unit is an existent regarded as what?",
+          "answer": "member",
+          "choices": [
+            { "id": "member", "text": "A separate member of a group" },
+            { "id": "word", "text": "A dictionary entry" },
+            { "id": "mood", "text": "A private mood" },
+            { "id": "axiom", "text": "A replacement for the axioms" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A unit is one existent looked at as a member of the group you are isolating."
+          }
+        },
+        {
+          "id": "diff-not",
+          "type": "match",
+          "prompt": "Match each mistake to the differentiation rule it breaks.",
+          "pairs": [
+            { "id": "one", "left": "Grouping a single item with no peers", "right": "You need similar units" },
+            { "id": "mix", "left": "Ignoring how the group differs from the rest", "right": "You need a contrast" },
+            { "id": "wish", "left": "Sorting by what you wish were true", "right": "You use observed characteristics" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The group is carved from perception by real likeness and real contrast, not by a wish."
+          }
+        },
+        {
+          "id": "diff-blank2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the background the group is set against.",
+          "parts": [
+            { "type": "text", "text": "The units are isolated from a " },
+            { "type": "blank", "id": "b1", "answer": "wider" },
+            { "type": "text", "text": " background." }
+          ],
+          "bank": ["wider", "imaginary", "private", "empty"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The background is the wider field of existents you are not putting in this group."
+          }
+        },
+        {
+          "id": "diff-sentence2",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states what differentiation produces.",
+          "tokens": [
+            { "id": "a", "text": "Differentiation" },
+            { "id": "b", "text": "isolates" },
+            { "id": "c", "text": "a group of units" },
+            { "id": "d", "text": "erases the units" },
+            { "id": "e", "text": "replaces perception" }
+          ],
+          "answer": ["a", "b", "c"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The product of this step is an isolated group, not yet the integrated concept."
+          }
+        }
+      ]
+    },
+    {
+      "id": "integration",
+      "title": "Unite the units",
+      "objective": "Integrate the isolated units into one new mental entity, the concept.",
+      "exercises": [
+        {
+          "id": "int-what",
+          "type": "choice",
+          "prompt": "After the units are isolated, what does integration do with them?",
+          "answer": "unite",
+          "choices": [
+            { "id": "unite", "text": "Unites them into one mental entity" },
+            { "id": "drops", "text": "Drops them and keeps only a word" },
+            { "id": "splits", "text": "Splits each unit into sensations" },
+            { "id": "votes", "text": "Lets a group vote them into one thing" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Integration is the uniting step. The many units become one concept in your mind."
+          }
+        },
+        {
+          "id": "int-entity",
+          "type": "choice",
+          "prompt": "What kind of entity is a concept?",
+          "answer": "mental",
+          "choices": [
+            { "id": "mental", "text": "A mental integration of units" },
+            { "id": "rock", "text": "A physical object sitting beside the units" },
+            { "id": "mood", "text": "An emotion about the units" },
+            { "id": "law", "text": "A statute passed about the units" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The concept is not a new physical object. It is the mental product of integrating the units."
+          }
+        },
+        {
+          "id": "int-match",
+          "type": "match",
+          "prompt": "Match each item to its role.",
+          "pairs": [
+            { "id": "u", "left": "The separate existents", "right": "Units being integrated" },
+            { "id": "c", "left": "The one mental product", "right": "The concept" },
+            { "id": "d", "left": "The earlier isolating step", "right": "Differentiation" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Differentiation isolates. Integration then treats those units as one concept."
+          }
+        },
+        {
+          "id": "int-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the description of a concept.",
+          "parts": [
+            { "type": "text", "text": "A concept is a mental " },
+            { "type": "blank", "id": "b1", "answer": "integration" },
+            { "type": "text", "text": " of two or more " },
+            { "type": "blank", "id": "b2", "answer": "units" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["integration", "units", "whim", "axioms"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Two or more units are required. One item alone is not an integration."
+          }
+        },
+        {
+          "id": "int-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Order the two main acts of concept-formation so far.",
+          "tokens": [
+            { "id": "t1", "text": "Differentiate" },
+            { "id": "t2", "text": "then integrate" },
+            { "id": "d1", "text": "then forget the units" },
+            { "id": "d2", "text": "skip the group" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "You isolate the group first, then unite its members into the concept."
+          }
+        },
+        {
+          "id": "int-new",
+          "type": "choice",
+          "prompt": "Why call the concept a new mental entity?",
+          "answer": "one",
+          "choices": [
+            { "id": "one", "text": "Many units are now held as one" },
+            { "id": "extra", "text": "A new physical existent has been created" },
+            { "id": "less", "text": "You now know less than the percepts showed" },
+            { "id": "mood", "text": "The feeling replaces the units" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The newness is mental. The units stay what they are; your mind now holds them as one."
+          }
+        },
+        {
+          "id": "int-match2",
+          "type": "match",
+          "prompt": "Match the count to the right description.",
+          "pairs": [
+            { "id": "many", "left": "Two or more units", "right": "What gets integrated" },
+            { "id": "one", "left": "One concept", "right": "What the integration produces" },
+            { "id": "zero", "left": "No observed units", "right": "Not enough to form a concept" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Integration reduces many observed units to one mental entity. Zero units leaves nothing to unite."
+          }
+        },
+        {
+          "id": "int-blank2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the verb that names this step.",
+          "parts": [
+            { "type": "text", "text": "To form the concept, you " },
+            { "type": "blank", "id": "b1", "answer": "integrate" },
+            { "type": "text", "text": " the isolated units." }
+          ],
+          "bank": ["integrate", "erase", "vote", "feel"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The name of the uniting step is integration."
+          }
+        },
+        {
+          "id": "int-sentence2",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the result of a successful integration.",
+          "tokens": [
+            { "id": "a", "text": "The units" },
+            { "id": "b", "text": "become" },
+            { "id": "c", "text": "one concept" },
+            { "id": "d", "text": "a new rock" },
+            { "id": "e", "text": "a mood" }
+          ],
+          "answer": ["a", "b", "c"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Success means one concept, not a new physical thing and not a feeling standing in for the units."
+          }
+        },
+        {
+          "id": "int-still",
+          "type": "choice",
+          "prompt": "Does integration throw away the fact that the members are distinct existents?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. It holds distinct units as one mental group" },
+            { "id": "yes", "text": "Yes. The members stop being separate existents" },
+            { "id": "maybe", "text": "Only if a committee agrees" },
+            { "id": "sense", "text": "Yes. It replaces them with raw sensations" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The units remain distinct existents. The concept is how your mind holds them together."
+          }
+        }
+      ]
+    },
+    {
+      "id": "measurable",
+      "title": "Same characteristic, different measure",
+      "objective": "Treat similarity as the same characteristic possessed in different measure, so the process is mathematical.",
+      "exercises": [
+        {
+          "id": "meas-sim",
+          "type": "choice",
+          "prompt": "On this account, two units are similar when they share what?",
+          "answer": "char",
+          "choices": [
+            { "id": "char", "text": "The same characteristic in different measure" },
+            { "id": "name", "text": "The same nickname and nothing else" },
+            { "id": "mood", "text": "The same feeling in the observer" },
+            { "id": "none", "text": "No characteristic at all" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Similarity here is not a vague likeness. It is one characteristic appearing in more than one measurement."
+          }
+        },
+        {
+          "id": "meas-math",
+          "type": "choice",
+          "prompt": "Why is concept-formation called a mathematical process?",
+          "answer": "measure",
+          "choices": [
+            { "id": "measure", "text": "The shared characteristic comes in measurements" },
+            { "id": "algebra", "text": "You must solve an equation before you may look" },
+            { "id": "count", "text": "Only numbers can be conceptualized" },
+            { "id": "vote", "text": "A majority assigns the quantities" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The mathematics is the measurements of a characteristic, not a requirement that every concept be a numeral."
+          }
+        },
+        {
+          "id": "meas-match",
+          "type": "match",
+          "prompt": "Match each idea to its place in the measurement story.",
+          "pairs": [
+            { "id": "attr", "left": "Characteristic", "right": "What the units have in common" },
+            { "id": "qty", "left": "Measurement", "right": "The amount or degree of that characteristic" },
+            { "id": "sim", "left": "Similarity", "right": "Same characteristic, different measure" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the characteristic distinct from the particular amount in which a given unit has it."
+          }
+        },
+        {
+          "id": "meas-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the formula for similarity.",
+          "parts": [
+            { "type": "text", "text": "Same characteristic, " },
+            { "type": "blank", "id": "b1", "answer": "different" },
+            { "type": "text", "text": " measure." }
+          ],
+          "bank": ["different", "zero", "imaginary", "secret"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If the measure did not differ, you would not be relating distinct units by degree."
+          }
+        },
+        {
+          "id": "meas-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the mathematical claim in plain order.",
+          "tokens": [
+            { "id": "t1", "text": "The characteristic" },
+            { "id": "t2", "text": "exists" },
+            { "id": "t3", "text": "in some measurement" },
+            { "id": "d1", "text": "in no amount at all" },
+            { "id": "d2", "text": "only as a feeling" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A characteristic relevant to a concept is present in some quantity. A measure of none is not that characteristic."
+          }
+        },
+        {
+          "id": "meas-not-number",
+          "type": "choice",
+          "prompt": "Must every unit in the group have the same numerical amount?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. The amounts may differ" },
+            { "id": "yes", "text": "Yes. Only identical amounts can be grouped" },
+            { "id": "zero", "text": "Yes. The amount must be zero" },
+            { "id": "any", "text": "The characteristic need not be measurable" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The group is held together by the characteristic, while the particular measurements are allowed to vary."
+          }
+        },
+        {
+          "id": "meas-match2",
+          "type": "match",
+          "prompt": "Match the example pattern to the idea it illustrates.",
+          "pairs": [
+            { "id": "len", "left": "Longer and shorter tables", "right": "Length in different measure" },
+            { "id": "hue", "left": "A darker red and a lighter red", "right": "Color in different degree" },
+            { "id": "none", "left": "A shared nickname only", "right": "Not a measured characteristic" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Length and shade are characteristics that come in degree. A label by itself is not a measurement."
+          }
+        },
+        {
+          "id": "meas-blank2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two words that make the process mathematical.",
+          "parts": [
+            { "type": "text", "text": "Concept-formation uses a " },
+            { "type": "blank", "id": "b1", "answer": "measurable" },
+            { "type": "text", "text": " characteristic, so the process is " },
+            { "type": "blank", "id": "b2", "answer": "mathematical" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["measurable", "mathematical", "emotional", "arbitrary"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Mathematical here means measurement of a characteristic, not a mood and not an arbitrary tag."
+          }
+        },
+        {
+          "id": "meas-sentence2",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "State what may vary inside one group.",
+          "tokens": [
+            { "id": "a", "text": "The measurements" },
+            { "id": "b", "text": "may differ" },
+            { "id": "c", "text": "the characteristic stays the same" },
+            { "id": "d", "text": "the characteristic vanishes" },
+            { "id": "e", "text": "nothing is observed" }
+          ],
+          "answer": ["a", "b", "c"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Variation belongs to the measurements. The characteristic those measurements are of stays the basis of the group."
+          }
+        }
+      ]
+    },
+    {
+      "id": "omission",
+      "title": "Omit the particular measurements",
+      "objective": "Form the concept by retaining the characteristic and omitting the particular measurements.",
+      "exercises": [
+        {
+          "id": "om-what",
+          "type": "choice",
+          "prompt": "When the concept is formed, which measurements are omitted?",
+          "answer": "particular",
+          "choices": [
+            { "id": "particular", "text": "The particular measurements of the units" },
+            { "id": "char", "text": "The characteristic itself" },
+            { "id": "all", "text": "The fact that any measurement exists" },
+            { "id": "percept", "text": "The percepts that supplied the evidence" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Measurement-omission drops the specific amounts. It does not drop the characteristic or the evidence."
+          }
+        },
+        {
+          "id": "om-keep",
+          "type": "choice",
+          "prompt": "What does the concept retain?",
+          "answer": "char",
+          "choices": [
+            { "id": "char", "text": "The characteristic, without the specific amounts" },
+            { "id": "one", "text": "Only the measurement of the first unit you saw" },
+            { "id": "none", "text": "Neither the characteristic nor any awareness of measure" },
+            { "id": "wish", "text": "Whatever amount you prefer" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "You keep the attribute and let the specific quantities go. The concept is not tied to one specimen’s amount."
+          }
+        },
+        {
+          "id": "om-match",
+          "type": "match",
+          "prompt": "Match each item to whether the concept keeps it.",
+          "pairs": [
+            { "id": "c", "left": "The characteristic", "right": "Retained" },
+            { "id": "m", "left": "The particular measurements", "right": "Omitted" },
+            { "id": "s", "left": "The requirement that some measurement exists", "right": "Still understood" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Omitting the particulars is not denying that the characteristic has some measurement on each unit."
+          }
+        },
+        {
+          "id": "om-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rule of measurement-omission.",
+          "parts": [
+            { "type": "text", "text": "Retain the characteristic and " },
+            { "type": "blank", "id": "b1", "answer": "omit" },
+            { "type": "text", "text": " the particular " },
+            { "type": "blank", "id": "b2", "answer": "measurements" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["omit", "measurements", "worship", "feelings"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That pair of actions is measurement-omission: keep the kind of attribute, drop the specific measures."
+          }
+        },
+        {
+          "id": "om-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build what the concept covers.",
+          "tokens": [
+            { "id": "t1", "text": "Every measurement" },
+            { "id": "t2", "text": "of that characteristic" },
+            { "id": "d1", "text": "only yesterday’s specimen" },
+            { "id": "d2", "text": "no quantity whatever" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Because the specific amounts are omitted, the concept is open to the measurements you have not met yet."
+          }
+        },
+        {
+          "id": "om-open",
+          "type": "choice",
+          "prompt": "A new table is longer than any table you have seen. Does the concept still cover it?",
+          "answer": "yes",
+          "choices": [
+            { "id": "yes", "text": "Yes. Its length is another measurement of the same characteristic" },
+            { "id": "no", "text": "No. Concepts freeze the first measurements you noticed" },
+            { "id": "vote", "text": "Only after a poll adds it" },
+            { "id": "feel", "text": "Only if it feels like a table" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Omission makes the concept open-ended across the range of measurements, including ones not yet observed."
+          }
+        },
+        {
+          "id": "om-match2",
+          "type": "match",
+          "prompt": "Match each error to what it confuses.",
+          "pairs": [
+            { "id": "drop", "left": "Dropping the characteristic along with the amounts", "right": "Omission goes too far" },
+            { "id": "lock", "left": "Locking the concept to one specimen’s size", "right": "Omission was skipped" },
+            { "id": "deny", "left": "Saying the units have no measurement at all", "right": "Some quantity is still required" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The omitted item is the particular measurement, not the characteristic and not the fact of quantity."
+          }
+        },
+        {
+          "id": "om-blank2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the word for the range the concept leaves open.",
+          "parts": [
+            { "type": "text", "text": "With the particulars omitted, the concept is " },
+            { "type": "blank", "id": "b1", "answer": "open-ended" },
+            { "type": "text", "text": " across measurements." }
+          ],
+          "bank": ["open-ended", "frozen", "private", "empty"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Open-ended means later measurements of the same characteristic still fall under the concept."
+          }
+        },
+        {
+          "id": "om-sentence2",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "State the omission in one line.",
+          "tokens": [
+            { "id": "a", "text": "Omit" },
+            { "id": "b", "text": "the particular measurements" },
+            { "id": "c", "text": "not the characteristic" },
+            { "id": "d", "text": "not the percepts" },
+            { "id": "e", "text": "the whole world" }
+          ],
+          "answer": ["a", "b", "c"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Say what is omitted and what is not. The characteristic stays; the specific measures do not."
+          }
+        }
+      ]
+    },
+    {
+      "id": "whole-process",
+      "title": "One mathematical process",
+      "objective": "Run differentiation, integration, and measurement-omission as one ordered process that yields a concept.",
+      "exercises": [
+        {
+          "id": "wh-order",
+          "type": "choice",
+          "prompt": "Which order is the process?",
+          "answer": "right",
+          "choices": [
+            { "id": "right", "text": "Differentiate, integrate, omit the particular measurements" },
+            { "id": "back", "text": "Omit measurements before you have any units" },
+            { "id": "word", "text": "Choose a word, then look for something it might fit" },
+            { "id": "feel", "text": "Feel a likeness, then skip the characteristic" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The acts are one process in that order: isolate, unite, and omit the specific measures."
+          }
+        },
+        {
+          "id": "wh-product",
+          "type": "choice",
+          "prompt": "What does the full process produce?",
+          "answer": "concept",
+          "choices": [
+            { "id": "concept", "text": "A concept: units integrated with measurements omitted" },
+            { "id": "percept", "text": "A new sense organ" },
+            { "id": "axiom", "text": "A substitute for existence and identity" },
+            { "id": "mood", "text": "An emotion used as evidence" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The product is a concept. It is not a new faculty of sense and not a feeling standing in for knowledge."
+          }
+        },
+        {
+          "id": "wh-match",
+          "type": "match",
+          "prompt": "Match each stage to its job.",
+          "pairs": [
+            { "id": "d", "left": "Differentiation", "right": "Isolate the units" },
+            { "id": "i", "left": "Integration", "right": "Unite them into one mental entity" },
+            { "id": "o", "left": "Measurement-omission", "right": "Drop the particular amounts, keep the characteristic" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each stage has one job. Together they are concept-formation."
+          }
+        },
+        {
+          "id": "wh-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the process in the unit’s own terms.",
+          "parts": [
+            { "type": "text", "text": "A concept is formed by differentiation, " },
+            { "type": "blank", "id": "b1", "answer": "integration" },
+            { "type": "text", "text": ", and " },
+            { "type": "blank", "id": "b2", "answer": "measurement-omission" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["integration", "measurement-omission", "faith", "voting"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Those three names are the whole of this unit: differentiate, integrate, omit measurements."
+          }
+        },
+        {
+          "id": "wh-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the process from start to product.",
+          "tokens": [
+            { "id": "t1", "text": "Isolate similar units" },
+            { "id": "t2", "text": "integrate them" },
+            { "id": "t3", "text": "omit the particular measurements" },
+            { "id": "d1", "text": "replace the units with a wish" },
+            { "id": "d2", "text": "deny that measures exist" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Follow the units from a perceived group to one concept whose specific measures are omitted."
+          }
+        },
+        {
+          "id": "wh-base",
+          "type": "choice",
+          "prompt": "Where do the units in this process come from?",
+          "answer": "percepts",
+          "choices": [
+            { "id": "percepts", "text": "From perceived existents" },
+            { "id": "words", "text": "From words that exist before any awareness" },
+            { "id": "dreams", "text": "From dreams that need no evidence" },
+            { "id": "votes", "text": "From a vote about what should exist" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Concept-formation works on existents you perceive. It does not start from a free-floating word."
+          }
+        },
+        {
+          "id": "wh-match2",
+          "type": "match",
+          "prompt": "Match each claim to the verdict.",
+          "pairs": [
+            { "id": "ok", "left": "Same characteristic, measurements omitted", "right": "This is a concept" },
+            { "id": "bad1", "left": "One object, no contrast, no integration", "right": "Not yet a concept" },
+            { "id": "bad2", "left": "A feeling with no measured characteristic", "right": "Not this process" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Use the full process as the test. A lone item or a bare feeling has not completed it."
+          }
+        },
+        {
+          "id": "wh-blank2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the kind of process the unit assigns to concepts.",
+          "parts": [
+            { "type": "text", "text": "Concept-formation is a " },
+            { "type": "blank", "id": "b1", "answer": "mathematical" },
+            { "type": "text", "text": " process of measurement-omission." }
+          ],
+          "bank": ["mathematical", "mystical", "political", "random"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit’s name for the process is mathematical because it omits measurements of a characteristic."
+          }
+        },
+        {
+          "id": "wh-sentence2",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Close the unit in one sentence.",
+          "tokens": [
+            { "id": "a", "text": "A concept" },
+            { "id": "b", "text": "integrates units" },
+            { "id": "c", "text": "by omitting particular measurements" },
+            { "id": "d", "text": "by erasing the characteristic" },
+            { "id": "e", "text": "by replacing reality" }
+          ],
+          "answer": ["a", "b", "c"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That is the unit in one line: integration of units through measurement-omission."
+          }
+        },
+        {
+          "id": "wh-scope",
+          "type": "choice",
+          "prompt": "Which question belongs to this unit rather than a later one?",
+          "answer": "how",
+          "choices": [
+            { "id": "how", "text": "How are units integrated by omitting measurements?" },
+            { "id": "def", "text": "How should a definition be worded as a later step?" },
+            { "id": "gov", "text": "What is the proper role of government?" },
+            { "id": "art", "text": "What makes a painting romanticist?" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "This unit stops at the mathematical process itself: differentiation, integration, and measurement-omission."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

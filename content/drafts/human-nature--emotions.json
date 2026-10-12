@@ -1,0 +1,854 @@
+{
+  "sectionId": "human-nature",
+  "sectionFile": "human-nature.json",
+  "unitId": "emotions",
+  "title": "Emotions as Products of Ideas",
+  "summary": "Emotions as consequences of value-judgments, not as tools that discover facts.",
+  "lessons": [
+    {
+      "id": "products-of-ideas",
+      "title": "Products of ideas",
+      "objective": "See an emotion as a consequence of a value-judgment you already hold, not as a first fact about the world.",
+      "exercises": [
+        {
+          "id": "p1",
+          "type": "choice",
+          "prompt": "In this unit, an emotion is a product of what?",
+          "answer": "ideas",
+          "choices": [
+            { "id": "ideas", "text": "Ideas you hold, in the form of a value-judgment" },
+            { "id": "facts", "text": "The facts themselves, with no judgment in between" },
+            { "id": "sense", "text": "A special sense that discovers what is" },
+            { "id": "vote", "text": "A vote of the people around you" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An emotion follows from ideas: a value-judgment about something as for you or against you. It is not a raw piece of the world."
+          }
+        },
+        {
+          "id": "p2",
+          "type": "match",
+          "prompt": "Match each item to the role this unit gives it.",
+          "pairs": [
+            { "id": "em", "left": "Emotion", "right": "A consequence that follows" },
+            { "id": "vj", "left": "Value-judgment", "right": "An estimate of for or against" },
+            { "id": "id", "left": "Idea", "right": "The premise the estimate rests on" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Ideas support a value-judgment. The emotion is what follows from that judgment. None of the three is a substitute for the facts."
+          }
+        },
+        {
+          "id": "p3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit's basic claim.",
+          "parts": [
+            { "type": "text", "text": "An emotion is a consequence of a value-" },
+            { "type": "blank", "id": "b1", "answer": "judgment" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["judgment", "sensation", "vote", "habit"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word to hold is judgment. The feeling is the consequence, not a sensation standing in for a conclusion, and not a group vote."
+          }
+        },
+        {
+          "id": "p4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the claim in the order this unit teaches it.",
+          "tokens": [
+            { "id": "t1", "text": "Emotions" },
+            { "id": "t2", "text": "follow" },
+            { "id": "t3", "text": "value-judgments" },
+            { "id": "d1", "text": "discover" },
+            { "id": "d2", "text": "facts" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Emotions follow value-judgments. They do not discover facts. Leave the distractors out."
+          }
+        },
+        {
+          "id": "p5",
+          "type": "choice",
+          "prompt": "What is a value-judgment, in this unit?",
+          "answer": "est",
+          "choices": [
+            { "id": "est", "text": "Your estimate that something is for you or against you" },
+            { "id": "color", "text": "The color of an object, with no evaluation" },
+            { "id": "date", "text": "The date on which something happened" },
+            { "id": "pulse", "text": "The mere fact that your heart is beating" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A value-judgment evaluates: for or against, gain or threat, good or bad by the ideas you hold. A bare color, date, or pulse is not yet that estimate."
+          }
+        },
+        {
+          "id": "p6",
+          "type": "match",
+          "prompt": "Match each feeling to the kind of value-judgment it follows.",
+          "pairs": [
+            { "id": "joy", "left": "Joy at a real achievement", "right": "Judgment that something is a gain" },
+            { "id": "fear", "left": "Fear of a real threat", "right": "Judgment that something is a danger" },
+            { "id": "res", "left": "Resentment of a benefit", "right": "Judgment that a gain is a loss" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The same kind of event can be met with different feelings because the value-judgment differs. The feeling tracks the estimate, including a mistaken one."
+          }
+        },
+        {
+          "id": "p7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "What has to change if a mistaken emotion is to change?",
+          "parts": [
+            { "type": "text", "text": "Change the " },
+            { "type": "blank", "id": "b1", "answer": "idea" },
+            { "type": "text", "text": " behind the judgment, and the emotion that follows can change." }
+          ],
+          "bank": ["idea", "weather", "crowd", "calendar"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Emotions are products of ideas. A new weather report, crowd, or calendar date does not rewrite the judgment. A revised idea can."
+          }
+        },
+        {
+          "id": "p8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Say what an emotion is not.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "feeling" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "not" },
+            { "id": "t5", "text": "a" },
+            { "id": "t6", "text": "first" },
+            { "id": "t7", "text": "fact" },
+            { "id": "d1", "text": "proof" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The feeling is real as a feeling, but it is not a first fact about the world. It arrives after an estimate."
+          }
+        },
+        {
+          "id": "p9",
+          "type": "choice",
+          "prompt": "Two people feel differently about the same event. This unit locates the difference in what?",
+          "answer": "judg",
+          "choices": [
+            { "id": "judg", "text": "Their value-judgments about the event" },
+            { "id": "event", "text": "Two different events, despite the shared description" },
+            { "id": "eyes", "text": "A difference in eyesight alone" },
+            { "id": "clock", "text": "The clock time of the event" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One event can be judged as a gain by one person and as a threat by another. The emotions follow those judgments, not a second copy of the event."
+          }
+        }
+      ]
+    },
+    {
+      "id": "estimate-not-facts",
+      "title": "An estimate, not the facts",
+      "objective": "Distinguish what a feeling reports — your estimate of the facts — from what it does not report: the facts themselves.",
+      "exercises": [
+        {
+          "id": "n1",
+          "type": "choice",
+          "prompt": "What does a feeling tell you, on this unit's account?",
+          "answer": "est",
+          "choices": [
+            { "id": "est", "text": "Something about your estimate of the facts" },
+            { "id": "facts", "text": "The facts, apart from any estimate" },
+            { "id": "minds", "text": "What other people are thinking" },
+            { "id": "future", "text": "The future, as a finished record" }
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "What you feel tells you nothing about the facts; it merely tells you something about your estimate of the facts.",
+            "note": "The feeling is news about your estimate. It is not news about the facts.",
+            "citation": "Ayn Rand, interview with Alvin Toffler, Playboy, March 1964"
+          }
+        },
+        {
+          "id": "n2",
+          "type": "choice",
+          "prompt": "What does a feeling tell you nothing about?",
+          "answer": "facts",
+          "choices": [
+            { "id": "facts", "text": "The facts" },
+            { "id": "est", "text": "Your estimate of the facts" },
+            { "id": "hold", "text": "That you hold some evaluation" },
+            { "id": "now", "text": "That you are feeling something now" }
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "What you feel tells you nothing about the facts; it merely tells you something about your estimate of the facts.",
+            "note": "You can know that you feel something, and still learn nothing about whether the estimate matches the facts.",
+            "citation": "Ayn Rand, interview with Alvin Toffler, Playboy, March 1964"
+          }
+        },
+        {
+          "id": "n3",
+          "type": "match",
+          "prompt": "Match each term to what it reports.",
+          "pairs": [
+            { "id": "feel", "left": "A feeling", "right": "Your estimate" },
+            { "id": "fact", "left": "A fact", "right": "What is, apart from that estimate" },
+            { "id": "check", "left": "A check against the facts", "right": "Whether the estimate holds" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the three jobs apart. The feeling delivers the estimate. The facts are what the estimate is about. Only a check can tell you whether they agree."
+          }
+        },
+        {
+          "id": "n4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the contrast.",
+          "parts": [
+            { "type": "text", "text": "A feeling reports your " },
+            { "type": "blank", "id": "b1", "answer": "estimate" },
+            { "type": "text", "text": " of the facts, not the facts." }
+          ],
+          "bank": ["estimate", "creation", "denial", "replacement"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Estimate is the right word. The feeling does not create the facts, deny them, or replace them."
+          }
+        },
+        {
+          "id": "n5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the report a feeling actually gives.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "feeling" },
+            { "id": "t3", "text": "reports" },
+            { "id": "t4", "text": "an" },
+            { "id": "t5", "text": "estimate" },
+            { "id": "d1", "text": "the" },
+            { "id": "d2", "text": "facts" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Stop at estimate. Adding the facts would turn the feeling into a report it does not make."
+          }
+        },
+        {
+          "id": "n6",
+          "type": "choice",
+          "prompt": "You are furious because you think a friend lied. Then you learn they did not. What did the fury tell you?",
+          "answer": "est",
+          "choices": [
+            { "id": "est", "text": "That you had judged the act as a betrayal" },
+            { "id": "lie", "text": "That the lie had happened" },
+            { "id": "tool", "text": "That anger is how lies are discovered" },
+            { "id": "follow", "text": "That the facts rearrange to match the fury" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The fury reported the estimate: betrayal. When the facts differed, the feeling did not become evidence that the lie occurred."
+          }
+        },
+        {
+          "id": "n7",
+          "type": "match",
+          "prompt": "Match each feeling to the estimate it reveals.",
+          "pairs": [
+            { "id": "calm", "left": "Calm about a real danger", "right": "An estimate that missed the threat" },
+            { "id": "panic", "left": "Panic about a harmless noise", "right": "An estimate that treated it as danger" },
+            { "id": "pleased", "left": "Pleasure at an honest gain", "right": "An estimate that the gain is good" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A feeling can fit the facts or miss them. In every case it still reports the estimate, not a separate look at the facts."
+          }
+        },
+        {
+          "id": "n8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Intensity does not settle the question.",
+          "parts": [
+            { "type": "text", "text": "The emotion can be intense and the " },
+            { "type": "blank", "id": "b1", "answer": "estimate" },
+            { "type": "text", "text": " still wrong." }
+          ],
+          "bank": ["estimate", "volume", "pulse", "weather"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A louder feeling is a stronger report of the estimate. Volume, pulse, and weather do not turn that estimate into a fact."
+          }
+        },
+        {
+          "id": "n9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "State the limit on intensity.",
+          "tokens": [
+            { "id": "t1", "text": "Intensity" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "evidence" },
+            { "id": "d1", "text": "proof" },
+            { "id": "d2", "text": "of" },
+            { "id": "d3", "text": "facts" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "How strong the feeling is does not measure how true the estimate is."
+          }
+        },
+        {
+          "id": "n10",
+          "type": "choice",
+          "prompt": "After a strong feeling, which question fits this unit?",
+          "answer": "which",
+          "choices": [
+            { "id": "which", "text": "What estimate of the facts produced this?" },
+            { "id": "prove", "text": "Which fact did the feeling prove?" },
+            { "id": "vote", "text": "How do I vote the feeling into reality?" },
+            { "id": "skip", "text": "Which fact can I skip because I already feel sure?" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The useful question asks for the estimate. The feeling did not prove a fact, enact one, or license you to skip one."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-a-tool",
+      "title": "Not a tool that discovers facts",
+      "objective": "Reject the claim that emotions are tools of cognition — means that discover facts.",
+      "exercises": [
+        {
+          "id": "t1",
+          "type": "choice",
+          "prompt": "Are emotions tools of cognition?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. They do not discover facts" },
+            { "id": "yes", "text": "Yes. A strong feeling is a way of knowing" },
+            { "id": "sometimes", "text": "Yes, whenever the feeling is sincere" },
+            { "id": "only", "text": "Yes, but only about other people's ideas" }
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Emotions are not tools of cognition.",
+            "note": "Sincerity and strength do not turn an emotion into a means of knowing facts.",
+            "citation": "Ayn Rand, interview with Alvin Toffler, Playboy, March 1964"
+          }
+        },
+        {
+          "id": "t2",
+          "type": "choice",
+          "prompt": "What would a tool of cognition do, in the contrast this unit draws?",
+          "answer": "discover",
+          "choices": [
+            { "id": "discover", "text": "Discover or identify facts" },
+            { "id": "follow", "text": "Follow automatically from a value-judgment" },
+            { "id": "pulse", "text": "Speed the heart for a moment" },
+            { "id": "name", "text": "Name how you feel, and stop there" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Cognition here means identifying facts. An emotion follows a judgment you already hold. That is a different job."
+          }
+        },
+        {
+          "id": "t3",
+          "type": "match",
+          "prompt": "Match each item to its job in this unit.",
+          "pairs": [
+            { "id": "em", "left": "Emotion", "right": "Not a tool of cognition" },
+            { "id": "means", "left": "A means of identifying facts", "right": "What actually discovers facts" },
+            { "id": "vj", "left": "Value-judgment", "right": "The estimate the emotion follows" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Do not hand the emotion the job of identifying facts. That job belongs to a means of knowledge. The emotion registers an estimate already made."
+          }
+        },
+        {
+          "id": "t4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rejection in the unit's own terms.",
+          "parts": [
+            { "type": "text", "text": "Emotions are not tools of " },
+            { "type": "blank", "id": "b1", "answer": "cognition" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["cognition", "digestion", "motion", "weather"],
+          "feedback": {
+            "kind": "quote",
+            "quote": "Emotions are not tools of cognition.",
+            "note": "The rejected role is cognition, not a bodily process like digestion or a change in the weather.",
+            "citation": "Ayn Rand, interview with Alvin Toffler, Playboy, March 1964"
+          }
+        },
+        {
+          "id": "t5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "State what emotions do not do.",
+          "tokens": [
+            { "id": "t1", "text": "Emotions" },
+            { "id": "t2", "text": "do" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "discover" },
+            { "id": "t5", "text": "facts" },
+            { "id": "d1", "text": "follow" },
+            { "id": "d2", "text": "judgments" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The sentence to build is the ban: emotions do not discover facts. That they follow judgments is a different claim, saved for another line."
+          }
+        },
+        {
+          "id": "t6",
+          "type": "choice",
+          "prompt": "Someone says, I feel it, so it is true. What are they treating the emotion as?",
+          "answer": "tool",
+          "choices": [
+            { "id": "tool", "text": "A tool of cognition" },
+            { "id": "consequence", "text": "Only a consequence of a judgment" },
+            { "id": "hint", "text": "A hint to go check the judgment" },
+            { "id": "neutral", "text": "A report with no evaluation in it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Using the feeling as proof treats it as a tool that discovers facts. This unit says it is not that tool."
+          }
+        },
+        {
+          "id": "t7",
+          "type": "match",
+          "prompt": "Match each practice to what it does with an emotion.",
+          "pairs": [
+            { "id": "so", "left": "I feel it, so it is true", "right": "Treats the emotion as cognition" },
+            { "id": "so2", "left": "I feel it, so I hold some judgment", "right": "Reads the estimate" },
+            { "id": "check", "left": "I identify the facts, then judge", "right": "Does not use the emotion as the tool" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reading off your estimate is allowed. Treating the feeling as the discovery of the fact is the move this unit rejects."
+          }
+        },
+        {
+          "id": "t8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Give the rule for proof.",
+          "tokens": [
+            { "id": "t1", "text": "Do" },
+            { "id": "t2", "text": "not" },
+            { "id": "t3", "text": "use" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "feeling" },
+            { "id": "t6", "text": "as" },
+            { "id": "t7", "text": "proof" },
+            { "id": "d1", "text": "a" },
+            { "id": "d2", "text": "fact" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A feeling is not proof. Proof has to identify the facts by a means that is not the emotion."
+          }
+        },
+        {
+          "id": "t9",
+          "type": "choice",
+          "prompt": "Which practice stays inside the unit?",
+          "answer": "look",
+          "choices": [
+            { "id": "look", "text": "Identify the facts by some means other than the feeling, then look at the judgment the feeling reveals" },
+            { "id": "skip", "text": "Skip identifying the facts whenever the feeling is clear" },
+            { "id": "vote", "text": "Let the stronger feeling outvote the facts" },
+            { "id": "invent", "text": "Use the feeling to invent a fact that was not there" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The feeling can show you an estimate you hold. It cannot take the place of identifying the facts."
+          }
+        }
+      ]
+    },
+    {
+      "id": "judgment-first",
+      "title": "The judgment comes first",
+      "objective": "Trace the order: idea and value-judgment, then emotion. The feeling does not come first and then invent the judgment.",
+      "exercises": [
+        {
+          "id": "j1",
+          "type": "choice",
+          "prompt": "In the order this unit teaches, what comes before the emotion?",
+          "answer": "vj",
+          "choices": [
+            { "id": "vj", "text": "A value-judgment based on an idea" },
+            { "id": "em", "text": "The emotion, which then builds the judgment" },
+            { "id": "wish", "text": "A wish that the facts would change" },
+            { "id": "crowd", "text": "Other people's feelings, averaged" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Idea and value-judgment come first. The emotion is the consequence. It does not reach backward and invent the judgment."
+          }
+        },
+        {
+          "id": "j2",
+          "type": "match",
+          "prompt": "Match each step to its place in the order.",
+          "pairs": [
+            { "id": "idea", "left": "Idea", "right": "The premise you hold" },
+            { "id": "vj", "left": "Value-judgment", "right": "The estimate of for or against" },
+            { "id": "em", "left": "Emotion", "right": "The consequence that follows the estimate" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Read the order downward: idea, then value-judgment, then emotion. Reversing it makes the feeling look like a discoverer."
+          }
+        },
+        {
+          "id": "j3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name what comes first.",
+          "parts": [
+            { "type": "text", "text": "The " },
+            { "type": "blank", "id": "b1", "answer": "judgment" },
+            { "type": "text", "text": " comes first; the emotion follows." }
+          ],
+          "bank": ["judgment", "applause", "weather", "echo"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Judgment first. Applause, weather, and echo are not steps in this order."
+          }
+        },
+        {
+          "id": "j4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the order in one line.",
+          "tokens": [
+            { "id": "t1", "text": "Judgment" },
+            { "id": "t2", "text": "first" },
+            { "id": "t3", "text": "then" },
+            { "id": "t4", "text": "emotion" },
+            { "id": "d1", "text": "emotion" },
+            { "id": "d2", "text": "first" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Use the tokens that put judgment first. The extra copies would reverse the order."
+          }
+        },
+        {
+          "id": "j5",
+          "type": "choice",
+          "prompt": "Can you summon an emotion as a way of learning a new fact?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. It follows a judgment; it does not go out and discover" },
+            { "id": "yes", "text": "Yes. Decide to feel the answer, and the fact appears" },
+            { "id": "if", "text": "Yes, if you feel it before you hold any idea" },
+            { "id": "crowd", "text": "Yes, if enough people feel it with you" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "There is no emotion prior to the ideas it expresses. You cannot use a feeling as a scout that brings facts back."
+          }
+        },
+        {
+          "id": "j6",
+          "type": "match",
+          "prompt": "Match each approach to the order it uses.",
+          "pairs": [
+            { "id": "want", "left": "Wanting the offer to be fair before you look", "right": "Feeling standing in for inquiry" },
+            { "id": "look", "left": "Looking first, then judging the offer", "right": "Facts, then judgment, then emotion" },
+            { "id": "stop", "left": "Feeling cheated and stopping there", "right": "Treating the consequence as the inquiry" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Looking first respects the order. Stopping at the feeling, or feeling the verdict before you look, puts the consequence in the place of inquiry."
+          }
+        },
+        {
+          "id": "j7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "The feeling does not lead the idea.",
+          "parts": [
+            { "type": "text", "text": "The feeling does not " },
+            { "type": "blank", "id": "b1", "answer": "precede" },
+            { "type": "text", "text": " the idea. It follows it." }
+          ],
+          "bank": ["precede", "outvote", "erase", "paint"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Precede is the error. The feeling also does not outvote, erase, or paint the idea. It comes after the idea's value-judgment."
+          }
+        },
+        {
+          "id": "j8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Reject the reversed order.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "feeling" },
+            { "id": "t3", "text": "does" },
+            { "id": "t4", "text": "not" },
+            { "id": "t5", "text": "come" },
+            { "id": "t6", "text": "first" },
+            { "id": "d1", "text": "invents" },
+            { "id": "d2", "text": "the" },
+            { "id": "d3", "text": "world" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The feeling does not come first. It does not invent the world either, but that is a further claim. This line is only about order."
+          }
+        },
+        {
+          "id": "j9",
+          "type": "choice",
+          "prompt": "Someone says, My anger proved he was wrong, before any look at the facts. What went wrong?",
+          "answer": "rev",
+          "choices": [
+            { "id": "rev", "text": "The consequence was used as if it had discovered the fact" },
+            { "id": "anger", "text": "Anger is not a real emotion" },
+            { "id": "always", "text": "Anger is always a correct value-judgment" },
+            { "id": "never", "text": "A value-judgment is never allowed" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Anger can be a real consequence of a judgment. The mistake is the order: treating that consequence as the discovery that he was wrong."
+          }
+        },
+        {
+          "id": "j10",
+          "type": "choice",
+          "prompt": "Which sequence matches the unit?",
+          "answer": "ok",
+          "choices": [
+            { "id": "ok", "text": "Idea, value-judgment, emotion" },
+            { "id": "bad1", "text": "Emotion, then the idea the emotion invents" },
+            { "id": "bad2", "text": "Emotion, fact, and no judgment at all" },
+            { "id": "bad3", "text": "Fact, emotion as the proof, judgment optional" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Hold the sequence idea, value-judgment, emotion. The other lines let the feeling discover or replace the judgment."
+          }
+        }
+      ]
+    },
+    {
+      "id": "when-they-clash",
+      "title": "When feeling and fact clash",
+      "objective": "When a feeling and a fact conflict, re-check the value-judgment instead of treating the feeling as evidence.",
+      "exercises": [
+        {
+          "id": "c1",
+          "type": "choice",
+          "prompt": "A fact and a feeling conflict. What do you re-check first?",
+          "answer": "vj",
+          "choices": [
+            { "id": "vj", "text": "The value-judgment that produced the feeling" },
+            { "id": "fact", "text": "The fact, until it matches the feeling" },
+            { "id": "tool", "text": "The emotion, used as a measuring instrument" },
+            { "id": "deny", "text": "Whether you are allowed to have a feeling at all" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The feeling can be real and still rest on a bad estimate. Re-check the judgment. Do not edit the fact to suit the mood, and do not pretend feelings should not exist."
+          }
+        },
+        {
+          "id": "c2",
+          "type": "choice",
+          "prompt": "The feeling is vivid. Does that make it evidence of the conflicting fact?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. It is evidence of the estimate, not of the fact" },
+            { "id": "yes", "text": "Yes. Vividness is a kind of proof" },
+            { "id": "half", "text": "Yes, if you would rather the fact were different" },
+            { "id": "social", "text": "Yes, if someone else feels it too" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Vividness shows the estimate is live. It does not show that the estimate matches the fact it clashes with."
+          }
+        },
+        {
+          "id": "c3",
+          "type": "match",
+          "prompt": "Match each situation to the next step.",
+          "pairs": [
+            { "id": "clash", "left": "Feeling clashes with a checked fact", "right": "Re-check the value-judgment" },
+            { "id": "fit", "left": "Feeling fits a fact you have checked", "right": "The estimate may be right" },
+            { "id": "none", "left": "No facts checked yet", "right": "The feeling is not a conclusion about the world" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A fit does not make the emotion the tool that found the fact. A clash sends you back to the judgment. With no check, you only know the estimate."
+          }
+        },
+        {
+          "id": "c4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "What must you refuse to edit?",
+          "parts": [
+            { "type": "text", "text": "Do not edit the " },
+            { "type": "blank", "id": "b1", "answer": "facts" },
+            { "type": "text", "text": " to suit the feeling." }
+          ],
+          "bank": ["facts", "calendar", "mood", "applause"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The facts stay as they are. The mood is what the judgment produced. Applause and the calendar are not the things under review."
+          }
+        },
+        {
+          "id": "c5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Say what to re-check.",
+          "tokens": [
+            { "id": "t1", "text": "Re-check" },
+            { "id": "t2", "text": "the" },
+            { "id": "t3", "text": "judgment" },
+            { "id": "d1", "text": "rewrite" },
+            { "id": "d2", "text": "the" },
+            { "id": "d3", "text": "world" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Re-check the judgment. Do not rewrite the world so the feeling can stay in charge."
+          }
+        },
+        {
+          "id": "c6",
+          "type": "choice",
+          "prompt": "A value-judgment about a real danger is correct, and you feel fear. What is that fear?",
+          "answer": "fit",
+          "choices": [
+            { "id": "fit", "text": "A fitting consequence, still not the tool that discovered the danger" },
+            { "id": "tool", "text": "The tool that discovered the danger" },
+            { "id": "error", "text": "Proof that every emotion is a mistake" },
+            { "id": "ban", "text": "Something you must shut off before you may act" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A right estimate can have a fitting emotion. The emotion still did not do the discovering. The judgment did, after the facts were identified."
+          }
+        },
+        {
+          "id": "c7",
+          "type": "match",
+          "prompt": "Match each case to the standing of the emotion.",
+          "pairs": [
+            { "id": "right", "left": "Right value-judgment", "right": "The emotion can fit the facts" },
+            { "id": "wrong", "left": "Wrong value-judgment", "right": "The emotion can be strong and still off" },
+            { "id": "both", "left": "Either case", "right": "The emotion did not discover the fact" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Fit and mismatch are both possible. Discovery is not. The emotion remains a consequence of the judgment."
+          }
+        },
+        {
+          "id": "c8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "How do you change a mistaken emotion, on this account?",
+          "parts": [
+            { "type": "text", "text": "Change the " },
+            { "type": "blank", "id": "b1", "answer": "judgment" },
+            { "type": "text", "text": " behind it." }
+          ],
+          "bank": ["judgment", "volume", "weather", "audience"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A mistaken emotion yields when the value-judgment changes. Turning the volume down, waiting on the weather, or polling an audience does not revise the estimate."
+          }
+        },
+        {
+          "id": "c9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the practical line.",
+          "tokens": [
+            { "id": "t1", "text": "Fix" },
+            { "id": "t2", "text": "the" },
+            { "id": "t3", "text": "estimate" },
+            { "id": "t4", "text": "and" },
+            { "id": "t5", "text": "the" },
+            { "id": "t6", "text": "feeling" },
+            { "id": "t7", "text": "can" },
+            { "id": "t8", "text": "follow" },
+            { "id": "d1", "text": "ignore" },
+            { "id": "d2", "text": "facts" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Fix the estimate, and the feeling can follow. Ignoring the facts is the opposite move."
+          }
+        },
+        {
+          "id": "c10",
+          "type": "choice",
+          "prompt": "Which sentence is this unit's summary?",
+          "answer": "sum",
+          "choices": [
+            { "id": "sum", "text": "Emotions are consequences of value-judgments, not tools that discover facts" },
+            { "id": "bad", "text": "Emotions are tools that discover facts, and judgments come later" },
+            { "id": "none", "text": "Emotions should be eliminated because they are never consequences" },
+            { "id": "vote", "text": "Emotions become facts when enough people share them" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Hold the summary as one claim: consequences of value-judgments, not tools that discover facts. The feeling is not a mistake for existing, and a crowd does not convert it into a fact."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "quote": "Emotions are not tools of cognition.",
+      "citation": "Ayn Rand, interview with Alvin Toffler, Playboy, March 1964"
+    },
+    {
+      "quote": "What you feel tells you nothing about the facts; it merely tells you something about your estimate of the facts.",
+      "citation": "Ayn Rand, interview with Alvin Toffler, Playboy, March 1964"
+    }
+  ]
+}

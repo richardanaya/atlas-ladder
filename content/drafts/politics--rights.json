@@ -1,0 +1,832 @@
+{
+  "sectionId": "politics",
+  "sectionFile": "politics.json",
+  "unitId": "rights",
+  "title": "Individual Rights",
+  "summary": "Rights as principles that sanction freedom of action in a social context.",
+  "lessons": [
+    {
+      "id": "what-a-right-is",
+      "title": "What a right is",
+      "objective": "Identify a right as a principle that sanctions a person's freedom of action.",
+      "exercises": [
+        {
+          "id": "r1e1",
+          "type": "choice",
+          "prompt": "In this unit, what is a right?",
+          "answer": "prin",
+          "choices": [
+            { "id": "prin", "text": "A principle that sanctions freedom of action" },
+            { "id": "wish", "text": "A private wish that others must fulfill" },
+            { "id": "mood", "text": "A feeling that something is unfair" },
+            { "id": "stat", "text": "A count of how people usually behave" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A right is a principle. It sanctions freedom of action. It is not a mood, a wish, or a statistic."
+          }
+        },
+        {
+          "id": "r1e2",
+          "type": "choice",
+          "prompt": "What does a right sanction?",
+          "answer": "free",
+          "choices": [
+            { "id": "free", "text": "Freedom of action" },
+            { "id": "goods", "text": "A guaranteed share of other people's goods" },
+            { "id": "praise", "text": "Praise from the group" },
+            { "id": "luck", "text": "Success no matter what you do" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The thing sanctioned is freedom of action, not a promised outcome or a claim on someone else's product."
+          }
+        },
+        {
+          "id": "r1e3",
+          "type": "match",
+          "prompt": "Match each item to what it is in this unit.",
+          "pairs": [
+            { "id": "p1", "left": "A right", "right": "A principle that sanctions freedom of action" },
+            { "id": "p2", "left": "What a right sanctions", "right": "Freedom of action" },
+            { "id": "p3", "left": "Where the principle applies", "right": "A social context" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the three pieces together: a principle, freedom of action, and a social context."
+          }
+        },
+        {
+          "id": "r1e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit's definition.",
+          "parts": [
+            { "type": "text", "text": "Rights are principles that sanction " },
+            { "type": "blank", "id": "b1", "answer": "freedom" },
+            { "type": "text", "text": " of action." }
+          ],
+          "bank": ["freedom", "approval", "wealth", "obedience"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word that belongs here is freedom. Approval, wealth, and obedience are not what the principle sanctions."
+          }
+        },
+        {
+          "id": "r1e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study sentence.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "right" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "principle" },
+            { "id": "d1", "text": "privilege" },
+            { "id": "d2", "text": "mood" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Call it a principle. A privilege is granted and can be withdrawn. A mood is not a moral standard."
+          }
+        },
+        {
+          "id": "r1e6",
+          "type": "choice",
+          "prompt": "Which statement fits this unit?",
+          "answer": "sanc",
+          "choices": [
+            { "id": "sanc", "text": "A right sanctions action; it does not hand you a result" },
+            { "id": "gift", "text": "A right is a gift the majority may cancel at will" },
+            { "id": "need", "text": "A right appears whenever someone feels a need" },
+            { "id": "solo", "text": "A right is a rule you set only for yourself in private" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Sanction means the principle authorizes the action. It does not promise that the action will succeed."
+          }
+        },
+        {
+          "id": "r1e7",
+          "type": "match",
+          "prompt": "Match each phrase to the idea it confuses with a right.",
+          "pairs": [
+            { "id": "m1", "left": "I feel strongly about it", "right": "A mood, not a principle" },
+            { "id": "m2", "left": "Most people do it", "right": "A custom, not a sanction of action" },
+            { "id": "m3", "left": "I want someone else to provide it", "right": "A claim on others, not freedom of action" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Feelings, customs, and demands on other people are not the definition of a right."
+          }
+        },
+        {
+          "id": "r1e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two key words.",
+          "parts": [
+            { "type": "text", "text": "A right is a " },
+            { "type": "blank", "id": "b1", "answer": "principle" },
+            { "type": "text", "text": " that sanctions freedom of " },
+            { "type": "blank", "id": "b2", "answer": "action" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["principle", "action", "feeling", "reward"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Principle and action are the two words. A feeling is not a principle, and a reward is not the freedom the principle sanctions."
+          }
+        },
+        {
+          "id": "r1e9",
+          "type": "choice",
+          "prompt": "Sanction, as used here, means:",
+          "answer": "auth",
+          "choices": [
+            { "id": "auth", "text": "The principle authorizes that kind of action" },
+            { "id": "pun", "text": "The group punishes the action" },
+            { "id": "pay", "text": "Someone else must pay for the action" },
+            { "id": "hide", "text": "The action must stay secret" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "To sanction freedom of action is to treat that freedom as morally authorized, not as something to punish, fund, or hide."
+          }
+        }
+      ]
+    },
+    {
+      "id": "social-context",
+      "title": "A social context",
+      "objective": "Place rights among people, not in a person's dealings with nature or with himself alone.",
+      "exercises": [
+        {
+          "id": "r2e1",
+          "type": "choice",
+          "prompt": "Where do rights apply?",
+          "answer": "soc",
+          "choices": [
+            { "id": "soc", "text": "In a social context, among people" },
+            { "id": "nat", "text": "In a person's struggle with nature" },
+            { "id": "solo", "text": "Only in a life with no other people" },
+            { "id": "dream", "text": "Only inside private wishes" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The summary places rights in a social context. They are principles for how people may act toward one another."
+          }
+        },
+        {
+          "id": "r2e2",
+          "type": "choice",
+          "prompt": "A storm destroys a crop. Is that a violation of rights?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. Nature is not a person in a social context" },
+            { "id": "yes", "text": "Yes. Any loss is a rights violation" },
+            { "id": "maybe", "text": "Only if the farmer voted against storms" },
+            { "id": "if", "text": "Yes, if the crop was valuable" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rights govern action among people. A natural event is not another person's action."
+          }
+        },
+        {
+          "id": "r2e3",
+          "type": "match",
+          "prompt": "Match each setting to whether rights are the issue.",
+          "pairs": [
+            { "id": "a", "left": "How one person may act toward another", "right": "A social context, so rights apply" },
+            { "id": "b", "left": "How a person deals with weather or disease", "right": "Not a social context" },
+            { "id": "c", "left": "A promise a person makes only to himself", "right": "Private, not a right against others" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Use the social test. If no other person is involved as an actor, the question is not a question of rights."
+          }
+        },
+        {
+          "id": "r2e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the summary phrase.",
+          "parts": [
+            { "type": "text", "text": "Rights sanction freedom of action in a " },
+            { "type": "blank", "id": "b1", "answer": "social" },
+            { "type": "text", "text": " context." }
+          ],
+          "bank": ["social", "private", "natural", "financial"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The context is social. Private plans, natural events, and money totals are not the context the principle names."
+          }
+        },
+        {
+          "id": "r2e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study sentence.",
+          "tokens": [
+            { "id": "t1", "text": "Rights" },
+            { "id": "t2", "text": "apply" },
+            { "id": "t3", "text": "among" },
+            { "id": "t4", "text": "people" },
+            { "id": "d1", "text": "storms" },
+            { "id": "d2", "text": "alone" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Among people is the social context. Storms and solitude do not create a rights question by themselves."
+          }
+        },
+        {
+          "id": "r2e6",
+          "type": "choice",
+          "prompt": "Why does the unit mention a social context?",
+          "answer": "rel",
+          "choices": [
+            { "id": "rel", "text": "Rights set terms for action between people" },
+            { "id": "win", "text": "Rights guarantee a win against nature" },
+            { "id": "self", "text": "Rights replace a person's own judgment" },
+            { "id": "club", "text": "Rights exist only inside clubs and parties" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The social context is the setting in which one person's action can conflict with another's. That is where the principle is needed."
+          }
+        },
+        {
+          "id": "r2e7",
+          "type": "match",
+          "prompt": "Match each question to the right category.",
+          "pairs": [
+            { "id": "q1", "left": "May she stop him from speaking?", "right": "A rights question" },
+            { "id": "q2", "left": "Will the river flood the field?", "right": "A question about nature" },
+            { "id": "q3", "left": "Should he study tonight?", "right": "A question for his own judgment" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the first question is about one person's action toward another. The others stay outside the social principle."
+          }
+        },
+        {
+          "id": "r2e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the missing idea.",
+          "parts": [
+            { "type": "text", "text": "Without other " },
+            { "type": "blank", "id": "b1", "answer": "people" },
+            { "type": "text", "text": ", there is no social context for rights." }
+          ],
+          "bank": ["people", "tools", "moods", "prices"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "People are required for the social context. Tools, moods, and prices do not by themselves make a rights question."
+          }
+        },
+        {
+          "id": "r2e9",
+          "type": "choice",
+          "prompt": "Two neighbors disagree about a fence line. Why can rights be relevant?",
+          "answer": "two",
+          "choices": [
+            { "id": "two", "text": "The dispute is between people about action" },
+            { "id": "land", "text": "Land itself has rights" },
+            { "id": "old", "text": "Older opinions always become rights" },
+            { "id": "loud", "text": "The louder neighbor defines the right" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A fence dispute is social: it is about what each person may do. Volume and age do not create the principle."
+          }
+        },
+        {
+          "id": "r2e10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study sentence.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "social" },
+            { "id": "t3", "text": "context" },
+            { "id": "t4", "text": "means" },
+            { "id": "t5", "text": "people" },
+            { "id": "d1", "text": "weather" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Social context means people acting in relation to one another. Weather is outside that relation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "freedom-of-action",
+      "title": "Freedom of action",
+      "objective": "Distinguish the freedom a right sanctions from a claim on other people's effort or goods.",
+      "exercises": [
+        {
+          "id": "r3e1",
+          "type": "choice",
+          "prompt": "A right to act freely is which of these?",
+          "answer": "act",
+          "choices": [
+            { "id": "act", "text": "Sanction to take your own action" },
+            { "id": "srv", "text": "A right to be served by someone else" },
+            { "id": "pay", "text": "A right to another person's paycheck" },
+            { "id": "win", "text": "A right to succeed" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Freedom of action is about what you may do. It is not a ticket to someone else's labor, money, or success."
+          }
+        },
+        {
+          "id": "r3e2",
+          "type": "choice",
+          "prompt": "Which demand goes beyond freedom of action?",
+          "answer": "house",
+          "choices": [
+            { "id": "house", "text": "Others must build and give you a house" },
+            { "id": "build", "text": "You may build a house on your own terms with your own means" },
+            { "id": "trade", "text": "You may offer to trade for a house" },
+            { "id": "keep", "text": "You may keep what you have produced" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Building, trading, and keeping are actions you take. Requiring others to supply a house turns their action into your claim."
+          }
+        },
+        {
+          "id": "r3e3",
+          "type": "match",
+          "prompt": "Match each statement to the right label.",
+          "pairs": [
+            { "id": "a", "left": "She may speak her view", "right": "Freedom of action" },
+            { "id": "b", "left": "Listeners must agree with her", "right": "Not a right" },
+            { "id": "c", "left": "He may offer his work for pay", "right": "Freedom of action" },
+            { "id": "d", "left": "A customer must hire him", "right": "A claim on someone else" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Speaking and offering are the person's own actions. Agreement and hiring are other people's actions, so they are not owed as rights."
+          }
+        },
+        {
+          "id": "r3e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast.",
+          "parts": [
+            { "type": "text", "text": "A right sanctions your " },
+            { "type": "blank", "id": "b1", "answer": "action" },
+            { "type": "text", "text": ", not another person's " },
+            { "type": "blank", "id": "b2", "answer": "effort" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["action", "effort", "silence", "debt"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Action is what the principle sanctions for you. Another person's effort stays that person's to choose."
+          }
+        },
+        {
+          "id": "r3e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study sentence.",
+          "tokens": [
+            { "id": "t1", "text": "Freedom" },
+            { "id": "t2", "text": "of" },
+            { "id": "t3", "text": "action" },
+            { "id": "t4", "text": "is" },
+            { "id": "t5", "text": "not" },
+            { "id": "t6", "text": "a" },
+            { "id": "t7", "text": "claim" },
+            { "id": "d1", "text": "paycheck" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Freedom of action and a claim on others are different ideas. Do not swap them."
+          }
+        },
+        {
+          "id": "r3e6",
+          "type": "choice",
+          "prompt": "You are free to seek medical care. What does that freedom not include?",
+          "answer": "doc",
+          "choices": [
+            { "id": "doc", "text": "A doctor's duty to treat you without his choice" },
+            { "id": "ask", "text": "Your freedom to ask a doctor" },
+            { "id": "pay", "text": "Your freedom to pay for care" },
+            { "id": "learn", "text": "Your freedom to study medicine" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Asking, paying, and learning are your actions. Compelling the doctor's action is a claim on him, not your freedom of action."
+          }
+        },
+        {
+          "id": "r3e7",
+          "type": "match",
+          "prompt": "Match the freedom to what it leaves open.",
+          "pairs": [
+            { "id": "s", "left": "Freedom to write", "right": "Readers may ignore the writing" },
+            { "id": "t", "left": "Freedom to sell", "right": "Buyers may refuse the offer" },
+            { "id": "u", "left": "Freedom to travel", "right": "No one must carry you there" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each freedom sanctions your action and leaves other people free to act or not act in response."
+          }
+        },
+        {
+          "id": "r3e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the blank.",
+          "parts": [
+            { "type": "text", "text": "A right does not entitle you to the " },
+            { "type": "blank", "id": "b1", "answer": "product" },
+            { "type": "text", "text": " of another person's work." }
+          ],
+          "bank": ["product", "name", "weather", "memory"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The product of someone else's work is not what a right sanctions. Your freedom is to act, including to produce or to trade."
+          }
+        },
+        {
+          "id": "r3e9",
+          "type": "choice",
+          "prompt": "Which pair is consistent with this lesson?",
+          "answer": "ok",
+          "choices": [
+            { "id": "ok", "text": "You may create; others may decline to buy" },
+            { "id": "bad", "text": "You may create; others must buy" },
+            { "id": "ban", "text": "You may not create unless a committee agrees first" },
+            { "id": "own", "text": "Others own the result of your effort by right" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Creation is your action. Buying is theirs. A right keeps both freedoms instead of assigning one person's effort to the other."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-a-permission",
+      "title": "Not a permission",
+      "objective": "Contrast a right with a permission or privilege that others can grant or withdraw.",
+      "exercises": [
+        {
+          "id": "r4e1",
+          "type": "choice",
+          "prompt": "How does a right differ from a permission?",
+          "answer": "prin",
+          "choices": [
+            { "id": "prin", "text": "A right is a moral principle, not a favor someone grants" },
+            { "id": "same", "text": "They are the same thing" },
+            { "id": "vote", "text": "A right exists only after a vote creates it" },
+            { "id": "gift", "text": "A right is a gift that expires when the giver changes his mind" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A permission depends on the person who gives it. A right, in this unit, is a principle that sanctions action, not a favor."
+          }
+        },
+        {
+          "id": "r4e2",
+          "type": "choice",
+          "prompt": "A committee says you may speak only on Tuesdays. That rule treats speech as:",
+          "answer": "perm",
+          "choices": [
+            { "id": "perm", "text": "A permission the committee can narrow" },
+            { "id": "right", "text": "A right the committee discovered" },
+            { "id": "nat", "text": "A fact about nature" },
+            { "id": "need", "text": "Proof that need creates rights" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If a group can hand the action out or take it back, the group is treating it as a permission, not recognizing a right."
+          }
+        },
+        {
+          "id": "r4e3",
+          "type": "match",
+          "prompt": "Match each description to the name.",
+          "pairs": [
+            { "id": "a", "left": "A moral principle sanctioning action", "right": "A right" },
+            { "id": "b", "left": "Leave to act, given and revocable by others", "right": "A permission" },
+            { "id": "c", "left": "A special advantage handed to some people", "right": "A privilege" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rights are principles. Permissions and privileges are grants. Do not use the three words as synonyms."
+          }
+        },
+        {
+          "id": "r4e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast.",
+          "parts": [
+            { "type": "text", "text": "A permission can be " },
+            { "type": "blank", "id": "b1", "answer": "withdrawn" },
+            { "type": "text", "text": ". A right is not that kind of grant." }
+          ],
+          "bank": ["withdrawn", "discovered", "earned", "measured"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Withdrawn marks the grant. A right is not created by the same act that can cancel it."
+          }
+        },
+        {
+          "id": "r4e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study sentence.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "right" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "not" },
+            { "id": "t5", "text": "a" },
+            { "id": "t6", "text": "permission" },
+            { "id": "d1", "text": "favor" },
+            { "id": "d2", "text": "vote" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The sentence draws the contrast directly. A favor and a vote are ways permissions get handed out, not what a right is."
+          }
+        },
+        {
+          "id": "r4e6",
+          "type": "choice",
+          "prompt": "If a right were only a privilege, what would follow?",
+          "answer": "hold",
+          "choices": [
+            { "id": "hold", "text": "Whoever holds power could cancel the freedom" },
+            { "id": "safe", "text": "The freedom would be safer" },
+            { "id": "same", "text": "Nothing would change" },
+            { "id": "nat", "text": "Nature would have to obey the privilege" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A privilege lives at the discretion of the grantor. Treating freedom that way drops the idea of a sanctioning principle."
+          }
+        },
+        {
+          "id": "r4e7",
+          "type": "match",
+          "prompt": "Match the wording to the idea it expresses.",
+          "pairs": [
+            { "id": "w1", "left": "We allow you to work", "right": "Permission language" },
+            { "id": "w2", "left": "You have a right to work", "right": "A sanction of action" },
+            { "id": "w3", "left": "Only members of this group may trade", "right": "A privilege for some" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Allow and only-some are grant language. A right is the principle that sanctions the action, not a club benefit."
+          }
+        },
+        {
+          "id": "r4e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both blanks.",
+          "parts": [
+            { "type": "text", "text": "A privilege is a special " },
+            { "type": "blank", "id": "b1", "answer": "grant" },
+            { "type": "text", "text": ". A right is a " },
+            { "type": "blank", "id": "b2", "answer": "principle" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["grant", "principle", "storm", "habit"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Grant versus principle is the contrast. A storm and a habit do not define either term."
+          }
+        },
+        {
+          "id": "r4e9",
+          "type": "choice",
+          "prompt": "Someone says, The group gave you your rights, so the group may take them back. What is the mistake?",
+          "answer": "mix",
+          "choices": [
+            { "id": "mix", "text": "It treats a right as a revocable permission" },
+            { "id": "ok", "text": "There is no mistake" },
+            { "id": "nat", "text": "It confuses rights with the weather" },
+            { "id": "math", "text": "It uses the wrong count of people" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Giving and taking back are the logic of permissions. This unit defines a right as a principle, not as something the group lends."
+          }
+        },
+        {
+          "id": "r4e10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study sentence.",
+          "tokens": [
+            { "id": "t1", "text": "Permissions" },
+            { "id": "t2", "text": "are" },
+            { "id": "t3", "text": "granted" },
+            { "id": "d1", "text": "rights" },
+            { "id": "d2", "text": "earned" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Granted is the mark of a permission. Do not attach that verb to the definition of a right."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rights-as-principles",
+      "title": "Rights as principles",
+      "objective": "Treat rights as moral principles that set a standard, not as wishes, customs, or majority votes.",
+      "exercises": [
+        {
+          "id": "r5e1",
+          "type": "choice",
+          "prompt": "As a principle, a right functions as:",
+          "answer": "std",
+          "choices": [
+            { "id": "std", "text": "A standard for judging action in a social context" },
+            { "id": "poll", "text": "Whatever the latest poll prefers" },
+            { "id": "habit", "text": "Whatever people have always done" },
+            { "id": "want", "text": "Whatever someone wants at the moment" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A principle is a standard you can apply. Polls, habits, and momentary wants do not replace it."
+          }
+        },
+        {
+          "id": "r5e2",
+          "type": "choice",
+          "prompt": "A majority wants to silence a speaker. What does the principle say about that wish?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "A wish, even a majority wish, is not itself a right" },
+            { "id": "yes", "text": "The larger number creates the right" },
+            { "id": "old", "text": "Only an old custom can judge the wish" },
+            { "id": "loud", "text": "The wish is a right if it is shouted" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Numbers do not turn a wish into a principle. The right still sanctions the speaker's freedom of action."
+          }
+        },
+        {
+          "id": "r5e3",
+          "type": "match",
+          "prompt": "Match each source to why it is not the definition of a right.",
+          "pairs": [
+            { "id": "a", "left": "A personal wish", "right": "It is not a principle" },
+            { "id": "b", "left": "A local custom", "right": "Habit is not a moral sanction" },
+            { "id": "c", "left": "A majority vote", "right": "A count is not the standard" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Wishes, customs, and votes can be described. None of them is the principle that sanctions freedom of action."
+          }
+        },
+        {
+          "id": "r5e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the lesson claim.",
+          "parts": [
+            { "type": "text", "text": "A right is a moral " },
+            { "type": "blank", "id": "b1", "answer": "principle" },
+            { "type": "text", "text": ", so it can judge a custom instead of merely copying it." }
+          ],
+          "bank": ["principle", "habit", "ballot", "mood"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Because it is a principle, the right is a standard for custom. It is not identical with the custom."
+          }
+        },
+        {
+          "id": "r5e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study sentence.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "principle" },
+            { "id": "t3", "text": "sets" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "standard" },
+            { "id": "d1", "text": "fashion" },
+            { "id": "d2", "text": "poll" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Standard is the job of a principle. Fashion and a poll record what people happen to prefer."
+          }
+        },
+        {
+          "id": "r5e6",
+          "type": "choice",
+          "prompt": "Which question uses a right as a principle?",
+          "answer": "may",
+          "choices": [
+            { "id": "may", "text": "Does this action stay within the freedom the principle sanctions?" },
+            { "id": "many", "text": "How many people like this action?" },
+            { "id": "old", "text": "Did our grandparents do this?" },
+            { "id": "feel", "text": "Do I feel like doing this?" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The principle asks whether the action is sanctioned. Popularity, ancestry, and mood ask different questions."
+          }
+        },
+        {
+          "id": "r5e7",
+          "type": "match",
+          "prompt": "Match the test to the mistake it avoids.",
+          "pairs": [
+            { "id": "t1", "left": "Check the principle, not the wish", "right": "Avoids treating desire as a right" },
+            { "id": "t2", "left": "Check the principle, not the custom", "right": "Avoids treating habit as a right" },
+            { "id": "t3", "left": "Check the principle, not the head count", "right": "Avoids treating a vote as a right" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each test keeps the right in the role of a standard rather than a report of what people want, repeat, or vote."
+          }
+        },
+        {
+          "id": "r5e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two blanks.",
+          "parts": [
+            { "type": "text", "text": "Rights are " },
+            { "type": "blank", "id": "b1", "answer": "principles" },
+            { "type": "text", "text": " in a social context, not " },
+            { "type": "blank", "id": "b2", "answer": "wishes" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["principles", "wishes", "storms", "tools"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Principles versus wishes is the contrast of this lesson. Storms and tools belong to other topics."
+          }
+        },
+        {
+          "id": "r5e9",
+          "type": "choice",
+          "prompt": "A long-standing custom forbids a peaceful trade. What can a right do that the custom cannot?",
+          "answer": "judge",
+          "choices": [
+            { "id": "judge", "text": "Serve as a standard that judges the custom" },
+            { "id": "copy", "text": "Only repeat the custom" },
+            { "id": "end", "text": "End every disagreement by itself" },
+            { "id": "price", "text": "Set the price of the trade" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The principle can stand against the custom because it sanctions freedom of action. It does not become a price list or a machine that ends every dispute."
+          }
+        },
+        {
+          "id": "r5e10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study sentence.",
+          "tokens": [
+            { "id": "t1", "text": "Votes" },
+            { "id": "t2", "text": "do" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "replace" },
+            { "id": "t5", "text": "principles" },
+            { "id": "d1", "text": "rights" },
+            { "id": "d2", "text": "create" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A vote can record a decision. It does not take the place of the principle that sanctions freedom of action."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

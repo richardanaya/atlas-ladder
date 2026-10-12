@@ -1,0 +1,6570 @@
+{
+  "id": "integration",
+  "lessons": {
+    "applying/not-a-script": {
+      "exercises": [
+        {
+          "id": "ns1",
+          "type": "choice",
+          "prompt": "In this unit, what is a principle for?",
+          "answer": "guide",
+          "choices": [
+            {
+              "id": "guide",
+              "text": "Guiding judgment in a real choice"
+            },
+            {
+              "id": "lines",
+              "text": "Handing you the next line to say"
+            },
+            {
+              "id": "badge",
+              "text": "Marking you as finished with thinking"
+            },
+            {
+              "id": "mood",
+              "text": "Matching the mood of the room"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A principle is a standard you hold while you judge. It is not a prompt card."
+          }
+        },
+        {
+          "id": "ns2",
+          "type": "choice",
+          "prompt": "What turns a philosophy into a script?",
+          "answer": "canned",
+          "choices": [
+            {
+              "id": "canned",
+              "text": "Treating it as a list of canned moves"
+            },
+            {
+              "id": "facts",
+              "text": "Checking the facts of this case"
+            },
+            {
+              "id": "hold",
+              "text": "Holding the same standard across cases"
+            },
+            {
+              "id": "name",
+              "text": "Naming the principle you are using"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A script skips the choice. It pretends the action was written before the situation existed."
+          }
+        },
+        {
+          "id": "ns3",
+          "type": "match",
+          "prompt": "Match each item to what it is.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "A principle",
+              "right": "A standard for this kind of choice"
+            },
+            {
+              "id": "p2",
+              "left": "A script",
+              "right": "A preset sequence of moves"
+            },
+            {
+              "id": "p3",
+              "left": "A concrete choice",
+              "right": "What you do in this situation"
+            },
+            {
+              "id": "p4",
+              "left": "A slogan",
+              "right": "A short phrase standing in for thought"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the standard, the action, and the shortcut distinct. Only the standard plus the facts yields a choice."
+          }
+        },
+        {
+          "id": "ns4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "A principle guides the choice. A "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "script"
+            },
+            {
+              "type": "text",
+              "text": " replaces it."
+            }
+          ],
+          "bank": [
+            "script",
+            "fact",
+            "standard",
+            "context"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Replacement is the error. Guidance is the use."
+          }
+        },
+        {
+          "id": "ns5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the unit's warning.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Do"
+            },
+            {
+              "id": "t2",
+              "text": "not"
+            },
+            {
+              "id": "t3",
+              "text": "turn"
+            },
+            {
+              "id": "t4",
+              "text": "the"
+            },
+            {
+              "id": "t5",
+              "text": "philosophy"
+            },
+            {
+              "id": "t6",
+              "text": "into"
+            },
+            {
+              "id": "t7",
+              "text": "a"
+            },
+            {
+              "id": "t8",
+              "text": "script"
+            },
+            {
+              "id": "d1",
+              "text": "ritual"
+            },
+            {
+              "id": "d2",
+              "text": "Always"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6",
+            "t7",
+            "t8"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The warning is about use, not about dropping the principles."
+          }
+        },
+        {
+          "id": "ns6",
+          "type": "choice",
+          "prompt": "Someone memorizes five approved replies for every argument. What did they build?",
+          "answer": "script",
+          "choices": [
+            {
+              "id": "script",
+              "text": "A script"
+            },
+            {
+              "id": "principle",
+              "text": "A principle"
+            },
+            {
+              "id": "context",
+              "text": "A reading of the facts"
+            },
+            {
+              "id": "integration",
+              "text": "An integration of the whole philosophy"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Approved replies decided in advance are moves, not a standard applied to what was actually said."
+          }
+        },
+        {
+          "id": "ns7",
+          "type": "match",
+          "prompt": "Match the practice to the result.",
+          "pairs": [
+            {
+              "id": "a",
+              "left": "Name the standard, then look at this case",
+              "right": "Applying a principle"
+            },
+            {
+              "id": "b",
+              "left": "Recite the next approved step",
+              "right": "Following a script"
+            },
+            {
+              "id": "c",
+              "left": "Drop the standard because cases differ",
+              "right": "Losing the principle"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Cases differ, so the action can differ. The standard does not have to be dropped for that to be true."
+          }
+        },
+        {
+          "id": "ns8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the definition used in this lesson.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "A principle names the "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "kind"
+            },
+            {
+              "type": "text",
+              "text": " of choice that is right."
+            }
+          ],
+          "bank": [
+            "kind",
+            "wording",
+            "audience",
+            "costume"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Kind of choice is broader than one gesture. That is why a principle is not a script."
+          }
+        },
+        {
+          "id": "ns9",
+          "type": "choice",
+          "prompt": "Which question belongs to a principle, not a script?",
+          "answer": "what",
+          "choices": [
+            {
+              "id": "what",
+              "text": "What does this standard require here?"
+            },
+            {
+              "id": "which",
+              "text": "Which stored line comes next?"
+            },
+            {
+              "id": "who",
+              "text": "Who already approved this reply?"
+            },
+            {
+              "id": "when",
+              "text": "When did the checklist say to stop thinking?"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The live question is what the standard requires in this case. A script asks only which move is next."
+          }
+        },
+        {
+          "id": "ns10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the working contrast.",
+          "tokens": [
+            {
+              "id": "a",
+              "text": "Hold"
+            },
+            {
+              "id": "b",
+              "text": "the"
+            },
+            {
+              "id": "c",
+              "text": "principle"
+            },
+            {
+              "id": "d",
+              "text": "in"
+            },
+            {
+              "id": "e",
+              "text": "the"
+            },
+            {
+              "id": "f",
+              "text": "choice"
+            },
+            {
+              "id": "x",
+              "text": "Skip"
+            },
+            {
+              "id": "y",
+              "text": "slogan"
+            }
+          ],
+          "answer": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Holding the principle in the choice is the whole job of this unit."
+          }
+        }
+      ]
+    },
+    "applying/this-choice": {
+      "exercises": [
+        {
+          "id": "tc1",
+          "type": "choice",
+          "prompt": "Where does application happen?",
+          "answer": "here",
+          "choices": [
+            {
+              "id": "here",
+              "text": "In a concrete choice, with these facts"
+            },
+            {
+              "id": "poster",
+              "text": "On a poster that states the ideal"
+            },
+            {
+              "id": "oath",
+              "text": "In a pledge you repeat each morning"
+            },
+            {
+              "id": "label",
+              "text": "In the name you give your group"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Until a principle meets a particular choice, it has not been applied."
+          }
+        },
+        {
+          "id": "tc2",
+          "type": "choice",
+          "prompt": "A slogan is standing in for the facts when you:",
+          "answer": "swap",
+          "choices": [
+            {
+              "id": "swap",
+              "text": "Treat the phrase as if it were the situation"
+            },
+            {
+              "id": "look",
+              "text": "Ask what actually happened"
+            },
+            {
+              "id": "name",
+              "text": "Name which principle is at stake"
+            },
+            {
+              "id": "wait",
+              "text": "Wait until you know the relevant details"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The phrase can remind you of the standard. It cannot replace the situation you have to judge."
+          }
+        },
+        {
+          "id": "tc3",
+          "type": "match",
+          "prompt": "Match each step of application to its job.",
+          "pairs": [
+            {
+              "id": "s1",
+              "left": "Name the principle",
+              "right": "Say what standard is in play"
+            },
+            {
+              "id": "s2",
+              "left": "Get the facts",
+              "right": "See what this situation actually is"
+            },
+            {
+              "id": "s3",
+              "left": "Judge",
+              "right": "Decide what the standard requires here"
+            },
+            {
+              "id": "s4",
+              "left": "Act",
+              "right": "Carry out that decision"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Skip the facts and the later steps are aimed at a story, not at the choice."
+          }
+        },
+        {
+          "id": "tc4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rule for this lesson.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Apply the principle to the "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "facts"
+            },
+            {
+              "type": "text",
+              "text": ", not to a slogan."
+            }
+          ],
+          "bank": [
+            "facts",
+            "audience",
+            "costume",
+            "motto"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Facts are what make this choice this choice."
+          }
+        },
+        {
+          "id": "tc5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the order of application.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Standard"
+            },
+            {
+              "id": "t2",
+              "text": "then"
+            },
+            {
+              "id": "t3",
+              "text": "facts"
+            },
+            {
+              "id": "t4",
+              "text": "then"
+            },
+            {
+              "id": "t5",
+              "text": "decision"
+            },
+            {
+              "id": "d1",
+              "text": "slogan"
+            },
+            {
+              "id": "d2",
+              "text": "first"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The standard comes first as a guide, and the facts come before the decision. A slogan is not a step."
+          }
+        },
+        {
+          "id": "tc6",
+          "type": "choice",
+          "prompt": "Two people face different evidence and pick the same action because the motto says so. What did they skip?",
+          "answer": "facts",
+          "choices": [
+            {
+              "id": "facts",
+              "text": "The facts of each situation"
+            },
+            {
+              "id": "motto",
+              "text": "The motto"
+            },
+            {
+              "id": "volume",
+              "text": "Saying the motto louder"
+            },
+            {
+              "id": "team",
+              "text": "Checking who else agrees"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Same action is not proof of the same application. Each case still has its own facts."
+          }
+        },
+        {
+          "id": "tc7",
+          "type": "match",
+          "prompt": "Match the error to the description.",
+          "pairs": [
+            {
+              "id": "e1",
+              "left": "Slogan-swapping",
+              "right": "The phrase replaces the situation"
+            },
+            {
+              "id": "e2",
+              "left": "Fact-checking",
+              "right": "You learn what this case is"
+            },
+            {
+              "id": "e3",
+              "left": "Context-dropping",
+              "right": "You ignore what makes this case different"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Fact-checking is the correction. The other two are ways of not looking."
+          }
+        },
+        {
+          "id": "tc8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both blanks.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "This choice is concrete: these "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "facts"
+            },
+            {
+              "type": "text",
+              "text": " and this "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "action"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "facts",
+            "action",
+            "motto",
+            "banner"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Concrete means a particular situation and a particular thing you do about it."
+          }
+        },
+        {
+          "id": "tc9",
+          "type": "choice",
+          "prompt": "Which is an application, not a recitation?",
+          "answer": "judge",
+          "choices": [
+            {
+              "id": "judge",
+              "text": "Judging this offer by the standard and the terms"
+            },
+            {
+              "id": "quote",
+              "text": "Repeating a favorite sentence with no case in view"
+            },
+            {
+              "id": "wear",
+              "text": "Wearing a slogan so others know your side"
+            },
+            {
+              "id": "count",
+              "text": "Counting how often you mention the principle"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Application needs a case. Recitation can happen with no case at all."
+          }
+        },
+        {
+          "id": "tc10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the lesson sentence.",
+          "tokens": [
+            {
+              "id": "a",
+              "text": "The"
+            },
+            {
+              "id": "b",
+              "text": "slogan"
+            },
+            {
+              "id": "c",
+              "text": "is"
+            },
+            {
+              "id": "d",
+              "text": "not"
+            },
+            {
+              "id": "e",
+              "text": "the"
+            },
+            {
+              "id": "f",
+              "text": "situation"
+            },
+            {
+              "id": "x",
+              "text": "proof"
+            },
+            {
+              "id": "y",
+              "text": "always"
+            }
+          ],
+          "answer": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If the slogan were the situation, you would never need to look."
+          }
+        }
+      ]
+    },
+    "applying/facts-change": {
+      "exercises": [
+        {
+          "id": "fc1",
+          "type": "choice",
+          "prompt": "The facts of a case change. What may change with them?",
+          "answer": "action",
+          "choices": [
+            {
+              "id": "action",
+              "text": "The concrete action the principle calls for"
+            },
+            {
+              "id": "axiom",
+              "text": "Whether reality is real"
+            },
+            {
+              "id": "identity",
+              "text": "Whether a thing is what it is"
+            },
+            {
+              "id": "drop",
+              "text": "Whether you are allowed to have standards"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A different situation can demand a different action under the same standard. The standard is what stays."
+          }
+        },
+        {
+          "id": "fc2",
+          "type": "choice",
+          "prompt": "What mistake treats every case as if it needed the same gesture?",
+          "answer": "script",
+          "choices": [
+            {
+              "id": "script",
+              "text": "Turning the principle into a script"
+            },
+            {
+              "id": "look",
+              "text": "Reading the new facts"
+            },
+            {
+              "id": "hold",
+              "text": "Holding the same principle"
+            },
+            {
+              "id": "name",
+              "text": "Saying which facts changed"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One gesture for every case is a script. The principle did not require that sameness."
+          }
+        },
+        {
+          "id": "fc3",
+          "type": "match",
+          "prompt": "Match what stays to what can change.",
+          "pairs": [
+            {
+              "id": "m1",
+              "left": "The principle",
+              "right": "Stays as the standard"
+            },
+            {
+              "id": "m2",
+              "left": "The facts",
+              "right": "Can differ from case to case"
+            },
+            {
+              "id": "m3",
+              "left": "The action",
+              "right": "Can differ when the facts differ"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If the action never changes, you are no longer responding to facts."
+          }
+        },
+        {
+          "id": "fc4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the lesson claim.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Same principle, different "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "action"
+            },
+            {
+              "type": "text",
+              "text": ", when the facts change."
+            }
+          ],
+          "bank": [
+            "action",
+            "reality",
+            "identity",
+            "axiom"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Action is the part that tracks the case. The principle is not rewritten to match a mood."
+          }
+        },
+        {
+          "id": "fc5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the distinction.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Different"
+            },
+            {
+              "id": "t2",
+              "text": "facts"
+            },
+            {
+              "id": "t3",
+              "text": "can"
+            },
+            {
+              "id": "t4",
+              "text": "require"
+            },
+            {
+              "id": "t5",
+              "text": "different"
+            },
+            {
+              "id": "t6",
+              "text": "actions"
+            },
+            {
+              "id": "d1",
+              "text": "principles"
+            },
+            {
+              "id": "d2",
+              "text": "Never"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "What the facts can change is the action, not the right to use a principle."
+          }
+        },
+        {
+          "id": "fc6",
+          "type": "choice",
+          "prompt": "Honesty is the standard in both cases. In one case the honest act is to speak. In another it is to refuse a rigged forum. What is going on?",
+          "answer": "apply",
+          "choices": [
+            {
+              "id": "apply",
+              "text": "One principle, two actions, two sets of facts"
+            },
+            {
+              "id": "split",
+              "text": "Two principles that contradict each other"
+            },
+            {
+              "id": "quit",
+              "text": "Honesty abandoned in the second case"
+            },
+            {
+              "id": "vote",
+              "text": "Honesty defined by the audience"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Speaking and refusing can both be what honesty requires, once you know what each situation is."
+          }
+        },
+        {
+          "id": "fc7",
+          "type": "match",
+          "prompt": "Match the claim to its status.",
+          "pairs": [
+            {
+              "id": "a",
+              "left": "The action must be identical every time",
+              "right": "Script thinking"
+            },
+            {
+              "id": "b",
+              "left": "The standard must be dropped when cases differ",
+              "right": "Losing the principle"
+            },
+            {
+              "id": "c",
+              "left": "The action follows the facts under the standard",
+              "right": "Application"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the third claim keeps both the principle and the case."
+          }
+        },
+        {
+          "id": "fc8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the blank.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "You do not rewrite the principle to force the same "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "gesture"
+            },
+            {
+              "type": "text",
+              "text": " in every case."
+            }
+          ],
+          "bank": [
+            "gesture",
+            "reality",
+            "standard",
+            "identity"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Forcing one gesture is how a principle gets counterfeited as a script."
+          }
+        },
+        {
+          "id": "fc9",
+          "type": "choice",
+          "prompt": "A friend says that if the action changed, the principle changed. What do you answer?",
+          "answer": "no",
+          "choices": [
+            {
+              "id": "no",
+              "text": "No. The facts changed, so the action could change."
+            },
+            {
+              "id": "yes",
+              "text": "Yes. Every new action is a new philosophy."
+            },
+            {
+              "id": "vote",
+              "text": "It depends on which side is popular."
+            },
+            {
+              "id": "never",
+              "text": "Actions are not allowed to change at all."
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Changing the action to fit new facts is how you keep the principle, not how you abandon it."
+          }
+        },
+        {
+          "id": "fc10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the summary line.",
+          "tokens": [
+            {
+              "id": "a",
+              "text": "The"
+            },
+            {
+              "id": "b",
+              "text": "standard"
+            },
+            {
+              "id": "c",
+              "text": "stays"
+            },
+            {
+              "id": "d",
+              "text": "The"
+            },
+            {
+              "id": "e",
+              "text": "action"
+            },
+            {
+              "id": "f",
+              "text": "tracks"
+            },
+            {
+              "id": "g",
+              "text": "the"
+            },
+            {
+              "id": "h",
+              "text": "facts"
+            },
+            {
+              "id": "x",
+              "text": "mood"
+            }
+          ],
+          "answer": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Stay and track are different jobs. Do not swap them."
+          }
+        }
+      ]
+    },
+    "applying/you-judge": {
+      "exercises": [
+        {
+          "id": "yj1",
+          "type": "choice",
+          "prompt": "Who has to judge the concrete case?",
+          "answer": "you",
+          "choices": [
+            {
+              "id": "you",
+              "text": "You, the person making the choice"
+            },
+            {
+              "id": "book",
+              "text": "A book that already listed the move"
+            },
+            {
+              "id": "crowd",
+              "text": "Whoever speaks for the group"
+            },
+            {
+              "id": "habit",
+              "text": "Whatever you did last time"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A philosophy can supply the standard. It cannot stand in as the judge of a case it has not seen."
+          }
+        },
+        {
+          "id": "yj2",
+          "type": "choice",
+          "prompt": "Outsourcing judgment means:",
+          "answer": "hand",
+          "choices": [
+            {
+              "id": "hand",
+              "text": "Asking the philosophy to decide instead of you"
+            },
+            {
+              "id": "use",
+              "text": "Using a principle as your standard"
+            },
+            {
+              "id": "check",
+              "text": "Checking your conclusion against the facts"
+            },
+            {
+              "id": "name",
+              "text": "Naming the principle you relied on"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The error is substitution. The philosophy is not a deputy who chooses for you."
+          }
+        },
+        {
+          "id": "yj3",
+          "type": "match",
+          "prompt": "Match each role to the right owner.",
+          "pairs": [
+            {
+              "id": "r1",
+              "left": "Supply the standard",
+              "right": "The principle"
+            },
+            {
+              "id": "r2",
+              "left": "Identify the facts",
+              "right": "Your thinking"
+            },
+            {
+              "id": "r3",
+              "left": "Reach the decision",
+              "right": "You"
+            },
+            {
+              "id": "r4",
+              "left": "Pretend the decision was automatic",
+              "right": "A script"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Automatic is the fantasy. Identification and decision stay with the person who acts."
+          }
+        },
+        {
+          "id": "yj4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the warning.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "The philosophy is a standard, not a "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "substitute"
+            },
+            {
+              "type": "text",
+              "text": " for your judgment."
+            }
+          ],
+          "bank": [
+            "substitute",
+            "fact",
+            "context",
+            "choice"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A substitute would decide in your place. A standard is what you think with."
+          }
+        },
+        {
+          "id": "yj5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the responsibility line.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "You"
+            },
+            {
+              "id": "t2",
+              "text": "still"
+            },
+            {
+              "id": "t3",
+              "text": "have"
+            },
+            {
+              "id": "t4",
+              "text": "to"
+            },
+            {
+              "id": "t5",
+              "text": "think"
+            },
+            {
+              "id": "d1",
+              "text": "recite"
+            },
+            {
+              "id": "d2",
+              "text": "Never"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Holding a philosophy does not retire the need to think about this case."
+          }
+        },
+        {
+          "id": "yj6",
+          "type": "choice",
+          "prompt": "Which request treats the philosophy as a substitute?",
+          "answer": "tell",
+          "choices": [
+            {
+              "id": "tell",
+              "text": "Tell me the move so I do not have to judge"
+            },
+            {
+              "id": "std",
+              "text": "Help me name the standard that applies"
+            },
+            {
+              "id": "facts",
+              "text": "Help me see which facts matter"
+            },
+            {
+              "id": "check",
+              "text": "Help me test my conclusion against the facts"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Wanting the move handed over is asking not to judge. The other requests still leave the decision with you."
+          }
+        },
+        {
+          "id": "yj7",
+          "type": "match",
+          "prompt": "Match the habit to what it protects.",
+          "pairs": [
+            {
+              "id": "h1",
+              "left": "Looking at this case yourself",
+              "right": "Your role as judge"
+            },
+            {
+              "id": "h2",
+              "left": "Keeping the principle in view",
+              "right": "The standard"
+            },
+            {
+              "id": "h3",
+              "left": "Refusing a canned answer",
+              "right": "The difference between guide and script"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "All three habits belong together. Drop one and application thins out."
+          }
+        },
+        {
+          "id": "yj8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both blanks.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "A standard guides thinking. It does not "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "replace"
+            },
+            {
+              "type": "text",
+              "text": " the "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "judge"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "replace",
+            "judge",
+            "audience",
+            "motto"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "You remain the judge. The standard is what you use, not who you hide behind."
+          }
+        },
+        {
+          "id": "yj9",
+          "type": "choice",
+          "prompt": "After you know the principle and the facts, what is left?",
+          "answer": "decide",
+          "choices": [
+            {
+              "id": "decide",
+              "text": "Your decision about what to do"
+            },
+            {
+              "id": "nothing",
+              "text": "Nothing, because the book already acted"
+            },
+            {
+              "id": "poll",
+              "text": "A poll of people who like the principle"
+            },
+            {
+              "id": "delay",
+              "text": "Waiting for a script to be published"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Knowledge of the standard and the facts is the setup. The choice is still an act of judgment."
+          }
+        },
+        {
+          "id": "yj10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the closing line of the lesson.",
+          "tokens": [
+            {
+              "id": "a",
+              "text": "The"
+            },
+            {
+              "id": "b",
+              "text": "standard"
+            },
+            {
+              "id": "c",
+              "text": "does"
+            },
+            {
+              "id": "d",
+              "text": "not"
+            },
+            {
+              "id": "e",
+              "text": "choose"
+            },
+            {
+              "id": "f",
+              "text": "for"
+            },
+            {
+              "id": "g",
+              "text": "you"
+            },
+            {
+              "id": "x",
+              "text": "crowd"
+            }
+          ],
+          "answer": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If the standard chose for you, your agreement would not be a judgment. It would be an echo."
+          }
+        }
+      ]
+    },
+    "applying/life-not-ritual": {
+      "exercises": [
+        {
+          "id": "lr1",
+          "type": "choice",
+          "prompt": "Where should the principles show up?",
+          "answer": "ordinary",
+          "choices": [
+            {
+              "id": "ordinary",
+              "text": "In ordinary choices across a life"
+            },
+            {
+              "id": "stage",
+              "text": "Only in a staged ceremony"
+            },
+            {
+              "id": "shirt",
+              "text": "Mainly in what you wear"
+            },
+            {
+              "id": "once",
+              "text": "Once, in a pledge, and then nowhere"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A life is a long series of concrete choices. A ceremony is one performance."
+          }
+        },
+        {
+          "id": "lr2",
+          "type": "choice",
+          "prompt": "What is a ritual, in the sense this unit rejects?",
+          "answer": "gestures",
+          "choices": [
+            {
+              "id": "gestures",
+              "text": "A checklist of gestures that stand in for judgment"
+            },
+            {
+              "id": "repeat",
+              "text": "Using the same standard on a later day"
+            },
+            {
+              "id": "review",
+              "text": "Reviewing a hard choice after you make it"
+            },
+            {
+              "id": "name",
+              "text": "Naming the principle when it helps you think"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Repetition of a standard is not the problem. Empty gestures that replace thinking are."
+          }
+        },
+        {
+          "id": "lr3",
+          "type": "match",
+          "prompt": "Match each practice to its place.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Judging a work decision by the relevant principle",
+              "right": "Ordinary application"
+            },
+            {
+              "id": "p2",
+              "left": "Reciting lines with no choice in front of you",
+              "right": "Ceremony without a case"
+            },
+            {
+              "id": "p3",
+              "left": "Copying a costume so you look aligned",
+              "right": "A gesture in place of a choice"
+            },
+            {
+              "id": "p4",
+              "left": "Checking tomorrow's similar case on its own facts",
+              "right": "Holding the principle over time"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Over time, the principle stays. Each day's facts still get their own look."
+          }
+        },
+        {
+          "id": "lr4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Hold the principles in a life, not in a "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "ritual"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "ritual",
+            "standard",
+            "fact",
+            "choice"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A life is where the choices are. A ritual can be performed with none of them settled."
+          }
+        },
+        {
+          "id": "lr5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the practice line.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Practice"
+            },
+            {
+              "id": "t2",
+              "text": "is"
+            },
+            {
+              "id": "t3",
+              "text": "repeated"
+            },
+            {
+              "id": "t4",
+              "text": "judgment"
+            },
+            {
+              "id": "d1",
+              "text": "costume"
+            },
+            {
+              "id": "d2",
+              "text": "applause"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "What repeats is judgment under the standard, not a performance of belonging."
+          }
+        },
+        {
+          "id": "lr6",
+          "type": "choice",
+          "prompt": "Which habit fits this unit?",
+          "answer": "next",
+          "choices": [
+            {
+              "id": "next",
+              "text": "Meet the next real choice with the same principles and its own facts"
+            },
+            {
+              "id": "list",
+              "text": "Keep a list of approved gestures and stop there"
+            },
+            {
+              "id": "show",
+              "text": "Display alignment instead of deciding"
+            },
+            {
+              "id": "freeze",
+              "text": "Freeze one action and call every later case the same"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The next choice is new even when the principles are not. That is the pattern of a life."
+          }
+        },
+        {
+          "id": "lr7",
+          "type": "match",
+          "prompt": "Match the unit's pieces.",
+          "pairs": [
+            {
+              "id": "a",
+              "left": "Principles",
+              "right": "What you hold"
+            },
+            {
+              "id": "b",
+              "left": "Concrete choices",
+              "right": "Where you hold them"
+            },
+            {
+              "id": "c",
+              "left": "A script",
+              "right": "What you refuse to turn them into"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Those three lines are the summary of Applying It."
+          }
+        },
+        {
+          "id": "lr8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both blanks from the unit summary.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Hold the principles in concrete "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "choices"
+            },
+            {
+              "type": "text",
+              "text": ", without a "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "script"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "choices",
+            "script",
+            "costume",
+            "pledge"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Choices are the place. A script is the misuse. Both words belong in the summary."
+          }
+        },
+        {
+          "id": "lr9",
+          "type": "choice",
+          "prompt": "A person applies the principles on Tuesday at work and again on Friday at home, each time from the facts. What is that?",
+          "answer": "life",
+          "choices": [
+            {
+              "id": "life",
+              "text": "Holding the principles in a life"
+            },
+            {
+              "id": "rite",
+              "text": "A ritual that replaced the choices"
+            },
+            {
+              "id": "script",
+              "text": "One script used without looking"
+            },
+            {
+              "id": "drop",
+              "text": "Dropping the principles because the settings differ"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Different settings do not break the holding. They are where holding has to happen."
+          }
+        },
+        {
+          "id": "lr10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the last line of the unit.",
+          "tokens": [
+            {
+              "id": "a",
+              "text": "Ordinary"
+            },
+            {
+              "id": "b",
+              "text": "choices"
+            },
+            {
+              "id": "c",
+              "text": "are"
+            },
+            {
+              "id": "d",
+              "text": "the"
+            },
+            {
+              "id": "e",
+              "text": "practice"
+            },
+            {
+              "id": "x",
+              "text": "ceremony"
+            },
+            {
+              "id": "y",
+              "text": "never"
+            }
+          ],
+          "answer": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Practice here means judging real choices, not performing a ceremony about judging them."
+          }
+        }
+      ]
+    },
+    "whole/one-system": {
+      "exercises": [
+        {
+          "id": "sys-choice-whole",
+          "type": "choice",
+          "prompt": "What makes a philosophy one whole?",
+          "answer": "fit",
+          "choices": [
+            {
+              "id": "fit",
+              "text": "Its ideas fit as one view of existence"
+            },
+            {
+              "id": "list",
+              "text": "It is a long list of unrelated opinions"
+            },
+            {
+              "id": "mood",
+              "text": "It matches whatever you feel today"
+            },
+            {
+              "id": "vote",
+              "text": "A group has voted each line in separately"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A philosophy is one integrated view. Separate favorite lines are not yet a system."
+          }
+        },
+        {
+          "id": "sys-match-marks",
+          "type": "match",
+          "prompt": "Match each description to what it is.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Ideas that depend on one another",
+              "right": "One philosophy"
+            },
+            {
+              "id": "p2",
+              "left": "Claims that do not connect",
+              "right": "A pile"
+            },
+            {
+              "id": "p3",
+              "left": "A line kept only because it sounds bold",
+              "right": "A slogan"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Connection is the mark of a whole. A slogan or a pile has no such tie."
+          }
+        },
+        {
+          "id": "sys-blanks-view",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the description of a philosophy.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "A philosophy is one "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "integrated"
+            },
+            {
+              "type": "text",
+              "text": " view, not a pile of "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "separate"
+            },
+            {
+              "type": "text",
+              "text": " claims."
+            }
+          ],
+          "bank": [
+            "integrated",
+            "separate",
+            "random",
+            "secret"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Integrated means the parts belong together. Separate claims have not been tied into one view."
+          }
+        },
+        {
+          "id": "sys-sentence-whole",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the unit’s starting point.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "The"
+            },
+            {
+              "id": "t2",
+              "text": "philosophy"
+            },
+            {
+              "id": "t3",
+              "text": "stands"
+            },
+            {
+              "id": "t4",
+              "text": "as"
+            },
+            {
+              "id": "t5",
+              "text": "one"
+            },
+            {
+              "id": "t6",
+              "text": "whole"
+            },
+            {
+              "id": "d1",
+              "text": "slogan"
+            },
+            {
+              "id": "d2",
+              "text": "mood"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Later lessons ask what happens when one idea is pulled out of that whole."
+          }
+        },
+        {
+          "id": "sys-choice-drop",
+          "type": "choice",
+          "prompt": "You drop one branch and keep a conclusion that needed it. What do you have?",
+          "answer": "gap",
+          "choices": [
+            {
+              "id": "gap",
+              "text": "A hole in the view, not the same philosophy"
+            },
+            {
+              "id": "same",
+              "text": "The same whole, only shorter"
+            },
+            {
+              "id": "stronger",
+              "text": "A stronger system, because less can go wrong"
+            },
+            {
+              "id": "axiom",
+              "text": "A new axiom that needs no support"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If a conclusion depended on the branch you dropped, the view is no longer intact."
+          }
+        },
+        {
+          "id": "sys-match-jobs",
+          "type": "match",
+          "prompt": "Match each part of a whole to the job it does inside the view.",
+          "pairs": [
+            {
+              "id": "j1",
+              "left": "What exists",
+              "right": "The base the rest must fit"
+            },
+            {
+              "id": "j2",
+              "left": "How you know",
+              "right": "The method that ties claims to facts"
+            },
+            {
+              "id": "j3",
+              "left": "What you should do",
+              "right": "A conclusion that rests on both"
+            },
+            {
+              "id": "j4",
+              "left": "A favorite sentence alone",
+              "right": "Not yet a branch of the view"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each real part has a job in the same view. A lone sentence has not been given that job."
+          }
+        },
+        {
+          "id": "sys-blanks-tie",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the test for whether two ideas belong to one philosophy.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "They belong together when each "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "depends"
+            },
+            {
+              "type": "text",
+              "text": " on the same view of "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "existence"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "depends",
+            "existence",
+            "ignores",
+            "fashion"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Dependence on one view of existence is what makes the ideas one system."
+          }
+        },
+        {
+          "id": "sys-sentence-pile",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the warning about a pile of lines.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Unrelated"
+            },
+            {
+              "id": "t2",
+              "text": "lines"
+            },
+            {
+              "id": "t3",
+              "text": "are"
+            },
+            {
+              "id": "t4",
+              "text": "not"
+            },
+            {
+              "id": "t5",
+              "text": "a"
+            },
+            {
+              "id": "t6",
+              "text": "philosophy"
+            },
+            {
+              "id": "d1",
+              "text": "always"
+            },
+            {
+              "id": "d2",
+              "text": "proof"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Counting lines does not integrate them. Integration is the connection among them."
+          }
+        },
+        {
+          "id": "sys-choice-next",
+          "type": "choice",
+          "prompt": "Once the ideas form one view, what else must you keep?",
+          "answer": "order",
+          "choices": [
+            {
+              "id": "order",
+              "text": "The order in which later ideas rest on earlier ones"
+            },
+            {
+              "id": "shuffle",
+              "text": "The freedom to shuffle them with no loss"
+            },
+            {
+              "id": "middle",
+              "text": "Only the middle line you like best"
+            },
+            {
+              "id": "tone",
+              "text": "Only the tone, not the connections"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A whole has an order. The next lesson is that order."
+          }
+        }
+      ]
+    },
+    "whole/chain-order": {
+      "exercises": [
+        {
+          "id": "ord-choice-rest",
+          "type": "choice",
+          "prompt": "In this philosophy, where does a later conclusion get its support?",
+          "answer": "earlier",
+          "choices": [
+            {
+              "id": "earlier",
+              "text": "From the earlier ideas it rests on"
+            },
+            {
+              "id": "itself",
+              "text": "From being repeated often enough"
+            },
+            {
+              "id": "end",
+              "text": "Only from whatever comes after it"
+            },
+            {
+              "id": "nowhere",
+              "text": "From nowhere; every line is a starting point"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Support runs from earlier ideas to later ones. Repetition is not that support."
+          }
+        },
+        {
+          "id": "ord-match-place",
+          "type": "match",
+          "prompt": "Match each place in the chain to its role.",
+          "pairs": [
+            {
+              "id": "r1",
+              "left": "The base",
+              "right": "What the later ideas must fit"
+            },
+            {
+              "id": "r2",
+              "left": "The middle",
+              "right": "A conclusion that still needs the base"
+            },
+            {
+              "id": "r3",
+              "left": "A still later conclusion",
+              "right": "Something that needs the middle and the base"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Place in the chain is not decoration. It tells you what an idea is allowed to rest on."
+          }
+        },
+        {
+          "id": "ord-blanks-order",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rule about order.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "A later idea "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "rests"
+            },
+            {
+              "type": "text",
+              "text": " on earlier ones, so the "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "order"
+            },
+            {
+              "type": "text",
+              "text": " is part of the philosophy."
+            }
+          ],
+          "bank": [
+            "rests",
+            "order",
+            "floats",
+            "slogan"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If you change the order, you change what the idea is claiming to stand on."
+          }
+        },
+        {
+          "id": "ord-sentence-base",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about where a chain starts.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "The"
+            },
+            {
+              "id": "t2",
+              "text": "chain"
+            },
+            {
+              "id": "t3",
+              "text": "starts"
+            },
+            {
+              "id": "t4",
+              "text": "at"
+            },
+            {
+              "id": "t5",
+              "text": "the"
+            },
+            {
+              "id": "t6",
+              "text": "base"
+            },
+            {
+              "id": "d1",
+              "text": "middle"
+            },
+            {
+              "id": "d2",
+              "text": "slogan"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The base is what later lines have to fit. The middle is not a second base."
+          }
+        },
+        {
+          "id": "ord-choice-swap",
+          "type": "choice",
+          "prompt": "Someone treats a middle conclusion as if nothing had to come before it. What did they change?",
+          "answer": "role",
+          "choices": [
+            {
+              "id": "role",
+              "text": "They turned a dependent idea into a fake starting point"
+            },
+            {
+              "id": "wording",
+              "text": "Only the wording, not the philosophy"
+            },
+            {
+              "id": "length",
+              "text": "Only how long the lesson is"
+            },
+            {
+              "id": "nothing",
+              "text": "Nothing; every idea is a starting point"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A middle idea is dependent. Calling it a start erases the order the philosophy needs."
+          }
+        },
+        {
+          "id": "ord-match-errors",
+          "type": "match",
+          "prompt": "Match each move to what it does to the chain.",
+          "pairs": [
+            {
+              "id": "e1",
+              "left": "Keep the earlier ideas in place",
+              "right": "Leave the support intact"
+            },
+            {
+              "id": "e2",
+              "left": "Skip the base and start in the middle",
+              "right": "Drop the support"
+            },
+            {
+              "id": "e3",
+              "left": "Put a later conclusion under an earlier one",
+              "right": "Reverse the order"
+            },
+            {
+              "id": "e4",
+              "left": "Treat every line as equal and free-standing",
+              "right": "Erase the chain"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Support, skip, reversal, and a flat list are different failures. Only the first keeps the chain."
+          }
+        },
+        {
+          "id": "ord-blanks-before",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the point about what the middle still needs.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Even a true middle idea still "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "needs"
+            },
+            {
+              "type": "text",
+              "text": " what comes "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "before"
+            },
+            {
+              "type": "text",
+              "text": " it."
+            }
+          ],
+          "bank": [
+            "needs",
+            "before",
+            "replaces",
+            "after"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Truth does not make a middle idea self-supporting. It still depends on earlier ideas."
+          }
+        },
+        {
+          "id": "ord-sentence-later",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about later ideas.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Later"
+            },
+            {
+              "id": "t2",
+              "text": "ideas"
+            },
+            {
+              "id": "t3",
+              "text": "presuppose"
+            },
+            {
+              "id": "t4",
+              "text": "earlier"
+            },
+            {
+              "id": "t5",
+              "text": "ones"
+            },
+            {
+              "id": "d1",
+              "text": "cancel"
+            },
+            {
+              "id": "d2",
+              "text": "moods"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "To presuppose is to rely on. A later idea relies on the earlier ones whether or not you name them."
+          }
+        },
+        {
+          "id": "ord-choice-check",
+          "type": "choice",
+          "prompt": "You want to know whether a conclusion belongs in this philosophy. What do you check first?",
+          "answer": "fit",
+          "choices": [
+            {
+              "id": "fit",
+              "text": "Whether it fits the earlier ideas it claims to rest on"
+            },
+            {
+              "id": "volume",
+              "text": "Whether it is the longest sentence in the set"
+            },
+            {
+              "id": "novelty",
+              "text": "Whether nobody has said it before"
+            },
+            {
+              "id": "heat",
+              "text": "Whether it is the most exciting line"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Belonging is a question of fit with the earlier chain, not of excitement or length."
+          }
+        },
+        {
+          "id": "ord-choice-middle-place",
+          "type": "choice",
+          "prompt": "Why call some ideas middle ideas?",
+          "answer": "between",
+          "choices": [
+            {
+              "id": "between",
+              "text": "They sit between the base and still later conclusions"
+            },
+            {
+              "id": "average",
+              "text": "They are average in quality"
+            },
+            {
+              "id": "optional",
+              "text": "They are the optional part you may delete"
+            },
+            {
+              "id": "hidden",
+              "text": "They are secrets that need no statement"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Middle names a place in the chain. The next lesson is what happens when that place is torn out."
+          }
+        }
+      ]
+    },
+    "whole/pulled-middle": {
+      "exercises": [
+        {
+          "id": "mid-choice-pull",
+          "type": "choice",
+          "prompt": "What does it mean to pull an idea out of the middle?",
+          "answer": "cut",
+          "choices": [
+            {
+              "id": "cut",
+              "text": "To keep the idea and drop the premises it needs"
+            },
+            {
+              "id": "study",
+              "text": "To learn the idea together with its premises"
+            },
+            {
+              "id": "base",
+              "text": "To start from the base and climb in order"
+            },
+            {
+              "id": "name",
+              "text": "To give the whole philosophy its name"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The pull is a cut. The sentence stays; the support that gave it a place is gone."
+          }
+        },
+        {
+          "id": "mid-match-cases",
+          "type": "match",
+          "prompt": "Match each handling of an idea to the result.",
+          "pairs": [
+            {
+              "id": "c1",
+              "left": "State it with the premises it rests on",
+              "right": "Leave it in the whole"
+            },
+            {
+              "id": "c2",
+              "left": "Quote it and refuse the premises",
+              "right": "Pull it out of the middle"
+            },
+            {
+              "id": "c3",
+              "left": "Treat the bare line as self-evident",
+              "right": "Pretend a middle idea is a base"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keeping the premises leaves the idea in the system. The other two detach it."
+          }
+        },
+        {
+          "id": "mid-blanks-cut",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the definition.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "A pulled-out idea is cut away from the "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "premises"
+            },
+            {
+              "type": "text",
+              "text": " that "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "support"
+            },
+            {
+              "type": "text",
+              "text": " it."
+            }
+          ],
+          "bank": [
+            "premises",
+            "support",
+            "rhymes",
+            "replace"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Premises are the earlier ideas. Without them the line has been pulled out of its place."
+          }
+        },
+        {
+          "id": "mid-sentence-looks",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about how a detached line can still look.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "The"
+            },
+            {
+              "id": "t2",
+              "text": "detached"
+            },
+            {
+              "id": "t3",
+              "text": "line"
+            },
+            {
+              "id": "t4",
+              "text": "can"
+            },
+            {
+              "id": "t5",
+              "text": "still"
+            },
+            {
+              "id": "t6",
+              "text": "sound"
+            },
+            {
+              "id": "t7",
+              "text": "familiar"
+            },
+            {
+              "id": "d1",
+              "text": "proven"
+            },
+            {
+              "id": "d2",
+              "text": "basic"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6",
+            "t7"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Familiar sound is not the same as still being tied to the premises."
+          }
+        },
+        {
+          "id": "mid-choice-not",
+          "type": "choice",
+          "prompt": "Which of these is not a pull from the middle?",
+          "answer": "climb",
+          "choices": [
+            {
+              "id": "climb",
+              "text": "Studying a conclusion only after the ideas it rests on"
+            },
+            {
+              "id": "banner",
+              "text": "Carrying one conclusion as a banner and ignoring its base"
+            },
+            {
+              "id": "deny",
+              "text": "Using a conclusion while denying what it depends on"
+            },
+            {
+              "id": "alone",
+              "text": "Asking the conclusion to stand with no earlier ideas"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Climbing in order keeps the idea inside the whole. The other three take it out."
+          }
+        },
+        {
+          "id": "mid-match-signs",
+          "type": "match",
+          "prompt": "Match each sign to what it shows.",
+          "pairs": [
+            {
+              "id": "s1",
+              "left": "You can name the earlier ideas it needs",
+              "right": "It is still in the chain"
+            },
+            {
+              "id": "s2",
+              "left": "You can say the line but not what it rests on",
+              "right": "It has been pulled out"
+            },
+            {
+              "id": "s3",
+              "left": "You call it obvious so you can skip the base",
+              "right": "A middle idea is posing as a start"
+            },
+            {
+              "id": "s4",
+              "left": "You keep the word and drop the view that defined it",
+              "right": "The idea’s context is gone"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The test is whether the earlier context is still attached, not whether the words are catchy."
+          }
+        },
+        {
+          "id": "mid-blanks-context",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the point about context.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Pulled out of the middle, an idea loses the "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "context"
+            },
+            {
+              "type": "text",
+              "text": " that gave it its "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "place"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "context",
+            "place",
+            "volume",
+            "costume"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Context here means the surrounding ideas. Place means where it sat in the chain."
+          }
+        },
+        {
+          "id": "mid-sentence-same",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about the words that remain.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Same"
+            },
+            {
+              "id": "t2",
+              "text": "words"
+            },
+            {
+              "id": "t3",
+              "text": "without"
+            },
+            {
+              "id": "t4",
+              "text": "the"
+            },
+            {
+              "id": "t5",
+              "text": "premises"
+            },
+            {
+              "id": "d1",
+              "text": "are"
+            },
+            {
+              "id": "d2",
+              "text": "proof"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The wording can survive the cut. The idea’s standing in the philosophy does not."
+          }
+        },
+        {
+          "id": "mid-choice-both",
+          "type": "choice",
+          "prompt": "A detached middle idea is missing something you need for two jobs. Which pair?",
+          "answer": "both",
+          "choices": [
+            {
+              "id": "both",
+              "text": "The link you would use to validate it and the link you would use to apply it"
+            },
+            {
+              "id": "spelling",
+              "text": "Only a spelling rule and a louder voice"
+            },
+            {
+              "id": "author",
+              "text": "Only the author’s name and the book’s length"
+            },
+            {
+              "id": "neither",
+              "text": "Nothing; detachment leaves both jobs easier"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Validation and use both need the chain. The next two lessons take those failures one at a time."
+          }
+        }
+      ]
+    },
+    "whole/cannot-validate": {
+      "exercises": [
+        {
+          "id": "val-choice-means",
+          "type": "choice",
+          "prompt": "To validate an idea, in this unit’s sense, is to do what?",
+          "answer": "trace",
+          "choices": [
+            {
+              "id": "trace",
+              "text": "Trace it back through the ideas it rests on"
+            },
+            {
+              "id": "like",
+              "text": "Notice that you like the sound of it"
+            },
+            {
+              "id": "count",
+              "text": "Count how many people repeat it"
+            },
+            {
+              "id": "shout",
+              "text": "Say it more firmly than the objection"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Validation follows the chain backward. Liking, votes, and volume are not that check."
+          }
+        },
+        {
+          "id": "val-match-tries",
+          "type": "match",
+          "prompt": "Match each attempt to why it does or does not validate.",
+          "pairs": [
+            {
+              "id": "v1",
+              "left": "Follow the idea back to the base",
+              "right": "A real check"
+            },
+            {
+              "id": "v2",
+              "left": "Offer the middle line with no earlier ideas",
+              "right": "Nothing left to check it against"
+            },
+            {
+              "id": "v3",
+              "left": "Call the middle line self-evident",
+              "right": "Skip the check by renaming the idea"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the path back to the base is validation. The other two leave the idea unchecked."
+          }
+        },
+        {
+          "id": "val-blanks-against",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the reason a pulled-out idea cannot be validated.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "With the premises gone, there is nothing "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "left"
+            },
+            {
+              "type": "text",
+              "text": " to check the idea "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "against"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "left",
+            "against",
+            "inside",
+            "loudly"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The check needs the earlier ideas. Pull them out and the check has no target."
+          }
+        },
+        {
+          "id": "val-sentence-alone",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about a middle idea taken alone.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "A"
+            },
+            {
+              "id": "t2",
+              "text": "middle"
+            },
+            {
+              "id": "t3",
+              "text": "idea"
+            },
+            {
+              "id": "t4",
+              "text": "alone"
+            },
+            {
+              "id": "t5",
+              "text": "cannot"
+            },
+            {
+              "id": "t6",
+              "text": "be"
+            },
+            {
+              "id": "t7",
+              "text": "validated"
+            },
+            {
+              "id": "d1",
+              "text": "shouted"
+            },
+            {
+              "id": "d2",
+              "text": "voted"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6",
+            "t7"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Alone means without the chain. That is why the validation fails, not because the topic is unpopular."
+          }
+        },
+        {
+          "id": "val-choice-consequences",
+          "type": "choice",
+          "prompt": "You accept a middle idea only because you like a result that comes after it. What did you skip?",
+          "answer": "base",
+          "choices": [
+            {
+              "id": "base",
+              "text": "The check back to the ideas it actually rests on"
+            },
+            {
+              "id": "result",
+              "text": "Nothing; a liked result is the whole validation"
+            },
+            {
+              "id": "words",
+              "text": "Only a thesaurus"
+            },
+            {
+              "id": "name",
+              "text": "Only the title of the philosophy"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A later result is not the base. Validation still has to run back through the premises."
+          }
+        },
+        {
+          "id": "val-match-substitutes",
+          "type": "match",
+          "prompt": "Match each substitute to the check it fails to be.",
+          "pairs": [
+            {
+              "id": "u1",
+              "left": "It feels obvious",
+              "right": "A feeling standing in for a trace"
+            },
+            {
+              "id": "u2",
+              "left": "Many people say it",
+              "right": "A tally standing in for a trace"
+            },
+            {
+              "id": "u3",
+              "left": "It fits the earlier ideas",
+              "right": "The check this unit requires"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Feeling and popularity can attach to a detached line. Neither ties it back to the base."
+          }
+        },
+        {
+          "id": "val-blanks-deny",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the point about denying the base.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "If you deny the ideas a conclusion "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "needs"
+            },
+            {
+              "type": "text",
+              "text": ", you cannot "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "validate"
+            },
+            {
+              "type": "text",
+              "text": " that conclusion."
+            }
+          ],
+          "bank": [
+            "needs",
+            "validate",
+            "market",
+            "shorten"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Denying the premises removes the only path the check can travel."
+          }
+        },
+        {
+          "id": "val-sentence-path",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about the path of a check.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Validation"
+            },
+            {
+              "id": "t2",
+              "text": "follows"
+            },
+            {
+              "id": "t3",
+              "text": "the"
+            },
+            {
+              "id": "t4",
+              "text": "chain"
+            },
+            {
+              "id": "t5",
+              "text": "backward"
+            },
+            {
+              "id": "d1",
+              "text": "sideways"
+            },
+            {
+              "id": "d2",
+              "text": "nowhere"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Backward means toward the earlier ideas, not toward a preferred consequence."
+          }
+        },
+        {
+          "id": "val-choice-still-true",
+          "type": "choice",
+          "prompt": "Suppose the middle idea happens to be true inside the whole philosophy. Why can the detached version still not be validated?",
+          "answer": "missing",
+          "choices": [
+            {
+              "id": "missing",
+              "text": "The detached version no longer includes the path that would show it"
+            },
+            {
+              "id": "false",
+              "text": "A true idea becomes false the moment you repeat it"
+            },
+            {
+              "id": "short",
+              "text": "Only long paragraphs can be true"
+            },
+            {
+              "id": "auto",
+              "text": "Truth makes the path unnecessary, so detachment is a proof"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Validation is the showing. Without the path, you have not validated the idea, even if the line was true in context."
+          }
+        },
+        {
+          "id": "val-choice-bridge",
+          "type": "choice",
+          "prompt": "Validation fails for a pulled-out idea. What other job fails for the same reason?",
+          "answer": "use",
+          "choices": [
+            {
+              "id": "use",
+              "text": "Using it, because use also needs the missing context"
+            },
+            {
+              "id": "print",
+              "text": "Printing it, because the words vanish"
+            },
+            {
+              "id": "hear",
+              "text": "Hearing it, because sound requires the base"
+            },
+            {
+              "id": "none",
+              "text": "No other job; use is easier once you skip the check"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The same missing context blocks use. That is the last lesson of this unit."
+          }
+        }
+      ]
+    },
+    "whole/cannot-use": {
+      "exercises": [
+        {
+          "id": "use-choice-need",
+          "type": "choice",
+          "prompt": "What do you need before a middle idea can guide a concrete choice?",
+          "answer": "context",
+          "choices": [
+            {
+              "id": "context",
+              "text": "The context that says what it means and when it applies"
+            },
+            {
+              "id": "echo",
+              "text": "Only an echo of the wording"
+            },
+            {
+              "id": "haste",
+              "text": "Only a wish to act quickly"
+            },
+            {
+              "id": "vote",
+              "text": "Only a show of hands"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Use depends on meaning and range. Both come from the idea’s place in the whole."
+          }
+        },
+        {
+          "id": "use-match-gaps",
+          "type": "match",
+          "prompt": "Match each gap to the question you can no longer answer.",
+          "pairs": [
+            {
+              "id": "g1",
+              "left": "The premises that defined the idea",
+              "right": "What does this word refer to?"
+            },
+            {
+              "id": "g2",
+              "left": "The place of the idea in the chain",
+              "right": "What is it allowed to override?"
+            },
+            {
+              "id": "g3",
+              "left": "The link from the idea to a kind of fact",
+              "right": "Which concrete case does it cover?"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Those three questions are the practical content of the idea. Detachment leaves them blank."
+          }
+        },
+        {
+          "id": "use-blanks-guide",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the reason the detached idea cannot be used.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Without the whole, you do not know what the idea "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "means"
+            },
+            {
+              "type": "text",
+              "text": " in a "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "concrete"
+            },
+            {
+              "type": "text",
+              "text": " case."
+            }
+          ],
+          "bank": [
+            "means",
+            "concrete",
+            "rhymes",
+            "abstract"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A concrete case is a particular choice. Meaning in that case comes from the surrounding philosophy."
+          }
+        },
+        {
+          "id": "use-sentence-cannot",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about use.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "A"
+            },
+            {
+              "id": "t2",
+              "text": "detached"
+            },
+            {
+              "id": "t3",
+              "text": "middle"
+            },
+            {
+              "id": "t4",
+              "text": "idea"
+            },
+            {
+              "id": "t5",
+              "text": "cannot"
+            },
+            {
+              "id": "t6",
+              "text": "be"
+            },
+            {
+              "id": "t7",
+              "text": "used"
+            },
+            {
+              "id": "d1",
+              "text": "shorter"
+            },
+            {
+              "id": "d2",
+              "text": "louder"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6",
+            "t7"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Used means applied to a real choice. The bare sentence does not carry its own instructions."
+          }
+        },
+        {
+          "id": "use-choice-slogan",
+          "type": "choice",
+          "prompt": "You remember a true conclusion but not the view that fixed its meaning. What are you holding?",
+          "answer": "slogan",
+          "choices": [
+            {
+              "id": "slogan",
+              "text": "A slogan you cannot apply"
+            },
+            {
+              "id": "tool",
+              "text": "A finished tool, ready for any case"
+            },
+            {
+              "id": "base",
+              "text": "A new base that defines itself"
+            },
+            {
+              "id": "proof",
+              "text": "A proof that needs no premises"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Memory of the words is not the context. Without that context the conclusion cannot guide a choice."
+          }
+        },
+        {
+          "id": "use-match-moves",
+          "type": "match",
+          "prompt": "Match each move to what it does when you face a choice.",
+          "pairs": [
+            {
+              "id": "m1",
+              "left": "Bring the earlier ideas with the conclusion",
+              "right": "Keep a way to apply it"
+            },
+            {
+              "id": "m2",
+              "left": "Apply the bare wording to every case alike",
+              "right": "Ignore the missing context"
+            },
+            {
+              "id": "m3",
+              "left": "Wait until the line feels urgent",
+              "right": "Substitute a mood for a principle"
+            },
+            {
+              "id": "m4",
+              "left": "Drop the idea because the chain is long",
+              "right": "Refuse the whole instead of using it"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the first move keeps the idea usable. The others either fake an application or abandon the philosophy."
+          }
+        },
+        {
+          "id": "use-blanks-when",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the two things context supplies.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Context tells you what the idea means and "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "when"
+            },
+            {
+              "type": "text",
+              "text": " it "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "applies"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "when",
+            "applies",
+            "if",
+            "rhymes"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Meaning without range, or range without meaning, still will not tell you what to do."
+          }
+        },
+        {
+          "id": "use-sentence-both",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the unit’s closing claim.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Pulled"
+            },
+            {
+              "id": "t2",
+              "text": "from"
+            },
+            {
+              "id": "t3",
+              "text": "the"
+            },
+            {
+              "id": "t4",
+              "text": "middle"
+            },
+            {
+              "id": "t5",
+              "text": "it"
+            },
+            {
+              "id": "t6",
+              "text": "cannot"
+            },
+            {
+              "id": "t7",
+              "text": "be"
+            },
+            {
+              "id": "t8",
+              "text": "validated"
+            },
+            {
+              "id": "t9",
+              "text": "or"
+            },
+            {
+              "id": "t10",
+              "text": "used"
+            },
+            {
+              "id": "d1",
+              "text": "memorized"
+            },
+            {
+              "id": "d2",
+              "text": "printed"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6",
+            "t7",
+            "t8",
+            "t9",
+            "t10"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Those are the two failures this unit teaches. Both come from taking the idea out of the whole."
+          }
+        },
+        {
+          "id": "use-choice-repair",
+          "type": "choice",
+          "prompt": "How do you put a middle idea back in a condition where it can be validated and used?",
+          "answer": "restore",
+          "choices": [
+            {
+              "id": "restore",
+              "text": "Restore the earlier ideas that give it its place"
+            },
+            {
+              "id": "repeat",
+              "text": "Repeat the bare line until it feels solid"
+            },
+            {
+              "id": "narrow",
+              "text": "Cut still more of the philosophy away"
+            },
+            {
+              "id": "swap",
+              "text": "Swap in whichever premise is popular this year"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The repair is the whole, not a louder slogan and not a thinner cut. The idea works only in its chain."
+          }
+        }
+      ]
+    },
+    "package-deals/two-claims": {
+      "exercises": [
+        {
+          "id": "pkg-what",
+          "type": "choice",
+          "prompt": "What is a package deal?",
+          "answer": "two",
+          "choices": [
+            {
+              "id": "two",
+              "text": "Two claims glued so that a yes to one seems to force a yes to the other"
+            },
+            {
+              "id": "one",
+              "text": "One claim stated twice in different words"
+            },
+            {
+              "id": "list",
+              "text": "A list of claims you are free to accept or reject one by one"
+            },
+            {
+              "id": "proof",
+              "text": "A proof that both claims are true because they share a word"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The package hides two claims. Taking the package looks like taking both at once."
+          }
+        },
+        {
+          "id": "pkg-not",
+          "type": "choice",
+          "prompt": "Which item is not a package deal?",
+          "answer": "split",
+          "choices": [
+            {
+              "id": "split",
+              "text": "Two claims kept apart so each can be judged on its own"
+            },
+            {
+              "id": "or",
+              "text": "A slogan that makes rejecting cruelty look like rejecting justice"
+            },
+            {
+              "id": "and",
+              "text": "A label that ties wealth to theft as if they were the same fact"
+            },
+            {
+              "id": "if",
+              "text": "A sentence that treats liking order as the same as liking a dictator"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Claims kept apart are not a package. The glue is what makes one seem to drag the other along."
+          }
+        },
+        {
+          "id": "pkg-force",
+          "type": "choice",
+          "prompt": "Why does a package deal feel hard to answer?",
+          "answer": "force",
+          "choices": [
+            {
+              "id": "force",
+              "text": "Accepting the claim you mean seems to force the claim you do not mean"
+            },
+            {
+              "id": "long",
+              "text": "The wording is too long to read"
+            },
+            {
+              "id": "new",
+              "text": "Both claims are brand-new facts nobody has seen"
+            },
+            {
+              "id": "math",
+              "text": "It can be settled only by a calculation"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The pressure comes from the glue, not from either claim being unreadable."
+          }
+        },
+        {
+          "id": "pkg-match-marks",
+          "type": "match",
+          "prompt": "Match each description to what it is.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Two claims treated as one item",
+              "right": "A package deal"
+            },
+            {
+              "id": "p2",
+              "left": "A claim you can accept or reject alone",
+              "right": "A single claim"
+            },
+            {
+              "id": "p3",
+              "left": "The feeling that one yes covers both",
+              "right": "The forced pair"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A single claim stands alone. A package makes one answer look like it covers two."
+          }
+        },
+        {
+          "id": "pkg-match-count",
+          "type": "match",
+          "prompt": "Match each line to how many claims it really holds.",
+          "pairs": [
+            {
+              "id": "c1",
+              "left": "Rain is wet",
+              "right": "One claim"
+            },
+            {
+              "id": "c2",
+              "left": "Caring about truth means you hate people",
+              "right": "Two claims glued"
+            },
+            {
+              "id": "c3",
+              "left": "A yes here is said to require a yes there",
+              "right": "A forced pair"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Count the claims. If a yes to the first is presented as a yes to a second, the line is a package."
+          }
+        },
+        {
+          "id": "pkg-blanks-def",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the definition.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "A package deal glues "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "two"
+            },
+            {
+              "type": "text",
+              "text": " claims so that accepting one seems to "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "force"
+            },
+            {
+              "type": "text",
+              "text": " the other."
+            }
+          ],
+          "bank": [
+            "two",
+            "force",
+            "erase",
+            "none"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Two is the count. Force is the trick: one acceptance is made to look mandatory for both."
+          }
+        },
+        {
+          "id": "pkg-blanks-seem",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the warning.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "The package makes two claims "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "look"
+            },
+            {
+              "type": "text",
+              "text": " like one, so a single answer seems to "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "cover"
+            },
+            {
+              "type": "text",
+              "text": " both."
+            }
+          ],
+          "bank": [
+            "look",
+            "cover",
+            "prove",
+            "hide-nothing"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Looking like one claim is the disguise. Covering both is what the single answer is pushed to do."
+          }
+        },
+        {
+          "id": "pkg-sentence-def",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names the trick.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Two"
+            },
+            {
+              "id": "t2",
+              "text": "claims"
+            },
+            {
+              "id": "t3",
+              "text": "are"
+            },
+            {
+              "id": "t4",
+              "text": "glued"
+            },
+            {
+              "id": "t5",
+              "text": "into"
+            },
+            {
+              "id": "t6",
+              "text": "one"
+            },
+            {
+              "id": "t7",
+              "text": "package"
+            },
+            {
+              "id": "d1",
+              "text": "proof"
+            },
+            {
+              "id": "d2",
+              "text": "axiom"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6",
+            "t7"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The package is the glue, not a new fact that makes both claims true."
+          }
+        },
+        {
+          "id": "pkg-sentence-yes",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about what the yes is made to do.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "One"
+            },
+            {
+              "id": "t2",
+              "text": "yes"
+            },
+            {
+              "id": "t3",
+              "text": "seems"
+            },
+            {
+              "id": "t4",
+              "text": "to"
+            },
+            {
+              "id": "t5",
+              "text": "force"
+            },
+            {
+              "id": "t6",
+              "text": "the"
+            },
+            {
+              "id": "t7",
+              "text": "other"
+            },
+            {
+              "id": "d1",
+              "text": "erase"
+            },
+            {
+              "id": "d2",
+              "text": "measure"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6",
+            "t7"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Seems is the right strength. The second claim is not actually proved by the first."
+          }
+        }
+      ]
+    },
+    "package-deals/the-glue": {
+      "exercises": [
+        {
+          "id": "glue-where",
+          "type": "choice",
+          "prompt": "Where does the glue usually sit?",
+          "answer": "word",
+          "choices": [
+            {
+              "id": "word",
+              "text": "In a word or slogan that names two different things as if they were one"
+            },
+            {
+              "id": "page",
+              "text": "Only in a footnote nobody reads"
+            },
+            {
+              "id": "tone",
+              "text": "Only in a loud tone of voice"
+            },
+            {
+              "id": "date",
+              "text": "In the date when the claims were first written"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The join hides inside the shared label. Volume and dates do not glue claims."
+          }
+        },
+        {
+          "id": "glue-spot",
+          "type": "choice",
+          "prompt": "Someone says selfish means cruel. Where is the glue?",
+          "answer": "means",
+          "choices": [
+            {
+              "id": "means",
+              "text": "In the word means, which welds a concern for oneself to cruelty"
+            },
+            {
+              "id": "self",
+              "text": "In the mere fact that a person can care about his own life"
+            },
+            {
+              "id": "cruel",
+              "text": "In the mere fact that cruelty is a kind of act"
+            },
+            {
+              "id": "period",
+              "text": "In the period at the end of the sentence"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each idea can be named alone. The weld is the claim that one word means the other."
+          }
+        },
+        {
+          "id": "glue-not-topic",
+          "type": "choice",
+          "prompt": "What should you look for first when a line feels like a trap?",
+          "answer": "join",
+          "choices": [
+            {
+              "id": "join",
+              "text": "The word that joins two claims you could have asked about separately"
+            },
+            {
+              "id": "author",
+              "text": "The fame of the person who said it"
+            },
+            {
+              "id": "length",
+              "text": "Whether the line has more than ten words"
+            },
+            {
+              "id": "agree",
+              "text": "Whether your friends already agree"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Fame, length, and company do not show the join. The joining word does."
+          }
+        },
+        {
+          "id": "glue-match",
+          "type": "match",
+          "prompt": "Match each slogan to the join it hides.",
+          "pairs": [
+            {
+              "id": "g1",
+              "left": "Practical means unprincipled",
+              "right": "Results welded to dropping standards"
+            },
+            {
+              "id": "g2",
+              "left": "Idealistic means impractical",
+              "right": "Standards welded to ignoring facts"
+            },
+            {
+              "id": "g3",
+              "left": "Selfish means predatory",
+              "right": "A self-interest welded to harming others"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each slogan uses means to stick a second claim onto the first word."
+          }
+        },
+        {
+          "id": "glue-match-kind",
+          "type": "match",
+          "prompt": "Match each clue to what it shows.",
+          "pairs": [
+            {
+              "id": "k1",
+              "left": "One noun asked to stand for two ideas",
+              "right": "A hiding label"
+            },
+            {
+              "id": "k2",
+              "left": "A phrase you are not allowed to split",
+              "right": "A slogan glue"
+            },
+            {
+              "id": "k3",
+              "left": "Two ideas already given separate names",
+              "right": "No glue yet"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Separate names let you look at each idea. A label that forbids the split is the glue."
+          }
+        },
+        {
+          "id": "glue-blanks",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the spotting rule.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Look for the "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "word"
+            },
+            {
+              "type": "text",
+              "text": " that hides the "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "join"
+            },
+            {
+              "type": "text",
+              "text": " between the two claims."
+            }
+          ],
+          "bank": [
+            "word",
+            "join",
+            "date",
+            "volume"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word is the hiding place. The join is what that word is concealing."
+          }
+        },
+        {
+          "id": "glue-blanks-means",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the example.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "When a slogan says one thing "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "means"
+            },
+            {
+              "type": "text",
+              "text": " another, that verb is the "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "glue"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "means",
+            "glue",
+            "proof",
+            "map"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Means is doing the welding. It is not a proof that the two things are identical."
+          }
+        },
+        {
+          "id": "glue-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that tells you where to look.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "The"
+            },
+            {
+              "id": "t2",
+              "text": "slogan"
+            },
+            {
+              "id": "t3",
+              "text": "hides"
+            },
+            {
+              "id": "t4",
+              "text": "the"
+            },
+            {
+              "id": "t5",
+              "text": "join"
+            },
+            {
+              "id": "d1",
+              "text": "proof"
+            },
+            {
+              "id": "d2",
+              "text": "calendar"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Find the slogan before you argue either claim. The join is what you have to see."
+          }
+        },
+        {
+          "id": "glue-sentence-label",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about a hiding label.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "One"
+            },
+            {
+              "id": "t2",
+              "text": "label"
+            },
+            {
+              "id": "t3",
+              "text": "is"
+            },
+            {
+              "id": "t4",
+              "text": "covering"
+            },
+            {
+              "id": "t5",
+              "text": "two"
+            },
+            {
+              "id": "t6",
+              "text": "ideas"
+            },
+            {
+              "id": "d1",
+              "text": "pages"
+            },
+            {
+              "id": "d2",
+              "text": "votes"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A label can be honest only when it names one idea. Two ideas under one label are a package."
+          }
+        }
+      ]
+    },
+    "package-deals/split-them": {
+      "exercises": [
+        {
+          "id": "split-job",
+          "type": "choice",
+          "prompt": "After you see the glue, what is the next step?",
+          "answer": "name",
+          "choices": [
+            {
+              "id": "name",
+              "text": "State each claim in its own words"
+            },
+            {
+              "id": "drop",
+              "text": "Drop both claims without looking"
+            },
+            {
+              "id": "keep",
+              "text": "Keep the slogan and refuse to restate it"
+            },
+            {
+              "id": "vote",
+              "text": "Ask which claim is more popular"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Opening the package means giving each claim a sentence of its own."
+          }
+        },
+        {
+          "id": "split-example",
+          "type": "choice",
+          "prompt": "The slogan is freedom means chaos. Which split is fair?",
+          "answer": "fair",
+          "choices": [
+            {
+              "id": "fair",
+              "text": "People can act without permission, and action without rules is disorder"
+            },
+            {
+              "id": "same",
+              "text": "Freedom and chaos are one word, so there is nothing to split"
+            },
+            {
+              "id": "only",
+              "text": "Only chaos is real, and freedom is not a claim at all"
+            },
+            {
+              "id": "mood",
+              "text": "The split is whatever feeling the slogan gives you"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A fair split keeps both claims visible. It does not erase one or treat the slogan as atomic."
+          }
+        },
+        {
+          "id": "split-bad",
+          "type": "choice",
+          "prompt": "Which restatement fails to open the package?",
+          "answer": "repeat",
+          "choices": [
+            {
+              "id": "repeat",
+              "text": "Repeating the slogan with the same welded word"
+            },
+            {
+              "id": "first",
+              "text": "Writing the first claim without the second"
+            },
+            {
+              "id": "second",
+              "text": "Writing the second claim without the first"
+            },
+            {
+              "id": "both",
+              "text": "Writing both claims as two separate sentences"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If the welded word is still doing the joining, the package is still closed."
+          }
+        },
+        {
+          "id": "split-match",
+          "type": "match",
+          "prompt": "Match each package to a clean split.",
+          "pairs": [
+            {
+              "id": "s1",
+              "left": "Selfish means cruel",
+              "right": "Concern for oneself, and cruelty to others"
+            },
+            {
+              "id": "s2",
+              "left": "Profit means theft",
+              "right": "Earning a gain, and taking what is not yours"
+            },
+            {
+              "id": "s3",
+              "left": "Reason means coldness",
+              "right": "Thinking from facts, and refusing to care"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each right-hand side names two claims. Neither claim is yet judged true or false."
+          }
+        },
+        {
+          "id": "split-match-order",
+          "type": "match",
+          "prompt": "Match each step to its job.",
+          "pairs": [
+            {
+              "id": "o1",
+              "left": "Find the joining word",
+              "right": "See the glue"
+            },
+            {
+              "id": "o2",
+              "left": "Give each idea its own sentence",
+              "right": "Open the package"
+            },
+            {
+              "id": "o3",
+              "left": "Leave the slogan untouched",
+              "right": "Keep the package shut"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Seeing the glue comes before naming. Leaving the slogan as it stands leaves the package shut."
+          }
+        },
+        {
+          "id": "split-blanks",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rule for opening a package.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Name the "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "first"
+            },
+            {
+              "type": "text",
+              "text": " claim, then name the "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "second"
+            },
+            {
+              "type": "text",
+              "text": " claim, without the joining word."
+            }
+          ],
+          "bank": [
+            "first",
+            "second",
+            "same",
+            "popular"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Both claims stay in view. The joining word is left out of the restatement."
+          }
+        },
+        {
+          "id": "split-blanks-two",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the description of a fair split.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "A fair split yields "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "two"
+            },
+            {
+              "type": "text",
+              "text": " sentences, and neither sentence still "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "welds"
+            },
+            {
+              "type": "text",
+              "text": " the claims."
+            }
+          ],
+          "bank": [
+            "two",
+            "welds",
+            "one",
+            "hides"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Two sentences is the count. If one of them still welds the ideas, the split is not finished."
+          }
+        },
+        {
+          "id": "split-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the next step.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "State"
+            },
+            {
+              "id": "t2",
+              "text": "each"
+            },
+            {
+              "id": "t3",
+              "text": "claim"
+            },
+            {
+              "id": "t4",
+              "text": "on"
+            },
+            {
+              "id": "t5",
+              "text": "its"
+            },
+            {
+              "id": "t6",
+              "text": "own"
+            },
+            {
+              "id": "d1",
+              "text": "slogan"
+            },
+            {
+              "id": "d2",
+              "text": "together"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "On its own means the claim no longer borrows support from the claim beside it."
+          }
+        },
+        {
+          "id": "split-sentence-open",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about what opening does.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Opening"
+            },
+            {
+              "id": "t2",
+              "text": "the"
+            },
+            {
+              "id": "t3",
+              "text": "package"
+            },
+            {
+              "id": "t4",
+              "text": "names"
+            },
+            {
+              "id": "t5",
+              "text": "both"
+            },
+            {
+              "id": "t6",
+              "text": "claims"
+            },
+            {
+              "id": "d1",
+              "text": "erases"
+            },
+            {
+              "id": "d2",
+              "text": "votes"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Naming both is the point. Opening is not the same as throwing either claim away."
+          }
+        }
+      ]
+    },
+    "package-deals/one-not-both": {
+      "exercises": [
+        {
+          "id": "judge-rule",
+          "type": "choice",
+          "prompt": "Once the claims are separate, how do you judge them?",
+          "answer": "each",
+          "choices": [
+            {
+              "id": "each",
+              "text": "Each claim stands or falls by itself"
+            },
+            {
+              "id": "both",
+              "text": "You must accept both or reject both"
+            },
+            {
+              "id": "first",
+              "text": "The first claim automatically proves the second"
+            },
+            {
+              "id": "label",
+              "text": "The original label decides both at once"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Separation is what lets the answers differ. The package had forbidden that."
+          }
+        },
+        {
+          "id": "judge-case",
+          "type": "choice",
+          "prompt": "You accept that a person may keep what he earns. The package said earning means theft. What follows?",
+          "answer": "not",
+          "choices": [
+            {
+              "id": "not",
+              "text": "Nothing about theft follows, because that claim was only glued on"
+            },
+            {
+              "id": "must",
+              "text": "You must also accept that earning is theft"
+            },
+            {
+              "id": "deny",
+              "text": "You must deny that anyone earns anything"
+            },
+            {
+              "id": "both-yes",
+              "text": "You have said yes to earning and yes to theft together"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A yes to the claim you meant does not carry the claim that was attached to it."
+          }
+        },
+        {
+          "id": "judge-mix",
+          "type": "choice",
+          "prompt": "Which pair of answers is allowed after a real split?",
+          "answer": "mix",
+          "choices": [
+            {
+              "id": "mix",
+              "text": "Yes to the first claim and no to the second"
+            },
+            {
+              "id": "locked",
+              "text": "Only yes-yes or no-no, with no other pattern"
+            },
+            {
+              "id": "skip",
+              "text": "No answer until the slogan is restored"
+            },
+            {
+              "id": "crowd",
+              "text": "Whatever answer a crowd gives to the slogan"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Mixed answers are the sign that the glue is gone. The package had treated a mix as impossible."
+          }
+        },
+        {
+          "id": "judge-match",
+          "type": "match",
+          "prompt": "Match each claim to a verdict that does not drag in the other.",
+          "pairs": [
+            {
+              "id": "j1",
+              "left": "A standard can be worth keeping",
+              "right": "Yes, without calling it impractical"
+            },
+            {
+              "id": "j2",
+              "left": "A result can matter",
+              "right": "Yes, without dropping the standard"
+            },
+            {
+              "id": "j3",
+              "left": "Cruelty is wrong",
+              "right": "Yes, without banning concern for oneself"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each yes stops at its own claim. The glued extra is left unanswered by that yes."
+          }
+        },
+        {
+          "id": "judge-match-error",
+          "type": "match",
+          "prompt": "Match each mistake to the error it is.",
+          "pairs": [
+            {
+              "id": "e1",
+              "left": "A yes to one claim counted as a yes to both",
+              "right": "Still inside the package"
+            },
+            {
+              "id": "e2",
+              "left": "Rejecting a claim only because it once shared a label",
+              "right": "Letting the glue decide"
+            },
+            {
+              "id": "e3",
+              "left": "Giving each claim its own yes or no",
+              "right": "Judging after the split"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The glue can push you to accept an extra or to reject a claim that never needed rejecting."
+          }
+        },
+        {
+          "id": "judge-blanks",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the judging rule.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "A yes to one claim does "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "not"
+            },
+            {
+              "type": "text",
+              "text": " force a yes to the "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "other"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "not",
+            "other",
+            "also",
+            "same"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Not is the whole point of the split. The other claim still needs its own reason."
+          }
+        },
+        {
+          "id": "judge-blanks-own",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line about evidence.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Each claim needs its "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "own"
+            },
+            {
+              "type": "text",
+              "text": " reason, not a ride on the "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "label"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "own",
+            "label",
+            "shared",
+            "slogan-only"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A shared label is not a reason. Own means the support has to belong to that claim."
+          }
+        },
+        {
+          "id": "judge-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the rule.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "One"
+            },
+            {
+              "id": "t2",
+              "text": "yes"
+            },
+            {
+              "id": "t3",
+              "text": "is"
+            },
+            {
+              "id": "t4",
+              "text": "not"
+            },
+            {
+              "id": "t5",
+              "text": "two"
+            },
+            {
+              "id": "d1",
+              "text": "always"
+            },
+            {
+              "id": "d2",
+              "text": "proof"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Count the answers the way you counted the claims. One acceptance covers one claim."
+          }
+        },
+        {
+          "id": "judge-sentence-falls",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about how a claim is decided.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Each"
+            },
+            {
+              "id": "t2",
+              "text": "claim"
+            },
+            {
+              "id": "t3",
+              "text": "stands"
+            },
+            {
+              "id": "t4",
+              "text": "or"
+            },
+            {
+              "id": "t5",
+              "text": "falls"
+            },
+            {
+              "id": "t6",
+              "text": "alone"
+            },
+            {
+              "id": "d1",
+              "text": "together"
+            },
+            {
+              "id": "d2",
+              "text": "popularly"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Alone means the other claim’s fate is a separate question."
+          }
+        }
+      ]
+    },
+    "package-deals/two-questions": {
+      "exercises": [
+        {
+          "id": "ask-replace",
+          "type": "choice",
+          "prompt": "What should replace the package when you answer someone?",
+          "answer": "twoq",
+          "choices": [
+            {
+              "id": "twoq",
+              "text": "Two questions, one for each claim"
+            },
+            {
+              "id": "same",
+              "text": "The same slogan, said more firmly"
+            },
+            {
+              "id": "none",
+              "text": "No question, because packages cannot be discussed"
+            },
+            {
+              "id": "oneq",
+              "text": "One question that still demands a single yes or no for both"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Two questions put the split to work. One combined question rebuilds the package."
+          }
+        },
+        {
+          "id": "ask-sample",
+          "type": "choice",
+          "prompt": "The line is profit means theft. Which pair of questions opens it?",
+          "answer": "pair",
+          "choices": [
+            {
+              "id": "pair",
+              "text": "Did someone earn a gain, and did someone take what was not his?"
+            },
+            {
+              "id": "one",
+              "text": "Are you for profit-theft or against it?"
+            },
+            {
+              "id": "who",
+              "text": "Who coined the slogan, and when?"
+            },
+            {
+              "id": "feel",
+              "text": "Does the word profit feel ugly or pleasant?"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each question can be answered without settling the other. The combined label cannot."
+          }
+        },
+        {
+          "id": "ask-order",
+          "type": "choice",
+          "prompt": "Why answer the questions one at a time?",
+          "answer": "time",
+          "choices": [
+            {
+              "id": "time",
+              "text": "So the answer to the first is not smuggled in as the answer to the second"
+            },
+            {
+              "id": "speed",
+              "text": "Because two questions always take twice as many minutes"
+            },
+            {
+              "id": "polite",
+              "text": "Because etiquette forbids a direct reply"
+            },
+            {
+              "id": "avoid",
+              "text": "So you never have to reach a verdict"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One at a time blocks the smuggle. It is not a way to postpone judging."
+          }
+        },
+        {
+          "id": "ask-match",
+          "type": "match",
+          "prompt": "Match each package to the first question worth asking.",
+          "pairs": [
+            {
+              "id": "a1",
+              "left": "Freedom means chaos",
+              "right": "What range of action is being called freedom?"
+            },
+            {
+              "id": "a2",
+              "left": "Reason means coldness",
+              "right": "What act of thinking is being called reason?"
+            },
+            {
+              "id": "a3",
+              "left": "Selfish means cruel",
+              "right": "What concern for oneself is being named?"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The first question isolates the claim that the label was pretending to define. The second claim waits its turn."
+          }
+        },
+        {
+          "id": "ask-match-second",
+          "type": "match",
+          "prompt": "Match each leftover claim to the question that belongs to it.",
+          "pairs": [
+            {
+              "id": "b1",
+              "left": "The chaos half of the package",
+              "right": "Is this situation actually disorder?"
+            },
+            {
+              "id": "b2",
+              "left": "The coldness half of the package",
+              "right": "Is anyone refusing to care?"
+            },
+            {
+              "id": "b3",
+              "left": "The cruelty half of the package",
+              "right": "Is anyone harming another person?"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The second question asks about the extra claim directly, instead of letting the label imply it."
+          }
+        },
+        {
+          "id": "ask-blanks",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the replacement rule.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Replace the package with "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "two"
+            },
+            {
+              "type": "text",
+              "text": " questions you can answer "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "separately"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "two",
+            "separately",
+            "one",
+            "together"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Two questions, answered separately, is the whole method of reply."
+          }
+        },
+        {
+          "id": "ask-blanks-smuggle",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the caution.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Do not let the "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "first"
+            },
+            {
+              "type": "text",
+              "text": " answer settle the "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "second"
+            },
+            {
+              "type": "text",
+              "text": " question."
+            }
+          ],
+          "bank": [
+            "first",
+            "second",
+            "slogan",
+            "crowd"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The first answer stays with the first question. The second question is still open."
+          }
+        },
+        {
+          "id": "ask-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that says what to ask.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Ask"
+            },
+            {
+              "id": "t2",
+              "text": "one"
+            },
+            {
+              "id": "t3",
+              "text": "question"
+            },
+            {
+              "id": "t4",
+              "text": "for"
+            },
+            {
+              "id": "t5",
+              "text": "each"
+            },
+            {
+              "id": "t6",
+              "text": "claim"
+            },
+            {
+              "id": "d1",
+              "text": "slogan"
+            },
+            {
+              "id": "d2",
+              "text": "both"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One question per claim keeps the answers from collapsing back into the package."
+          }
+        },
+        {
+          "id": "ask-sentence-time",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about the order of answers.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Answer"
+            },
+            {
+              "id": "t2",
+              "text": "the"
+            },
+            {
+              "id": "t3",
+              "text": "questions"
+            },
+            {
+              "id": "t4",
+              "text": "one"
+            },
+            {
+              "id": "t5",
+              "text": "at"
+            },
+            {
+              "id": "t6",
+              "text": "a"
+            },
+            {
+              "id": "t7",
+              "text": "time"
+            },
+            {
+              "id": "d1",
+              "text": "once"
+            },
+            {
+              "id": "d2",
+              "text": "never"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6",
+            "t7"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One at a time is how you stop the first answer from being counted twice."
+          }
+        }
+      ]
+    },
+    "premises/the-clash": {
+      "exercises": [
+        {
+          "id": "c1",
+          "type": "choice",
+          "prompt": "In this unit, what is a clash?",
+          "answer": "fit",
+          "choices": [
+            {
+              "id": "fit",
+              "text": "A conclusion that does not fit a known fact"
+            },
+            {
+              "id": "mood",
+              "text": "Two people who dislike the same idea"
+            },
+            {
+              "id": "style",
+              "text": "A sentence that sounds too sharp"
+            },
+            {
+              "id": "new",
+              "text": "A fact you have not looked at yet"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A clash is a mismatch between what you concluded and what is the case."
+          }
+        },
+        {
+          "id": "c2",
+          "type": "choice",
+          "prompt": "Which pair is a clash?",
+          "answer": "empty",
+          "choices": [
+            {
+              "id": "empty",
+              "text": "You conclude the tank is full, and the gauge reads empty"
+            },
+            {
+              "id": "same",
+              "text": "You conclude the tank is empty, and the gauge reads empty"
+            },
+            {
+              "id": "guess",
+              "text": "You have not concluded anything, and the gauge is unread"
+            },
+            {
+              "id": "like",
+              "text": "Two people prefer different gauges"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The conclusion and the fact have to disagree. Agreement is not a clash, and a preference is not a fact."
+          }
+        },
+        {
+          "id": "c3",
+          "type": "match",
+          "prompt": "Match each item to its role in a clash.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "The conclusion",
+              "right": "What your reasoning said must be so"
+            },
+            {
+              "id": "p2",
+              "left": "The fact",
+              "right": "What is actually the case"
+            },
+            {
+              "id": "p3",
+              "left": "The clash",
+              "right": "Those two do not fit"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the three roles separate. The clash is the mismatch, not either side by itself."
+          }
+        },
+        {
+          "id": "c4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit's picture of a clash.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "A clash is a conclusion that does not fit a known "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "fact"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "fact",
+            "mood",
+            "slogan",
+            "audience"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The other side of the clash is a fact, not a mood or a slogan."
+          }
+        },
+        {
+          "id": "c5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names a clash.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "The"
+            },
+            {
+              "id": "t2",
+              "text": "conclusion"
+            },
+            {
+              "id": "t3",
+              "text": "does"
+            },
+            {
+              "id": "t4",
+              "text": "not"
+            },
+            {
+              "id": "t5",
+              "text": "fit"
+            },
+            {
+              "id": "t6",
+              "text": "the"
+            },
+            {
+              "id": "t7",
+              "text": "fact"
+            },
+            {
+              "id": "d1",
+              "text": "mood"
+            },
+            {
+              "id": "d2",
+              "text": "always"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6",
+            "t7"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Naming the clash is the first step. It says the conclusion and the fact disagree."
+          }
+        },
+        {
+          "id": "c6",
+          "type": "choice",
+          "prompt": "You conclude the bridge is closed. A sign at the entrance says it is open. What do you have?",
+          "answer": "clash",
+          "choices": [
+            {
+              "id": "clash",
+              "text": "A clash between a conclusion and a fact"
+            },
+            {
+              "id": "proof",
+              "text": "Proof that the sign is decoration"
+            },
+            {
+              "id": "none",
+              "text": "No clash, because conclusions outrank signs"
+            },
+            {
+              "id": "style",
+              "text": "A clash of writing styles"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Open on the sign and closed in the conclusion do not fit. That mismatch is the clash."
+          }
+        },
+        {
+          "id": "c7",
+          "type": "match",
+          "prompt": "Match each report to whether it is a clash.",
+          "pairs": [
+            {
+              "id": "a",
+              "left": "Conclusion says dry; the road is wet",
+              "right": "A clash"
+            },
+            {
+              "id": "b",
+              "left": "Conclusion says wet; the road is wet",
+              "right": "No clash"
+            },
+            {
+              "id": "c",
+              "left": "No conclusion yet; the road is wet",
+              "right": "Not yet a clash"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "You need both a conclusion and a fact, and they need to disagree."
+          }
+        },
+        {
+          "id": "c8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the contrast.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Agreement is not a clash. A clash needs a "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "mismatch"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "mismatch",
+            "compliment",
+            "title",
+            "habit"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If the conclusion already fits the fact, there is nothing here to inspect."
+          }
+        },
+        {
+          "id": "c9",
+          "type": "choice",
+          "prompt": "Which item is not, by itself, a clash?",
+          "answer": "fact",
+          "choices": [
+            {
+              "id": "fact",
+              "text": "A fact with no conclusion set against it"
+            },
+            {
+              "id": "both",
+              "text": "A conclusion that contradicts a measurement"
+            },
+            {
+              "id": "map",
+              "text": "A map that says north where the compass says south"
+            },
+            {
+              "id": "count",
+              "text": "A count of five when there are three"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A fact alone is not a clash. The clash starts when a conclusion fails to fit that fact."
+          }
+        }
+      ]
+    },
+    "premises/fact-holds": {
+      "exercises": [
+        {
+          "id": "f1",
+          "type": "choice",
+          "prompt": "When a conclusion clashes with a fact, which side stays?",
+          "answer": "fact",
+          "choices": [
+            {
+              "id": "fact",
+              "text": "The fact"
+            },
+            {
+              "id": "wish",
+              "text": "The conclusion you prefer"
+            },
+            {
+              "id": "both",
+              "text": "Both, by calling the fact optional"
+            },
+            {
+              "id": "neither",
+              "text": "Neither, until a vote decides"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The fact is what is the case. The conclusion is what has to be reconsidered."
+          }
+        },
+        {
+          "id": "f2",
+          "type": "choice",
+          "prompt": "What is the wrong first move?",
+          "answer": "rewrite",
+          "choices": [
+            {
+              "id": "rewrite",
+              "text": "Rewrite the fact so the conclusion can stay"
+            },
+            {
+              "id": "hold",
+              "text": "Hold the fact and question the conclusion"
+            },
+            {
+              "id": "name",
+              "text": "Name the clash out loud"
+            },
+            {
+              "id": "look",
+              "text": "Look again at what produced the conclusion"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Editing the fact to rescue a conclusion throws away the only check you have."
+          }
+        },
+        {
+          "id": "f3",
+          "type": "match",
+          "prompt": "Match each move to what it does.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Keep the fact",
+              "right": "Leave the check in place"
+            },
+            {
+              "id": "p2",
+              "left": "Drop the conclusion",
+              "right": "Let the side that clashes give way"
+            },
+            {
+              "id": "p3",
+              "left": "Edit the fact",
+              "right": "Remove the check"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The fact is the check. Protecting the conclusion by changing the fact is the error."
+          }
+        },
+        {
+          "id": "f4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rule.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "The fact holds. The "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "conclusion"
+            },
+            {
+              "type": "text",
+              "text": " is what has to give."
+            }
+          ],
+          "bank": [
+            "conclusion",
+            "ruler",
+            "audience",
+            "title"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Giving way belongs to the conclusion, not to the fact it failed to fit."
+          }
+        },
+        {
+          "id": "f5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the rule in order.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Keep"
+            },
+            {
+              "id": "t2",
+              "text": "the"
+            },
+            {
+              "id": "t3",
+              "text": "fact"
+            },
+            {
+              "id": "t4",
+              "text": "and"
+            },
+            {
+              "id": "t5",
+              "text": "question"
+            },
+            {
+              "id": "t6",
+              "text": "the"
+            },
+            {
+              "id": "t7",
+              "text": "conclusion"
+            },
+            {
+              "id": "d1",
+              "text": "rewrite"
+            },
+            {
+              "id": "d2",
+              "text": "vote"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6",
+            "t7"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Questioning starts on the conclusion side. The fact is not up for a rewrite."
+          }
+        },
+        {
+          "id": "f6",
+          "type": "choice",
+          "prompt": "The scale reads 70. Your conclusion said 90. What do you not do?",
+          "answer": "bend",
+          "choices": [
+            {
+              "id": "bend",
+              "text": "Treat 70 as if it were 90"
+            },
+            {
+              "id": "accept",
+              "text": "Accept 70 as the fact"
+            },
+            {
+              "id": "drop",
+              "text": "Drop the conclusion that said 90"
+            },
+            {
+              "id": "ask",
+              "text": "Ask what led you to 90"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Calling 70 a 90 saves the conclusion by discarding the reading. That is the move this lesson rejects."
+          }
+        },
+        {
+          "id": "f7",
+          "type": "match",
+          "prompt": "Match the side to its standing.",
+          "pairs": [
+            {
+              "id": "a",
+              "left": "A known fact",
+              "right": "Stays"
+            },
+            {
+              "id": "b",
+              "left": "A clashing conclusion",
+              "right": "Has to give"
+            },
+            {
+              "id": "c",
+              "left": "A wish that the fact were otherwise",
+              "right": "Does not change the fact"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Wishing the reading were different does not make a new fact."
+          }
+        },
+        {
+          "id": "f8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the warning.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Do not rewrite the fact to rescue the "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "conclusion"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "conclusion",
+            "scale",
+            "day",
+            "name"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rescue that edits the fact is not checking. It is refusing the clash."
+          }
+        },
+        {
+          "id": "f9",
+          "type": "choice",
+          "prompt": "Why does the fact outrank the conclusion?",
+          "answer": "case",
+          "choices": [
+            {
+              "id": "case",
+              "text": "The fact is what is the case; the conclusion is a claim about it"
+            },
+            {
+              "id": "loud",
+              "text": "Facts are always shouted louder"
+            },
+            {
+              "id": "old",
+              "text": "Older sentences beat newer ones"
+            },
+            {
+              "id": "nice",
+              "text": "Facts are the kinder wording"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A conclusion is accountable to the fact. The fact is not accountable to the conclusion."
+          }
+        }
+      ]
+    },
+    "premises/trace-back": {
+      "exercises": [
+        {
+          "id": "t1",
+          "type": "choice",
+          "prompt": "After you keep the fact, what do you look for?",
+          "answer": "premise",
+          "choices": [
+            {
+              "id": "premise",
+              "text": "The premise that produced the conclusion"
+            },
+            {
+              "id": "blame",
+              "text": "Someone to blame for noticing the fact"
+            },
+            {
+              "id": "volume",
+              "text": "A louder restatement of the same conclusion"
+            },
+            {
+              "id": "exit",
+              "text": "A way to stop thinking"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The conclusion came from a premise. That premise is the next thing to find."
+          }
+        },
+        {
+          "id": "t2",
+          "type": "choice",
+          "prompt": "What is a premise, in this unit?",
+          "answer": "from",
+          "choices": [
+            {
+              "id": "from",
+              "text": "A claim you reasoned from to reach the conclusion"
+            },
+            {
+              "id": "end",
+              "text": "The fact that clashed with the conclusion"
+            },
+            {
+              "id": "mood",
+              "text": "How sure you felt at the end"
+            },
+            {
+              "id": "title",
+              "text": "The name of the subject"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A premise is an earlier claim in the reasoning. The conclusion is what that claim helped produce."
+          }
+        },
+        {
+          "id": "t3",
+          "type": "match",
+          "prompt": "Match each piece of reasoning to its place.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Premise",
+              "right": "What you reasoned from"
+            },
+            {
+              "id": "p2",
+              "left": "Conclusion",
+              "right": "What that reasoning produced"
+            },
+            {
+              "id": "p3",
+              "left": "Fact",
+              "right": "The check the conclusion failed"
+            },
+            {
+              "id": "p4",
+              "left": "Tracing",
+              "right": "Walking from the conclusion back to the premise"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Tracing goes backward: from the bad fit, to the conclusion, to the premise that produced it."
+          }
+        },
+        {
+          "id": "t4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the step.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Trace the conclusion back to the "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "premise"
+            },
+            {
+              "type": "text",
+              "text": " that produced it."
+            }
+          ],
+          "bank": [
+            "premise",
+            "volume",
+            "excuse",
+            "title"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit asks for the producing premise, not a louder repeat of the conclusion."
+          }
+        },
+        {
+          "id": "t5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the tracing step.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Find"
+            },
+            {
+              "id": "t2",
+              "text": "the"
+            },
+            {
+              "id": "t3",
+              "text": "premise"
+            },
+            {
+              "id": "t4",
+              "text": "behind"
+            },
+            {
+              "id": "t5",
+              "text": "the"
+            },
+            {
+              "id": "t6",
+              "text": "conclusion"
+            },
+            {
+              "id": "d1",
+              "text": "shout"
+            },
+            {
+              "id": "d2",
+              "text": "decor"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Finding the premise is how you get from a bad conclusion to something you can inspect."
+          }
+        },
+        {
+          "id": "t6",
+          "type": "choice",
+          "prompt": "You concluded the train left, because you assumed the clock on the wall was right. The board says the train is still here. Which claim is the premise to trace?",
+          "answer": "clock",
+          "choices": [
+            {
+              "id": "clock",
+              "text": "The clock on the wall is right"
+            },
+            {
+              "id": "board",
+              "text": "The board says the train is still here"
+            },
+            {
+              "id": "left",
+              "text": "The conclusion that the train left"
+            },
+            {
+              "id": "station",
+              "text": "The fact that stations have boards"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The board is the fact. The conclusion is that the train left. The premise you used was that the wall clock was right."
+          }
+        },
+        {
+          "id": "t7",
+          "type": "match",
+          "prompt": "Match the train example to its role.",
+          "pairs": [
+            {
+              "id": "a",
+              "left": "The wall clock is right",
+              "right": "Premise"
+            },
+            {
+              "id": "b",
+              "left": "The train has left",
+              "right": "Conclusion"
+            },
+            {
+              "id": "c",
+              "left": "The board says the train is here",
+              "right": "Fact"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only one of those three was the claim you reasoned from. That one is the premise."
+          }
+        },
+        {
+          "id": "t8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the distinction.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "The conclusion is the result. The premise is what you reasoned "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "from"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "from",
+            "past",
+            "over",
+            "aloud"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "From marks the earlier claim. The conclusion is later."
+          }
+        },
+        {
+          "id": "t9",
+          "type": "choice",
+          "prompt": "Why trace at all, instead of only deleting the conclusion?",
+          "answer": "source",
+          "choices": [
+            {
+              "id": "source",
+              "text": "The same premise can produce the next bad conclusion"
+            },
+            {
+              "id": "style",
+              "text": "Tracing makes the wording prettier"
+            },
+            {
+              "id": "skip",
+              "text": "Tracing lets you ignore the fact"
+            },
+            {
+              "id": "vote",
+              "text": "A premise is whatever most people repeat"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Deleting one conclusion leaves the premise in place to mislead you again."
+          }
+        },
+        {
+          "id": "t10",
+          "type": "choice",
+          "prompt": "Two premises led to a conclusion that clashes with a fact. What does tracing require?",
+          "answer": "which",
+          "choices": [
+            {
+              "id": "which",
+              "text": "Find which premise produced that conclusion"
+            },
+            {
+              "id": "all",
+              "text": "Throw out every idea you have ever used"
+            },
+            {
+              "id": "none",
+              "text": "Keep both premises and drop the fact"
+            },
+            {
+              "id": "random",
+              "text": "Pick a premise at random to feel decisive"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Tracing is specific. You want the premise that produced this conclusion, not a pile of unrelated ideas."
+          }
+        }
+      ]
+    },
+    "premises/inspect": {
+      "exercises": [
+        {
+          "id": "i1",
+          "type": "choice",
+          "prompt": "What does inspect mean here?",
+          "answer": "check",
+          "choices": [
+            {
+              "id": "check",
+              "text": "Check that premise against the fact"
+            },
+            {
+              "id": "guard",
+              "text": "Guard the premise from the fact"
+            },
+            {
+              "id": "erase",
+              "text": "Erase every premise you hold"
+            },
+            {
+              "id": "rename",
+              "text": "Rename the fact so the premise survives"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Inspection is a check. Shielding, total erasure, and renaming the fact are ways to avoid the check."
+          }
+        },
+        {
+          "id": "i2",
+          "type": "choice",
+          "prompt": "A premise led you to say the path is safe. The path is blocked by a fallen tree. What is the inspection?",
+          "answer": "ask",
+          "choices": [
+            {
+              "id": "ask",
+              "text": "Ask whether the premise still fits, given the tree"
+            },
+            {
+              "id": "tree",
+              "text": "Decide the tree does not count"
+            },
+            {
+              "id": "all",
+              "text": "Reject the idea of paths as such"
+            },
+            {
+              "id": "keep",
+              "text": "Keep the premise because you liked the walk"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The tree is the fact. Inspection asks whether the premise that produced safe can stand next to that tree."
+          }
+        },
+        {
+          "id": "i3",
+          "type": "match",
+          "prompt": "Match each response to what it really is.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Check the premise against the fact",
+              "right": "Inspection"
+            },
+            {
+              "id": "p2",
+              "left": "Protect the premise and edit the fact",
+              "right": "Shielding"
+            },
+            {
+              "id": "p3",
+              "left": "Drop every idea because one premise failed",
+              "right": "Overreach"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One bad premise does not license either protecting it or throwing out thinking as such."
+          }
+        },
+        {
+          "id": "i4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the instruction.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Inspect the premise. Do not "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "shield"
+            },
+            {
+              "type": "text",
+              "text": " it from the fact."
+            }
+          ],
+          "bank": [
+            "shield",
+            "read",
+            "name",
+            "weigh"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Shielding is the opposite of inspection. The fact is allowed to count against the premise."
+          }
+        },
+        {
+          "id": "i5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the inspection rule.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Check"
+            },
+            {
+              "id": "t2",
+              "text": "the"
+            },
+            {
+              "id": "t3",
+              "text": "premise"
+            },
+            {
+              "id": "t4",
+              "text": "against"
+            },
+            {
+              "id": "t5",
+              "text": "the"
+            },
+            {
+              "id": "t6",
+              "text": "fact"
+            },
+            {
+              "id": "d1",
+              "text": "shield"
+            },
+            {
+              "id": "d2",
+              "text": "erase"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Against the fact is the whole test. A premise that cannot face the fact does not pass."
+          }
+        },
+        {
+          "id": "i6",
+          "type": "choice",
+          "prompt": "Which result can an inspection reach?",
+          "answer": "fail",
+          "choices": [
+            {
+              "id": "fail",
+              "text": "This premise does not fit the fact"
+            },
+            {
+              "id": "fact",
+              "text": "The fact must be rewritten"
+            },
+            {
+              "id": "never",
+              "text": "Premises are never open to checking"
+            },
+            {
+              "id": "mood",
+              "text": "The fact is only a mood"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A real inspection can find that the premise fails. That finding is the point of the check."
+          }
+        },
+        {
+          "id": "i7",
+          "type": "match",
+          "prompt": "Match the mistake to the dodge it uses.",
+          "pairs": [
+            {
+              "id": "a",
+              "left": "The fact is inconvenient, so change it",
+              "right": "Rewriting the fact"
+            },
+            {
+              "id": "b",
+              "left": "One premise failed, so trust nothing",
+              "right": "Discarding every idea"
+            },
+            {
+              "id": "c",
+              "left": "I like this premise, so the clash does not count",
+              "right": "Shielding the premise"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each dodge avoids the same job: checking this premise against this fact."
+          }
+        },
+        {
+          "id": "i8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the limit on the check.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Inspect the premise that produced the conclusion, not "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "every"
+            },
+            {
+              "type": "text",
+              "text": " idea you hold."
+            }
+          ],
+          "bank": [
+            "every",
+            "one",
+            "the",
+            "no"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The check is aimed. A failed premise does not mean every other idea failed with it."
+          }
+        },
+        {
+          "id": "i9",
+          "type": "choice",
+          "prompt": "You assumed the recipe needed no salt, and the dish is inedibly flat. What do you inspect?",
+          "answer": "salt",
+          "choices": [
+            {
+              "id": "salt",
+              "text": "The premise that the recipe needed no salt"
+            },
+            {
+              "id": "taste",
+              "text": "Whether flatness is allowed to count as a fact"
+            },
+            {
+              "id": "cooking",
+              "text": "Whether cooking as such was a mistake"
+            },
+            {
+              "id": "plate",
+              "text": "The color of the plate"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The flat dish is the fact. The premise to inspect is the no-salt claim that produced your conclusion about the dish."
+          }
+        }
+      ]
+    },
+    "premises/fit-again": {
+      "exercises": [
+        {
+          "id": "n1",
+          "type": "choice",
+          "prompt": "What is the point of replacing a faulty premise?",
+          "answer": "agree",
+          "choices": [
+            {
+              "id": "agree",
+              "text": "So the new conclusion agrees with the fact"
+            },
+            {
+              "id": "same",
+              "text": "So the old conclusion can stay unchanged"
+            },
+            {
+              "id": "hide",
+              "text": "So the fact can be set aside"
+            },
+            {
+              "id": "style",
+              "text": "So the wording sounds firmer"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Replacement is successful when the conclusion you now draw fits the fact that exposed the old one."
+          }
+        },
+        {
+          "id": "n2",
+          "type": "choice",
+          "prompt": "The old premise said the clock was right, so you concluded the train had left. The board says the train is here, and the clock is slow. What is the corrected conclusion?",
+          "answer": "here",
+          "choices": [
+            {
+              "id": "here",
+              "text": "The train is still here"
+            },
+            {
+              "id": "left",
+              "text": "The train left, because the old conclusion felt sure"
+            },
+            {
+              "id": "none",
+              "text": "There is no train"
+            },
+            {
+              "id": "board",
+              "text": "Boards never report facts"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Once the slow clock replaces the premise that the clock was right, the conclusion that fits the board is that the train is here."
+          }
+        },
+        {
+          "id": "n3",
+          "type": "match",
+          "prompt": "Match each stage to its outcome.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Faulty premise kept",
+              "right": "The conclusion still clashes"
+            },
+            {
+              "id": "p2",
+              "left": "Faulty premise replaced",
+              "right": "A conclusion that can fit the fact"
+            },
+            {
+              "id": "p3",
+              "left": "Fact rewritten instead",
+              "right": "The check is gone"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only a new premise gives you a new conclusion. Editing the fact removes the test instead."
+          }
+        },
+        {
+          "id": "n4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the repair.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Replace the faulty premise so the new conclusion "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "fits"
+            },
+            {
+              "type": "text",
+              "text": " the fact."
+            }
+          ],
+          "bank": [
+            "fits",
+            "hides",
+            "votes",
+            "flatters"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Fits is the standard for the new conclusion. Hiding the fact is not a repair."
+          }
+        },
+        {
+          "id": "n5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the closing rule of the unit.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "A"
+            },
+            {
+              "id": "t2",
+              "text": "corrected"
+            },
+            {
+              "id": "t3",
+              "text": "premise"
+            },
+            {
+              "id": "t4",
+              "text": "yields"
+            },
+            {
+              "id": "t5",
+              "text": "a"
+            },
+            {
+              "id": "t6",
+              "text": "conclusion"
+            },
+            {
+              "id": "t7",
+              "text": "that"
+            },
+            {
+              "id": "t8",
+              "text": "fits"
+            },
+            {
+              "id": "d1",
+              "text": "ignores"
+            },
+            {
+              "id": "d2",
+              "text": "slogan"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6",
+            "t7",
+            "t8"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The repair is not done until the conclusion you draw from the new premise agrees with the fact."
+          }
+        },
+        {
+          "id": "n6",
+          "type": "choice",
+          "prompt": "Which repair is finished?",
+          "answer": "salt",
+          "choices": [
+            {
+              "id": "salt",
+              "text": "You drop the no-salt premise and conclude the dish needs salt, matching the flat taste"
+            },
+            {
+              "id": "deny",
+              "text": "You keep the no-salt premise and call the flat taste unreal"
+            },
+            {
+              "id": "shrug",
+              "text": "You drop cooking entirely"
+            },
+            {
+              "id": "repeat",
+              "text": "You repeat the no-salt premise in a firmer voice"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The new conclusion has to agree with the flat taste. A firmer voice does not change the premise."
+          }
+        },
+        {
+          "id": "n7",
+          "type": "match",
+          "prompt": "Match the old piece to the piece that replaces it.",
+          "pairs": [
+            {
+              "id": "a",
+              "left": "The clock is right",
+              "right": "The clock is slow"
+            },
+            {
+              "id": "b",
+              "left": "The train has left",
+              "right": "The train is still here"
+            },
+            {
+              "id": "c",
+              "left": "The recipe needs no salt",
+              "right": "The dish needs salt"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each new claim is the one that agrees with the fact the old claim missed."
+          }
+        },
+        {
+          "id": "n8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the sequence.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "Clash, then keep the fact, then inspect the premise, then draw a conclusion that "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "agrees"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "agrees",
+            "shouts",
+            "hesitates",
+            "flatters"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Agrees names the end of the sequence: the new conclusion and the fact no longer clash."
+          }
+        },
+        {
+          "id": "n9",
+          "type": "choice",
+          "prompt": "The new premise still produces a conclusion that clashes with the same fact. What is true?",
+          "answer": "not",
+          "choices": [
+            {
+              "id": "not",
+              "text": "The repair is not finished"
+            },
+            {
+              "id": "done",
+              "text": "Any new premise counts as success"
+            },
+            {
+              "id": "fact",
+              "text": "The fact should now be retired"
+            },
+            {
+              "id": "old",
+              "text": "The old conclusion was right after all"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A replacement that still clashes has not done the job. Keep the fact and inspect again."
+          }
+        },
+        {
+          "id": "n10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build what you do when the conclusion clashes with a fact.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "Inspect"
+            },
+            {
+              "id": "t2",
+              "text": "the"
+            },
+            {
+              "id": "t3",
+              "text": "premise"
+            },
+            {
+              "id": "t4",
+              "text": "that"
+            },
+            {
+              "id": "t5",
+              "text": "produced"
+            },
+            {
+              "id": "t6",
+              "text": "it"
+            },
+            {
+              "id": "d1",
+              "text": "ignore"
+            },
+            {
+              "id": "d2",
+              "text": "fact"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5",
+            "t6"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit's whole move is that short: when the conclusion clashes, inspect the premise that produced it."
+          }
+        }
+      ]
+    }
+  }
+}

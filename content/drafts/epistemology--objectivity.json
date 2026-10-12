@@ -1,0 +1,840 @@
+{
+  "sectionId": "epistemology",
+  "sectionFile": "epistemology.json",
+  "unitId": "objectivity",
+  "title": "Objectivity",
+  "summary": "Volitional adherence to reality by the method of logic. Knowledge as contextual and hierarchical.",
+  "lessons": [
+    {
+      "id": "adherence",
+      "title": "Adherence to reality",
+      "objective": "State objectivity as a chosen adherence to the facts, not as neutrality and not as a mind that writes reality.",
+      "exercises": [
+        {
+          "id": "a1",
+          "type": "choice",
+          "prompt": "In this unit, what is objectivity?",
+          "answer": "adh",
+          "choices": [
+            { "id": "adh", "text": "Volitional adherence to reality by the method of logic" },
+            { "id": "neu", "text": "Having no values and taking no stand" },
+            { "id": "vote", "text": "Agreeing with whatever most people report" },
+            { "id": "feel", "text": "Letting a feeling decide what is real" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Objectivity names a method of sticking to the facts, not a mood of indifference."
+          }
+        },
+        {
+          "id": "a2",
+          "type": "choice",
+          "prompt": "What does adherence point at?",
+          "answer": "facts",
+          "choices": [
+            { "id": "facts", "text": "Reality, the facts as they are" },
+            { "id": "wish", "text": "Whatever one wishes were true" },
+            { "id": "group", "text": "The approval of a group" },
+            { "id": "style", "text": "A preferred style of speaking" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "To adhere is to keep one's conclusions tied to reality rather than to wishes."
+          }
+        },
+        {
+          "id": "a3",
+          "type": "match",
+          "prompt": "Match each slogan to the idea it actually names.",
+          "pairs": [
+            { "id": "p1", "left": "Stick to the facts by a method", "right": "Objectivity" },
+            { "id": "p2", "left": "Refuse every evaluation", "right": "Fake neutrality" },
+            { "id": "p3", "left": "Let consciousness invent the facts", "right": "Subjectivism" },
+            { "id": "p4", "left": "Skip any method and claim the facts just announce themselves", "right": "Intrinsicism" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Objectivity needs both reality and a method of knowing it. Neutrality, subjectivism, and intrinsicism each drop one side of that pair."
+          }
+        },
+        {
+          "id": "a4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit's name for objectivity.",
+          "parts": [
+            { "type": "text", "text": "Volitional adherence to " },
+            { "type": "blank", "id": "b1", "answer": "reality" },
+            { "type": "text", "text": " by the method of logic." }
+          ],
+          "bank": ["reality", "fashion", "consensus", "feeling"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The thing one adheres to is reality. Fashion, consensus, and feeling are not substitutes for it."
+          }
+        },
+        {
+          "id": "a5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the definition in the order this unit uses.",
+          "tokens": [
+            { "id": "t1", "text": "Volitional adherence" },
+            { "id": "t2", "text": "to reality" },
+            { "id": "t3", "text": "by the method of logic" },
+            { "id": "d1", "text": "by a show of hands" },
+            { "id": "d2", "text": "without looking" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The three parts are the choice to adhere, the reality one adheres to, and logic as the method."
+          }
+        },
+        {
+          "id": "a6",
+          "type": "choice",
+          "prompt": "Someone says, I am objective because I care about nothing. What is wrong with that?",
+          "answer": "miss",
+          "choices": [
+            { "id": "miss", "text": "Objectivity is adherence to facts, not an absence of concern" },
+            { "id": "right", "text": "Nothing is wrong; indifference is the method" },
+            { "id": "more", "text": "It fails only if the person still has a favorite color" },
+            { "id": "loud", "text": "It fails only because the sentence was spoken aloud" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Caring about a fact is compatible with objectivity. Dropping the facts in the name of neutrality is not."
+          }
+        },
+        {
+          "id": "a7",
+          "type": "choice",
+          "prompt": "Which claim treats consciousness as the author of reality?",
+          "answer": "make",
+          "choices": [
+            { "id": "make", "text": "If I refuse to believe it, it is not a fact" },
+            { "id": "look", "text": "I have to look before I conclude" },
+            { "id": "hold", "text": "A fact stays a fact when I dislike it" },
+            { "id": "check", "text": "I check a claim against the evidence" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Subjectivism puts the mind in charge of what exists. Objectivity keeps the facts in charge of the conclusion."
+          }
+        },
+        {
+          "id": "a8",
+          "type": "match",
+          "prompt": "Match the mistake to what it drops.",
+          "pairs": [
+            { "id": "m1", "left": "My wish settles the fact", "right": "Reality as independent of the wish" },
+            { "id": "m2", "left": "No method is needed; truth just shines", "right": "The method of logic" },
+            { "id": "m3", "left": "I will not take sides, so I will not look", "right": "Adherence to the evidence" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each mistake abandons one part of objectivity: the facts, the method, or the choice to adhere."
+          }
+        },
+        {
+          "id": "a9",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Objectivity is not a mind writing the world. It is adherence to what?",
+          "parts": [
+            { "type": "text", "text": "Adherence is to " },
+            { "type": "blank", "id": "b1", "answer": "facts" },
+            { "type": "text", "text": ", not to wishes." }
+          ],
+          "bank": ["facts", "wishes", "slogans", "moods"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Wishes, slogans, and moods can be real events in a mind. They do not replace the facts one is judging."
+          }
+        },
+        {
+          "id": "a10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Put the objective order of judgment together.",
+          "tokens": [
+            { "id": "t1", "text": "Look at the facts" },
+            { "id": "t2", "text": "then identify them without contradiction" },
+            { "id": "d1", "text": "then rewrite them to fit a wish" },
+            { "id": "d2", "text": "then ignore them" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The facts come first. Identification follows them. Rewriting or ignoring them is the opposite of adherence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-of-logic",
+      "title": "The method of logic",
+      "objective": "Identify logic as the method of objectivity: non-contradictory identification of the facts.",
+      "exercises": [
+        {
+          "id": "b1",
+          "type": "choice",
+          "prompt": "What method does objectivity use?",
+          "answer": "logic",
+          "choices": [
+            { "id": "logic", "text": "Logic, non-contradictory identification" },
+            { "id": "faith", "text": "Faith in an authority" },
+            { "id": "poll", "text": "A poll of opinions" },
+            { "id": "hunch", "text": "An unchecked hunch" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Logic is the method named in this unit. Faith, polls, and hunches are not that method."
+          }
+        },
+        {
+          "id": "b2",
+          "type": "choice",
+          "prompt": "Non-contradictory identification means which of these?",
+          "answer": "same",
+          "choices": [
+            { "id": "same", "text": "Name what is, and do not treat it as also not that" },
+            { "id": "both", "text": "Call the same fact true and false at once when that is convenient" },
+            { "id": "skip", "text": "Skip identification and keep only a feeling" },
+            { "id": "rename", "text": "Rename a contradiction so it sounds peaceful" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Logic keeps an identification consistent with the identity of what is identified."
+          }
+        },
+        {
+          "id": "b3",
+          "type": "match",
+          "prompt": "Match each practice to its place in the method.",
+          "pairs": [
+            { "id": "p1", "left": "State what a thing is", "right": "Identification" },
+            { "id": "p2", "left": "Reject calling it both A and non-A", "right": "Non-contradiction" },
+            { "id": "p3", "left": "Use that pair as the way of knowing", "right": "Logic as method" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Logic is not a separate world of symbols. It is identification kept free of contradiction."
+          }
+        },
+        {
+          "id": "b4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two words this unit uses for the method.",
+          "parts": [
+            { "type": "text", "text": "Logic is " },
+            { "type": "blank", "id": "b1", "answer": "non-contradictory" },
+            { "type": "text", "text": " " },
+            { "type": "blank", "id": "b2", "answer": "identification" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["non-contradictory", "identification", "arbitrary", "revelation"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The method is non-contradictory identification. Arbitrary assertion and revelation are not logic."
+          }
+        },
+        {
+          "id": "b5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Order the method as this unit states it.",
+          "tokens": [
+            { "id": "t1", "text": "Adhere to reality" },
+            { "id": "t2", "text": "by the method of logic" },
+            { "id": "d1", "text": "by contradicting the facts" },
+            { "id": "d2", "text": "by changing the subject" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Adherence is not a blank stare. The method that carries it out is logic."
+          }
+        },
+        {
+          "id": "b6",
+          "type": "choice",
+          "prompt": "A report says the device is both fully on and fully off in the same respect at the same time. What does logic require?",
+          "answer": "fix",
+          "choices": [
+            { "id": "fix", "text": "Treat that as a failed identification and sort out the facts" },
+            { "id": "keep", "text": "Keep both claims because contradiction is deeper truth" },
+            { "id": "vote", "text": "Ask which claim has more friends" },
+            { "id": "mood", "text": "Pick the claim that feels calmer" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A contradiction is a sign that identification has gone wrong, not a special kind of fact."
+          }
+        },
+        {
+          "id": "b7",
+          "type": "choice",
+          "prompt": "Why is logic called a method here, not a substitute for looking?",
+          "answer": "of",
+          "choices": [
+            { "id": "of", "text": "It is the way one identifies facts, not a source that replaces them" },
+            { "id": "instead", "text": "It lets one skip the facts and still be objective" },
+            { "id": "innate", "text": "It is a set of answers one is born already knowing" },
+            { "id": "social", "text": "It is only a custom about polite debate" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Logic processes what one has observed. It does not manufacture observations."
+          }
+        },
+        {
+          "id": "b8",
+          "type": "match",
+          "prompt": "Match the move to whether it follows the method.",
+          "pairs": [
+            { "id": "m1", "left": "Integrate two observations without contradiction", "right": "Follows logic" },
+            { "id": "m2", "left": "Assert both a claim and its denial", "right": "Breaks logic" },
+            { "id": "m3", "left": "Drop an observation because it is inconvenient", "right": "Breaks adherence" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The method both identifies and refuses contradiction. Dropping an inconvenient fact fails adherence even before the contradiction is named."
+          }
+        },
+        {
+          "id": "b9",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the relation of logic to objectivity.",
+          "parts": [
+            { "type": "text", "text": "Logic is the " },
+            { "type": "blank", "id": "b1", "answer": "method" },
+            { "type": "text", "text": " of objectivity." }
+          ],
+          "bank": ["method", "enemy", "replacement", "mood"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Without logic, adherence has no method. Logic is not the rival of objectivity."
+          }
+        },
+        {
+          "id": "b10",
+          "type": "choice",
+          "prompt": "Which sentence uses the method?",
+          "answer": "one",
+          "choices": [
+            { "id": "one", "text": "The reading and the theory must be brought into one non-contradictory account" },
+            { "id": "two", "text": "I will believe both the reading and its denial" },
+            { "id": "none", "text": "I will believe whichever line I heard last" },
+            { "id": "none2", "text": "I will not identify anything, so I cannot be wrong" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Refusing to identify is not a safe form of logic. The method is identification without contradiction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chosen-focus",
+      "title": "A choice to adhere",
+      "objective": "Separate what is given in awareness from the choice to adhere to it by logic.",
+      "exercises": [
+        {
+          "id": "c1",
+          "type": "choice",
+          "prompt": "Why does this unit call adherence volitional?",
+          "answer": "choose",
+          "choices": [
+            { "id": "choose", "text": "One can choose to follow the facts by logic or to evade them" },
+            { "id": "auto", "text": "Every conclusion forms itself with no choice involved" },
+            { "id": "body", "text": "Only muscles can be moved; thinking cannot be chosen" },
+            { "id": "luck", "text": "Objectivity arrives by luck and cannot be practiced" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Volitional means the adherence is up to the person. It is not an automatic stamp on every thought."
+          }
+        },
+        {
+          "id": "c2",
+          "type": "choice",
+          "prompt": "What is not a matter of choosing the content?",
+          "answer": "seen",
+          "choices": [
+            { "id": "seen", "text": "That something is there to be aware of" },
+            { "id": "focus", "text": "Whether to keep one's focus on the evidence" },
+            { "id": "evade", "text": "Whether to blank out a contradiction" },
+            { "id": "integrate", "text": "Whether to integrate what one knows" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Awareness of reality is not invented by a vote. What one does with that awareness at the conceptual level is chosen."
+          }
+        },
+        {
+          "id": "c3",
+          "type": "match",
+          "prompt": "Match each item to chosen or not chosen.",
+          "pairs": [
+            { "id": "p1", "left": "The fact that exists", "right": "Not chosen into existence" },
+            { "id": "p2", "left": "Whether to identify it without contradiction", "right": "Chosen" },
+            { "id": "p3", "left": "Whether to drop the context of a claim", "right": "Chosen" },
+            { "id": "p4", "left": "A wish that the fact were otherwise", "right": "Does not rewrite the fact" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Choice governs adherence. It does not govern whether reality is what it is."
+          }
+        },
+        {
+          "id": "c4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the kind of adherence this unit teaches.",
+          "parts": [
+            { "type": "text", "text": "Adherence to reality is " },
+            { "type": "blank", "id": "b1", "answer": "volitional" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["volitional", "automatic", "optional-for-facts", "impossible"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit's word is volitional. The facts are not automatic products of a wish, and adherence is not impossible."
+          }
+        },
+        {
+          "id": "c5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the contrast this lesson draws.",
+          "tokens": [
+            { "id": "t1", "text": "Reality is not up to a vote" },
+            { "id": "t2", "text": "adherence by logic is" },
+            { "id": "d1", "text": "so ignore both" },
+            { "id": "d2", "text": "so invent the facts" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The choice is whether to adhere, not whether the facts may be edited."
+          }
+        },
+        {
+          "id": "c6",
+          "type": "choice",
+          "prompt": "A person sees a broken gauge and tells himself it is fine so the day stays easy. What failed?",
+          "answer": "choice",
+          "choices": [
+            { "id": "choice", "text": "The choice to adhere; the gauge reading was not chosen away" },
+            { "id": "gauge", "text": "The gauge, because awareness creates cracks" },
+            { "id": "logic", "text": "Nothing; comfort is a method of logic" },
+            { "id": "world", "text": "Reality, for refusing to match the wish" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Evasion is a chosen refusal to identify what one is aware of. It does not change the gauge."
+          }
+        },
+        {
+          "id": "c7",
+          "type": "choice",
+          "prompt": "Which action is an exercise of the volitional side of objectivity?",
+          "answer": "hold",
+          "choices": [
+            { "id": "hold", "text": "Holding a conclusion to the evidence when a contradiction appears" },
+            { "id": "blink", "text": "Blinking when light hits the eyes" },
+            { "id": "grow", "text": "Growing taller" },
+            { "id": "dream", "text": "Having a dream one did not stage" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Objectivity's volitional part is mental adherence. Reflexes, growth, and unsought dreams are not that method."
+          }
+        },
+        {
+          "id": "c8",
+          "type": "match",
+          "prompt": "Match the response to the name that fits this unit.",
+          "pairs": [
+            { "id": "m1", "left": "I will check the contradiction", "right": "Adherence" },
+            { "id": "m2", "left": "I will not think about that fact", "right": "Evasion" },
+            { "id": "m3", "left": "The fact must change because I prefer another one", "right": "Subjective rewrite" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the first response is volitional adherence. The other two abandon the facts instead of following them."
+          }
+        },
+        {
+          "id": "c9",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the split.",
+          "parts": [
+            { "type": "text", "text": "One does not choose the facts. One chooses whether to " },
+            { "type": "blank", "id": "b1", "answer": "adhere" },
+            { "type": "text", "text": " to them." }
+          ],
+          "bank": ["adhere", "erase", "vote", "invent"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Erase, vote, and invent describe failures or substitutes. The objective choice is to adhere."
+          }
+        },
+        {
+          "id": "c10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "State the choice in order.",
+          "tokens": [
+            { "id": "t1", "text": "Be aware of a fact" },
+            { "id": "t2", "text": "choose to identify it by logic" },
+            { "id": "d1", "text": "choose to unmake the fact" },
+            { "id": "d2", "text": "wait for the fact to obey" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Awareness supplies the material. The volitional step is identification by the method of logic."
+          }
+        }
+      ]
+    },
+    {
+      "id": "contextual",
+      "title": "Knowledge in context",
+      "objective": "Treat a conclusion as holding in the context of the evidence that supports it, and treat context-dropping as a failure of objectivity.",
+      "exercises": [
+        {
+          "id": "d1",
+          "type": "choice",
+          "prompt": "What does it mean, in this unit, to call knowledge contextual?",
+          "answer": "in",
+          "choices": [
+            { "id": "in", "text": "A conclusion is held in the context of the knowledge that supports it" },
+            { "id": "any", "text": "Any sentence is true in every context and in none" },
+            { "id": "none", "text": "Context makes evidence unnecessary" },
+            { "id": "mood", "text": "Context means one's mood at the moment of speaking" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Contextual does not mean arbitrary. It means the claim stays tied to the evidence and knowledge around it."
+          }
+        },
+        {
+          "id": "d2",
+          "type": "choice",
+          "prompt": "What is context-dropping?",
+          "answer": "slice",
+          "choices": [
+            { "id": "slice", "text": "Using a claim apart from the knowledge that gives it its meaning" },
+            { "id": "add", "text": "Adding the relevant evidence before judging" },
+            { "id": "order", "text": "Keeping earlier knowledge in mind" },
+            { "id": "name", "text": "Naming the facts one actually has" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Dropping context tears a conclusion away from the conditions under which it was reached."
+          }
+        },
+        {
+          "id": "d3",
+          "type": "match",
+          "prompt": "Match each move to contextual or not.",
+          "pairs": [
+            { "id": "p1", "left": "Judge a claim by the evidence that bears on it", "right": "Keeps context" },
+            { "id": "p2", "left": "Quote a rule while hiding the case it was about", "right": "Drops context" },
+            { "id": "p3", "left": "Treat a partial observation as the whole story", "right": "Drops context" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Context is the surrounding knowledge a conclusion depends on. Hiding that surround is not objectivity."
+          }
+        },
+        {
+          "id": "d4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit's second claim about knowledge.",
+          "parts": [
+            { "type": "text", "text": "Knowledge is " },
+            { "type": "blank", "id": "b1", "answer": "contextual" },
+            { "type": "text", "text": " and hierarchical." }
+          ],
+          "bank": ["contextual", "omniscient", "mood-based", "context-free"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit calls knowledge contextual and hierarchical. It does not call a human mind omniscient or context-free."
+          }
+        },
+        {
+          "id": "d5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build a contextual judgment.",
+          "tokens": [
+            { "id": "t1", "text": "State the claim" },
+            { "id": "t2", "text": "inside the evidence that supports it" },
+            { "id": "d1", "text": "outside every fact that limits it" },
+            { "id": "d2", "text": "as true no matter what" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A contextual claim carries its evidence with it. Stripping the limits is context-dropping."
+          }
+        },
+        {
+          "id": "d6",
+          "type": "choice",
+          "prompt": "A medicine works for one condition. Someone announces it cures every illness. What went wrong?",
+          "answer": "drop",
+          "choices": [
+            { "id": "drop", "text": "The context of the result was dropped" },
+            { "id": "logic", "text": "Nothing; wider claims are always safer" },
+            { "id": "fact", "text": "The original result stopped being a fact" },
+            { "id": "word", "text": "Only the spelling of the drug's name matters" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The result stays knowledge of the case that was shown. Extending it without new evidence leaves that context behind."
+          }
+        },
+        {
+          "id": "d7",
+          "type": "choice",
+          "prompt": "Does contextual knowledge mean one may ignore new evidence?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. The context includes the relevant evidence one has, including new evidence" },
+            { "id": "yes", "text": "Yes. Context freezes a conclusion forever" },
+            { "id": "only", "text": "Only if the new evidence is unpleasant" },
+            { "id": "vote", "text": "Only until a crowd disagrees" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keeping context means keeping the relevant knowledge, not shielding a conclusion from further facts."
+          }
+        },
+        {
+          "id": "d8",
+          "type": "match",
+          "prompt": "Match the phrase to the error or the practice.",
+          "pairs": [
+            { "id": "m1", "left": "Out of context", "right": "Context-dropping" },
+            { "id": "m2", "left": "In the light of the evidence one has", "right": "Contextual judgment" },
+            { "id": "m3", "left": "True with no relation to any knowledge", "right": "Not this unit's standard" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Objectivity does not ask for a claim that floats free of all knowledge. It asks for a claim held in context."
+          }
+        },
+        {
+          "id": "d9",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the failure this lesson names.",
+          "parts": [
+            { "type": "text", "text": "Using a conclusion apart from its evidence is " },
+            { "type": "blank", "id": "b1", "answer": "context-dropping" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["context-dropping", "adherence", "logic", "hierarchy"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Adherence, logic, and hierarchy are parts of the standard. Context-dropping is the failure of the contextual part."
+          }
+        },
+        {
+          "id": "d10",
+          "type": "choice",
+          "prompt": "Which question respects context?",
+          "answer": "which",
+          "choices": [
+            { "id": "which", "text": "True of what, on what evidence?" },
+            { "id": "ever", "text": "True of everything, evidence aside?" },
+            { "id": "who", "text": "Pleasing to whom?" },
+            { "id": "whenfeel", "text": "Comfortable today?" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Asking what the claim is about and what supports it is how one keeps the context in view."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hierarchical",
+      "title": "Knowledge in an order",
+      "objective": "Treat knowledge as hierarchical: later conclusions rest on earlier ones and cannot replace the base they depend on.",
+      "exercises": [
+        {
+          "id": "e1",
+          "type": "choice",
+          "prompt": "What does this unit mean by hierarchical knowledge?",
+          "answer": "order",
+          "choices": [
+            { "id": "order", "text": "Later knowledge rests on earlier knowledge in an order" },
+            { "id": "pile", "text": "Every claim is a loose item in a pile of equals" },
+            { "id": "last", "text": "The newest sentence always erases the earlier ones" },
+            { "id": "rank", "text": "Social rank decides which claim is basic" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Hierarchy is an order of dependence. It is not a pile, a fashion for the latest line, or a social rank."
+          }
+        },
+        {
+          "id": "e2",
+          "type": "choice",
+          "prompt": "A later conclusion contradicts the earlier knowledge it needed. What follows?",
+          "answer": "check",
+          "choices": [
+            { "id": "check", "text": "The later conclusion cannot stand by destroying its own base" },
+            { "id": "wins", "text": "The later conclusion wins because it came second" },
+            { "id": "both", "text": "Both are kept, base or no base" },
+            { "id": "base", "text": "The earlier knowledge is discarded for being earlier" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "In a hierarchy, the later item depends on the earlier. It cannot refute its base and remain standing."
+          }
+        },
+        {
+          "id": "e3",
+          "type": "match",
+          "prompt": "Match each level to its role in the order.",
+          "pairs": [
+            { "id": "p1", "left": "Earlier knowledge a conclusion relies on", "right": "Base" },
+            { "id": "p2", "left": "A conclusion drawn from that base", "right": "Later knowledge" },
+            { "id": "p3", "left": "Treating every sentence as equally first", "right": "Denying the hierarchy" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "First comes the knowledge something rests on. The conclusion comes after, and it does not become a new first by being complex."
+          }
+        },
+        {
+          "id": "e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the pair of traits.",
+          "parts": [
+            { "type": "text", "text": "Knowledge is contextual and " },
+            { "type": "blank", "id": "b1", "answer": "hierarchical" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["hierarchical", "flat", "baseless", "reversible-at-will"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Hierarchical is the unit's word. A flat, baseless, or freely reversed stack is not that order."
+          }
+        },
+        {
+          "id": "e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the order of dependence.",
+          "tokens": [
+            { "id": "t1", "text": "Earlier knowledge" },
+            { "id": "t2", "text": "supports later knowledge" },
+            { "id": "d1", "text": "later knowledge erases its base" },
+            { "id": "d2", "text": "nothing supports anything" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Support runs from earlier to later. A later claim that cancels its base has left the hierarchy."
+          }
+        },
+        {
+          "id": "e6",
+          "type": "choice",
+          "prompt": "Why is a pile of unrelated assertions not objective knowledge?",
+          "answer": "noorder",
+          "choices": [
+            { "id": "noorder", "text": "It has no order of what rests on what, so contradictions are not integrated" },
+            { "id": "toofew", "text": "Only because the pile might be short" },
+            { "id": "paper", "text": "Only because the assertions are written down" },
+            { "id": "old", "text": "Because earlier knowledge is always worthless" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Objectivity integrates knowledge in an order. A heap does not show what depends on what."
+          }
+        },
+        {
+          "id": "e7",
+          "type": "match",
+          "prompt": "Match the attempt to the verdict.",
+          "pairs": [
+            { "id": "m1", "left": "Reduce a conclusion to the knowledge it rests on", "right": "Respects the hierarchy" },
+            { "id": "m2", "left": "Use a late conclusion to deny the earlier knowledge it assumes", "right": "Inverts the hierarchy" },
+            { "id": "m3", "left": "Add a new fact and adjust the later claim", "right": "Keeps the order while learning" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Learning can revise a later claim when the base changes. It cannot use the later claim to wipe out the base the claim required."
+          }
+        },
+        {
+          "id": "e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both sides of the summary.",
+          "parts": [
+            { "type": "text", "text": "Knowledge is " },
+            { "type": "blank", "id": "b1", "answer": "contextual" },
+            { "type": "text", "text": " and " },
+            { "type": "blank", "id": "b2", "answer": "hierarchical" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["contextual", "hierarchical", "arbitrary", "flat"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Both words belong. Contextual without an order, or an order with no context, would drop half of the unit summary."
+          }
+        },
+        {
+          "id": "e9",
+          "type": "choice",
+          "prompt": "Which picture fits the whole unit?",
+          "answer": "all",
+          "choices": [
+            { "id": "all", "text": "Choose to adhere to reality by logic, and hold knowledge in context and in order" },
+            { "id": "only1", "text": "Choose a wish, then call the wish a base" },
+            { "id": "only2", "text": "Keep context, but contradict the facts on purpose" },
+            { "id": "only3", "text": "Stack claims so the latest one needs no earlier knowledge" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Objectivity joins the volitional method to knowledge that is both contextual and hierarchical."
+          }
+        },
+        {
+          "id": "e10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Assemble the unit in one line.",
+          "tokens": [
+            { "id": "t1", "text": "Volitional adherence to reality" },
+            { "id": "t2", "text": "by the method of logic" },
+            { "id": "t3", "text": "with knowledge contextual and hierarchical" },
+            { "id": "d1", "text": "with knowledge a flat pile of wishes" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That is the unit: a chosen adherence, logic as the method, and knowledge held in context and in a hierarchy."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

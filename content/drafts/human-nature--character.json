@@ -1,0 +1,820 @@
+{
+  "sectionId": "human-nature",
+  "sectionFile": "human-nature.json",
+  "unitId": "character",
+  "title": "Free Will and Character",
+  "summary": "Character as the self you build by the choices you automate. A later floor, not a substitute for volition.",
+  "lessons": [
+    {
+      "id": "self-you-build",
+      "title": "The self you build",
+      "objective": "Name character as the self you build, not a finished self you are handed.",
+      "exercises": [
+        {
+          "id": "syb-choice-name",
+          "type": "choice",
+          "prompt": "On this floor, what is character?",
+          "answer": "self",
+          "choices": [
+            { "id": "self", "text": "The self you build" },
+            { "id": "birth", "text": "A finished self issued at birth" },
+            { "id": "sub", "text": "A substitute for free will" },
+            { "id": "mood", "text": "A mood that discovers facts" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Character names the self you build. It is not a package you are handed, and it does not stand in for volition."
+          }
+        },
+        {
+          "id": "syb-choice-who",
+          "type": "choice",
+          "prompt": "Who builds that self?",
+          "answer": "you",
+          "choices": [
+            { "id": "you", "text": "You, by the choices you make" },
+            { "id": "nature", "text": "A nature that writes the self for you" },
+            { "id": "others", "text": "Other people, by their verdict" },
+            { "id": "chance", "text": "Chance, with no pattern of choice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The building is yours. Character is the self those choices make, not a script written without you."
+          }
+        },
+        {
+          "id": "syb-match-terms",
+          "type": "match",
+          "prompt": "Match each term to what this floor means by it.",
+          "pairs": [
+            { "id": "char", "left": "Character", "right": "The self you build" },
+            { "id": "build", "left": "Building", "right": "Done by your choices" },
+            { "id": "handed", "left": "A handed self", "right": "Not what this floor claims" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Character is the self you build by choosing. A self simply issued to you is the claim this floor rejects."
+          }
+        },
+        {
+          "id": "syb-blanks-line",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit’s line for what character is.",
+          "parts": [
+            { "type": "text", "text": "Character is the " },
+            { "type": "blank", "id": "b1", "answer": "self" },
+            { "type": "text", "text": " you " },
+            { "type": "blank", "id": "b2", "answer": "build" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["self", "build", "mood", "excuse"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The short form is: character is the self you build. Mood and excuse are not names for that self."
+          }
+        },
+        {
+          "id": "syb-sentence-build",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names character.",
+          "tokens": [
+            { "id": "t1", "text": "Character" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "the" },
+            { "id": "t4", "text": "self" },
+            { "id": "t5", "text": "you" },
+            { "id": "t6", "text": "build" },
+            { "id": "d1", "text": "inherit" },
+            { "id": "d2", "text": "mood" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "You build the self. You do not inherit it as a finished item, and a mood is not the name of character."
+          }
+        },
+        {
+          "id": "syb-choice-miss",
+          "type": "choice",
+          "prompt": "Someone says, this is just how I am, so I never chose it. What does that miss?",
+          "answer": "built",
+          "choices": [
+            { "id": "built", "text": "That character is a self you build" },
+            { "id": "replaces", "text": "That character replaces volition" },
+            { "id": "feel", "text": "That feelings are tools of knowledge" },
+            { "id": "war", "text": "That the body is at war with the mind" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A standing way of being is still a self that was built. Saying you never chose it skips the building this floor is about."
+          }
+        },
+        {
+          "id": "syb-blanks-finished",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast with a finished self.",
+          "parts": [
+            { "type": "text", "text": "You are not handed a finished " },
+            { "type": "blank", "id": "b1", "answer": "character" },
+            { "type": "text", "text": ". You " },
+            { "type": "blank", "id": "b2", "answer": "build" },
+            { "type": "text", "text": " it." }
+          ],
+          "bank": ["character", "build", "inherit", "vote"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Nothing on this floor issues a finished character. The self is something you build."
+          }
+        },
+        {
+          "id": "syb-match-status",
+          "type": "match",
+          "prompt": "Match each description to its status on this floor.",
+          "pairs": [
+            { "id": "birth", "left": "Finished at birth", "right": "Not this floor’s claim" },
+            { "id": "choices", "left": "Shaped by choices", "right": "How the self is built" },
+            { "id": "self", "left": "The self", "right": "What character names" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Character names the self, and that self is shaped by choices. It is not finished before any choosing."
+          }
+        },
+        {
+          "id": "syb-sentence-choose",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about how the self is made.",
+          "tokens": [
+            { "id": "t1", "text": "You" },
+            { "id": "t2", "text": "build" },
+            { "id": "t3", "text": "the" },
+            { "id": "t4", "text": "self" },
+            { "id": "t5", "text": "by" },
+            { "id": "t6", "text": "choosing" },
+            { "id": "d1", "text": "inheriting" },
+            { "id": "d2", "text": "voting" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Choosing is how the self gets built. Inheriting a finished character, or taking a vote on one, is not this floor’s account."
+          }
+        }
+      ]
+    },
+    {
+      "id": "choices-you-automate",
+      "title": "Choices you automate",
+      "objective": "Show that character is formed when choices are repeated until they run as a standing policy.",
+      "exercises": [
+        {
+          "id": "cya-choice-auto",
+          "type": "choice",
+          "prompt": "What does automate mean on this floor?",
+          "answer": "policy",
+          "choices": [
+            { "id": "policy", "text": "A choice repeated until it runs as your standing policy" },
+            { "id": "machine", "text": "A machine that chooses in your place" },
+            { "id": "lost", "text": "Losing the power to choose" },
+            { "id": "whim", "text": "A one-time whim with no repeat" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "To automate a choice is to repeat it until it is the policy you usually follow. It is not a machine, and it is not the end of choosing."
+          }
+        },
+        {
+          "id": "cya-choice-grows",
+          "type": "choice",
+          "prompt": "Character takes shape when choices are what?",
+          "answer": "repeat",
+          "choices": [
+            { "id": "repeat", "text": "Repeated until they become your usual way" },
+            { "id": "once", "text": "Made once and then forgotten" },
+            { "id": "assigned", "text": "Assigned by other people" },
+            { "id": "feel", "text": "Replaced by feelings" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One forgotten choice does not yet make a character. The self is built by the choices you keep until they are usual."
+          }
+        },
+        {
+          "id": "cya-match-stages",
+          "type": "match",
+          "prompt": "Match each stage to what it is.",
+          "pairs": [
+            { "id": "one", "left": "One choice", "right": "A start, not yet a character" },
+            { "id": "rep", "left": "A repeated choice", "right": "What gets automated" },
+            { "id": "auto", "left": "An automated choice", "right": "The standing policy of the self" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A single choice starts the work. Repetition automates it. The result is a standing policy, which is the self you have built."
+          }
+        },
+        {
+          "id": "cya-blanks-auto",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line about how the self is built.",
+          "parts": [
+            { "type": "text", "text": "You build the self by the choices you " },
+            { "type": "blank", "id": "b1", "answer": "automate" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["automate", "inherit", "cancel", "vote"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit’s verb is automate. The choices that build character are the ones you repeat until they run as policy."
+          }
+        },
+        {
+          "id": "cya-sentence-auto",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about automating choices.",
+          "tokens": [
+            { "id": "t1", "text": "You" },
+            { "id": "t2", "text": "automate" },
+            { "id": "t3", "text": "the" },
+            { "id": "t4", "text": "choices" },
+            { "id": "t5", "text": "that" },
+            { "id": "t6", "text": "build" },
+            { "id": "t7", "text": "character" },
+            { "id": "d1", "text": "erase" },
+            { "id": "d2", "text": "feelings" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Character is built by choices you automate. Feelings do not do that work, and automation does not erase the choice."
+          }
+        },
+        {
+          "id": "cya-choice-nodebate",
+          "type": "choice",
+          "prompt": "A policy now runs without a fresh debate every time. What has happened?",
+          "answer": "auto",
+          "choices": [
+            { "id": "auto", "text": "The choice has been automated into character" },
+            { "id": "cancel", "text": "Free will has been cancelled" },
+            { "id": "never", "text": "The choice was never yours" },
+            { "id": "before", "text": "Character arrived before any choice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Skipping a fresh debate means the choice has become standing policy. It does not mean the choice was never yours, or that will is gone."
+          }
+        },
+        {
+          "id": "cya-blanks-debate",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line about an automated choice.",
+          "parts": [
+            { "type": "text", "text": "An automated choice is one you no longer " },
+            { "type": "blank", "id": "b1", "answer": "debate" },
+            { "type": "text", "text": " from scratch each time." }
+          ],
+          "bank": ["debate", "inherit", "cancel", "vote"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Automation means the choice runs without a new debate from scratch. You did not inherit it, cancel it, or put it to a vote."
+          }
+        },
+        {
+          "id": "cya-match-policy",
+          "type": "match",
+          "prompt": "Match each phrase to its place in building character.",
+          "pairs": [
+            { "id": "fresh", "left": "Fresh debate every time", "right": "Not yet automated" },
+            { "id": "stand", "left": "Standing policy", "right": "What automation produces" },
+            { "id": "self", "left": "The self", "right": "What that policy becomes part of" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "While you still debate the choice from scratch, it is not yet automated. A standing policy is the automated choice, and it becomes part of the self."
+          }
+        },
+        {
+          "id": "cya-sentence-policy",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that defines automation here.",
+          "tokens": [
+            { "id": "t1", "text": "Automation" },
+            { "id": "t2", "text": "means" },
+            { "id": "t3", "text": "the" },
+            { "id": "t4", "text": "choice" },
+            { "id": "t5", "text": "runs" },
+            { "id": "t6", "text": "as" },
+            { "id": "t7", "text": "policy" },
+            { "id": "d1", "text": "whim" },
+            { "id": "d2", "text": "excuse" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "On this floor, automation means the choice runs as policy. A whim or an excuse is not that standing policy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "later-floor",
+      "title": "A later floor",
+      "objective": "Place character after volition: a later floor, not the base of the ladder.",
+      "exercises": [
+        {
+          "id": "lf-choice-where",
+          "type": "choice",
+          "prompt": "Where does character sit relative to volition?",
+          "answer": "later",
+          "choices": [
+            { "id": "later", "text": "Later. Volition comes first." },
+            { "id": "before", "text": "Before any power to choose exists" },
+            { "id": "axioms", "text": "In place of the basic axioms" },
+            { "id": "senses", "text": "As the start of the study of the senses" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Character is a later floor. Volition is already in place before you study the self those choices build."
+          }
+        },
+        {
+          "id": "lf-choice-why",
+          "type": "choice",
+          "prompt": "Why is character not the ground floor?",
+          "answer": "built",
+          "choices": [
+            { "id": "built", "text": "It is built from choices, so the power to choose comes first" },
+            { "id": "identity", "text": "Because character cancels identity" },
+            { "id": "feelings", "text": "Because feelings come before facts" },
+            { "id": "senses", "text": "Because the senses invent the self" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "You cannot build a self by choices unless choosing is already real. That is why this floor comes after volition."
+          }
+        },
+        {
+          "id": "lf-match-order",
+          "type": "match",
+          "prompt": "Match each item to its place in the order.",
+          "pairs": [
+            { "id": "vol", "left": "Volition", "right": "The earlier floor" },
+            { "id": "char", "left": "Character", "right": "The later floor" },
+            { "id": "order", "left": "The order", "right": "Will first, then the self you build" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Volition is earlier. Character is later. The order is will first, then the self you build by choosing."
+          }
+        },
+        {
+          "id": "lf-blanks-later",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line about where character sits.",
+          "parts": [
+            { "type": "text", "text": "Character is a " },
+            { "type": "blank", "id": "b1", "answer": "later" },
+            { "type": "text", "text": " floor, not the " },
+            { "type": "blank", "id": "b2", "answer": "base" },
+            { "type": "text", "text": " of the ladder." }
+          ],
+          "bank": ["later", "base", "first", "substitute"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Call it a later floor, not the base. It is not first, and it is not a substitute for the floor under it."
+          }
+        },
+        {
+          "id": "lf-sentence-later",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that places the two floors.",
+          "tokens": [
+            { "id": "t1", "text": "Character" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "a" },
+            { "id": "t4", "text": "later" },
+            { "id": "t5", "text": "floor" },
+            { "id": "t6", "text": "than" },
+            { "id": "t7", "text": "volition" },
+            { "id": "d1", "text": "before" },
+            { "id": "d2", "text": "instead" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Character comes later than volition. It does not come before volition, and it is not studied instead of volition."
+          }
+        },
+        {
+          "id": "lf-choice-base",
+          "type": "choice",
+          "prompt": "What goes wrong if you call character the base?",
+          "answer": "result",
+          "choices": [
+            { "id": "result", "text": "You treat the result as if it came before the power to choose" },
+            { "id": "replace", "text": "You correctly replace free will" },
+            { "id": "auto", "text": "You make volition itself automatic" },
+            { "id": "ethics", "text": "You put a code of virtues in place of facts" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Character is a result of choices. Putting it at the base pretends the result arrived before the power that builds it."
+          }
+        },
+        {
+          "id": "lf-blanks-after",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the order in one line.",
+          "parts": [
+            { "type": "text", "text": "This floor comes " },
+            { "type": "blank", "id": "b1", "answer": "after" },
+            { "type": "text", "text": " volition is already in place, not " },
+            { "type": "blank", "id": "b2", "answer": "before" },
+            { "type": "text", "text": " it." }
+          ],
+          "bank": ["after", "before", "instead", "never"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Character comes after volition is in place. It does not come before that power, and it is not skipped or swapped in."
+          }
+        },
+        {
+          "id": "lf-match-roles",
+          "type": "match",
+          "prompt": "Match each role to the right floor.",
+          "pairs": [
+            { "id": "base", "left": "Base of this topic", "right": "Not character’s job" },
+            { "id": "later", "left": "Later floor", "right": "Where character sits" },
+            { "id": "ready", "left": "Already in place", "right": "What volition must be" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Volition has to be in place already. Character sits later. Being the base is not its job."
+          }
+        },
+        {
+          "id": "lf-sentence-study",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study order.",
+          "tokens": [
+            { "id": "t1", "text": "Study" },
+            { "id": "t2", "text": "volition" },
+            { "id": "t3", "text": "before" },
+            { "id": "t4", "text": "you" },
+            { "id": "t5", "text": "study" },
+            { "id": "t6", "text": "character" },
+            { "id": "d1", "text": "after" },
+            { "id": "d2", "text": "instead" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The ladder order is volition before character. Character is not studied first, and it is not studied instead of volition."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-a-substitute",
+      "title": "Not a substitute",
+      "objective": "Show that an automated character does not stand in for the choice you still have.",
+      "exercises": [
+        {
+          "id": "nas-choice-sub",
+          "type": "choice",
+          "prompt": "Can character substitute for volition?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. It is built by choices and does not replace them." },
+            { "id": "over", "text": "Yes. Once a policy is automated, choice is over." },
+            { "id": "for", "text": "Yes. Character chooses in your place." },
+            { "id": "vote", "text": "Only if other people agree that it does." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Character is not a substitute for volition. Automating a choice does not hand the choosing to a policy or to other people."
+          }
+        },
+        {
+          "id": "nas-choice-still",
+          "type": "choice",
+          "prompt": "A standing policy still leaves you what?",
+          "answer": "able",
+          "choices": [
+            { "id": "able", "text": "Able to choose, including to keep the policy or to change it" },
+            { "id": "unable", "text": "Unable to choose at all" },
+            { "id": "free", "text": "Free of any further choice" },
+            { "id": "issued", "text": "Issued a new self with no choosing left" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A policy can run without a fresh debate and still be yours to keep or to change. Automation is not the end of volition."
+          }
+        },
+        {
+          "id": "nas-match-roles",
+          "type": "match",
+          "prompt": "Match each word to its role on this floor.",
+          "pairs": [
+            { "id": "vol", "left": "Volition", "right": "The power to choose" },
+            { "id": "char", "left": "Character", "right": "What repeated choices make" },
+            { "id": "sub", "left": "Substitute", "right": "What character is not" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Volition is the power to choose. Character is what repeated choices make. A substitute is the relation this floor denies."
+          }
+        },
+        {
+          "id": "nas-blanks-sub",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the warning in the unit summary.",
+          "parts": [
+            { "type": "text", "text": "Character is not a " },
+            { "type": "blank", "id": "b1", "answer": "substitute" },
+            { "type": "text", "text": " for " },
+            { "type": "blank", "id": "b2", "answer": "volition" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["substitute", "volition", "cause", "percept"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The summary says character is not a substitute for volition. It is not a cause that replaces choice, and it is not a percept."
+          }
+        },
+        {
+          "id": "nas-sentence-sub",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the limit.",
+          "tokens": [
+            { "id": "t1", "text": "Character" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "substitute" },
+            { "id": "t6", "text": "for" },
+            { "id": "t7", "text": "volition" },
+            { "id": "d1", "text": "proof" },
+            { "id": "d2", "text": "mood" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Character is not a substitute for volition. A mood or a proof is not what stands in that sentence."
+          }
+        },
+        {
+          "id": "nas-choice-excuse",
+          "type": "choice",
+          "prompt": "Someone says, my character made me do it, so I had no choice. What does this floor answer?",
+          "answer": "still",
+          "choices": [
+            { "id": "still", "text": "Character is the self those choices built. It does not erase the choice." },
+            { "id": "focus", "text": "Character is the primary choice to focus." },
+            { "id": "facts", "text": "Emotions discover the facts for you." },
+            { "id": "body", "text": "The body chooses and the mind only watches." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A built self is not an excuse that cancels choice. Character records the choices you automated. It does not take their place."
+          }
+        },
+        {
+          "id": "nas-blanks-erase",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line about a policy and the power to choose.",
+          "parts": [
+            { "type": "text", "text": "An automated policy does not " },
+            { "type": "blank", "id": "b1", "answer": "erase" },
+            { "type": "text", "text": " the power to " },
+            { "type": "blank", "id": "b2", "answer": "choose" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["erase", "choose", "sense", "vote"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Automation does not erase the power to choose. The policy is not a sensation, and it is not settled by a vote."
+          }
+        },
+        {
+          "id": "nas-match-claims",
+          "type": "match",
+          "prompt": "Match each claim to how this floor treats it.",
+          "pairs": [
+            { "id": "made", "left": "It made me, so I had no choice", "right": "A claim this floor rejects" },
+            { "id": "built", "left": "Built by the choices you automate", "right": "What character is" },
+            { "id": "open", "left": "Still yours to keep or to change", "right": "What volition leaves open" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Character is built by the choices you automate, and those choices stay yours to keep or to change. The no-choice excuse is rejected."
+          }
+        },
+        {
+          "id": "nas-sentence-still",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about choice after a policy is set.",
+          "tokens": [
+            { "id": "t1", "text": "You" },
+            { "id": "t2", "text": "still" },
+            { "id": "t3", "text": "choose" },
+            { "id": "t4", "text": "after" },
+            { "id": "t5", "text": "a" },
+            { "id": "t6", "text": "policy" },
+            { "id": "t7", "text": "is" },
+            { "id": "t8", "text": "automated" },
+            { "id": "d1", "text": "never" },
+            { "id": "d2", "text": "inherit" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "You still choose after a policy is automated. The policy is not something you merely inherit, and choice is not gone."
+          }
+        }
+      ]
+    },
+    {
+      "id": "will-then-character",
+      "title": "Will, then character",
+      "objective": "Hold the unit in one order: free will first, then the self those choices make automatic.",
+      "exercises": [
+        {
+          "id": "wtc-choice-order",
+          "type": "choice",
+          "prompt": "What is the order of this unit?",
+          "answer": "will",
+          "choices": [
+            { "id": "will", "text": "Free will first, then the character those choices automate" },
+            { "id": "char", "text": "Character first, then a will that follows it" },
+            { "id": "feel", "text": "Feelings first, then the facts" },
+            { "id": "body", "text": "The body first, then a separate mind" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Free will comes first. Character is the later self built when those choices are automated."
+          }
+        },
+        {
+          "id": "wtc-choice-will",
+          "type": "choice",
+          "prompt": "On this floor, free will is what?",
+          "answer": "power",
+          "choices": [
+            { "id": "power", "text": "The power that the later floor of character does not replace" },
+            { "id": "same", "text": "The same thing as a finished character" },
+            { "id": "mood", "text": "A passing mood" },
+            { "id": "vote", "text": "A social vote about who you are" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Free will is the power to choose. Character comes later and does not replace that power, duplicate it, or put it to a vote."
+          }
+        },
+        {
+          "id": "wtc-match-chain",
+          "type": "match",
+          "prompt": "Match each piece of the unit to its place.",
+          "pairs": [
+            { "id": "will", "left": "Free will", "right": "Comes first" },
+            { "id": "rep", "left": "Repeated choices", "right": "What you automate" },
+            { "id": "char", "left": "Character", "right": "The self that policy becomes" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Will comes first. You automate the choices you repeat. Character is the self that standing policy becomes."
+          }
+        },
+        {
+          "id": "wtc-blanks-order",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the order in the unit’s own words.",
+          "parts": [
+            { "type": "text", "text": "Free " },
+            { "type": "blank", "id": "b1", "answer": "will" },
+            { "type": "text", "text": " first. Character is a " },
+            { "type": "blank", "id": "b2", "answer": "later" },
+            { "type": "text", "text": " floor." }
+          ],
+          "bank": ["will", "later", "mood", "instead"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The order is free will first, and character as a later floor. A mood does not take will’s place, and character is not studied instead."
+          }
+        },
+        {
+          "id": "wtc-sentence-order",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the order.",
+          "tokens": [
+            { "id": "t1", "text": "Free" },
+            { "id": "t2", "text": "will" },
+            { "id": "t3", "text": "comes" },
+            { "id": "t4", "text": "first" },
+            { "id": "t5", "text": "and" },
+            { "id": "t6", "text": "character" },
+            { "id": "t7", "text": "comes" },
+            { "id": "t8", "text": "later" },
+            { "id": "d1", "text": "instead" },
+            { "id": "d2", "text": "never" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Free will comes first and character comes later. Character does not come instead of will, and will is not dropped."
+          }
+        },
+        {
+          "id": "wtc-choice-mix",
+          "type": "choice",
+          "prompt": "Which move mixes the two floors up?",
+          "answer": "sub",
+          "choices": [
+            { "id": "sub", "text": "Treating character as a substitute for the choice that builds it" },
+            { "id": "build", "text": "Saying you build the self by choices" },
+            { "id": "auto", "text": "Saying automation is a repeated choice" },
+            { "id": "stays", "text": "Saying volition stays in place" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The mix-up is using character as a substitute for volition. Building, automating, and keeping volition in place are the unit’s own claims."
+          }
+        },
+        {
+          "id": "wtc-blanks-self",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line that joins automation to the self.",
+          "parts": [
+            { "type": "text", "text": "The choices you " },
+            { "type": "blank", "id": "b1", "answer": "automate" },
+            { "type": "text", "text": " become the " },
+            { "type": "blank", "id": "b2", "answer": "self" },
+            { "type": "text", "text": " you have built." }
+          ],
+          "bank": ["automate", "self", "cancel", "percept"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The choices you automate become the self you have built. They do not cancel that self, and a percept is not the name for it."
+          }
+        },
+        {
+          "id": "wtc-match-three",
+          "type": "match",
+          "prompt": "Match each summary phrase to what it says.",
+          "pairs": [
+            { "id": "not", "left": "Not a substitute", "right": "Character’s relation to volition" },
+            { "id": "later", "left": "A later floor", "right": "Where character sits" },
+            { "id": "self", "left": "The self you build", "right": "What character names" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Three claims travel together: character names the self you build, it sits on a later floor, and it is not a substitute for volition."
+          }
+        },
+        {
+          "id": "wtc-sentence-close",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the closing line of the unit.",
+          "tokens": [
+            { "id": "t1", "text": "Automate" },
+            { "id": "t2", "text": "choices" },
+            { "id": "t3", "text": "and" },
+            { "id": "t4", "text": "you" },
+            { "id": "t5", "text": "build" },
+            { "id": "t6", "text": "the" },
+            { "id": "t7", "text": "self" },
+            { "id": "d1", "text": "cancel" },
+            { "id": "d2", "text": "volition" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Automating choices is how you build the self. That work does not cancel volition, and volition is not one of the choices being named as the self."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

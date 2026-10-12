@@ -1,0 +1,812 @@
+{
+  "sectionId": "epistemology",
+  "sectionFile": "epistemology.json",
+  "unitId": "reason-rivals",
+  "title": "Reason, Mysticism, and Skepticism",
+  "summary": "Reason as the only means of knowledge, and mysticism and skepticism as denials of it.",
+  "lessons": [
+    {
+      "id": "only-means",
+      "title": "The only means of knowledge",
+      "objective": "Reason is the only means of knowledge and the only standard of truth.",
+      "exercises": [
+        {
+          "id": "means-which",
+          "type": "choice",
+          "prompt": "On this unit’s view, what is the only means of knowledge?",
+          "answer": "reason",
+          "choices": [
+            { "id": "reason", "text": "Reason" },
+            { "id": "faith", "text": "Faith" },
+            { "id": "mood", "text": "Whatever you feel at the moment" },
+            { "id": "vote", "text": "A show of hands" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Knowledge is gained by reason. No other method is granted that job."
+          }
+        },
+        {
+          "id": "truth-is",
+          "type": "choice",
+          "prompt": "What is truth, in this lesson?",
+          "answer": "recog",
+          "choices": [
+            { "id": "recog", "text": "The recognition of reality" },
+            { "id": "wish", "text": "Whatever you wish were so" },
+            { "id": "style", "text": "A matter of literary style" },
+            { "id": "secret", "text": "A message hidden from the mind" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A true claim recognizes what is. It does not invent a private version of the facts."
+          }
+        },
+        {
+          "id": "standard-of",
+          "type": "choice",
+          "prompt": "What is the only standard of truth?",
+          "answer": "reason",
+          "choices": [
+            { "id": "reason", "text": "Reason" },
+            { "id": "custom", "text": "Local custom" },
+            { "id": "volume", "text": "How loudly a claim is made" },
+            { "id": "age", "text": "How old a claim is" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Because reason is the only means of knowledge, it is also the only standard for judging a claim true."
+          }
+        },
+        {
+          "id": "pair-roles",
+          "type": "match",
+          "prompt": "Match each item to its role.",
+          "pairs": [
+            { "id": "reason", "left": "Reason", "right": "Only means of knowledge" },
+            { "id": "truth", "left": "Truth", "right": "Recognition of reality" },
+            { "id": "standard", "left": "Standard of truth", "right": "Reason, not a feeling" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason does the knowing. Truth is the recognition it reaches. Feelings do not take either job."
+          }
+        },
+        {
+          "id": "blank-means",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the claim about how you know.",
+          "parts": [
+            { "type": "text", "text": "Reason is the only means of " },
+            { "type": "blank", "id": "b1", "answer": "knowledge" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["knowledge", "comfort", "status", "mystery"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The blank is knowledge. Comfort, status, and mystery are not means of knowing the facts."
+          }
+        },
+        {
+          "id": "sent-only",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the lesson’s main claim.",
+          "tokens": [
+            { "id": "t1", "text": "Reason" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "the" },
+            { "id": "t4", "text": "only" },
+            { "id": "t5", "text": "means" },
+            { "id": "t6", "text": "of" },
+            { "id": "t7", "text": "knowledge" },
+            { "id": "d1", "text": "faith" },
+            { "id": "d2", "text": "optional" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Faith is not a second means, and reason is not optional if you want knowledge."
+          }
+        },
+        {
+          "id": "blank-standard",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the claim about judging truth.",
+          "parts": [
+            { "type": "text", "text": "Reason is the only standard of " },
+            { "type": "blank", "id": "b1", "answer": "truth" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["truth", "taste", "loyalty", "speed"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A claim is true when reason recognizes reality, not when it matches taste, loyalty, or speed."
+          }
+        },
+        {
+          "id": "pair-not",
+          "type": "match",
+          "prompt": "Match each proposed shortcut to why it fails.",
+          "pairs": [
+            { "id": "faith", "left": "Faith", "right": "Not a means of knowledge" },
+            { "id": "feeling", "left": "A strong feeling", "right": "Not a standard of truth" },
+            { "id": "crowd", "left": "A crowd’s agreement", "right": "Not a substitute for reason" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Shortcuts can feel decisive. They still do not identify the facts in reason’s place."
+          }
+        },
+        {
+          "id": "court",
+          "type": "choice",
+          "prompt": "Two claims conflict. What settles which one recognizes reality?",
+          "answer": "reason",
+          "choices": [
+            { "id": "reason", "text": "Reason applied to the facts" },
+            { "id": "older", "text": "Whichever claim is older" },
+            { "id": "louder", "text": "Whichever speaker is louder" },
+            { "id": "nicer", "text": "Whichever claim feels nicer" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Age, volume, and comfort are not standards. Reason is the court that checks a claim against reality."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mysticism",
+      "title": "Mysticism",
+      "objective": "Mysticism claims a way of knowing that bypasses reason, such as faith, revelation, or feeling used as proof.",
+      "exercises": [
+        {
+          "id": "myst-what",
+          "type": "choice",
+          "prompt": "What does mysticism claim?",
+          "answer": "other",
+          "choices": [
+            { "id": "other", "text": "A means of knowledge other than reason" },
+            { "id": "same", "text": "That reason is the only means of knowledge" },
+            { "id": "math", "text": "That only arithmetic counts as thought" },
+            { "id": "senses-off", "text": "That the senses should be sharpened by practice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Mysticism does not refine reason. It offers a rival route to knowledge."
+          }
+        },
+        {
+          "id": "forms",
+          "type": "match",
+          "prompt": "Match each mystical stand-in to what it is asked to do.",
+          "pairs": [
+            { "id": "faith", "left": "Faith", "right": "Accept a claim without reason" },
+            { "id": "rev", "left": "Revelation", "right": "Treat a disclosed message as knowledge" },
+            { "id": "feel", "left": "Feeling as proof", "right": "Let a mood decide the facts" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Faith, revelation, and feeling-as-proof skip the work of identifying reality by reason."
+          }
+        },
+        {
+          "id": "not-which",
+          "type": "choice",
+          "prompt": "Which of these is mysticism, not ordinary reasoning?",
+          "answer": "voice",
+          "choices": [
+            { "id": "voice", "text": "A private revelation is said to prove a fact reason cannot check" },
+            { "id": "check", "text": "You recheck a measurement because the first reading looks off" },
+            { "id": "define", "text": "You define a term before you argue with it" },
+            { "id": "evidence", "text": "You ask what evidence supports a news claim" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Checking, defining, and asking for evidence are uses of reason. A non-rational revelation is the rival."
+          }
+        },
+        {
+          "id": "blank-bypass",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the description of mysticism.",
+          "parts": [
+            { "type": "text", "text": "Mysticism claims knowledge by bypassing " },
+            { "type": "blank", "id": "b1", "answer": "reason" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["reason", "hope", "art", "memory"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The thing bypassed is reason. Hope, art, and memory are not the means mysticism is rejecting."
+          }
+        },
+        {
+          "id": "sent-rival",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about mysticism’s claim.",
+          "tokens": [
+            { "id": "t1", "text": "Mysticism" },
+            { "id": "t2", "text": "claims" },
+            { "id": "t3", "text": "a" },
+            { "id": "t4", "text": "means" },
+            { "id": "t5", "text": "other" },
+            { "id": "t6", "text": "than" },
+            { "id": "t7", "text": "reason" },
+            { "id": "d1", "text": "sharpens" },
+            { "id": "d2", "text": "skepticism" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Mysticism puts forward another means. It does not claim to be a stricter use of reason."
+          }
+        },
+        {
+          "id": "feeling-proof",
+          "type": "choice",
+          "prompt": "Someone says a warm feeling proves a historical fact. What is that move?",
+          "answer": "myst",
+          "choices": [
+            { "id": "myst", "text": "Mysticism: feeling is used as a means of knowledge" },
+            { "id": "reason", "text": "Reason: the feeling integrated the evidence" },
+            { "id": "skeptic", "text": "Skepticism: the person denied that any fact can be known" },
+            { "id": "check", "text": "A check: the person compared two records" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A feeling can report your estimate. Offered as proof of a fact, it is a mystical substitute for reason."
+          }
+        },
+        {
+          "id": "pair-deny",
+          "type": "match",
+          "prompt": "Match each mystical claim to the denial it makes.",
+          "pairs": [
+            { "id": "only", "left": "Faith knows what reason cannot", "right": "Denies that reason is the only means" },
+            { "id": "reveal", "left": "A revelation settles the facts", "right": "Denies that knowledge must be reasoned" },
+            { "id": "mood", "left": "If it feels true, it is true", "right": "Denies reason as the standard of truth" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each form keeps the word knowledge but drops reason as the only way to get it."
+          }
+        },
+        {
+          "id": "blank-not-means",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line about faith.",
+          "parts": [
+            { "type": "text", "text": "Faith is not a means of " },
+            { "type": "blank", "id": "b1", "answer": "knowledge" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["knowledge", "courage", "kindness", "habit"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Faith may name a commitment. It is not accepted here as a way of knowing reality."
+          }
+        },
+        {
+          "id": "sent-denial",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build what mysticism does to reason’s status.",
+          "tokens": [
+            { "id": "t1", "text": "Mysticism" },
+            { "id": "t2", "text": "denies" },
+            { "id": "t3", "text": "that" },
+            { "id": "t4", "text": "reason" },
+            { "id": "t5", "text": "is" },
+            { "id": "t6", "text": "the" },
+            { "id": "t7", "text": "only" },
+            { "id": "t8", "text": "means" },
+            { "id": "d1", "text": "proves" },
+            { "id": "d2", "text": "useless" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The denial is specific: reason is not the only means. Mysticism still talks as if knowledge is available by another route."
+          }
+        }
+      ]
+    },
+    {
+      "id": "skepticism",
+      "title": "Skepticism",
+      "objective": "Skepticism denies that knowledge is possible, and so denies that reason succeeds.",
+      "exercises": [
+        {
+          "id": "skep-what",
+          "type": "choice",
+          "prompt": "What does skepticism claim about knowledge?",
+          "answer": "none",
+          "choices": [
+            { "id": "none", "text": "Knowledge is not possible" },
+            { "id": "only", "text": "Reason is the only means of knowledge" },
+            { "id": "faith", "text": "Faith supplies what reason misses" },
+            { "id": "easy", "text": "Every opinion is already knowledge" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Skepticism does not offer a better method. It says the goal, knowledge, cannot be reached."
+          }
+        },
+        {
+          "id": "not-doubt",
+          "type": "choice",
+          "prompt": "Which move is skepticism, not a use of reason?",
+          "answer": "blanket",
+          "choices": [
+            { "id": "blanket", "text": "A blanket claim that no one can know reality" },
+            { "id": "retest", "text": "Retesting one result that conflicts with the others" },
+            { "id": "ask", "text": "Asking which evidence a conclusion rests on" },
+            { "id": "limit", "text": "Saying you do not know this fact yet" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A particular doubt still uses reason. Skepticism denies knowledge as such."
+          }
+        },
+        {
+          "id": "pair-skep",
+          "type": "match",
+          "prompt": "Match each skeptical line to what it denies.",
+          "pairs": [
+            { "id": "know", "left": "Nothing can be known", "right": "Denies that knowledge is possible" },
+            { "id": "reason", "left": "Reason never reaches the facts", "right": "Denies that reason works" },
+            { "id": "equal", "left": "Every claim is equally unsupported", "right": "Denies any standard that could rank claims" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "These lines do not correct one error. They wipe out the possibility of a reasoned conclusion."
+          }
+        },
+        {
+          "id": "blank-possible",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the skeptical claim.",
+          "parts": [
+            { "type": "text", "text": "Skepticism says knowledge is not " },
+            { "type": "blank", "id": "b1", "answer": "possible" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["possible", "pleasant", "popular", "private"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The target word is possible. Skepticism is about whether knowledge can be had, not about whether it is pleasant."
+          }
+        },
+        {
+          "id": "sent-denies",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about what skepticism denies.",
+          "tokens": [
+            { "id": "t1", "text": "Skepticism" },
+            { "id": "t2", "text": "denies" },
+            { "id": "t3", "text": "that" },
+            { "id": "t4", "text": "reason" },
+            { "id": "t5", "text": "can" },
+            { "id": "t6", "text": "know" },
+            { "id": "t7", "text": "reality" },
+            { "id": "d1", "text": "faith" },
+            { "id": "d2", "text": "invents" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The denial lands on reason’s success. It is not a claim that faith invents a new world."
+          }
+        },
+        {
+          "id": "vs-myst",
+          "type": "choice",
+          "prompt": "How is skepticism unlike mysticism?",
+          "answer": "none",
+          "choices": [
+            { "id": "none", "text": "It says no means of knowledge succeeds" },
+            { "id": "extra", "text": "It adds revelation as a second means" },
+            { "id": "same", "text": "It is just another name for reason" },
+            { "id": "feel", "text": "It treats a feeling as proof" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Mysticism substitutes a means. Skepticism says you cannot know, so reason fails along with every rival."
+          }
+        },
+        {
+          "id": "pair-not-skep",
+          "type": "match",
+          "prompt": "Match each action to the right label.",
+          "pairs": [
+            { "id": "open", "left": "I do not know this yet", "right": "A limit on one claim, not skepticism" },
+            { "id": "never", "left": "No one can know anything", "right": "Skepticism" },
+            { "id": "reason", "left": "Check the claim by reason", "right": "Use of the means of knowledge" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Not knowing one fact yet leaves reason in place. Declaring knowledge impossible does not."
+          }
+        },
+        {
+          "id": "blank-works",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete what skepticism says about reason.",
+          "parts": [
+            { "type": "text", "text": "Skepticism denies that reason " },
+            { "type": "blank", "id": "b1", "answer": "works" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["works", "hurts", "rushes", "decorates"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If knowledge is impossible, reason does not work as a means of knowledge. That is the denial."
+          }
+        },
+        {
+          "id": "equal-claims",
+          "type": "choice",
+          "prompt": "A skeptic says a careful proof and a guess are equally unsupported. What has been dropped?",
+          "answer": "standard",
+          "choices": [
+            { "id": "standard", "text": "Reason as a standard that can rank claims" },
+            { "id": "faith", "text": "Faith as a required extra step" },
+            { "id": "style", "text": "Only the wording of the proof" },
+            { "id": "names", "text": "Only the names of the speakers" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If no claim can be better supported than another, reason is no longer a standard of truth."
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-cost",
+      "title": "What rejecting reason licenses",
+      "objective": "Rejecting reason means acting with no regard for the facts, or against them.",
+      "exercises": [
+        {
+          "id": "reject-means",
+          "type": "choice",
+          "prompt": "If reason is rejected, what guide to action is left?",
+          "answer": "none",
+          "choices": [
+            { "id": "none", "text": "None that tracks the facts" },
+            { "id": "better", "text": "A stricter means of knowledge" },
+            { "id": "auto", "text": "Knowledge that arrives with no method" },
+            { "id": "senses-alone", "text": "The senses used with no identification at all, still called knowledge" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason is the means of grasping reality. Drop it, and action is no longer guided by knowledge of the facts."
+          }
+        },
+        {
+          "id": "two-ways",
+          "type": "match",
+          "prompt": "Match each result of rejecting reason.",
+          "pairs": [
+            { "id": "regardless", "left": "Acting regardless of the facts", "right": "Ignoring what reality is" },
+            { "id": "against", "left": "Acting in contradiction to the facts", "right": "Going against what reality is" },
+            { "id": "both", "left": "Either result", "right": "What rejection of reason licenses" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Without reason as the means of knowledge, action can bypass the facts or collide with them."
+          }
+        },
+        {
+          "id": "blank-regardless",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete one result of rejecting reason.",
+          "parts": [
+            { "type": "text", "text": "People may act regardless of the " },
+            { "type": "blank", "id": "b1", "answer": "facts" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["facts", "fashions", "rumors", "titles"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The loss is contact with the facts. Fashion, rumor, and title are not what reason was tracking."
+          }
+        },
+        {
+          "id": "sent-against",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the other result.",
+          "tokens": [
+            { "id": "t1", "text": "Rejection" },
+            { "id": "t2", "text": "of" },
+            { "id": "t3", "text": "reason" },
+            { "id": "t4", "text": "licenses" },
+            { "id": "t5", "text": "action" },
+            { "id": "t6", "text": "against" },
+            { "id": "t7", "text": "the" },
+            { "id": "t8", "text": "facts" },
+            { "id": "d1", "text": "faith" },
+            { "id": "d2", "text": "proves" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rejecting reason does not prove a new truth. It leaves action free to contradict reality."
+          }
+        },
+        {
+          "id": "example",
+          "type": "choice",
+          "prompt": "A person knows the bridge is out and crosses because a feeling says otherwise. What is that?",
+          "answer": "contra",
+          "choices": [
+            { "id": "contra", "text": "Action in contradiction to the facts" },
+            { "id": "reason", "text": "Reason used as the standard of truth" },
+            { "id": "wait", "text": "A decision to learn one fact that is still unknown" },
+            { "id": "name", "text": "Only a change of the bridge’s name" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The feeling is allowed to overrule a known fact. That is action against reality, not a use of reason."
+          }
+        },
+        {
+          "id": "example-reg",
+          "type": "choice",
+          "prompt": "A crew never asks whether the dose is safe and ships it anyway. What is that pattern?",
+          "answer": "reg",
+          "choices": [
+            { "id": "reg", "text": "Acting regardless of the facts" },
+            { "id": "integ", "text": "Integrating the evidence before acting" },
+            { "id": "skeptic-fix", "text": "A proof that knowledge is impossible" },
+            { "id": "rename", "text": "A mere relabeling of the same careful test" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "They do not contradict a known result so much as refuse to look. Action proceeds with no regard for the facts."
+          }
+        },
+        {
+          "id": "pair-keep",
+          "type": "match",
+          "prompt": "Match each stance to the action it supports.",
+          "pairs": [
+            { "id": "keep", "left": "Reason kept as the means of knowledge", "right": "Act on what the facts support" },
+            { "id": "myst", "left": "A revelation in place of reason", "right": "Act on a claim reason did not establish" },
+            { "id": "skep", "left": "The claim that nothing can be known", "right": "No knowledge left to guide action" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the first stance still ties action to knowledge. The other two have dropped that tie."
+          }
+        },
+        {
+          "id": "blank-both",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the cost in one word for the thing abandoned.",
+          "parts": [
+            { "type": "text", "text": "Rejecting reason abandons the only means of " },
+            { "type": "blank", "id": "b1", "answer": "knowledge" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["knowledge", "noise", "rank", "style"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "What is abandoned is knowledge as a guide. The cost shows up when people act anyway."
+          }
+        },
+        {
+          "id": "sent-guide",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build why the rejection matters for action.",
+          "tokens": [
+            { "id": "t1", "text": "Without" },
+            { "id": "t2", "text": "reason" },
+            { "id": "t3", "text": "action" },
+            { "id": "t4", "text": "is" },
+            { "id": "t5", "text": "not" },
+            { "id": "t6", "text": "guided" },
+            { "id": "t7", "text": "by" },
+            { "id": "t8", "text": "knowledge" },
+            { "id": "d1", "text": "mysticism" },
+            { "id": "d2", "text": "always" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Knowledge was the guide. Reject the only means of knowledge, and action loses that guide."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tell-apart",
+      "title": "Three answers about knowledge",
+      "objective": "Sort reason, mysticism, and skepticism by what each says about whether and how you can know.",
+      "exercises": [
+        {
+          "id": "sort-three",
+          "type": "match",
+          "prompt": "Match each stance to its claim.",
+          "pairs": [
+            { "id": "reason", "left": "Reason", "right": "The only means of knowledge" },
+            { "id": "myst", "left": "Mysticism", "right": "Some other means can know" },
+            { "id": "skep", "left": "Skepticism", "right": "Knowledge cannot be had" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason affirms one means. Mysticism adds or substitutes a means. Skepticism says the attempt fails."
+          }
+        },
+        {
+          "id": "which-affirm",
+          "type": "choice",
+          "prompt": "Which stance affirms that you can know reality by reason?",
+          "answer": "reason",
+          "choices": [
+            { "id": "reason", "text": "Reason as the only means of knowledge" },
+            { "id": "myst", "text": "Mysticism" },
+            { "id": "skep", "text": "Skepticism" },
+            { "id": "both", "text": "Mysticism and skepticism together" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the first stance keeps reason as a working means. The other two deny that status, in different ways."
+          }
+        },
+        {
+          "id": "which-sub",
+          "type": "choice",
+          "prompt": "A teacher says revelation knows truths reason must not judge. Which label fits?",
+          "answer": "myst",
+          "choices": [
+            { "id": "myst", "text": "Mysticism" },
+            { "id": "skep", "text": "Skepticism" },
+            { "id": "reason", "text": "Reason as the only standard of truth" },
+            { "id": "limit", "text": "An admission that one fact is not known yet" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The claim still offers knowledge, but by a route reason is forbidden to judge. That is mysticism."
+          }
+        },
+        {
+          "id": "which-deny",
+          "type": "choice",
+          "prompt": "A speaker says every conclusion, including this one, is unknowable. Which label fits?",
+          "answer": "skep",
+          "choices": [
+            { "id": "skep", "text": "Skepticism" },
+            { "id": "myst", "text": "Mysticism" },
+            { "id": "reason", "text": "Reason as the means of knowledge" },
+            { "id": "check", "text": "A call to examine one argument more carefully" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The speaker is not offering a hidden means. The speaker is denying that knowledge is possible."
+          }
+        },
+        {
+          "id": "blank-sub",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete how mysticism denies reason.",
+          "parts": [
+            { "type": "text", "text": "Mysticism substitutes another means for " },
+            { "type": "blank", "id": "b1", "answer": "reason" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["reason", "grammar", "weather", "humor"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The substitute replaces reason. Mysticism’s denial is replacement, not a study of grammar or weather."
+          }
+        },
+        {
+          "id": "blank-fail",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete how skepticism denies reason.",
+          "parts": [
+            { "type": "text", "text": "Skepticism says the means of knowledge " },
+            { "type": "blank", "id": "b1", "answer": "fails" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["fails", "sings", "votes", "paints"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Skepticism’s denial is failure: reason does not deliver knowledge. It does not crown a rival method."
+          }
+        },
+        {
+          "id": "sent-sort",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the contrast in one line.",
+          "tokens": [
+            { "id": "t1", "text": "Mysticism" },
+            { "id": "t2", "text": "replaces" },
+            { "id": "t3", "text": "reason" },
+            { "id": "t4", "text": "and" },
+            { "id": "t5", "text": "skepticism" },
+            { "id": "t6", "text": "rejects" },
+            { "id": "t7", "text": "knowledge" },
+            { "id": "d1", "text": "copies" },
+            { "id": "d2", "text": "measurement" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One rival keeps the aim and changes the means. The other gives up the aim."
+          }
+        },
+        {
+          "id": "pair-questions",
+          "type": "match",
+          "prompt": "Match each question to the stance that answers yes.",
+          "pairs": [
+            { "id": "can", "left": "Can reason know reality?", "right": "Yes, on the side of reason" },
+            { "id": "other", "left": "Is there a non-rational means?", "right": "Yes, on the side of mysticism" },
+            { "id": "no", "left": "Is knowledge impossible?", "right": "Yes, on the side of skepticism" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Three yes-answers cannot all stand. This unit keeps the first and treats the other two as denials of reason."
+          }
+        },
+        {
+          "id": "hold",
+          "type": "choice",
+          "prompt": "What does this unit hold?",
+          "answer": "only",
+          "choices": [
+            { "id": "only", "text": "Reason is the only means of knowledge; mysticism and skepticism deny that" },
+            { "id": "mix", "text": "Faith and reason are equal means of knowledge" },
+            { "id": "none", "text": "Skepticism is the proper end of epistemology" },
+            { "id": "mood", "text": "A feeling is the standard of truth when evidence runs out" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason alone is the means and the standard. Mysticism and skepticism are two ways of denying that."
+          }
+        },
+        {
+          "id": "sent-hold",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the unit’s closing claim.",
+          "tokens": [
+            { "id": "t1", "text": "Reason" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "the" },
+            { "id": "t4", "text": "only" },
+            { "id": "t5", "text": "means" },
+            { "id": "t6", "text": "of" },
+            { "id": "t7", "text": "knowledge" },
+            { "id": "d1", "text": "faith" },
+            { "id": "d2", "text": "sometimes" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That claim is what mysticism and skepticism each deny, one by a rival means and one by denying knowledge."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

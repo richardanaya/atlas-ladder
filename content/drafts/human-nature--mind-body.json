@@ -1,0 +1,855 @@
+{
+  "sectionId": "human-nature",
+  "sectionFile": "human-nature.json",
+  "unitId": "mind-body",
+  "title": "Mind and Body",
+  "summary": "No war between a ghostly mind and a mechanical body. Reason is an attribute of the individual.",
+  "lessons": [
+    {
+      "id": "false-war",
+      "title": "The war that is not there",
+      "objective": "Name the false picture: a ghostly mind at war with a mechanical body.",
+      "exercises": [
+        {
+          "id": "fw-split",
+          "type": "choice",
+          "prompt": "Which picture does this unit reject?",
+          "answer": "war",
+          "choices": [
+            { "id": "war", "text": "A ghostly mind at war with a mechanical body" },
+            { "id": "team", "text": "Mind and body as allies inside one person" },
+            { "id": "attr", "text": "Reason as an attribute of the individual" },
+            { "id": "none", "text": "A person with neither thought nor a body" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit drops the story of a ghost fighting a machine. That split is the error, not a fact about people."
+          }
+        },
+        {
+          "id": "fw-labels",
+          "type": "match",
+          "prompt": "Match each half of the false picture to the role it is given.",
+          "pairs": [
+            { "id": "ghost", "left": "Ghostly mind", "right": "A spirit that is not the person" },
+            { "id": "machine", "left": "Mechanical body", "right": "A device the spirit must fight" },
+            { "id": "war", "left": "The supposed relation", "right": "A war between the two" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Ghost, machine, and war are three parts of one mistaken picture."
+          }
+        },
+        {
+          "id": "fw-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the conflict this unit says is not real.",
+          "parts": [
+            { "type": "text", "text": "There is no " },
+            { "type": "blank", "id": "b1", "answer": "war" },
+            { "type": "text", "text": " between a ghostly mind and a mechanical body." }
+          ],
+          "bank": ["war", "treaty", "vote", "dream"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The claim is negative first: that war is not how mind and body stand."
+          }
+        },
+        {
+          "id": "fw-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the false picture this unit refuses.",
+          "tokens": [
+            { "id": "t1", "text": "A ghostly mind" },
+            { "id": "t2", "text": "fights" },
+            { "id": "t3", "text": "a mechanical body" },
+            { "id": "d1", "text": "shares one life" },
+            { "id": "d2", "text": "is an attribute" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Fighting is the rejected relation. Sharing one life is the alternative, not this sentence."
+          }
+        },
+        {
+          "id": "fw-not-fact",
+          "type": "choice",
+          "prompt": "On this unit, the ghost-versus-machine story is what?",
+          "answer": "error",
+          "choices": [
+            { "id": "error", "text": "A false picture of a person" },
+            { "id": "axiom", "text": "The starting fact of human nature" },
+            { "id": "goal", "text": "A conflict you should try to win" },
+            { "id": "method", "text": "The way reason works" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The war is a picture to discard, not a duty and not a method."
+          }
+        },
+        {
+          "id": "fw-sides",
+          "type": "match",
+          "prompt": "Match each phrase to the side it names in the false picture.",
+          "pairs": [
+            { "id": "m", "left": "Ghostly", "right": "Mind" },
+            { "id": "b", "left": "Mechanical", "right": "Body" },
+            { "id": "w", "left": "Between them", "right": "War" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Those three words are the whole rejected slogan: ghostly mind, mechanical body, war."
+          }
+        },
+        {
+          "id": "fw-two-blanks",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two caricatures.",
+          "parts": [
+            { "type": "text", "text": "A " },
+            { "type": "blank", "id": "b1", "answer": "ghostly" },
+            { "type": "text", "text": " mind against a " },
+            { "type": "blank", "id": "b2", "answer": "mechanical" },
+            { "type": "text", "text": " body." }
+          ],
+          "bank": ["ghostly", "mechanical", "rational", "shared"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Ghostly and mechanical are the two insults the false picture puts on mind and body."
+          }
+        },
+        {
+          "id": "fw-keep",
+          "type": "choice",
+          "prompt": "What should you keep from this lesson?",
+          "answer": "refuse",
+          "choices": [
+            { "id": "refuse", "text": "Refuse the war between ghost and machine" },
+            { "id": "choose", "text": "Choose the ghost and ignore the body" },
+            { "id": "obey", "text": "Treat the body as a machine you must obey" },
+            { "id": "split", "text": "Split the person into two enemies" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The lesson only asks you to drop the war. Later lessons say what stands in its place."
+          }
+        },
+        {
+          "id": "fw-order",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "State the rejection in order.",
+          "tokens": [
+            { "id": "t1", "text": "No war" },
+            { "id": "t2", "text": "between mind" },
+            { "id": "t3", "text": "and body" },
+            { "id": "d1", "text": "inside a crowd" },
+            { "id": "d2", "text": "after death" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The short form is no war between mind and body."
+          }
+        },
+        {
+          "id": "fw-which",
+          "type": "choice",
+          "prompt": "Which pairing matches the false picture?",
+          "answer": "gm",
+          "choices": [
+            { "id": "gm", "text": "Ghostly mind, mechanical body" },
+            { "id": "rr", "text": "Reason, the individual" },
+            { "id": "one", "text": "One person, one life" },
+            { "id": "attr", "text": "Attribute, not a second self" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the ghost-and-machine pairing is the picture this lesson names as false."
+          }
+        }
+      ]
+    },
+    {
+      "id": "one-individual",
+      "title": "One individual",
+      "objective": "Hold mind and body as aspects of one individual, not two rivals sharing a life.",
+      "exercises": [
+        {
+          "id": "oi-count",
+          "type": "choice",
+          "prompt": "How many individuals are mind and body, on this unit?",
+          "answer": "one",
+          "choices": [
+            { "id": "one", "text": "One individual" },
+            { "id": "two", "text": "Two individuals at war" },
+            { "id": "none", "text": "Neither is an individual" },
+            { "id": "many", "text": "A crowd of minds in one body" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Mind and body are not two persons. They are facts about one individual."
+          }
+        },
+        {
+          "id": "oi-match",
+          "type": "match",
+          "prompt": "Match each claim to the view it belongs to.",
+          "pairs": [
+            { "id": "one", "left": "One individual", "right": "The view this unit teaches" },
+            { "id": "two", "left": "Two rivals", "right": "The view this unit drops" },
+            { "id": "share", "left": "Sharing a life by truce", "right": "Still the war picture" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A truce still assumes two enemies. The unit says there is one individual."
+          }
+        },
+        {
+          "id": "oi-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the count.",
+          "parts": [
+            { "type": "text", "text": "Mind and body belong to " },
+            { "type": "blank", "id": "b1", "answer": "one" },
+            { "type": "text", "text": " individual." }
+          ],
+          "bank": ["one", "two", "no", "every"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The number that matters here is one: one individual, not two combatants."
+          }
+        },
+        {
+          "id": "oi-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the claim about how many beings are involved.",
+          "tokens": [
+            { "id": "t1", "text": "Mind and body" },
+            { "id": "t2", "text": "are one" },
+            { "id": "t3", "text": "individual" },
+            { "id": "d1", "text": "are two armies" },
+            { "id": "d2", "text": "need a truce" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "They are one individual. Armies and truces belong to the rejected story."
+          }
+        },
+        {
+          "id": "oi-not",
+          "type": "choice",
+          "prompt": "What does this lesson refuse to say about mind and body?",
+          "answer": "rivals",
+          "choices": [
+            { "id": "rivals", "text": "That they are two rivals sharing a life" },
+            { "id": "aspects", "text": "That they are aspects of one individual" },
+            { "id": "same", "text": "That they are the same person" },
+            { "id": "real", "text": "That both are real" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Both are real, and both are the same individual. The rival story is what goes."
+          }
+        },
+        {
+          "id": "oi-roles",
+          "type": "match",
+          "prompt": "Match each word to what it is in this lesson.",
+          "pairs": [
+            { "id": "mind", "left": "Mind", "right": "An aspect of the individual" },
+            { "id": "body", "left": "Body", "right": "An aspect of the same individual" },
+            { "id": "person", "left": "The individual", "right": "The one who has both" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Neither mind nor body is a second self standing beside the individual."
+          }
+        },
+        {
+          "id": "oi-blanks2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the contrast.",
+          "parts": [
+            { "type": "text", "text": "Not two rivals, but " },
+            { "type": "blank", "id": "b1", "answer": "aspects" },
+            { "type": "text", "text": " of one " },
+            { "type": "blank", "id": "b2", "answer": "individual" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["aspects", "individual", "ghosts", "machines"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Aspects of one individual replaces rivals in a shared life."
+          }
+        },
+        {
+          "id": "oi-who",
+          "type": "choice",
+          "prompt": "Who has the mind and the body?",
+          "answer": "ind",
+          "choices": [
+            { "id": "ind", "text": "One individual" },
+            { "id": "ghost", "text": "A ghost that borrows a body" },
+            { "id": "crowd", "text": "A group that thinks for its members" },
+            { "id": "machine", "text": "A machine that has no individual" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The owner is the individual. A ghost, a crowd, or a bare machine is not a substitute."
+          }
+        },
+        {
+          "id": "oi-sent2",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Put the lesson sentence in order.",
+          "tokens": [
+            { "id": "t1", "text": "One individual" },
+            { "id": "t2", "text": "has both" },
+            { "id": "t3", "text": "mind and body" },
+            { "id": "d1", "text": "hosts two enemies" },
+            { "id": "d2", "text": "lends them out" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Having both is not hosting two enemies."
+          }
+        },
+        {
+          "id": "oi-check",
+          "type": "choice",
+          "prompt": "Which sentence fits this lesson?",
+          "answer": "aspects",
+          "choices": [
+            { "id": "aspects", "text": "Mind and body are aspects of one individual" },
+            { "id": "armies", "text": "Mind and body are two armies under a truce" },
+            { "id": "tools", "text": "The mind is a tool the body happens to carry" },
+            { "id": "absent", "text": "The individual is neither mind nor body" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Aspects of one individual is the claim. A truce, a carried tool, or a missing person is not."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reason-attribute",
+      "title": "Reason belongs to the person",
+      "objective": "Place reason as an attribute of the individual, not of a spirit world or a crowd.",
+      "exercises": [
+        {
+          "id": "ra-what",
+          "type": "choice",
+          "prompt": "On this unit, what is reason?",
+          "answer": "attr",
+          "choices": [
+            { "id": "attr", "text": "An attribute of the individual" },
+            { "id": "ghost", "text": "A ghost that visits the body" },
+            { "id": "crowd", "text": "A power that belongs only to a group" },
+            { "id": "part", "text": "A spare part bolted onto a machine" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason is an attribute of the individual. It is not a visitor, a group mind, or a bolt-on part."
+          }
+        },
+        {
+          "id": "ra-where",
+          "type": "match",
+          "prompt": "Match each home for reason to the verdict.",
+          "pairs": [
+            { "id": "ind", "left": "The individual", "right": "Where reason belongs" },
+            { "id": "spirit", "left": "A spirit world", "right": "Not a home for reason" },
+            { "id": "crowd", "left": "A crowd", "right": "Not the thinker in place of the person" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason stays with the individual. A spirit world and a crowd are the wrong owners."
+          }
+        },
+        {
+          "id": "ra-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit line about reason.",
+          "parts": [
+            { "type": "text", "text": "Reason is an " },
+            { "type": "blank", "id": "b1", "answer": "attribute" },
+            { "type": "text", "text": " of the individual." }
+          ],
+          "bank": ["attribute", "enemy", "machine", "ghost"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Attribute names what reason is here: a feature of the individual, not a second being."
+          }
+        },
+        {
+          "id": "ra-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the positive claim about reason.",
+          "tokens": [
+            { "id": "t1", "text": "Reason is" },
+            { "id": "t2", "text": "an attribute" },
+            { "id": "t3", "text": "of the individual" },
+            { "id": "d1", "text": "of the crowd" },
+            { "id": "d2", "text": "a separate ghost" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The owner in the sentence is the individual, not the crowd and not a ghost."
+          }
+        },
+        {
+          "id": "ra-not-crowd",
+          "type": "choice",
+          "prompt": "Can a crowd replace the individual as the bearer of reason?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. Reason is an attribute of the individual" },
+            { "id": "yes", "text": "Yes. Only groups really think" },
+            { "id": "sometimes", "text": "Only when the body is treated as a machine" },
+            { "id": "ghost", "text": "Only if a ghost thinks for both" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Moving reason to a crowd repeats the error of taking it off the individual."
+          }
+        },
+        {
+          "id": "ra-kinds",
+          "type": "match",
+          "prompt": "Match each phrase to what it describes.",
+          "pairs": [
+            { "id": "reason", "left": "Reason", "right": "An attribute" },
+            { "id": "who", "left": "The individual", "right": "The one who has that attribute" },
+            { "id": "wrong", "left": "A floating spirit", "right": "A false owner of reason" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Attribute, individual, and false owner are the three slots to keep straight."
+          }
+        },
+        {
+          "id": "ra-blanks2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Say who has reason, and what reason is.",
+          "parts": [
+            { "type": "text", "text": "The " },
+            { "type": "blank", "id": "b1", "answer": "individual" },
+            { "type": "text", "text": " has reason as an " },
+            { "type": "blank", "id": "b2", "answer": "attribute" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["individual", "attribute", "crowd", "weapon"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The individual is the bearer. Attribute is the relation, not a weapon aimed at the body."
+          }
+        },
+        {
+          "id": "ra-check",
+          "type": "choice",
+          "prompt": "Which move keeps reason where this unit puts it?",
+          "answer": "keep",
+          "choices": [
+            { "id": "keep", "text": "Leave it as an attribute of the individual" },
+            { "id": "lift", "text": "Lift it into a spirit world" },
+            { "id": "pool", "text": "Pool it into the crowd" },
+            { "id": "bolt", "text": "Bolt it onto a mindless machine" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Leaving reason with the individual is the whole of this lesson."
+          }
+        },
+        {
+          "id": "ra-sent2",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Reject the wrong owner in one line.",
+          "tokens": [
+            { "id": "t1", "text": "Reason is not" },
+            { "id": "t2", "text": "a crowd's" },
+            { "id": "t3", "text": "attribute" },
+            { "id": "d1", "text": "the individual's" },
+            { "id": "d2", "text": "only fact" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The crowd is not the bearer. The attribute stays with the individual."
+          }
+        },
+        {
+          "id": "ra-pair",
+          "type": "choice",
+          "prompt": "Which pair states the unit correctly?",
+          "answer": "ok",
+          "choices": [
+            { "id": "ok", "text": "No mind-body war; reason is the individual's attribute" },
+            { "id": "war", "text": "Mind and body are at war; reason takes the ghost's side" },
+            { "id": "machine", "text": "The body is a machine; reason is optional" },
+            { "id": "group", "text": "The group thinks; the individual only houses it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Both halves of the unit summary belong together: no war, and reason as the individual's attribute."
+          }
+        }
+      ]
+    },
+    {
+      "id": "no-ghost",
+      "title": "No ghostly mind",
+      "objective": "Deny that the mind is a disembodied ghost occupying a body.",
+      "exercises": [
+        {
+          "id": "ng-deny",
+          "type": "choice",
+          "prompt": "What is the mind, on this unit?",
+          "answer": "not",
+          "choices": [
+            { "id": "not", "text": "Not a ghostly being apart from the individual" },
+            { "id": "soul", "text": "A soul that can live with no individual" },
+            { "id": "guest", "text": "A guest that occupies a machine" },
+            { "id": "cloud", "text": "A cloud of thought shared by many bodies" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Dropping the ghost means the mind is not a second being that merely occupies someone."
+          }
+        },
+        {
+          "id": "ng-match",
+          "type": "match",
+          "prompt": "Match each ghost story to why it fails.",
+          "pairs": [
+            { "id": "apart", "left": "A mind apart from the person", "right": "Makes the mind a second being" },
+            { "id": "occupy", "left": "A mind that only occupies a body", "right": "Keeps the war picture" },
+            { "id": "float", "left": "A mind with no individual", "right": "Leaves reason without its bearer" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Apart, occupying, and floating all detach the mind from the individual."
+          }
+        },
+        {
+          "id": "ng-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name what the mind is not.",
+          "parts": [
+            { "type": "text", "text": "The mind is not a " },
+            { "type": "blank", "id": "b1", "answer": "ghost" },
+            { "type": "text", "text": " inside a body." }
+          ],
+          "bank": ["ghost", "person", "attribute", "fact"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Ghost is the word for a mind imagined as something other than the individual."
+          }
+        },
+        {
+          "id": "ng-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the denial.",
+          "tokens": [
+            { "id": "t1", "text": "The mind" },
+            { "id": "t2", "text": "is not" },
+            { "id": "t3", "text": "a ghost" },
+            { "id": "d1", "text": "is only" },
+            { "id": "d2", "text": "a crowd" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The denial is direct: the mind is not a ghost."
+          }
+        },
+        {
+          "id": "ng-thinker",
+          "type": "choice",
+          "prompt": "Who thinks, if there is no ghostly mind?",
+          "answer": "ind",
+          "choices": [
+            { "id": "ind", "text": "The individual" },
+            { "id": "spirit", "text": "A spirit that uses the individual" },
+            { "id": "nobody", "text": "Nobody; thinking is unreal" },
+            { "id": "bodyonly", "text": "A machine with no attribute of reason" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Removing the ghost does not remove thought. The individual is the one who thinks."
+          }
+        },
+        {
+          "id": "ng-pairs",
+          "type": "match",
+          "prompt": "Match each item to its status.",
+          "pairs": [
+            { "id": "mind", "left": "Mind of the individual", "right": "Real, and not a ghost" },
+            { "id": "ghost", "left": "Ghostly mind", "right": "A picture to refuse" },
+            { "id": "reason", "left": "Reason", "right": "An attribute of that individual" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The mind stays. Only the ghostly version is refused. Reason remains an attribute."
+          }
+        },
+        {
+          "id": "ng-blanks2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both denials about a detached mind.",
+          "parts": [
+            { "type": "text", "text": "Not a " },
+            { "type": "blank", "id": "b1", "answer": "ghost" },
+            { "type": "text", "text": " and not " },
+            { "type": "blank", "id": "b2", "answer": "apart" },
+            { "type": "text", "text": " from the individual." }
+          ],
+          "bank": ["ghost", "apart", "reason", "real"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A ghost and a mind apart from the individual are the same mistake in two words."
+          }
+        },
+        {
+          "id": "ng-still",
+          "type": "choice",
+          "prompt": "After you drop the ghost, what remains true?",
+          "answer": "attr",
+          "choices": [
+            { "id": "attr", "text": "Reason is still an attribute of the individual" },
+            { "id": "gone", "text": "There is no mind at all" },
+            { "id": "war", "text": "The body must win the war" },
+            { "id": "float", "text": "Thought floats free of any person" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The ghost goes. The individual's attribute of reason stays."
+          }
+        },
+        {
+          "id": "ng-sent2",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Say who the thinker is.",
+          "tokens": [
+            { "id": "t1", "text": "The individual" },
+            { "id": "t2", "text": "thinks" },
+            { "id": "t3", "text": "without a ghost" },
+            { "id": "d1", "text": "rents a soul" },
+            { "id": "d2", "text": "stops being a body" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Thinking without a ghost does not erase the individual or the body."
+          }
+        },
+        {
+          "id": "ng-best",
+          "type": "choice",
+          "prompt": "Which line is the lesson?",
+          "answer": "line",
+          "choices": [
+            { "id": "line", "text": "No ghostly mind stands in for the individual" },
+            { "id": "soul", "text": "A soul thinks, and the individual only watches" },
+            { "id": "empty", "text": "Minds are unreal because ghosts are unreal" },
+            { "id": "many", "text": "Many ghosts share one body" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The lesson denies a stand-in ghost. It does not deny the mind of the individual."
+          }
+        }
+      ]
+    },
+    {
+      "id": "no-machine",
+      "title": "No mechanical body",
+      "objective": "Deny that the body is a mindless machine the mind must conquer.",
+      "exercises": [
+        {
+          "id": "nm-deny",
+          "type": "choice",
+          "prompt": "What is the body, on this unit?",
+          "answer": "not",
+          "choices": [
+            { "id": "not", "text": "Not a mechanical thing at war with a mind" },
+            { "id": "engine", "text": "A mindless engine the ghost must conquer" },
+            { "id": "prison", "text": "A prison built for a spirit" },
+            { "id": "optional", "text": "Optional equipment for reason" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The body is not a machine set against the mind. Conquering it is the old war story."
+          }
+        },
+        {
+          "id": "nm-match",
+          "type": "match",
+          "prompt": "Match each machine story to the error.",
+          "pairs": [
+            { "id": "mindless", "left": "A mindless body", "right": "Strips the individual of an integrated life" },
+            { "id": "conquer", "left": "A body to conquer", "right": "Puts mind and body back at war" },
+            { "id": "device", "left": "A device reason rides", "right": "Makes the body something other than the person" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Mindless, conquered, and merely ridden are three ways of turning the body into a machine."
+          }
+        },
+        {
+          "id": "nm-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the caricature of the body.",
+          "parts": [
+            { "type": "text", "text": "The body is not a " },
+            { "type": "blank", "id": "b1", "answer": "machine" },
+            { "type": "text", "text": " the mind must fight." }
+          ],
+          "bank": ["machine", "person", "attribute", "fact"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Machine is the caricature. The body is not an enemy device."
+          }
+        },
+        {
+          "id": "nm-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the denial about the body.",
+          "tokens": [
+            { "id": "t1", "text": "The body" },
+            { "id": "t2", "text": "is not" },
+            { "id": "t3", "text": "a machine" },
+            { "id": "d1", "text": "is only" },
+            { "id": "d2", "text": "a ghost" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The body is not a machine. Calling it a ghost would mix up the two caricatures."
+          }
+        },
+        {
+          "id": "nm-together",
+          "type": "choice",
+          "prompt": "With the machine picture gone, how do mind and body stand?",
+          "answer": "one",
+          "choices": [
+            { "id": "one", "text": "Together in one individual, not at war" },
+            { "id": "won", "text": "The mind has finally defeated the body" },
+            { "id": "lost", "text": "The body has finally defeated the mind" },
+            { "id": "apart", "text": "They no longer belong to the same person" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Ending the machine story does not crown a winner. It leaves one individual."
+          }
+        },
+        {
+          "id": "nm-pairs",
+          "type": "match",
+          "prompt": "Match each closing claim to its point.",
+          "pairs": [
+            { "id": "body", "left": "The body", "right": "Not a mindless machine" },
+            { "id": "mind", "left": "The mind", "right": "Not a ghost at war with that body" },
+            { "id": "reason", "left": "Reason", "right": "An attribute of the individual" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Those three claims are the unit: no machine, no ghostly war, reason as an attribute."
+          }
+        },
+        {
+          "id": "nm-blanks2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Close the unit in two words.",
+          "parts": [
+            { "type": "text", "text": "No " },
+            { "type": "blank", "id": "b1", "answer": "war" },
+            { "type": "text", "text": ", and reason is an attribute of the " },
+            { "type": "blank", "id": "b2", "answer": "individual" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["war", "individual", "machine", "crowd"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two words that hold the unit are war, denied, and individual, as the bearer of reason."
+          }
+        },
+        {
+          "id": "nm-still-body",
+          "type": "choice",
+          "prompt": "Does rejecting a mechanical body mean rejecting the body?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. It rejects only the machine caricature" },
+            { "id": "yes", "text": "Yes. Only the mind is real" },
+            { "id": "ghost", "text": "Yes. A ghost does not need a body" },
+            { "id": "crowd", "text": "Yes. The crowd replaces both" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The body stays with the individual. What goes is the picture of it as a mindless machine."
+          }
+        },
+        {
+          "id": "nm-sent2",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "State the whole unit in order.",
+          "tokens": [
+            { "id": "t1", "text": "No war" },
+            { "id": "t2", "text": "of ghost and machine" },
+            { "id": "t3", "text": "reason is the individual's attribute" },
+            { "id": "d1", "text": "mind must conquer body" },
+            { "id": "d2", "text": "the crowd thinks instead" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "No war of ghost and machine, and reason as the individual's attribute, is the unit in one line."
+          }
+        },
+        {
+          "id": "nm-last",
+          "type": "choice",
+          "prompt": "Which summary is this unit?",
+          "answer": "sum",
+          "choices": [
+            { "id": "sum", "text": "No ghost-versus-machine war; reason is an attribute of the individual" },
+            { "id": "fight", "text": "Train the ghost to defeat the machine" },
+            { "id": "drop", "text": "Drop both mind and body and keep only a crowd" },
+            { "id": "split", "text": "Keep the war, but call it peace" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The summary is the refusal of the war plus reason as an attribute of the individual."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

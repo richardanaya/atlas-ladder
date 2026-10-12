@@ -1,0 +1,832 @@
+{
+  "sectionId": "politics",
+  "sectionFile": "politics.json",
+  "unitId": "capitalism",
+  "title": "Capitalism and Its Moral Basis",
+  "summary": "Laissez-faire capitalism as the system that follows from rights, not as a brute economic preference.",
+  "lessons": [
+    {
+      "id": "name-the-system",
+      "title": "Name the system",
+      "objective": "Identify laissez-faire capitalism as the political system this unit defends.",
+      "exercises": [
+        {
+          "id": "n1",
+          "type": "choice",
+          "prompt": "Which political system does this unit defend?",
+          "answer": "lf",
+          "choices": [
+            { "id": "lf", "text": "Laissez-faire capitalism" },
+            { "id": "mx", "text": "A mixed economy that steers trade" },
+            { "id": "so", "text": "Socialism with private shops allowed" },
+            { "id": "th", "text": "Rule by whoever is richest" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The system named here is laissez-faire capitalism, the political order that leaves production and trade free."
+          }
+        },
+        {
+          "id": "n2",
+          "type": "match",
+          "prompt": "Match each label to what it names in this unit.",
+          "pairs": [
+            { "id": "p1", "left": "Capitalism", "right": "The political system under discussion" },
+            { "id": "p2", "left": "Laissez-faire", "right": "Hands off production and trade" },
+            { "id": "p3", "left": "Moral basis", "right": "Why the system is justified" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Capitalism is the system. Laissez-faire says how free it is. The moral basis is the reason, not a separate hobby."
+          }
+        },
+        {
+          "id": "n3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the system in full.",
+          "parts": [
+            { "type": "text", "text": "The system is " },
+            { "type": "blank", "id": "b1", "answer": "laissez-faire" },
+            { "type": "text", "text": " capitalism." }
+          ],
+          "bank": ["laissez-faire", "managed", "state", "crony"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The full name matters. Capitalism here means laissez-faire capitalism, not a steered or favored economy."
+          }
+        },
+        {
+          "id": "n4",
+          "type": "choice",
+          "prompt": "In the one-foot list of branches, what stands beside Politics?",
+          "answer": "cap",
+          "choices": [
+            { "id": "cap", "text": "Capitalism" },
+            { "id": "re", "text": "Reason" },
+            { "id": "si", "text": "Self-interest" },
+            { "id": "or", "text": "Objective Reality" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Politics is the branch, and capitalism is the answer this philosophy gives for that branch."
+          }
+        },
+        {
+          "id": "n5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the claim this lesson is teaching.",
+          "tokens": [
+            { "id": "t1", "text": "Politics" },
+            { "id": "t2", "text": "defends" },
+            { "id": "t3", "text": "laissez-faire capitalism" },
+            { "id": "d1", "text": "rejects" },
+            { "id": "d2", "text": "a mixed economy" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The political conclusion is laissez-faire capitalism. The extra tokens name the opposite move."
+          }
+        },
+        {
+          "id": "n6",
+          "type": "choice",
+          "prompt": "What kind of claim is the defense of this system?",
+          "answer": "pol",
+          "choices": [
+            { "id": "pol", "text": "A political conclusion" },
+            { "id": "art", "text": "A rule about painting" },
+            { "id": "diet", "text": "A tip about shopping" },
+            { "id": "mood", "text": "A mood about money" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Capitalism belongs on the politics floor. It is the social system, not a shopping hint or an art style."
+          }
+        },
+        {
+          "id": "n7",
+          "type": "match",
+          "prompt": "Match each phrase to the system it points to.",
+          "pairs": [
+            { "id": "a", "left": "People produce and trade freely", "right": "Laissez-faire capitalism" },
+            { "id": "b", "left": "Officials steer who may produce", "right": "Not this system" },
+            { "id": "c", "left": "The name of the politics branch’s answer", "right": "Capitalism" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Free production and trade is the system. Steering production is what this unit is not defending."
+          }
+        },
+        {
+          "id": "n8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the branch line in plain words.",
+          "parts": [
+            { "type": "text", "text": "Politics: " },
+            { "type": "blank", "id": "b1", "answer": "Capitalism" }
+          ],
+          "bank": ["Capitalism", "Reason", "Self-interest", "Reality"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "On the one-foot list, the politics line is Capitalism. The other words belong to other branches."
+          }
+        },
+        {
+          "id": "n9",
+          "type": "choice",
+          "prompt": "Which wording is too vague for this unit’s answer?",
+          "answer": "biz",
+          "choices": [
+            { "id": "biz", "text": "Whatever helps business this year" },
+            { "id": "lf", "text": "Laissez-faire capitalism" },
+            { "id": "free", "text": "A system of free production and trade" },
+            { "id": "pol", "text": "The political system that follows in this philosophy" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A yearly business tactic is not the system. The name to hold is laissez-faire capitalism."
+          }
+        },
+        {
+          "id": "n10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Put the short name in order.",
+          "tokens": [
+            { "id": "t1", "text": "Laissez-faire" },
+            { "id": "t2", "text": "capitalism" },
+            { "id": "t3", "text": "is the system" },
+            { "id": "d1", "text": "is a whim" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Laissez-faire capitalism is the system this unit names. It is not filed as a whim."
+          }
+        }
+      ]
+    },
+    {
+      "id": "follows-from-rights",
+      "title": "It follows from rights",
+      "objective": "Explain that the case for laissez-faire capitalism starts from individual rights.",
+      "exercises": [
+        {
+          "id": "r1",
+          "type": "choice",
+          "prompt": "What does laissez-faire capitalism follow from, on this account?",
+          "answer": "ri",
+          "choices": [
+            { "id": "ri", "text": "Individual rights" },
+            { "id": "poll", "text": "A poll about favorite shops" },
+            { "id": "gdp", "text": "Last year’s growth number alone" },
+            { "id": "habit", "text": "An old custom with no reason" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The system follows from rights. A poll, a growth figure, or a bare custom is not the basis."
+          }
+        },
+        {
+          "id": "r2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit’s central claim.",
+          "parts": [
+            { "type": "text", "text": "Laissez-faire capitalism follows from " },
+            { "type": "blank", "id": "b1", "answer": "rights" },
+            { "type": "text", "text": ", not from a brute economic preference." }
+          ],
+          "bank": ["rights", "fashion", "envy", "luck"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rights are the starting point. A brute preference for one kind of economy is what the claim refuses."
+          }
+        },
+        {
+          "id": "r3",
+          "type": "match",
+          "prompt": "Match each starting point to the conclusion it supports here.",
+          "pairs": [
+            { "id": "a", "left": "Each person has rights", "right": "Freedom to produce and trade" },
+            { "id": "b", "left": "Rights sanction action", "right": "A system that leaves that action free" },
+            { "id": "c", "left": "Drop the rights", "right": "The moral case for the system drops with them" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The political system is the social form of the rights. Without the rights, this unit’s reason for capitalism is gone."
+          }
+        },
+        {
+          "id": "r4",
+          "type": "choice",
+          "prompt": "Why is capitalism called a moral conclusion here?",
+          "answer": "rg",
+          "choices": [
+            { "id": "rg", "text": "It is what respecting rights requires" },
+            { "id": "rich", "text": "It makes a few people richer by design" },
+            { "id": "old", "text": "It is older than other systems" },
+            { "id": "easy", "text": "It is easier to diagram" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The moral basis is rights. Age, a diagram, or a plan to enrich a few is not that basis."
+          }
+        },
+        {
+          "id": "r5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the order this lesson uses.",
+          "tokens": [
+            { "id": "t1", "text": "Rights" },
+            { "id": "t2", "text": "come first" },
+            { "id": "t3", "text": "then the system" },
+            { "id": "d1", "text": "then a coin flip" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rights come first. Laissez-faire capitalism is the system that follows, not a coin flip."
+          }
+        },
+        {
+          "id": "r6",
+          "type": "choice",
+          "prompt": "If someone keeps the rights and drops free trade, what has gone wrong on this account?",
+          "answer": "cut",
+          "choices": [
+            { "id": "cut", "text": "The system no longer matches the rights" },
+            { "id": "fine", "text": "Nothing, rights ignore action" },
+            { "id": "math", "text": "Only the arithmetic is off" },
+            { "id": "style", "text": "Only the style of shops changed" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rights sanction freedom of action, including production and trade. A system that cancels that freedom has left the rights behind."
+          }
+        },
+        {
+          "id": "r7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both blanks.",
+          "parts": [
+            { "type": "text", "text": "The moral basis is " },
+            { "type": "blank", "id": "b1", "answer": "rights" },
+            { "type": "text", "text": ". The system is " },
+            { "type": "blank", "id": "b2", "answer": "capitalism" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["rights", "capitalism", "taste", "charts"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the two words apart: rights are the basis, and capitalism is the system that follows."
+          }
+        },
+        {
+          "id": "r8",
+          "type": "match",
+          "prompt": "Match the question to the answer this unit gives.",
+          "pairs": [
+            { "id": "a", "left": "Why this system?", "right": "Because rights require it" },
+            { "id": "b", "left": "What is being justified?", "right": "Laissez-faire capitalism" },
+            { "id": "c", "left": "What is not the basis?", "right": "A brute economic preference" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The why is rights. The what is laissez-faire capitalism. A brute economic preference is the answer this unit rejects."
+          }
+        },
+        {
+          "id": "r9",
+          "type": "choice",
+          "prompt": "A right, in the sense this unit relies on, sanctions what?",
+          "answer": "act",
+          "choices": [
+            { "id": "act", "text": "Freedom of action in a social setting" },
+            { "id": "gift", "text": "A gift of goods from others" },
+            { "id": "vote", "text": "A turn to run other people’s work" },
+            { "id": "mood", "text": "A feeling that one should win" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rights here sanction freedom of action among other people. They are not a claim on someone else’s goods or a mood."
+          }
+        },
+        {
+          "id": "r10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "State the dependence in one line.",
+          "tokens": [
+            { "id": "t1", "text": "No rights" },
+            { "id": "t2", "text": "means" },
+            { "id": "t3", "text": "no moral basis" },
+            { "id": "t4", "text": "for the system" },
+            { "id": "d1", "text": "for a shopping list" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Take away rights and this unit’s moral basis for laissez-faire capitalism is gone."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-a-preference",
+      "title": "Not a brute preference",
+      "objective": "Reject the idea that capitalism is only a taste for markets or a growth trick.",
+      "exercises": [
+        {
+          "id": "p1",
+          "type": "choice",
+          "prompt": "Which defense does this unit refuse?",
+          "answer": "br",
+          "choices": [
+            { "id": "br", "text": "Capitalism as a brute economic preference" },
+            { "id": "ri", "text": "Capitalism as what follows from rights" },
+            { "id": "lf", "text": "Capitalism as laissez-faire" },
+            { "id": "mo", "text": "Capitalism as a moral conclusion" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A brute economic preference is the defense this unit sets aside. The defense it keeps is rights."
+          }
+        },
+        {
+          "id": "p2",
+          "type": "match",
+          "prompt": "Match each slogan to how this unit treats it.",
+          "pairs": [
+            { "id": "a", "left": "I just like markets", "right": "Not the moral basis" },
+            { "id": "b", "left": "It grew the numbers, so it is right", "right": "Still not the basis" },
+            { "id": "c", "left": "Rights require freedom to produce and trade", "right": "The basis this unit uses" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Liking markets, or pointing only at results, is not the case. The case is that rights require the freedom."
+          }
+        },
+        {
+          "id": "p3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the contrast.",
+          "parts": [
+            { "type": "text", "text": "The system is not a brute " },
+            { "type": "blank", "id": "b1", "answer": "economic" },
+            { "type": "text", "text": " preference." }
+          ],
+          "bank": ["economic", "moral", "political", "legal"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The phrase to reject is brute economic preference. Moral, political, and legal are the kind of claim the unit is making instead."
+          }
+        },
+        {
+          "id": "p4",
+          "type": "choice",
+          "prompt": "Someone says capitalism is useful but morally blank. What does this unit say?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "The case is moral: it follows from rights" },
+            { "id": "yes", "text": "Yes, usefulness is the whole case" },
+            { "id": "none", "text": "Politics has no moral basis at all" },
+            { "id": "both", "text": "Any system is moral if output rises" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Usefulness is not the substitute for a moral basis. This unit treats laissez-faire capitalism as what rights require."
+          }
+        },
+        {
+          "id": "p5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the refusal.",
+          "tokens": [
+            { "id": "t1", "text": "Do not" },
+            { "id": "t2", "text": "rest the system" },
+            { "id": "t3", "text": "on a preference" },
+            { "id": "d1", "text": "on a chart color" },
+            { "id": "d2", "text": "skip rights" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A preference is not a foundation. The system is not parked on taste."
+          }
+        },
+        {
+          "id": "p6",
+          "type": "choice",
+          "prompt": "Which pair confuses a result with a basis?",
+          "answer": "gr",
+          "choices": [
+            { "id": "gr", "text": "Growth happened, therefore the system is justified" },
+            { "id": "ri", "text": "Rights hold, therefore free trade follows" },
+            { "id": "nm", "text": "The name is laissez-faire capitalism" },
+            { "id": "br", "text": "A brute preference is not enough" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A result can be welcome and still not be the reason. The reason in this unit is rights, not the fact that output moved."
+          }
+        },
+        {
+          "id": "p7",
+          "type": "match",
+          "prompt": "Sort each item as basis or not.",
+          "pairs": [
+            { "id": "a", "left": "Individual rights", "right": "Basis" },
+            { "id": "b", "left": "A personal taste for shops", "right": "Not a basis" },
+            { "id": "c", "left": "A demand that the numbers look good first", "right": "Not a basis" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only rights are the basis in this unit. Taste and a demand for pretty numbers are the items being set aside."
+          }
+        },
+        {
+          "id": "p8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two roles.",
+          "parts": [
+            { "type": "text", "text": "A preference is " },
+            { "type": "blank", "id": "b1", "answer": "not" },
+            { "type": "text", "text": " the basis. Rights are the " },
+            { "type": "blank", "id": "b2", "answer": "basis" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["not", "basis", "whole", "slogan"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Preference is refused as the basis. Rights are accepted as the basis."
+          }
+        },
+        {
+          "id": "p9",
+          "type": "choice",
+          "prompt": "If two people prefer different economies, what does this unit still claim?",
+          "answer": "one",
+          "choices": [
+            { "id": "one", "text": "The rights still pick out laissez-faire capitalism" },
+            { "id": "tie", "text": "Both preferences are equally the system" },
+            { "id": "none", "text": "No system can be named" },
+            { "id": "loud", "text": "The louder preference wins" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Preferences can clash. The unit does not settle the clash by volume. It points back to rights."
+          }
+        },
+        {
+          "id": "p10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "State what the unit puts in place of a preference.",
+          "tokens": [
+            { "id": "t1", "text": "Rights" },
+            { "id": "t2", "text": "replace" },
+            { "id": "t3", "text": "a brute preference" },
+            { "id": "d1", "text": "a louder slogan" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Where a brute preference would have stood, this unit puts rights."
+          }
+        }
+      ]
+    },
+    {
+      "id": "what-laissez-means",
+      "title": "What laissez-faire rules out",
+      "objective": "State what laissez-faire rules out: running the economy and handing out special favors.",
+      "exercises": [
+        {
+          "id": "l1",
+          "type": "choice",
+          "prompt": "In this unit, laissez-faire means officials do what?",
+          "answer": "off",
+          "choices": [
+            { "id": "off", "text": "Leave production and trade alone" },
+            { "id": "pick", "text": "Pick the winning firms" },
+            { "id": "set", "text": "Set each person’s work" },
+            { "id": "share", "text": "Divide the product by a plan" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Laissez-faire means hands off production and trade. Picking winners, assigning work, or dividing the product is the opposite."
+          }
+        },
+        {
+          "id": "l2",
+          "type": "match",
+          "prompt": "Match each practice to the verdict.",
+          "pairs": [
+            { "id": "a", "left": "A special favor for one firm", "right": "Ruled out" },
+            { "id": "b", "left": "A plan that runs the whole economy", "right": "Ruled out" },
+            { "id": "c", "left": "Trade by the parties’ own choice", "right": "What the system leaves free" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Favors and a run economy are what laissez-faire rules out. Trade by the parties’ own choice is what it leaves in place."
+          }
+        },
+        {
+          "id": "l3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rule of thumb.",
+          "parts": [
+            { "type": "text", "text": "Laissez-faire rules out " },
+            { "type": "blank", "id": "b1", "answer": "favors" },
+            { "type": "text", "text": " and a run economy." }
+          ],
+          "bank": ["favors", "rights", "trade", "persons"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Special favors are ruled out, and so is an economy run from above. Rights and trade are not the things being banned."
+          }
+        },
+        {
+          "id": "l4",
+          "type": "choice",
+          "prompt": "Why is a special favor not a small exception here?",
+          "answer": "same",
+          "choices": [
+            { "id": "same", "text": "It still uses politics to steer trade" },
+            { "id": "tiny", "text": "It is too small to count as politics" },
+            { "id": "kind", "text": "Kindness always overrides rights" },
+            { "id": "need", "text": "Firms have a right to be favored" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A favor is still a decision to steer who gains in trade. Laissez-faire does not keep a side door for that."
+          }
+        },
+        {
+          "id": "l5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build what the system leaves free.",
+          "tokens": [
+            { "id": "t1", "text": "People" },
+            { "id": "t2", "text": "produce" },
+            { "id": "t3", "text": "and trade" },
+            { "id": "t4", "text": "by choice" },
+            { "id": "d1", "text": "by assignment" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Production and trade stay with the people who choose them. Assignment from above is the distractor."
+          }
+        },
+        {
+          "id": "l6",
+          "type": "choice",
+          "prompt": "Which arrangement still counts as laissez-faire?",
+          "answer": "deal",
+          "choices": [
+            { "id": "deal", "text": "Two people trade because both agree" },
+            { "id": "quota", "text": "An office assigns each town a quota" },
+            { "id": "license", "text": "A friend of the ruler gets the only license" },
+            { "id": "board", "text": "A board sets every price for a goal" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Agreement between the parties is the free trade this system protects. Quotas, exclusive licenses, and dictated prices are steering."
+          }
+        },
+        {
+          "id": "l7",
+          "type": "match",
+          "prompt": "Match the short name to the ban.",
+          "pairs": [
+            { "id": "a", "left": "Crony favor", "right": "A privilege for the connected" },
+            { "id": "b", "left": "A run economy", "right": "Officials directing production" },
+            { "id": "c", "left": "Laissez-faire", "right": "Neither of those two" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Laissez-faire is the refusal of both a privilege for the connected and official direction of production."
+          }
+        },
+        {
+          "id": "l8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the contrast.",
+          "parts": [
+            { "type": "text", "text": "Trade is by " },
+            { "type": "blank", "id": "b1", "answer": "consent" },
+            { "type": "text", "text": ", not by " },
+            { "type": "blank", "id": "b2", "answer": "favor" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["consent", "favor", "chart", "slogan"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Consent of the parties is the method. Favor is the method laissez-faire rules out."
+          }
+        },
+        {
+          "id": "l9",
+          "type": "choice",
+          "prompt": "Hands off the economy is required here because of what?",
+          "answer": "ri",
+          "choices": [
+            { "id": "ri", "text": "Rights to act, including to produce and trade" },
+            { "id": "lazy", "text": "Officials dislike paperwork" },
+            { "id": "trend", "text": "A fashion for small offices" },
+            { "id": "luck", "text": "Markets always feel pleasant" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The hands-off rule is not a mood about offices. It is what leaving people’s rights intact requires."
+          }
+        }
+      ]
+    },
+    {
+      "id": "one-chain",
+      "title": "One chain",
+      "objective": "Hold one order: each person is an end, rights follow, and laissez-faire capitalism is the system that respects those rights.",
+      "exercises": [
+        {
+          "id": "c1",
+          "type": "choice",
+          "prompt": "Which order matches this unit?",
+          "answer": "ord",
+          "choices": [
+            { "id": "ord", "text": "Each person is an end, then rights, then laissez-faire capitalism" },
+            { "id": "rev", "text": "Pick an economy first, then invent rights to fit it" },
+            { "id": "num", "text": "Check growth first, then decide if persons matter" },
+            { "id": "mix", "text": "Mix every system so nobody’s principle wins" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The chain runs from the person as an end, to rights, to the system. It does not start from a preferred chart."
+          }
+        },
+        {
+          "id": "c2",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build that order.",
+          "tokens": [
+            { "id": "t1", "text": "An end in himself" },
+            { "id": "t2", "text": "then rights" },
+            { "id": "t3", "text": "then laissez-faire capitalism" },
+            { "id": "d1", "text": "then a favorite chart" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Start from the person as an end. Rights come next. Laissez-faire capitalism is the political system at the end of that chain."
+          }
+        },
+        {
+          "id": "c3",
+          "type": "match",
+          "prompt": "Match each step to its job in the chain.",
+          "pairs": [
+            { "id": "a", "left": "Man is an end in himself", "right": "The moral starting point" },
+            { "id": "b", "left": "Individual rights", "right": "The principle for action among people" },
+            { "id": "c", "left": "Laissez-faire capitalism", "right": "The system that follows" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Three jobs, one chain: a moral start, a principle for social action, and the political system that respects it."
+          }
+        },
+        {
+          "id": "c4",
+          "type": "choice",
+          "prompt": "What does it mean here to treat a person as an end?",
+          "answer": "own",
+          "choices": [
+            { "id": "own", "text": "He lives for his own life, not as a tool of others" },
+            { "id": "tool", "text": "He is available for anyone’s project" },
+            { "id": "vote", "text": "The group may spend him if it votes" },
+            { "id": "none", "text": "He has no standing in politics" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An end in himself is not a resource for other people’s plans. That is the moral start this political system rests on."
+          }
+        },
+        {
+          "id": "c5",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the chain.",
+          "parts": [
+            { "type": "text", "text": "End in himself, then " },
+            { "type": "blank", "id": "b1", "answer": "rights" },
+            { "type": "text", "text": ", then " },
+            { "type": "blank", "id": "b2", "answer": "capitalism" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["rights", "capitalism", "whim", "quota"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "After the person as an end come rights, and after rights comes capitalism. A whim or a quota is not a step in the chain."
+          }
+        },
+        {
+          "id": "c6",
+          "type": "choice",
+          "prompt": "Reversing the chain would mean what?",
+          "answer": "fit",
+          "choices": [
+            { "id": "fit", "text": "Choosing an economy first and bending rights to fit" },
+            { "id": "same", "text": "The same argument in a shorter sentence" },
+            { "id": "better", "text": "A stricter respect for rights" },
+            { "id": "none", "text": "Dropping politics entirely" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Starting from a preferred economy and trimming rights to match is the reverse of this unit. The rights come first."
+          }
+        },
+        {
+          "id": "c7",
+          "type": "match",
+          "prompt": "Match the break to the step it drops.",
+          "pairs": [
+            { "id": "a", "left": "People may be used as tools", "right": "Drops the end-in-himself start" },
+            { "id": "b", "left": "Freedom of action is optional", "right": "Drops rights" },
+            { "id": "c", "left": "Trade is steered by favor", "right": "Drops laissez-faire capitalism" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each break knocks out one step. Using people as tools, making freedom optional, or steering trade by favor each leaves the chain."
+          }
+        },
+        {
+          "id": "c8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "State the whole unit in one line.",
+          "tokens": [
+            { "id": "t1", "text": "Capitalism" },
+            { "id": "t2", "text": "follows from" },
+            { "id": "t3", "text": "rights" },
+            { "id": "d1", "text": "follows from" },
+            { "id": "d2", "text": "taste" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The line to keep is that capitalism follows from rights. Taste is the rival the unit will not use."
+          }
+        },
+        {
+          "id": "c9",
+          "type": "choice",
+          "prompt": "Which sentence is the unit’s summary, in plain words?",
+          "answer": "sum",
+          "choices": [
+            { "id": "sum", "text": "Laissez-faire capitalism follows from rights, not from a brute economic preference" },
+            { "id": "shop", "text": "Buy from the largest store" },
+            { "id": "mix", "text": "Use any mix of controls that raises output" },
+            { "id": "none", "text": "Politics should avoid naming a system" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That one sentence is the unit: the system follows from rights, and a brute economic preference is not a stand-in."
+          }
+        },
+        {
+          "id": "c10",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Close the unit.",
+          "parts": [
+            { "type": "text", "text": "Laissez-faire capitalism is the system that " },
+            { "type": "blank", "id": "b1", "answer": "follows" },
+            { "type": "text", "text": " from " },
+            { "type": "blank", "id": "b2", "answer": "rights" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["follows", "rights", "ignores", "polls"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The last line is the title’s point: the system follows from rights. It does not ignore them, and it is not taken from a poll."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

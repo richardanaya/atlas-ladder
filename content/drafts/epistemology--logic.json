@@ -1,0 +1,783 @@
+{
+  "sectionId": "epistemology",
+  "sectionFile": "epistemology.json",
+  "unitId": "logic",
+  "title": "Logic",
+  "summary": "Logic as the art of non-contradictory identification.",
+  "lessons": [
+    {
+      "id": "what-logic-is",
+      "title": "The art itself",
+      "objective": "State logic as the art of identifying what is, and of keeping those identifications free of contradiction.",
+      "exercises": [
+        {
+          "id": "wl1",
+          "type": "choice",
+          "prompt": "In this unit, what is logic?",
+          "answer": "art",
+          "choices": [
+            { "id": "art", "text": "The art of non-contradictory identification" },
+            { "id": "feel", "text": "A feeling that a conclusion is comfortable" },
+            { "id": "vote", "text": "Whatever most people agree to call true" },
+            { "id": "game", "text": "A word game with no tie to facts" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Logic is an art you practice: you identify what is, and you do not let those identifications contradict one another."
+          }
+        },
+        {
+          "id": "wl2",
+          "type": "choice",
+          "prompt": "Which pair names the two jobs packed into that definition?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "Identify, and keep the identifications non-contradictory" },
+            { "id": "speed", "text": "Identify quickly, and ignore later conflicts" },
+            { "id": "style", "text": "Sound formal, and avoid everyday words" },
+            { "id": "doubt", "text": "Doubt every identification, and stop there" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Identification says what something is. Non-contradiction keeps those sayings compatible with one another and with the facts."
+          }
+        },
+        {
+          "id": "wl3",
+          "type": "match",
+          "prompt": "Match each word in the definition to the job it names.",
+          "pairs": [
+            { "id": "p1", "left": "Art", "right": "A method you can practice, not a mood" },
+            { "id": "p2", "left": "Identification", "right": "Saying what a thing is" },
+            { "id": "p3", "left": "Non-contradictory", "right": "No clash among the identifications" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "All three words belong in the definition. Drop any one and you no longer have logic as this unit uses the word."
+          }
+        },
+        {
+          "id": "wl4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the definition of logic used in this unit.",
+          "parts": [
+            { "type": "text", "text": "Logic is the art of " },
+            { "type": "blank", "id": "b1", "answer": "non-contradictory" },
+            { "type": "text", "text": " identification." }
+          ],
+          "bank": ["non-contradictory", "popular", "emotional", "approximate"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The standard is non-contradiction. Popularity, feeling, and a rough guess are not substitutes for it."
+          }
+        },
+        {
+          "id": "wl5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states what logic is.",
+          "tokens": [
+            { "id": "t1", "text": "Logic is the art" },
+            { "id": "t2", "text": "of non-contradictory" },
+            { "id": "t3", "text": "identification" },
+            { "id": "d1", "text": "of wishful" },
+            { "id": "d2", "text": "agreement" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Logic identifies. It does not treat agreement or wishing as the work."
+          }
+        },
+        {
+          "id": "wl6",
+          "type": "choice",
+          "prompt": "Someone calls a chain of thoughts logical only because it feels tidy. What is missing?",
+          "answer": "facts",
+          "choices": [
+            { "id": "facts", "text": "A check that the thoughts identify facts without contradicting them" },
+            { "id": "ink", "text": "A longer sentence and more technical words" },
+            { "id": "crowd", "text": "A larger group that likes the conclusion" },
+            { "id": "speed", "text": "A faster delivery of the same feeling" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Tidy wording is not logic. Logic is identification that does not contradict what is."
+          }
+        },
+        {
+          "id": "wl7",
+          "type": "choice",
+          "prompt": "Which activity is an exercise of logic?",
+          "answer": "check",
+          "choices": [
+            { "id": "check", "text": "Naming what a thing is, then rejecting a claim that clashes with that naming" },
+            { "id": "prefer", "text": "Keeping whichever claim you like better" },
+            { "id": "bothok", "text": "Accepting two claims that cannot both be true" },
+            { "id": "skip", "text": "Refusing to identify anything at all" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "You identify, then you refuse the identification that contradicts the first. That is the art in action."
+          }
+        },
+        {
+          "id": "wl8",
+          "type": "match",
+          "prompt": "Match each practice to whether it is logic.",
+          "pairs": [
+            { "id": "p1", "left": "Identify the facts and drop a clash", "right": "Logic" },
+            { "id": "p2", "left": "Assert two incompatible claims together", "right": "Not logic" },
+            { "id": "p3", "left": "Replace identification with a wish", "right": "Not logic" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Logic stays with identification and with consistency. Wishing and contradiction leave that art."
+          }
+        },
+        {
+          "id": "wl9",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two requirements.",
+          "parts": [
+            { "type": "text", "text": "To use logic, you " },
+            { "type": "blank", "id": "b1", "answer": "identify" },
+            { "type": "text", "text": " what is, and you reject a " },
+            { "type": "blank", "id": "b2", "answer": "contradiction" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["identify", "contradiction", "invent", "slogan"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Identification without a ban on contradiction is incomplete. So is a ban on contradiction if you never identify anything."
+          }
+        }
+      ]
+    },
+    {
+      "id": "identification",
+      "title": "Identify what is",
+      "objective": "Treat logic as naming facts that are already there, not as inventing them or swapping them for a wish.",
+      "exercises": [
+        {
+          "id": "id1",
+          "type": "choice",
+          "prompt": "What does identification do?",
+          "answer": "name",
+          "choices": [
+            { "id": "name", "text": "It states what a thing is" },
+            { "id": "make", "text": "It makes the thing into whatever you prefer" },
+            { "id": "hide", "text": "It hides the thing so a claim can stand" },
+            { "id": "vote", "text": "It waits for a group to decide what the thing is" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "To identify is to grasp and state the identity of something that exists. Preference and a vote do not do that work."
+          }
+        },
+        {
+          "id": "id2",
+          "type": "choice",
+          "prompt": "A cup is on the table. Which response is identification?",
+          "answer": "see",
+          "choices": [
+            { "id": "see", "text": "The cup is on the table" },
+            { "id": "wish", "text": "I wish the cup were a book, so it is a book" },
+            { "id": "both", "text": "It is a cup and it is not a cup, in the same respect" },
+            { "id": "none", "text": "Nothing can be said about the cup" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Identification reports the fact. A wish does not rewrite the cup, and a contradiction does not count as naming it."
+          }
+        },
+        {
+          "id": "id3",
+          "type": "match",
+          "prompt": "Match each move to what it does with the facts.",
+          "pairs": [
+            { "id": "p1", "left": "State what the thing is", "right": "Identification" },
+            { "id": "p2", "left": "Pretend the thing is something else", "right": "Not identification" },
+            { "id": "p3", "left": "Refuse to say what anything is", "right": "Not identification" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Logic begins when you name what is. Evasion and a blank refusal both skip that step."
+          }
+        },
+        {
+          "id": "id4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line about the work of logic.",
+          "parts": [
+            { "type": "text", "text": "Logic identifies what " },
+            { "type": "blank", "id": "b1", "answer": "is" },
+            { "type": "text", "text": ", rather than what you " },
+            { "type": "blank", "id": "b2", "answer": "wish" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["is", "wish", "vote", "fear"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The object of identification is reality. A wish is not a second kind of fact that logic must honor."
+          }
+        },
+        {
+          "id": "id5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that says what identification reports.",
+          "tokens": [
+            { "id": "t1", "text": "Identification states" },
+            { "id": "t2", "text": "what a thing" },
+            { "id": "t3", "text": "is" },
+            { "id": "d1", "text": "what a crowd" },
+            { "id": "d2", "text": "prefers" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The report is about the thing, not about a preference standing in for the thing."
+          }
+        },
+        {
+          "id": "id6",
+          "type": "choice",
+          "prompt": "You want the road to be dry, and it is wet. What does logic require you to identify?",
+          "answer": "wet",
+          "choices": [
+            { "id": "wet", "text": "The road is wet" },
+            { "id": "dry", "text": "The road is dry, because you need it to be" },
+            { "id": "either", "text": "Either answer, since both are identifications of a sort" },
+            { "id": "none", "text": "Nothing, until the wish changes" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Need does not alter the fact. Logic identifies the wet road."
+          }
+        },
+        {
+          "id": "id7",
+          "type": "choice",
+          "prompt": "Which mistake treats logic as something other than identification?",
+          "answer": "create",
+          "choices": [
+            { "id": "create", "text": "Using a conclusion to create the facts it was supposed to name" },
+            { "id": "look", "text": "Looking again when two reports clash" },
+            { "id": "name", "text": "Naming a thing by the characteristics it has" },
+            { "id": "drop", "text": "Dropping a claim that contradicts a known fact" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Identification follows the facts. It does not issue the facts so that a preferred claim can stay."
+          }
+        },
+        {
+          "id": "id8",
+          "type": "match",
+          "prompt": "Match each case to the right description.",
+          "pairs": [
+            { "id": "p1", "left": "The metal is cold to the touch", "right": "An identification of a fact" },
+            { "id": "p2", "left": "Calling the metal warm because you hoped it was", "right": "A wish in place of identification" },
+            { "id": "p3", "left": "Saying the metal is both cold and not cold in the same respect", "right": "A contradiction, not an identification" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the first item names what is. The second substitutes a wish. The third cancels the naming."
+          }
+        },
+        {
+          "id": "id9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the rule for this lesson.",
+          "tokens": [
+            { "id": "t1", "text": "Logic names" },
+            { "id": "t2", "text": "the facts" },
+            { "id": "t3", "text": "that are there" },
+            { "id": "d1", "text": "the facts" },
+            { "id": "d2", "text": "you invent" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If the content is invented, the step was not identification, and it was not logic."
+          }
+        }
+      ]
+    },
+    {
+      "id": "same-respect",
+      "title": "Not both at once",
+      "objective": "Apply non-contradiction: the same thing cannot be two incompatible things at the same time and in the same respect.",
+      "exercises": [
+        {
+          "id": "sr1",
+          "type": "choice",
+          "prompt": "When is a pair of claims a contradiction?",
+          "answer": "same",
+          "choices": [
+            { "id": "same", "text": "They deny each other about the same thing, at the same time, in the same respect" },
+            { "id": "later", "text": "They describe the same thing at two different times" },
+            { "id": "parts", "text": "They describe two different parts of one thing" },
+            { "id": "words", "text": "They use different words for the same fact" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Difference of time, part, or wording is not a contradiction. A contradiction is the same subject said to be and not be, in one respect at one time."
+          }
+        },
+        {
+          "id": "sr2",
+          "type": "choice",
+          "prompt": "A leaf cannot be all red and all green at the same time. Why does logic reject that?",
+          "answer": "one",
+          "choices": [
+            { "id": "one", "text": "Those are incompatible identifications of the whole leaf at one time" },
+            { "id": "taste", "text": "Red and green are unpopular colors together" },
+            { "id": "rule", "text": "Color words are too ordinary to use in logic" },
+            { "id": "maybe", "text": "A leaf has no identity, so any color claim fails for that reason" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "All red and all green cannot both be the identity of that leaf at that time. Logic will not accept both."
+          }
+        },
+        {
+          "id": "sr3",
+          "type": "match",
+          "prompt": "Match each pair to its status.",
+          "pairs": [
+            { "id": "p1", "left": "The page is all blank and all covered in ink now", "right": "Contradiction" },
+            { "id": "p2", "left": "The page was blank yesterday and has ink today", "right": "Not a contradiction: different times" },
+            { "id": "p3", "left": "The top of the page is blank and the bottom has ink", "right": "Not a contradiction: different parts" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Non-contradiction concerns one subject in one respect at one time. Change and difference of part are still identifications."
+          }
+        },
+        {
+          "id": "sr4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rule of non-contradiction used here.",
+          "parts": [
+            { "type": "text", "text": "A thing cannot be and not be, at the same time and in the same " },
+            { "type": "blank", "id": "b1", "answer": "respect" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["respect", "language", "mood", "century"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The limit is same time and same respect. A later change, or another respect, is a new identification, not a contradiction."
+          }
+        },
+        {
+          "id": "sr5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that rejects the double claim about the leaf.",
+          "tokens": [
+            { "id": "t1", "text": "The leaf cannot be" },
+            { "id": "t2", "text": "all red and all green" },
+            { "id": "t3", "text": "at the same time" },
+            { "id": "d1", "text": "on two different days" },
+            { "id": "d2", "text": "if you prefer" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The clash is about one time. A leaf that is red one day and green later is a change, not this contradiction."
+          }
+        },
+        {
+          "id": "sr6",
+          "type": "choice",
+          "prompt": "You cannot have your cake and eat it too. What does that example mark?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "Two incompatible identifications of the same cake at the same time" },
+            { "id": "diet", "text": "A rule about how much dessert is polite" },
+            { "id": "cook", "text": "A recipe that failed" },
+            { "id": "later", "text": "A cake eaten today and another baked tomorrow" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Eaten and still there, as the same cake at the same time, cannot both be identified. That is the contradiction the saying marks."
+          }
+        },
+        {
+          "id": "sr7",
+          "type": "choice",
+          "prompt": "A stone is solid in the morning and broken in the afternoon. Is that a contradiction?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. The identifications are of different times" },
+            { "id": "yes", "text": "Yes. A thing may never change and still be itself" },
+            { "id": "only", "text": "Yes, but only if someone is disappointed by the change" },
+            { "id": "words", "text": "Yes, because two words were used" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Change across time is not a contradiction. The contradiction would be solid and broken in the same respect at the same time."
+          }
+        },
+        {
+          "id": "sr8",
+          "type": "match",
+          "prompt": "Match each incompatible pair to the thing it cannot be at once.",
+          "pairs": [
+            { "id": "p1", "left": "All red and all green", "right": "The same leaf at one time" },
+            { "id": "p2", "left": "A stone and a leaf", "right": "The same object at one time" },
+            { "id": "p3", "left": "Eaten and still uneaten", "right": "The same cake at one time" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each pair would cancel the identity of one subject. Logic does not identify a thing as both."
+          }
+        },
+        {
+          "id": "sr9",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two limits that keep a difference from being a contradiction.",
+          "parts": [
+            { "type": "text", "text": "Check the same time and the same " },
+            { "type": "blank", "id": "b1", "answer": "respect" },
+            { "type": "text", "text": " before you call two claims a " },
+            { "type": "blank", "id": "b2", "answer": "contradiction" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["respect", "contradiction", "opinion", "style"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Without those two limits, ordinary change and ordinary difference get mislabeled as contradictions."
+          }
+        }
+      ]
+    },
+    {
+      "id": "error-in-thinking",
+      "title": "The error is in the thinking",
+      "objective": "Treat a contradiction as a confession that your thinking went wrong, not as a discovery that reality contradicts itself.",
+      "exercises": [
+        {
+          "id": "er1",
+          "type": "choice",
+          "prompt": "You reach a contradiction. What has gone wrong?",
+          "answer": "think",
+          "choices": [
+            { "id": "think", "text": "An error in your thinking" },
+            { "id": "world", "text": "Reality, which sometimes contradicts itself" },
+            { "id": "words", "text": "Language, which cannot identify anything" },
+            { "id": "facts", "text": "The facts, which should be edited to fit the contradiction" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Arriving at a contradiction confesses an error in thinking. It does not show that the facts contradict themselves."
+          }
+        },
+        {
+          "id": "er2",
+          "type": "choice",
+          "prompt": "Two of your claims cannot both be true. What should you do first?",
+          "answer": "find",
+          "choices": [
+            { "id": "find", "text": "Find which identification is the error" },
+            { "id": "keep", "text": "Keep both and call the clash a deeper truth" },
+            { "id": "blame", "text": "Blame reality for failing to match both claims" },
+            { "id": "stop", "text": "Decide that identification is impossible" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The contradiction is a signal to correct the thinking. It is not a new kind of fact and not a reason to give up identifying."
+          }
+        },
+        {
+          "id": "er3",
+          "type": "match",
+          "prompt": "Match each response to a contradiction with what it does.",
+          "pairs": [
+            { "id": "p1", "left": "Look for the mistaken identification", "right": "Treats the contradiction as an error in thinking" },
+            { "id": "p2", "left": "Say reality itself is contradictory", "right": "Misplaces the error" },
+            { "id": "p3", "left": "Keep both claims on purpose", "right": "Refuses to correct the error" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Logic locates the error in the thinking that produced the clash, then corrects that thinking."
+          }
+        },
+        {
+          "id": "er4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the lesson rule.",
+          "parts": [
+            { "type": "text", "text": "A contradiction you reach is an error in your " },
+            { "type": "blank", "id": "b1", "answer": "thinking" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["thinking", "world", "senses", "wishes"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The confession is about thinking. The world is not the thing that failed when your claims clash."
+          }
+        },
+        {
+          "id": "er5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that places the error.",
+          "tokens": [
+            { "id": "t1", "text": "A contradiction" },
+            { "id": "t2", "text": "shows an error" },
+            { "id": "t3", "text": "in your thinking" },
+            { "id": "d1", "text": "in reality" },
+            { "id": "d2", "text": "as a new fact" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The clash is evidence against the chain of identifications, not evidence that existence contradicts itself."
+          }
+        },
+        {
+          "id": "er6",
+          "type": "choice",
+          "prompt": "Your notes say the bridge is open and that the same bridge is closed now, in the same respect. What follows?",
+          "answer": "err",
+          "choices": [
+            { "id": "err", "text": "At least one of those identifications is wrong" },
+            { "id": "both", "text": "Both identifications are true because you wrote both" },
+            { "id": "bridge", "text": "The bridge has no identity until the notes agree" },
+            { "id": "logic", "text": "Logic requires you to accept the clash as final" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Open and closed, same bridge, same time, same respect, cannot both stand. One identification has to be the error."
+          }
+        },
+        {
+          "id": "er7",
+          "type": "choice",
+          "prompt": "Why is it a mistake to edit the facts so that a contradiction can remain?",
+          "answer": "job",
+          "choices": [
+            { "id": "job", "text": "Logic identifies the facts; it does not rewrite them to protect a clash" },
+            { "id": "hard", "text": "Editing facts is fine, but only if the wording stays long" },
+            { "id": "slow", "text": "The only problem is that editing takes time" },
+            { "id": "rare", "text": "Contradictions are too rare to bother checking" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Changing the report of the facts to save both sides of a contradiction abandons identification."
+          }
+        },
+        {
+          "id": "er8",
+          "type": "match",
+          "prompt": "Match each discovery to the proper next step.",
+          "pairs": [
+            { "id": "p1", "left": "Two claims contradict", "right": "Hunt for the mistaken identification" },
+            { "id": "p2", "left": "A later check removes the clash", "right": "The error in thinking has been corrected" },
+            { "id": "p3", "left": "Someone calls the clash a fact about reality", "right": "That call misplaces the error" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The proper next step is correction of the thinking. A contradiction is not left in place and renamed as reality."
+          }
+        },
+        {
+          "id": "er9",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the contrast.",
+          "parts": [
+            { "type": "text", "text": "The contradiction is an error in " },
+            { "type": "blank", "id": "b1", "answer": "thinking" },
+            { "type": "text", "text": ", not a feature of " },
+            { "type": "blank", "id": "b2", "answer": "reality" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["thinking", "reality", "style", "fashion"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reality is what identification has to match. When identifications clash, the thinking is what must change."
+          }
+        }
+      ]
+    },
+    {
+      "id": "drop-the-clash",
+      "title": "Do not keep the clash",
+      "objective": "Distinguish finding a contradiction, which exposes an error, from maintaining it, which gives up the mind's hold on the facts.",
+      "exercises": [
+        {
+          "id": "dr1",
+          "type": "choice",
+          "prompt": "What is the difference between arriving at a contradiction and maintaining one?",
+          "answer": "keep",
+          "choices": [
+            { "id": "keep", "text": "Arriving exposes an error; maintaining keeps the error in place" },
+            { "id": "same", "text": "They are the same act, and both are the goal of logic" },
+            { "id": "better", "text": "Maintaining is better because it shows you can hold two ideas" },
+            { "id": "world", "text": "Arriving blames the world, and maintaining corrects it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Finding the clash is the confession of an error. Keeping the clash is refusing to correct it."
+          }
+        },
+        {
+          "id": "dr2",
+          "type": "choice",
+          "prompt": "Someone says both claims must stand even though they contradict. What has that person done with logic?",
+          "answer": "left",
+          "choices": [
+            { "id": "left", "text": "Left the art of non-contradictory identification" },
+            { "id": "used", "text": "Used logic in its strictest form" },
+            { "id": "finished", "text": "Finished the identification and stopped, correctly" },
+            { "id": "proved", "text": "Proved that the facts contradict themselves" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "To maintain a contradiction is to stop identifying without contradiction. That is an exit from logic, not a use of it."
+          }
+        },
+        {
+          "id": "dr3",
+          "type": "match",
+          "prompt": "Match each choice to its result.",
+          "pairs": [
+            { "id": "p1", "left": "Drop the claim that caused the clash", "right": "Return to non-contradictory identification" },
+            { "id": "p2", "left": "Keep both contradictory claims", "right": "Maintain the error" },
+            { "id": "p3", "left": "Notice the clash and recheck the facts", "right": "Use the contradiction as a warning" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The warning is useful only if you then drop the error. Keeping both claims throws the warning away."
+          }
+        },
+        {
+          "id": "dr4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast.",
+          "parts": [
+            { "type": "text", "text": "Arrive at a contradiction and you confess an error; " },
+            { "type": "blank", "id": "b1", "answer": "maintain" },
+            { "type": "text", "text": " it and you refuse to correct that error." }
+          ],
+          "bank": ["maintain", "forget", "publish", "rename"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Maintaining is the further step: the error is known, and it is kept anyway."
+          }
+        },
+        {
+          "id": "dr5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that says what maintaining a contradiction does.",
+          "tokens": [
+            { "id": "t1", "text": "Maintaining a contradiction" },
+            { "id": "t2", "text": "abandons" },
+            { "id": "t3", "text": "non-contradictory identification" },
+            { "id": "d1", "text": "perfects" },
+            { "id": "d2", "text": "a deeper truth" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "There is no deeper truth in holding both sides. The hold itself is the failure of the art."
+          }
+        },
+        {
+          "id": "dr6",
+          "type": "choice",
+          "prompt": "You discover that your conclusion contradicts a fact you already identified. Which step stays inside logic?",
+          "answer": "fix",
+          "choices": [
+            { "id": "fix", "text": "Give up the conclusion or correct the earlier identification, whichever the facts require" },
+            { "id": "both", "text": "Announce that both will be kept as a special case" },
+            { "id": "fact", "text": "Erase the fact so the conclusion can stay" },
+            { "id": "name", "text": "Rename the clash so it no longer counts as a contradiction" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Logic keeps the identifications that match the facts and drops the one that contradicts them. Renaming the clash does not remove it."
+          }
+        },
+        {
+          "id": "dr7",
+          "type": "choice",
+          "prompt": "Why does keeping a known contradiction cut you off from the facts?",
+          "answer": "id",
+          "choices": [
+            { "id": "id", "text": "You are no longer identifying one thing as what it is" },
+            { "id": "tone", "text": "The wording sounds less confident" },
+            { "id": "time", "text": "Checking takes longer than asserting" },
+            { "id": "other", "text": "Other people may disagree with your style" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If both of two incompatible identifications stand, you have stopped saying what the thing is. Contact with that fact is what you give up."
+          }
+        },
+        {
+          "id": "dr8",
+          "type": "match",
+          "prompt": "Match each stage to the right name.",
+          "pairs": [
+            { "id": "p1", "left": "You first notice that two claims clash", "right": "Arriving at a contradiction" },
+            { "id": "p2", "left": "You insist on both claims after you know they clash", "right": "Maintaining a contradiction" },
+            { "id": "p3", "left": "You withdraw the claim that does not fit the facts", "right": "Restoring non-contradictory identification" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The three stages are not the same act. Only the third returns you to the art."
+          }
+        },
+        {
+          "id": "dr9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the closing rule of the unit.",
+          "tokens": [
+            { "id": "t1", "text": "Logic identifies" },
+            { "id": "t2", "text": "without keeping" },
+            { "id": "t3", "text": "a contradiction" },
+            { "id": "d1", "text": "by keeping" },
+            { "id": "d2", "text": "every wish" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That is the whole art in this unit: identify what is, and do not maintain a contradiction."
+          }
+        },
+        {
+          "id": "dr10",
+          "type": "choice",
+          "prompt": "Which summary fits this unit and no wider topic?",
+          "answer": "art",
+          "choices": [
+            { "id": "art", "text": "Logic is the art of non-contradictory identification" },
+            { "id": "senses", "text": "Logic is a replacement for the senses" },
+            { "id": "vote", "text": "Logic is a count of how many people agree" },
+            { "id": "mood", "text": "Logic is the mood that follows a conclusion" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit is that art: identify, refuse the contradiction, and do not keep the clash once you see it."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

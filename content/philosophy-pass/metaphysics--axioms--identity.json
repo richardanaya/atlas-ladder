@@ -1,0 +1,317 @@
+{
+  "sectionFile": "metaphysics.json",
+  "key": "axioms/identity",
+  "exercises": [
+    {
+      "id": "m3e1",
+      "type": "choice",
+      "prompt": "On Rand’s statement, to exist is to what?",
+      "answer": "some",
+      "feedback": {
+        "kind": "quote",
+        "quote": "To exist is to be something, as distinguished from the nothing of nonexistence, it is to be an entity of a specific nature made of specific attributes.",
+        "note": "Existence and identity are not two layers, a bare “that” plus a later “what.”",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+      },
+      "choices": [
+        {
+          "id": "some",
+          "text": "Be something, of a specific nature"
+        },
+        {
+          "id": "any",
+          "text": "Be anything one wishes"
+        },
+        {
+          "id": "void",
+          "text": "Be a formless void"
+        },
+        {
+          "id": "thot",
+          "text": "Be only a thought"
+        }
+      ]
+    },
+    {
+      "id": "m3e2",
+      "type": "fill",
+      "mode": "blanks",
+      "prompt": "Complete the formula.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "A is "
+        },
+        {
+          "type": "blank",
+          "id": "b1",
+          "answer": "A"
+        }
+      ],
+      "bank": [
+        "A",
+        "B",
+        "not-A",
+        "whatever"
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "A is A. A thing is itself.",
+        "note": "The second sentence is her plain restatement of the same formula.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 125"
+      }
+    },
+    {
+      "id": "m3e3",
+      "type": "choice",
+      "prompt": "What does “A is A” state about anything that exists?",
+      "answer": "self",
+      "feedback": {
+        "kind": "quote",
+        "quote": "A is A. A thing is itself.",
+        "note": "Identity is not a label added later. To be is already to be this thing and not some other.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 125"
+      },
+      "choices": [
+        {
+          "id": "self",
+          "text": "A thing is itself"
+        },
+        {
+          "id": "name",
+          "text": "A thing is whatever a speaker calls it"
+        },
+        {
+          "id": "opp",
+          "text": "A thing is also its opposite, in the same respect"
+        },
+        {
+          "id": "void",
+          "text": "A thing exists without being anything"
+        }
+      ]
+    },
+    {
+      "id": "m3e4",
+      "type": "choice",
+      "prompt": "Which situation does she use to state the law of identity?",
+      "answer": "leaf",
+      "feedback": {
+        "kind": "quote",
+        "quote": "A leaf cannot be a stone at the same time, it cannot be all red and all green at the same time, it cannot freeze and burn at the same time.",
+        "note": "The law rules out being and not-being in the same respect at the same time. Change across time is a different fact. She discusses change elsewhere. This question uses only the leaf sentence.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 125"
+      },
+      "choices": [
+        {
+          "id": "leaf",
+          "text": "A leaf cannot be a stone at the same time"
+        },
+        {
+          "id": "grow",
+          "text": "A leaf cannot change color over a season"
+        },
+        {
+          "id": "side",
+          "text": "A leaf cannot be green on one side"
+        },
+        {
+          "id": "two",
+          "text": "There cannot be two leaves"
+        }
+      ]
+    },
+    {
+      "id": "m3e5",
+      "type": "match",
+      "prompt": "Match the line to the role she gives it.",
+      "feedback": {
+        "kind": "quote",
+        "quote": "You cannot have your cake and eat it, too.",
+        "note": "In Galt’s speech that sentence is the simpler statement of identity. Do not confuse it with the one-foot line for epistemology in the 1962 essay, which reverses the word order: eat your cake and have it. Both wordings are quoted in the sources list.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 125"
+      },
+      "pairs": [
+        {
+          "id": "aa",
+          "left": "A is A",
+          "right": "The law of identity"
+        },
+        {
+          "id": "ei",
+          "left": "Existence is Identity",
+          "right": "Her completion of A is A"
+        },
+        {
+          "id": "th",
+          "left": "A thing is itself",
+          "right": "The plain restatement"
+        },
+        {
+          "id": "ck",
+          "left": "You cannot have your cake and eat it, too",
+          "right": "Her simpler wording in Galt’s speech"
+        }
+      ]
+    },
+    {
+      "id": "m3e6",
+      "type": "choice",
+      "prompt": "“Existence is Identity” means which of these?",
+      "answer": "is",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Existence is Identity, Consciousness is Identification.",
+        "note": "The second half names consciousness as the act of identifying, not as the maker of identity.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+      },
+      "choices": [
+        {
+          "id": "is",
+          "text": "To be is to be something specific"
+        },
+        {
+          "id": "feel",
+          "text": "Existence is a feeling about identity"
+        },
+        {
+          "id": "lang",
+          "text": "Identity is invented by language, and existence is not"
+        },
+        {
+          "id": "mind",
+          "text": "Only minds have identity"
+        }
+      ]
+    },
+    {
+      "id": "m3e7",
+      "type": "fill",
+      "mode": "sentence",
+      "prompt": "Build the completion of the formula.",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Existence"
+        },
+        {
+          "id": "t2",
+          "text": "is"
+        },
+        {
+          "id": "t3",
+          "text": "Identity"
+        },
+        {
+          "id": "d1",
+          "text": "Wish"
+        },
+        {
+          "id": "d2",
+          "text": "Society"
+        }
+      ],
+      "answer": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "Existence is Identity, Consciousness is Identification.",
+        "note": "This floor stops at the first half. Consciousness is the next floor.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+      }
+    },
+    {
+      "id": "m3e8",
+      "type": "choice",
+      "prompt": "When your thinking arrives at a contradiction, where is the error?",
+      "answer": "err",
+      "feedback": {
+        "kind": "quote",
+        "quote": "To arrive at a contradiction is to confess an error in one's thinking; to maintain a contradiction is to abdicate one's mind and to evict oneself from the realm of reality.",
+        "note": "The error the sentence names is in one’s thinking. Maintaining it, she says in the same breath, throws you out of reality. Reality is not what contains the break.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 125"
+      },
+      "choices": [
+        {
+          "id": "err",
+          "text": "Reality contains no contradictions. A contradiction is an error in thinking."
+        },
+        {
+          "id": "real",
+          "text": "Contradictions are real features of nature"
+        },
+        {
+          "id": "game",
+          "text": "Logic is a game unrelated to facts"
+        },
+        {
+          "id": "both",
+          "text": "Some entities both are and are not, in the same respect"
+        }
+      ]
+    },
+    {
+      "id": "m3e9",
+      "type": "choice",
+      "prompt": "In Introduction to Objectivist Epistemology, identity is described as what?",
+      "answer": "cor",
+      "feedback": {
+        "kind": "quote",
+        "quote": "The first and primary axiomatic concepts are \"existence,\" \"identity\" (which is a corollary of \"existence\") and \"consciousness.\"",
+        "note": "A corollary here means a restatement of the same primary fact, not a later discovery.",
+        "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+      },
+      "choices": [
+        {
+          "id": "cor",
+          "text": "A corollary of existence"
+        },
+        {
+          "id": "uni",
+          "text": "A separate universe"
+        },
+        {
+          "id": "opt",
+          "text": "An optional assumption"
+        },
+        {
+          "id": "pol",
+          "text": "A political slogan"
+        }
+      ]
+    },
+    {
+      "id": "m3e10",
+      "type": "choice",
+      "prompt": "For one cake, what does the law of identity rule out?",
+      "answer": "both",
+      "feedback": {
+        "kind": "quote",
+        "quote": "You cannot have your cake and eat it, too.",
+        "note": "Having the cake and having eaten it cannot both be true of the same cake at once. The clash is in the claim, not in the cake.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 125"
+      },
+      "choices": [
+        {
+          "id": "both",
+          "text": "That you still have it and have already eaten it"
+        },
+        {
+          "id": "later",
+          "text": "That you might eat it at a later time"
+        },
+        {
+          "id": "share",
+          "text": "That two people can see the same cake"
+        },
+        {
+          "id": "bake",
+          "text": "That a cake is something of a specific nature"
+        }
+      ]
+    }
+  ]
+}

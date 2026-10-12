@@ -1,0 +1,1263 @@
+{
+  "sectionId": "aesthetics",
+  "sectionFile": "aesthetics.json",
+  "unitId": "sense-of-life",
+  "title": "Sense of Life",
+  "summary": "A sense of life as a pre-conceptual, emotional appraisal of man and of existence.",
+  "lessons": [
+    {
+      "id": "what-it-names",
+      "title": "What the phrase names",
+      "objective": "Name a sense of life as a pre-conceptual, emotional appraisal, and reject the usual substitutes.",
+      "exercises": [
+        {
+          "id": "sol1e1",
+          "type": "choice",
+          "prompt": "What is a sense of life?",
+          "answer": "app",
+          "choices": [
+            {
+              "id": "app",
+              "text": "A pre-conceptual, emotional appraisal of man and of existence"
+            },
+            {
+              "id": "sys",
+              "text": "A finished system of explicit philosophy"
+            },
+            {
+              "id": "prf",
+              "text": "A proof that discovers facts by feeling"
+            },
+            {
+              "id": "mood",
+              "text": "A passing mood about one event"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit names one thing: a sense of life is a pre-conceptual, emotional appraisal of man and of existence."
+          }
+        },
+        {
+          "id": "sol1e2",
+          "type": "match",
+          "prompt": "Match each part of the definition to what it stresses.",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Pre-conceptual",
+              "right": "Held before an explicit philosophy"
+            },
+            {
+              "id": "p2",
+              "left": "Emotional",
+              "right": "Felt as an appraisal, not argued as a proof"
+            },
+            {
+              "id": "p3",
+              "left": "Appraisal",
+              "right": "A judgment, not a blank reaction"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each word does a job. The appraisal comes before a stated philosophy, it is felt, and it judges."
+          }
+        },
+        {
+          "id": "sol1e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the definition.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "A sense of life is a pre-conceptual, emotional "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "appraisal"
+            },
+            {
+              "type": "text",
+              "text": " of man and of existence."
+            }
+          ],
+          "bank": [
+            "appraisal",
+            "proof",
+            "whim",
+            "census"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The noun in the definition is appraisal. A sense of life judges; it does not prove, tally, or drift."
+          }
+        },
+        {
+          "id": "sol1e4",
+          "type": "choice",
+          "prompt": "Which word says the appraisal is felt rather than argued?",
+          "answer": "emo",
+          "choices": [
+            {
+              "id": "emo",
+              "text": "Emotional"
+            },
+            {
+              "id": "pre",
+              "text": "Pre-conceptual"
+            },
+            {
+              "id": "man",
+              "text": "Of man"
+            },
+            {
+              "id": "ex",
+              "text": "Of existence"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Emotional names the form of the appraisal. The other phrases name its timing or its objects."
+          }
+        },
+        {
+          "id": "sol1e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the definition in order.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "A sense of life"
+            },
+            {
+              "id": "t2",
+              "text": "is"
+            },
+            {
+              "id": "t3",
+              "text": "a pre-conceptual"
+            },
+            {
+              "id": "t4",
+              "text": "emotional appraisal"
+            },
+            {
+              "id": "t5",
+              "text": "of man and of existence"
+            },
+            {
+              "id": "d1",
+              "text": "a laboratory result"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t5"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the whole phrase together. A sense of life is not a laboratory result standing in for that appraisal."
+          }
+        },
+        {
+          "id": "sol1e6",
+          "type": "choice",
+          "prompt": "Which sentence stays inside this unit?",
+          "answer": "in",
+          "choices": [
+            {
+              "id": "in",
+              "text": "A sense of life is how one emotionally appraises man and existence before stating a philosophy."
+            },
+            {
+              "id": "sci",
+              "text": "A sense of life is a scientific instrument."
+            },
+            {
+              "id": "party",
+              "text": "A sense of life is a political party."
+            },
+            {
+              "id": "furn",
+              "text": "A sense of life is only a taste in furniture."
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Stay with the definition. Instruments, parties, and furniture tastes are different subjects."
+          }
+        },
+        {
+          "id": "sol1e7",
+          "type": "match",
+          "prompt": "Match each substitute to why it misses the definition.",
+          "pairs": [
+            {
+              "id": "m1",
+              "left": "A finished philosophy",
+              "right": "That is conceptual, not pre-conceptual"
+            },
+            {
+              "id": "m2",
+              "left": "A proof by feeling",
+              "right": "Feeling does not discover facts"
+            },
+            {
+              "id": "m3",
+              "left": "A mood about one event",
+              "right": "Too narrow to be an appraisal of man and existence"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A sense of life is earlier than a stated philosophy, emotional rather than a proof, and aimed at man and existence rather than one incident."
+          }
+        },
+        {
+          "id": "sol1e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the two traits of the appraisal.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "The appraisal is "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "pre-conceptual"
+            },
+            {
+              "type": "text",
+              "text": " and "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "emotional"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "pre-conceptual",
+            "emotional",
+            "innate",
+            "statistical"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two traits are pre-conceptual and emotional. The definition does not call a sense of life innate or statistical."
+          }
+        }
+      ]
+    },
+    {
+      "id": "appraisal-of-man",
+      "title": "An appraisal of man",
+      "objective": "Identify man as one object of the appraisal: what kind of being one takes a human being to be.",
+      "exercises": [
+        {
+          "id": "sol2e1",
+          "type": "choice",
+          "prompt": "One object of a sense of life is man. What does that object cover?",
+          "answer": "kind",
+          "choices": [
+            {
+              "id": "kind",
+              "text": "What kind of being one takes a human being to be"
+            },
+            {
+              "id": "bus",
+              "text": "Whether one bus was late today"
+            },
+            {
+              "id": "paint",
+              "text": "Which color one prefers on a wall"
+            },
+            {
+              "id": "tax",
+              "text": "Which tax rate was passed this year"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Appraising man means an emotional estimate of human beings as such, not a reaction to one errand, color, or statute."
+          }
+        },
+        {
+          "id": "sol2e2",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the question an appraisal of man asks.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "What"
+            },
+            {
+              "id": "t2",
+              "text": "kind of being"
+            },
+            {
+              "id": "t3",
+              "text": "is a human being"
+            },
+            {
+              "id": "d1",
+              "text": "which chair is wooden"
+            },
+            {
+              "id": "d2",
+              "text": "how late was the bus"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The object man raises a question about the kind of being a human is. A chair or a late bus is not that question."
+          }
+        },
+        {
+          "id": "sol2e3",
+          "type": "match",
+          "prompt": "Match each item to its role.",
+          "pairs": [
+            {
+              "id": "a",
+              "left": "Man",
+              "right": "One object of a sense of life"
+            },
+            {
+              "id": "b",
+              "left": "What a human is",
+              "right": "The question that object raises"
+            },
+            {
+              "id": "c",
+              "left": "A single irritation",
+              "right": "Not what man means here"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Man, in this definition, is the human being as such. One irritation does not stand in for that appraisal."
+          }
+        },
+        {
+          "id": "sol2e4",
+          "type": "choice",
+          "prompt": "Which line is an appraisal of man?",
+          "answer": "can",
+          "choices": [
+            {
+              "id": "can",
+              "text": "People are the kind of beings who can choose and achieve."
+            },
+            {
+              "id": "annoy",
+              "text": "I am annoyed that the bus was late."
+            },
+            {
+              "id": "sky",
+              "text": "The sky looks blue this afternoon."
+            },
+            {
+              "id": "wood",
+              "text": "This chair is made of wood."
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An appraisal of man estimates the kind of being a person is. Weather, wood, and one delay are not that estimate."
+          }
+        },
+        {
+          "id": "sol2e5",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill in the object.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "A sense of life includes an emotional appraisal of "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "man"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "man",
+            "furniture",
+            "weather",
+            "ballots"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The definition names man as an object. Furniture, weather, and ballots are outside that object."
+          }
+        },
+        {
+          "id": "sol2e6",
+          "type": "choice",
+          "prompt": "A harsh appraisal of man would be an emotional estimate that human beings are, by nature,",
+          "answer": "help",
+          "choices": [
+            {
+              "id": "help",
+              "text": "Helpless or corrupt"
+            },
+            {
+              "id": "late",
+              "text": "Five minutes late to one meeting"
+            },
+            {
+              "id": "tall",
+              "text": "Taller than a doorway"
+            },
+            {
+              "id": "paid",
+              "text": "Paid in a particular currency"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An appraisal of man judges the kind of being people are. Height, pay, and one delay are not that judgment."
+          }
+        },
+        {
+          "id": "sol2e7",
+          "type": "match",
+          "prompt": "Match each emotional estimate of man to the view it expresses.",
+          "pairs": [
+            {
+              "id": "a",
+              "left": "People can be efficacious and worthy",
+              "right": "A respectful appraisal of man"
+            },
+            {
+              "id": "b",
+              "left": "People are corrupt or helpless by nature",
+              "right": "A contemptuous appraisal of man"
+            },
+            {
+              "id": "c",
+              "left": "I dislike this one delay",
+              "right": "Not an appraisal of man"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Opposite appraisals of man still appraise man. A dislike of one delay does not."
+          }
+        },
+        {
+          "id": "sol2e8",
+          "type": "choice",
+          "prompt": "If a definition of sense of life dropped man, what would be lost?",
+          "answer": "half",
+          "choices": [
+            {
+              "id": "half",
+              "text": "One of the two objects the appraisal is about"
+            },
+            {
+              "id": "proof",
+              "text": "Its power to prove facts"
+            },
+            {
+              "id": "done",
+              "text": "Nothing, because the definition would then be complete"
+            },
+            {
+              "id": "course",
+              "text": "Its status as a full philosophy course"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Man is one of the two objects. Dropping it leaves the appraisal incomplete. It never was a proof or a course."
+          }
+        }
+      ]
+    },
+    {
+      "id": "appraisal-of-existence",
+      "title": "An appraisal of existence",
+      "objective": "Identify existence as the other object: an emotional estimate of the world a human being faces.",
+      "exercises": [
+        {
+          "id": "sol3e1",
+          "type": "match",
+          "prompt": "Match each object to the question it raises.",
+          "pairs": [
+            {
+              "id": "a",
+              "left": "Man",
+              "right": "What kind of being a human is"
+            },
+            {
+              "id": "b",
+              "left": "Existence",
+              "right": "What the world is like for a human being"
+            },
+            {
+              "id": "c",
+              "left": "Both together",
+              "right": "The full object of a sense of life"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A sense of life appraises man and existence together. Each object asks its own question."
+          }
+        },
+        {
+          "id": "sol3e2",
+          "type": "choice",
+          "prompt": "Besides man, what does a sense of life appraise?",
+          "answer": "ex",
+          "choices": [
+            {
+              "id": "ex",
+              "text": "Existence"
+            },
+            {
+              "id": "menu",
+              "text": "Today’s menu"
+            },
+            {
+              "id": "score",
+              "text": "One game’s score"
+            },
+            {
+              "id": "price",
+              "text": "The price of one ticket"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The second object is existence, the world as such, not a menu, a score, or a ticket price."
+          }
+        },
+        {
+          "id": "sol3e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the pair of objects.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "A sense of life is an emotional appraisal of man and of "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "existence"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "existence",
+            "headlines",
+            "fashions",
+            "schedules"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The pair is man and existence. Headlines, fashions, and schedules are not the second object."
+          }
+        },
+        {
+          "id": "sol3e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build what an appraisal of existence estimates.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "What"
+            },
+            {
+              "id": "t2",
+              "text": "the world"
+            },
+            {
+              "id": "t3",
+              "text": "is like"
+            },
+            {
+              "id": "t4",
+              "text": "for a human being"
+            },
+            {
+              "id": "d1",
+              "text": "tomorrow’s forecast only"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Existence here means the world a human being faces, not one day’s forecast standing alone."
+          }
+        },
+        {
+          "id": "sol3e5",
+          "type": "choice",
+          "prompt": "Which line appraises existence rather than one event?",
+          "answer": "open",
+          "choices": [
+            {
+              "id": "open",
+              "text": "The world is the kind of place in which a human being can live and succeed."
+            },
+            {
+              "id": "rain",
+              "text": "It is raining on this street right now."
+            },
+            {
+              "id": "late",
+              "text": "The train was late once."
+            },
+            {
+              "id": "cup",
+              "text": "This cup is empty."
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An appraisal of existence estimates the world as such. Rain, a delay, and an empty cup are single facts, not that estimate."
+          }
+        },
+        {
+          "id": "sol3e6",
+          "type": "match",
+          "prompt": "Match each item to the scale it belongs to.",
+          "pairs": [
+            {
+              "id": "a",
+              "left": "A thunderstorm this afternoon",
+              "right": "One event"
+            },
+            {
+              "id": "b",
+              "left": "Existence",
+              "right": "The world as such"
+            },
+            {
+              "id": "c",
+              "left": "Appraisal",
+              "right": "A judgment about that world"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the scale. Existence is the world as such, and the sense of life is a judgment about it, not a report of one storm."
+          }
+        },
+        {
+          "id": "sol3e7",
+          "type": "choice",
+          "prompt": "A sense of life that appraised only man, and never existence, would be",
+          "answer": "inc",
+          "choices": [
+            {
+              "id": "inc",
+              "text": "Incomplete, because existence is the other object"
+            },
+            {
+              "id": "full",
+              "text": "Complete, because man is the only object"
+            },
+            {
+              "id": "proof",
+              "text": "A proof about the weather"
+            },
+            {
+              "id": "course",
+              "text": "An explicit philosophy course"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The definition names two objects. Leaving out existence leaves the appraisal unfinished."
+          }
+        },
+        {
+          "id": "sol3e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "State both objects.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "The appraisal is of "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "man"
+            },
+            {
+              "type": "text",
+              "text": " and of "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "existence"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "man",
+            "existence",
+            "fashion",
+            "traffic"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Both objects belong in the definition: man and existence. Fashion and traffic do not replace them."
+          }
+        }
+      ]
+    },
+    {
+      "id": "before-philosophy",
+      "title": "Before a stated philosophy",
+      "objective": "Hold that the appraisal is in place before it is translated into explicit ideas, without treating the feeling as a proof.",
+      "exercises": [
+        {
+          "id": "sol4e1",
+          "type": "choice",
+          "prompt": "What does pre-conceptual say about a sense of life?",
+          "answer": "before",
+          "choices": [
+            {
+              "id": "before",
+              "text": "The appraisal is held before it is stated as an explicit philosophy"
+            },
+            {
+              "id": "empty",
+              "text": "The appraisal has no view of man or existence"
+            },
+            {
+              "id": "gene",
+              "text": "The appraisal is inherited as a gene"
+            },
+            {
+              "id": "forever",
+              "text": "The appraisal can never be put into concepts later"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Pre-conceptual means before a stated philosophy. It does not mean empty, genetic, or forever wordless."
+          }
+        },
+        {
+          "id": "sol4e2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Place a sense of life relative to philosophy.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "A sense of life comes "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "before"
+            },
+            {
+              "type": "text",
+              "text": " an explicit philosophy."
+            }
+          ],
+          "bank": [
+            "before",
+            "instead of",
+            "after proving",
+            "without"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The timing word is before. A sense of life is not a substitute for philosophy and it is not itself a proof."
+          }
+        },
+        {
+          "id": "sol4e3",
+          "type": "match",
+          "prompt": "Match each term to its place.",
+          "pairs": [
+            {
+              "id": "a",
+              "left": "Sense of life",
+              "right": "The emotional appraisal, before it is stated"
+            },
+            {
+              "id": "b",
+              "left": "Explicit philosophy",
+              "right": "Ideas stated in concepts"
+            },
+            {
+              "id": "c",
+              "left": "Pre-conceptual",
+              "right": "The word that marks that order"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A sense of life and an explicit philosophy are different forms. Pre-conceptual marks which one comes first."
+          }
+        },
+        {
+          "id": "sol4e4",
+          "type": "choice",
+          "prompt": "Which mistake treats a sense of life as already a philosophy?",
+          "answer": "sys",
+          "choices": [
+            {
+              "id": "sys",
+              "text": "Calling the feeling a finished system of ideas"
+            },
+            {
+              "id": "early",
+              "text": "Saying the appraisal comes before a stated system"
+            },
+            {
+              "id": "both",
+              "text": "Saying it appraises both man and existence"
+            },
+            {
+              "id": "felt",
+              "text": "Saying the appraisal is emotional"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A finished system of ideas is a philosophy. A sense of life is the earlier, emotional appraisal, not that system."
+          }
+        },
+        {
+          "id": "sol4e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the order this unit uses.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "A sense of life"
+            },
+            {
+              "id": "t2",
+              "text": "comes before"
+            },
+            {
+              "id": "t3",
+              "text": "an explicit philosophy"
+            },
+            {
+              "id": "d1",
+              "text": "replaces thinking"
+            },
+            {
+              "id": "d2",
+              "text": "proves the facts"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The order is sense of life, then an explicit philosophy. The feeling does not replace thinking or prove the facts."
+          }
+        },
+        {
+          "id": "sol4e6",
+          "type": "choice",
+          "prompt": "Someone feels that the world is closed against human effort, but has never stated a philosophy. What do they have, on this unit’s terms?",
+          "answer": "sol",
+          "choices": [
+            {
+              "id": "sol",
+              "text": "A sense of life: a pre-conceptual emotional appraisal"
+            },
+            {
+              "id": "course",
+              "text": "A completed philosophy course"
+            },
+            {
+              "id": "proof",
+              "text": "A proof that the world is closed"
+            },
+            {
+              "id": "none",
+              "text": "Nothing, because only stated ideas count"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An unstated emotional estimate of man and existence is already a sense of life. It is not yet a philosophy, and it is not a proof."
+          }
+        },
+        {
+          "id": "sol4e7",
+          "type": "match",
+          "prompt": "Match each claim to the verdict.",
+          "pairs": [
+            {
+              "id": "a",
+              "left": "It is not yet stated in concepts",
+              "right": "That is what pre-conceptual allows"
+            },
+            {
+              "id": "b",
+              "left": "It still judges man and existence",
+              "right": "That is why it is an appraisal"
+            },
+            {
+              "id": "c",
+              "left": "Feeling discovers the facts",
+              "right": "That claim does not belong in this unit"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Pre-conceptual still leaves an appraisal with objects. It does not turn emotion into a way of proving facts."
+          }
+        },
+        {
+          "id": "sol4e8",
+          "type": "choice",
+          "prompt": "Why can a sense of life and a philosophy disagree in a person’s life?",
+          "answer": "forms",
+          "choices": [
+            {
+              "id": "forms",
+              "text": "One is an emotional appraisal and the other is a set of explicit ideas"
+            },
+            {
+              "id": "same",
+              "text": "They are the same thing under two names"
+            },
+            {
+              "id": "facts",
+              "text": "The feeling has already proved which ideas are true"
+            },
+            {
+              "id": "none",
+              "text": "A sense of life has no content that ideas could match"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "They are different forms of appraisal, emotional and conceptual. Sameness, proof, and emptiness are the wrong readings."
+          }
+        }
+      ]
+    },
+    {
+      "id": "emotional-whole",
+      "title": "The emotional whole",
+      "objective": "Assemble the full definition: an emotional appraisal that is pre-conceptual and aimed at both man and existence.",
+      "exercises": [
+        {
+          "id": "sol5e1",
+          "type": "choice",
+          "prompt": "Calling the appraisal emotional means that it is",
+          "answer": "felt",
+          "choices": [
+            {
+              "id": "felt",
+              "text": "Felt as an estimate of man and of existence"
+            },
+            {
+              "id": "infall",
+              "text": "Infallible about the facts"
+            },
+            {
+              "id": "replace",
+              "text": "A replacement for all thinking"
+            },
+            {
+              "id": "empty",
+              "text": "A feeling with no object"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Emotional names how the appraisal is held. It does not make the feeling infallible, a substitute for thought, or objectless."
+          }
+        },
+        {
+          "id": "sol5e2",
+          "type": "match",
+          "prompt": "Match each piece of the full definition.",
+          "pairs": [
+            {
+              "id": "a",
+              "left": "Emotional",
+              "right": "The form of the appraisal"
+            },
+            {
+              "id": "b",
+              "left": "Pre-conceptual",
+              "right": "Before an explicit philosophy"
+            },
+            {
+              "id": "c",
+              "left": "Man and existence",
+              "right": "The two objects"
+            },
+            {
+              "id": "d",
+              "left": "Appraisal",
+              "right": "A judgment, not a blank mood"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The full definition needs form, timing, objects, and the fact that it judges. Leave one out and the phrase is no longer this unit."
+          }
+        },
+        {
+          "id": "sol5e3",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the full definition.",
+          "tokens": [
+            {
+              "id": "t1",
+              "text": "A sense of life"
+            },
+            {
+              "id": "t2",
+              "text": "is a pre-conceptual"
+            },
+            {
+              "id": "t3",
+              "text": "emotional appraisal"
+            },
+            {
+              "id": "t4",
+              "text": "of man and of existence"
+            },
+            {
+              "id": "d1",
+              "text": "and a substitute for thought"
+            }
+          ],
+          "answer": [
+            "t1",
+            "t2",
+            "t3",
+            "t4"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Stop at the definition. A sense of life is not a substitute for thought added onto that sentence."
+          }
+        },
+        {
+          "id": "sol5e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Contrast the emotional appraisal with a proof.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "The appraisal is "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "felt"
+            },
+            {
+              "type": "text",
+              "text": ", not "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "proved"
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ],
+          "bank": [
+            "felt",
+            "proved",
+            "voted",
+            "inherited"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An emotional appraisal is felt. It is not proved, voted into place, or passed down as an inheritance."
+          }
+        },
+        {
+          "id": "sol5e5",
+          "type": "choice",
+          "prompt": "Which of these is a sense of life?",
+          "answer": "felt",
+          "choices": [
+            {
+              "id": "felt",
+              "text": "An unstated emotional estimate that people can live successfully in the world"
+            },
+            {
+              "id": "essay",
+              "text": "A reasoned essay that defines its terms and gives arguments"
+            },
+            {
+              "id": "ticket",
+              "text": "Annoyance at the price of one ticket"
+            },
+            {
+              "id": "list",
+              "text": "A list of facts with no judgment of man or existence"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the unstated emotional estimate of man and existence matches the definition. An essay, a price, and a bare list do not."
+          }
+        },
+        {
+          "id": "sol5e6",
+          "type": "match",
+          "prompt": "Match each stand-in to the piece of the definition it misses.",
+          "pairs": [
+            {
+              "id": "a",
+              "left": "A passing mood about one event",
+              "right": "Misses man and existence as the objects"
+            },
+            {
+              "id": "b",
+              "left": "An explicit philosophy",
+              "right": "Misses the pre-conceptual timing"
+            },
+            {
+              "id": "c",
+              "left": "A feeling used as a proof",
+              "right": "Misses that emotional does not mean cognitive"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each stand-in drops a different part of the definition: the objects, the timing, or the limit of emotion."
+          }
+        },
+        {
+          "id": "sol5e7",
+          "type": "choice",
+          "prompt": "Which set of words is the whole definition?",
+          "answer": "all",
+          "choices": [
+            {
+              "id": "all",
+              "text": "Pre-conceptual, emotional appraisal of man and of existence"
+            },
+            {
+              "id": "emo",
+              "text": "Emotional, and nothing further"
+            },
+            {
+              "id": "man",
+              "text": "An appraisal of man only"
+            },
+            {
+              "id": "pre",
+              "text": "Whatever one feels before breakfast"
+            }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit’s definition needs every part. Emotion alone, man alone, or a morning mood is not the whole."
+          }
+        },
+        {
+          "id": "sol5e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Restate the definition.",
+          "parts": [
+            {
+              "type": "text",
+              "text": "A sense of life is a "
+            },
+            {
+              "type": "blank",
+              "id": "b1",
+              "answer": "pre-conceptual"
+            },
+            {
+              "type": "text",
+              "text": ", "
+            },
+            {
+              "type": "blank",
+              "id": "b2",
+              "answer": "emotional"
+            },
+            {
+              "type": "text",
+              "text": " appraisal of man and of existence."
+            }
+          ],
+          "bank": [
+            "pre-conceptual",
+            "emotional",
+            "arbitrary",
+            "scientific"
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two adjectives are pre-conceptual and emotional. Arbitrary and scientific are not names for a sense of life."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

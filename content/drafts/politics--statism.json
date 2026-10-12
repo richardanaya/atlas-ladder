@@ -1,0 +1,888 @@
+{
+  "sectionId": "politics",
+  "sectionFile": "politics.json",
+  "unitId": "statism",
+  "title": "Statism",
+  "summary": "The political view that a person's life belongs to the state.",
+  "lessons": [
+    {
+      "id": "name-the-view",
+      "title": "Name the view",
+      "objective": "Identify statism as the political view that a person's life belongs to the state.",
+      "exercises": [
+        {
+          "id": "nv1",
+          "type": "choice",
+          "prompt": "What does statism say about a person's life?",
+          "answer": "state",
+          "choices": [
+            { "id": "state", "text": "It belongs to the state" },
+            { "id": "self", "text": "It belongs only to that person" },
+            { "id": "none", "text": "It belongs to no one at all" },
+            { "id": "luck", "text": "It belongs to whoever is luckiest" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Statism is the political view that a person's life belongs to the state."
+          }
+        },
+        {
+          "id": "nv2",
+          "type": "match",
+          "prompt": "Match each name to the claim it makes.",
+          "pairs": [
+            { "id": "p1", "left": "Statism", "right": "A person's life belongs to the state" },
+            { "id": "p2", "left": "A private hobby", "right": "Not a political view about who owns a life" },
+            { "id": "p3", "left": "A weather report", "right": "Not a claim about political ownership" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only statism, in this unit, is the view that the state owns a person's life. Everyday facts are not that view."
+          }
+        },
+        {
+          "id": "nv3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the name of this unit's view.",
+          "parts": [
+            { "type": "text", "text": "The view that a person's life belongs to the state is called " },
+            { "type": "blank", "id": "b1", "answer": "statism" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["statism", "weather", "hobby"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The name for that ownership claim is statism."
+          }
+        },
+        {
+          "id": "nv4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the view.",
+          "tokens": [
+            { "id": "t1", "text": "Statism" },
+            { "id": "t2", "text": "says" },
+            { "id": "t3", "text": "a" },
+            { "id": "t4", "text": "life" },
+            { "id": "t5", "text": "belongs" },
+            { "id": "t6", "text": "to" },
+            { "id": "t7", "text": "the" },
+            { "id": "t8", "text": "state" },
+            { "id": "d1", "text": "nobody" },
+            { "id": "d2", "text": "weather" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The whole claim is short: statism says a life belongs to the state."
+          }
+        },
+        {
+          "id": "nv5",
+          "type": "choice",
+          "prompt": "Statism is which kind of view?",
+          "answer": "pol",
+          "choices": [
+            { "id": "pol", "text": "A political view about who a life belongs to" },
+            { "id": "cook", "text": "A recipe for a meal" },
+            { "id": "map", "text": "A map of rivers" },
+            { "id": "song", "text": "A rule for rhyming songs" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Statism is political. It answers who a person's life belongs to, and it answers: the state."
+          }
+        },
+        {
+          "id": "nv6",
+          "type": "match",
+          "prompt": "Match each phrase to the view it states.",
+          "pairs": [
+            { "id": "p1", "left": "Your life belongs to the state", "right": "Statism" },
+            { "id": "p2", "left": "Your life is yours", "right": "Not statism" },
+            { "id": "p3", "left": "Lives have no owner in politics", "right": "Not statism" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The distinctive line of statism assigns the life to the state. The other lines do not."
+          }
+        },
+        {
+          "id": "nv7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill in both sides of the claim.",
+          "parts": [
+            { "type": "text", "text": "Under statism, a person's " },
+            { "type": "blank", "id": "b1", "answer": "life" },
+            { "type": "text", "text": " belongs to the " },
+            { "type": "blank", "id": "b2", "answer": "state" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["life", "state", "weather", "song"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "What is owned is the person's life. Who owns it, on this view, is the state."
+          }
+        },
+        {
+          "id": "nv8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that keeps the name tied to politics.",
+          "tokens": [
+            { "id": "t1", "text": "Statism" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "a" },
+            { "id": "t4", "text": "political" },
+            { "id": "t5", "text": "view" },
+            { "id": "d1", "text": "recipe" },
+            { "id": "d2", "text": "song" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Call it a political view, not a private taste or a craft rule."
+          }
+        },
+        {
+          "id": "nv9",
+          "type": "choice",
+          "prompt": "Which sentence is statism?",
+          "answer": "own",
+          "choices": [
+            { "id": "own", "text": "A person's life belongs to the state" },
+            { "id": "mine", "text": "A person's life belongs to that person" },
+            { "id": "sky", "text": "A person's life belongs to the sky" },
+            { "id": "none", "text": "A person's life is not a political topic" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If the sentence gives the life to the state, it is stating statism."
+          }
+        },
+        {
+          "id": "nv10",
+          "type": "choice",
+          "prompt": "A student says statism is only a nickname for any government. What is wrong with that?",
+          "answer": "claim",
+          "choices": [
+            { "id": "claim", "text": "Statism names a specific claim: a life belongs to the state" },
+            { "id": "nick", "text": "Nothing is wrong; any government is statism" },
+            { "id": "food", "text": "Statism names a kind of food" },
+            { "id": "color", "text": "Statism names a favorite color" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "This unit uses statism for one political view, the view that a person's life belongs to the state."
+          }
+        }
+      ]
+    },
+    {
+      "id": "who-the-owner-is",
+      "title": "Who the owner is",
+      "objective": "Name the state, not the person, as the owner statism assigns to a life.",
+      "exercises": [
+        {
+          "id": "wo1",
+          "type": "choice",
+          "prompt": "Under statism, who owns a person's life?",
+          "answer": "state",
+          "choices": [
+            { "id": "state", "text": "The state" },
+            { "id": "person", "text": "The person whose life it is" },
+            { "id": "both", "text": "The person and the state as equal owners" },
+            { "id": "none", "text": "No one" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Statism picks one owner: the state. It does not leave the life with the person."
+          }
+        },
+        {
+          "id": "wo2",
+          "type": "match",
+          "prompt": "Match each answer to the question 'Who owns the life?'",
+          "pairs": [
+            { "id": "p1", "left": "The state", "right": "Statism's answer" },
+            { "id": "p2", "left": "The person himself", "right": "Not statism's answer" },
+            { "id": "p3", "left": "Whoever shouts loudest", "right": "Not statism's answer" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The owner named by statism is the state, not the individual and not a noise contest."
+          }
+        },
+        {
+          "id": "wo3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete who holds the life on this view.",
+          "parts": [
+            { "type": "text", "text": "Statism assigns ownership of the life to the " },
+            { "type": "blank", "id": "b1", "answer": "state" },
+            { "type": "text", "text": ", not to the " },
+            { "type": "blank", "id": "b2", "answer": "person" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["state", "person", "crowd", "weather"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The contrast inside the claim is state versus person. The state is the owner."
+          }
+        },
+        {
+          "id": "wo4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names the owner.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "state" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "the" },
+            { "id": "t5", "text": "owner" },
+            { "id": "d1", "text": "guest" },
+            { "id": "d2", "text": "bystander" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "On this view the state is not a guest in the person's life. It is the owner."
+          }
+        },
+        {
+          "id": "wo5",
+          "type": "choice",
+          "prompt": "A speaker says the person keeps title to his life and the state only borrows it. Is that statism?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. Statism says the life belongs to the state" },
+            { "id": "yes", "text": "Yes. Borrowing is the same as belonging" },
+            { "id": "sky", "text": "Yes, if the loan is written in the sky" },
+            { "id": "half", "text": "Yes, because half ownership is full ownership" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Belonging to the state is ownership by the state. A loan that leaves title with the person is a different claim."
+          }
+        },
+        {
+          "id": "wo6",
+          "type": "match",
+          "prompt": "Match each owner-word to what statism does with it.",
+          "pairs": [
+            { "id": "p1", "left": "State", "right": "Named as the owner of the life" },
+            { "id": "p2", "left": "Person", "right": "Not named as the owner" },
+            { "id": "p3", "left": "Nobody", "right": "Not the answer statism gives" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Statism does not say the life is unowned. It moves ownership to the state."
+          }
+        },
+        {
+          "id": "wo7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the owner statism names.",
+          "parts": [
+            { "type": "text", "text": "The owner of the life, according to statism, is the " },
+            { "type": "blank", "id": "b1", "answer": "state" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["state", "person", "neighbor"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One word carries the ownership: state."
+          }
+        },
+        {
+          "id": "wo8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that rejects the person as owner.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "person" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "not" },
+            { "id": "t5", "text": "the" },
+            { "id": "t6", "text": "owner" },
+            { "id": "d1", "text": "state" },
+            { "id": "d2", "text": "always" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Statism denies that the person is the owner of his own life."
+          }
+        },
+        {
+          "id": "wo9",
+          "type": "choice",
+          "prompt": "Which pair matches statism?",
+          "answer": "ss",
+          "choices": [
+            { "id": "ss", "text": "Life owned by the state" },
+            { "id": "ps", "text": "Life owned by the person" },
+            { "id": "ns", "text": "Life owned by no one" },
+            { "id": "ws", "text": "Life owned by the weather" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The matching pair is the life and the state as its owner."
+          }
+        },
+        {
+          "id": "wo10",
+          "type": "choice",
+          "prompt": "If two people disagree only about the flag's colors, are they disagreeing about statism's owner?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. Statism's owner question is who the life belongs to" },
+            { "id": "yes", "text": "Yes. Flag colors decide who owns a life" },
+            { "id": "only", "text": "Only if the flag is large" },
+            { "id": "always", "text": "Yes, every disagreement is about ownership" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The owner question in this lesson is narrow: statism says the state, not the person."
+          }
+        }
+      ]
+    },
+    {
+      "id": "what-belongs-covers",
+      "title": "What the life covers",
+      "objective": "Treat the life that statism assigns to the state as including the person's work, time, and choices.",
+      "exercises": [
+        {
+          "id": "wc1",
+          "type": "choice",
+          "prompt": "If a life belongs to the state, which of these does statism treat as the state's as well?",
+          "answer": "work",
+          "choices": [
+            { "id": "work", "text": "The person's work, time, and choices" },
+            { "id": "rocks", "text": "Only rocks that no one touches" },
+            { "id": "dreams", "text": "Only dreams the person never acts on" },
+            { "id": "stars", "text": "Only the motion of the stars" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A life, in this claim, is not an empty label. It covers the work, time, and choices that make the life."
+          }
+        },
+        {
+          "id": "wc2",
+          "type": "match",
+          "prompt": "Match each part of a life to how statism treats it.",
+          "pairs": [
+            { "id": "p1", "left": "The person's work", "right": "Belongs to the state with the life" },
+            { "id": "p2", "left": "The person's time", "right": "Belongs to the state with the life" },
+            { "id": "p3", "left": "The person's choices", "right": "Belongs to the state with the life" },
+            { "id": "p4", "left": "A distant planet's orbit", "right": "Not part of this ownership claim" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Work, time, and choices travel with the life. Unrelated facts about planets do not."
+          }
+        },
+        {
+          "id": "wc3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete what rides along with the life.",
+          "parts": [
+            { "type": "text", "text": "Statism treats the person's " },
+            { "type": "blank", "id": "b1", "answer": "work" },
+            { "type": "text", "text": " and " },
+            { "type": "blank", "id": "b2", "answer": "choices" },
+            { "type": "text", "text": " as the state's." }
+          ],
+          "bank": ["work", "choices", "orbits", "clouds"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Giving the state the life is giving it the work and the choices, not only a slogan."
+          }
+        },
+        {
+          "id": "wc4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about time.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "person's" },
+            { "id": "t3", "text": "time" },
+            { "id": "t4", "text": "belongs" },
+            { "id": "t5", "text": "to" },
+            { "id": "t6", "text": "the" },
+            { "id": "t7", "text": "state" },
+            { "id": "d1", "text": "clouds" },
+            { "id": "d2", "text": "nowhere" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Time is part of the life statism assigns to the state."
+          }
+        },
+        {
+          "id": "wc5",
+          "type": "choice",
+          "prompt": "Someone says the state owns the life but the person still owns every choice. What does this lesson say?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "That splits the claim. Choices are part of the life" },
+            { "id": "yes", "text": "That split is what statism means" },
+            { "id": "only", "text": "Choices belong to the state only on weekends" },
+            { "id": "never", "text": "Lives never include choices" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If the life belongs to the state, the choices that are the living of it belong there too."
+          }
+        },
+        {
+          "id": "wc6",
+          "type": "match",
+          "prompt": "Match each item to whether statism's ownership claim covers it.",
+          "pairs": [
+            { "id": "p1", "left": "Hours of a working day", "right": "Covered as the person's time" },
+            { "id": "p2", "left": "What job to take", "right": "Covered as a choice" },
+            { "id": "p3", "left": "The color of a far star", "right": "Not covered" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The claim reaches the person's time and choices. It does not reach unrelated facts."
+          }
+        },
+        {
+          "id": "wc7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the three parts this lesson includes.",
+          "parts": [
+            { "type": "text", "text": "The life includes " },
+            { "type": "blank", "id": "b1", "answer": "work" },
+            { "type": "text", "text": ", time, and " },
+            { "type": "blank", "id": "b2", "answer": "choices" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["work", "choices", "comets", "tides"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Remember the trio that travels with the life: work, time, and choices."
+          }
+        },
+        {
+          "id": "wc8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about work.",
+          "tokens": [
+            { "id": "t1", "text": "Work" },
+            { "id": "t2", "text": "goes" },
+            { "id": "t3", "text": "with" },
+            { "id": "t4", "text": "the" },
+            { "id": "t5", "text": "life" },
+            { "id": "d1", "text": "orbit" },
+            { "id": "d2", "text": "stays" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Work is not a side item. Under this claim it goes with the life to the state."
+          }
+        },
+        {
+          "id": "wc9",
+          "type": "choice",
+          "prompt": "Which is outside the ownership claim in this lesson?",
+          "answer": "moon",
+          "choices": [
+            { "id": "moon", "text": "The orbit of the moon" },
+            { "id": "job", "text": "The person's choice of work" },
+            { "id": "day", "text": "The person's hours" },
+            { "id": "task", "text": "The tasks the person does" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The moon's path is not the person's life. Work, hours, and tasks are."
+          }
+        },
+        {
+          "id": "wc10",
+          "type": "choice",
+          "prompt": "Why does this lesson mention work, time, and choices together?",
+          "answer": "life",
+          "choices": [
+            { "id": "life", "text": "They are what the owned life consists of" },
+            { "id": "list", "text": "They are a random list of nouns" },
+            { "id": "sky", "text": "They describe the sky" },
+            { "id": "none", "text": "They are things the claim leaves to the person" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The point is scope. Belonging covers the living of the life, not a word with nothing in it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "person-as-means",
+      "title": "The person as a means",
+      "objective": "Explain that statism treats the person as a means to the state's ends because the life belongs to the state.",
+      "exercises": [
+        {
+          "id": "pm1",
+          "type": "choice",
+          "prompt": "If the life belongs to the state, what is the person for, on this view?",
+          "answer": "means",
+          "choices": [
+            { "id": "means", "text": "A means to the state's ends" },
+            { "id": "owner", "text": "The owner who sets every end" },
+            { "id": "none", "text": "Someone with no connection to ends" },
+            { "id": "sky", "text": "A means only to the weather" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An owned life is used for the owner's ends. Statism makes those ends the state's, so the person is a means."
+          }
+        },
+        {
+          "id": "pm2",
+          "type": "match",
+          "prompt": "Match each role to the view that assigns it.",
+          "pairs": [
+            { "id": "p1", "left": "Person as a means to the state's ends", "right": "Statism" },
+            { "id": "p2", "left": "Person as the owner of his life", "right": "Not statism" },
+            { "id": "p3", "left": "State as a tool the person may ignore", "right": "Not statism" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Statism reverses the roles: the state holds the life, and the person serves the state's ends."
+          }
+        },
+        {
+          "id": "pm3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the role statism gives the person.",
+          "parts": [
+            { "type": "text", "text": "Statism treats the person as a " },
+            { "type": "blank", "id": "b1", "answer": "means" },
+            { "type": "text", "text": " to the state's " },
+            { "type": "blank", "id": "b2", "answer": "ends" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["means", "ends", "owner", "weather"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Means and ends stay paired: the person is the means, and the ends belong to the state."
+          }
+        },
+        {
+          "id": "pm4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the role.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "person" },
+            { "id": "t3", "text": "serves" },
+            { "id": "t4", "text": "the" },
+            { "id": "t5", "text": "state's" },
+            { "id": "t6", "text": "ends" },
+            { "id": "d1", "text": "ignores" },
+            { "id": "d2", "text": "weather" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Serving the state's ends is what it means to be a means once the life belongs to the state."
+          }
+        },
+        {
+          "id": "pm5",
+          "type": "choice",
+          "prompt": "Why does the means follow from the ownership claim?",
+          "answer": "use",
+          "choices": [
+            { "id": "use", "text": "What belongs to the state is there for the state's ends" },
+            { "id": "luck", "text": "Because a coin flip said so" },
+            { "id": "rhyme", "text": "Because means rhymes with state" },
+            { "id": "none", "text": "It does not follow at all" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Ownership is for use toward the owner's ends. That is why the person becomes a means."
+          }
+        },
+        {
+          "id": "pm6",
+          "type": "match",
+          "prompt": "Match each phrase to its place in the claim.",
+          "pairs": [
+            { "id": "p1", "left": "State's ends", "right": "What the person is used for" },
+            { "id": "p2", "left": "The person", "right": "The means" },
+            { "id": "p3", "left": "The owned life", "right": "Why the person is a means" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Life owned by the state, person as the means, state's ends as the purpose: that is one chain."
+          }
+        },
+        {
+          "id": "pm7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill who is served.",
+          "parts": [
+            { "type": "text", "text": "The person is a means, and the ends that are served are the " },
+            { "type": "blank", "id": "b1", "answer": "state's" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["state's", "weather's", "nobody's"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The ends in this view are the state's, not an empty or outside purpose."
+          }
+        },
+        {
+          "id": "pm8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that keeps ownership as the reason.",
+          "tokens": [
+            { "id": "t1", "text": "Ownership" },
+            { "id": "t2", "text": "makes" },
+            { "id": "t3", "text": "the" },
+            { "id": "t4", "text": "person" },
+            { "id": "t5", "text": "a" },
+            { "id": "t6", "text": "means" },
+            { "id": "d1", "text": "planet" },
+            { "id": "d2", "text": "song" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The means is not a separate slogan. It is what ownership by the state implies."
+          }
+        },
+        {
+          "id": "pm9",
+          "type": "choice",
+          "prompt": "Which sentence stays inside this lesson?",
+          "answer": "ok",
+          "choices": [
+            { "id": "ok", "text": "Because the life belongs to the state, the person is a means to its ends" },
+            { "id": "vote", "text": "A majority vote is always the same as a right" },
+            { "id": "shop", "text": "Prices are a kind of weather" },
+            { "id": "art", "text": "A painting must copy every leaf" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "This lesson stays on one link: owned life, therefore the person is a means to the state's ends."
+          }
+        },
+        {
+          "id": "pm10",
+          "type": "choice",
+          "prompt": "Can the person be the owner of the life and merely a means to the state's ends at the same time, on this unit's terms?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. The means role follows because the state, not the person, owns the life" },
+            { "id": "yes", "text": "Yes. Owner and means are the same role" },
+            { "id": "week", "text": "Yes, but only on one day a week" },
+            { "id": "if", "text": "Yes, if the person says the word means" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Statism's means role depends on the state being the owner. It is not an extra title the person keeps while remaining the owner."
+          }
+        }
+      ]
+    },
+    {
+      "id": "spot-the-wording",
+      "title": "Spot the wording",
+      "objective": "Recognize the same statism claim when it is worded as a duty to the state, a national purpose, or the public's ownership of the person.",
+      "exercises": [
+        {
+          "id": "sw1",
+          "type": "choice",
+          "prompt": "Someone says each person owes his life as a duty to the state. Which view is that?",
+          "answer": "st",
+          "choices": [
+            { "id": "st", "text": "Statism, in different words" },
+            { "id": "cook", "text": "A cooking tip" },
+            { "id": "map", "text": "A claim about map colors" },
+            { "id": "none", "text": "A denial that lives belong to anyone" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A duty to hand one's life to the state is the same ownership claim under another wording."
+          }
+        },
+        {
+          "id": "sw2",
+          "type": "match",
+          "prompt": "Match each wording to the claim it makes.",
+          "pairs": [
+            { "id": "p1", "left": "Your life is a duty owed to the state", "right": "Statism" },
+            { "id": "p2", "left": "You exist for the national purpose", "right": "Statism" },
+            { "id": "p3", "left": "The public owns the person", "right": "Statism" },
+            { "id": "p4", "left": "You choose your own errand", "right": "Not statism" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Duty, national purpose, and public ownership are three ways of saying the life belongs to the state."
+          }
+        },
+        {
+          "id": "sw3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the hidden claim.",
+          "parts": [
+            { "type": "text", "text": "A duty of one's life to the state still means the life belongs to the " },
+            { "type": "blank", "id": "b1", "answer": "state" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["state", "person", "weather"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Changing duty for belongs does not change the owner. The owner is still the state."
+          }
+        },
+        {
+          "id": "sw4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that equates the wordings.",
+          "tokens": [
+            { "id": "t1", "text": "National" },
+            { "id": "t2", "text": "purpose" },
+            { "id": "t3", "text": "restates" },
+            { "id": "t4", "text": "statism" },
+            { "id": "d1", "text": "cancels" },
+            { "id": "d2", "text": "weather" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Saying a person exists for a national purpose restates the view that the life belongs to the state."
+          }
+        },
+        {
+          "id": "sw5",
+          "type": "choice",
+          "prompt": "The public owns you is closest to which line?",
+          "answer": "life",
+          "choices": [
+            { "id": "life", "text": "A person's life belongs to the state" },
+            { "id": "mine", "text": "A person's life belongs to that person" },
+            { "id": "none", "text": "No one has a life" },
+            { "id": "sky", "text": "The sky owns the tides only" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Public ownership of the person is another wording of the state's ownership of the life."
+          }
+        },
+        {
+          "id": "sw6",
+          "type": "match",
+          "prompt": "Match each slogan to whether it is statism.",
+          "pairs": [
+            { "id": "p1", "left": "Live for the state's purpose", "right": "Statism" },
+            { "id": "p2", "left": "The person owns his life", "right": "Not statism" },
+            { "id": "p3", "left": "Hand your years to the nation", "right": "Statism" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Purpose-of-the-state language and handing over years are the same claim. Keeping the life is not."
+          }
+        },
+        {
+          "id": "sw7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill two wordings that still mean statism.",
+          "parts": [
+            { "type": "text", "text": "Both a " },
+            { "type": "blank", "id": "b1", "answer": "duty" },
+            { "type": "text", "text": " to the state and a national " },
+            { "type": "blank", "id": "b2", "answer": "purpose" },
+            { "type": "text", "text": " restate the ownership claim." }
+          ],
+          "bank": ["duty", "purpose", "hobby", "cloud"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Duty and national purpose are disguises of one view, not new views."
+          }
+        },
+        {
+          "id": "sw8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about public ownership.",
+          "tokens": [
+            { "id": "t1", "text": "Public" },
+            { "id": "t2", "text": "ownership" },
+            { "id": "t3", "text": "of" },
+            { "id": "t4", "text": "the" },
+            { "id": "t5", "text": "person" },
+            { "id": "t6", "text": "is" },
+            { "id": "t7", "text": "statism" },
+            { "id": "d1", "text": "cooking" },
+            { "id": "d2", "text": "denies" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Calling the owner the public does not leave the claim. It is still statism."
+          }
+        },
+        {
+          "id": "sw9",
+          "type": "choice",
+          "prompt": "Which wording is not statism?",
+          "answer": "own",
+          "choices": [
+            { "id": "own", "text": "The person keeps his own life" },
+            { "id": "duty", "text": "Life is a duty owed to the state" },
+            { "id": "nation", "text": "The nation is the purpose of the person" },
+            { "id": "public", "text": "The public owns the person" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keeping one's own life contradicts the claim. The other three wordings repeat it."
+          }
+        },
+        {
+          "id": "sw10",
+          "type": "choice",
+          "prompt": "What should you do when the wording changes but the life is still assigned to the state?",
+          "answer": "same",
+          "choices": [
+            { "id": "same", "text": "Count it as the same view, statism" },
+            { "id": "new", "text": "Invent a new view for every synonym" },
+            { "id": "drop", "text": "Drop the topic because the verb changed" },
+            { "id": "sky", "text": "Treat it as a report about the sky" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Duty, national purpose, and public ownership are statism when they still give the person's life to the state."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

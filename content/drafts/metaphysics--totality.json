@@ -1,0 +1,752 @@
+{
+  "sectionId": "metaphysics",
+  "sectionFile": "metaphysics.json",
+  "unitId": "totality",
+  "title": "Existence as the Total",
+  "summary": "There is nothing outside existence. The universe is everything that exists.",
+  "lessons": [
+    {
+      "id": "nothing-outside",
+      "title": "Nothing outside",
+      "objective": "State that there is nothing outside existence: whatever is, is inside existence.",
+      "exercises": [
+        {
+          "id": "no1",
+          "type": "choice",
+          "prompt": "What sits outside existence?",
+          "answer": "nothing",
+          "choices": [
+            { "id": "nothing", "text": "Nothing" },
+            { "id": "void", "text": "A larger empty void" },
+            { "id": "realm", "text": "A second realm of non-being" },
+            { "id": "frame", "text": "A frame that holds existence in place" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "There is nothing outside existence. Anything that is, is already inside it."
+          }
+        },
+        {
+          "id": "no2",
+          "type": "choice",
+          "prompt": "If something exists, where does it belong?",
+          "answer": "inside",
+          "choices": [
+            { "id": "inside", "text": "Inside existence" },
+            { "id": "beside", "text": "Beside existence, as a neighbor" },
+            { "id": "before", "text": "Before existence, as a prior stage" },
+            { "id": "after", "text": "After existence, once the total ends" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "To be at all is to be inside existence. There is no outside slot for a real thing."
+          }
+        },
+        {
+          "id": "no3",
+          "type": "match",
+          "prompt": "Match each claim to the verdict this lesson gives it.",
+          "pairs": [
+            { "id": "p1", "left": "Something real beyond existence", "right": "Rejected" },
+            { "id": "p2", "left": "Whatever is, is inside existence", "right": "Accepted" },
+            { "id": "p3", "left": "An outside of existence", "right": "Empty of anything" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The outside of existence does not contain a further something. What exists is inside the total."
+          }
+        },
+        {
+          "id": "no4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit’s first line.",
+          "parts": [
+            { "type": "text", "text": "There is nothing " },
+            { "type": "blank", "id": "b1", "answer": "outside" },
+            { "type": "text", "text": " existence." }
+          ],
+          "bank": ["outside", "inside", "under", "before"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The line is nothing outside existence, not nothing inside it."
+          }
+        },
+        {
+          "id": "no5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states this lesson.",
+          "tokens": [
+            { "id": "t1", "text": "Nothing" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "outside" },
+            { "id": "t4", "text": "existence" },
+            { "id": "d1", "text": "inside" },
+            { "id": "d2", "text": "consciousness" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Nothing is outside existence. Inside and consciousness are not the words this line needs."
+          }
+        },
+        {
+          "id": "no6",
+          "type": "choice",
+          "prompt": "Someone says a hidden world lies beyond everything that is. What is wrong with that?",
+          "answer": "already",
+          "choices": [
+            { "id": "already", "text": "If it is, it is already inside existence" },
+            { "id": "small", "text": "It is too small to count as real" },
+            { "id": "vote", "text": "Only a vote can place it outside" },
+            { "id": "later", "text": "It counts only after people notice it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A hidden world that exists is not outside existence. Existing puts it in the total."
+          }
+        },
+        {
+          "id": "no7",
+          "type": "match",
+          "prompt": "Match each phrase to what it names here.",
+          "pairs": [
+            { "id": "m1", "left": "Outside existence", "right": "Not a place for anything" },
+            { "id": "m2", "left": "What exists", "right": "Included in existence" },
+            { "id": "m3", "left": "A further realm", "right": "A picture this lesson rejects" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Existence already includes whatever is. A further realm beyond it does not add a real outside."
+          }
+        },
+        {
+          "id": "no8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the rule about anything that is.",
+          "parts": [
+            { "type": "text", "text": "If it is, it is " },
+            { "type": "blank", "id": "b1", "answer": "inside" },
+            { "type": "text", "text": " existence." }
+          ],
+          "bank": ["inside", "outside", "before", "beside"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Being puts a thing inside existence. Outside, before, and beside are the wrong locations."
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-sum",
+      "title": "Everything that exists",
+      "objective": "Define the universe as everything that exists, not as one object among other objects.",
+      "exercises": [
+        {
+          "id": "ts1",
+          "type": "choice",
+          "prompt": "In this unit, what is the universe?",
+          "answer": "all",
+          "choices": [
+            { "id": "all", "text": "Everything that exists" },
+            { "id": "one", "text": "One large object among many" },
+            { "id": "sky", "text": "Only the sky above the earth" },
+            { "id": "mind", "text": "Only what a mind is thinking now" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The universe is everything that exists. It is the total, not one item in a longer list."
+          }
+        },
+        {
+          "id": "ts2",
+          "type": "choice",
+          "prompt": "Which description treats the universe as a member of a larger set?",
+          "answer": "member",
+          "choices": [
+            { "id": "member", "text": "One thing that sits next to other totalities" },
+            { "id": "sum", "text": "The sum of all that exists" },
+            { "id": "whole", "text": "The whole of existence" },
+            { "id": "allof", "text": "All existents taken together" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Calling the universe one member beside other totalities shrinks it. The universe is the sum, not a member."
+          }
+        },
+        {
+          "id": "ts3",
+          "type": "match",
+          "prompt": "Match each name to the role this lesson gives it.",
+          "pairs": [
+            { "id": "a", "left": "Universe", "right": "Everything that exists" },
+            { "id": "b", "left": "One existent", "right": "A part of the total" },
+            { "id": "c", "left": "A second universe", "right": "Not a further total" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Single existents are parts. There is not a second universe outside the one total of what exists."
+          }
+        },
+        {
+          "id": "ts4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit’s second line.",
+          "parts": [
+            { "type": "text", "text": "The universe is " },
+            { "type": "blank", "id": "b1", "answer": "everything" },
+            { "type": "text", "text": " that exists." }
+          ],
+          "bank": ["everything", "nothing", "one thing", "a wish"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The universe is everything that exists, not nothing, not one thing, and not a wish."
+          }
+        },
+        {
+          "id": "ts5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the definition of the universe.",
+          "tokens": [
+            { "id": "t1", "text": "The universe" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "everything" },
+            { "id": "t4", "text": "that exists" },
+            { "id": "d1", "text": "one planet" },
+            { "id": "d2", "text": "a container" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The universe is everything that exists. A planet or a container is not that definition."
+          }
+        },
+        {
+          "id": "ts6",
+          "type": "choice",
+          "prompt": "A star, a person, and a fact all exist. How do they stand to the universe?",
+          "answer": "parts",
+          "choices": [
+            { "id": "parts", "text": "They are included in the total" },
+            { "id": "rivals", "text": "Each is a rival universe" },
+            { "id": "outside", "text": "They stand outside the universe" },
+            { "id": "optional", "text": "They count only if someone lists them" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Whatever exists is part of the universe. Listing it does not decide whether it is in the total."
+          }
+        },
+        {
+          "id": "ts7",
+          "type": "match",
+          "prompt": "Match the wording to the idea it teaches.",
+          "pairs": [
+            { "id": "w1", "left": "Everything that exists", "right": "The universe" },
+            { "id": "w2", "left": "One object among others", "right": "Too small for the universe" },
+            { "id": "w3", "left": "The sum", "right": "All existents together" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The universe is the sum of existents. Treating it as one object among others leaves existents out."
+          }
+        },
+        {
+          "id": "ts8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the contrast.",
+          "parts": [
+            { "type": "text", "text": "The universe is the " },
+            { "type": "blank", "id": "b1", "answer": "sum" },
+            { "type": "text", "text": ", not one member of a larger set." }
+          ],
+          "bank": ["sum", "member", "wish", "void"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Sum is the right word. Member, wish, and void all miss the total."
+          }
+        },
+        {
+          "id": "ts9",
+          "type": "choice",
+          "prompt": "Which sentence keeps the universe as the total?",
+          "answer": "every",
+          "choices": [
+            { "id": "every", "text": "The universe is everything that exists" },
+            { "id": "box", "text": "The universe is a box with an outside" },
+            { "id": "half", "text": "The universe is half of what exists" },
+            { "id": "idea", "text": "The universe is only an idea of a total" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Half, a box with an outside, and a mere idea all cut the universe down. It is everything that exists."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-a-place",
+      "title": "Nonexistence is not a place",
+      "objective": "Reject treating nonexistence as a region, a background, or a somewhere beyond what exists.",
+      "exercises": [
+        {
+          "id": "np1",
+          "type": "choice",
+          "prompt": "What is nonexistence, on this lesson’s terms?",
+          "answer": "notplace",
+          "choices": [
+            { "id": "notplace", "text": "Not a place where things can be" },
+            { "id": "country", "text": "A distant country past the last star" },
+            { "id": "room", "text": "An empty room behind the universe" },
+            { "id": "stage", "text": "The stage on which existence stands" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Nonexistence is not a region. A country, a room, or a stage would already be something that exists."
+          }
+        },
+        {
+          "id": "np2",
+          "type": "choice",
+          "prompt": "Why can’t you point to a background of nothing?",
+          "answer": "pointing",
+          "choices": [
+            { "id": "pointing", "text": "A background you can point to would exist" },
+            { "id": "dark", "text": "Nothing is only the color black" },
+            { "id": "far", "text": "Nothing is only what is very far away" },
+            { "id": "quiet", "text": "Nothing is only what makes no sound" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Distance, darkness, and silence are still features of what exists. A real background is not nonexistence."
+          }
+        },
+        {
+          "id": "np3",
+          "type": "match",
+          "prompt": "Match each picture to the correction.",
+          "pairs": [
+            { "id": "k1", "left": "A realm of nothing", "right": "Not a somewhere" },
+            { "id": "k2", "left": "Empty space that is real", "right": "Already inside existence" },
+            { "id": "k3", "left": "Nonexistence", "right": "Not a background" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Real empty space exists, so it is not nonexistence. Nonexistence is not a background you can travel to."
+          }
+        },
+        {
+          "id": "np4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rejection.",
+          "parts": [
+            { "type": "text", "text": "Nonexistence is not a " },
+            { "type": "blank", "id": "b1", "answer": "place" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["place", "fact", "existent", "sum"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Place is the word to reject. A fact, an existent, or the sum would already be something that is."
+          }
+        },
+        {
+          "id": "np5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that blocks the picture of a somewhere.",
+          "tokens": [
+            { "id": "t1", "text": "Nonexistence" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "a place" },
+            { "id": "d1", "text": "a room" },
+            { "id": "d2", "text": "the universe" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Nonexistence is not a place. Calling it a room or the universe would turn it into something that is."
+          }
+        },
+        {
+          "id": "np6",
+          "type": "choice",
+          "prompt": "A story says the hero leaves existence and enters the land of nothing. What does this lesson say?",
+          "answer": "cant",
+          "choices": [
+            { "id": "cant", "text": "There is no such land to enter" },
+            { "id": "map", "text": "The land is on the far side of the map" },
+            { "id": "sleep", "text": "The land opens only while people sleep" },
+            { "id": "vote", "text": "The land exists if enough readers agree" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A land you could enter would exist. Nonexistence is not a destination beyond the total."
+          }
+        },
+        {
+          "id": "np7",
+          "type": "choice",
+          "prompt": "Which item is still inside existence?",
+          "answer": "gap",
+          "choices": [
+            { "id": "gap", "text": "A real gap between two stars" },
+            { "id": "beyond", "text": "A beyond that contains nothing that is" },
+            { "id": "outside", "text": "An outside of existence" },
+            { "id": "nowhere", "text": "A nowhere that is a region" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A real gap is part of what exists. An outside, a beyond, or a nowhere-as-region is the picture to drop."
+          }
+        },
+        {
+          "id": "np8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both blanks.",
+          "parts": [
+            { "type": "text", "text": "A real background would " },
+            { "type": "blank", "id": "b1", "answer": "exist" },
+            { "type": "text", "text": ", so it is not " },
+            { "type": "blank", "id": "b2", "answer": "nonexistence" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["exist", "nonexistence", "vanish", "a vote"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Whatever is real exists. That keeps it out of the role of nonexistence."
+          }
+        },
+        {
+          "id": "np9",
+          "type": "match",
+          "prompt": "Sort the phrases.",
+          "pairs": [
+            { "id": "s1", "left": "Darkness", "right": "Something that can exist" },
+            { "id": "s2", "left": "Silence", "right": "Something that can exist" },
+            { "id": "s3", "left": "A realm of nonexistence", "right": "Not a region" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Darkness and silence can be real features. A realm of nonexistence cannot be a region beyond them."
+          }
+        }
+      ]
+    },
+    {
+      "id": "no-container",
+      "title": "No larger container",
+      "objective": "See that existence is not inside a bigger frame, void, or second total.",
+      "exercises": [
+        {
+          "id": "nc1",
+          "type": "choice",
+          "prompt": "What contains existence?",
+          "answer": "none",
+          "choices": [
+            { "id": "none", "text": "Nothing larger contains it" },
+            { "id": "void", "text": "An outer void" },
+            { "id": "frame", "text": "A frame around the universe" },
+            { "id": "second", "text": "A second, bigger totality" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Existence is the total. A void, a frame, or a second totality would have to be outside it, and nothing is."
+          }
+        },
+        {
+          "id": "nc2",
+          "type": "choice",
+          "prompt": "Why does a bigger frame fail?",
+          "answer": "wouldbe",
+          "choices": [
+            { "id": "wouldbe", "text": "If the frame is, it is already in existence" },
+            { "id": "heavy", "text": "The frame would be too heavy to hold" },
+            { "id": "hidden", "text": "Frames only work when nobody sees them" },
+            { "id": "late", "text": "A frame can be added after the facts" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A real frame exists, so it cannot sit outside existence as a container for the total."
+          }
+        },
+        {
+          "id": "nc3",
+          "type": "match",
+          "prompt": "Match each proposed container to the result.",
+          "pairs": [
+            { "id": "c1", "left": "Outer void", "right": "Cannot hold existence from outside" },
+            { "id": "c2", "left": "Bigger totality", "right": "Would just be more existence" },
+            { "id": "c3", "left": "Existence", "right": "Already the whole" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Anything large enough to contain the total is not outside the total. Existence is already the whole."
+          }
+        },
+        {
+          "id": "nc4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the claim about a container.",
+          "parts": [
+            { "type": "text", "text": "Existence is not inside a " },
+            { "type": "blank", "id": "b1", "answer": "larger" },
+            { "type": "text", "text": " container." }
+          ],
+          "bank": ["larger", "smaller", "mental", "chosen"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The mistake is a larger container. Smaller, mental, and chosen do not name that mistake."
+          }
+        },
+        {
+          "id": "nc5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that rejects a second total.",
+          "tokens": [
+            { "id": "t1", "text": "There" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "no" },
+            { "id": "t4", "text": "second totality" },
+            { "id": "d1", "text": "many universes" },
+            { "id": "d2", "text": "an outer frame" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "There is no second totality. Extra universes or an outer frame would still have to fall inside existence."
+          }
+        },
+        {
+          "id": "nc6",
+          "type": "choice",
+          "prompt": "A model draws a circle around the universe and labels the margin outside. What is the error?",
+          "answer": "margin",
+          "choices": [
+            { "id": "margin", "text": "The margin pretends something contains the total" },
+            { "id": "ink", "text": "Circles cannot be drawn in ink" },
+            { "id": "scale", "text": "The circle is drawn at the wrong scale" },
+            { "id": "label", "text": "Only the word universe may be labeled" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A margin around the universe suggests a container. Nothing outside existence supplies that container."
+          }
+        },
+        {
+          "id": "nc7",
+          "type": "match",
+          "prompt": "Match the question to the answer.",
+          "pairs": [
+            { "id": "q1", "left": "What is outside existence?", "right": "Nothing" },
+            { "id": "q2", "left": "What contains the universe?", "right": "No larger container" },
+            { "id": "q3", "left": "What is the universe?", "right": "Everything that exists" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The three answers are one claim: the total has no outside and no bigger holder."
+          }
+        },
+        {
+          "id": "nc8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two blanks.",
+          "parts": [
+            { "type": "text", "text": "A second total would still be " },
+            { "type": "blank", "id": "b1", "answer": "existence" },
+            { "type": "text", "text": ", not an " },
+            { "type": "blank", "id": "b2", "answer": "outside" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["existence", "outside", "opinion", "exception"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "More being is more existence. It does not create an outside."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hold-the-total",
+      "title": "Hold the two lines",
+      "objective": "Hold both lines together: nothing is outside existence, and the universe is everything that exists.",
+      "exercises": [
+        {
+          "id": "ht1",
+          "type": "choice",
+          "prompt": "Which pair is this unit’s whole claim?",
+          "answer": "pair",
+          "choices": [
+            { "id": "pair", "text": "Nothing outside existence, and the universe is everything that exists" },
+            { "id": "axioms", "text": "Existence exists, and consciousness is conscious" },
+            { "id": "cause", "text": "Identity applied to action, and entities act" },
+            { "id": "given", "text": "Facts that are, and facts that choice brings about" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "This unit’s two lines are about the total. The other pairs belong to other units."
+          }
+        },
+        {
+          "id": "ht2",
+          "type": "choice",
+          "prompt": "How do the two lines relate?",
+          "answer": "same",
+          "choices": [
+            { "id": "same", "text": "They state one total in two ways" },
+            { "id": "rival", "text": "They compete, and only one can be kept" },
+            { "id": "order", "text": "The second cancels the first" },
+            { "id": "optional", "text": "Either line may be dropped" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Nothing outside existence is the same claim as the universe being everything that exists."
+          }
+        },
+        {
+          "id": "ht3",
+          "type": "match",
+          "prompt": "Match each line to the mistake it blocks.",
+          "pairs": [
+            { "id": "b1", "left": "Nothing outside existence", "right": "A realm beyond the total" },
+            { "id": "b2", "left": "The universe is everything that exists", "right": "The universe as one object among others" },
+            { "id": "b3", "left": "Both lines together", "right": "A container around existence" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each line blocks a way of shrinking or surrounding the total. Together they leave no outside."
+          }
+        },
+        {
+          "id": "ht4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Restore both lines.",
+          "parts": [
+            { "type": "text", "text": "Nothing is outside " },
+            { "type": "blank", "id": "b1", "answer": "existence" },
+            { "type": "text", "text": ". The universe is everything that " },
+            { "type": "blank", "id": "b2", "answer": "exists" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["existence", "exists", "consciousness", "wishes"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two words are existence and exists. Consciousness and wishes are not this unit’s pair."
+          }
+        },
+        {
+          "id": "ht5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the combined claim.",
+          "tokens": [
+            { "id": "t1", "text": "The universe" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "all of existence" },
+            { "id": "d1", "text": "half of existence" },
+            { "id": "d2", "text": "outside existence" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The universe is all of existence. Half, or a place outside, cuts the total."
+          }
+        },
+        {
+          "id": "ht6",
+          "type": "choice",
+          "prompt": "Which addition would break the unit?",
+          "answer": "break",
+          "choices": [
+            { "id": "break", "text": "A something beyond everything that exists" },
+            { "id": "keep1", "text": "There is nothing outside existence" },
+            { "id": "keep2", "text": "The universe is everything that exists" },
+            { "id": "keep3", "text": "Whatever is, is in the total" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A something beyond everything that exists contradicts both lines. The other three keep the total."
+          }
+        },
+        {
+          "id": "ht7",
+          "type": "match",
+          "prompt": "Match the short label to the full line.",
+          "pairs": [
+            { "id": "l1", "left": "No outside", "right": "Nothing is outside existence" },
+            { "id": "l2", "left": "The sum", "right": "The universe is everything that exists" },
+            { "id": "l3", "left": "One claim", "right": "The two lines together" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "No outside and the sum are the two lines. Held together, they are one claim about the total."
+          }
+        },
+        {
+          "id": "ht8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Order the words that close the unit.",
+          "tokens": [
+            { "id": "t1", "text": "Nothing" },
+            { "id": "t2", "text": "lies" },
+            { "id": "t3", "text": "outside" },
+            { "id": "t4", "text": "the universe" },
+            { "id": "d1", "text": "inside" },
+            { "id": "d2", "text": "a second total" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Nothing lies outside the universe, because the universe is everything that exists."
+          }
+        },
+        {
+          "id": "ht9",
+          "type": "choice",
+          "prompt": "A learner remembers only one line. Which reminder keeps the unit whole?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "Keep both: no outside, and the universe is the sum" },
+            { "id": "drop", "text": "Drop the universe and keep only a void" },
+            { "id": "swap", "text": "Swap the universe for one object in a list" },
+            { "id": "add", "text": "Add a container and keep the rest" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit is both lines. A void, a single object, or a container leaves the total incomplete."
+          }
+        },
+        {
+          "id": "ht10",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Close with the summary.",
+          "parts": [
+            { "type": "text", "text": "There is nothing outside existence. The " },
+            { "type": "blank", "id": "b1", "answer": "universe" },
+            { "type": "text", "text": " is everything that exists." }
+          ],
+          "bank": ["universe", "void", "frame", "wish"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Universe is the word that names everything that exists. Void, frame, and wish do not."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

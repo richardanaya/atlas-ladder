@@ -1,0 +1,844 @@
+{
+  "sectionId": "epistemology",
+  "sectionFile": "epistemology.json",
+  "unitId": "certainty",
+  "title": "Certainty and the Arbitrary",
+  "summary": "The arbitrary as neither true nor false, and certainty as contextual.",
+  "lessons": [
+    {
+      "id": "no-evidence",
+      "title": "A claim with nothing behind it",
+      "objective": "Recognize an arbitrary assertion as a claim offered with no evidence and no tie to the facts you know.",
+      "exercises": [
+        {
+          "id": "ne1",
+          "type": "choice",
+          "prompt": "What makes an assertion arbitrary?",
+          "answer": "none",
+          "choices": [
+            { "id": "none", "text": "It is offered with no evidence connecting it to the facts" },
+            { "id": "odd", "text": "It is unusual, even though the evidence is strong" },
+            { "id": "hard", "text": "It is difficult to prove, but some evidence supports it" },
+            { "id": "new", "text": "It was learned only recently" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Arbitrary means unsupported. Novelty or difficulty is not the test; the absence of evidence is."
+          }
+        },
+        {
+          "id": "ne2",
+          "type": "choice",
+          "prompt": "Which statement is arbitrary?",
+          "answer": "ghost",
+          "choices": [
+            { "id": "ghost", "text": "An unseen force rearranges your books at night, and nothing you know gives a reason to think so" },
+            { "id": "rain", "text": "The street is wet, so rain is one candidate you can check" },
+            { "id": "math", "text": "Two added to two is four, on the rules of arithmetic you already use" },
+            { "id": "see", "text": "The cup is on the table, because you see it there" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unseen force is asserted with no link to observation or to anything already known. The other claims rest on perception, calculation, or a checkable clue."
+          }
+        },
+        {
+          "id": "ne3",
+          "type": "match",
+          "prompt": "Match each claim to why it is, or is not, arbitrary.",
+          "pairs": [
+            { "id": "p1", "left": "A number no one can ever relate to any fact", "right": "Arbitrary: no evidence ties it to reality" },
+            { "id": "p2", "left": "The stove is hot because you burned your hand", "right": "Not arbitrary: a percept supports it" },
+            { "id": "p3", "left": "A hypothesis you can test against known measurements", "right": "Not arbitrary: it is tied to evidence you can check" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A claim leaves the arbitrary when some evidence, perceptual or conceptual, connects it to what is."
+          }
+        },
+        {
+          "id": "ne4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the definition used in this lesson.",
+          "parts": [
+            { "type": "text", "text": "An arbitrary assertion is offered with no " },
+            { "type": "blank", "id": "b1", "answer": "evidence" },
+            { "type": "text", "text": " connecting it to the facts." }
+          ],
+          "bank": ["evidence", "style", "vote", "mood"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Without evidence, the assertion does not yet belong in thinking about what is true."
+          }
+        },
+        {
+          "id": "ne5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the mark of the arbitrary.",
+          "tokens": [
+            { "id": "t1", "text": "An arbitrary claim" },
+            { "id": "t2", "text": "has no evidence" },
+            { "id": "t3", "text": "behind it" },
+            { "id": "d1", "text": "is already proven" },
+            { "id": "d2", "text": "by a majority" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The mark is missing evidence, not unpopularity and not a finished proof of something else."
+          }
+        },
+        {
+          "id": "ne6",
+          "type": "choice",
+          "prompt": "Someone says, I simply prefer to assert it. What is the status of that assertion?",
+          "answer": "arb",
+          "choices": [
+            { "id": "arb", "text": "Arbitrary, because a preference is not evidence" },
+            { "id": "true", "text": "True, because sincerity counts as proof" },
+            { "id": "false", "text": "Automatically false, because it was said aloud" },
+            { "id": "cert", "text": "Certain, because no one contradicted it yet" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Wanting a claim, or saying it with confidence, does not connect it to the facts."
+          }
+        },
+        {
+          "id": "ne7",
+          "type": "choice",
+          "prompt": "Which addition would stop a claim from being arbitrary?",
+          "answer": "link",
+          "choices": [
+            { "id": "link", "text": "Evidence that relates the claim to something already known" },
+            { "id": "loud", "text": "Repeating the claim more often" },
+            { "id": "name", "text": "Giving the claim a special name" },
+            { "id": "fear", "text": "Warning that doubters will be sorry" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only a cognitive link to reality removes the arbitrary. Volume, labels, and threats do not."
+          }
+        },
+        {
+          "id": "ne8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the missing standard.",
+          "parts": [
+            { "type": "text", "text": "If nothing in your knowledge " },
+            { "type": "blank", "id": "b1", "answer": "supports" },
+            { "type": "text", "text": " the claim, treat it as arbitrary." }
+          ],
+          "bank": ["supports", "enjoys", "hides", "renames"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Support means a reason drawn from what you know, not a feeling about the claim."
+          }
+        },
+        {
+          "id": "ne9",
+          "type": "match",
+          "prompt": "Match the offering to its cognitive standing.",
+          "pairs": [
+            { "id": "a", "left": "Assertion with no reason at all", "right": "Arbitrary" },
+            { "id": "b", "left": "Report of what you perceive", "right": "Tied to evidence" },
+            { "id": "c", "left": "Conclusion integrated from earlier evidence", "right": "Tied to evidence" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Evidence can be a percept or a conclusion already based on facts. A bare assertion has neither."
+          }
+        },
+        {
+          "id": "ne10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the rule for spotting the arbitrary.",
+          "tokens": [
+            { "id": "t1", "text": "No tie to the facts" },
+            { "id": "t2", "text": "means the claim" },
+            { "id": "t3", "text": "is arbitrary" },
+            { "id": "d1", "text": "is therefore certain" },
+            { "id": "d2", "text": "must be believed" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Lack of a tie to the facts is the definition used here, not a reason to believe the claim."
+          }
+        }
+      ]
+    },
+    {
+      "id": "no-truth-value",
+      "title": "Neither true nor false",
+      "objective": "Treat the arbitrary as cognitively empty: it is neither true nor false, so it is set aside instead of weighed as a candidate.",
+      "exercises": [
+        {
+          "id": "tv1",
+          "type": "choice",
+          "prompt": "What truth-value does an arbitrary claim have?",
+          "answer": "neither",
+          "choices": [
+            { "id": "neither", "text": "Neither true nor false" },
+            { "id": "true", "text": "True until someone disproves it" },
+            { "id": "false", "text": "False because it lacks evidence" },
+            { "id": "both", "text": "Both true and false at once" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "With no evidence, the claim has not entered the realm of true or false. Lack of evidence does not by itself prove the opposite."
+          }
+        },
+        {
+          "id": "tv2",
+          "type": "choice",
+          "prompt": "How should you handle an arbitrary claim in thinking?",
+          "answer": "drop",
+          "choices": [
+            { "id": "drop", "text": "Set it aside; it is not a candidate to weigh" },
+            { "id": "adopt", "text": "Adopt it, since it might turn out true" },
+            { "id": "split", "text": "Count it as half true" },
+            { "id": "invert", "text": "Assert the opposite with equal force and no evidence" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The proper response is dismissal from cognition, not belief and not an equally empty denial."
+          }
+        },
+        {
+          "id": "tv3",
+          "type": "match",
+          "prompt": "Match each item to the response it calls for.",
+          "pairs": [
+            { "id": "a", "left": "Arbitrary assertion", "right": "Set aside; it is neither true nor false" },
+            { "id": "b", "left": "Claim that contradicts known evidence", "right": "Judge it false" },
+            { "id": "c", "left": "Claim that the evidence fully supports", "right": "Judge it true" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "True and false apply once a claim has a relation to evidence. The arbitrary has no such relation."
+          }
+        },
+        {
+          "id": "tv4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the status of the arbitrary.",
+          "parts": [
+            { "type": "text", "text": "The arbitrary is neither true nor " },
+            { "type": "blank", "id": "b1", "answer": "false" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["false", "popular", "spoken", "new"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That formula names an empty cognitive status, not a third kind of fact in reality."
+          }
+        },
+        {
+          "id": "tv5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about cognitive standing.",
+          "tokens": [
+            { "id": "t1", "text": "An arbitrary claim" },
+            { "id": "t2", "text": "has no standing" },
+            { "id": "t3", "text": "as true or false" },
+            { "id": "d1", "text": "is secretly true" },
+            { "id": "d2", "text": "must be debated forever" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "No standing means you do not park it on either side of a truth judgment."
+          }
+        },
+        {
+          "id": "tv6",
+          "type": "choice",
+          "prompt": "Why is it a mistake to call the arbitrary false?",
+          "answer": "need",
+          "choices": [
+            { "id": "need", "text": "False is a judgment, and a judgment needs a relation to evidence" },
+            { "id": "rude", "text": "Because calling something false is impolite" },
+            { "id": "always", "text": "Because every unsupported claim later becomes true" },
+            { "id": "words", "text": "Because only single words can be false" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "To judge a claim false you need grounds. An arbitrary string of words has not supplied any."
+          }
+        },
+        {
+          "id": "tv7",
+          "type": "choice",
+          "prompt": "A friend invents a cause you have no reason to consider. What do you owe that story?",
+          "answer": "nothing",
+          "choices": [
+            { "id": "nothing", "text": "Nothing: it is not yet a claim to accept or refute" },
+            { "id": "proof", "text": "A full proof that the story is impossible in every detail" },
+            { "id": "belief", "text": "Temporary belief until the story is tested" },
+            { "id": "half", "text": "Agreement that it is probably true" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Dismissal is not a positive theory of the opposite. It is a refusal to grant the story any cognitive role."
+          }
+        },
+        {
+          "id": "tv8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the verb that names the right response.",
+          "parts": [
+            { "type": "text", "text": "When a claim is arbitrary, you " },
+            { "type": "blank", "id": "b1", "answer": "dismiss" },
+            { "type": "text", "text": " it rather than weigh it as true or false." }
+          ],
+          "bank": ["dismiss", "memorize", "obey", "decorate"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Dismiss here means drop it from consideration, not insult the speaker."
+          }
+        },
+        {
+          "id": "tv9",
+          "type": "match",
+          "prompt": "Match the status to the example.",
+          "pairs": [
+            { "id": "a", "left": "Neither true nor false", "right": "A story no evidence connects to anything" },
+            { "id": "b", "left": "False", "right": "A report that contradicts what you perceive" },
+            { "id": "c", "left": "True", "right": "A conclusion for which the evidence is sufficient" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the empty status separate from an actual falsehood and from a supported truth."
+          }
+        },
+        {
+          "id": "tv10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the caution about the opposite claim.",
+          "tokens": [
+            { "id": "t1", "text": "Denying an arbitrary claim" },
+            { "id": "t2", "text": "without evidence" },
+            { "id": "t3", "text": "is also arbitrary" },
+            { "id": "d1", "text": "makes you omniscient" },
+            { "id": "d2", "text": "proves the original" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The opposite of an empty assertion is not automatically a piece of knowledge. It needs its own evidence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "burden",
+      "title": "Who must offer evidence",
+      "objective": "Place the burden of proof on the person who asserts, and refuse the demand to disprove a claim that was never supported.",
+      "exercises": [
+        {
+          "id": "bu1",
+          "type": "choice",
+          "prompt": "Who carries the burden of proof?",
+          "answer": "asserter",
+          "choices": [
+            { "id": "asserter", "text": "The person who asserts the claim" },
+            { "id": "listener", "text": "Whoever hears the claim" },
+            { "id": "skeptic", "text": "Only someone who wants the claim to be false" },
+            { "id": "none", "text": "No one; every claim stands until refuted" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Asserting is what creates the need for evidence. Listening does not."
+          }
+        },
+        {
+          "id": "bu2",
+          "type": "choice",
+          "prompt": "Someone says, You cannot prove my unsupported story is wrong, so you must accept it. What is wrong with that move?",
+          "answer": "shift",
+          "choices": [
+            { "id": "shift", "text": "It shifts the burden onto the listener" },
+            { "id": "grammar", "text": "The sentence is too long to be a claim" },
+            { "id": "kind", "text": "Listeners are required to be kind, and kindness is proof" },
+            { "id": "time", "text": "Disproof is valid only if it arrives the same day" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Failure to disprove an empty story is not evidence for the story. The asserter still owes the reasons."
+          }
+        },
+        {
+          "id": "bu3",
+          "type": "match",
+          "prompt": "Match each role to its job.",
+          "pairs": [
+            { "id": "a", "left": "The asserter", "right": "Must supply evidence if the claim is to be considered" },
+            { "id": "b", "left": "The listener", "right": "May dismiss a claim that has no evidence" },
+            { "id": "c", "left": "A later investigator", "right": "May take the claim up only after some evidence appears" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Consideration starts when evidence shows up. Until then, no one else inherits a duty to refute."
+          }
+        },
+        {
+          "id": "bu4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rule about burden.",
+          "parts": [
+            { "type": "text", "text": "The burden of proof is on the person who " },
+            { "type": "blank", "id": "b1", "answer": "asserts" },
+            { "type": "text", "text": " the claim." }
+          ],
+          "bank": ["asserts", "hears", "forgets", "doubts"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Hearing a claim, forgetting it, or doubting it does not move the burden onto you."
+          }
+        },
+        {
+          "id": "bu5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the reply to an empty demand for disproof.",
+          "tokens": [
+            { "id": "t1", "text": "No evidence" },
+            { "id": "t2", "text": "means no duty" },
+            { "id": "t3", "text": "to disprove it" },
+            { "id": "d1", "text": "means it is true" },
+            { "id": "d2", "text": "ends all knowledge" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "You do not owe a refutation of what was never given a reason."
+          }
+        },
+        {
+          "id": "bu6",
+          "type": "choice",
+          "prompt": "Evidence for a claim finally appears. What changes?",
+          "answer": "enter",
+          "choices": [
+            { "id": "enter", "text": "The claim can now be examined as true or false" },
+            { "id": "auto", "text": "The claim is certain no matter how weak the evidence is" },
+            { "id": "past", "text": "The claim was true the whole time it was arbitrary" },
+            { "id": "ban", "text": "Further questions become improper" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Evidence lets the claim into cognition. It does not skip the work of judging how strong that evidence is."
+          }
+        },
+        {
+          "id": "bu7",
+          "type": "choice",
+          "prompt": "Which demand is legitimate?",
+          "answer": "show",
+          "choices": [
+            { "id": "show", "text": "Show the evidence for what you assert" },
+            { "id": "any", "text": "Disprove every story I might invent" },
+            { "id": "feel", "text": "Accept my claim because I feel strongly" },
+            { "id": "first", "text": "Believe it first and look for reasons later" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Asking for evidence respects the burden. Demanding that others refute the unsupported does not."
+          }
+        },
+        {
+          "id": "bu8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the word for what the listener need not do.",
+          "parts": [
+            { "type": "text", "text": "You need not " },
+            { "type": "blank", "id": "b1", "answer": "refute" },
+            { "type": "text", "text": " a claim that still has no evidence." }
+          ],
+          "bank": ["refute", "notice", "name", "read"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Noticing that a claim is empty is enough. A refutation would treat it as a real alternative."
+          }
+        },
+        {
+          "id": "bu9",
+          "type": "match",
+          "prompt": "Match the move to the error or the proper step.",
+          "pairs": [
+            { "id": "a", "left": "Prove me wrong or agree", "right": "Illegitimate shift of the burden" },
+            { "id": "b", "left": "Here is the observation that supports me", "right": "Proper acceptance of the burden" },
+            { "id": "c", "left": "I will ignore your story until you offer a reason", "right": "Proper dismissal of the arbitrary" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Offering a reason takes up the burden. Demanding agreement without one tries to dump it."
+          }
+        },
+        {
+          "id": "bu10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the order of proof.",
+          "tokens": [
+            { "id": "t1", "text": "Evidence comes first" },
+            { "id": "t2", "text": "and consideration" },
+            { "id": "t3", "text": "comes after" },
+            { "id": "d1", "text": "belief comes first" },
+            { "id": "d2", "text": "refutation is owed in advance" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Nothing cognitive is owed to a claim before evidence. Consideration follows the evidence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "title": "Certainty inside a context",
+      "objective": "Explain certainty as knowing that, inside a given context of evidence, nothing warrants doubt, without claiming to know every fact outside that context.",
+      "exercises": [
+        {
+          "id": "cx1",
+          "type": "choice",
+          "prompt": "In this unit, what is certainty?",
+          "answer": "ctx",
+          "choices": [
+            { "id": "ctx", "text": "Recognizing a fact when the context of your knowledge gives no ground for doubt" },
+            { "id": "all", "text": "Knowing every fact that will ever be discovered" },
+            { "id": "feel", "text": "A strong feeling with no need for evidence" },
+            { "id": "vote", "text": "Agreement by other people" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Certainty is contextual. It is not omniscience, emotion, or a head count."
+          }
+        },
+        {
+          "id": "cx2",
+          "type": "choice",
+          "prompt": "You see a cup on the desk and nothing in what you know suggests an illusion. What may you claim?",
+          "answer": "certain",
+          "choices": [
+            { "id": "certain", "text": "Certainty that the cup is there, in this context" },
+            { "id": "never", "text": "That no future discovery could ever add detail about the cup" },
+            { "id": "maybe", "text": "Only that the cup is an arbitrary possibility" },
+            { "id": "allcups", "text": "Knowledge of every cup that exists anywhere" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The percept, with no contrary evidence in your context, is enough for certainty about this fact. It is not a claim to total knowledge."
+          }
+        },
+        {
+          "id": "cx3",
+          "type": "match",
+          "prompt": "Match each idea to its meaning.",
+          "pairs": [
+            { "id": "a", "left": "Context", "right": "The evidence and knowledge you actually have" },
+            { "id": "b", "left": "Contextual certainty", "right": "No ground for doubt inside that evidence" },
+            { "id": "c", "left": "Omniscience", "right": "Knowing everything, which certainty does not require" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A context can grow. Certainty inside the present context is still certainty; it is not a guess."
+          }
+        },
+        {
+          "id": "cx4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the name of this kind of certainty.",
+          "parts": [
+            { "type": "text", "text": "Certainty is " },
+            { "type": "blank", "id": "b1", "answer": "contextual" },
+            { "type": "text", "text": ", not a claim to know every fact." }
+          ],
+          "bank": ["contextual", "optional", "emotional", "collective"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Contextual means judged against the knowledge you have, including the evidence that would be relevant to doubt."
+          }
+        },
+        {
+          "id": "cx5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that limits certainty without weakening it.",
+          "tokens": [
+            { "id": "t1", "text": "Certainty does not require" },
+            { "id": "t2", "text": "knowing every future fact" },
+            { "id": "d1", "text": "ignoring the evidence" },
+            { "id": "d2", "text": "doubting what you see" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Later knowledge can add context. That possibility of growth is not a present ground for doubt."
+          }
+        },
+        {
+          "id": "cx6",
+          "type": "choice",
+          "prompt": "When is doubt warranted?",
+          "answer": "reason",
+          "choices": [
+            { "id": "reason", "text": "When some evidence in your context counts against the claim" },
+            { "id": "always", "text": "Whenever you can say the words you might be wrong" },
+            { "id": "never", "text": "Never, because certainty means the context can never grow" },
+            { "id": "mood", "text": "Whenever you feel uneasy, with or without a reason" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Doubt is a cognitive response to contrary evidence, not a ritual phrase and not a mood."
+          }
+        },
+        {
+          "id": "cx7",
+          "type": "choice",
+          "prompt": "New evidence later widens what you know about a fact you had been certain of. What follows?",
+          "answer": "grow",
+          "choices": [
+            { "id": "grow", "text": "Your context grew; the earlier certainty still held for the context you had" },
+            { "id": "fake", "text": "The earlier certainty was never real" },
+            { "id": "ban", "text": "You must now treat every similar percept as arbitrary" },
+            { "id": "all", "text": "You were omniscient and have now lost that status" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Growth of knowledge does not erase a judgment that was fully supported in its context. It specifies or extends it."
+          }
+        },
+        {
+          "id": "cx8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the condition that removes doubt.",
+          "parts": [
+            { "type": "text", "text": "Inside a context, certainty means there is no evidence that warrants " },
+            { "type": "blank", "id": "b1", "answer": "doubt" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["doubt", "speech", "memory", "style"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If nothing in the context warrants doubt, the proper cognitive state is certainty, not a permanent maybe."
+          }
+        },
+        {
+          "id": "cx9",
+          "type": "match",
+          "prompt": "Match the situation to the verdict.",
+          "pairs": [
+            { "id": "a", "left": "All available evidence agrees, and none conflicts", "right": "Contextually certain" },
+            { "id": "b", "left": "Some evidence points the other way", "right": "Doubt is warranted" },
+            { "id": "c", "left": "Someone says you might be wrong someday, with no evidence", "right": "Not a ground for doubt" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only evidence inside the context can open or close doubt. A bare someday does neither."
+          }
+        },
+        {
+          "id": "cx10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the summary of contextual certainty.",
+          "tokens": [
+            { "id": "t1", "text": "No ground for doubt" },
+            { "id": "t2", "text": "in this context" },
+            { "id": "t3", "text": "is certainty" },
+            { "id": "d1", "text": "is omniscience" },
+            { "id": "d2", "text": "is an arbitrary guess" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The phrase in this context keeps certainty tied to evidence without shrinking it into a guess."
+          }
+        }
+      ]
+    },
+    {
+      "id": "possibility",
+      "title": "Possibility is not a shrug",
+      "objective": "Separate a genuine possibility, which some evidence supports, from an arbitrary maybe that cannot undercut contextual certainty.",
+      "exercises": [
+        {
+          "id": "po1",
+          "type": "choice",
+          "prompt": "When is something a genuine possibility?",
+          "answer": "some",
+          "choices": [
+            { "id": "some", "text": "When some evidence supports it, even if the evidence is not yet conclusive" },
+            { "id": "none", "text": "Whenever nobody has disproved it" },
+            { "id": "say", "text": "Whenever someone can pronounce the word maybe" },
+            { "id": "wish", "text": "Whenever you would like it to be so" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Possibility is a cognitive status. It requires some positive evidence, not a gap where a disproof has not been written."
+          }
+        },
+        {
+          "id": "po2",
+          "type": "choice",
+          "prompt": "You are certain, in context, that a book is on the shelf. A friend says, Maybe it is a hologram, and offers no evidence. What is that maybe?",
+          "answer": "arb",
+          "choices": [
+            { "id": "arb", "text": "Arbitrary, so it does not undercut your certainty" },
+            { "id": "pos", "text": "A real possibility that forces you to suspend judgment" },
+            { "id": "proof", "text": "Proof that the senses never justify certainty" },
+            { "id": "equal", "text": "Equal in weight to seeing the book" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An arbitrary maybe is not a possibility. It has no weight against evidence you already have."
+          }
+        },
+        {
+          "id": "po3",
+          "type": "match",
+          "prompt": "Match each maybe to its status.",
+          "pairs": [
+            { "id": "a", "left": "Clouds and a falling barometer", "right": "Rain is a genuine possibility" },
+            { "id": "b", "left": "No evidence at all for a hidden cause", "right": "The hidden cause is arbitrary" },
+            { "id": "c", "left": "Seeing the object, with nothing against it", "right": "Contextual certainty, not a mere maybe" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Evidence can make a possibility, support a certainty, or be missing entirely. Those are three different standings."
+          }
+        },
+        {
+          "id": "po4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast.",
+          "parts": [
+            { "type": "text", "text": "A real possibility rests on some " },
+            { "type": "blank", "id": "b1", "answer": "evidence" },
+            { "type": "text", "text": "; an arbitrary maybe does not." }
+          ],
+          "bank": ["evidence", "volume", "fashion", "fear"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Without some evidence, maybe does not name a possibility. It only repeats the arbitrary."
+          }
+        },
+        {
+          "id": "po5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the rule that protects certainty.",
+          "tokens": [
+            { "id": "t1", "text": "An arbitrary maybe" },
+            { "id": "t2", "text": "cannot undercut" },
+            { "id": "t3", "text": "contextual certainty" },
+            { "id": "d1", "text": "replaces all evidence" },
+            { "id": "d2", "text": "is omniscience" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Certainty yields to contrary evidence or to a supported alternative, not to a story with no basis."
+          }
+        },
+        {
+          "id": "po6",
+          "type": "choice",
+          "prompt": "Which slogan treats the arbitrary as if it were a possibility?",
+          "answer": "any",
+          "choices": [
+            { "id": "any", "text": "Anything is possible, since nothing has been disproved in advance" },
+            { "id": "check", "text": "Weigh the alternative that the measurements actually suggest" },
+            { "id": "see", "text": "Trust the percept when no evidence contradicts it" },
+            { "id": "ask", "text": "Ask the asserter for a reason before you consider the claim" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Anything is possible erases the difference between evidence and invention. The other lines keep that difference."
+          }
+        },
+        {
+          "id": "po7",
+          "type": "choice",
+          "prompt": "A laboratory result conflicts with a conclusion you had treated as certain. What should you do?",
+          "answer": "weigh",
+          "choices": [
+            { "id": "weigh", "text": "Weigh the new evidence; this is a real challenge, not an arbitrary maybe" },
+            { "id": "ignore", "text": "Ignore it, because certainty means the context is sealed forever" },
+            { "id": "drop", "text": "Drop all knowledge, because one result appeared" },
+            { "id": "arb", "text": "Call the result arbitrary even though it is evidence" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Contrary evidence is a ground for reopening the context. That is different from a baseless maybe, which you dismiss."
+          }
+        },
+        {
+          "id": "po8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the status that some evidence creates.",
+          "parts": [
+            { "type": "text", "text": "Some evidence, short of proof, makes a claim a " },
+            { "type": "blank", "id": "b1", "answer": "possibility" },
+            { "type": "text", "text": " rather than an arbitrary assertion." }
+          ],
+          "bank": ["possibility", "feeling", "command", "nickname"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Possibility sits between dismissal and certainty. It still depends on evidence, and it is not yet proof."
+          }
+        },
+        {
+          "id": "po9",
+          "type": "match",
+          "prompt": "Match the response to the input.",
+          "pairs": [
+            { "id": "a", "left": "Baseless maybe", "right": "Dismiss it; certainty stands" },
+            { "id": "b", "left": "Partial supporting evidence", "right": "Treat it as possible and keep checking" },
+            { "id": "c", "left": "Evidence with no ground for doubt", "right": "Claim contextual certainty" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The three responses match the three standings: arbitrary, possible, and certain."
+          }
+        },
+        {
+          "id": "po10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the closing contrast of the unit.",
+          "tokens": [
+            { "id": "t1", "text": "The arbitrary is empty" },
+            { "id": "t2", "text": "and certainty is" },
+            { "id": "t3", "text": "contextual" },
+            { "id": "d1", "text": "a shrug at the facts" },
+            { "id": "d2", "text": "whatever you prefer" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Emptiness belongs to the unsupported claim. Certainty belongs to a fact that your present context of evidence fully supports."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

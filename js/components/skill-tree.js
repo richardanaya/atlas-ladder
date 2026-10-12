@@ -2,13 +2,10 @@ import { adopt } from '../shared-styles.js';
 import { escapeHtml } from '../dom.js';
 import { currentLessonKey, isLessonUnlocked, lessonKey } from '../progress-rules.js';
 
-const POSES = ['idle', 'thinking', 'encourage', 'cheer', 'celebrate'];
-
 export class SkillTreeElement extends HTMLElement {
   constructor() {
     super();
     this._model = null;
-    this._timer = 0;
   }
 
   set model(value) {
@@ -29,10 +26,6 @@ export class SkillTreeElement extends HTMLElement {
     this._render();
   }
 
-  disconnectedCallback() {
-    clearInterval(this._timer);
-  }
-
   _render() {
     const tower = this.shadowRoot.querySelector('.tower');
     if (!tower || !this._model) return;
@@ -45,7 +38,6 @@ export class SkillTreeElement extends HTMLElement {
       ${sections}
       <footer class="crown">
         <div class="sun"></div>
-        <p>The upper floors are still on the drawing board.</p>
       </footer>
     `;
     const focus = tower.querySelector('.is-fresh') || tower.querySelector('.is-current') || tower.querySelector('.entrance');
@@ -57,19 +49,9 @@ export class SkillTreeElement extends HTMLElement {
   }
 
   _entrance() {
-    const buttons = POSES.map((pose) => `
-      <button type="button" data-pose="${pose}">${pose}</button>
-    `).join('');
     return `
       <section class="entrance">
-        <p class="eyebrow">A study tower</p>
-        <h1>Atlas Ladder</h1>
-        <p class="lede">Objectivism, one floor at a time. Atlas carries the globe. You carry the questions.</p>
         <atlas-mascot state="idle" size="lg"></atlas-mascot>
-        <p class="pose-name" data-pose-name>Idle</p>
-        <div class="pose-row">${buttons}</div>
-        <button type="button" class="play-poses">Play the five poses</button>
-        <p class="footnote">Short quotations are cited. Anything labeled Paraphrase is our wording, not a quotation.</p>
       </section>
     `;
   }
@@ -85,16 +67,22 @@ export class SkillTreeElement extends HTMLElement {
           const done = Boolean(completed[key]);
           const unlocked = isLessonUnlocked(this._model.catalog, completed, key);
           const state = done ? 'done' : unlocked ? 'open' : 'locked';
+          const isCurrent = key === current;
           const side = lessonCount % 2 === 0 ? 'left' : 'right';
-          const currentClass = key === current ? ' is-current' : '';
+          const currentClass = isCurrent ? ' is-current' : '';
           const freshClass = freshSet.has(key) ? ' is-fresh' : '';
           const num = String(index + 1).padStart(2, '0');
+          const status = isCurrent ? 'Learning' : done ? 'Done' : 'Locked';
+          const face = done ? '✓' : state === 'locked' ? '' : num;
           chunks.push(`
             <div class="floor ${side}${currentClass}${freshClass}">
               <button type="button" class="node" data-lesson data-state="${state}"
                 data-section="${escapeHtml(section.id)}" data-unit="${escapeHtml(unit.id)}" data-lesson-id="${escapeHtml(lesson.id)}"
-                ${key === current ? 'aria-current="step"' : ''}>
-                <span class="octo"><span class="octo-face">${done ? '✓' : state === 'locked' ? '–' : num}</span></span>
+                aria-label="${escapeHtml(lesson.title)}. ${status}"
+                ${isCurrent ? 'aria-current="step"' : ''}
+                ${state === 'locked' ? 'aria-disabled="true"' : ''}>
+                <span class="octo"><span class="octo-face">${face}</span></span>
+                <span class="status">${status}</span>
                 <span class="floor-label">${escapeHtml(lesson.title)}</span>
               </button>
             </div>
@@ -128,20 +116,10 @@ export class SkillTreeElement extends HTMLElement {
   }
 
   _onClick(event) {
-    const pose = event.target.closest('[data-pose]');
-    if (pose) {
-      clearInterval(this._timer);
-      this._setPose(pose.dataset.pose);
-      return;
-    }
-    if (event.target.closest('.play-poses')) {
-      this._cycle();
-      return;
-    }
     const button = event.target.closest('[data-lesson]');
     if (!button) return;
     if (button.dataset.state === 'locked') {
-      this._toast('Finish the open floor below this one.');
+      this._toast('Finish the open floor above this one.');
       return;
     }
     this.dispatchEvent(new CustomEvent('open-lesson', {
@@ -153,26 +131,6 @@ export class SkillTreeElement extends HTMLElement {
         lessonId: button.dataset.lessonId,
       },
     }));
-  }
-
-  _setPose(state) {
-    const mascot = this.shadowRoot.querySelector('atlas-mascot');
-    const label = this.shadowRoot.querySelector('[data-pose-name]');
-    mascot?.setAttribute('state', state);
-    if (label) label.textContent = state.charAt(0).toUpperCase() + state.slice(1);
-    this.shadowRoot.querySelectorAll('[data-pose]').forEach((button) => {
-      button.classList.toggle('is-on', button.dataset.pose === state);
-    });
-  }
-
-  _cycle() {
-    clearInterval(this._timer);
-    let index = 0;
-    this._setPose(POSES[0]);
-    this._timer = setInterval(() => {
-      index = (index + 1) % POSES.length;
-      this._setPose(POSES[index]);
-    }, 1500);
   }
 
   _toast(text) {

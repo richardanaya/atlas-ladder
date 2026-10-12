@@ -1,0 +1,885 @@
+{
+  "sectionId": "ethics",
+  "sectionFile": "ethics.json",
+  "unitId": "happiness",
+  "title": "Happiness",
+  "summary": "Happiness as the emotional state that follows from achieved values, not as a whim.",
+  "lessons": [
+    {
+      "id": "emotional-state",
+      "title": "An Emotional State",
+      "objective": "Identify happiness as an emotional state, not a possession, a rule, or a mood you invent.",
+      "exercises": [
+        {
+          "id": "h1e1",
+          "type": "choice",
+          "prompt": "In this unit, what kind of thing is happiness?",
+          "answer": "emotion",
+          "choices": [
+            { "id": "emotion", "text": "An emotional state" },
+            { "id": "object", "text": "A physical object you can store" },
+            { "id": "law", "text": "A political law" },
+            { "id": "duty", "text": "A duty to feel nothing" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Happiness is named as an emotional state. It is not a thing you own or a rule you recite."
+          }
+        },
+        {
+          "id": "h1e2",
+          "type": "match",
+          "prompt": "Match each label to what this unit treats it as.",
+          "pairs": [
+            { "id": "p1", "left": "Happiness", "right": "An emotional state" },
+            { "id": "p2", "left": "A whim", "right": "Not the definition of happiness" },
+            { "id": "p3", "left": "A value achieved", "right": "What the state follows from" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit’s name for happiness is an emotional state that follows achieved values, and that state is not a whim."
+          }
+        },
+        {
+          "id": "h1e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit’s name for happiness.",
+          "parts": [
+            { "type": "text", "text": "Happiness is an emotional " },
+            { "type": "blank", "id": "b1", "answer": "state" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["state", "object", "command", "whim"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word that finishes the definition here is state: happiness is an emotional state."
+          }
+        },
+        {
+          "id": "h1e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names what happiness is.",
+          "tokens": [
+            { "id": "t1", "text": "Happiness" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "an" },
+            { "id": "t4", "text": "emotional" },
+            { "id": "t5", "text": "state" },
+            { "id": "d1", "text": "whim" },
+            { "id": "d2", "text": "object" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The sentence to build is that happiness is an emotional state, not a whim and not an object."
+          }
+        },
+        {
+          "id": "h1e5",
+          "type": "choice",
+          "prompt": "Which description stays inside this unit’s idea of happiness?",
+          "answer": "felt",
+          "choices": [
+            { "id": "felt", "text": "A state you feel after values are achieved" },
+            { "id": "coin", "text": "A coin you can spend later" },
+            { "id": "vote", "text": "A vote other people cast for you" },
+            { "id": "blank", "text": "The absence of every feeling" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Because happiness is an emotional state, it is something felt, and this unit ties that feeling to achieved values."
+          }
+        },
+        {
+          "id": "h1e6",
+          "type": "match",
+          "prompt": "Match each item to whether it is an emotional state.",
+          "pairs": [
+            { "id": "m1", "left": "Happiness", "right": "Yes, an emotional state" },
+            { "id": "m2", "left": "A stored trophy", "right": "No, a physical thing" },
+            { "id": "m3", "left": "A written statute", "right": "No, a rule on paper" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only happiness, among these, is the emotional state the unit is teaching."
+          }
+        },
+        {
+          "id": "h1e7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two words that name the kind of state happiness is.",
+          "parts": [
+            { "type": "text", "text": "Happiness is " },
+            { "type": "blank", "id": "b1", "answer": "emotional" },
+            { "type": "text", "text": ", not a stored " },
+            { "type": "blank", "id": "b2", "answer": "object" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["emotional", "object", "legal", "random"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Call it emotional. Do not treat it as an object you put on a shelf."
+          }
+        },
+        {
+          "id": "h1e8",
+          "type": "choice",
+          "prompt": "Someone says happiness is just a whim. What does this unit say happiness is instead?",
+          "answer": "state",
+          "choices": [
+            { "id": "state", "text": "An emotional state that follows achieved values" },
+            { "id": "whim", "text": "A whim with no tie to values" },
+            { "id": "pain", "text": "The emotional state of having no values" },
+            { "id": "luck", "text": "A prize awarded at random" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit refuses the whim account. Happiness is the emotional state that follows from values you have achieved."
+          }
+        },
+        {
+          "id": "h1e9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the short contrast.",
+          "tokens": [
+            { "id": "t1", "text": "Happiness" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "a" },
+            { "id": "t4", "text": "state" },
+            { "id": "t5", "text": "not" },
+            { "id": "t6", "text": "a" },
+            { "id": "t7", "text": "whim" },
+            { "id": "d1", "text": "statute" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep both halves: happiness is a state, and that state is not a whim."
+          }
+        },
+        {
+          "id": "h1e10",
+          "type": "choice",
+          "prompt": "Which word belongs in the definition beside emotional?",
+          "answer": "state",
+          "choices": [
+            { "id": "state", "text": "State" },
+            { "id": "tool", "text": "Tool" },
+            { "id": "place", "text": "Place" },
+            { "id": "debt", "text": "Debt" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The pairing in this unit is emotional state. Tool, place, and debt are the wrong kind of thing."
+          }
+        }
+      ]
+    },
+    {
+      "id": "follows-values",
+      "title": "What It Follows From",
+      "objective": "Connect the emotional state of happiness to values that have been achieved.",
+      "exercises": [
+        {
+          "id": "h2e1",
+          "type": "choice",
+          "prompt": "Happiness, as this unit states it, follows from what?",
+          "answer": "achieved",
+          "choices": [
+            { "id": "achieved", "text": "Achieved values" },
+            { "id": "rumors", "text": "Other people’s rumors" },
+            { "id": "weather", "text": "The weather alone" },
+            { "id": "none", "text": "Having no values at all" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The state follows from achieved values. It is not tied to rumor, weather, or an empty list of values."
+          }
+        },
+        {
+          "id": "h2e2",
+          "type": "match",
+          "prompt": "Match each phrase to its role in the definition.",
+          "pairs": [
+            { "id": "a", "left": "Emotional state", "right": "What happiness is" },
+            { "id": "b", "left": "Achieved values", "right": "What the state follows from" },
+            { "id": "c", "left": "A whim", "right": "What happiness is not" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Three jobs: name the state, name its source in achieved values, and reject the whim."
+          }
+        },
+        {
+          "id": "h2e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the source of the emotional state.",
+          "parts": [
+            { "type": "text", "text": "Happiness follows from " },
+            { "type": "blank", "id": "b1", "answer": "achieved" },
+            { "type": "text", "text": " values." }
+          ],
+          "bank": ["achieved", "imagined", "forbidden", "random"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The values have to be achieved. Merely imagined or random wishes are not the source named here."
+          }
+        },
+        {
+          "id": "h2e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about what the state follows from.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "state" },
+            { "id": "t3", "text": "follows" },
+            { "id": "t4", "text": "from" },
+            { "id": "t5", "text": "achieved" },
+            { "id": "t6", "text": "values" },
+            { "id": "d1", "text": "whims" },
+            { "id": "d2", "text": "rumors" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Follows from achieved values. Whims and rumors are the distractors, not the source."
+          }
+        },
+        {
+          "id": "h2e5",
+          "type": "choice",
+          "prompt": "A person gains a value they chose and worked for. On this unit’s account, happiness is the state that…",
+          "answer": "follows",
+          "choices": [
+            { "id": "follows", "text": "Follows that achievement" },
+            { "id": "replaces", "text": "Replaces the value so the value no longer matters" },
+            { "id": "denies", "text": "Shows the value was a mistake" },
+            { "id": "ignores", "text": "Has nothing to do with the value" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The emotion follows the achieved value. It does not cancel the value or float free of it."
+          }
+        },
+        {
+          "id": "h2e6",
+          "type": "match",
+          "prompt": "Match each case to the unit’s verdict.",
+          "pairs": [
+            { "id": "c1", "left": "A value actually achieved", "right": "Can be what happiness follows from" },
+            { "id": "c2", "left": "A value only daydreamed", "right": "Not yet an achieved value" },
+            { "id": "c3", "left": "A whim with no value", "right": "Not the source this unit names" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Achievement is the link. A daydream has not achieved the value, and a whim is not a value achieved."
+          }
+        },
+        {
+          "id": "h2e7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both blanks from the unit summary.",
+          "parts": [
+            { "type": "text", "text": "The emotional state follows from " },
+            { "type": "blank", "id": "b1", "answer": "achieved" },
+            { "type": "text", "text": " " },
+            { "type": "blank", "id": "b2", "answer": "values" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["achieved", "values", "missed", "whims"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Both words matter: achieved, and values. Missed whims are not the pair."
+          }
+        },
+        {
+          "id": "h2e8",
+          "type": "choice",
+          "prompt": "Which pairing matches the unit?",
+          "answer": "pair",
+          "choices": [
+            { "id": "pair", "text": "Emotional state, from achieved values" },
+            { "id": "flip", "text": "Achieved values, from a whim" },
+            { "id": "none", "text": "No state, and no values" },
+            { "id": "mood", "text": "A whim, from having no values" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the direction: the emotional state follows from achieved values, not the other way around and not from a whim."
+          }
+        },
+        {
+          "id": "h2e9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the full short definition.",
+          "tokens": [
+            { "id": "t1", "text": "Happiness" },
+            { "id": "t2", "text": "follows" },
+            { "id": "t3", "text": "from" },
+            { "id": "t4", "text": "achieved" },
+            { "id": "t5", "text": "values" },
+            { "id": "d1", "text": "whims" },
+            { "id": "d2", "text": "accidents" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Happiness follows from achieved values. Leave whims and accidents out of the sentence."
+          }
+        },
+        {
+          "id": "h2e10",
+          "type": "choice",
+          "prompt": "If no value has been achieved, what does this unit refuse to call the source of happiness?",
+          "answer": "gap",
+          "choices": [
+            { "id": "gap", "text": "The mere lack of achievement" },
+            { "id": "vals", "text": "Values that have been achieved" },
+            { "id": "state", "text": "The emotional state itself as a name" },
+            { "id": "link", "text": "The link between state and achievement" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The source named here is achieved values. A gap where nothing was achieved is not that source."
+          }
+        }
+      ]
+    },
+    {
+      "id": "order-of-cause",
+      "title": "Achievement Comes First",
+      "objective": "Keep the order straight: the value is achieved, and the emotional state follows.",
+      "exercises": [
+        {
+          "id": "h3e1",
+          "type": "choice",
+          "prompt": "Which order matches the unit?",
+          "answer": "first",
+          "choices": [
+            { "id": "first", "text": "Achieve the value, then the emotional state follows" },
+            { "id": "flip", "text": "Feel a whim first, and call that the value" },
+            { "id": "skip", "text": "Skip values and start with the feeling" },
+            { "id": "never", "text": "Never achieve anything if you want the state" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Follows from means the achievement comes first. The emotional state is what comes after."
+          }
+        },
+        {
+          "id": "h3e2",
+          "type": "match",
+          "prompt": "Match each step to its place in the order.",
+          "pairs": [
+            { "id": "o1", "left": "Achieve a value", "right": "Comes first" },
+            { "id": "o2", "left": "The emotional state", "right": "Follows the achievement" },
+            { "id": "o3", "left": "Treating a whim as enough", "right": "Not the order this unit teaches" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "First the achieved value, then the state. A whim is not a step in that order."
+          }
+        },
+        {
+          "id": "h3e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the order.",
+          "parts": [
+            { "type": "text", "text": "The value is achieved, and the emotional state " },
+            { "type": "blank", "id": "b1", "answer": "follows" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["follows", "precedes", "cancels", "invents"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The verb is follows. The state does not precede the achievement, cancel it, or invent it."
+          }
+        },
+        {
+          "id": "h3e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the order in one line.",
+          "tokens": [
+            { "id": "t1", "text": "Achieved" },
+            { "id": "t2", "text": "values" },
+            { "id": "t3", "text": "come" },
+            { "id": "t4", "text": "before" },
+            { "id": "t5", "text": "the" },
+            { "id": "t6", "text": "state" },
+            { "id": "d1", "text": "after" },
+            { "id": "d2", "text": "whim" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Achieved values come before the state. After and whim do not belong in this line."
+          }
+        },
+        {
+          "id": "h3e5",
+          "type": "choice",
+          "prompt": "Why is chasing the feeling before any value the wrong order?",
+          "answer": "because",
+          "choices": [
+            { "id": "because", "text": "The state is what follows achievement, not a substitute for it" },
+            { "id": "luck", "text": "Because feelings are illegal" },
+            { "id": "only", "text": "Because only other people may have values" },
+            { "id": "never", "text": "Because values must never be achieved" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The feeling is the result side of the definition. Putting it first drops the achieved values the state follows from."
+          }
+        },
+        {
+          "id": "h3e6",
+          "type": "match",
+          "prompt": "Match each slogan to the order it implies.",
+          "pairs": [
+            { "id": "s1", "left": "Gain the value, then the state", "right": "The unit’s order" },
+            { "id": "s2", "left": "Feel first, values optional", "right": "The reversed order" },
+            { "id": "s3", "left": "A whim is the whole story", "right": "Not this unit’s account" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the first slogan keeps achievement ahead of the emotional state and refuses the whim."
+          }
+        },
+        {
+          "id": "h3e7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two time-words.",
+          "parts": [
+            { "type": "text", "text": "Achievement comes " },
+            { "type": "blank", "id": "b1", "answer": "first" },
+            { "type": "text", "text": "; the state comes " },
+            { "type": "blank", "id": "b2", "answer": "after" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["first", "after", "never", "instead"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "First and after mark the order: achievement, then the emotional state that follows."
+          }
+        },
+        {
+          "id": "h3e8",
+          "type": "choice",
+          "prompt": "A student says the feeling creates the value. What should you answer from this unit?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. The state follows from the value achieved, it does not create it." },
+            { "id": "yes", "text": "Yes. A whim is the value." },
+            { "id": "same", "text": "Yes. Feeling and achievement are the same event with no order." },
+            { "id": "drop", "text": "Drop both. Happiness is not an emotional state." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Do not reverse the dependence. Achieved values are the source; the emotional state follows them."
+          }
+        },
+        {
+          "id": "h3e9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the warning about order.",
+          "tokens": [
+            { "id": "t1", "text": "Do" },
+            { "id": "t2", "text": "not" },
+            { "id": "t3", "text": "put" },
+            { "id": "t4", "text": "the" },
+            { "id": "t5", "text": "state" },
+            { "id": "t6", "text": "first" },
+            { "id": "d1", "text": "last" },
+            { "id": "d2", "text": "value" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The state is not first. Putting it first would skip the achieved values it follows from."
+          }
+        },
+        {
+          "id": "h3e10",
+          "type": "choice",
+          "prompt": "When the unit says the state follows, which item is later in the sequence?",
+          "answer": "state",
+          "choices": [
+            { "id": "state", "text": "The emotional state" },
+            { "id": "value", "text": "The achieved value" },
+            { "id": "both", "text": "Neither, because there is no sequence" },
+            { "id": "whim", "text": "A whim, which is earlier than both" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Follows places the emotional state later than the achieved value. A whim is not a step ahead of either."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-a-whim",
+      "title": "Not a Whim",
+      "objective": "Separate happiness from a whim, a feeling with no tie to achieved values.",
+      "exercises": [
+        {
+          "id": "h4e1",
+          "type": "choice",
+          "prompt": "On this unit’s account, happiness is not what?",
+          "answer": "whim",
+          "choices": [
+            { "id": "whim", "text": "A whim" },
+            { "id": "state", "text": "An emotional state" },
+            { "id": "from", "text": "Something that follows achieved values" },
+            { "id": "felt", "text": "Something a person can feel" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The summary adds a refusal: happiness is not a whim. It remains an emotional state that follows achieved values."
+          }
+        },
+        {
+          "id": "h4e2",
+          "type": "match",
+          "prompt": "Match each idea to happiness or to a whim.",
+          "pairs": [
+            { "id": "w1", "left": "Follows achieved values", "right": "Happiness" },
+            { "id": "w2", "left": "An emotional state", "right": "Happiness" },
+            { "id": "w3", "left": "A feeling with no tie to values", "right": "A whim" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Happiness stays tied to achieved values. A whim is the feeling cut loose from that tie."
+          }
+        },
+        {
+          "id": "h4e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the refusal.",
+          "parts": [
+            { "type": "text", "text": "Happiness is not a " },
+            { "type": "blank", "id": "b1", "answer": "whim" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["whim", "state", "value", "fact"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word to refuse is whim. State is what happiness is, not what it is not."
+          }
+        },
+        {
+          "id": "h4e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that rejects the whim.",
+          "tokens": [
+            { "id": "t1", "text": "Happiness" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "whim" },
+            { "id": "d1", "text": "state" },
+            { "id": "d2", "text": "value" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The rejection sentence is short: happiness is not a whim. State and value are true parts of the wider definition, but they are distractors in this line."
+          }
+        },
+        {
+          "id": "h4e5",
+          "type": "choice",
+          "prompt": "Which feeling fits a whim rather than this unit’s happiness?",
+          "answer": "loose",
+          "choices": [
+            { "id": "loose", "text": "A feeling chosen with no achieved value behind it" },
+            { "id": "tied", "text": "The state that follows a value you achieved" },
+            { "id": "both", "text": "Any emotional state, including the one that follows values" },
+            { "id": "none", "text": "No feeling of any kind" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A whim here means a feeling unhooked from achieved values. Happiness is the state that stays hooked to them."
+          }
+        },
+        {
+          "id": "h4e6",
+          "type": "match",
+          "prompt": "Match the claim to the right correction.",
+          "pairs": [
+            { "id": "r1", "left": "Happiness is whatever whim I feel", "right": "No. It is not a whim." },
+            { "id": "r2", "left": "Happiness ignores values", "right": "No. It follows achieved values." },
+            { "id": "r3", "left": "Happiness is an emotional state", "right": "Yes. That is what it is." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Correct the two denials, and keep the positive claim that happiness is an emotional state."
+          }
+        },
+        {
+          "id": "h4e7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the contrast.",
+          "parts": [
+            { "type": "text", "text": "A whim lacks achieved " },
+            { "type": "blank", "id": "b1", "answer": "values" },
+            { "type": "text", "text": "; happiness does " },
+            { "type": "blank", "id": "b2", "answer": "not" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["values", "not", "whims", "always"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The whim is missing achieved values. Happiness is not that kind of feeling."
+          }
+        },
+        {
+          "id": "h4e8",
+          "type": "choice",
+          "prompt": "Calling happiness a whim drops which part of the definition?",
+          "answer": "link",
+          "choices": [
+            { "id": "link", "text": "The tie to achieved values" },
+            { "id": "name", "text": "The fact that it is felt" },
+            { "id": "word", "text": "The word state, and nothing else" },
+            { "id": "all", "text": "Nothing. A whim already means achieved values." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The whim account cuts the state off from achieved values, which is the link this unit insists on."
+          }
+        },
+        {
+          "id": "h4e9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the contrast in order.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "whim" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "not" },
+            { "id": "t5", "text": "achieved" },
+            { "id": "t6", "text": "values" },
+            { "id": "d1", "text": "happiness" },
+            { "id": "d2", "text": "follows" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A whim is not achieved values. Do not swap in happiness or follows for this contrast."
+          }
+        },
+        {
+          "id": "h4e10",
+          "type": "choice",
+          "prompt": "Which sentence agrees with the unit?",
+          "answer": "agree",
+          "choices": [
+            { "id": "agree", "text": "Happiness is the emotional state from achieved values, not a whim." },
+            { "id": "swap", "text": "A whim is the emotional state that follows achieved values." },
+            { "id": "only", "text": "Only a whim counts, and values do not." },
+            { "id": "deny", "text": "Happiness is neither a state nor tied to values." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the whole line: emotional state, from achieved values, and not a whim."
+          }
+        }
+      ]
+    },
+    {
+      "id": "whole-definition",
+      "title": "The Whole Definition",
+      "objective": "State the full idea in one piece: the emotional state that follows achieved values, and not a whim.",
+      "exercises": [
+        {
+          "id": "h5e1",
+          "type": "choice",
+          "prompt": "Which sentence is the whole unit in one line?",
+          "answer": "whole",
+          "choices": [
+            { "id": "whole", "text": "Happiness is the emotional state that follows from achieved values, not a whim." },
+            { "id": "half", "text": "Happiness is a whim, and values come later if at all." },
+            { "id": "none", "text": "Happiness is not an emotional state." },
+            { "id": "swap", "text": "Achieved values follow from a whim called happiness." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The full line has three parts: emotional state, follows from achieved values, and not a whim."
+          }
+        },
+        {
+          "id": "h5e2",
+          "type": "match",
+          "prompt": "Match each piece of the definition to its job.",
+          "pairs": [
+            { "id": "j1", "left": "Emotional state", "right": "Names what happiness is" },
+            { "id": "j2", "left": "Follows from achieved values", "right": "Names the source and the order" },
+            { "id": "j3", "left": "Not a whim", "right": "Names what to reject" },
+            { "id": "j4", "left": "A stored object", "right": "Not part of the definition" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Three pieces do the work of the unit. Treating happiness as a stored object is outside the definition."
+          }
+        },
+        {
+          "id": "h5e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Restore the three key words.",
+          "parts": [
+            { "type": "text", "text": "An emotional " },
+            { "type": "blank", "id": "b1", "answer": "state" },
+            { "type": "text", "text": " from achieved " },
+            { "type": "blank", "id": "b2", "answer": "values" },
+            { "type": "text", "text": ", not a " },
+            { "type": "blank", "id": "b3", "answer": "whim" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["state", "values", "whim", "object", "luck"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "State, values, and whim are the three words. Object and luck are extras in the bank."
+          }
+        },
+        {
+          "id": "h5e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the whole definition.",
+          "tokens": [
+            { "id": "t1", "text": "Happiness" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "the" },
+            { "id": "t4", "text": "state" },
+            { "id": "t5", "text": "from" },
+            { "id": "t6", "text": "achieved" },
+            { "id": "t7", "text": "values" },
+            { "id": "d1", "text": "whims" },
+            { "id": "d2", "text": "rumors" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Happiness is the state from achieved values. Whims and rumors stay out of the built sentence."
+          }
+        },
+        {
+          "id": "h5e5",
+          "type": "choice",
+          "prompt": "A friend remembers only not a whim. What is still missing?",
+          "answer": "rest",
+          "choices": [
+            { "id": "rest", "text": "That it is the emotional state following achieved values" },
+            { "id": "extra", "text": "Nothing. The refusal is the entire definition." },
+            { "id": "law", "text": "A statute number" },
+            { "id": "pain", "text": "That happiness means the loss of every value" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Not a whim is only the refusal. The positive claim is still the emotional state that follows achieved values."
+          }
+        },
+        {
+          "id": "h5e6",
+          "type": "match",
+          "prompt": "Match the incomplete memory to what it leaves out.",
+          "pairs": [
+            { "id": "i1", "left": "Only emotional state", "right": "Leaves out achieved values and the whim refusal" },
+            { "id": "i2", "left": "Only achieved values", "right": "Leaves out that happiness is the state that follows" },
+            { "id": "i3", "left": "Only not a whim", "right": "Leaves out the positive definition" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each fragment is real, and none of them is the whole unit by itself."
+          }
+        },
+        {
+          "id": "h5e7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the summary line.",
+          "parts": [
+            { "type": "text", "text": "Happiness follows from achieved values, not from a " },
+            { "type": "blank", "id": "b1", "answer": "whim" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["whim", "value", "state", "fact"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The contrast at the end of the summary is a whim. Value and state are the other side of the definition, not the thing it is not."
+          }
+        },
+        {
+          "id": "h5e8",
+          "type": "choice",
+          "prompt": "Which change would break the definition?",
+          "answer": "break",
+          "choices": [
+            { "id": "break", "text": "Replacing achieved values with a whim" },
+            { "id": "keep", "text": "Keeping happiness as an emotional state" },
+            { "id": "order", "text": "Letting the state follow the achievement" },
+            { "id": "deny", "text": "Denying that happiness is a whim" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Swap the source for a whim and the unit’s definition is gone. The other three choices are the definition itself."
+          }
+        },
+        {
+          "id": "h5e9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the refusal that closes the definition.",
+          "tokens": [
+            { "id": "t1", "text": "Not" },
+            { "id": "t2", "text": "as" },
+            { "id": "t3", "text": "a" },
+            { "id": "t4", "text": "whim" },
+            { "id": "d1", "text": "state" },
+            { "id": "d2", "text": "value" },
+            { "id": "d3", "text": "Always" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The closing refusal is not as a whim. State, value, and always are not part of that short line."
+          }
+        },
+        {
+          "id": "h5e10",
+          "type": "choice",
+          "prompt": "You finish the unit. Which check shows you have the idea?",
+          "answer": "check",
+          "choices": [
+            { "id": "check", "text": "You can say state, achieved values, and not a whim without dropping one" },
+            { "id": "one", "text": "You remember only the word whim" },
+            { "id": "mood", "text": "You treat every mood as happiness" },
+            { "id": "skip", "text": "You skip values and keep the feeling alone" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The check is the whole definition together: an emotional state, from achieved values, and not a whim."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

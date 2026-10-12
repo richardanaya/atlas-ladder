@@ -1,0 +1,853 @@
+{
+  "sectionId": "human-nature",
+  "sectionFile": "human-nature.json",
+  "unitId": "needs",
+  "title": "Needs of a Living Being",
+  "summary": "A living organism's needs follow from the kind of organism it is. Man's needs include the use of reason.",
+  "lessons": [
+    {
+      "id": "what-a-need",
+      "title": "What a need is",
+      "objective": "Identify a need as something required by the kind of living organism, not a whim or a luxury.",
+      "exercises": [
+        {
+          "id": "wan-choice-name",
+          "type": "choice",
+          "prompt": "On this floor, what is a need of a living being?",
+          "answer": "required",
+          "choices": [
+            { "id": "required", "text": "Something required by the kind of organism it is" },
+            { "id": "whim", "text": "Whatever it feels like wanting at the moment" },
+            { "id": "luxury", "text": "A luxury added after life is already secure" },
+            { "id": "vote", "text": "Whatever a crowd votes that it should want" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A need is required by the kind of organism. It is not a whim, a luxury, or a vote."
+          }
+        },
+        {
+          "id": "wan-choice-not",
+          "type": "choice",
+          "prompt": "Which of these is not a need in this unit’s sense?",
+          "answer": "passing",
+          "choices": [
+            { "id": "passing", "text": "A passing preference with no tie to the kind of organism" },
+            { "id": "kind", "text": "Something the kind of organism requires" },
+            { "id": "follow", "text": "A requirement that follows from what the organism is" },
+            { "id": "living", "text": "A requirement of a living being as that kind of being" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A preference that does not follow from the kind of organism is not a need on this floor."
+          }
+        },
+        {
+          "id": "wan-match-terms",
+          "type": "match",
+          "prompt": "Match each term to what this floor means by it.",
+          "pairs": [
+            { "id": "need", "left": "A need", "right": "Required by the kind of organism" },
+            { "id": "whim", "left": "A whim", "right": "Not a need" },
+            { "id": "luxury", "left": "A luxury", "right": "Not required by the kind" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Need names what the kind requires. Whim and luxury do not."
+          }
+        },
+        {
+          "id": "wan-blanks-line",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line for what a need is.",
+          "parts": [
+            { "type": "text", "text": "A need is something " },
+            { "type": "blank", "id": "b1", "answer": "required" },
+            { "type": "text", "text": " by the " },
+            { "type": "blank", "id": "b2", "answer": "kind" },
+            { "type": "text", "text": " of organism." }
+          ],
+          "bank": ["required", "kind", "voted", "optional"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The short form is: a need is something required by the kind of organism. It is not voted in and it is not optional decoration."
+          }
+        },
+        {
+          "id": "wan-sentence-need",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names a need.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "need" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "required" },
+            { "id": "t5", "text": "by" },
+            { "id": "t6", "text": "the" },
+            { "id": "t7", "text": "kind" },
+            { "id": "d1", "text": "whim" },
+            { "id": "d2", "text": "luxury" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A need is required by the kind. Whim and luxury are the words this sentence leaves out."
+          }
+        },
+        {
+          "id": "wan-choice-miss",
+          "type": "choice",
+          "prompt": "Someone says, a need is just a strong wish. What does that miss?",
+          "answer": "kind",
+          "choices": [
+            { "id": "kind", "text": "That a need follows from the kind of organism" },
+            { "id": "wish", "text": "That every wish is already a need" },
+            { "id": "crowd", "text": "That a crowd decides the organism’s kind" },
+            { "id": "later", "text": "That needs appear only after the organism stops living" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Strength of a wish does not make a need. The need follows from the kind of organism."
+          }
+        },
+        {
+          "id": "wan-blanks-not",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast with a whim.",
+          "parts": [
+            { "type": "text", "text": "A need is not a " },
+            { "type": "blank", "id": "b1", "answer": "whim" },
+            { "type": "text", "text": ". It is " },
+            { "type": "blank", "id": "b2", "answer": "required" },
+            { "type": "text", "text": " by the kind of organism." }
+          ],
+          "bank": ["whim", "required", "optional", "voted"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Calling a need a whim drops the requirement. The kind of organism is what makes the requirement."
+          }
+        },
+        {
+          "id": "wan-sentence-follow",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that ties a need to the organism.",
+          "tokens": [
+            { "id": "t1", "text": "Needs" },
+            { "id": "t2", "text": "follow" },
+            { "id": "t3", "text": "from" },
+            { "id": "t4", "text": "the" },
+            { "id": "t5", "text": "kind" },
+            { "id": "d1", "text": "whim" },
+            { "id": "d2", "text": "vote" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Needs follow from the kind. They are not issued by whim or by vote."
+          }
+        },
+        {
+          "id": "wan-match-pairs",
+          "type": "match",
+          "prompt": "Match each claim to the verdict this floor gives it.",
+          "pairs": [
+            { "id": "req", "left": "Required by the kind", "right": "That is a need" },
+            { "id": "wish", "left": "A passing wish", "right": "Not a need" },
+            { "id": "extra", "left": "An optional extra", "right": "Not required by the kind" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only what the kind requires counts as a need. A wish and an optional extra do not."
+          }
+        }
+      ]
+    },
+    {
+      "id": "kind-sets-needs",
+      "title": "The kind sets the needs",
+      "objective": "Show that different kinds of organism have different needs, because each need follows from the kind of organism it is.",
+      "exercises": [
+        {
+          "id": "ksn-choice-rule",
+          "type": "choice",
+          "prompt": "Why do two kinds of living organism not share one list of needs?",
+          "answer": "kind",
+          "choices": [
+            { "id": "kind", "text": "Needs follow from the kind of organism each one is" },
+            { "id": "same", "text": "Every living thing has the same needs" },
+            { "id": "taste", "text": "Each organism picks needs by taste" },
+            { "id": "none", "text": "Living organisms have no needs at all" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The list changes with the kind. One shared menu would ignore what each organism is."
+          }
+        },
+        {
+          "id": "ksn-choice-swap",
+          "type": "choice",
+          "prompt": "What goes wrong if you give one kind the needs of another kind?",
+          "answer": "mismatch",
+          "choices": [
+            { "id": "mismatch", "text": "The needs no longer follow from the organism that has them" },
+            { "id": "better", "text": "The needs become more accurate" },
+            { "id": "optional", "text": "Needs become optional for every kind" },
+            { "id": "same", "text": "Nothing, because every kind has the same needs" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A need borrowed from another kind does not follow from this organism. That is the mistake."
+          }
+        },
+        {
+          "id": "ksn-match-kinds",
+          "type": "match",
+          "prompt": "Match each idea to the rule about kinds.",
+          "pairs": [
+            { "id": "plant", "left": "One kind of organism", "right": "Has the needs of that kind" },
+            { "id": "other", "left": "A different kind", "right": "Has a different set of needs" },
+            { "id": "copy", "left": "Copying another kind’s list", "right": "Does not follow from this organism" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each kind carries its own needs. Copying another kind’s list breaks the rule."
+          }
+        },
+        {
+          "id": "ksn-blanks-follow",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rule that sets the needs.",
+          "parts": [
+            { "type": "text", "text": "Needs follow from the " },
+            { "type": "blank", "id": "b1", "answer": "kind" },
+            { "type": "text", "text": " of " },
+            { "type": "blank", "id": "b2", "answer": "organism" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["kind", "organism", "whim", "crowd"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The rule is short: needs follow from the kind of organism. Whim and crowd are not the source."
+          }
+        },
+        {
+          "id": "ksn-sentence-differ",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that says kinds differ in their needs.",
+          "tokens": [
+            { "id": "t1", "text": "Different" },
+            { "id": "t2", "text": "kinds" },
+            { "id": "t3", "text": "have" },
+            { "id": "t4", "text": "different" },
+            { "id": "t5", "text": "needs" },
+            { "id": "d1", "text": "identical" },
+            { "id": "d2", "text": "whims" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Different kinds have different needs. They do not share one identical list, and whims are not the name of those needs."
+          }
+        },
+        {
+          "id": "ksn-choice-same",
+          "type": "choice",
+          "prompt": "A student says every organism needs exactly what a human needs. What is wrong?",
+          "answer": "kind",
+          "choices": [
+            { "id": "kind", "text": "Needs follow from each kind, not from the human kind alone" },
+            { "id": "true", "text": "Nothing, because kinds do not matter" },
+            { "id": "luxury", "text": "Human needs are only luxuries" },
+            { "id": "vote", "text": "Needs are whatever people agree to share" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Human needs belong to the human kind. Other kinds have the needs that follow from what they are."
+          }
+        },
+        {
+          "id": "ksn-blanks-not-same",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast between kinds.",
+          "parts": [
+            { "type": "text", "text": "A need of one kind is not automatically a need of " },
+            { "type": "blank", "id": "b1", "answer": "another" },
+            { "type": "text", "text": " kind, because needs follow from the " },
+            { "type": "blank", "id": "b2", "answer": "organism" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["another", "organism", "whim", "vote"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Another kind is another set of requirements. The organism, not a whim or a vote, sets them."
+          }
+        },
+        {
+          "id": "ksn-sentence-from",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states where needs come from.",
+          "tokens": [
+            { "id": "t1", "text": "Each" },
+            { "id": "t2", "text": "need" },
+            { "id": "t3", "text": "follows" },
+            { "id": "t4", "text": "from" },
+            { "id": "t5", "text": "its" },
+            { "id": "t6", "text": "kind" },
+            { "id": "d1", "text": "fashion" },
+            { "id": "d2", "text": "mood" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each need follows from its kind. Fashion and mood do not set it."
+          }
+        },
+        {
+          "id": "ksn-match-errors",
+          "type": "match",
+          "prompt": "Match each error to what it gets wrong.",
+          "pairs": [
+            { "id": "one", "left": "One list for every kind", "right": "Ignores that kinds differ" },
+            { "id": "borrow", "left": "Borrowing another kind’s needs", "right": "Does not follow from this organism" },
+            { "id": "none", "left": "Saying organisms have no needs", "right": "Drops what the kind requires" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The kind sets the needs. A single list, a borrowed list, or no list at all all miss that."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mans-kind",
+      "title": "Man's kind, man's needs",
+      "objective": "Apply the rule to man: his needs are the needs of the kind of organism he is, not a list taken from another kind.",
+      "exercises": [
+        {
+          "id": "mk-choice-whose",
+          "type": "choice",
+          "prompt": "Whose kind sets man’s needs?",
+          "answer": "man",
+          "choices": [
+            { "id": "man", "text": "The kind of organism man is" },
+            { "id": "plant", "text": "The kind of organism a plant is" },
+            { "id": "crowd", "text": "Whatever a crowd prefers this year" },
+            { "id": "none", "text": "No kind, because man has no needs" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Man’s needs follow from the kind of organism he is. They are not borrowed from another kind or from a crowd."
+          }
+        },
+        {
+          "id": "mk-choice-not-plant",
+          "type": "choice",
+          "prompt": "Why is a plant’s list of needs not man’s list?",
+          "answer": "kind",
+          "choices": [
+            { "id": "kind", "text": "Man is a different kind of organism, so his needs follow from that kind" },
+            { "id": "same", "text": "It is the same list, because all life is one kind" },
+            { "id": "smaller", "text": "Man has fewer needs because he is smaller" },
+            { "id": "vote", "text": "Plants vote on human needs" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The kind differs, so the needs differ. Man’s requirements are the ones that follow from what he is."
+          }
+        },
+        {
+          "id": "mk-match-apply",
+          "type": "match",
+          "prompt": "Match each phrase to the claim about man.",
+          "pairs": [
+            { "id": "kind", "left": "Man’s kind", "right": "Sets man’s needs" },
+            { "id": "other", "left": "Another organism’s kind", "right": "Does not set man’s needs" },
+            { "id": "follow", "left": "Man’s needs", "right": "Follow from the organism he is" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Apply the same rule: the organism’s own kind sets its needs. Man is no exception."
+          }
+        },
+        {
+          "id": "mk-blanks-follow",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line about man’s needs.",
+          "parts": [
+            { "type": "text", "text": "Man’s needs follow from the " },
+            { "type": "blank", "id": "b1", "answer": "kind" },
+            { "type": "text", "text": " of organism " },
+            { "type": "blank", "id": "b2", "answer": "he" },
+            { "type": "text", "text": " is." }
+          ],
+          "bank": ["kind", "he", "plants", "crowds"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Man’s needs follow from the kind of organism he is. Plants and crowds do not write that list."
+          }
+        },
+        {
+          "id": "mk-sentence-his",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that applies the rule to man.",
+          "tokens": [
+            { "id": "t1", "text": "Man’s" },
+            { "id": "t2", "text": "needs" },
+            { "id": "t3", "text": "follow" },
+            { "id": "t4", "text": "from" },
+            { "id": "t5", "text": "his" },
+            { "id": "t6", "text": "kind" },
+            { "id": "d1", "text": "whim" },
+            { "id": "d2", "text": "fashion" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Man’s needs follow from his kind. Whim and fashion are not the source."
+          }
+        },
+        {
+          "id": "mk-choice-borrow",
+          "type": "choice",
+          "prompt": "Someone builds a list of human needs by copying another species. What is the error?",
+          "answer": "not-his",
+          "choices": [
+            { "id": "not-his", "text": "Those needs do not follow from the kind of organism man is" },
+            { "id": "fine", "text": "There is no error, because kinds share one list" },
+            { "id": "more", "text": "The error is that the list is too short to be a luxury" },
+            { "id": "feel", "text": "The error is that feelings were not asked first" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A copied list skips man’s kind. His needs are the ones that follow from the organism he is."
+          }
+        },
+        {
+          "id": "mk-blanks-not",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rejection of a borrowed list.",
+          "parts": [
+            { "type": "text", "text": "Man’s needs are not the needs of " },
+            { "type": "blank", "id": "b1", "answer": "another" },
+            { "type": "text", "text": " kind. They follow from " },
+            { "type": "blank", "id": "b2", "answer": "his" },
+            { "type": "text", "text": " kind." }
+          ],
+          "bank": ["another", "his", "no", "voted"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Another kind has its own needs. Man’s needs follow from his kind."
+          }
+        },
+        {
+          "id": "mk-sentence-organism",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names the source of man’s needs.",
+          "tokens": [
+            { "id": "t1", "text": "His" },
+            { "id": "t2", "text": "needs" },
+            { "id": "t3", "text": "are" },
+            { "id": "t4", "text": "the" },
+            { "id": "t5", "text": "needs" },
+            { "id": "t6", "text": "of" },
+            { "id": "t7", "text": "his" },
+            { "id": "t8", "text": "kind" },
+            { "id": "d1", "text": "mood" },
+            { "id": "d2", "text": "crowd" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "His needs are the needs of his kind. A mood or a crowd does not replace that kind."
+          }
+        },
+        {
+          "id": "mk-match-wrong",
+          "type": "match",
+          "prompt": "Match each wrong source to why it fails for man.",
+          "pairs": [
+            { "id": "other", "left": "Another species’ list", "right": "Follows from a different kind" },
+            { "id": "whim", "left": "A personal whim", "right": "Is not required by the kind" },
+            { "id": "crowd", "left": "A crowd’s taste", "right": "Does not set what the organism is" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Man’s needs follow from his kind of organism. Another species, a whim, and a crowd’s taste are the wrong sources."
+          }
+        },
+        {
+          "id": "mk-choice-hold",
+          "type": "choice",
+          "prompt": "Which sentence holds the lesson?",
+          "answer": "his",
+          "choices": [
+            { "id": "his", "text": "Man’s needs are the needs of the kind of organism he is" },
+            { "id": "any", "text": "Man may take his needs from any kind he likes" },
+            { "id": "none", "text": "Man is a living being and therefore has no needs" },
+            { "id": "later", "text": "Man’s needs appear only if he stops being that kind" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The lesson is the rule applied to man: his needs follow from the kind of organism he is."
+          }
+        }
+      ]
+    },
+    {
+      "id": "need-for-reason",
+      "title": "The need to use reason",
+      "objective": "Place the use of reason among man’s needs, as a requirement of the kind of organism he is, not as an optional extra.",
+      "exercises": [
+        {
+          "id": "nfr-choice-include",
+          "type": "choice",
+          "prompt": "Which item belongs on the list of man’s needs?",
+          "answer": "reason",
+          "choices": [
+            { "id": "reason", "text": "The use of reason" },
+            { "id": "skip", "text": "The option to skip thinking entirely" },
+            { "id": "plant", "text": "The needs of a plant, copied over" },
+            { "id": "whim", "text": "Whatever whim is strongest today" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Man’s needs include the use of reason. Skipping thought, a plant’s list, and whim are not that need."
+          }
+        },
+        {
+          "id": "nfr-choice-why",
+          "type": "choice",
+          "prompt": "Why does the use of reason count as a need for man?",
+          "answer": "kind",
+          "choices": [
+            { "id": "kind", "text": "It follows from the kind of organism he is" },
+            { "id": "hobby", "text": "It is a hobby some people enjoy" },
+            { "id": "order", "text": "A crowd ordered it as a luxury" },
+            { "id": "other", "text": "It is required of every other kind, but not of man" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The use of reason is a need because it follows from the kind of organism man is. It is not a hobby or a luxury."
+          }
+        },
+        {
+          "id": "nfr-match-status",
+          "type": "match",
+          "prompt": "Match each description to the use of reason.",
+          "pairs": [
+            { "id": "need", "left": "A need of man", "right": "The use of reason" },
+            { "id": "source", "left": "Why it is a need", "right": "It follows from his kind" },
+            { "id": "not", "left": "What it is not", "right": "An optional extra" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The use of reason is one of man’s needs. It follows from his kind and is not optional."
+          }
+        },
+        {
+          "id": "nfr-blanks-include",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit’s line about reason.",
+          "parts": [
+            { "type": "text", "text": "Man’s needs include the use of " },
+            { "type": "blank", "id": "b1", "answer": "reason" },
+            { "type": "text", "text": ", because that use follows from the " },
+            { "type": "blank", "id": "b2", "answer": "kind" },
+            { "type": "text", "text": " he is." }
+          ],
+          "bank": ["reason", "kind", "whim", "luxury"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Man’s needs include the use of reason. That inclusion follows from the kind he is, not from whim or luxury."
+          }
+        },
+        {
+          "id": "nfr-sentence-include",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that puts reason on the list.",
+          "tokens": [
+            { "id": "t1", "text": "Man’s" },
+            { "id": "t2", "text": "needs" },
+            { "id": "t3", "text": "include" },
+            { "id": "t4", "text": "the" },
+            { "id": "t5", "text": "use" },
+            { "id": "t6", "text": "of" },
+            { "id": "t7", "text": "reason" },
+            { "id": "d1", "text": "whim" },
+            { "id": "d2", "text": "luxury" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Man’s needs include the use of reason. Whim and luxury are not substitutes for that need."
+          }
+        },
+        {
+          "id": "nfr-choice-optional",
+          "type": "choice",
+          "prompt": "Someone calls the use of reason a luxury man can drop. What is wrong?",
+          "answer": "need",
+          "choices": [
+            { "id": "need", "text": "The use of reason is a need of his kind, not a luxury" },
+            { "id": "right", "text": "Nothing, because needs are optional extras" },
+            { "id": "plant", "text": "The use of reason is a need of plants, not of man" },
+            { "id": "later", "text": "Reason becomes a need only after man is no longer that kind" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A luxury can be dropped without touching what the kind requires. The use of reason cannot, because it is one of man’s needs."
+          }
+        },
+        {
+          "id": "nfr-blanks-not-extra",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast with an optional extra.",
+          "parts": [
+            { "type": "text", "text": "The use of reason is not an optional " },
+            { "type": "blank", "id": "b1", "answer": "extra" },
+            { "type": "text", "text": ". It is a " },
+            { "type": "blank", "id": "b2", "answer": "need" },
+            { "type": "text", "text": " of man’s kind." }
+          ],
+          "bank": ["extra", "need", "whim", "copy"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Optional extra is the wrong name. The use of reason is a need that follows from man’s kind."
+          }
+        },
+        {
+          "id": "nfr-sentence-required",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that says the use of reason is required.",
+          "tokens": [
+            { "id": "t1", "text": "Using" },
+            { "id": "t2", "text": "reason" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "required" },
+            { "id": "t5", "text": "by" },
+            { "id": "t6", "text": "man’s" },
+            { "id": "t7", "text": "kind" },
+            { "id": "d1", "text": "optional" },
+            { "id": "d2", "text": "borrowed" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Using reason is required by man’s kind. It is not optional, and it is not borrowed from another kind."
+          }
+        },
+        {
+          "id": "nfr-match-reject",
+          "type": "match",
+          "prompt": "Match each rejection to the claim it answers.",
+          "pairs": [
+            { "id": "lux", "left": "Reason is a luxury", "right": "No: it is a need" },
+            { "id": "other", "left": "Only other kinds need reason", "right": "No: man’s needs include it" },
+            { "id": "whim", "left": "Reason is needed only when whim says so", "right": "No: it follows from his kind" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The use of reason stays on man’s list of needs. Luxury, exclusion, and whim do not take it off."
+          }
+        }
+      ]
+    },
+    {
+      "id": "needs-in-order",
+      "title": "Needs in one picture",
+      "objective": "Hold the unit in one order: a living organism’s needs follow from the kind of organism it is, and man’s needs include the use of reason.",
+      "exercises": [
+        {
+          "id": "nio-choice-order",
+          "type": "choice",
+          "prompt": "What is the order of this unit?",
+          "answer": "kind-then",
+          "choices": [
+            { "id": "kind-then", "text": "The kind sets the needs, and man’s needs include the use of reason" },
+            { "id": "whim-first", "text": "Whim sets the needs, and reason is left off the list" },
+            { "id": "same", "text": "Every kind shares one list, and reason is a luxury" },
+            { "id": "crowd", "text": "A crowd picks the kind, then picks the needs" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "First the rule: needs follow from the kind. Then the application: man’s needs include the use of reason."
+          }
+        },
+        {
+          "id": "nio-choice-both",
+          "type": "choice",
+          "prompt": "Which pair does the unit keep together?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "Needs follow from the kind, and man’s needs include the use of reason" },
+            { "id": "only-kind", "text": "Kinds differ, but man has no needs" },
+            { "id": "only-reason", "text": "Man must use reason, but needs do not follow from any kind" },
+            { "id": "neither", "text": "Neither the kind nor the use of reason belongs in the picture" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Both claims belong. Dropping either one leaves the unit unfinished."
+          }
+        },
+        {
+          "id": "nio-match-pieces",
+          "type": "match",
+          "prompt": "Match each piece of the unit to its place.",
+          "pairs": [
+            { "id": "rule", "left": "The rule", "right": "Needs follow from the kind of organism" },
+            { "id": "man", "left": "The application to man", "right": "His needs are the needs of his kind" },
+            { "id": "reason", "left": "What his needs include", "right": "The use of reason" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The rule, the application to man, and the inclusion of reason are the three pieces of this floor."
+          }
+        },
+        {
+          "id": "nio-blanks-summary",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit summary in your own short form.",
+          "parts": [
+            { "type": "text", "text": "Needs follow from the " },
+            { "type": "blank", "id": "b1", "answer": "kind" },
+            { "type": "text", "text": " of organism. Man’s needs include the use of " },
+            { "type": "blank", "id": "b2", "answer": "reason" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["kind", "reason", "whim", "luxury"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That is the whole floor: kind sets needs, and man’s needs include the use of reason."
+          }
+        },
+        {
+          "id": "nio-sentence-full",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the full claim.",
+          "tokens": [
+            { "id": "t1", "text": "Needs" },
+            { "id": "t2", "text": "follow" },
+            { "id": "t3", "text": "from" },
+            { "id": "t4", "text": "the" },
+            { "id": "t5", "text": "kind" },
+            { "id": "t6", "text": "and" },
+            { "id": "t7", "text": "include" },
+            { "id": "t8", "text": "reason" },
+            { "id": "d1", "text": "whim" },
+            { "id": "d2", "text": "luxury" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Needs follow from the kind and include reason, in the sense that man’s needs include the use of reason. Whim and luxury stay out."
+          }
+        },
+        {
+          "id": "nio-choice-drop",
+          "type": "choice",
+          "prompt": "A review drops the use of reason and keeps only the rule about kinds. What is missing?",
+          "answer": "include",
+          "choices": [
+            { "id": "include", "text": "That man’s needs include the use of reason" },
+            { "id": "nothing", "text": "Nothing, because the rule never applies to man" },
+            { "id": "whim", "text": "That whim is the source of every need" },
+            { "id": "same", "text": "That every kind has man’s needs" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The rule about kinds is only half. The unit also says man’s needs include the use of reason."
+          }
+        },
+        {
+          "id": "nio-blanks-man",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete both halves in one line.",
+          "parts": [
+            { "type": "text", "text": "A living organism’s needs follow from the kind it is, and man’s needs " },
+            { "type": "blank", "id": "b1", "answer": "include" },
+            { "type": "text", "text": " the use of " },
+            { "type": "blank", "id": "b2", "answer": "reason" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["include", "reason", "exclude", "whim"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Include, not exclude. The second half names the use of reason, not a whim."
+          }
+        },
+        {
+          "id": "nio-sentence-man",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names both halves for man.",
+          "tokens": [
+            { "id": "t1", "text": "Man’s" },
+            { "id": "t2", "text": "kind" },
+            { "id": "t3", "text": "sets" },
+            { "id": "t4", "text": "his" },
+            { "id": "t5", "text": "needs" },
+            { "id": "t6", "text": "including" },
+            { "id": "t7", "text": "reason" },
+            { "id": "d1", "text": "excluding" },
+            { "id": "d2", "text": "fashion" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Man’s kind sets his needs, including reason. Excluding reason, or swapping in fashion, breaks the picture."
+          }
+        },
+        {
+          "id": "nio-match-halves",
+          "type": "match",
+          "prompt": "Match each half of the summary to its wording.",
+          "pairs": [
+            { "id": "org", "left": "Any living organism", "right": "Needs follow from the kind it is" },
+            { "id": "man", "left": "Man", "right": "His needs include the use of reason" },
+            { "id": "not", "left": "Not the source of needs", "right": "Whim, luxury, or another kind’s list" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The summary has two claims and one rejection. Kind sets needs. Man’s needs include the use of reason. Whim, luxury, and a borrowed list do not."
+          }
+        },
+        {
+          "id": "nio-choice-close",
+          "type": "choice",
+          "prompt": "Which closing line is faithful to the unit?",
+          "answer": "faithful",
+          "choices": [
+            { "id": "faithful", "text": "Needs follow from the kind of organism, and man’s needs include the use of reason" },
+            { "id": "swap", "text": "Needs follow from whim, and reason is a luxury of other kinds" },
+            { "id": "one", "text": "Every organism needs exactly what man needs, including nothing further" },
+            { "id": "none", "text": "Man has needs, but they do not follow from the kind of organism he is" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The faithful close keeps both halves: the kind sets the needs, and the use of reason is among man’s needs."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

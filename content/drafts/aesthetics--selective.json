@@ -1,0 +1,844 @@
+{
+  "sectionId": "aesthetics",
+  "sectionFile": "aesthetics.json",
+  "unitId": "selective",
+  "title": "Art as Selective Re-creation",
+  "summary": "Art as a selective re-creation of reality according to metaphysical value-judgments.",
+  "lessons": [
+    {
+      "id": "what-art-is",
+      "title": "What Art Is",
+      "objective": "State the definition of art as a selective re-creation of reality according to metaphysical value-judgments.",
+      "exercises": [
+        {
+          "id": "c1",
+          "type": "choice",
+          "prompt": "On this account, what is art?",
+          "answer": "def",
+          "choices": [
+            { "id": "def", "text": "A selective re-creation of reality according to metaphysical value-judgments" },
+            { "id": "copy", "text": "An unedited copy of whatever happens to be in front of the artist" },
+            { "id": "mood", "text": "A private mood with no tie to reality" },
+            { "id": "tool", "text": "Any object someone calls useful" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit’s definition has three parts: selection, a re-creation of reality, and metaphysical value-judgments."
+          }
+        },
+        {
+          "id": "c2",
+          "type": "choice",
+          "prompt": "Which word names the thing art re-creates?",
+          "answer": "real",
+          "choices": [
+            { "id": "real", "text": "Reality" },
+            { "id": "wish", "text": "A wish that replaces facts" },
+            { "id": "vote", "text": "A public vote" },
+            { "id": "style", "text": "A fashion label by itself" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Art re-creates reality. It does not start from nothing and it does not treat wishes as a substitute for what is."
+          }
+        },
+        {
+          "id": "m1",
+          "type": "match",
+          "prompt": "Match each part of the definition to what it names.",
+          "pairs": [
+            { "id": "sel", "left": "Selective", "right": "The artist chooses what to include" },
+            { "id": "rec", "left": "Re-creation of reality", "right": "The work presents reality again, shaped by that choice" },
+            { "id": "val", "left": "Metaphysical value-judgments", "right": "The standard that guides the choice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Drop any one of the three parts and the definition is no longer the one this unit teaches."
+          }
+        },
+        {
+          "id": "f1",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the definition.",
+          "parts": [
+            { "type": "text", "text": "Art is a " },
+            { "type": "blank", "id": "b1", "answer": "selective" },
+            { "type": "text", "text": " re-creation of " },
+            { "type": "blank", "id": "b2", "answer": "reality" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["selective", "reality", "random", "opinion"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Selective names the choice. Reality names what is re-created."
+          }
+        },
+        {
+          "id": "s1",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the definition in order.",
+          "tokens": [
+            { "id": "t1", "text": "Art is" },
+            { "id": "t2", "text": "a selective re-creation" },
+            { "id": "t3", "text": "of reality" },
+            { "id": "t4", "text": "according to metaphysical value-judgments" },
+            { "id": "d1", "text": "a random smear" },
+            { "id": "d2", "text": "according to a poll" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The order is the claim: art, then selective re-creation, then of reality, then the standard of selection."
+          }
+        },
+        {
+          "id": "c3",
+          "type": "choice",
+          "prompt": "What does the definition rule out as a full account of art?",
+          "answer": "dump",
+          "choices": [
+            { "id": "dump", "text": "An unselective dump of everything the artist notices" },
+            { "id": "choice", "text": "A chosen presentation of reality" },
+            { "id": "meta", "text": "A work shaped by a view of existence" },
+            { "id": "both", "text": "Selection guided by what the artist takes as fundamental" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If nothing is selected, the work is not the kind of re-creation the definition names."
+          }
+        },
+        {
+          "id": "c4",
+          "type": "choice",
+          "prompt": "Whose judgments set the selection, on this definition?",
+          "answer": "artist",
+          "choices": [
+            { "id": "artist", "text": "The artist’s metaphysical value-judgments" },
+            { "id": "crowd", "text": "Whatever a crowd happens to like that day" },
+            { "id": "none", "text": "No one’s; selection needs no standard" },
+            { "id": "price", "text": "Only the price of the materials" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The according-to clause names the artist’s metaphysical value-judgments as the standard of what is chosen."
+          }
+        },
+        {
+          "id": "c5",
+          "type": "choice",
+          "prompt": "A metaphysical value-judgment, in this definition, is a judgment about what?",
+          "answer": "exist",
+          "choices": [
+            { "id": "exist", "text": "What is fundamental about man and existence" },
+            { "id": "price", "text": "Only the market price of the work" },
+            { "id": "spell", "text": "Only spelling and grammar" },
+            { "id": "weather", "text": "Only the weather on the day it was made" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Metaphysical here means a judgment about the nature of existence, not a tip about technique or sales."
+          }
+        },
+        {
+          "id": "m2",
+          "type": "match",
+          "prompt": "Match each mistaken slogan to the part of the definition it drops.",
+          "pairs": [
+            { "id": "p1", "left": "Art is whatever spills out, unchosen", "right": "Drops selective" },
+            { "id": "p2", "left": "Art invents a world with no reality in it", "right": "Drops re-creation of reality" },
+            { "id": "p3", "left": "Art chooses, but by no view of existence", "right": "Drops metaphysical value-judgments" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each slogan keeps some words of the definition and throws away one essential part."
+          }
+        },
+        {
+          "id": "f2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the standard that guides the selection.",
+          "parts": [
+            { "type": "text", "text": "The selection follows the artist’s metaphysical " },
+            { "type": "blank", "id": "b1", "answer": "value-judgments" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["value-judgments", "accidents", "receipts"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Value-judgments of a metaphysical kind are the according-to clause of the definition."
+          }
+        }
+      ]
+    },
+    {
+      "id": "what-selective-means",
+      "title": "What Selective Means",
+      "objective": "Explain that the artist includes, omits, and stresses aspects of reality rather than recording everything.",
+      "exercises": [
+        {
+          "id": "c1",
+          "type": "choice",
+          "prompt": "What does selective mean in this definition?",
+          "answer": "choose",
+          "choices": [
+            { "id": "choose", "text": "The artist chooses which aspects to include, omit, and stress" },
+            { "id": "all", "text": "The artist must include every fact equally" },
+            { "id": "none", "text": "The artist must avoid anything real" },
+            { "id": "luck", "text": "The work is finished by chance" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Selection is a choice among aspects of reality, not a refusal of reality and not a dump of all of it."
+          }
+        },
+        {
+          "id": "c2",
+          "type": "choice",
+          "prompt": "Leaving something out of a work is compatible with the definition when the omission is what?",
+          "answer": "chosen",
+          "choices": [
+            { "id": "chosen", "text": "Part of a deliberate selection" },
+            { "id": "blind", "text": "Proof that reality was never the subject" },
+            { "id": "error", "text": "Always a failure to copy the whole world" },
+            { "id": "ban", "text": "Forbidden by the word re-creation" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Re-creation is selective, so omission is how the artist isolates what the work is about."
+          }
+        },
+        {
+          "id": "m1",
+          "type": "match",
+          "prompt": "Match each act of selection to what it does.",
+          "pairs": [
+            { "id": "in", "left": "Include", "right": "Puts an aspect into the work" },
+            { "id": "out", "left": "Omit", "right": "Leaves an aspect out on purpose" },
+            { "id": "stress", "left": "Stress", "right": "Makes one included aspect stand out" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Include, omit, and stress are three ways the same selection is carried out."
+          }
+        },
+        {
+          "id": "f1",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill in what the artist does not do.",
+          "parts": [
+            { "type": "text", "text": "A selective re-creation is not an " },
+            { "type": "blank", "id": "b1", "answer": "unedited" },
+            { "type": "text", "text": " record of every detail." }
+          ],
+          "bank": ["unedited", "chosen", "focused"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If every detail stayed in at equal weight, nothing would have been selected."
+          }
+        },
+        {
+          "id": "s1",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Put the idea of selection in order.",
+          "tokens": [
+            { "id": "t1", "text": "The artist" },
+            { "id": "t2", "text": "chooses aspects of reality" },
+            { "id": "t3", "text": "and leaves the rest out" },
+            { "id": "d1", "text": "copies every fact equally" },
+            { "id": "d2", "text": "ignores reality entirely" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Choice among real aspects is selection. Total inclusion and total rejection of reality are not."
+          }
+        },
+        {
+          "id": "c3",
+          "type": "choice",
+          "prompt": "Two painters look at the same city. One stresses human achievement and omits decay. The other does the reverse. What does the definition say they differ in?",
+          "answer": "sel",
+          "choices": [
+            { "id": "sel", "text": "What each selects as worth presenting" },
+            { "id": "city", "text": "Whether a city can exist" },
+            { "id": "eyes", "text": "Whether either of them has eyes" },
+            { "id": "none", "text": "Nothing; the same subject forces the same work" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The same reality can be re-created under different selections. That is what selective allows."
+          }
+        },
+        {
+          "id": "c4",
+          "type": "choice",
+          "prompt": "Stressing one feature means what?",
+          "answer": "weight",
+          "choices": [
+            { "id": "weight", "text": "Giving that feature more weight than other included features" },
+            { "id": "erase", "text": "Erasing the feature so it cannot be seen" },
+            { "id": "invent", "text": "Replacing reality with a feature that could not exist" },
+            { "id": "list", "text": "Listing every feature at the same size" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Stress is still selection inside what was included. It is emphasis, not a denial that the feature is real."
+          }
+        },
+        {
+          "id": "c5",
+          "type": "choice",
+          "prompt": "Which job is not what selective means?",
+          "answer": "census",
+          "choices": [
+            { "id": "census", "text": "Taking a census of every fact with no emphasis" },
+            { "id": "omit", "text": "Omitting what does not serve the work" },
+            { "id": "keep", "text": "Keeping what the artist judges essential" },
+            { "id": "rank", "text": "Ranking some aspects above others" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A census tries not to select. Art, on this definition, must select."
+          }
+        },
+        {
+          "id": "m2",
+          "type": "match",
+          "prompt": "Match the practice to selective or not selective.",
+          "pairs": [
+            { "id": "a", "left": "Isolating one human choice as the center of a story", "right": "Selective" },
+            { "id": "b", "left": "Keeping every street noise because it occurred", "right": "Not selective" },
+            { "id": "c", "left": "Cutting a scene that does not bear on the theme", "right": "Selective" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Selection is purposeful inclusion and omission. Recording an event only because it happened is not that."
+          }
+        },
+        {
+          "id": "f2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the three moves of selection.",
+          "parts": [
+            { "type": "text", "text": "The artist can " },
+            { "type": "blank", "id": "b1", "answer": "include" },
+            { "type": "text", "text": ", omit, and " },
+            { "type": "blank", "id": "b2", "answer": "stress" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["include", "stress", "erase reality", "copy all"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Include, omit, and stress are the concrete meaning of selective in this unit."
+          }
+        }
+      ]
+    },
+    {
+      "id": "recreation-not-copy",
+      "title": "Re-creation, Not a Dump or a Fantasy",
+      "objective": "Distinguish a re-creation of reality from an unselective record and from a presentation cut off from reality.",
+      "exercises": [
+        {
+          "id": "c1",
+          "type": "choice",
+          "prompt": "What does re-creation add beyond a bare record?",
+          "answer": "made",
+          "choices": [
+            { "id": "made", "text": "Reality is presented again in a form the artist has made" },
+            { "id": "gone", "text": "Reality is dropped so nothing recognizable remains" },
+            { "id": "same", "text": "The work must be indistinguishable from the original scene" },
+            { "id": "news", "text": "The work must function only as a news bulletin" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Re-creation keeps reality as the subject and presents it in a made work, not as a raw transcript."
+          }
+        },
+        {
+          "id": "c2",
+          "type": "choice",
+          "prompt": "A work that presents nothing the audience can tie back to reality fails which part of the definition?",
+          "answer": "of",
+          "choices": [
+            { "id": "of", "text": "Re-creation of reality" },
+            { "id": "sel", "text": "Only the word selective, while reality stays irrelevant" },
+            { "id": "none", "text": "None; the definition allows a total break with reality" },
+            { "id": "price", "text": "Only the price of admission" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Of reality is not optional. A presentation with no hold on reality is not this kind of re-creation."
+          }
+        },
+        {
+          "id": "m1",
+          "type": "match",
+          "prompt": "Match each product to the right description.",
+          "pairs": [
+            { "id": "art", "left": "A novel that condenses how people face choices", "right": "Selective re-creation" },
+            { "id": "log", "left": "A log that lists every minute with no emphasis", "right": "Unselective record" },
+            { "id": "void", "left": "Marks that are offered as referring to nothing real", "right": "Cut off from reality" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the first item both selects and re-creates reality. The log does not select. The marks do not re-create reality."
+          }
+        },
+        {
+          "id": "f1",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast.",
+          "parts": [
+            { "type": "text", "text": "Art re-creates reality; it does not " },
+            { "type": "blank", "id": "b1", "answer": "replace" },
+            { "type": "text", "text": " reality with a world that has no tie to it." }
+          ],
+          "bank": ["replace", "present", "select"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Re-creation presents reality again. Replacing reality is a different claim and not this definition."
+          }
+        },
+        {
+          "id": "s1",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the contrast in one line.",
+          "tokens": [
+            { "id": "t1", "text": "A re-creation" },
+            { "id": "t2", "text": "presents reality" },
+            { "id": "t3", "text": "in a form the artist made" },
+            { "id": "d1", "text": "discards every fact" },
+            { "id": "d2", "text": "is only a raw transcript" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Made form plus a hold on reality is re-creation. A raw transcript and a break with facts are the two misses."
+          }
+        },
+        {
+          "id": "c3",
+          "type": "choice",
+          "prompt": "Why is an exact duplicate of one afternoon, detail for detail and without emphasis, not yet the art this unit defines?",
+          "answer": "nosel",
+          "choices": [
+            { "id": "nosel", "text": "Nothing has been selected" },
+            { "id": "noreal", "text": "An afternoon is not part of reality" },
+            { "id": "nomade", "text": "Any made object is banned" },
+            { "id": "nohuman", "text": "Only nonhuman subjects count as art" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The duplicate stays with reality but skips selection, so it is not a selective re-creation."
+          }
+        },
+        {
+          "id": "c4",
+          "type": "choice",
+          "prompt": "A story about people who choose is still a re-creation of reality because choice is what?",
+          "answer": "real",
+          "choices": [
+            { "id": "real", "text": "Something real about human beings, presented in a made story" },
+            { "id": "fake", "text": "Proof that the story has left reality" },
+            { "id": "ban", "text": "Something the definition forbids artists to show" },
+            { "id": "news", "text": "Allowed only if the story is a newspaper" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Showing real human capacities in a made plot is re-creation, not a departure from reality."
+          }
+        },
+        {
+          "id": "c5",
+          "type": "choice",
+          "prompt": "Which pair names the two errors this lesson contrasts with re-creation?",
+          "answer": "two",
+          "choices": [
+            { "id": "two", "text": "An unselective record, and a presentation cut off from reality" },
+            { "id": "one", "text": "Using color, and using words" },
+            { "id": "skill", "text": "Practice, and more practice" },
+            { "id": "frame", "text": "A frame, and a pedestal" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One error keeps every fact and selects nothing. The other selects, or gestures, without re-creating reality."
+          }
+        },
+        {
+          "id": "f2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the subject that is presented again.",
+          "parts": [
+            { "type": "text", "text": "Re-creation means reality is " },
+            { "type": "blank", "id": "b1", "answer": "presented" },
+            { "type": "text", "text": " again, not abandoned." }
+          ],
+          "bank": ["presented", "denied", "priced"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Presented again is the plain sense of re-creation in this unit."
+          }
+        },
+        {
+          "id": "m2",
+          "type": "match",
+          "prompt": "Match the phrase to the error or the definition.",
+          "pairs": [
+            { "id": "a", "left": "Everything that happened, in the order it happened, with no point", "right": "Unselective record" },
+            { "id": "b", "left": "A world offered as having no connection to what exists", "right": "Cut off from reality" },
+            { "id": "c", "left": "Chosen essentials of reality, presented in a work", "right": "Re-creation" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The third line is the one that belongs in the definition of art used here."
+          }
+        }
+      ]
+    },
+    {
+      "id": "metaphysical-judgments",
+      "title": "Metaphysical Value-Judgments",
+      "objective": "Identify metaphysical value-judgments as the artist’s fundamental appraisal of man and existence, and as the standard of selection.",
+      "exercises": [
+        {
+          "id": "c1",
+          "type": "choice",
+          "prompt": "In this definition, what are metaphysical value-judgments?",
+          "answer": "fund",
+          "choices": [
+            { "id": "fund", "text": "The artist’s fundamental appraisal of man and of existence" },
+            { "id": "tips", "text": "Tips about brushes, meters, or camera settings" },
+            { "id": "sales", "text": "A guess about what will sell this week" },
+            { "id": "votes", "text": "A tally of how many people clapped" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Metaphysical value-judgments appraise what existence and human life are like at the most basic level. They are not craft tips or sales forecasts."
+          }
+        },
+        {
+          "id": "c2",
+          "type": "choice",
+          "prompt": "How do those judgments enter the work, on this account?",
+          "answer": "guide",
+          "choices": [
+            { "id": "guide", "text": "They guide what the artist selects to re-create" },
+            { "id": "footnote", "text": "They appear only as a footnote after the work is done" },
+            { "id": "ban", "text": "They are kept out so selection can be standardless" },
+            { "id": "swap", "text": "They replace reality as the subject of the work" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The according-to clause means the judgments are the standard of selection, not a substitute for reality and not an afterthought."
+          }
+        },
+        {
+          "id": "m1",
+          "type": "match",
+          "prompt": "Match each judgment to the kind of selection it would guide.",
+          "pairs": [
+            { "id": "eff", "left": "Human effort can succeed", "right": "Stress purposeful action and achievement" },
+            { "id": "doom", "left": "Human life is futile", "right": "Stress defeat as the essential outcome" },
+            { "id": "luck", "left": "Only chance matters", "right": "Treat choice as pointless and stress accident" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Different appraisals of existence lead the artist to include, omit, and stress different aspects of the same reality."
+          }
+        },
+        {
+          "id": "f1",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the according-to clause.",
+          "parts": [
+            { "type": "text", "text": "Selection is according to metaphysical " },
+            { "type": "blank", "id": "b1", "answer": "value-judgments" },
+            { "type": "text", "text": " about man and existence." }
+          ],
+          "bank": ["value-judgments", "sales-ranks", "tool-lists"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The standard is a metaphysical appraisal, not a shopping rank or a list of tools."
+          }
+        },
+        {
+          "id": "s1",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the role of the judgments.",
+          "tokens": [
+            { "id": "t1", "text": "Metaphysical value-judgments" },
+            { "id": "t2", "text": "set the standard" },
+            { "id": "t3", "text": "for what the artist selects" },
+            { "id": "d1", "text": "erase the subject" },
+            { "id": "d2", "text": "replace the need to choose" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "They standardize selection. They do not cancel the subject or make selection unnecessary."
+          }
+        },
+        {
+          "id": "c3",
+          "type": "choice",
+          "prompt": "Why does the definition call the judgments metaphysical rather than only moral or technical?",
+          "answer": "basic",
+          "choices": [
+            { "id": "basic", "text": "They concern what is fundamental about existence, not only a local rule of craft" },
+            { "id": "narrow", "text": "They concern only which pigment is cheaper" },
+            { "id": "none", "text": "The word adds nothing and can be dropped" },
+            { "id": "law", "text": "They are courtroom verdicts about a particular case" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Metaphysical marks the scope: an appraisal of existence and of man’s place in it, which then directs selection."
+          }
+        },
+        {
+          "id": "c4",
+          "type": "choice",
+          "prompt": "Can two artists re-create reality and still produce profoundly different works?",
+          "answer": "yes",
+          "choices": [
+            { "id": "yes", "text": "Yes, if their metaphysical value-judgments differ" },
+            { "id": "no1", "text": "No, because reality allows only one work" },
+            { "id": "no2", "text": "No, because value-judgments are banned from art" },
+            { "id": "no3", "text": "No, unless they use different alphabets" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Same reality, different fundamental appraisals, different selections. That is built into the definition."
+          }
+        },
+        {
+          "id": "c5",
+          "type": "choice",
+          "prompt": "Which item is not a metaphysical value-judgment in the sense this unit uses?",
+          "answer": "brush",
+          "choices": [
+            { "id": "brush", "text": "This brush holds more paint than that one" },
+            { "id": "man", "text": "A human being is capable of purpose" },
+            { "id": "world", "text": "The world is open to understanding" },
+            { "id": "doom", "text": "Success is an illusion" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A brush comparison is technical. The other three appraise man or existence and could guide what a work stresses."
+          }
+        },
+        {
+          "id": "m2",
+          "type": "match",
+          "prompt": "Match each label to its role in the definition.",
+          "pairs": [
+            { "id": "sub", "left": "Reality", "right": "What is re-created" },
+            { "id": "std", "left": "Metaphysical value-judgments", "right": "The standard of selection" },
+            { "id": "act", "left": "Selective re-creation", "right": "The kind of act art is" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Subject, standard, and act are three different jobs. The judgments are the standard, not the subject."
+          }
+        },
+        {
+          "id": "f2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Say what the judgments appraise.",
+          "parts": [
+            { "type": "text", "text": "They appraise " },
+            { "type": "blank", "id": "b1", "answer": "man" },
+            { "type": "text", "text": " and " },
+            { "type": "blank", "id": "b2", "answer": "existence" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["man", "existence", "ticket prices", "brush sizes"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Man and existence are the subject of the appraisal. Prices and tools are not what metaphysical means here."
+          }
+        }
+      ]
+    },
+    {
+      "id": "one-claim",
+      "title": "One Claim, Three Parts",
+      "objective": "Apply the full definition, keeping selection, re-creation of reality, and metaphysical value-judgments together.",
+      "exercises": [
+        {
+          "id": "c1",
+          "type": "choice",
+          "prompt": "A poster stacks slogans to push a vote and never presents a concrete slice of reality. What does this unit’s definition withhold from it?",
+          "answer": "rec",
+          "choices": [
+            { "id": "rec", "text": "The status of a selective re-creation of reality" },
+            { "id": "words", "text": "The right to use words at all" },
+            { "id": "paper", "text": "The fact that it is printed on paper" },
+            { "id": "aim", "text": "The possibility that its author has any aim" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An aim is not enough. The definition requires a selective re-creation of reality, not a stack of slogans standing in for that."
+          }
+        },
+        {
+          "id": "c2",
+          "type": "choice",
+          "prompt": "A photograph is framed, timed, and lit so that one human action stands as essential, expressing the photographer’s view that people can direct their lives. Which reading fits the definition?",
+          "answer": "fits",
+          "choices": [
+            { "id": "fits", "text": "It can be a selective re-creation guided by a metaphysical value-judgment" },
+            { "id": "never", "text": "A camera image can never be selective" },
+            { "id": "noreal", "text": "A real street cannot be the subject of art" },
+            { "id": "nojudge", "text": "A view of human life is irrelevant to what was framed" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Framing, timing, and emphasis are selection. The view of human life is the kind of judgment the definition names as the standard."
+          }
+        },
+        {
+          "id": "m1",
+          "type": "match",
+          "prompt": "Match each work-sketch to the part it satisfies or misses.",
+          "pairs": [
+            { "id": "a", "left": "Every fact kept, none stressed, no appraisal in charge", "right": "Misses selection and its standard" },
+            { "id": "b", "left": "A chosen scene of purposeful work, shaped by the view that effort matters", "right": "Meets the full definition" },
+            { "id": "c", "left": "Shapes offered as meaning nothing about reality", "right": "Misses re-creation of reality" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the middle sketch selects, re-creates reality, and does so according to a metaphysical value-judgment."
+          }
+        },
+        {
+          "id": "f1",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Hold the three requirements in one line.",
+          "parts": [
+            { "type": "text", "text": "Art selects, re-creates " },
+            { "type": "blank", "id": "b1", "answer": "reality" },
+            { "type": "text", "text": ", and does so by metaphysical " },
+            { "type": "blank", "id": "b2", "answer": "value-judgments" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["reality", "value-judgments", "fashion", "chance"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "All three must stay in the claim. Fashion or chance is not a stand-in for either missing word."
+          }
+        },
+        {
+          "id": "s1",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the full claim.",
+          "tokens": [
+            { "id": "t1", "text": "Art" },
+            { "id": "t2", "text": "selectively re-creates reality" },
+            { "id": "t3", "text": "by the artist’s metaphysical value-judgments" },
+            { "id": "d1", "text": "copies without choosing" },
+            { "id": "d2", "text": "by this week’s fashion" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The sentence keeps the act, the subject, and the standard. The extra tokens are the errors this unit rejects."
+          }
+        },
+        {
+          "id": "c3",
+          "type": "choice",
+          "prompt": "Someone says the definition is only about pretty objects. What is wrong with that reading?",
+          "answer": "miss",
+          "choices": [
+            { "id": "miss", "text": "It never mentions selection, reality, or metaphysical value-judgments" },
+            { "id": "right", "text": "Pretty is the word the definition uses for all three parts" },
+            { "id": "same", "text": "A pretty object is automatically a re-creation of reality" },
+            { "id": "only", "text": "Metaphysical judgments are the same thing as prettiness" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Prettiness is not a part of this definition. The parts are selection, reality re-created, and metaphysical value-judgments."
+          }
+        },
+        {
+          "id": "c4",
+          "type": "choice",
+          "prompt": "If an artist’s selections embody the view that human beings are helpless, the work still counts as art on this definition when it does what?",
+          "answer": "still",
+          "choices": [
+            { "id": "still", "text": "Selectively re-creates reality according to that metaphysical appraisal" },
+            { "id": "onlygood", "text": "Only if the appraisal says people are efficacious" },
+            { "id": "never", "text": "Never, because a bleak appraisal voids the definition" },
+            { "id": "facts", "text": "Only if no selection took place" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The definition names the kind of standard, a metaphysical value-judgment. It does not say only one such judgment yields art."
+          }
+        },
+        {
+          "id": "c5",
+          "type": "choice",
+          "prompt": "Which question applies this unit’s definition to a work?",
+          "answer": "q",
+          "choices": [
+            { "id": "q", "text": "What of reality was selected, and by what view of existence?" },
+            { "id": "p", "text": "What did the frame cost?" },
+            { "id": "n", "text": "How many people walked past it?" },
+            { "id": "t", "text": "Which brand of paint was used?" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Cost, traffic, and brand do not answer whether the work is a selective re-creation according to metaphysical value-judgments."
+          }
+        },
+        {
+          "id": "m2",
+          "type": "match",
+          "prompt": "Match the question to the part of the definition it checks.",
+          "pairs": [
+            { "id": "a", "left": "What was included, omitted, and stressed?", "right": "Selective" },
+            { "id": "b", "left": "Is reality presented again in the work?", "right": "Re-creation of reality" },
+            { "id": "c", "left": "What view of man and existence guided those choices?", "right": "Metaphysical value-judgments" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Three questions, three parts. A full use of the definition asks all of them."
+          }
+        },
+        {
+          "id": "f2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Close the unit’s claim.",
+          "parts": [
+            { "type": "text", "text": "Art is a selective re-creation of reality according to metaphysical " },
+            { "type": "blank", "id": "b1", "answer": "value-judgments" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["value-judgments", "decorations", "headlines"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That is the whole definition this unit teaches: selective re-creation of reality, standard set by metaphysical value-judgments."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

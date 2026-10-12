@@ -1,0 +1,734 @@
+{
+  "sectionId": "epistemology",
+  "sectionFile": "epistemology.json",
+  "unitId": "definitions",
+  "title": "Definitions and the Hierarchy",
+  "summary": "Definition as the last step of concept-formation, and concepts as a hierarchy rather than a pile.",
+  "lessons": [
+    {
+      "id": "last-step",
+      "title": "The last step",
+      "objective": "Place a definition after concept-formation: the units are integrated first, and the definition then states what kind they are.",
+      "exercises": [
+        {
+          "id": "order",
+          "type": "choice",
+          "prompt": "In this account, when does a definition come?",
+          "answer": "after",
+          "choices": [
+            { "id": "after", "text": "After the concept has been formed from its units" },
+            { "id": "before", "text": "Before any units have been noticed" },
+            { "id": "instead", "text": "Instead of looking at the units" },
+            { "id": "feel", "text": "Whenever a feeling about the word is strong" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Forming the concept comes first. The definition is the last step: a statement of the units you have already integrated."
+          }
+        },
+        {
+          "id": "job",
+          "type": "choice",
+          "prompt": "What is a definition supposed to do?",
+          "answer": "state",
+          "choices": [
+            { "id": "state", "text": "State the nature of the units the concept refers to" },
+            { "id": "replace", "text": "Replace those units with a word" },
+            { "id": "invent", "text": "Invent a new kind of existent" },
+            { "id": "vote", "text": "Record a vote about how the word should sound" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A definition identifies what the units are. It does not create them, and it is not a substitute for them."
+          }
+        },
+        {
+          "id": "roles",
+          "type": "match",
+          "prompt": "Match each item to the job it has in this unit.",
+          "pairs": [
+            { "id": "units", "left": "Units", "right": "The existents the concept refers to" },
+            { "id": "concept", "left": "Concept", "right": "The integration of those units" },
+            { "id": "definition", "left": "Definition", "right": "The closing statement of what the units are" },
+            { "id": "word", "left": "Word alone", "right": "A label, not yet a definition" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Units, concept, and definition are three steps. A word by itself has not done the last step."
+          }
+        },
+        {
+          "id": "last-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the study line.",
+          "parts": [
+            { "type": "text", "text": "A definition is the " },
+            { "type": "blank", "id": "b1", "answer": "last" },
+            { "type": "text", "text": " step of concept-formation, not the " },
+            { "type": "blank", "id": "b2", "answer": "first" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["last", "first", "optional", "only"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "You do not start with a formula and then hunt for things that fit it. You end with a formula that states the concept."
+          }
+        },
+        {
+          "id": "build-state",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study line.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "definition" },
+            { "id": "t3", "text": "states" },
+            { "id": "t4", "text": "the" },
+            { "id": "t5", "text": "nature" },
+            { "id": "t6", "text": "of" },
+            { "id": "t7", "text": "the" },
+            { "id": "t8", "text": "units" },
+            { "id": "d1", "text": "replaces" },
+            { "id": "d2", "text": "wishes" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The line names the job of a definition: to state the nature of the units, not to replace them with a wish."
+          }
+        },
+        {
+          "id": "memorize",
+          "type": "choice",
+          "prompt": "You memorize a formula and never connect it to any units. What do you have?",
+          "answer": "words",
+          "choices": [
+            { "id": "words", "text": "A form of words without the concept it should state" },
+            { "id": "done", "text": "A finished concept" },
+            { "id": "percept", "text": "A percept" },
+            { "id": "axiom", "text": "An axiom of existence" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The last step still has to point back to the units. A detached formula is not yet a definition of a concept."
+          }
+        },
+        {
+          "id": "not-list",
+          "type": "choice",
+          "prompt": "Which of these is not what a definition is?",
+          "answer": "every",
+          "choices": [
+            { "id": "every", "text": "A list of every trait the units happen to have" },
+            { "id": "state", "text": "A statement of the nature of the units" },
+            { "id": "last", "text": "The last step after the concept is formed" },
+            { "id": "kind", "text": "A way to keep this kind distinct from other kinds" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A definition condenses the concept. It does not dump every observed detail into one sentence."
+          }
+        },
+        {
+          "id": "tied",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the study line.",
+          "parts": [
+            { "type": "text", "text": "The definition keeps the concept tied to " },
+            { "type": "blank", "id": "b1", "answer": "units" },
+            { "type": "text", "text": " of a certain " },
+            { "type": "blank", "id": "b2", "answer": "kind" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["units", "kind", "feelings", "votes"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Without the units, the definition has nothing to state. Its job is to mark the kind those units are."
+          }
+        }
+      ]
+    },
+    {
+      "id": "genus-differentia",
+      "title": "Genus and differentia",
+      "objective": "Build a definition from a genus, the wider group, and a differentia, the characteristic that sets these units apart inside that group.",
+      "exercises": [
+        {
+          "id": "genus",
+          "type": "choice",
+          "prompt": "In a definition, the genus is:",
+          "answer": "wider",
+          "choices": [
+            { "id": "wider", "text": "The wider group from which these units were set apart" },
+            { "id": "mark", "text": "The mark that sets these units apart" },
+            { "id": "word", "text": "Any synonym of the word being defined" },
+            { "id": "mood", "text": "The mood the word suggests" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The genus names the broader concept. The differentia then says how these units differ inside it."
+          }
+        },
+        {
+          "id": "differentia",
+          "type": "choice",
+          "prompt": "The differentia is:",
+          "answer": "apart",
+          "choices": [
+            { "id": "apart", "text": "The characteristic that distinguishes these units within the genus" },
+            { "id": "genus", "text": "Another name for the genus" },
+            { "id": "all", "text": "Every characteristic the units possess" },
+            { "id": "sound", "text": "The sound of the word" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Genus without a differentia is only the wider group. The differentia is what makes the definition distinguish this concept."
+          }
+        },
+        {
+          "id": "man-parts",
+          "type": "match",
+          "prompt": "Match each piece of the definition of man used in this philosophy.",
+          "pairs": [
+            { "id": "whole", "left": "Rational animal", "right": "The full definition" },
+            { "id": "genus", "left": "Animal", "right": "The genus" },
+            { "id": "diff", "left": "Rational", "right": "The differentia" },
+            { "id": "not", "left": "Featherless biped", "right": "Not the definition used here" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Man is stated as a rational animal: animal is the wider group, and rational is the distinguishing characteristic."
+          }
+        },
+        {
+          "id": "two-parts",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the study line.",
+          "parts": [
+            { "type": "text", "text": "A definition needs a " },
+            { "type": "blank", "id": "b1", "answer": "genus" },
+            { "type": "text", "text": " and a " },
+            { "type": "blank", "id": "b2", "answer": "differentia" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["genus", "differentia", "synonym", "feeling"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Both parts are required. A wider label alone, or a distinguishing word with no wider group, is not yet this kind of definition."
+          }
+        },
+        {
+          "id": "build-man",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study line for the definition of man.",
+          "tokens": [
+            { "id": "t1", "text": "Man" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "a" },
+            { "id": "t4", "text": "rational" },
+            { "id": "t5", "text": "animal" },
+            { "id": "d1", "text": "featherless" },
+            { "id": "d2", "text": "mood" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rational is the differentia and animal is the genus. Featherless is a surface mark, not the differentia this philosophy uses."
+          }
+        },
+        {
+          "id": "too-wide",
+          "type": "choice",
+          "prompt": "Someone says man is an animal, and stops. What is wrong?",
+          "answer": "wide",
+          "choices": [
+            { "id": "wide", "text": "The genus is there, but the differentia is missing, so the statement is too wide" },
+            { "id": "narrow", "text": "The statement names too few species to be a genus" },
+            { "id": "fine", "text": "Nothing: the genus by itself is a full definition" },
+            { "id": "circular", "text": "The statement uses the word man inside itself" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Animal includes more than man. Without a differentia, the units of this concept are not distinguished from other animals."
+          }
+        },
+        {
+          "id": "circular",
+          "type": "choice",
+          "prompt": "Man is a human being. Why does that fail as a definition?",
+          "answer": "circle",
+          "choices": [
+            { "id": "circle", "text": "It circles back to the same concept instead of stating genus and differentia" },
+            { "id": "wide", "text": "Human being names a wider genus than animal" },
+            { "id": "deep", "text": "It names a characteristic deeper than rationality" },
+            { "id": "ok", "text": "It is a proper differentia" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A synonym, or the same idea under another name, does not distinguish the units. It repeats the concept."
+          }
+        },
+        {
+          "id": "faults",
+          "type": "match",
+          "prompt": "Match each faulty line to the fault.",
+          "pairs": [
+            { "id": "wide", "left": "Man is an animal", "right": "Too wide: genus only" },
+            { "id": "narrow", "left": "Man is a New York banker", "right": "Too narrow: drops most of the units" },
+            { "id": "circle", "left": "Man is a human being", "right": "Circular: restates the same concept" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Too wide, too narrow, and circular are three ways a line can fail to state genus and differentia for the actual units."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fundamental",
+      "title": "The fundamental characteristic",
+      "objective": "Select the fundamental distinguishing characteristic, the one that explains the others, rather than a surface mark.",
+      "exercises": [
+        {
+          "id": "means",
+          "type": "choice",
+          "prompt": "Which characteristic belongs in the differentia?",
+          "answer": "fund",
+          "choices": [
+            { "id": "fund", "text": "The fundamental one: it explains the greatest number of the other characteristics" },
+            { "id": "odd", "text": "The oddest surface mark you can find" },
+            { "id": "first", "text": "Whatever you happened to notice first" },
+            { "id": "all", "text": "All of the characteristics, listed together" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Essential here means fundamental. The differentia is the characteristic on which the others of this kind depend."
+          }
+        },
+        {
+          "id": "why-rational",
+          "type": "choice",
+          "prompt": "Why does this philosophy take rational, not featherless, as the differentia of man?",
+          "answer": "explains",
+          "choices": [
+            { "id": "explains", "text": "The rational faculty explains the distinctively human characteristics" },
+            { "id": "rarer", "text": "Feathers are rarer than reason" },
+            { "id": "shorter", "text": "Rational is a shorter word" },
+            { "id": "vote", "text": "A tradition voted featherless out" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Language, science, and production depend on the capacity to reason. Lacking feathers does not explain those characteristics."
+          }
+        },
+        {
+          "id": "which-role",
+          "type": "match",
+          "prompt": "Match each characteristic of man to the role it plays in a definition.",
+          "pairs": [
+            { "id": "rat", "left": "Rational faculty", "right": "Fundamental differentia" },
+            { "id": "ani", "left": "Being an animal", "right": "Genus, the wider group" },
+            { "id": "thumb", "left": "Having a thumb", "right": "Not the explaining characteristic" },
+            { "id": "ear", "left": "Shape of the earlobes", "right": "A surface mark, not the differentia" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A true mark can still be the wrong differentia. The one that belongs in the definition is the one that explains the rest."
+          }
+        },
+        {
+          "id": "explains-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the study line.",
+          "parts": [
+            { "type": "text", "text": "The fundamental characteristic is the one that " },
+            { "type": "blank", "id": "b1", "answer": "explains" },
+            { "type": "text", "text": " the other characteristics of the " },
+            { "type": "blank", "id": "b2", "answer": "units" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["explains", "units", "hides", "renames"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If a trait does not explain the others, it can distinguish by accident and still not be the essential differentia."
+          }
+        },
+        {
+          "id": "build-fund",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study line.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "differentia" },
+            { "id": "t3", "text": "must" },
+            { "id": "t4", "text": "be" },
+            { "id": "t5", "text": "fundamental" },
+            { "id": "d1", "text": "optional" },
+            { "id": "d2", "text": "decorative" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Genus and differentia are not enough if the differentia is a decoration. It has to be the fundamental distinguishing characteristic."
+          }
+        },
+        {
+          "id": "one-not-pile",
+          "type": "choice",
+          "prompt": "A student defines man by listing rationality, thumbs, earlobes, and city of birth. What is the mistake?",
+          "answer": "pile",
+          "choices": [
+            { "id": "pile", "text": "A definition states the fundamental differentia, not a pile of traits" },
+            { "id": "few", "text": "The list is too short to be a genus" },
+            { "id": "none", "text": "None of those traits can be true of the units" },
+            { "id": "genus", "text": "City of birth is the genus" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Extra true details do not improve the definition. They bury the characteristic that explains the kind."
+          }
+        },
+        {
+          "id": "surface",
+          "type": "choice",
+          "prompt": "Two groups of animals differ in color, and that color explains none of their other differences. Color is:",
+          "answer": "surface",
+          "choices": [
+            { "id": "surface", "text": "A surface mark, not the fundamental differentia" },
+            { "id": "fund", "text": "Fundamental, because you can see it at once" },
+            { "id": "genus", "text": "The genus of both groups" },
+            { "id": "concept", "text": "The concept itself, so no definition is needed" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Visibility is not fundamentality. The differentia has to carry the other characteristics, not merely be easy to point at."
+          }
+        },
+        {
+          "id": "depends",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the study line.",
+          "parts": [
+            { "type": "text", "text": "Other characteristics of the kind " },
+            { "type": "blank", "id": "b1", "answer": "depend" },
+            { "type": "text", "text": " on the " },
+            { "type": "blank", "id": "b2", "answer": "fundamental" },
+            { "type": "text", "text": " one." }
+          ],
+          "bank": ["depend", "fundamental", "ignore", "synonym"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That dependence is what fundamental means in a definition. The rest of the kind is understood through that characteristic."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hierarchy",
+      "title": "A hierarchy, not a pile",
+      "objective": "Treat concepts as a hierarchy in which later concepts rest on earlier ones, not as a flat pile of labels.",
+      "exercises": [
+        {
+          "id": "not-pile",
+          "type": "choice",
+          "prompt": "How are concepts ordered in this unit?",
+          "answer": "hier",
+          "choices": [
+            { "id": "hier", "text": "In a hierarchy: later concepts rest on earlier ones" },
+            { "id": "pile", "text": "In a pile: every label is on the same level" },
+            { "id": "alpha", "text": "Only by alphabetical order of the words" },
+            { "id": "mood", "text": "By how strongly you like the word" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A pile would make every concept available at once. A hierarchy means some concepts are the base on which others are formed."
+          }
+        },
+        {
+          "id": "furniture",
+          "type": "choice",
+          "prompt": "You form the concept furniture from concepts such as table, chair, and bed. Which way does the dependence run?",
+          "answer": "up",
+          "choices": [
+            { "id": "up", "text": "Furniture rests on those earlier concepts, not the other way around" },
+            { "id": "down", "text": "Table is valid only after furniture has been defined" },
+            { "id": "same", "text": "The four words are one concept" },
+            { "id": "none", "text": "None of them depends on observation" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Wider concepts are integrations of earlier ones. Table can be formed from perceived tables before furniture is formed."
+          }
+        },
+        {
+          "id": "levels",
+          "type": "match",
+          "prompt": "Match each item to its place in the hierarchy.",
+          "pairs": [
+            { "id": "tables", "left": "Perceived tables", "right": "The base from which the concept table is formed" },
+            { "id": "table", "left": "The concept table", "right": "Earlier than the wider concept furniture" },
+            { "id": "furn", "left": "The concept furniture", "right": "A later integration of concepts such as table and chair" },
+            { "id": "pile", "left": "A flat list of words", "right": "Not the order of concepts" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The hierarchy runs from observed units up through earlier concepts to wider ones. A word list erases that order."
+          }
+        },
+        {
+          "id": "rest",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the study line.",
+          "parts": [
+            { "type": "text", "text": "Later concepts " },
+            { "type": "blank", "id": "b1", "answer": "rest" },
+            { "type": "text", "text": " on " },
+            { "type": "blank", "id": "b2", "answer": "earlier" },
+            { "type": "text", "text": " ones." }
+          ],
+          "bank": ["rest", "earlier", "float", "later"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If a concept had no earlier base, it would be a loose label. In this account, later concepts rest on earlier ones."
+          }
+        },
+        {
+          "id": "build-hier",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study line.",
+          "tokens": [
+            { "id": "t1", "text": "Concepts" },
+            { "id": "t2", "text": "form" },
+            { "id": "t3", "text": "a" },
+            { "id": "t4", "text": "hierarchy" },
+            { "id": "t5", "text": "not" },
+            { "id": "t6", "text": "a" },
+            { "id": "t7", "text": "pile" },
+            { "id": "d1", "text": "synonym" },
+            { "id": "d2", "text": "mood" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Hierarchy is the order. A pile would treat every concept as independent of the ones it was formed from."
+          }
+        },
+        {
+          "id": "backward",
+          "type": "choice",
+          "prompt": "Someone defines table as a kind of furniture, while furniture is itself understood only as tables, chairs, and beds. What went wrong?",
+          "answer": "back",
+          "choices": [
+            { "id": "back", "text": "A later concept was used as if it were the base of an earlier one" },
+            { "id": "genus", "text": "Furniture cannot ever be a genus" },
+            { "id": "ok", "text": "Nothing: every concept may define the concepts it rests on" },
+            { "id": "color", "text": "The differentia should have been a color" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A definition has to be stated with concepts that are earlier in the hierarchy. Using a later concept as the base turns the order upside down."
+          }
+        },
+        {
+          "id": "learn-order",
+          "type": "choice",
+          "prompt": "Which learning order matches the hierarchy?",
+          "answer": "up",
+          "choices": [
+            { "id": "up", "text": "Observed tables, then the concept table, then the wider concept furniture" },
+            { "id": "down", "text": "The word furniture first, with no earlier concepts" },
+            { "id": "words", "text": "A dictionary list, memorized from A to Z" },
+            { "id": "feel", "text": "Whichever word feels most abstract today" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Earlier concepts are available before the wider ones that integrate them. The hierarchy is an order of dependence, not an alphabetical list."
+          }
+        },
+        {
+          "id": "def-uses",
+          "type": "match",
+          "prompt": "Match each rule to the hierarchy.",
+          "pairs": [
+            { "id": "use", "left": "Concepts used in a definition", "right": "Must be earlier than the concept defined" },
+            { "id": "later", "left": "A concept formed from this one", "right": "Cannot be the base that defines it" },
+            { "id": "pile", "left": "Treating all concepts as level", "right": "Erases which concepts can define which" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Definition uses the hierarchy. The terms in the definition have to stand under the concept, not above it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "context-and-order",
+      "title": "Context and the same units",
+      "objective": "See that a definition states the fundamentals in the order of one's knowledge, and can be restated when that knowledge deepens without dropping the units.",
+      "exercises": [
+        {
+          "id": "context",
+          "type": "choice",
+          "prompt": "A definition states essentials in relation to what?",
+          "answer": "know",
+          "choices": [
+            { "id": "know", "text": "The context of one's knowledge, in hierarchical order" },
+            { "id": "forever", "text": "A wording that can never be improved" },
+            { "id": "private", "text": "Each person's private stipulation" },
+            { "id": "vote", "text": "Whatever most speakers prefer this year" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "You can state only the fundamentals your knowledge has reached, and only with concepts earlier than the one you are defining."
+          }
+        },
+        {
+          "id": "deeper",
+          "type": "choice",
+          "prompt": "Knowledge grows, and a deeper fundamental of the same units is discovered. What may change?",
+          "answer": "wording",
+          "choices": [
+            { "id": "wording", "text": "The wording of the definition, so that it states the deeper fundamental" },
+            { "id": "units", "text": "The units, which must be replaced by a new kind" },
+            { "id": "nothing", "text": "Nothing: the first wording is final even if it missed the fundamental" },
+            { "id": "genus", "text": "The rule that a definition needs a genus" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A better context can yield a better statement of the same concept. The definition is revised because knowledge of the units deepened, not because the units were voted away."
+          }
+        },
+        {
+          "id": "same-units",
+          "type": "choice",
+          "prompt": "After a valid definition is restated for a deeper fundamental, the concept still refers to:",
+          "answer": "same",
+          "choices": [
+            { "id": "same", "text": "The same kind of units" },
+            { "id": "none", "text": "No units at all" },
+            { "id": "word", "text": "Only the new word, with the old referents dropped" },
+            { "id": "feel", "text": "The speaker's new feeling about the word" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Changing the statement is not changing the subject. The concept remains the integration of those units."
+          }
+        },
+        {
+          "id": "what-changes",
+          "type": "match",
+          "prompt": "Match each item to what a deeper context does with it.",
+          "pairs": [
+            { "id": "def", "left": "The definition", "right": "May be restated to name the deeper fundamental" },
+            { "id": "units", "left": "The units of the concept", "right": "Stay the referents if they are still that kind" },
+            { "id": "order", "left": "The hierarchy", "right": "Still requires earlier concepts in the definition" },
+            { "id": "pile", "left": "A pile of labels", "right": "Still not the order of concepts" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Context lets the definition improve. It does not flatten the hierarchy or cut the concept off from its units."
+          }
+        },
+        {
+          "id": "revise-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the study line.",
+          "parts": [
+            { "type": "text", "text": "When knowledge deepens, the definition can be " },
+            { "type": "blank", "id": "b1", "answer": "restated" },
+            { "type": "text", "text": " without dropping the " },
+            { "type": "blank", "id": "b2", "answer": "units" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["restated", "units", "erased", "votes"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Restating is not starting over. The new statement still has to cover the units the concept was formed from."
+          }
+        },
+        {
+          "id": "build-context",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study line.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "definition" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "contextual" },
+            { "id": "t5", "text": "and" },
+            { "id": "t6", "text": "hierarchical" },
+            { "id": "d1", "text": "arbitrary" },
+            { "id": "d2", "text": "final-before-knowledge" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Contextual means it states what is fundamental in the knowledge one has. Hierarchical means the terms it uses are earlier concepts."
+          }
+        },
+        {
+          "id": "not-stipulation",
+          "type": "choice",
+          "prompt": "Which revision is allowed?",
+          "answer": "deeper",
+          "choices": [
+            { "id": "deeper", "text": "Naming a deeper fundamental of the same units, with earlier concepts" },
+            { "id": "wish", "text": "Rewriting the definition to match a wish about the units" },
+            { "id": "later", "text": "Defining the concept by a concept that rests on it" },
+            { "id": "drop", "text": "Keeping the wording and dropping the referents" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Growth of knowledge is not a license to stipulate. The new definition still has to be fundamental, hierarchical, and about those units."
+          }
+        },
+        {
+          "id": "both",
+          "type": "choice",
+          "prompt": "What does this unit hold together?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "Definition as the last step, and concepts as a hierarchy rather than a pile" },
+            { "id": "senses", "text": "The senses as the only direct contact with reality" },
+            { "id": "axioms", "text": "The three axiomatic concepts as the start of metaphysics" },
+            { "id": "emotions", "text": "Emotions as tools that replace definitions" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The last step states the concept. The hierarchy decides which concepts that statement may use, and keeps every concept on a base rather than in a pile."
+          }
+        },
+        {
+          "id": "capstone-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the study line.",
+          "parts": [
+            { "type": "text", "text": "Definition is the last step, and it uses " },
+            { "type": "blank", "id": "b1", "answer": "earlier" },
+            { "type": "text", "text": " concepts, not a " },
+            { "type": "blank", "id": "b2", "answer": "pile" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["earlier", "pile", "later", "wish"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That is the unit in one line. You close concept-formation with a definition, and the concepts you close it with stand in a hierarchy."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

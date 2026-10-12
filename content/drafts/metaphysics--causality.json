@@ -1,0 +1,846 @@
+{
+  "sectionId": "metaphysics",
+  "sectionFile": "metaphysics.json",
+  "unitId": "causality",
+  "title": "Causality as a Corollary of Identity",
+  "summary": "The law of causality as the law of identity applied to action. A fuller floor than the preview you just climbed.",
+  "lessons": [
+    {
+      "id": "identity-applied",
+      "title": "Identity applied to action",
+      "objective": "State the law of causality as the law of identity applied to action, not as a second rule beside identity.",
+      "exercises": [
+        {
+          "id": "c1e1",
+          "type": "choice",
+          "prompt": "On this floor, the law of causality is which of these?",
+          "answer": "applied",
+          "choices": [
+            { "id": "applied", "text": "The law of identity applied to action" },
+            { "id": "rival", "text": "A rival law that replaces identity" },
+            { "id": "vote", "text": "A vote about what may happen" },
+            { "id": "mood", "text": "A mood about causes" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Causality does not sit next to identity as a second primary. It is identity, stated for action."
+          }
+        },
+        {
+          "id": "c1e2",
+          "type": "match",
+          "prompt": "Match each term to the job it does in the law.",
+          "pairs": [
+            { "id": "p1", "left": "Law of causality", "right": "Identity applied to action" },
+            { "id": "p2", "left": "Law of identity", "right": "A thing is what it is" },
+            { "id": "p3", "left": "Action", "right": "What identity is applied to" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The base is identity. The corollary carries that base over to what a thing does."
+          }
+        },
+        {
+          "id": "c1e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the short formula.",
+          "parts": [
+            { "type": "text", "text": "The law of causality is the law of identity applied to " },
+            { "type": "blank", "id": "b1", "answer": "action" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["action", "voting", "mood", "chance"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word that finishes the formula is action. Voting, mood, and chance are not what identity is applied to here."
+          }
+        },
+        {
+          "id": "c1e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the short formula in order.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "law" },
+            { "id": "t3", "text": "of" },
+            { "id": "t4", "text": "causality" },
+            { "id": "t5", "text": "is" },
+            { "id": "t6", "text": "identity" },
+            { "id": "t7", "text": "applied" },
+            { "id": "t8", "text": "to" },
+            { "id": "t9", "text": "action" },
+            { "id": "d1", "text": "chance" },
+            { "id": "d2", "text": "against" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9"],
+          "feedback": {
+            "kind": "quote",
+            "quote": "The law of causality is the law of identity applied to action.",
+            "note": "The sentence you built is that formula. Chance and against are not part of it.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 152"
+          }
+        },
+        {
+          "id": "c1e5",
+          "type": "choice",
+          "prompt": "Calling causality a corollary means it is:",
+          "answer": "restatement",
+          "choices": [
+            { "id": "restatement", "text": "Identity restated for action, not a later exception" },
+            { "id": "cancel", "text": "A cancellation of A is A" },
+            { "id": "optional", "text": "An optional extra you may skip" },
+            { "id": "social", "text": "A social custom about blame" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A corollary here repeats the same fact in a new setting. It does not loosen identity when something acts."
+          }
+        },
+        {
+          "id": "c1e6",
+          "type": "choice",
+          "prompt": "Identity is applied to action. Which reading keeps that order?",
+          "answer": "first",
+          "choices": [
+            { "id": "first", "text": "What a thing is comes first; what it does follows from that" },
+            { "id": "wish", "text": "What someone wishes comes first and rewrites what it is" },
+            { "id": "later", "text": "Action is settled first and identity is filled in later" },
+            { "id": "none", "text": "Neither identity nor action is involved" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Applied to means the same law, moved onto action. It does not mean action gets to ignore what the thing is."
+          }
+        },
+        {
+          "id": "c1e7",
+          "type": "match",
+          "prompt": "Match the phrase to what this floor uses it for.",
+          "pairs": [
+            { "id": "p1", "left": "Applied to action", "right": "The move from what a thing is to what it does" },
+            { "id": "p2", "left": "Corollary", "right": "Not a break from identity" },
+            { "id": "p3", "left": "Law of identity", "right": "The base the corollary restates" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the three jobs distinct. The corollary depends on identity. It does not trade places with it."
+          }
+        },
+        {
+          "id": "c1e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the contrast.",
+          "parts": [
+            { "type": "text", "text": "Causality does not " },
+            { "type": "blank", "id": "b1", "answer": "replace" },
+            { "type": "text", "text": " identity. It " },
+            { "type": "blank", "id": "b2", "answer": "applies" },
+            { "type": "text", "text": " identity to action." }
+          ],
+          "bank": ["replace", "applies", "erases", "votes"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Replace would make causality a rival. Applies keeps it a corollary."
+          }
+        },
+        {
+          "id": "c1e9",
+          "type": "choice",
+          "prompt": "The axioms floor already pointed at this dependence. This floor’s job is to:",
+          "answer": "hold",
+          "choices": [
+            { "id": "hold", "text": "Hold the full statement, not merely a pointer ahead" },
+            { "id": "drop", "text": "Drop identity once action begins" },
+            { "id": "swap", "text": "Swap causality in as the first axiom" },
+            { "id": "skip", "text": "Skip action and stay on names only" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The preview named the dependence. This floor stays on it: causality is identity applied to action."
+          }
+        }
+      ]
+    },
+    {
+      "id": "entities-that-act",
+      "title": "The entities that act",
+      "objective": "Locate the cause in the nature of the entities that act, not in a push with no thing behind it.",
+      "exercises": [
+        {
+          "id": "c2e1",
+          "type": "choice",
+          "prompt": "What causes and determines the nature of an action?",
+          "answer": "entities",
+          "choices": [
+            { "id": "entities", "text": "The nature of the entities that act" },
+            { "id": "nothing", "text": "Nothing at all" },
+            { "id": "label", "text": "A label stuck on afterward" },
+            { "id": "crowd", "text": "A crowd’s preference about the entity" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The cause is not a loose event floating free of things. It is the nature of the entities that act."
+          }
+        },
+        {
+          "id": "c2e2",
+          "type": "match",
+          "prompt": "Match each piece of the longer clause to its role.",
+          "pairs": [
+            { "id": "p1", "left": "The entity", "right": "What acts" },
+            { "id": "p2", "left": "The entity’s nature", "right": "What determines the action" },
+            { "id": "p3", "left": "The action", "right": "What that nature causes and determines" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Entity, nature, and action stay in that order. The action does not assign the entity its nature."
+          }
+        },
+        {
+          "id": "c2e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the first half of the longer clause.",
+          "parts": [
+            { "type": "text", "text": "The nature of an action is caused and determined by the nature of the " },
+            { "type": "blank", "id": "b1", "answer": "entities" },
+            { "type": "text", "text": " that " },
+            { "type": "blank", "id": "b2", "answer": "act" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["entities", "act", "wishes", "vote"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Entities that act are the cause named here. Wishes and votes are not substitutes for their natures."
+          }
+        },
+        {
+          "id": "c2e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study line for where the cause sits.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "action" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "determined" },
+            { "id": "t5", "text": "by" },
+            { "id": "t6", "text": "the" },
+            { "id": "t7", "text": "nature" },
+            { "id": "t8", "text": "of" },
+            { "id": "t9", "text": "the" },
+            { "id": "t10", "text": "entity" },
+            { "id": "d1", "text": "whim" },
+            { "id": "d2", "text": "vote" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Whim and vote are distractors. The line keeps the cause in the nature of the entity."
+          }
+        },
+        {
+          "id": "c2e5",
+          "type": "choice",
+          "prompt": "A supposed cause with no entity behind it is:",
+          "answer": "not",
+          "choices": [
+            { "id": "not", "text": "Not what this law treats as a cause" },
+            { "id": "best", "text": "The best kind of cause" },
+            { "id": "same", "text": "The same fact as an entity’s nature" },
+            { "id": "only", "text": "The only cause identity allows" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If nothing acts, there is no nature to determine an action. The law has no room for a cause that is not an entity’s nature."
+          }
+        },
+        {
+          "id": "c2e6",
+          "type": "choice",
+          "prompt": "Two actions differ. The first place this law tells you to look is:",
+          "answer": "natures",
+          "choices": [
+            { "id": "natures", "text": "The natures of the entities that act" },
+            { "id": "names", "text": "Whether the actions were given similar names" },
+            { "id": "poll", "text": "Which action a poll prefers" },
+            { "id": "luck", "text": "A luck that belongs to neither entity" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Different actions point back to different natures. They do not point to a nameless push shared by nothing in particular."
+          }
+        },
+        {
+          "id": "c2e7",
+          "type": "match",
+          "prompt": "Match each story of a cause to the verdict on this floor.",
+          "pairs": [
+            { "id": "p1", "left": "Caused by the entity’s nature", "right": "What the law affirms" },
+            { "id": "p2", "left": "Caused by a wish that the entity be otherwise", "right": "Not a cause in this law" },
+            { "id": "p3", "left": "Caused by nothing at all", "right": "Rejected" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the entity’s nature is the cause the corollary names. A wish and a blank are not stand-ins for it."
+          }
+        },
+        {
+          "id": "c2e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Say where the cause is, in study words.",
+          "parts": [
+            { "type": "text", "text": "There is no cause apart from " },
+            { "type": "blank", "id": "b1", "answer": "what" },
+            { "type": "text", "text": " the acting thing " },
+            { "type": "blank", "id": "b2", "answer": "is" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["what", "is", "wishes", "denies"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "What the thing is determines what it does. That is identity applied to action, said from the side of the cause."
+          }
+        },
+        {
+          "id": "c2e9",
+          "type": "choice",
+          "prompt": "Which wording is the longer clause on this floor?",
+          "answer": "long",
+          "choices": [
+            { "id": "long", "text": "The nature of an action is caused and determined by the nature of the entities that act" },
+            { "id": "free", "text": "An action is caused by nothing in the entity" },
+            { "id": "name", "text": "An action is caused by the name someone prefers" },
+            { "id": "later", "text": "An action first happens, and a nature is assigned later" }
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "The nature of an action is caused and determined by the nature of the entities that act; a thing cannot act in contradiction to its nature.",
+            "note": "The correct choice is the first half of that sentence. The second half is the limit the next lesson holds.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 152"
+          }
+        }
+      ]
+    },
+    {
+      "id": "no-contradiction",
+      "title": "No action against its nature",
+      "objective": "Hold that a thing cannot act in contradiction to its nature, while still allowing action that fits what it is.",
+      "exercises": [
+        {
+          "id": "c3e1",
+          "type": "choice",
+          "prompt": "What limit does the corollary put on action?",
+          "answer": "cannot",
+          "choices": [
+            { "id": "cannot", "text": "A thing cannot act in contradiction to its nature" },
+            { "id": "any", "text": "A thing can act as any nature one prefers" },
+            { "id": "none", "text": "Actions have no natures" },
+            { "id": "only", "text": "Only names act; entities do not" }
+          ],
+          "feedback": {
+            "kind": "quote",
+            "quote": "The nature of an action is caused and determined by the nature of the entities that act; a thing cannot act in contradiction to its nature.",
+            "note": "The limit is the second clause. Action is real. Action against the actor’s nature is not.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 152"
+          }
+        },
+        {
+          "id": "c3e2",
+          "type": "match",
+          "prompt": "Match each kind of action to the ruling.",
+          "pairs": [
+            { "id": "p1", "left": "Action in line with what the thing is", "right": "Allowed by the law" },
+            { "id": "p2", "left": "Action in contradiction to what the thing is", "right": "Ruled out" },
+            { "id": "p3", "left": "Action from a thing with no nature", "right": "Ruled out, because there is no such actor" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The law limits action. It does not ban action. What it bans is action that would contradict the actor."
+          }
+        },
+        {
+          "id": "c3e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the limit.",
+          "parts": [
+            { "type": "text", "text": "A thing cannot act in " },
+            { "type": "blank", "id": "b1", "answer": "contradiction" },
+            { "type": "text", "text": " to its " },
+            { "type": "blank", "id": "b2", "answer": "nature" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["contradiction", "nature", "favor", "title"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Contradiction to its nature is the bar. Favor and title do not name that bar."
+          }
+        },
+        {
+          "id": "c3e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the limit in study words.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "thing" },
+            { "id": "t3", "text": "cannot" },
+            { "id": "t4", "text": "act" },
+            { "id": "t5", "text": "against" },
+            { "id": "t6", "text": "its" },
+            { "id": "t7", "text": "nature" },
+            { "id": "d1", "text": "may" },
+            { "id": "d2", "text": "rename" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "May and rename soften or dodge the limit. Cannot act against its nature is the claim."
+          }
+        },
+        {
+          "id": "c3e5",
+          "type": "choice",
+          "prompt": "An action that fits what the thing is counts as:",
+          "answer": "fit",
+          "choices": [
+            { "id": "fit", "text": "Action the law allows, not a contradiction" },
+            { "id": "ban", "text": "A contradiction, because all action is banned" },
+            { "id": "break", "text": "A break from identity" },
+            { "id": "vote", "text": "A vote that changes its nature" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Identity applied to action still leaves the thing able to act. It leaves the thing able to act only as what it is."
+          }
+        },
+        {
+          "id": "c3e6",
+          "type": "choice",
+          "prompt": "Cannot, in this law, means:",
+          "answer": "meta",
+          "choices": [
+            { "id": "meta", "text": "Ruled out by what the thing is, not merely hard or unpopular" },
+            { "id": "hard", "text": "Difficult, but open if one tries longer" },
+            { "id": "illegal", "text": "Illegal under a statute" },
+            { "id": "rude", "text": "Rude in company" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The bar is metaphysical. It is not a remark about effort, statutes, or manners."
+          }
+        },
+        {
+          "id": "c3e7",
+          "type": "match",
+          "prompt": "Match the phrase to the fact it names.",
+          "pairs": [
+            { "id": "p1", "left": "Contradiction to its nature", "right": "The action the law rules out" },
+            { "id": "p2", "left": "In line with its nature", "right": "The only actions open to it" },
+            { "id": "p3", "left": "The entity’s nature", "right": "What sets that limit" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The nature sets the limit. Action inside the limit stands. Action outside it does not."
+          }
+        },
+        {
+          "id": "c3e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the contrast between acting and contradicting.",
+          "parts": [
+            { "type": "text", "text": "A thing acts as what it " },
+            { "type": "blank", "id": "b1", "answer": "is" },
+            { "type": "text", "text": ", not as what would " },
+            { "type": "blank", "id": "b2", "answer": "contradict" },
+            { "type": "text", "text": " it." }
+          ],
+          "bank": ["is", "contradict", "wish", "poll"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Is names the identity. Contradict names the action the corollary rejects."
+          }
+        },
+        {
+          "id": "c3e9",
+          "type": "choice",
+          "prompt": "Which mistake treats the limit as a ban on action itself?",
+          "answer": "ban",
+          "choices": [
+            { "id": "ban", "text": "Reading cannot contradict its nature as cannot act at all" },
+            { "id": "fit", "text": "Reading it as a bar only on contradictory action" },
+            { "id": "entity", "text": "Keeping the cause in the entity’s nature" },
+            { "id": "both", "text": "Holding the short formula and the longer clause together" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The corollary is about how a thing acts, not about freezing it. Contradictory action is out. Action as such is not."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-a-rival",
+      "title": "Not a rival law",
+      "objective": "Reject substitutes that treat causality as chance, decree, or a second axiom that can break identity.",
+      "exercises": [
+        {
+          "id": "c4e1",
+          "type": "choice",
+          "prompt": "Which reading is not this law?",
+          "answer": "decree",
+          "choices": [
+            { "id": "decree", "text": "A decree can make a thing act against its nature" },
+            { "id": "apply", "text": "Causality is identity applied to action" },
+            { "id": "nature", "text": "The entity’s nature determines the action" },
+            { "id": "limit", "text": "Action cannot contradict that nature" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A decree is not a cause that rewrites identity. The other three readings are the floor itself."
+          }
+        },
+        {
+          "id": "c4e2",
+          "type": "match",
+          "prompt": "Match each substitute to why it fails.",
+          "pairs": [
+            { "id": "p1", "left": "Chance with no nature", "right": "A cause that is not an entity" },
+            { "id": "p2", "left": "A decree that rewrites the entity", "right": "Action in contradiction to nature" },
+            { "id": "p3", "left": "Causality as a rival axiom", "right": "A break from identity, which a corollary is not" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each substitute drops the corollary. Chance drops the entity, decree drops the limit, and a rival axiom drops the dependence on identity."
+          }
+        },
+        {
+          "id": "c4e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Say what causality does not do to identity.",
+          "parts": [
+            { "type": "text", "text": "Causality does not " },
+            { "type": "blank", "id": "b1", "answer": "break" },
+            { "type": "text", "text": " identity. It is identity applied to " },
+            { "type": "blank", "id": "b2", "answer": "action" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["break", "action", "outrank", "mood"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Break and outrank would make a rival. Action is the setting of the corollary, not a mood."
+          }
+        },
+        {
+          "id": "c4e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the rejection of decree.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "decree" },
+            { "id": "t3", "text": "cannot" },
+            { "id": "t4", "text": "make" },
+            { "id": "t5", "text": "a" },
+            { "id": "t6", "text": "thing" },
+            { "id": "t7", "text": "act" },
+            { "id": "t8", "text": "against" },
+            { "id": "t9", "text": "its" },
+            { "id": "t10", "text": "nature" },
+            { "id": "d1", "text": "always" },
+            { "id": "d2", "text": "vote" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Always and vote do not belong. A decree has no power to contradict the actor’s nature."
+          }
+        },
+        {
+          "id": "c4e5",
+          "type": "choice",
+          "prompt": "An uncaused action would be:",
+          "answer": "noid",
+          "choices": [
+            { "id": "noid", "text": "An action with no identity behind it, which the corollary rejects" },
+            { "id": "normal", "text": "The ordinary case of identity applied to action" },
+            { "id": "best", "text": "The clearest case of an entity’s nature" },
+            { "id": "law", "text": "What the law of causality requires" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If the action had no cause in what the thing is, identity would have failed for action. That is what the corollary rules out."
+          }
+        },
+        {
+          "id": "c4e6",
+          "type": "choice",
+          "prompt": "Which trio is outside this law’s subject?",
+          "answer": "out",
+          "choices": [
+            { "id": "out", "text": "Legislation, mood, and a vote about what the entity should be" },
+            { "id": "in", "text": "Identity, the entity’s nature, and its action" },
+            { "id": "both", "text": "The short formula and the limit on contradiction" },
+            { "id": "cause", "text": "The nature of the entities that act" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The law is about entities in action. It is not a remark on statutes, feelings, or polls."
+          }
+        },
+        {
+          "id": "c4e7",
+          "type": "match",
+          "prompt": "Match the claim to the verdict.",
+          "pairs": [
+            { "id": "p1", "left": "Uncaused action", "right": "Denied" },
+            { "id": "p2", "left": "Action determined by nature", "right": "Affirmed" },
+            { "id": "p3", "left": "Action against nature", "right": "Denied" },
+            { "id": "p4", "left": "Identity applied to action", "right": "The law itself" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Two denials and two affirmations. The affirmations are the same fact: what the thing is determines what it does."
+          }
+        },
+        {
+          "id": "c4e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the two substitutes this lesson rejects.",
+          "parts": [
+            { "type": "text", "text": "Neither " },
+            { "type": "blank", "id": "b1", "answer": "chance" },
+            { "type": "text", "text": " nor a " },
+            { "type": "blank", "id": "b2", "answer": "decree" },
+            { "type": "text", "text": " is identity applied to action." }
+          ],
+          "bank": ["chance", "decree", "entity", "nature"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Chance and decree are the substitutes. Entity and nature are what the law actually uses."
+          }
+        },
+        {
+          "id": "c4e9",
+          "type": "choice",
+          "prompt": "Why is causality not promoted to a first axiom on this floor?",
+          "answer": "depends",
+          "choices": [
+            { "id": "depends", "text": "Because it depends on identity and only applies identity to action" },
+            { "id": "older", "text": "Because it is older than identity" },
+            { "id": "cancels", "text": "Because it cancels the need for a nature" },
+            { "id": "vote", "text": "Because a vote ranked it first" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A corollary cannot outrank the fact it restates. Causality stays downstream of identity."
+          }
+        },
+        {
+          "id": "c4e10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the one-line rejection of a rival law.",
+          "tokens": [
+            { "id": "t1", "text": "Causality" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "rival" },
+            { "id": "t6", "text": "of" },
+            { "id": "t7", "text": "identity" },
+            { "id": "d1", "text": "the" },
+            { "id": "d2", "text": "replacement" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Replacement would be the rival reading. Not a rival of identity is the reading this floor keeps."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fuller-floor",
+      "title": "The fuller floor",
+      "objective": "Connect the short formula to the longer clause and treat them as one statement, fuller than the preview.",
+      "exercises": [
+        {
+          "id": "c5e1",
+          "type": "choice",
+          "prompt": "The short formula and the longer clause:",
+          "answer": "same",
+          "choices": [
+            { "id": "same", "text": "State one dependence in two wordings" },
+            { "id": "fight", "text": "Contradict each other" },
+            { "id": "topics", "text": "Belong to two unrelated topics" },
+            { "id": "optional", "text": "Are optional slogans with no link" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Identity applied to action is the same claim as this: the entity’s nature determines the action, and the action cannot contradict that nature."
+          }
+        },
+        {
+          "id": "c5e2",
+          "type": "match",
+          "prompt": "Match each wording to the part of the floor it carries.",
+          "pairs": [
+            { "id": "p1", "left": "The short formula", "right": "Identity applied to action" },
+            { "id": "p2", "left": "The longer clause, first half", "right": "The action’s nature comes from the entities that act" },
+            { "id": "p3", "left": "The longer clause, second half", "right": "No action in contradiction to that nature" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One floor, three wordings of one dependence. Do not file them as separate laws."
+          }
+        },
+        {
+          "id": "c5e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Tie the formula to the cause.",
+          "parts": [
+            { "type": "text", "text": "Identity applied to action means the action is " },
+            { "type": "blank", "id": "b1", "answer": "determined" },
+            { "type": "text", "text": " by what the entity " },
+            { "type": "blank", "id": "b2", "answer": "is" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["determined", "is", "guessed", "voted"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Determined by what the entity is is the bridge between the short formula and the longer clause."
+          }
+        },
+        {
+          "id": "c5e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the short formula once more, as the head of this floor.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "law" },
+            { "id": "t3", "text": "of" },
+            { "id": "t4", "text": "causality" },
+            { "id": "t5", "text": "is" },
+            { "id": "t6", "text": "the" },
+            { "id": "t7", "text": "law" },
+            { "id": "t8", "text": "of" },
+            { "id": "t9", "text": "identity" },
+            { "id": "t10", "text": "applied" },
+            { "id": "t11", "text": "to" },
+            { "id": "t12", "text": "action" },
+            { "id": "d1", "text": "except" },
+            { "id": "d2", "text": "sometimes" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10", "t11", "t12"],
+          "feedback": {
+            "kind": "quote",
+            "quote": "The law of causality is the law of identity applied to action.",
+            "note": "Except and sometimes would punch a hole in the corollary. The formula has no such hole.",
+            "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 152"
+          }
+        },
+        {
+          "id": "c5e5",
+          "type": "choice",
+          "prompt": "Why is this floor fuller than the preview on the axioms floor?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "The preview only pointed ahead; this floor states the formula and the clause about nature" },
+            { "id": "less", "text": "This floor drops both sentences and keeps only the pointer" },
+            { "id": "other", "text": "This floor changes the subject away from identity and action" },
+            { "id": "vote", "text": "This floor replaces the law with a vote" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Fuller means both wordings are in hand: identity applied to action, and the nature of the entities that act."
+          }
+        },
+        {
+          "id": "c5e6",
+          "type": "choice",
+          "prompt": "Which order is the dependence?",
+          "answer": "order",
+          "choices": [
+            { "id": "order", "text": "Identity first, then causality as its corollary for action" },
+            { "id": "flip", "text": "Causality first, then identity as an optional gloss" },
+            { "id": "tie", "text": "Neither depends on the other" },
+            { "id": "third", "text": "A third law comes first and both follow if a decree says so" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The order is the point of calling causality a corollary. Identity is not derived from a separate law of causes."
+          }
+        },
+        {
+          "id": "c5e7",
+          "type": "match",
+          "prompt": "Match the question to the answer this floor gives.",
+          "pairs": [
+            { "id": "p1", "left": "What is the law of causality?", "right": "The law of identity applied to action" },
+            { "id": "p2", "left": "What determines an action?", "right": "The nature of the entities that act" },
+            { "id": "p3", "left": "What action is impossible?", "right": "Action in contradiction to a thing’s nature" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Those three answers are the whole floor. If you can give them, you are past the preview."
+          }
+        },
+        {
+          "id": "c5e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Put the two key phrases in one line.",
+          "parts": [
+            { "type": "text", "text": "Causality is identity applied to " },
+            { "type": "blank", "id": "b1", "answer": "action" },
+            { "type": "text", "text": ", so a thing cannot act against its " },
+            { "type": "blank", "id": "b2", "answer": "nature" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["action", "nature", "chance", "decree"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Action and nature are the two words that lock the formula to the limit. Chance and decree are the substitutes already rejected."
+          }
+        },
+        {
+          "id": "c5e9",
+          "type": "choice",
+          "prompt": "Leaving this floor, which summary is right?",
+          "answer": "sum",
+          "choices": [
+            { "id": "sum", "text": "Causality is not a break from identity; a thing acts as what it is" },
+            { "id": "break", "text": "Causality is the break that lets a thing act against what it is" },
+            { "id": "none", "text": "Actions happen, but nothing determines them" },
+            { "id": "only", "text": "Only the preview matters; the two sentences can be dropped" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That summary is the unit: the law of identity applied to action, held more fully than the preview that pointed here."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "quote": "The law of causality is the law of identity applied to action.",
+      "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 152"
+    },
+    {
+      "quote": "The nature of an action is caused and determined by the nature of the entities that act; a thing cannot act in contradiction to its nature.",
+      "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 152"
+    }
+  ]
+}

@@ -1,0 +1,878 @@
+{
+  "sectionId": "ethics",
+  "sectionFile": "ethics.json",
+  "unitId": "egoism",
+  "title": "Egoism and Altruism",
+  "summary": "The individual as the proper beneficiary of his own action, against the demand that he live for others.",
+  "lessons": [
+    {
+      "id": "own-beneficiary",
+      "title": "Who the action is for",
+      "objective": "Name the individual himself as the proper beneficiary of his own action.",
+      "exercises": [
+        {
+          "id": "ob1",
+          "type": "choice",
+          "prompt": "On this unit’s view, who is the proper beneficiary of a person’s own action?",
+          "answer": "self",
+          "choices": [
+            { "id": "self", "text": "That person himself" },
+            { "id": "crowd", "text": "Whoever has the greater need" },
+            { "id": "state", "text": "The group he belongs to" },
+            { "id": "none", "text": "No one; action should benefit nobody" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Egoism here means the actor is the proper beneficiary of what he does. The gain is his to seek."
+          }
+        },
+        {
+          "id": "ob2",
+          "type": "match",
+          "prompt": "Match each idea to the person it treats as the proper beneficiary.",
+          "pairs": [
+            { "id": "p1", "left": "Egoism, as this unit uses it", "right": "The person who acts" },
+            { "id": "p2", "left": "A code that says live for others", "right": "Someone other than the actor" },
+            { "id": "p3", "left": "The demand rejected here", "right": "Other people, as a moral duty to live for them" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The split is about who is supposed to gain. Egoism names the actor. The opposed demand names others."
+          }
+        },
+        {
+          "id": "ob3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit’s claim about the beneficiary.",
+          "parts": [
+            { "type": "text", "text": "The individual is the proper " },
+            { "type": "blank", "id": "b1", "answer": "beneficiary" },
+            { "type": "text", "text": " of his own action." }
+          ],
+          "bank": ["beneficiary", "servant", "victim", "spectator"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Beneficiary means the person for whom the action is properly done. That person is the individual who acts."
+          }
+        },
+        {
+          "id": "ob4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states who should gain.",
+          "tokens": [
+            { "id": "t1", "text": "His" },
+            { "id": "t2", "text": "own" },
+            { "id": "t3", "text": "action" },
+            { "id": "t4", "text": "is" },
+            { "id": "t5", "text": "properly" },
+            { "id": "t6", "text": "for" },
+            { "id": "t7", "text": "him" },
+            { "id": "d1", "text": "strangers" },
+            { "id": "d2", "text": "never" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The action belongs to him, and the proper gain belongs to him as well."
+          }
+        },
+        {
+          "id": "ob5",
+          "type": "choice",
+          "prompt": "A carpenter builds a table and is paid for it. Who does this unit treat as the proper beneficiary of that work?",
+          "answer": "car",
+          "choices": [
+            { "id": "car", "text": "The carpenter, as the person who acted" },
+            { "id": "only", "text": "Only people who did not pay him" },
+            { "id": "none", "text": "Nobody, because payment spoils the work" },
+            { "id": "guild", "text": "The trade as a whole, not the man" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "He did the work. He is the proper beneficiary of it, including the payment he earns."
+          }
+        },
+        {
+          "id": "ob6",
+          "type": "choice",
+          "prompt": "What does beneficiary mean in this unit?",
+          "answer": "gain",
+          "choices": [
+            { "id": "gain", "text": "The person for whom the action is properly done" },
+            { "id": "pity", "text": "The person who feels sorry for the actor" },
+            { "id": "judge", "text": "A referee who scores the action" },
+            { "id": "tool", "text": "A tool the actor happens to use" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word marks the intended moral recipient of the action, not a feeling or a gadget."
+          }
+        },
+        {
+          "id": "ob7",
+          "type": "match",
+          "prompt": "Match each phrase to what it affirms.",
+          "pairs": [
+            { "id": "p1", "left": "Proper beneficiary", "right": "Who the action is for" },
+            { "id": "p2", "left": "His own action", "right": "What the individual himself does" },
+            { "id": "p3", "left": "The individual", "right": "The person whose life the action serves" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Three pieces lock together: a person, his deed, and himself as the one who should gain."
+          }
+        },
+        {
+          "id": "ob8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two blanks.",
+          "parts": [
+            { "type": "text", "text": "He acts, and the proper beneficiary is " },
+            { "type": "blank", "id": "b1", "answer": "himself" },
+            { "type": "text", "text": ", not a demand that he live for " },
+            { "type": "blank", "id": "b2", "answer": "others" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["himself", "others", "nobody", "chance"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The positive claim and the rejection travel together: himself, not others as the ones he must live for."
+          }
+        },
+        {
+          "id": "ob9",
+          "type": "choice",
+          "prompt": "Which statement matches this unit?",
+          "answer": "ok",
+          "choices": [
+            { "id": "ok", "text": "A person is the proper beneficiary of what he does" },
+            { "id": "bad", "text": "A person may act only if someone else is the beneficiary" },
+            { "id": "void", "text": "Action has no beneficiary at all" },
+            { "id": "rot", "text": "The beneficiary rotates by public vote each day" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit’s title names egoism as the claim that the actor is the proper beneficiary."
+          }
+        },
+        {
+          "id": "ob10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the short claim.",
+          "tokens": [
+            { "id": "t1", "text": "You" },
+            { "id": "t2", "text": "are" },
+            { "id": "t3", "text": "the" },
+            { "id": "t4", "text": "proper" },
+            { "id": "t5", "text": "beneficiary" },
+            { "id": "d1", "text": "obstacle" },
+            { "id": "d2", "text": "audience" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The claim is aimed at the actor: you, not a stand-in, are the proper beneficiary."
+          }
+        }
+      ]
+    },
+    {
+      "id": "live-for-others",
+      "title": "The demand to live for others",
+      "objective": "Identify the moral demand this unit rejects: that a person live for others.",
+      "exercises": [
+        {
+          "id": "lf1",
+          "type": "choice",
+          "prompt": "What demand does this unit set egoism against?",
+          "answer": "others",
+          "choices": [
+            { "id": "others", "text": "The demand that he live for others" },
+            { "id": "facts", "text": "The demand that he notice facts" },
+            { "id": "skill", "text": "The demand that he learn a skill" },
+            { "id": "rest", "text": "The demand that he rest when tired" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The opposed demand is moral: live for others. It is not a demand to be awake to reality or to do competent work."
+          }
+        },
+        {
+          "id": "lf2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rejection.",
+          "parts": [
+            { "type": "text", "text": "Egoism stands against the demand that he " },
+            { "type": "blank", "id": "b1", "answer": "live" },
+            { "type": "text", "text": " for others." }
+          ],
+          "bank": ["live", "vote", "wait", "apologize"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The phrase is live for others: his life is treated as something owed to them."
+          }
+        },
+        {
+          "id": "lf3",
+          "type": "match",
+          "prompt": "Match each demand to how this unit treats it.",
+          "pairs": [
+            { "id": "p1", "left": "Live for others", "right": "Rejected" },
+            { "id": "p2", "left": "Be the beneficiary of your own action", "right": "Affirmed" },
+            { "id": "p3", "left": "Treat your life as fuel for other lives", "right": "The same rejection, restated" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Living for others and being used as fuel for other lives are the demand this unit refuses."
+          }
+        },
+        {
+          "id": "lf4",
+          "type": "choice",
+          "prompt": "A teacher says your studies count only when they help strangers, never when they help you. What is that?",
+          "answer": "dem",
+          "choices": [
+            { "id": "dem", "text": "The demand that you live for others" },
+            { "id": "ego", "text": "A statement of egoism" },
+            { "id": "id", "text": "A reminder that you exist" },
+            { "id": "pay", "text": "A description of a fair wage" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If your own benefit is ruled out and only others count, the demand is the one this unit rejects."
+          }
+        },
+        {
+          "id": "lf5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the demand this unit rejects.",
+          "tokens": [
+            { "id": "t1", "text": "Live" },
+            { "id": "t2", "text": "for" },
+            { "id": "t3", "text": "others" },
+            { "id": "d1", "text": "yourself" },
+            { "id": "d2", "text": "facts" },
+            { "id": "d3", "text": "Never" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Three words name the demand: live for others. The unit is written against that demand."
+          }
+        },
+        {
+          "id": "lf6",
+          "type": "choice",
+          "prompt": "Living for others, in this unit, means which of these?",
+          "answer": "owe",
+          "choices": [
+            { "id": "owe", "text": "Treating other people as the ones your life is for" },
+            { "id": "trade", "text": "Trading value for value when both sides gain" },
+            { "id": "hello", "text": "Speaking politely to neighbors" },
+            { "id": "map", "text": "Knowing where other people live" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The demand is about the purpose of your life, not manners or mere knowledge of other people."
+          }
+        },
+        {
+          "id": "lf7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the contrast.",
+          "parts": [
+            { "type": "text", "text": "Not live for " },
+            { "type": "blank", "id": "b1", "answer": "others" },
+            { "type": "text", "text": ", but be the beneficiary of your " },
+            { "type": "blank", "id": "b2", "answer": "own" },
+            { "type": "text", "text": " action." }
+          ],
+          "bank": ["others", "own", "their", "random"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The no and the yes are one contrast: others are not the ones you must live for; your own action is properly for you."
+          }
+        },
+        {
+          "id": "lf8",
+          "type": "choice",
+          "prompt": "Which slogan matches the demand this unit opposes?",
+          "answer": "for",
+          "choices": [
+            { "id": "for", "text": "Your life is for other people" },
+            { "id": "mine", "text": "Your life is your own to live" },
+            { "id": "both", "text": "You may keep what you earn" },
+            { "id": "see", "text": "Look at what is in front of you" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Your life is for other people is the demand. The unit takes the other side."
+          }
+        },
+        {
+          "id": "lf9",
+          "type": "match",
+          "prompt": "Match the saying to the side it takes.",
+          "pairs": [
+            { "id": "p1", "left": "I am the proper beneficiary of what I do", "right": "Egoism" },
+            { "id": "p2", "left": "I must live for others", "right": "The demand rejected here" },
+            { "id": "p3", "left": "My action is properly for me", "right": "Egoism again" },
+            { "id": "p4", "left": "My days belong to whoever needs them", "right": "Living for others" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Two sayings keep the actor as beneficiary. Two hand his life to other people."
+          }
+        },
+        {
+          "id": "lf10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build what the unit refuses.",
+          "tokens": [
+            { "id": "t1", "text": "He" },
+            { "id": "t2", "text": "need" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "live" },
+            { "id": "t5", "text": "for" },
+            { "id": "t6", "text": "others" },
+            { "id": "d1", "text": "must" },
+            { "id": "d2", "text": "always" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The refusal is direct: he need not live for others. That is the negative half of the unit."
+          }
+        }
+      ]
+    },
+    {
+      "id": "what-altruism-asks",
+      "title": "What altruism asks",
+      "objective": "Describe altruism, in this contrast, as the code that makes others the beneficiary of one’s action.",
+      "exercises": [
+        {
+          "id": "wa1",
+          "type": "choice",
+          "prompt": "In the contrast this unit draws, what does altruism ask?",
+          "answer": "oth",
+          "choices": [
+            { "id": "oth", "text": "That others be the beneficiary of your action" },
+            { "id": "you", "text": "That you be the beneficiary of your action" },
+            { "id": "none", "text": "That no one benefit from anything" },
+            { "id": "math", "text": "That you study mathematics" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Altruism, set against egoism here, places the beneficiary outside the actor."
+          }
+        },
+        {
+          "id": "wa2",
+          "type": "match",
+          "prompt": "Match each name to the beneficiary it assigns.",
+          "pairs": [
+            { "id": "p1", "left": "Egoism", "right": "The actor" },
+            { "id": "p2", "left": "Altruism, in this contrast", "right": "Others" },
+            { "id": "p3", "left": "The demand to live for others", "right": "Others, as the purpose of one’s life" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The names pick different beneficiaries. Egoism picks the actor. Altruism, as opposed here, picks others."
+          }
+        },
+        {
+          "id": "wa3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast in one line.",
+          "parts": [
+            { "type": "text", "text": "Altruism, in this unit, asks you to live for " },
+            { "type": "blank", "id": "b1", "answer": "others" },
+            { "type": "text", "text": " rather than as the beneficiary of your own action." }
+          ],
+          "bank": ["others", "yourself", "nobody", "ideas"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word that fills the blank is others. That is the ask."
+          }
+        },
+        {
+          "id": "wa4",
+          "type": "choice",
+          "prompt": "A code says every personal gain is a moral failure, and only gains kept by other people count. Which side is that?",
+          "answer": "alt",
+          "choices": [
+            { "id": "alt", "text": "The altruist side of this contrast" },
+            { "id": "ego", "text": "The egoist side of this contrast" },
+            { "id": "neu", "text": "Neither, because both sides ban gain" },
+            { "id": "mix", "text": "Both sides at once" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Ruling out the actor’s gain and keeping only other people’s gain is the altruist demand in this unit."
+          }
+        },
+        {
+          "id": "wa5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the altruist assignment of the beneficiary.",
+          "tokens": [
+            { "id": "t1", "text": "Others" },
+            { "id": "t2", "text": "are" },
+            { "id": "t3", "text": "to" },
+            { "id": "t4", "text": "be" },
+            { "id": "t5", "text": "the" },
+            { "id": "t6", "text": "beneficiary" },
+            { "id": "d1", "text": "actor" },
+            { "id": "d2", "text": "You" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That sentence states the altruist side: the beneficiary is relocated to others."
+          }
+        },
+        {
+          "id": "wa6",
+          "type": "choice",
+          "prompt": "Which pairing is correct for this unit?",
+          "answer": "pair",
+          "choices": [
+            { "id": "pair", "text": "Egoism for the actor; altruism for others as beneficiary" },
+            { "id": "swap", "text": "Egoism for others; altruism for the actor" },
+            { "id": "same", "text": "Both names mean the actor must live for others" },
+            { "id": "empty", "text": "Neither name says anything about a beneficiary" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Do not swap the names. Egoism keeps the beneficiary with the actor. Altruism moves it to others."
+          }
+        },
+        {
+          "id": "wa7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name both sides.",
+          "parts": [
+            { "type": "text", "text": "The actor as beneficiary is " },
+            { "type": "blank", "id": "b1", "answer": "egoism" },
+            { "type": "text", "text": ". Others as the ones he must live for is " },
+            { "type": "blank", "id": "b2", "answer": "altruism" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["egoism", "altruism", "silence", "weather"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two titles of the unit name the two assignments of the beneficiary."
+          }
+        },
+        {
+          "id": "wa8",
+          "type": "choice",
+          "prompt": "Altruism, as drawn here, is not which of the following?",
+          "answer": "map",
+          "choices": [
+            { "id": "map", "text": "A street map of a city" },
+            { "id": "code", "text": "A moral demand about who should gain" },
+            { "id": "live", "text": "The claim that one should live for others" },
+            { "id": "opp", "text": "The opposite of the actor as beneficiary" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "In this unit altruism is a moral demand, not a neutral fact about streets or tools."
+          }
+        },
+        {
+          "id": "wa9",
+          "type": "match",
+          "prompt": "Match the question to the altruist answer in this contrast.",
+          "pairs": [
+            { "id": "p1", "left": "Who should your action be for?", "right": "Others" },
+            { "id": "p2", "left": "Whose life is the purpose?", "right": "Other people’s, not your own" },
+            { "id": "p3", "left": "What is refused by egoism?", "right": "That you live for others" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Altruism answers the who-gains question by pointing away from the actor. Egoism refuses that answer."
+          }
+        },
+        {
+          "id": "wa10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the egoist reply to that ask.",
+          "tokens": [
+            { "id": "t1", "text": "I" },
+            { "id": "t2", "text": "do" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "live" },
+            { "id": "t5", "text": "for" },
+            { "id": "t6", "text": "others" },
+            { "id": "d1", "text": "only" },
+            { "id": "d2", "text": "always" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The reply declines the altruist assignment. The actor does not take others as the purpose of his life."
+          }
+        }
+      ]
+    },
+    {
+      "id": "action-and-gain",
+      "title": "Action and its proper gain",
+      "objective": "Connect a concrete action to the person who properly gains from it, and reject handing that gain away as a duty.",
+      "exercises": [
+        {
+          "id": "ag1",
+          "type": "choice",
+          "prompt": "Lena studies medicine because she wants the career and the knowledge. This unit says the proper beneficiary of that study is:",
+          "answer": "lena",
+          "choices": [
+            { "id": "lena", "text": "Lena" },
+            { "id": "only", "text": "Only future patients, never Lena" },
+            { "id": "none", "text": "No one, because study is not an action" },
+            { "id": "dept", "text": "The hospital’s budget office alone" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "She is the one acting. She is the proper beneficiary of the studying, even if patients later gain too."
+          }
+        },
+        {
+          "id": "ag2",
+          "type": "choice",
+          "prompt": "A rule says Lena’s study is moral only if she erases her own benefit. What does this unit say about that rule?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "It is the demand that she live for others" },
+            { "id": "yes", "text": "It is what egoism requires" },
+            { "id": "id", "text": "It is a fact of anatomy" },
+            { "id": "opt", "text": "It is optional spelling advice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Erasing her benefit so that only others remain is the demand the unit stands against."
+          }
+        },
+        {
+          "id": "ag3",
+          "type": "match",
+          "prompt": "Match the action to the proper beneficiary on this unit’s terms.",
+          "pairs": [
+            { "id": "p1", "left": "You cook a meal you will eat", "right": "You" },
+            { "id": "p2", "left": "You earn a wage for your work", "right": "You, the worker" },
+            { "id": "p3", "left": "You practice a skill you chose", "right": "You, the learner" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "In each case the person who acts is the proper beneficiary of that action."
+          }
+        },
+        {
+          "id": "ag4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the judgment.",
+          "parts": [
+            { "type": "text", "text": "The proper gain of his work stays with " },
+            { "type": "blank", "id": "b1", "answer": "him" },
+            { "type": "text", "text": ". Handing it away as a duty would be living for " },
+            { "type": "blank", "id": "b2", "answer": "others" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["him", "others", "no one", "rumor"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keeping the gain with the actor is the egoist claim. Giving it up as a duty is the opposed demand."
+          }
+        },
+        {
+          "id": "ag5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the line about earned pay.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "pay" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "properly" },
+            { "id": "t5", "text": "his" },
+            { "id": "d1", "text": "stolen" },
+            { "id": "d2", "text": "shameful" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Pay for his work is a gain of his action. This unit treats that gain as properly his."
+          }
+        },
+        {
+          "id": "ag6",
+          "type": "choice",
+          "prompt": "Marco shares a tool with a friend because he wants to, and he still owns the tool. Does that by itself mean he lives for others?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. A chosen share is not the demand that his life be for others" },
+            { "id": "yes", "text": "Yes. Any benefit to a second person is altruism" },
+            { "id": "ban", "text": "Yes. Egoism forbids ever letting anyone else gain" },
+            { "id": "own", "text": "Yes. Ownership itself is living for others" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The rejected demand is that he live for others. A voluntary share, with his own life still his, is not that demand."
+          }
+        },
+        {
+          "id": "ag7",
+          "type": "choice",
+          "prompt": "Which case is the demand this unit rejects?",
+          "answer": "duty",
+          "choices": [
+            { "id": "duty", "text": "You are told your life is owed to other people as such" },
+            { "id": "meal", "text": "You eat lunch because you are hungry" },
+            { "id": "job", "text": "You take a job because the work and the pay are yours" },
+            { "id": "book", "text": "You read a book you chose" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Hunger, chosen work, and chosen reading keep you as beneficiary. Being told your life is owed is the demand."
+          }
+        },
+        {
+          "id": "ag8",
+          "type": "match",
+          "prompt": "Sort each line.",
+          "pairs": [
+            { "id": "p1", "left": "I keep the fruit of my effort", "right": "Actor as beneficiary" },
+            { "id": "p2", "left": "My effort is owed away from me", "right": "Live for others" },
+            { "id": "p3", "left": "I chose to give a gift and still live my life", "right": "Not the same as the rejected demand" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The moral issue is whether his life is treated as owed. A chosen gift does not rewrite who he is living for."
+          }
+        },
+        {
+          "id": "ag9",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the principle applied to work.",
+          "parts": [
+            { "type": "text", "text": "The worker is the proper " },
+            { "type": "blank", "id": "b1", "answer": "beneficiary" },
+            { "type": "text", "text": " of the work he does." }
+          ],
+          "bank": ["beneficiary", "excuse", "audience", "obstacle"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Apply the same word used for action in general: the worker is the beneficiary of his work."
+          }
+        },
+        {
+          "id": "ag10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the applied claim.",
+          "tokens": [
+            { "id": "t1", "text": "Her" },
+            { "id": "t2", "text": "effort" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "properly" },
+            { "id": "t5", "text": "for" },
+            { "id": "t6", "text": "her" },
+            { "id": "d1", "text": "strangers" },
+            { "id": "d2", "text": "never" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Effort she performs is properly for her. That is the beneficiary claim in a concrete case."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hold-the-contrast",
+      "title": "Hold the contrast",
+      "objective": "Keep egoism and the rejected demand distinct when the wording changes.",
+      "exercises": [
+        {
+          "id": "hc1",
+          "type": "choice",
+          "prompt": "Which sentence is egoism, as this unit states it?",
+          "answer": "ben",
+          "choices": [
+            { "id": "ben", "text": "The individual is the proper beneficiary of his own action" },
+            { "id": "alt", "text": "The individual must live for others" },
+            { "id": "nil", "text": "The individual should benefit no one, including himself" },
+            { "id": "grp", "text": "The group is the proper beneficiary of his action" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The first sentence is the unit’s positive claim. The others hand the benefit away or cancel it."
+          }
+        },
+        {
+          "id": "hc2",
+          "type": "choice",
+          "prompt": "Someone rewords the rejected demand as: your days exist to be spent on other lives. What is that still?",
+          "answer": "same",
+          "choices": [
+            { "id": "same", "text": "The same demand that he live for others" },
+            { "id": "new", "text": "A new claim that he is the beneficiary" },
+            { "id": "sci", "text": "A statement about the length of a day" },
+            { "id": "ego", "text": "Egoism under another name" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A change of wording does not change the demand. If his days are for other lives, he is told to live for others."
+          }
+        },
+        {
+          "id": "hc3",
+          "type": "match",
+          "prompt": "Match the rewording to the side it really takes.",
+          "pairs": [
+            { "id": "p1", "left": "I am the one my effort is for", "right": "Egoism" },
+            { "id": "p2", "left": "My effort is for other people as a duty", "right": "Live for others" },
+            { "id": "p3", "left": "The proper beneficiary is the actor", "right": "Egoism" },
+            { "id": "p4", "left": "The proper beneficiary is anyone but the actor", "right": "The altruist demand" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Track who is named as beneficiary. That, not the decoration of the sentence, decides the side."
+          }
+        },
+        {
+          "id": "hc4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete both halves of the unit.",
+          "parts": [
+            { "type": "text", "text": "Beneficiary: the " },
+            { "type": "blank", "id": "b1", "answer": "individual" },
+            { "type": "text", "text": ". Against: the demand that he live for " },
+            { "type": "blank", "id": "b2", "answer": "others" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["individual", "others", "weather", "committee"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Hold both halves. The individual is the beneficiary, and the opposed demand is living for others."
+          }
+        },
+        {
+          "id": "hc5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the full contrast in short form.",
+          "tokens": [
+            { "id": "t1", "text": "For" },
+            { "id": "t2", "text": "himself" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "for" },
+            { "id": "t5", "text": "others" },
+            { "id": "d1", "text": "neither" },
+            { "id": "d2", "text": "weather" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "For himself, not for others, is the whole contrast in five words."
+          }
+        },
+        {
+          "id": "hc6",
+          "type": "choice",
+          "prompt": "A speaker says egoism means the actor must make others the purpose of his life. What is wrong with that?",
+          "answer": "swap",
+          "choices": [
+            { "id": "swap", "text": "It swaps in the demand egoism rejects" },
+            { "id": "fine", "text": "Nothing. That is the unit’s definition" },
+            { "id": "page", "text": "Only the spelling of egoism" },
+            { "id": "time", "text": "It confuses egoism with the time of day" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Making others the purpose of his life is the demand this unit sets egoism against, not the content of egoism."
+          }
+        },
+        {
+          "id": "hc7",
+          "type": "choice",
+          "prompt": "Which pair is the unit’s own pairing?",
+          "answer": "right",
+          "choices": [
+            { "id": "right", "text": "Egoism with the actor as beneficiary; altruism with living for others" },
+            { "id": "flip", "text": "Egoism with living for others; altruism with the actor as beneficiary" },
+            { "id": "both", "text": "Both names mean living for others" },
+            { "id": "none", "text": "Both names mean there is no beneficiary" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the pairing stable. Egoism is the actor’s side. Altruism is the live-for-others side of this unit."
+          }
+        },
+        {
+          "id": "hc8",
+          "type": "match",
+          "prompt": "Match the test question to the egoist answer.",
+          "pairs": [
+            { "id": "p1", "left": "Who properly gains from his action?", "right": "He does" },
+            { "id": "p2", "left": "Must he live for others?", "right": "No" },
+            { "id": "p3", "left": "What is that no aimed at?", "right": "The altruist demand" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Three answers restate one unit: he is the beneficiary, he need not live for others, and that refusal targets the altruist demand."
+          }
+        },
+        {
+          "id": "hc9",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Repair the swapped sentence.",
+          "parts": [
+            { "type": "text", "text": "Egoism says the proper beneficiary is the " },
+            { "type": "blank", "id": "b1", "answer": "actor" },
+            { "type": "text", "text": ", not that he must live for others." }
+          ],
+          "bank": ["actor", "crowd", "banner", "calendar"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If a sentence names the crowd as the egoist beneficiary, it has the unit backwards. The actor is the one named."
+          }
+        },
+        {
+          "id": "hc10",
+          "type": "choice",
+          "prompt": "You finish the unit. Which summary is accurate?",
+          "answer": "sum",
+          "choices": [
+            { "id": "sum", "text": "He is the proper beneficiary of his own action, and he is not required to live for others" },
+            { "id": "rev", "text": "He must live for others, and he is not a beneficiary" },
+            { "id": "blank", "text": "Beneficiary is a word with no moral use" },
+            { "id": "same", "text": "Egoism and altruism name the same demand" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That summary is the unit: the individual as beneficiary, against the demand that he live for others."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

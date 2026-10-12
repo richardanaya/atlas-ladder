@@ -1,0 +1,325 @@
+{
+  "sectionFile": "metaphysics.json",
+  "key": "axioms/three-together",
+  "exercises": [
+    {
+      "id": "m5e1",
+      "type": "choice",
+      "prompt": "Which trio is the one Rand states?",
+      "answer": "ok",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Existence exists—Consciousness is conscious—A is A.",
+        "note": "Hold them as one set. Each names a fact the others already use.",
+        "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+      },
+      "choices": [
+        {
+          "id": "ok",
+          "text": "Existence exists. Consciousness is conscious. A is A."
+        },
+        {
+          "id": "bad",
+          "text": "Existence depends. Consciousness creates. A is B."
+        },
+        {
+          "id": "no",
+          "text": "Nothing exists. Consciousness is empty. A is not-A."
+        },
+        {
+          "id": "txt",
+          "text": "Reality is a text. Consciousness is a byproduct. A is optional."
+        }
+      ]
+    },
+    {
+      "id": "m5e2",
+      "type": "match",
+      "prompt": "Match each axiom to the fact it names.",
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "The match uses our labels for the three facts. The formulas themselves are Rand’s: Existence exists, A is A, Consciousness is conscious.",
+        "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+      },
+      "pairs": [
+        {
+          "id": "ex",
+          "left": "Existence",
+          "right": "Something is"
+        },
+        {
+          "id": "id",
+          "left": "Identity",
+          "right": "It is something specific"
+        },
+        {
+          "id": "co",
+          "left": "Consciousness",
+          "right": "You are aware of it"
+        }
+      ]
+    },
+    {
+      "id": "m5e3",
+      "type": "choice",
+      "prompt": "In that one set, what is identity’s relation to existence?",
+      "answer": "cor",
+      "feedback": {
+        "kind": "quote",
+        "quote": "The first and primary axiomatic concepts are \"existence,\" \"identity\" (which is a corollary of \"existence\") and \"consciousness.\"",
+        "note": "Identity is not a second world beside existence. To exist is already to be something, so identity belongs inside the same set.",
+        "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+      },
+      "choices": [
+        {
+          "id": "cor",
+          "text": "A corollary of existence: to exist is to be something specific"
+        },
+        {
+          "id": "riv",
+          "text": "A rival primary that can cancel existence"
+        },
+        {
+          "id": "opt",
+          "text": "An optional label, added only if someone prefers it"
+        },
+        {
+          "id": "made",
+          "text": "Something consciousness creates before anything exists"
+        }
+      ]
+    },
+    {
+      "id": "m5e4",
+      "type": "choice",
+      "prompt": "Held together, the three axioms already name what comes next for action and for consciousness. Which pair is that next step?",
+      "answer": "next",
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Causality is identity applied to action: a thing cannot act against its nature. Primacy is the same set from the side of consciousness: awareness apprehends existence, it does not create it."
+      },
+      "choices": [
+        {
+          "id": "next",
+          "text": "Causality as identity applied to action, and consciousness as apprehending reality rather than creating it"
+        },
+        {
+          "id": "break",
+          "text": "Causality as a break from identity, and consciousness as the author of the facts"
+        },
+        {
+          "id": "mood",
+          "text": "Action as a mood, and awareness as optional for what exists"
+        },
+        {
+          "id": "vote",
+          "text": "What a thing does as a vote, and existence as depending on being noticed"
+        }
+      ]
+    },
+    {
+      "id": "m5e5",
+      "type": "choice",
+      "prompt": "She defines logic as the art of what?",
+      "answer": "nc",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Logic is the art of non-contradictory identification.",
+        "note": "In the same passage she says logic rests on the axiom that existence exists, and that all thinking is a process of identification and integration.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 125"
+      },
+      "choices": [
+        {
+          "id": "nc",
+          "text": "Non-contradictory identification"
+        },
+        {
+          "id": "sc",
+          "text": "Social consensus"
+        },
+        {
+          "id": "in",
+          "text": "Innate ideas with no connection to percepts"
+        },
+        {
+          "id": "fa",
+          "text": "Faith"
+        }
+      ]
+    },
+    {
+      "id": "m5e6",
+      "type": "fill",
+      "mode": "sentence",
+      "prompt": "Build her definition of logic.",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Logic"
+        },
+        {
+          "id": "t2",
+          "text": "is"
+        },
+        {
+          "id": "t3",
+          "text": "the"
+        },
+        {
+          "id": "t4",
+          "text": "art"
+        },
+        {
+          "id": "t5",
+          "text": "of"
+        },
+        {
+          "id": "t6",
+          "text": "non-contradictory"
+        },
+        {
+          "id": "t7",
+          "text": "identification"
+        },
+        {
+          "id": "d1",
+          "text": "whim"
+        }
+      ],
+      "answer": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6",
+        "t7"
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "Logic is the art of non-contradictory identification.",
+        "note": "Every word is doing work. Non-contradictory names the standard. Identification names the goal.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 125"
+      }
+    },
+    {
+      "id": "m5e7",
+      "type": "choice",
+      "prompt": "Peikoff’s line on the function of consciousness is which of these?",
+      "answer": "app",
+      "feedback": {
+        "kind": "quote",
+        "quote": "The function of consciousness is not to create reality, but to apprehend it.",
+        "note": "That is the bridge to the next floor, primacy of existence, which is still being built. This question only asks you to hold the sentence.",
+        "citation": "Leonard Peikoff, The Ominous Parallels, 303"
+      },
+      "choices": [
+        {
+          "id": "app",
+          "text": "Not to create reality, but to apprehend it"
+        },
+        {
+          "id": "dec",
+          "text": "To decree what the facts are"
+        },
+        {
+          "id": "rep",
+          "text": "To replace identity"
+        },
+        {
+          "id": "opt",
+          "text": "Optional for knowledge"
+        }
+      ]
+    },
+    {
+      "id": "m5e8",
+      "type": "choice",
+      "prompt": "Galt says the law of causality is the law of identity applied to what?",
+      "answer": "act",
+      "feedback": {
+        "kind": "quote",
+        "quote": "The law of causality is the law of identity applied to action.",
+        "note": "Causality as its own floor comes later. The sentence already tells you the dependence: causality is not a break from identity.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 152"
+      },
+      "choices": [
+        {
+          "id": "act",
+          "text": "Action"
+        },
+        {
+          "id": "law",
+          "text": "Legislation"
+        },
+        {
+          "id": "mood",
+          "text": "Mood"
+        },
+        {
+          "id": "vote",
+          "text": "Voting"
+        }
+      ]
+    },
+    {
+      "id": "m5e9",
+      "type": "choice",
+      "prompt": "Which clause states the same point about action?",
+      "answer": "nat",
+      "feedback": {
+        "kind": "quote",
+        "quote": "The nature of an action is caused and determined by the nature of the entities that act; a thing cannot act in contradiction to its nature.",
+        "note": "The cause is the nature of the entities that act. The sentence does not say a free-floating event pushes them.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 152"
+      },
+      "choices": [
+        {
+          "id": "nat",
+          "text": "A thing cannot act in contradiction to its nature"
+        },
+        {
+          "id": "any",
+          "text": "A thing can act as any nature one prefers"
+        },
+        {
+          "id": "none",
+          "text": "Actions have no natures"
+        },
+        {
+          "id": "mind",
+          "text": "Only minds are causes"
+        }
+      ]
+    },
+    {
+      "id": "m5e10",
+      "type": "choice",
+      "prompt": "On this ladder, metaphysics is the study of what?",
+      "answer": "uni",
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Our wording. Metaphysics, here, is the study of existence as such: that things are, and that they are something. The quotations for existence, identity, and consciousness are on the floors below this one.",
+        "citation": ""
+      },
+      "choices": [
+        {
+          "id": "uni",
+          "text": "What exists, and what it is to exist"
+        },
+        {
+          "id": "art",
+          "text": "How to judge a painting’s brushwork only"
+        },
+        {
+          "id": "law",
+          "text": "How to draft a constitution"
+        },
+        {
+          "id": "mood",
+          "text": "How to name a feeling"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "sectionFile": "politics.json",
+  "key": "capitalism/name-the-system",
+  "exercises": [
+    {
+      "id": "n1",
+      "type": "choice",
+      "prompt": "Which political system does this unit defend?",
+      "answer": "lf",
+      "choices": [
+        {
+          "id": "lf",
+          "text": "Laissez-faire capitalism"
+        },
+        {
+          "id": "mx",
+          "text": "A mixed economy that steers trade"
+        },
+        {
+          "id": "so",
+          "text": "Socialism with private shops allowed"
+        },
+        {
+          "id": "th",
+          "text": "Rule by whoever is richest"
+        }
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "The system named here is laissez-faire capitalism, the political order that leaves production and trade free."
+      }
+    },
+    {
+      "id": "n2",
+      "type": "match",
+      "prompt": "Match each label to what it names in this unit.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Capitalism",
+          "right": "The political system under discussion"
+        },
+        {
+          "id": "p2",
+          "left": "Laissez-faire",
+          "right": "Hands off production and trade"
+        },
+        {
+          "id": "p3",
+          "left": "Moral basis",
+          "right": "Why the system is justified"
+        }
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Capitalism is the system. Laissez-faire says how free it is. The moral basis is the reason, not a separate hobby."
+      }
+    },
+    {
+      "id": "n3",
+      "type": "fill",
+      "mode": "blanks",
+      "prompt": "Name the system in full.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The system is "
+        },
+        {
+          "type": "blank",
+          "id": "b1",
+          "answer": "laissez-faire"
+        },
+        {
+          "type": "text",
+          "text": " capitalism."
+        }
+      ],
+      "bank": [
+        "laissez-faire",
+        "managed",
+        "state",
+        "crony"
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "The full name matters. Capitalism here means laissez-faire capitalism, not a steered or favored economy."
+      }
+    },
+    {
+      "id": "n4",
+      "type": "choice",
+      "prompt": "What does “laissez-faire” add to the name of the system this unit defends?",
+      "answer": "free",
+      "choices": [
+        {
+          "id": "free",
+          "text": "Production and trade are left free"
+        },
+        {
+          "id": "steer",
+          "text": "Officials plan who may sell"
+        },
+        {
+          "id": "rich",
+          "text": "The richest person rules"
+        },
+        {
+          "id": "favor",
+          "text": "Shops exist only by yearly favor"
+        }
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Laissez-faire names the freedom of production and trade. It is not steering, favoritism, or rule by wealth."
+      }
+    },
+    {
+      "id": "n5",
+      "type": "fill",
+      "mode": "sentence",
+      "prompt": "Build the claim this lesson is teaching.",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Politics"
+        },
+        {
+          "id": "t2",
+          "text": "defends"
+        },
+        {
+          "id": "t3",
+          "text": "laissez-faire capitalism"
+        },
+        {
+          "id": "d1",
+          "text": "rejects"
+        },
+        {
+          "id": "d2",
+          "text": "a mixed economy"
+        }
+      ],
+      "answer": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "The political conclusion is laissez-faire capitalism. The extra tokens name the opposite move."
+      }
+    },
+    {
+      "id": "n6",
+      "type": "choice",
+      "prompt": "What kind of claim is the defense of this system?",
+      "answer": "pol",
+      "choices": [
+        {
+          "id": "pol",
+          "text": "A political conclusion"
+        },
+        {
+          "id": "art",
+          "text": "A rule about painting"
+        },
+        {
+          "id": "diet",
+          "text": "A tip about shopping"
+        },
+        {
+          "id": "mood",
+          "text": "A mood about money"
+        }
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Capitalism belongs on the politics floor. It is the social system, not a shopping hint or an art style."
+      }
+    },
+    {
+      "id": "n7",
+      "type": "match",
+      "prompt": "Match each phrase to the system it points to.",
+      "pairs": [
+        {
+          "id": "a",
+          "left": "People produce and trade freely",
+          "right": "Laissez-faire capitalism"
+        },
+        {
+          "id": "b",
+          "left": "Officials steer who may produce",
+          "right": "Not this system"
+        },
+        {
+          "id": "c",
+          "left": "The name of the politics branch’s answer",
+          "right": "Capitalism"
+        }
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Free production and trade is the system. Steering production is what this unit is not defending."
+      }
+    },
+    {
+      "id": "n8",
+      "type": "fill",
+      "mode": "blanks",
+      "prompt": "Name the condition this system leaves in place.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Laissez-faire capitalism leaves production and trade "
+        },
+        {
+          "type": "blank",
+          "id": "b1",
+          "answer": "free"
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "bank": [
+        "free",
+        "steered",
+        "banned",
+        "timed"
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "The system this unit defends is the one in which production and trade stay free, not steered, banned, or timed."
+      }
+    },
+    {
+      "id": "n9",
+      "type": "choice",
+      "prompt": "Which wording is too vague for this unit’s answer?",
+      "answer": "biz",
+      "choices": [
+        {
+          "id": "biz",
+          "text": "Whatever helps business this year"
+        },
+        {
+          "id": "lf",
+          "text": "Laissez-faire capitalism"
+        },
+        {
+          "id": "free",
+          "text": "A system of free production and trade"
+        },
+        {
+          "id": "pol",
+          "text": "The political system that follows in this philosophy"
+        }
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "A yearly business tactic is not the system. The name to hold is laissez-faire capitalism."
+      }
+    },
+    {
+      "id": "n10",
+      "type": "fill",
+      "mode": "sentence",
+      "prompt": "Put the short name in order.",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Laissez-faire"
+        },
+        {
+          "id": "t2",
+          "text": "capitalism"
+        },
+        {
+          "id": "t3",
+          "text": "is the system"
+        },
+        {
+          "id": "d1",
+          "text": "is a whim"
+        }
+      ],
+      "answer": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Laissez-faire capitalism is the system this unit names. It is not filed as a whim."
+      }
+    }
+  ]
+}

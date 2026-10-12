@@ -1,0 +1,330 @@
+{
+  "sectionFile": "ethics.json",
+  "key": "virtues/work-and-pride",
+  "exercises": [
+    {
+      "id": "v5e1",
+      "type": "choice",
+      "prompt": "Productiveness, in this unit, is which policy?",
+      "answer": "make",
+      "choices": [
+        {
+          "id": "make",
+          "text": "Create the values your life needs"
+        },
+        {
+          "id": "wait",
+          "text": "Wait for values to appear"
+        },
+        {
+          "id": "take",
+          "text": "Take what other people have made"
+        },
+        {
+          "id": "wish",
+          "text": "Wish harder until the work is done"
+        }
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Productiveness is the virtue of making values by thought and effort."
+      }
+    },
+    {
+      "id": "v5e2",
+      "type": "choice",
+      "prompt": "Pride, in this unit, means what?",
+      "answer": "earn",
+      "choices": [
+        {
+          "id": "earn",
+          "text": "Moral ambition: earn the right to respect yourself"
+        },
+        {
+          "id": "van",
+          "text": "Vanity: demand that others admire you"
+        },
+        {
+          "id": "rank",
+          "text": "A title you inherit"
+        },
+        {
+          "id": "boast",
+          "text": "Boasting with nothing behind it"
+        }
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Pride here is earned self-respect, not a claim on an audience."
+      }
+    },
+    {
+      "id": "v5e3",
+      "type": "match",
+      "prompt": "Match each idea to the virtue or the opposite.",
+      "pairs": [
+        {
+          "id": "pro",
+          "left": "Make the values you need",
+          "right": "Productiveness"
+        },
+        {
+          "id": "pri",
+          "left": "Become worthy of the life you are making",
+          "right": "Pride"
+        },
+        {
+          "id": "take",
+          "left": "Live off values you did not earn",
+          "right": "Neither virtue"
+        }
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Productiveness supplies values. Pride is the character that has earned them. Taking is neither."
+      }
+    },
+    {
+      "id": "v5e4",
+      "type": "fill",
+      "mode": "blanks",
+      "prompt": "Fill the two names.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "The virtue of making values is "
+        },
+        {
+          "type": "blank",
+          "id": "b1",
+          "answer": "productiveness"
+        },
+        {
+          "type": "text",
+          "text": ". The virtue of moral ambition is "
+        },
+        {
+          "type": "blank",
+          "id": "b2",
+          "answer": "pride"
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "bank": [
+        "productiveness",
+        "pride",
+        "honesty",
+        "justice"
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Keep productiveness on the work and pride on the earned character."
+      }
+    },
+    {
+      "id": "v5e5",
+      "type": "fill",
+      "mode": "sentence",
+      "prompt": "Build the link between the two virtues.",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "You"
+        },
+        {
+          "id": "t2",
+          "text": "produce"
+        },
+        {
+          "id": "t3",
+          "text": "values"
+        },
+        {
+          "id": "t4",
+          "text": "and"
+        },
+        {
+          "id": "t5",
+          "text": "earn"
+        },
+        {
+          "id": "t6",
+          "text": "self-respect"
+        },
+        {
+          "id": "d1",
+          "text": "applause"
+        },
+        {
+          "id": "d2",
+          "text": "inherit"
+        }
+      ],
+      "answer": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Productiveness is the making. Pride is the self-respect that making, and the rest of the code, can earn."
+      }
+    },
+    {
+      "id": "v5e6",
+      "type": "choice",
+      "prompt": "Which is pride, rather than vanity?",
+      "answer": "char",
+      "choices": [
+        {
+          "id": "char",
+          "text": "Building a character you can honestly respect"
+        },
+        {
+          "id": "show",
+          "text": "Needing strangers to clap"
+        },
+        {
+          "id": "rank",
+          "text": "Resting on a family name"
+        },
+        {
+          "id": "none",
+          "text": "Declaring that no standard applies to you"
+        }
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Pride looks at whether you have earned your own respect. Vanity looks at an audience."
+      }
+    },
+    {
+      "id": "v5e7",
+      "type": "choice",
+      "prompt": "A productive person adjusts what?",
+      "answer": "world",
+      "choices": [
+        {
+          "id": "world",
+          "text": "The world, by thought and effort, toward human needs"
+        },
+        {
+          "id": "facts",
+          "text": "The facts, so work is unnecessary"
+        },
+        {
+          "id": "others",
+          "text": "Other people, so they must provide"
+        },
+        {
+          "id": "none",
+          "text": "Nothing; nature owes the values"
+        }
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Productiveness reshapes materials and plans. It does not pretend the facts will do the work."
+      }
+    },
+    {
+      "id": "v5e8",
+      "type": "match",
+      "prompt": "Match the result to the virtue that aims at it.",
+      "pairs": [
+        {
+          "id": "goods",
+          "left": "Values brought into existence by work",
+          "right": "Productiveness"
+        },
+        {
+          "id": "self",
+          "left": "A self you have made worth esteeming",
+          "right": "Pride"
+        },
+        {
+          "id": "wish",
+          "left": "A wish with no effort and no standard",
+          "right": "Neither"
+        }
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Work without a moral standard is not yet pride. Self-regard without making or earning is not productiveness."
+      }
+    },
+    {
+      "id": "v5e9",
+      "type": "fill",
+      "mode": "blanks",
+      "prompt": "State what pride adds to the values you make.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Productiveness brings values into existence. Pride is the ambition to be "
+        },
+        {
+          "type": "blank",
+          "id": "b1",
+          "answer": "worthy"
+        },
+        {
+          "type": "text",
+          "text": " of the life that work sustains, so the respect is "
+        },
+        {
+          "type": "blank",
+          "id": "b2",
+          "answer": "earned"
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ],
+      "bank": [
+        "worthy",
+        "earned",
+        "inherited",
+        "applauded"
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Making values is productiveness. Pride is the further demand that you become worthy of that life and earn your own respect."
+      }
+    },
+    {
+      "id": "v5e10",
+      "type": "choice",
+      "prompt": "Which pairing connects making values with moral ambition?",
+      "answer": "link",
+      "choices": [
+        {
+          "id": "link",
+          "text": "Create what your life needs, and hold yourself to a character worthy of that life"
+        },
+        {
+          "id": "show",
+          "text": "Create what your life needs, then demand that strangers admire the result"
+        },
+        {
+          "id": "wait",
+          "text": "Wait for values to appear, and inherit the right to respect yourself"
+        },
+        {
+          "id": "take",
+          "text": "Live off what others made, and call the taking self-respect"
+        }
+      ],
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Productiveness is the making. Pride is the ambition to be worthy of the life you are making, not applause, inheritance, or unearned taking."
+      }
+    }
+  ]
+}

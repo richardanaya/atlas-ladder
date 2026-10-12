@@ -1,0 +1,252 @@
+{
+  "sectionFile": "epistemology.json",
+  "key": "senses/stolen-concept",
+  "exercises": [
+    {
+      "id": "e4e1",
+      "type": "choice",
+      "prompt": "Rand says arguments that attack the senses are variants of which fallacy?",
+      "answer": "st",
+      "feedback": {
+        "kind": "quote",
+        "quote": "The arguments of those who attack the senses are merely variants of the fallacy of the \"stolen concept.\"",
+        "note": "The foreword names the fallacy. It does not, in this sentence, spell out every form the attack can take.",
+        "citation": "Ayn Rand, \"Foreword to the First Edition,\" Introduction to Objectivist Epistemology, 4"
+      },
+      "choices": [
+        {
+          "id": "st",
+          "text": "The stolen concept"
+        },
+        {
+          "id": "ad",
+          "text": "Appeal to authority"
+        },
+        {
+          "id": "eq",
+          "text": "Equivocation on a word’s spelling"
+        },
+        {
+          "id": "ci",
+          "text": "Appeal to the city"
+        }
+      ]
+    },
+    {
+      "id": "e4e2",
+      "type": "choice",
+      "prompt": "An argument attacks the senses, yet the arguer saw, heard, or measured in order to make the attack. What has that argument stolen?",
+      "answer": "base",
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "The stolen base is sensory evidence itself. The attack treats that evidence as usable while denying that the senses can provide it."
+      },
+      "choices": [
+        {
+          "id": "base",
+          "text": "Its own base: the sensory evidence it still uses"
+        },
+        {
+          "id": "vote",
+          "text": "A majority vote that could replace observation"
+        },
+        {
+          "id": "spell",
+          "text": "Only the spelling of the word “sense”"
+        },
+        {
+          "id": "later",
+          "text": "A later instrument that never depends on perception"
+        }
+      ]
+    },
+    {
+      "id": "e4e3",
+      "type": "choice",
+      "prompt": "Galt’s challenge to someone who rejects sensory perception is to:",
+      "answer": "pr",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Let the witch doctor who does not choose to accept the validity of sensory perception, try to prove it without using the data he obtained by sensory perception.",
+        "note": "The sentence opens with the words Let the witch doctor. That is Galt’s phrase. The challenge is the logical point: the denial still uses the data it denies.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 155"
+      },
+      "choices": [
+        {
+          "id": "pr",
+          "text": "Try to prove the rejection without using data gained by sensory perception"
+        },
+        {
+          "id": "vo",
+          "text": "Take a vote"
+        },
+        {
+          "id": "hi",
+          "text": "Hide the senses and keep the conclusion"
+        },
+        {
+          "id": "in",
+          "text": "Start from innate ideas that mention no percepts"
+        }
+      ]
+    },
+    {
+      "id": "e4e4",
+      "type": "fill",
+      "mode": "sentence",
+      "prompt": "Build the excerpt you already used.",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "His"
+        },
+        {
+          "id": "t2",
+          "text": "senses"
+        },
+        {
+          "id": "t3",
+          "text": "cannot"
+        },
+        {
+          "id": "t4",
+          "text": "deceive"
+        },
+        {
+          "id": "t5",
+          "text": "him"
+        },
+        {
+          "id": "d1",
+          "text": "replace"
+        }
+      ],
+      "answer": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "His senses cannot deceive him",
+        "note": "Same excerpt as the previous floor. Repetition is the point of a ladder.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+      }
+    },
+    {
+      "id": "e4e5",
+      "type": "choice",
+      "prompt": "Why does the challenge matter?",
+      "answer": "use",
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Our wording of the trap: you cannot claim the senses are invalid without relying on sensory evidence to make and check the claim. Galt’s version is the sentence quoted on this floor that begins Let the witch doctor.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 155"
+      },
+      "choices": [
+        {
+          "id": "use",
+          "text": "A denial of the senses still uses sensory evidence to state the denial"
+        },
+        {
+          "id": "pol",
+          "text": "Because politics requires it"
+        },
+        {
+          "id": "old",
+          "text": "Because older books said so, and that is enough"
+        },
+        {
+          "id": "hid",
+          "text": "Because the senses are hidden and therefore guilty"
+        }
+      ]
+    },
+    {
+      "id": "e4e6",
+      "type": "match",
+      "prompt": "Match the idea to the role it plays in this floor.",
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Stolen concept is Rand’s name, quoted in the foreword in that form. The two glosses beside it in the match are ours: the fallacy is relying on what you deny, and the challenge is to do without the data.",
+        "citation": "Ayn Rand, \"Foreword to the First Edition,\" Introduction to Objectivist Epistemology, 4"
+      },
+      "pairs": [
+        {
+          "id": "st",
+          "left": "Stolen concept",
+          "right": "Using a conclusion while denying what it rests on"
+        },
+        {
+          "id": "se",
+          "left": "Sensory evidence",
+          "right": "The base the denial still uses"
+        },
+        {
+          "id": "pr",
+          "left": "The challenge",
+          "right": "Prove the denial without that data"
+        }
+      ]
+    },
+    {
+      "id": "e4e7",
+      "type": "choice",
+      "prompt": "Which conclusion does this floor license?",
+      "answer": "pre",
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Disagreement and misidentification happen at the conceptual level, where the process is volitional and fallible. That does not convert the sense organs into inventors. The quotations for the organs, the percept, and the stolen concept are on this unit’s earlier questions.",
+        "citation": "Ayn Rand, \"Concepts of Consciousness,\" Introduction to Objectivist Epistemology, 37"
+      },
+      "choices": [
+        {
+          "id": "pre",
+          "text": "You cannot throw out the senses and keep a proof that uses them"
+        },
+        {
+          "id": "bad",
+          "text": "The senses are guilty because people sometimes misidentify"
+        },
+        {
+          "id": "inn",
+          "text": "Knowledge starts from innate sentences"
+        },
+        {
+          "id": "no",
+          "text": "If two people disagree, neither perceived anything"
+        }
+      ]
+    },
+    {
+      "id": "e4e8",
+      "type": "choice",
+      "prompt": "A man says perception is invalid because a stick looks bent in water, a result he established by looking. What is the error?",
+      "answer": "stole",
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "The looking is sensory evidence. Using that evidence to declare the senses invalid keeps the base the conclusion claims to throw out."
+      },
+      "choices": [
+        {
+          "id": "stole",
+          "text": "He used sensory evidence to attack the senses, so the attack stole its own base"
+        },
+        {
+          "id": "bent",
+          "text": "He erred by noticing a stick at all"
+        },
+        {
+          "id": "vote",
+          "text": "He needed a vote before he was allowed to look"
+        },
+        {
+          "id": "innate",
+          "text": "He should have started from an innate sentence that mentions no percept"
+        }
+      ]
+    }
+  ]
+}

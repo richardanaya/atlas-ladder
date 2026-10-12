@@ -1,0 +1,802 @@
+{
+  "sectionId": "metaphysics",
+  "sectionFile": "metaphysics.json",
+  "unitId": "volition",
+  "title": "Volition",
+  "summary": "The primary choice to focus or not, and volition as axiomatic. This ladder places it after the metaphysically given.",
+  "lessons": [
+    {
+      "id": "primary-choice",
+      "title": "The primary choice",
+      "objective": "Name the primary act of volition: the choice to focus the mind or not to focus it.",
+      "exercises": [
+        {
+          "id": "pc1",
+          "type": "choice",
+          "prompt": "What is the primary choice?",
+          "answer": "focus",
+          "choices": [
+            { "id": "focus", "text": "To focus the mind or not to focus it" },
+            { "id": "job", "text": "To pick a career before any mental effort" },
+            { "id": "mood", "text": "To feel whatever emotion arrives first" },
+            { "id": "vote", "text": "To wait until other people decide for you" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Volition starts with one choice: raise the mind to focus, or leave it unfocused. Later choices depend on that one."
+          }
+        },
+        {
+          "id": "pc2",
+          "type": "choice",
+          "prompt": "Which pair names the two sides of that primary choice?",
+          "answer": "or",
+          "choices": [
+            { "id": "or", "text": "Focus, or not" },
+            { "id": "tf", "text": "True, or false" },
+            { "id": "gb", "text": "Good, or bad" },
+            { "id": "pc", "text": "Public, or private" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The primary alternative is focus or the failure to focus. Truth and value come later, after the mind is in use."
+          }
+        },
+        {
+          "id": "pc3",
+          "type": "match",
+          "prompt": "Match each label to what it names in this unit.",
+          "pairs": [
+            { "id": "p1", "left": "Primary choice", "right": "Focus or not" },
+            { "id": "p2", "left": "Focus", "right": "The effort to be fully aware" },
+            { "id": "p3", "left": "Not focusing", "right": "Leaving the mind unraised" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Focus is the effort of awareness. Choosing not to make that effort is the other side of the same primary choice."
+          }
+        },
+        {
+          "id": "pc4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the statement of the primary choice.",
+          "parts": [
+            { "type": "text", "text": "The primary choice is to " },
+            { "type": "blank", "id": "b1", "answer": "focus" },
+            { "type": "text", "text": " or not." }
+          ],
+          "bank": ["focus", "wish", "vote", "float"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word for the primary act is focus. Wishing, voting, and drifting are not that act."
+          }
+        },
+        {
+          "id": "pc5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the primary choice.",
+          "tokens": [
+            { "id": "t1", "text": "The primary choice" },
+            { "id": "t2", "text": "is to focus" },
+            { "id": "t3", "text": "or not" },
+            { "id": "d1", "text": "is a public vote" },
+            { "id": "d2", "text": "after emotions decide" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "State it in that order: the primary choice, the act of focus, and the alternative of not focusing."
+          }
+        },
+        {
+          "id": "pc6",
+          "type": "choice",
+          "prompt": "If the mind is left drifting, what choice has been made?",
+          "answer": "not",
+          "choices": [
+            { "id": "not", "text": "The choice not to focus" },
+            { "id": "none", "text": "No choice at all, because drift is automatic" },
+            { "id": "fate", "text": "A choice made by the metaphysically given" },
+            { "id": "crowd", "text": "A choice made by other people" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Not focusing is still a side of the primary choice. It is not something the given facts do for you."
+          }
+        },
+        {
+          "id": "pc7",
+          "type": "match",
+          "prompt": "Match each item to whether it is the primary choice.",
+          "pairs": [
+            { "id": "a", "left": "To focus or not", "right": "Primary" },
+            { "id": "b", "left": "Which sentence to write next", "right": "Later than the primary choice" },
+            { "id": "c", "left": "Which feeling shows up", "right": "Not the primary choice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Words and feelings are not the first act. The first act is whether the mind is focused."
+          }
+        },
+        {
+          "id": "pc8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name both sides.",
+          "parts": [
+            { "type": "text", "text": "You can " },
+            { "type": "blank", "id": "b1", "answer": "focus" },
+            { "type": "text", "text": ", or you can choose " },
+            { "type": "blank", "id": "b2", "answer": "not" },
+            { "type": "text", "text": " to." }
+          ],
+          "bank": ["focus", "not", "obey", "guess"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Both sides belong to you: the effort of focus, and the choice not to make it."
+          }
+        },
+        {
+          "id": "pc9",
+          "type": "choice",
+          "prompt": "Why is this choice called primary?",
+          "answer": "first",
+          "choices": [
+            { "id": "first", "text": "Other mental work depends on whether you focus" },
+            { "id": "oldest", "text": "It was the first idea in human history" },
+            { "id": "loud", "text": "It is the choice you announce in public" },
+            { "id": "easy", "text": "It is easier than any other choice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Primary means first in the order of choice. Thinking about a subject uses a mind that has been focused or not."
+          }
+        }
+      ]
+    },
+    {
+      "id": "effort-first",
+      "title": "Focus before content",
+      "objective": "Separate the effort of focus from later choices about what to think, say, or do.",
+      "exercises": [
+        {
+          "id": "ef1",
+          "type": "choice",
+          "prompt": "What does the primary choice control directly?",
+          "answer": "effort",
+          "choices": [
+            { "id": "effort", "text": "Whether you exert the effort of focus" },
+            { "id": "facts", "text": "Which facts exist in the world" },
+            { "id": "organs", "text": "How your eyes and ears rewrite what they sense" },
+            { "id": "weather", "text": "Events outside any human action" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The direct object of the primary choice is your own mental effort, not the facts you will later identify."
+          }
+        },
+        {
+          "id": "ef2",
+          "type": "choice",
+          "prompt": "A decision about what to say in an argument sits where, relative to focus?",
+          "answer": "after",
+          "choices": [
+            { "id": "after", "text": "After the choice to focus or not" },
+            { "id": "before", "text": "Before any choice to focus" },
+            { "id": "instead", "text": "In place of volition" },
+            { "id": "given", "text": "Among the metaphysically given facts" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Choosing a claim, a sentence, or an action is a further choice. It is not a substitute for focusing first."
+          }
+        },
+        {
+          "id": "ef3",
+          "type": "match",
+          "prompt": "Match each act to its place.",
+          "pairs": [
+            { "id": "m1", "left": "Raising the mind to full awareness", "right": "The effort of focus" },
+            { "id": "m2", "left": "Picking a conclusion", "right": "A later choice" },
+            { "id": "m3", "left": "Letting attention drop", "right": "Choosing not to focus" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Content comes after effort. Dropping attention is the negative side of the same primary choice."
+          }
+        },
+        {
+          "id": "ef4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast.",
+          "parts": [
+            { "type": "text", "text": "Focus is an " },
+            { "type": "blank", "id": "b1", "answer": "effort" },
+            { "type": "text", "text": ", not a ready-made " },
+            { "type": "blank", "id": "b2", "answer": "conclusion" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["effort", "conclusion", "weather", "axiom"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "You choose the effort. A conclusion is something a focused mind can then reach, not the effort itself."
+          }
+        },
+        {
+          "id": "ef5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the order this lesson teaches.",
+          "tokens": [
+            { "id": "t1", "text": "First choose to focus" },
+            { "id": "t2", "text": "then choose the content" },
+            { "id": "d1", "text": "first invent the facts" },
+            { "id": "d2", "text": "then skip awareness" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Effort of focus comes first. What you think, say, or do is chosen with a mind that is in focus or out of it."
+          }
+        },
+        {
+          "id": "ef6",
+          "type": "choice",
+          "prompt": "Someone says volition means you can make any claim true by choosing it. What is wrong?",
+          "answer": "swap",
+          "choices": [
+            { "id": "swap", "text": "It swaps a choice of content for the choice to focus" },
+            { "id": "right", "text": "Nothing. Focus rewrites the facts" },
+            { "id": "only", "text": "Volition covers only public speeches" },
+            { "id": "gone", "text": "There is no choice once a topic is named" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Choosing to look does not choose what is there. The primary choice is the effort, not a decree about reality."
+          }
+        },
+        {
+          "id": "ef7",
+          "type": "match",
+          "prompt": "Match the mistake to the correction.",
+          "pairs": [
+            { "id": "a", "left": "My feeling picked the answer", "right": "Focus is still the prior choice" },
+            { "id": "b", "left": "I chose the fact into existence", "right": "Choice does not replace the given" },
+            { "id": "c", "left": "I only choose words", "right": "The primary choice is mental effort" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Feelings, facts, and wording are not substitutes for the effort of focus."
+          }
+        },
+        {
+          "id": "ef8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the direct object of the primary choice.",
+          "parts": [
+            { "type": "text", "text": "You choose the " },
+            { "type": "blank", "id": "b1", "answer": "effort" },
+            { "type": "text", "text": " of focus, not the " },
+            { "type": "blank", "id": "b2", "answer": "facts" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["effort", "facts", "crowd", "mood"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Facts stay what they are. What you choose at the root is whether to exert the effort of looking at them."
+          }
+        },
+        {
+          "id": "ef9",
+          "type": "choice",
+          "prompt": "Which item is a later choice, not the primary one?",
+          "answer": "topic",
+          "choices": [
+            { "id": "topic", "text": "Which question to work on once you are focused" },
+            { "id": "raise", "text": "Whether to raise the mind to awareness" },
+            { "id": "drop", "text": "Whether to drop that effort" },
+            { "id": "root", "text": "The choice to focus or not" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A topic is content. You can take it up only because the primary choice about focus has a side."
+          }
+        }
+      ]
+    },
+    {
+      "id": "axiom-of-will",
+      "title": "Volition is axiomatic",
+      "objective": "Explain why volition is axiomatic: an attempt to deny the choice already uses it.",
+      "exercises": [
+        {
+          "id": "aw1",
+          "type": "choice",
+          "prompt": "In this unit, what does it mean to call volition axiomatic?",
+          "answer": "use",
+          "choices": [
+            { "id": "use", "text": "You rely on the choice to focus in any attempt to deny it" },
+            { "id": "vote", "text": "A majority must approve it before it counts" },
+            { "id": "mood", "text": "It is true only when you feel free" },
+            { "id": "opt", "text": "It is an optional extra after all proof is finished" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An axiom is in use in the act of questioning it. Denying volition still takes a mind that focuses on the denial."
+          }
+        },
+        {
+          "id": "aw2",
+          "type": "choice",
+          "prompt": "Someone argues, at length, that no one can choose to think. What has that argument already done?",
+          "answer": "focused",
+          "choices": [
+            { "id": "focused", "text": "Used the choice to focus on a claim" },
+            { "id": "erased", "text": "Shown that focus never happens" },
+            { "id": "given", "text": "Turned volition into a metaphysically given rock" },
+            { "id": "skipped", "text": "Avoided every act of awareness" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A worked-out denial is evidence of focus, not a proof that focus was impossible."
+          }
+        },
+        {
+          "id": "aw3",
+          "type": "match",
+          "prompt": "Match each move to what it shows about volition.",
+          "pairs": [
+            { "id": "a", "left": "Denying choice while concentrating", "right": "Uses the axiom it denies" },
+            { "id": "b", "left": "Choosing to look again", "right": "Exercises the primary choice" },
+            { "id": "c", "left": "Treating the denial as self-proving", "right": "Misses the axiom" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The denial does not get outside the choice. Looking again is the choice in act."
+          }
+        },
+        {
+          "id": "aw4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the axiomatic point.",
+          "parts": [
+            { "type": "text", "text": "To deny volition you must " },
+            { "type": "blank", "id": "b1", "answer": "focus" },
+            { "type": "text", "text": " on the denial." }
+          ],
+          "bank": ["focus", "sleep", "vote", "erase"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The attempt itself is an act of focus. That is why volition is not a side claim you can set aside and then debate."
+          }
+        },
+        {
+          "id": "aw5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the reason volition is axiomatic.",
+          "tokens": [
+            { "id": "t1", "text": "Denying the choice" },
+            { "id": "t2", "text": "already uses it" },
+            { "id": "d1", "text": "removes the need to look" },
+            { "id": "d2", "text": "makes focus a vote" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The denier focuses in order to deny focus. The choice is in the attempt."
+          }
+        },
+        {
+          "id": "aw6",
+          "type": "choice",
+          "prompt": "Which question still requires the choice to focus?",
+          "answer": "all",
+          "choices": [
+            { "id": "all", "text": "Is volition real?" },
+            { "id": "none", "text": "No question does, if the answer might be no" },
+            { "id": "only", "text": "Only questions about food" },
+            { "id": "after", "text": "Only questions asked after the axiom is proved from zero" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Asking whether volition is real is already an exercise of the choice the question is about."
+          }
+        },
+        {
+          "id": "aw7",
+          "type": "match",
+          "prompt": "Match the status to the item.",
+          "pairs": [
+            { "id": "a", "left": "Volition", "right": "Axiomatic in this unit" },
+            { "id": "b", "left": "A particular conclusion", "right": "Not axiomatic" },
+            { "id": "c", "left": "The choice to focus or not", "right": "What the axiom names" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The axiom is the fact of that primary choice, not whichever conclusion a focused mind reaches."
+          }
+        },
+        {
+          "id": "aw8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two words this lesson pairs.",
+          "parts": [
+            { "type": "text", "text": "Volition is " },
+            { "type": "blank", "id": "b1", "answer": "axiomatic" },
+            { "type": "text", "text": " because denial still takes " },
+            { "type": "blank", "id": "b2", "answer": "focus" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["axiomatic", "focus", "optional", "silence"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Axiomatic and focus belong together here: you cannot inspect the claim without the effort the claim is about."
+          }
+        },
+        {
+          "id": "aw9",
+          "type": "choice",
+          "prompt": "What would a successful proof that nobody can focus have to avoid?",
+          "answer": "using",
+          "choices": [
+            { "id": "using", "text": "Using focus to build the proof" },
+            { "id": "paper", "text": "Using paper" },
+            { "id": "words", "text": "Using any grammar" },
+            { "id": "given", "text": "Mentioning the metaphysically given" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A proof is a focused effort. That effort is what a denial of volition cannot step outside of."
+          }
+        },
+        {
+          "id": "aw10",
+          "type": "choice",
+          "prompt": "Where does this unit place the axiom of volition relative to the primary choice?",
+          "answer": "same",
+          "choices": [
+            { "id": "same", "text": "The axiom is the fact of that choice to focus or not" },
+            { "id": "other", "text": "The axiom is a different choice about politics" },
+            { "id": "later", "text": "The axiom replaces focus with a feeling" },
+            { "id": "none", "text": "The axiom says there is no primary choice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Volition as axiomatic does not add a second root. It names the same primary choice, which every denial still uses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "after-the-given",
+      "title": "After the metaphysically given",
+      "objective": "Place volition after the metaphysically given: what is given is not chosen, and choice is what can add man-made facts.",
+      "exercises": [
+        {
+          "id": "ag1",
+          "type": "choice",
+          "prompt": "Why does this ladder teach volition after the metaphysically given?",
+          "answer": "order",
+          "choices": [
+            { "id": "order", "text": "You need to know what is not chosen before you study what choice is" },
+            { "id": "alpha", "text": "Volition comes first in the alphabet of units" },
+            { "id": "skip", "text": "The given is optional once choice exists" },
+            { "id": "same", "text": "The given and the primary choice are the same fact" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The given is the floor under volition. Choice does not vote on what had to be accepted as given."
+          }
+        },
+        {
+          "id": "ag2",
+          "type": "choice",
+          "prompt": "Which item is metaphysically given, not a product of the choice to focus?",
+          "answer": "identity",
+          "choices": [
+            { "id": "identity", "text": "That a thing is what it is" },
+            { "id": "study", "text": "That you studied it today" },
+            { "id": "note", "text": "The notes you chose to write" },
+            { "id": "effort", "text": "The effort you did or did not make" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Identity is given. Study, notes, and effort are on the side of choice, which this unit takes up only after the given."
+          }
+        },
+        {
+          "id": "ag3",
+          "type": "match",
+          "prompt": "Match each item to the right side of the line.",
+          "pairs": [
+            { "id": "a", "left": "A fact that is, apart from your choice", "right": "Metaphysically given" },
+            { "id": "b", "left": "The choice to focus or not", "right": "Volition" },
+            { "id": "c", "left": "A conclusion you reached by looking", "right": "Man-made by the use of choice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the given on one side and volition on the other. What you learn by looking is man-made; the facts you look at are not."
+          }
+        },
+        {
+          "id": "ag4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the placement.",
+          "parts": [
+            { "type": "text", "text": "Volition comes after the metaphysically " },
+            { "type": "blank", "id": "b1", "answer": "given" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["given", "chosen", "voted", "felt"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit name for what is not up for choice is the metaphysically given. Volition is the next floor, not a rewrite of that one."
+          }
+        },
+        {
+          "id": "ag5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the order of the ladder at this point.",
+          "tokens": [
+            { "id": "t1", "text": "First the metaphysically given" },
+            { "id": "t2", "text": "then the choice to focus or not" },
+            { "id": "d1", "text": "first a vote on reality" },
+            { "id": "d2", "text": "then erase identity" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The given comes first on this ladder. The primary choice is what you study once that line is clear."
+          }
+        },
+        {
+          "id": "ag6",
+          "type": "choice",
+          "prompt": "What can the choice to focus add?",
+          "answer": "made",
+          "choices": [
+            { "id": "made", "text": "Man-made facts, such as knowledge you gain by looking" },
+            { "id": "identity", "text": "A new identity for things that already are" },
+            { "id": "axiom0", "text": "A world in which existence depends on a wish" },
+            { "id": "undo", "text": "The undoing of what is metaphysically given" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Focus lets you know and act. It does not vote a new identity onto what is given."
+          }
+        },
+        {
+          "id": "ag7",
+          "type": "match",
+          "prompt": "Match the error to why it fails.",
+          "pairs": [
+            { "id": "a", "left": "Choosing that A is not A", "right": "The given is not up for a vote" },
+            { "id": "b", "left": "Skipping the given and starting at choice", "right": "This ladder puts volition after the given" },
+            { "id": "c", "left": "Calling your notes metaphysically given", "right": "Notes came from a choice to look" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Do not move the given into the column of choice, and do not move your own products into the column of the given."
+          }
+        },
+        {
+          "id": "ag8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the contrast.",
+          "parts": [
+            { "type": "text", "text": "The given is not " },
+            { "type": "blank", "id": "b1", "answer": "chosen" },
+            { "type": "text", "text": ". The primary choice is to " },
+            { "type": "blank", "id": "b2", "answer": "focus" },
+            { "type": "text", "text": " or not." }
+          ],
+          "bank": ["chosen", "focus", "erased", "voted"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Not chosen marks the given. Focus or not marks volition, which this unit places next."
+          }
+        },
+        {
+          "id": "ag9",
+          "type": "choice",
+          "prompt": "Your decision to keep looking at a hard page is which kind of fact?",
+          "answer": "choice",
+          "choices": [
+            { "id": "choice", "text": "A use of volition, not a metaphysically given fact" },
+            { "id": "given", "text": "Metaphysically given, like identity" },
+            { "id": "neither", "text": "Neither, because reading is automatic" },
+            { "id": "both", "text": "Both a vote on reality and a law of identity" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keeping your mind on the page is the primary choice in act. The page’s nature was already given."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hold-the-unit",
+      "title": "Given, then the axiom",
+      "objective": "Hold the unit in one order: the metaphysically given, the primary choice to focus or not, and volition as axiomatic.",
+      "exercises": [
+        {
+          "id": "hu1",
+          "type": "choice",
+          "prompt": "Which order matches this unit?",
+          "answer": "gfa",
+          "choices": [
+            { "id": "gfa", "text": "Metaphysically given, then focus or not, as an axiom" },
+            { "id": "afg", "text": "Axiom of politics, then feelings, then the given" },
+            { "id": "fgo", "text": "Focus rewrites the given, then axioms are optional" },
+            { "id": "only", "text": "Only the primary choice, with nothing given before it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Three points, one order: what is given, the primary choice, and that choice as axiomatic."
+          }
+        },
+        {
+          "id": "hu2",
+          "type": "match",
+          "prompt": "Match each point to its job in the unit.",
+          "pairs": [
+            { "id": "a", "left": "Metaphysically given", "right": "What choice does not vote on" },
+            { "id": "b", "left": "Focus or not", "right": "The primary choice" },
+            { "id": "c", "left": "Axiomatic", "right": "Denial of volition still uses it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each label has one job. Do not trade them."
+          }
+        },
+        {
+          "id": "hu3",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the unit in ladder order.",
+          "tokens": [
+            { "id": "t1", "text": "The given is not chosen" },
+            { "id": "t2", "text": "The primary choice is to focus or not" },
+            { "id": "t3", "text": "That choice is axiomatic" },
+            { "id": "d1", "text": "Feelings set the facts" },
+            { "id": "d2", "text": "Choice comes before identity" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Read the three clauses in that order and you have the unit."
+          }
+        },
+        {
+          "id": "hu4",
+          "type": "choice",
+          "prompt": "Which statement mixes the points incorrectly?",
+          "answer": "mix",
+          "choices": [
+            { "id": "mix", "text": "Because volition is axiomatic, you can choose that A is not A" },
+            { "id": "ok1", "text": "The given is not a product of focus" },
+            { "id": "ok2", "text": "The primary choice is to focus or not" },
+            { "id": "ok3", "text": "Denying volition uses the choice it denies" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The axiom does not license a vote on the given. The other three statements are the unit itself."
+          }
+        },
+        {
+          "id": "hu5",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the three-point line.",
+          "parts": [
+            { "type": "text", "text": "After the " },
+            { "type": "blank", "id": "b1", "answer": "given" },
+            { "type": "text", "text": ", the primary choice is to " },
+            { "type": "blank", "id": "b2", "answer": "focus" },
+            { "type": "text", "text": " or not, and that fact is " },
+            { "type": "blank", "id": "b3", "answer": "axiomatic" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["given", "focus", "axiomatic", "optional", "voted"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Given, focus, axiomatic: the same three points, in the ladder’s order."
+          }
+        },
+        {
+          "id": "hu6",
+          "type": "choice",
+          "prompt": "A student memorizes conclusions but never chooses to look. Which point did they miss?",
+          "answer": "primary",
+          "choices": [
+            { "id": "primary", "text": "The primary choice is the effort of focus, not a stack of conclusions" },
+            { "id": "given", "text": "They missed that conclusions are metaphysically given" },
+            { "id": "vote", "text": "They missed that axioms are settled by vote" },
+            { "id": "none", "text": "They missed nothing; memory replaces focus" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Conclusions are content. Without the choice to focus, the unit’s primary act has not been made."
+          }
+        },
+        {
+          "id": "hu7",
+          "type": "match",
+          "prompt": "Match the student move to the point it respects.",
+          "pairs": [
+            { "id": "a", "left": "Refuses to treat identity as optional", "right": "The metaphysically given" },
+            { "id": "b", "left": "Raises attention before answering", "right": "The primary choice" },
+            { "id": "c", "left": "Notices that a denial took effort", "right": "Volition as axiomatic" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each move lines up with one point of the unit. Together they are the whole lesson."
+          }
+        },
+        {
+          "id": "hu8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the reminder.",
+          "parts": [
+            { "type": "text", "text": "You cannot " },
+            { "type": "blank", "id": "b1", "answer": "deny" },
+            { "type": "text", "text": " volition without the choice to " },
+            { "type": "blank", "id": "b2", "answer": "focus" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["deny", "focus", "vote", "erase"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Denial still focuses. That is the axiomatic point, kept after the given and after the name of the primary choice."
+          }
+        },
+        {
+          "id": "hu9",
+          "type": "choice",
+          "prompt": "What is this unit’s whole claim, in one line?",
+          "answer": "line",
+          "choices": [
+            { "id": "line", "text": "After the given, the primary choice to focus or not is axiomatic" },
+            { "id": "feel", "text": "Feelings discover facts, and the given is optional" },
+            { "id": "vote", "text": "Reality is whatever a group chooses" },
+            { "id": "skip", "text": "Volition replaces metaphysics" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One line holds the ladder: the given stays unchosen, and the choice to focus or not is axiomatic."
+          }
+        },
+        {
+          "id": "hu10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the closing line.",
+          "tokens": [
+            { "id": "t1", "text": "After the metaphysically given" },
+            { "id": "t2", "text": "volition is the axiomatic choice" },
+            { "id": "t3", "text": "to focus or not" },
+            { "id": "d1", "text": "to vote on identity" },
+            { "id": "d2", "text": "instead of any axiom" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Close on the unit summary: placement after the given, volition as axiomatic, and the primary choice to focus or not."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

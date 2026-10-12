@@ -1,0 +1,316 @@
+{
+  "sectionFile": "metaphysics.json",
+  "key": "axioms/existence-exists",
+  "exercises": [
+    {
+      "id": "m2e1",
+      "type": "choice",
+      "prompt": "In this philosophy, what does “Existence exists” rule in?",
+      "answer": "is",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Existence exists—and the act of grasping that statement implies two corollary axioms: that something exists which one perceives and that one exists possessing consciousness, consciousness being the faculty of perceiving that which exists.",
+        "note": "The sentence starts from the fact that something is, and then names what grasping that fact already uses.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+      },
+      "choices": [
+        {
+          "id": "is",
+          "text": "There is something. Reality is."
+        },
+        {
+          "id": "idea",
+          "text": "Only ideas exist"
+        },
+        {
+          "id": "conv",
+          "text": "Existence is a linguistic convention"
+        },
+        {
+          "id": "perc",
+          "text": "Reality exists only while it is perceived"
+        }
+      ]
+    },
+    {
+      "id": "m2e2",
+      "type": "fill",
+      "mode": "blanks",
+      "prompt": "Complete the axiom.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Existence "
+        },
+        {
+          "type": "blank",
+          "id": "b1",
+          "answer": "exists"
+        }
+      ],
+      "bank": [
+        "exists",
+        "wishes",
+        "depends",
+        "votes"
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "Existence exists—Consciousness is conscious—A is A.",
+        "note": "The first formula is two words: Existence exists.",
+        "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+      }
+    },
+    {
+      "id": "m2e3",
+      "type": "choice",
+      "prompt": "What does the act of grasping “Existence exists” already imply?",
+      "answer": "both",
+      "choices": [
+        {
+          "id": "both",
+          "text": "Something exists which one perceives, and one exists possessing consciousness"
+        },
+        {
+          "id": "none",
+          "text": "Nothing is real until a wish selects it"
+        },
+        {
+          "id": "mind",
+          "text": "Only the act of grasping exists; the something does not"
+        },
+        {
+          "id": "later",
+          "text": "Consciousness comes first and produces existence afterward"
+        }
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "Existence exists—and the act of grasping that statement implies two corollary axioms: that something exists which one perceives and that one exists possessing consciousness, consciousness being the faculty of perceiving that which exists.",
+        "note": "To grasp that something is, you are already a conscious being perceiving something that exists. A wish is not what makes that fact true.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+      }
+    },
+    {
+      "id": "m2e4",
+      "type": "choice",
+      "prompt": "What does Rand say about a consciousness with nothing to be conscious of?",
+      "answer": "con",
+      "feedback": {
+        "kind": "quote",
+        "quote": "A consciousness with nothing to be conscious of is a contradiction in terms.",
+        "note": "Awareness with no object is not a special case of awareness. The concept cancels itself.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+      },
+      "choices": [
+        {
+          "id": "con",
+          "text": "It is a contradiction in terms"
+        },
+        {
+          "id": "ok",
+          "text": "It is the primary axiom"
+        },
+        {
+          "id": "goal",
+          "text": "It is the goal of knowledge"
+        },
+        {
+          "id": "fine",
+          "text": "It is a higher form of awareness"
+        }
+      ]
+    },
+    {
+      "id": "m2e5",
+      "type": "choice",
+      "prompt": "Peikoff calls existence which of these?",
+      "answer": "pri",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Existence is a self-sufficient primary.",
+        "note": "He adds that there is nothing antecedent to existence and no alternative to it. That further sentence is his, in the same essay. The line above is the one to hold.",
+        "citation": "Leonard Peikoff, \"The Analytic-Synthetic Dichotomy,\" Introduction to Objectivist Epistemology, 109"
+      },
+      "choices": [
+        {
+          "id": "pri",
+          "text": "A self-sufficient primary"
+        },
+        {
+          "id": "sup",
+          "text": "A product of a supernatural dimension"
+        },
+        {
+          "id": "word",
+          "text": "A convention of language"
+        },
+        {
+          "id": "add",
+          "text": "An attribute added to things later"
+        }
+      ]
+    },
+    {
+      "id": "m2e6",
+      "type": "match",
+      "prompt": "Match the item to the description used in these texts.",
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Three different lines are being matched, so this banner is a paraphrase rather than one quotation. Peikoff calls existence a self-sufficient primary. Galt calls consciousness the faculty of perceiving that which exists. Rand calls identity a corollary of existence. Each of those wordings is quoted on its own floor.",
+        "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+      },
+      "pairs": [
+        {
+          "id": "ex",
+          "left": "Existence",
+          "right": "A self-sufficient primary"
+        },
+        {
+          "id": "co",
+          "left": "Consciousness",
+          "right": "The faculty of perceiving that which exists"
+        },
+        {
+          "id": "id",
+          "left": "Identity",
+          "right": "A corollary of existence"
+        }
+      ]
+    },
+    {
+      "id": "m2e7",
+      "type": "fill",
+      "mode": "sentence",
+      "prompt": "Build Peikoff’s sentence.",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Existence"
+        },
+        {
+          "id": "t2",
+          "text": "is"
+        },
+        {
+          "id": "t3",
+          "text": "a"
+        },
+        {
+          "id": "t4",
+          "text": "self-sufficient"
+        },
+        {
+          "id": "t5",
+          "text": "primary"
+        },
+        {
+          "id": "d1",
+          "text": "derivative"
+        }
+      ],
+      "answer": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "Existence is a self-sufficient primary.",
+        "note": "Nothing in that sentence makes existence a product of something prior.",
+        "citation": "Leonard Peikoff, \"The Analytic-Synthetic Dichotomy,\" Introduction to Objectivist Epistemology, 109"
+      }
+    },
+    {
+      "id": "m2e8",
+      "type": "choice",
+      "prompt": "Why does this philosophy refuse the demand to prove that existence exists from outside existence?",
+      "answer": "pre",
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "Galt’s answer is that the demand asks you to prove existence by means of non-existence, and consciousness by means of unconsciousness. The wording here is ours. His statement of what an axiom is, and of the two corollaries, is quoted in the other questions of this floor.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 155"
+      },
+      "choices": [
+        {
+          "id": "pre",
+          "text": "Any proof already uses something that exists and a consciousness aware of it"
+        },
+        {
+          "id": "ban",
+          "text": "Textbooks forbid the proof"
+        },
+        {
+          "id": "mys",
+          "text": "Only mystics are allowed to prove axioms"
+        },
+        {
+          "id": "fic",
+          "text": "Existence is a useful fiction"
+        }
+      ]
+    },
+    {
+      "id": "m2e9",
+      "type": "choice",
+      "prompt": "In the one-foot summary, which plain-language line does she attach to metaphysics?",
+      "answer": "w",
+      "feedback": {
+        "kind": "quote",
+        "quote": "1. \"Nature, to be commanded, must be obeyed\" or \"Wishing won't make it so.\"\n2. \"You can't eat your cake and have it, too.\"\n3. \"Man is an end in himself.\"\n4. \"Give me liberty or give me death.\"",
+        "note": "She also offers Francis Bacon’s “Nature, to be commanded, must be obeyed” for the same branch. Item 2 is her plain language for epistemology, item 3 for ethics, item 4 for politics. The Bacon and Henry lines are familiar sayings she uses, not sentences she originated.",
+        "citation": "Ayn Rand, \"Introducing Objectivism,\" The Objectivist Newsletter, August 1962, 35"
+      },
+      "choices": [
+        {
+          "id": "w",
+          "text": "Wishing won't make it so."
+        },
+        {
+          "id": "e",
+          "text": "Man is an end in himself."
+        },
+        {
+          "id": "l",
+          "text": "Give me liberty or give me death."
+        },
+        {
+          "id": "c",
+          "text": "You can't eat your cake and have it, too."
+        }
+      ]
+    },
+    {
+      "id": "m2e10",
+      "type": "choice",
+      "prompt": "“Reality exists as an objective absolute” means facts are independent of what?",
+      "answer": "f",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Reality exists as an objective absolute—facts are facts, independent of man's feelings, wishes, hopes or fears.",
+        "note": "That is her first numbered statement of Objectivism in the same essay as the one-foot list.",
+        "citation": "Ayn Rand, \"Introducing Objectivism,\" The Objectivist Newsletter, August 1962, 35"
+      },
+      "choices": [
+        {
+          "id": "f",
+          "text": "Man's feelings, wishes, hopes or fears"
+        },
+        {
+          "id": "l",
+          "text": "The law of identity"
+        },
+        {
+          "id": "m",
+          "text": "Measurement"
+        },
+        {
+          "id": "c",
+          "text": "Causality"
+        }
+      ]
+    }
+  ]
+}

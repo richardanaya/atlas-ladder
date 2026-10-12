@@ -1,0 +1,826 @@
+{
+  "sectionId": "metaphysics",
+  "sectionFile": "metaphysics.json",
+  "unitId": "primacy",
+  "title": "Primacy of Existence",
+  "summary": "The universe exists independent of consciousness. Consciousness apprehends. It does not decree.",
+  "lessons": [
+    {
+      "id": "independent",
+      "title": "Independent of consciousness",
+      "objective": "State that the universe exists whether or not anyone is aware of it.",
+      "exercises": [
+        {
+          "id": "ind-c1",
+          "type": "choice",
+          "prompt": "On the primacy of existence, what does the universe depend on?",
+          "answer": "nothing",
+          "choices": [
+            { "id": "nothing", "text": "Nothing in consciousness. It exists on its own." },
+            { "id": "notice", "text": "Someone noticing it." },
+            { "id": "wish", "text": "A wish that it be there." },
+            { "id": "vote", "text": "Agreement that it is real." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The universe exists independent of consciousness. Awareness is not what keeps it in being."
+          }
+        },
+        {
+          "id": "ind-m1",
+          "type": "match",
+          "prompt": "Match each claim to whether it fits independence.",
+          "pairs": [
+            { "id": "p1", "left": "A mountain is there with no one looking", "right": "Fits independence" },
+            { "id": "p2", "left": "A fact waits on a mind to exist", "right": "Does not fit" },
+            { "id": "p3", "left": "The universe was real before any awareness", "right": "Fits independence" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Independence means existence does not start when a mind shows up."
+          }
+        },
+        {
+          "id": "ind-b1",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit line about the universe.",
+          "parts": [
+            { "type": "text", "text": "The universe exists " },
+            { "type": "blank", "id": "b1", "answer": "independent" },
+            { "type": "text", "text": " of consciousness." }
+          ],
+          "bank": ["independent", "inside", "because", "after"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The key word is independent. Consciousness is not the ground of the universe."
+          }
+        },
+        {
+          "id": "ind-s1",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the order that primacy of existence uses.",
+          "tokens": [
+            { "id": "t1", "text": "The universe exists" },
+            { "id": "t2", "text": "independent of consciousness" },
+            { "id": "d1", "text": "only if noticed" },
+            { "id": "d2", "text": "as a dream" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Existence comes first. Being noticed is not a condition of existing."
+          }
+        },
+        {
+          "id": "ind-c2",
+          "type": "choice",
+          "prompt": "A star no one has ever seen still exists. What does that show?",
+          "answer": "own",
+          "choices": [
+            { "id": "own", "text": "Existence does not need a knower." },
+            { "id": "need", "text": "Unseen things are not real." },
+            { "id": "mind", "text": "The star exists only in a possible mind." },
+            { "id": "later", "text": "It starts to exist when someone finds it." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Finding a fact is not what makes the fact. The fact was already there."
+          }
+        },
+        {
+          "id": "ind-m2",
+          "type": "match",
+          "prompt": "Match each item to its place under primacy of existence.",
+          "pairs": [
+            { "id": "a", "left": "The universe", "right": "Exists on its own" },
+            { "id": "b", "left": "Awareness", "right": "Comes after what is" },
+            { "id": "c", "left": "A private wish", "right": "Does not found reality" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "What is comes first. A wish is not a foundation for it."
+          }
+        },
+        {
+          "id": "ind-b2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the contrast.",
+          "parts": [
+            { "type": "text", "text": "Existence does not " },
+            { "type": "blank", "id": "b1", "answer": "wait" },
+            { "type": "text", "text": " for a mind." }
+          ],
+          "bank": ["wait", "act", "learn", "choose"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reality does not wait to be acknowledged before it is real."
+          }
+        },
+        {
+          "id": "ind-c3",
+          "type": "choice",
+          "prompt": "Which sentence states primacy of existence?",
+          "answer": "ind",
+          "choices": [
+            { "id": "ind", "text": "The universe exists independent of consciousness." },
+            { "id": "in", "text": "The universe exists only inside a mind." },
+            { "id": "made", "text": "Consciousness makes the universe by thinking." },
+            { "id": "vote", "text": "The universe exists when enough people agree." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit sentence is independence, not a mind-made world."
+          }
+        },
+        {
+          "id": "ind-s2",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Put the denial in the right order.",
+          "tokens": [
+            { "id": "t1", "text": "No mind" },
+            { "id": "t2", "text": "is required" },
+            { "id": "t3", "text": "for the universe to exist" },
+            { "id": "d1", "text": "to invent matter" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A knower is not a requirement of existence."
+          }
+        },
+        {
+          "id": "ind-c4",
+          "type": "choice",
+          "prompt": "If every conscious being vanished, what would primacy of existence say about the rocks?",
+          "answer": "remain",
+          "choices": [
+            { "id": "remain", "text": "They would still exist." },
+            { "id": "gone", "text": "They would stop existing." },
+            { "id": "idea", "text": "They would become mere ideas." },
+            { "id": "pause", "text": "They would pause until a new mind arrived." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Independence means the rocks do not need witnesses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "apprehends",
+      "title": "Consciousness apprehends",
+      "objective": "Say what consciousness does: it takes in what exists. It does not create it.",
+      "exercises": [
+        {
+          "id": "ap-c1",
+          "type": "choice",
+          "prompt": "Under this unit, what is the job of consciousness?",
+          "answer": "take",
+          "choices": [
+            { "id": "take", "text": "To apprehend what exists." },
+            { "id": "make", "text": "To bring the universe into being." },
+            { "id": "vote", "text": "To decide which facts are allowed." },
+            { "id": "none", "text": "To have no object at all." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Consciousness apprehends. Taking in is not the same as creating."
+          }
+        },
+        {
+          "id": "ap-m1",
+          "type": "match",
+          "prompt": "Match each act to the right description.",
+          "pairs": [
+            { "id": "a", "left": "Apprehending", "right": "Grasping what is already there" },
+            { "id": "b", "left": "Decreeing", "right": "Trying to rule reality by a mind" },
+            { "id": "c", "left": "Ignoring", "right": "Leaving a fact unseen, not unreal" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Apprehension reaches a fact. A decree would pretend to set the fact."
+          }
+        },
+        {
+          "id": "ap-b1",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the second line of the unit.",
+          "parts": [
+            { "type": "text", "text": "Consciousness " },
+            { "type": "blank", "id": "b1", "answer": "apprehends" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["apprehends", "invents", "votes", "erases"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The verb for consciousness here is apprehends, not invents."
+          }
+        },
+        {
+          "id": "ap-s1",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build what consciousness does.",
+          "tokens": [
+            { "id": "t1", "text": "Consciousness" },
+            { "id": "t2", "text": "apprehends" },
+            { "id": "t3", "text": "what exists" },
+            { "id": "d1", "text": "and thereby creates it" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "It takes in what exists. Creating is the distractor this unit rejects."
+          }
+        },
+        {
+          "id": "ap-c2",
+          "type": "choice",
+          "prompt": "You look at a table. On this view, looking does what?",
+          "answer": "find",
+          "choices": [
+            { "id": "find", "text": "It apprehends a table that is already there." },
+            { "id": "birth", "text": "It brings the table into existence." },
+            { "id": "opt", "text": "It makes the table optional." },
+            { "id": "law", "text": "It decrees the table’s identity." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Seeing is apprehension of something that does not depend on the seeing."
+          }
+        },
+        {
+          "id": "ap-m2",
+          "type": "match",
+          "prompt": "Match the mind’s role to the case.",
+          "pairs": [
+            { "id": "a", "left": "Noticing a storm", "right": "Apprehension" },
+            { "id": "b", "left": "Wishing the storm away", "right": "Not a way to unmake it" },
+            { "id": "c", "left": "The storm itself", "right": "Independent of the notice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Notice takes the storm in. The wish does not cancel it, and the storm did not need the notice."
+          }
+        },
+        {
+          "id": "ap-b2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both blanks.",
+          "parts": [
+            { "type": "text", "text": "To apprehend is to " },
+            { "type": "blank", "id": "b1", "answer": "grasp" },
+            { "type": "text", "text": " a fact, not to " },
+            { "type": "blank", "id": "b2", "answer": "create" },
+            { "type": "text", "text": " it." }
+          ],
+          "bank": ["grasp", "create", "elect", "forget"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Grasping and creating are different jobs. Only grasping belongs to consciousness here."
+          }
+        },
+        {
+          "id": "ap-c3",
+          "type": "choice",
+          "prompt": "Which pairing is correct?",
+          "answer": "ok",
+          "choices": [
+            { "id": "ok", "text": "Existence is independent. Consciousness apprehends." },
+            { "id": "swap", "text": "Existence apprehends. Consciousness is the universe." },
+            { "id": "both", "text": "Both existence and consciousness decree facts." },
+            { "id": "none", "text": "Neither exists until a theory is written." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the two roles apart: the universe is independent, and consciousness apprehends it."
+          }
+        },
+        {
+          "id": "ap-s2",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Order the two jobs.",
+          "tokens": [
+            { "id": "t1", "text": "What exists comes first" },
+            { "id": "t2", "text": "then consciousness apprehends it" },
+            { "id": "d1", "text": "then the mind invents the universe" },
+            { "id": "d2", "text": "so the fact can begin" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Apprehension follows what is. It does not open existence."
+          }
+        },
+        {
+          "id": "ap-c4",
+          "type": "choice",
+          "prompt": "A mistake in awareness means what, on this unit?",
+          "answer": "miss",
+          "choices": [
+            { "id": "miss", "text": "The mind failed to apprehend what is there." },
+            { "id": "change", "text": "The fact changed to match the mistake." },
+            { "id": "gone", "text": "The object stopped existing." },
+            { "id": "ok", "text": "Error and reality are the same thing." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A miss is a failure of apprehension, not a rewrite of the object."
+          }
+        }
+      ]
+    },
+    {
+      "id": "no-decree",
+      "title": "It does not decree",
+      "objective": "Reject the idea that wishing, believing, or agreeing can rewrite what exists.",
+      "exercises": [
+        {
+          "id": "nd-c1",
+          "type": "choice",
+          "prompt": "What does consciousness not do?",
+          "answer": "decree",
+          "choices": [
+            { "id": "decree", "text": "It does not decree reality." },
+            { "id": "see", "text": "It does not apprehend anything." },
+            { "id": "exist", "text": "It does not exist at all." },
+            { "id": "err", "text": "It cannot ever be mistaken." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit line is direct: consciousness apprehends. It does not decree."
+          }
+        },
+        {
+          "id": "nd-m1",
+          "type": "match",
+          "prompt": "Match each attempt to the result under this unit.",
+          "pairs": [
+            { "id": "a", "left": "Wishing a rock were bread", "right": "The rock stays a rock" },
+            { "id": "b", "left": "Believing two and two are five", "right": "The sum is still four" },
+            { "id": "c", "left": "A vote that gravity stop", "right": "Gravity is not repealed" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Wish, belief, and agreement do not decree what exists."
+          }
+        },
+        {
+          "id": "nd-b1",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the refusal.",
+          "parts": [
+            { "type": "text", "text": "Consciousness does not " },
+            { "type": "blank", "id": "b1", "answer": "decree" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["decree", "notice", "learn", "exist"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Decree is the act this unit denies to consciousness."
+          }
+        },
+        {
+          "id": "nd-s1",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the short formula.",
+          "tokens": [
+            { "id": "t1", "text": "Consciousness apprehends" },
+            { "id": "t2", "text": "It does not decree" },
+            { "id": "d1", "text": "It writes the facts" },
+            { "id": "d2", "text": "Reality obeys a mood" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Hold both halves: apprehension is real, and decree is refused."
+          }
+        },
+        {
+          "id": "nd-c2",
+          "type": "choice",
+          "prompt": "A crowd agrees the river is dry while it floods the road. What is true?",
+          "answer": "wet",
+          "choices": [
+            { "id": "wet", "text": "The flood is real. Agreement does not decree otherwise." },
+            { "id": "dry", "text": "The agreement makes the river dry." },
+            { "id": "both", "text": "The river is dry for them and flooded in itself, both fully." },
+            { "id": "none", "text": "Without a decree, water cannot exist." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Numbers of minds do not turn a flood into a dry road."
+          }
+        },
+        {
+          "id": "nd-m2",
+          "type": "match",
+          "prompt": "Match the mental act to what it can and cannot do.",
+          "pairs": [
+            { "id": "a", "left": "Apprehending the flood", "right": "Can take the fact in" },
+            { "id": "b", "left": "Denying the flood", "right": "Cannot unmake the water" },
+            { "id": "c", "left": "Ordering the flood to stop", "right": "Is a decree, and it fails" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only apprehension fits the mind’s role. Denial and orders do not rewrite the water."
+          }
+        },
+        {
+          "id": "nd-b2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the limit on belief.",
+          "parts": [
+            { "type": "text", "text": "Believing a thing does not " },
+            { "type": "blank", "id": "b1", "answer": "make" },
+            { "type": "text", "text": " it so." }
+          ],
+          "bank": ["make", "notice", "name", "study"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Belief can be an attempt to apprehend. It is not a decree that creates the fact."
+          }
+        },
+        {
+          "id": "nd-c3",
+          "type": "choice",
+          "prompt": "Which is a decree, and therefore rejected here?",
+          "answer": "wish",
+          "choices": [
+            { "id": "wish", "text": "My wanting it is what makes it true." },
+            { "id": "look", "text": "I look in order to find out what is true." },
+            { "id": "miss", "text": "I can fail to notice a fact." },
+            { "id": "own", "text": "The fact was there before I asked." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Treating a want as the maker of truth is the decree this unit refuses."
+          }
+        },
+        {
+          "id": "nd-s2",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Order the rejection.",
+          "tokens": [
+            { "id": "t1", "text": "A wish" },
+            { "id": "t2", "text": "does not" },
+            { "id": "t3", "text": "rewrite what exists" },
+            { "id": "d1", "text": "becomes the fact" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Wanting is not a power to edit existence."
+          }
+        },
+        {
+          "id": "nd-c4",
+          "type": "choice",
+          "prompt": "Why is “consciousness decrees” the wrong slogan?",
+          "answer": "role",
+          "choices": [
+            { "id": "role", "text": "It gives the mind a power this unit denies." },
+            { "id": "same", "text": "It means the same as apprehend." },
+            { "id": "weak", "text": "It says the mind is too weak to notice anything." },
+            { "id": "gone", "text": "It says the universe does not exist." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Decree would make consciousness the ruler of facts. Primacy of existence says it is not."
+          }
+        }
+      ]
+    },
+    {
+      "id": "two-claims",
+      "title": "Two opposite claims",
+      "objective": "Tell primacy of existence apart from the claim that consciousness comes first and sets the facts.",
+      "exercises": [
+        {
+          "id": "tc-c1",
+          "type": "choice",
+          "prompt": "Which claim is primacy of existence?",
+          "answer": "ex",
+          "choices": [
+            { "id": "ex", "text": "Existence is independent, and consciousness apprehends it." },
+            { "id": "con", "text": "Consciousness comes first and decrees what exists." },
+            { "id": "tie", "text": "Existence and a wish are the same thing." },
+            { "id": "none", "text": "Neither existence nor consciousness is real." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Primacy of existence puts the universe first. The opposite puts a decree first."
+          }
+        },
+        {
+          "id": "tc-m1",
+          "type": "match",
+          "prompt": "Match each slogan to the claim it states.",
+          "pairs": [
+            { "id": "a", "left": "The universe exists independent of consciousness", "right": "Primacy of existence" },
+            { "id": "b", "left": "Consciousness apprehends", "right": "The mind’s actual job" },
+            { "id": "c", "left": "A mind decrees the facts", "right": "The claim this unit rejects" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Two lines belong to this unit. The decree line is the opposite claim."
+          }
+        },
+        {
+          "id": "tc-b1",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the view this unit teaches.",
+          "parts": [
+            { "type": "text", "text": "The view is the primacy of " },
+            { "type": "blank", "id": "b1", "answer": "existence" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["existence", "wishing", "decree", "mood"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The name is primacy of existence, not primacy of a wish or a decree."
+          }
+        },
+        {
+          "id": "tc-s1",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the opposite claim so you can reject it.",
+          "tokens": [
+            { "id": "t1", "text": "The opposite claim says" },
+            { "id": "t2", "text": "consciousness decrees" },
+            { "id": "t3", "text": "what exists" },
+            { "id": "d1", "text": "and that claim is this unit" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Naming the opposite helps you keep it out of the unit. This unit does not adopt it."
+          }
+        },
+        {
+          "id": "tc-c2",
+          "type": "choice",
+          "prompt": "Someone says, “If I do not think of the tree, the tree is nothing.” Which claim is that?",
+          "answer": "opp",
+          "choices": [
+            { "id": "opp", "text": "The opposite of primacy of existence." },
+            { "id": "same", "text": "Primacy of existence itself." },
+            { "id": "ap", "text": "A plain case of apprehending." },
+            { "id": "id", "text": "A statement that the tree is independent." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Tying the tree’s being to a thought makes consciousness primary. This unit says the tree does not need the thought."
+          }
+        },
+        {
+          "id": "tc-m2",
+          "type": "match",
+          "prompt": "Sort each line.",
+          "pairs": [
+            { "id": "a", "left": "Facts do not need a knower", "right": "Primacy of existence" },
+            { "id": "b", "left": "To be is to be perceived", "right": "Opposite claim" },
+            { "id": "c", "left": "Seeing takes in a fact", "right": "Apprehension" },
+            { "id": "d", "left": "Wanting sets the fact", "right": "A decree" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep independence and apprehension on one side, and perception-as-being and wanting-as-making on the other."
+          }
+        },
+        {
+          "id": "tc-b2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the contrast in one line.",
+          "parts": [
+            { "type": "text", "text": "Existence is primary. A " },
+            { "type": "blank", "id": "b1", "answer": "decree" },
+            { "type": "text", "text": " is not." }
+          ],
+          "bank": ["decree", "fact", "rock", "star"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "What is primary is existence, not a mental decree."
+          }
+        },
+        {
+          "id": "tc-c3",
+          "type": "choice",
+          "prompt": "How do you test a slogan against this unit?",
+          "answer": "ask",
+          "choices": [
+            { "id": "ask", "text": "Ask whether it makes existence depend on a mind’s decree." },
+            { "id": "loud", "text": "Ask which slogan is said more loudly." },
+            { "id": "old", "text": "Ask which slogan is older." },
+            { "id": "nice", "text": "Ask which slogan feels kinder." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The test is dependence. If a mind must decree the fact, the slogan is not this unit."
+          }
+        },
+        {
+          "id": "tc-s2",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "State the test in order.",
+          "tokens": [
+            { "id": "t1", "text": "If a mind must decree the fact" },
+            { "id": "t2", "text": "the slogan is not primacy of existence" },
+            { "id": "d1", "text": "then the universe is independent" },
+            { "id": "d2", "text": "and consciousness only apprehends" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A required decree fails the test. Independence plus apprehension passes it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hold-it",
+      "title": "Hold the unit",
+      "objective": "Put the three lines together: independent existence, apprehension, and no decree.",
+      "exercises": [
+        {
+          "id": "ho-c1",
+          "type": "choice",
+          "prompt": "Which set is the whole unit?",
+          "answer": "all",
+          "choices": [
+            { "id": "all", "text": "The universe is independent. Consciousness apprehends. It does not decree." },
+            { "id": "one", "text": "Only that wishes sometimes come true." },
+            { "id": "two", "text": "Only that minds do not exist." },
+            { "id": "bad", "text": "The universe obeys whatever is believed." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "All three lines are one unit. Dropping independence or smuggling in a decree breaks it."
+          }
+        },
+        {
+          "id": "ho-m1",
+          "type": "match",
+          "prompt": "Match each line to its job in the unit.",
+          "pairs": [
+            { "id": "a", "left": "Independent of consciousness", "right": "What the universe is" },
+            { "id": "b", "left": "Apprehends", "right": "What consciousness does" },
+            { "id": "c", "left": "Does not decree", "right": "What consciousness refuses" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each line has one job. Together they are primacy of existence."
+          }
+        },
+        {
+          "id": "ho-b1",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Restore the summary.",
+          "parts": [
+            { "type": "text", "text": "The universe exists independent of consciousness. Consciousness " },
+            { "type": "blank", "id": "b1", "answer": "apprehends" },
+            { "type": "text", "text": ". It does not " },
+            { "type": "blank", "id": "b2", "answer": "decree" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["apprehends", "decree", "vanishes", "votes"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two verbs stay in that order: apprehends, then the refusal to decree."
+          }
+        },
+        {
+          "id": "ho-s1",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the three lines in unit order.",
+          "tokens": [
+            { "id": "t1", "text": "The universe exists independent of consciousness" },
+            { "id": "t2", "text": "Consciousness apprehends" },
+            { "id": "t3", "text": "It does not decree" },
+            { "id": "d1", "text": "A wish rewrites the facts" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Order: independence, then apprehension, then the refusal to decree."
+          }
+        },
+        {
+          "id": "ho-c2",
+          "type": "choice",
+          "prompt": "You learn a fact you dislike. What does the unit tell you to do?",
+          "answer": "take",
+          "choices": [
+            { "id": "take", "text": "Apprehend it. Dislike does not decree it away." },
+            { "id": "erase", "text": "Decree that the fact stop existing." },
+            { "id": "vote", "text": "Gather votes until the fact changes." },
+            { "id": "deny-u", "text": "Treat the universe as dependent on your dislike." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Dislike is not a decree. The fact stays independent, and the mind’s job is to apprehend it."
+          }
+        },
+        {
+          "id": "ho-m2",
+          "type": "match",
+          "prompt": "Match the situation to the line it illustrates.",
+          "pairs": [
+            { "id": "a", "left": "A planet with no observers", "right": "Independence" },
+            { "id": "b", "left": "Reading an instrument", "right": "Apprehension" },
+            { "id": "c", "left": "Announcing that the reading shall be otherwise", "right": "A failed decree" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The planet needs no observer, the reading takes a fact in, and the announcement does not rewrite it."
+          }
+        },
+        {
+          "id": "ho-b2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the one-line hold.",
+          "parts": [
+            { "type": "text", "text": "Existence is " },
+            { "type": "blank", "id": "b1", "answer": "independent" },
+            { "type": "text", "text": ", and consciousness does not " },
+            { "type": "blank", "id": "b2", "answer": "decree" },
+            { "type": "text", "text": " it." }
+          ],
+          "bank": ["independent", "decree", "imaginary", "elect"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Independence and the ban on decree are the two edges of the same hold."
+          }
+        },
+        {
+          "id": "ho-c3",
+          "type": "choice",
+          "prompt": "Which shortening still keeps the unit?",
+          "answer": "keep",
+          "choices": [
+            { "id": "keep", "text": "What is does not depend on a mind, and a mind does not rule it." },
+            { "id": "drop", "text": "Minds rule facts whenever they are sure." },
+            { "id": "only", "text": "Only decrees are real." },
+            { "id": "empty", "text": "Nothing exists to apprehend." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The short form still has independence and the refusal to let a mind rule the facts."
+          }
+        },
+        {
+          "id": "ho-s2",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Close the unit in order.",
+          "tokens": [
+            { "id": "t1", "text": "What exists is independent" },
+            { "id": "t2", "text": "consciousness apprehends it" },
+            { "id": "t3", "text": "and does not decree it" },
+            { "id": "d1", "text": "unless a wish says otherwise" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That is the whole hold: independent existence, apprehension, and no decree."
+          }
+        },
+        {
+          "id": "ho-c4",
+          "type": "choice",
+          "prompt": "What would break the unit if you added it?",
+          "answer": "add",
+          "choices": [
+            { "id": "add", "text": "A clause that lets consciousness decree an exception." },
+            { "id": "see", "text": "A reminder that apprehension can be careful." },
+            { "id": "miss", "text": "A reminder that a mind can miss a fact." },
+            { "id": "own", "text": "A reminder that unseen facts still exist." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An exception that lets a mind decree would cancel primacy of existence. Care, error, and unseen facts do not."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

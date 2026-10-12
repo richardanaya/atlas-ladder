@@ -1,0 +1,322 @@
+{
+  "sectionFile": "metaphysics.json",
+  "key": "axioms/consciousness",
+  "exercises": [
+    {
+      "id": "m4e1",
+      "type": "choice",
+      "prompt": "Which definition does Rand give?",
+      "answer": "fac",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Consciousness is the faculty of awareness—the faculty of perceiving that which exists.",
+        "note": "Perception here is of what exists. The definition does not say consciousness produces its object.",
+        "citation": "Ayn Rand, \"Concepts of Consciousness,\" Introduction to Objectivist Epistemology, 37"
+      },
+      "choices": [
+        {
+          "id": "fac",
+          "text": "The faculty of awareness: the faculty of perceiving that which exists"
+        },
+        {
+          "id": "cre",
+          "text": "The creator of existence"
+        },
+        {
+          "id": "soc",
+          "text": "A social agreement"
+        },
+        {
+          "id": "ill",
+          "text": "An illusion produced by language"
+        }
+      ]
+    },
+    {
+      "id": "m4e2",
+      "type": "choice",
+      "prompt": "What is a consciousness with nothing to be conscious of?",
+      "answer": "con",
+      "choices": [
+        {
+          "id": "con",
+          "text": "A contradiction in terms"
+        },
+        {
+          "id": "pure",
+          "text": "Pure awareness, the ideal case"
+        },
+        {
+          "id": "make",
+          "text": "A mind that creates its own object"
+        },
+        {
+          "id": "prior",
+          "text": "Proof that existence depends on being perceived"
+        }
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "A consciousness with nothing to be conscious of is a contradiction in terms.",
+        "note": "Awareness with no object cancels itself. Consciousness perceives what exists; it does not stand as awareness of nothing.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+      }
+    },
+    {
+      "id": "m4e3",
+      "type": "choice",
+      "prompt": "A consciousness conscious of nothing but itself is, in Galt’s speech:",
+      "answer": "con",
+      "feedback": {
+        "kind": "quote",
+        "quote": "A consciousness conscious of nothing but itself is a contradiction in terms.",
+        "note": "Before it could identify itself as consciousness, it had to be conscious of something. That next clause is in the same paragraph.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+      },
+      "choices": [
+        {
+          "id": "con",
+          "text": "A contradiction in terms"
+        },
+        {
+          "id": "ax",
+          "text": "The primary axiom"
+        },
+        {
+          "id": "goal",
+          "text": "The goal of introspection"
+        },
+        {
+          "id": "pri",
+          "text": "The primacy of existence"
+        }
+      ]
+    },
+    {
+      "id": "m4e4",
+      "type": "choice",
+      "prompt": "“Awareness is awareness of something” is there to rule out which idea?",
+      "answer": "none",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Awareness is awareness of something.",
+        "note": "In the same essay she says a content-less state of consciousness is a contradiction in terms. This question uses the shorter sentence as the one to remember.",
+        "citation": "Ayn Rand, \"Concepts of Consciousness,\" Introduction to Objectivist Epistemology, 37"
+      },
+      "choices": [
+        {
+          "id": "none",
+          "text": "A contentless state of consciousness"
+        },
+        {
+          "id": "ext",
+          "text": "Awareness of an external world"
+        },
+        {
+          "id": "act",
+          "text": "Awareness as an active process"
+        },
+        {
+          "id": "man",
+          "text": "Human awareness in particular"
+        }
+      ]
+    },
+    {
+      "id": "m4e5",
+      "type": "match",
+      "prompt": "Match the formula to the job it does.",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Existence is Identity, Consciousness is Identification.",
+        "note": "The four lines are two pairs: the repetitive axioms, and her completion of them.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+      },
+      "pairs": [
+        {
+          "id": "ex",
+          "left": "Existence exists",
+          "right": "Something is"
+        },
+        {
+          "id": "cc",
+          "left": "Consciousness is conscious",
+          "right": "Awareness is awareness"
+        },
+        {
+          "id": "aa",
+          "left": "A is A",
+          "right": "What is, is what it is"
+        },
+        {
+          "id": "ci",
+          "left": "Consciousness is Identification",
+          "right": "Awareness identifies what exists"
+        }
+      ]
+    },
+    {
+      "id": "m4e6",
+      "type": "fill",
+      "mode": "blanks",
+      "prompt": "Complete the formula.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Existence is Identity, Consciousness is "
+        },
+        {
+          "type": "blank",
+          "id": "b1",
+          "answer": "Identification"
+        }
+      ],
+      "bank": [
+        "Identification",
+        "Creation",
+        "Whim",
+        "Neutrality"
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "Existence is Identity, Consciousness is Identification.",
+        "note": "Identification is the act. It is not a license to decide what the object is.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+      }
+    },
+    {
+      "id": "m4e7",
+      "type": "fill",
+      "mode": "sentence",
+      "prompt": "Build the sentence.",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Awareness"
+        },
+        {
+          "id": "t2",
+          "text": "is"
+        },
+        {
+          "id": "t3",
+          "text": "awareness"
+        },
+        {
+          "id": "t4",
+          "text": "of"
+        },
+        {
+          "id": "t5",
+          "text": "something"
+        },
+        {
+          "id": "d1",
+          "text": "nothing"
+        }
+      ],
+      "answer": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "Awareness is awareness of something.",
+        "note": "The word “something” is the whole point of the sentence.",
+        "citation": "Ayn Rand, \"Concepts of Consciousness,\" Introduction to Objectivist Epistemology, 37"
+      }
+    },
+    {
+      "id": "m4e8",
+      "type": "choice",
+      "prompt": "Grasping the statement that existence exists implies two corollary axioms. They are:",
+      "answer": "two",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Existence exists—and the act of grasping that statement implies two corollary axioms: that something exists which one perceives and that one exists possessing consciousness, consciousness being the faculty of perceiving that which exists.",
+        "note": "The two corollaries are inside the act of grasping the first axiom. They are not extra assumptions added later.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 124"
+      },
+      "choices": [
+        {
+          "id": "two",
+          "text": "Something exists which one perceives, and one exists possessing consciousness"
+        },
+        {
+          "id": "soc",
+          "text": "Society exists, and the state is sovereign"
+        },
+        {
+          "id": "god",
+          "text": "God exists, and faith is knowledge"
+        },
+        {
+          "id": "mat",
+          "text": "Matter exists, and mind does not"
+        }
+      ]
+    },
+    {
+      "id": "m4e9",
+      "type": "choice",
+      "prompt": "On the conceptual level, Rand says the process of awareness is:",
+      "answer": "vol",
+      "feedback": {
+        "kind": "quote",
+        "quote": "On the higher, conceptual level, the process is psychological, conscious and volitional.",
+        "note": "She contrasts this with the perceptual level, which she says is automatic and non-volitional. Volition as a full topic is a later floor.",
+        "citation": "Ayn Rand, \"Concepts of Consciousness,\" Introduction to Objectivist Epistemology, 37"
+      },
+      "choices": [
+        {
+          "id": "vol",
+          "text": "Psychological, conscious, and volitional"
+        },
+        {
+          "id": "auto",
+          "text": "Automatic and infallible"
+        },
+        {
+          "id": "tribe",
+          "text": "Dictated by the tribe"
+        },
+        {
+          "id": "imp",
+          "text": "Impossible"
+        }
+      ]
+    },
+    {
+      "id": "m4e10",
+      "type": "choice",
+      "prompt": "Which line is a fair reading of why you cannot stand outside existence and consciousness to prove them?",
+      "answer": "act",
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "This is our compression of Galt’s challenge to the person who demands that the axioms be proved from outside them. His image is a zero gaining knowledge about a zero. We are not quoting that image here.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 155"
+      },
+      "choices": [
+        {
+          "id": "act",
+          "text": "The proof would already be an act of consciousness about something that exists"
+        },
+        {
+          "id": "book",
+          "text": "Because a sacred text has not authorized it"
+        },
+        {
+          "id": "exp",
+          "text": "Because only specialists perceive axioms"
+        },
+        {
+          "id": "fic",
+          "text": "Because existence is a useful fiction"
+        }
+      ]
+    }
+  ]
+}

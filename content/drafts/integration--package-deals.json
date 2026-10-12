@@ -1,0 +1,816 @@
+{
+  "sectionId": "integration",
+  "sectionFile": "integration.json",
+  "unitId": "package-deals",
+  "title": "Package Deals",
+  "summary": "Two claims glued together so that accepting one seems to force the other.",
+  "lessons": [
+    {
+      "id": "two-claims",
+      "title": "Two claims, one package",
+      "objective": "Recognize a package deal as two claims treated as if they were a single claim.",
+      "exercises": [
+        {
+          "id": "pkg-what",
+          "type": "choice",
+          "prompt": "What is a package deal?",
+          "answer": "two",
+          "choices": [
+            { "id": "two", "text": "Two claims glued so that a yes to one seems to force a yes to the other" },
+            { "id": "one", "text": "One claim stated twice in different words" },
+            { "id": "list", "text": "A list of claims you are free to accept or reject one by one" },
+            { "id": "proof", "text": "A proof that both claims are true because they share a word" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The package hides two claims. Taking the package looks like taking both at once."
+          }
+        },
+        {
+          "id": "pkg-not",
+          "type": "choice",
+          "prompt": "Which item is not a package deal?",
+          "answer": "split",
+          "choices": [
+            { "id": "split", "text": "Two claims kept apart so each can be judged on its own" },
+            { "id": "or", "text": "A slogan that makes rejecting cruelty look like rejecting justice" },
+            { "id": "and", "text": "A label that ties wealth to theft as if they were the same fact" },
+            { "id": "if", "text": "A sentence that treats liking order as the same as liking a dictator" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Claims kept apart are not a package. The glue is what makes one seem to drag the other along."
+          }
+        },
+        {
+          "id": "pkg-force",
+          "type": "choice",
+          "prompt": "Why does a package deal feel hard to answer?",
+          "answer": "force",
+          "choices": [
+            { "id": "force", "text": "Accepting the claim you mean seems to force the claim you do not mean" },
+            { "id": "long", "text": "The wording is too long to read" },
+            { "id": "new", "text": "Both claims are brand-new facts nobody has seen" },
+            { "id": "math", "text": "It can be settled only by a calculation" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The pressure comes from the glue, not from either claim being unreadable."
+          }
+        },
+        {
+          "id": "pkg-match-marks",
+          "type": "match",
+          "prompt": "Match each description to what it is.",
+          "pairs": [
+            { "id": "p1", "left": "Two claims treated as one item", "right": "A package deal" },
+            { "id": "p2", "left": "A claim you can accept or reject alone", "right": "A single claim" },
+            { "id": "p3", "left": "The feeling that one yes covers both", "right": "The forced pair" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A single claim stands alone. A package makes one answer look like it covers two."
+          }
+        },
+        {
+          "id": "pkg-match-count",
+          "type": "match",
+          "prompt": "Match each line to how many claims it really holds.",
+          "pairs": [
+            { "id": "c1", "left": "Rain is wet", "right": "One claim" },
+            { "id": "c2", "left": "Caring about truth means you hate people", "right": "Two claims glued" },
+            { "id": "c3", "left": "A yes here is said to require a yes there", "right": "A forced pair" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Count the claims. If a yes to the first is presented as a yes to a second, the line is a package."
+          }
+        },
+        {
+          "id": "pkg-blanks-def",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the definition.",
+          "parts": [
+            { "type": "text", "text": "A package deal glues " },
+            { "type": "blank", "id": "b1", "answer": "two" },
+            { "type": "text", "text": " claims so that accepting one seems to " },
+            { "type": "blank", "id": "b2", "answer": "force" },
+            { "type": "text", "text": " the other." }
+          ],
+          "bank": ["two", "force", "erase", "none"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Two is the count. Force is the trick: one acceptance is made to look mandatory for both."
+          }
+        },
+        {
+          "id": "pkg-blanks-seem",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the warning.",
+          "parts": [
+            { "type": "text", "text": "The package makes two claims " },
+            { "type": "blank", "id": "b1", "answer": "look" },
+            { "type": "text", "text": " like one, so a single answer seems to " },
+            { "type": "blank", "id": "b2", "answer": "cover" },
+            { "type": "text", "text": " both." }
+          ],
+          "bank": ["look", "cover", "prove", "hide-nothing"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Looking like one claim is the disguise. Covering both is what the single answer is pushed to do."
+          }
+        },
+        {
+          "id": "pkg-sentence-def",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names the trick.",
+          "tokens": [
+            { "id": "t1", "text": "Two" },
+            { "id": "t2", "text": "claims" },
+            { "id": "t3", "text": "are" },
+            { "id": "t4", "text": "glued" },
+            { "id": "t5", "text": "into" },
+            { "id": "t6", "text": "one" },
+            { "id": "t7", "text": "package" },
+            { "id": "d1", "text": "proof" },
+            { "id": "d2", "text": "axiom" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The package is the glue, not a new fact that makes both claims true."
+          }
+        },
+        {
+          "id": "pkg-sentence-yes",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about what the yes is made to do.",
+          "tokens": [
+            { "id": "t1", "text": "One" },
+            { "id": "t2", "text": "yes" },
+            { "id": "t3", "text": "seems" },
+            { "id": "t4", "text": "to" },
+            { "id": "t5", "text": "force" },
+            { "id": "t6", "text": "the" },
+            { "id": "t7", "text": "other" },
+            { "id": "d1", "text": "erase" },
+            { "id": "d2", "text": "measure" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Seems is the right strength. The second claim is not actually proved by the first."
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-glue",
+      "title": "Find the glue",
+      "objective": "Find the word or slogan that hides the join between the two claims.",
+      "exercises": [
+        {
+          "id": "glue-where",
+          "type": "choice",
+          "prompt": "Where does the glue usually sit?",
+          "answer": "word",
+          "choices": [
+            { "id": "word", "text": "In a word or slogan that names two different things as if they were one" },
+            { "id": "page", "text": "Only in a footnote nobody reads" },
+            { "id": "tone", "text": "Only in a loud tone of voice" },
+            { "id": "date", "text": "In the date when the claims were first written" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The join hides inside the shared label. Volume and dates do not glue claims."
+          }
+        },
+        {
+          "id": "glue-spot",
+          "type": "choice",
+          "prompt": "Someone says selfish means cruel. Where is the glue?",
+          "answer": "means",
+          "choices": [
+            { "id": "means", "text": "In the word means, which welds a concern for oneself to cruelty" },
+            { "id": "self", "text": "In the mere fact that a person can care about his own life" },
+            { "id": "cruel", "text": "In the mere fact that cruelty is a kind of act" },
+            { "id": "period", "text": "In the period at the end of the sentence" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each idea can be named alone. The weld is the claim that one word means the other."
+          }
+        },
+        {
+          "id": "glue-not-topic",
+          "type": "choice",
+          "prompt": "What should you look for first when a line feels like a trap?",
+          "answer": "join",
+          "choices": [
+            { "id": "join", "text": "The word that joins two claims you could have asked about separately" },
+            { "id": "author", "text": "The fame of the person who said it" },
+            { "id": "length", "text": "Whether the line has more than ten words" },
+            { "id": "agree", "text": "Whether your friends already agree" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Fame, length, and company do not show the join. The joining word does."
+          }
+        },
+        {
+          "id": "glue-match",
+          "type": "match",
+          "prompt": "Match each slogan to the join it hides.",
+          "pairs": [
+            { "id": "g1", "left": "Practical means unprincipled", "right": "Results welded to dropping standards" },
+            { "id": "g2", "left": "Idealistic means impractical", "right": "Standards welded to ignoring facts" },
+            { "id": "g3", "left": "Selfish means predatory", "right": "A self-interest welded to harming others" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each slogan uses means to stick a second claim onto the first word."
+          }
+        },
+        {
+          "id": "glue-match-kind",
+          "type": "match",
+          "prompt": "Match each clue to what it shows.",
+          "pairs": [
+            { "id": "k1", "left": "One noun asked to stand for two ideas", "right": "A hiding label" },
+            { "id": "k2", "left": "A phrase you are not allowed to split", "right": "A slogan glue" },
+            { "id": "k3", "left": "Two ideas already given separate names", "right": "No glue yet" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Separate names let you look at each idea. A label that forbids the split is the glue."
+          }
+        },
+        {
+          "id": "glue-blanks",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the spotting rule.",
+          "parts": [
+            { "type": "text", "text": "Look for the " },
+            { "type": "blank", "id": "b1", "answer": "word" },
+            { "type": "text", "text": " that hides the " },
+            { "type": "blank", "id": "b2", "answer": "join" },
+            { "type": "text", "text": " between the two claims." }
+          ],
+          "bank": ["word", "join", "date", "volume"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word is the hiding place. The join is what that word is concealing."
+          }
+        },
+        {
+          "id": "glue-blanks-means",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the example.",
+          "parts": [
+            { "type": "text", "text": "When a slogan says one thing " },
+            { "type": "blank", "id": "b1", "answer": "means" },
+            { "type": "text", "text": " another, that verb is the " },
+            { "type": "blank", "id": "b2", "answer": "glue" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["means", "glue", "proof", "map"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Means is doing the welding. It is not a proof that the two things are identical."
+          }
+        },
+        {
+          "id": "glue-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that tells you where to look.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "slogan" },
+            { "id": "t3", "text": "hides" },
+            { "id": "t4", "text": "the" },
+            { "id": "t5", "text": "join" },
+            { "id": "d1", "text": "proof" },
+            { "id": "d2", "text": "calendar" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Find the slogan before you argue either claim. The join is what you have to see."
+          }
+        },
+        {
+          "id": "glue-sentence-label",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about a hiding label.",
+          "tokens": [
+            { "id": "t1", "text": "One" },
+            { "id": "t2", "text": "label" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "covering" },
+            { "id": "t5", "text": "two" },
+            { "id": "t6", "text": "ideas" },
+            { "id": "d1", "text": "pages" },
+            { "id": "d2", "text": "votes" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A label can be honest only when it names one idea. Two ideas under one label are a package."
+          }
+        }
+      ]
+    },
+    {
+      "id": "split-them",
+      "title": "Name each claim",
+      "objective": "Name each claim separately once the package is opened.",
+      "exercises": [
+        {
+          "id": "split-job",
+          "type": "choice",
+          "prompt": "After you see the glue, what is the next step?",
+          "answer": "name",
+          "choices": [
+            { "id": "name", "text": "State each claim in its own words" },
+            { "id": "drop", "text": "Drop both claims without looking" },
+            { "id": "keep", "text": "Keep the slogan and refuse to restate it" },
+            { "id": "vote", "text": "Ask which claim is more popular" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Opening the package means giving each claim a sentence of its own."
+          }
+        },
+        {
+          "id": "split-example",
+          "type": "choice",
+          "prompt": "The slogan is freedom means chaos. Which split is fair?",
+          "answer": "fair",
+          "choices": [
+            { "id": "fair", "text": "People can act without permission, and action without rules is disorder" },
+            { "id": "same", "text": "Freedom and chaos are one word, so there is nothing to split" },
+            { "id": "only", "text": "Only chaos is real, and freedom is not a claim at all" },
+            { "id": "mood", "text": "The split is whatever feeling the slogan gives you" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A fair split keeps both claims visible. It does not erase one or treat the slogan as atomic."
+          }
+        },
+        {
+          "id": "split-bad",
+          "type": "choice",
+          "prompt": "Which restatement fails to open the package?",
+          "answer": "repeat",
+          "choices": [
+            { "id": "repeat", "text": "Repeating the slogan with the same welded word" },
+            { "id": "first", "text": "Writing the first claim without the second" },
+            { "id": "second", "text": "Writing the second claim without the first" },
+            { "id": "both", "text": "Writing both claims as two separate sentences" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If the welded word is still doing the joining, the package is still closed."
+          }
+        },
+        {
+          "id": "split-match",
+          "type": "match",
+          "prompt": "Match each package to a clean split.",
+          "pairs": [
+            { "id": "s1", "left": "Selfish means cruel", "right": "Concern for oneself, and cruelty to others" },
+            { "id": "s2", "left": "Profit means theft", "right": "Earning a gain, and taking what is not yours" },
+            { "id": "s3", "left": "Reason means coldness", "right": "Thinking from facts, and refusing to care" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each right-hand side names two claims. Neither claim is yet judged true or false."
+          }
+        },
+        {
+          "id": "split-match-order",
+          "type": "match",
+          "prompt": "Match each step to its job.",
+          "pairs": [
+            { "id": "o1", "left": "Find the joining word", "right": "See the glue" },
+            { "id": "o2", "left": "Give each idea its own sentence", "right": "Open the package" },
+            { "id": "o3", "left": "Leave the slogan untouched", "right": "Keep the package shut" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Seeing the glue comes before naming. Leaving the slogan as it stands leaves the package shut."
+          }
+        },
+        {
+          "id": "split-blanks",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rule for opening a package.",
+          "parts": [
+            { "type": "text", "text": "Name the " },
+            { "type": "blank", "id": "b1", "answer": "first" },
+            { "type": "text", "text": " claim, then name the " },
+            { "type": "blank", "id": "b2", "answer": "second" },
+            { "type": "text", "text": " claim, without the joining word." }
+          ],
+          "bank": ["first", "second", "same", "popular"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Both claims stay in view. The joining word is left out of the restatement."
+          }
+        },
+        {
+          "id": "split-blanks-two",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the description of a fair split.",
+          "parts": [
+            { "type": "text", "text": "A fair split yields " },
+            { "type": "blank", "id": "b1", "answer": "two" },
+            { "type": "text", "text": " sentences, and neither sentence still " },
+            { "type": "blank", "id": "b2", "answer": "welds" },
+            { "type": "text", "text": " the claims." }
+          ],
+          "bank": ["two", "welds", "one", "hides"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Two sentences is the count. If one of them still welds the ideas, the split is not finished."
+          }
+        },
+        {
+          "id": "split-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the next step.",
+          "tokens": [
+            { "id": "t1", "text": "State" },
+            { "id": "t2", "text": "each" },
+            { "id": "t3", "text": "claim" },
+            { "id": "t4", "text": "on" },
+            { "id": "t5", "text": "its" },
+            { "id": "t6", "text": "own" },
+            { "id": "d1", "text": "slogan" },
+            { "id": "d2", "text": "together" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "On its own means the claim no longer borrows support from the claim beside it."
+          }
+        },
+        {
+          "id": "split-sentence-open",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about what opening does.",
+          "tokens": [
+            { "id": "t1", "text": "Opening" },
+            { "id": "t2", "text": "the" },
+            { "id": "t3", "text": "package" },
+            { "id": "t4", "text": "names" },
+            { "id": "t5", "text": "both" },
+            { "id": "t6", "text": "claims" },
+            { "id": "d1", "text": "erases" },
+            { "id": "d2", "text": "votes" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Naming both is the point. Opening is not the same as throwing either claim away."
+          }
+        }
+      ]
+    },
+    {
+      "id": "one-not-both",
+      "title": "One yes is not two",
+      "objective": "Judge each claim on its own so that a yes to one is not a yes to the other.",
+      "exercises": [
+        {
+          "id": "judge-rule",
+          "type": "choice",
+          "prompt": "Once the claims are separate, how do you judge them?",
+          "answer": "each",
+          "choices": [
+            { "id": "each", "text": "Each claim stands or falls by itself" },
+            { "id": "both", "text": "You must accept both or reject both" },
+            { "id": "first", "text": "The first claim automatically proves the second" },
+            { "id": "label", "text": "The original label decides both at once" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Separation is what lets the answers differ. The package had forbidden that."
+          }
+        },
+        {
+          "id": "judge-case",
+          "type": "choice",
+          "prompt": "You accept that a person may keep what he earns. The package said earning means theft. What follows?",
+          "answer": "not",
+          "choices": [
+            { "id": "not", "text": "Nothing about theft follows, because that claim was only glued on" },
+            { "id": "must", "text": "You must also accept that earning is theft" },
+            { "id": "deny", "text": "You must deny that anyone earns anything" },
+            { "id": "both-yes", "text": "You have said yes to earning and yes to theft together" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A yes to the claim you meant does not carry the claim that was attached to it."
+          }
+        },
+        {
+          "id": "judge-mix",
+          "type": "choice",
+          "prompt": "Which pair of answers is allowed after a real split?",
+          "answer": "mix",
+          "choices": [
+            { "id": "mix", "text": "Yes to the first claim and no to the second" },
+            { "id": "locked", "text": "Only yes-yes or no-no, with no other pattern" },
+            { "id": "skip", "text": "No answer until the slogan is restored" },
+            { "id": "crowd", "text": "Whatever answer a crowd gives to the slogan" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Mixed answers are the sign that the glue is gone. The package had treated a mix as impossible."
+          }
+        },
+        {
+          "id": "judge-match",
+          "type": "match",
+          "prompt": "Match each claim to a verdict that does not drag in the other.",
+          "pairs": [
+            { "id": "j1", "left": "A standard can be worth keeping", "right": "Yes, without calling it impractical" },
+            { "id": "j2", "left": "A result can matter", "right": "Yes, without dropping the standard" },
+            { "id": "j3", "left": "Cruelty is wrong", "right": "Yes, without banning concern for oneself" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each yes stops at its own claim. The glued extra is left unanswered by that yes."
+          }
+        },
+        {
+          "id": "judge-match-error",
+          "type": "match",
+          "prompt": "Match each mistake to the error it is.",
+          "pairs": [
+            { "id": "e1", "left": "A yes to one claim counted as a yes to both", "right": "Still inside the package" },
+            { "id": "e2", "left": "Rejecting a claim only because it once shared a label", "right": "Letting the glue decide" },
+            { "id": "e3", "left": "Giving each claim its own yes or no", "right": "Judging after the split" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The glue can push you to accept an extra or to reject a claim that never needed rejecting."
+          }
+        },
+        {
+          "id": "judge-blanks",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the judging rule.",
+          "parts": [
+            { "type": "text", "text": "A yes to one claim does " },
+            { "type": "blank", "id": "b1", "answer": "not" },
+            { "type": "text", "text": " force a yes to the " },
+            { "type": "blank", "id": "b2", "answer": "other" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["not", "other", "also", "same"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Not is the whole point of the split. The other claim still needs its own reason."
+          }
+        },
+        {
+          "id": "judge-blanks-own",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line about evidence.",
+          "parts": [
+            { "type": "text", "text": "Each claim needs its " },
+            { "type": "blank", "id": "b1", "answer": "own" },
+            { "type": "text", "text": " reason, not a ride on the " },
+            { "type": "blank", "id": "b2", "answer": "label" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["own", "label", "shared", "slogan-only"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A shared label is not a reason. Own means the support has to belong to that claim."
+          }
+        },
+        {
+          "id": "judge-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the rule.",
+          "tokens": [
+            { "id": "t1", "text": "One" },
+            { "id": "t2", "text": "yes" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "not" },
+            { "id": "t5", "text": "two" },
+            { "id": "d1", "text": "always" },
+            { "id": "d2", "text": "proof" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Count the answers the way you counted the claims. One acceptance covers one claim."
+          }
+        },
+        {
+          "id": "judge-sentence-falls",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about how a claim is decided.",
+          "tokens": [
+            { "id": "t1", "text": "Each" },
+            { "id": "t2", "text": "claim" },
+            { "id": "t3", "text": "stands" },
+            { "id": "t4", "text": "or" },
+            { "id": "t5", "text": "falls" },
+            { "id": "t6", "text": "alone" },
+            { "id": "d1", "text": "together" },
+            { "id": "d2", "text": "popularly" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Alone means the other claim’s fate is a separate question."
+          }
+        }
+      ]
+    },
+    {
+      "id": "two-questions",
+      "title": "Ask two questions",
+      "objective": "Replace the package with two questions you can answer one at a time.",
+      "exercises": [
+        {
+          "id": "ask-replace",
+          "type": "choice",
+          "prompt": "What should replace the package when you answer someone?",
+          "answer": "twoq",
+          "choices": [
+            { "id": "twoq", "text": "Two questions, one for each claim" },
+            { "id": "same", "text": "The same slogan, said more firmly" },
+            { "id": "none", "text": "No question, because packages cannot be discussed" },
+            { "id": "oneq", "text": "One question that still demands a single yes or no for both" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Two questions put the split to work. One combined question rebuilds the package."
+          }
+        },
+        {
+          "id": "ask-sample",
+          "type": "choice",
+          "prompt": "The line is profit means theft. Which pair of questions opens it?",
+          "answer": "pair",
+          "choices": [
+            { "id": "pair", "text": "Did someone earn a gain, and did someone take what was not his?" },
+            { "id": "one", "text": "Are you for profit-theft or against it?" },
+            { "id": "who", "text": "Who coined the slogan, and when?" },
+            { "id": "feel", "text": "Does the word profit feel ugly or pleasant?" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each question can be answered without settling the other. The combined label cannot."
+          }
+        },
+        {
+          "id": "ask-order",
+          "type": "choice",
+          "prompt": "Why answer the questions one at a time?",
+          "answer": "time",
+          "choices": [
+            { "id": "time", "text": "So the answer to the first is not smuggled in as the answer to the second" },
+            { "id": "speed", "text": "Because two questions always take twice as many minutes" },
+            { "id": "polite", "text": "Because etiquette forbids a direct reply" },
+            { "id": "avoid", "text": "So you never have to reach a verdict" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One at a time blocks the smuggle. It is not a way to postpone judging."
+          }
+        },
+        {
+          "id": "ask-match",
+          "type": "match",
+          "prompt": "Match each package to the first question worth asking.",
+          "pairs": [
+            { "id": "a1", "left": "Freedom means chaos", "right": "What range of action is being called freedom?" },
+            { "id": "a2", "left": "Reason means coldness", "right": "What act of thinking is being called reason?" },
+            { "id": "a3", "left": "Selfish means cruel", "right": "What concern for oneself is being named?" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The first question isolates the claim that the label was pretending to define. The second claim waits its turn."
+          }
+        },
+        {
+          "id": "ask-match-second",
+          "type": "match",
+          "prompt": "Match each leftover claim to the question that belongs to it.",
+          "pairs": [
+            { "id": "b1", "left": "The chaos half of the package", "right": "Is this situation actually disorder?" },
+            { "id": "b2", "left": "The coldness half of the package", "right": "Is anyone refusing to care?" },
+            { "id": "b3", "left": "The cruelty half of the package", "right": "Is anyone harming another person?" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The second question asks about the extra claim directly, instead of letting the label imply it."
+          }
+        },
+        {
+          "id": "ask-blanks",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the replacement rule.",
+          "parts": [
+            { "type": "text", "text": "Replace the package with " },
+            { "type": "blank", "id": "b1", "answer": "two" },
+            { "type": "text", "text": " questions you can answer " },
+            { "type": "blank", "id": "b2", "answer": "separately" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["two", "separately", "one", "together"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Two questions, answered separately, is the whole method of reply."
+          }
+        },
+        {
+          "id": "ask-blanks-smuggle",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the caution.",
+          "parts": [
+            { "type": "text", "text": "Do not let the " },
+            { "type": "blank", "id": "b1", "answer": "first" },
+            { "type": "text", "text": " answer settle the " },
+            { "type": "blank", "id": "b2", "answer": "second" },
+            { "type": "text", "text": " question." }
+          ],
+          "bank": ["first", "second", "slogan", "crowd"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The first answer stays with the first question. The second question is still open."
+          }
+        },
+        {
+          "id": "ask-sentence",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that says what to ask.",
+          "tokens": [
+            { "id": "t1", "text": "Ask" },
+            { "id": "t2", "text": "one" },
+            { "id": "t3", "text": "question" },
+            { "id": "t4", "text": "for" },
+            { "id": "t5", "text": "each" },
+            { "id": "t6", "text": "claim" },
+            { "id": "d1", "text": "slogan" },
+            { "id": "d2", "text": "both" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One question per claim keeps the answers from collapsing back into the package."
+          }
+        },
+        {
+          "id": "ask-sentence-time",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about the order of answers.",
+          "tokens": [
+            { "id": "t1", "text": "Answer" },
+            { "id": "t2", "text": "the" },
+            { "id": "t3", "text": "questions" },
+            { "id": "t4", "text": "one" },
+            { "id": "t5", "text": "at" },
+            { "id": "t6", "text": "a" },
+            { "id": "t7", "text": "time" },
+            { "id": "d1", "text": "once" },
+            { "id": "d2", "text": "never" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One at a time is how you stop the first answer from being counted twice."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

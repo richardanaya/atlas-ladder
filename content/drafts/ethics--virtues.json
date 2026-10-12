@@ -1,0 +1,787 @@
+{
+  "sectionId": "ethics",
+  "sectionFile": "ethics.json",
+  "unitId": "virtues",
+  "title": "The Seven Virtues",
+  "summary": "Rationality, independence, integrity, honesty, justice, productiveness, and pride.",
+  "lessons": [
+    {
+      "id": "the-seven",
+      "title": "Name the seven",
+      "objective": "Name the seven virtues in the unit’s order and keep them as one code.",
+      "exercises": [
+        {
+          "id": "v1e1",
+          "type": "choice",
+          "prompt": "How many virtues does this unit teach?",
+          "answer": "seven",
+          "choices": [
+            { "id": "three", "text": "Three" },
+            { "id": "five", "text": "Five" },
+            { "id": "seven", "text": "Seven" },
+            { "id": "nine", "text": "Nine" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit names seven virtues, from rationality through pride."
+          }
+        },
+        {
+          "id": "v1e2",
+          "type": "match",
+          "prompt": "Match each opening virtue to the job this unit gives it.",
+          "pairs": [
+            { "id": "rat", "left": "Rationality", "right": "Use reason to know and to choose" },
+            { "id": "ind", "left": "Independence", "right": "Form your own judgments" },
+            { "id": "int", "left": "Integrity", "right": "Act on the judgments you accept" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The list starts with thinking, then with owning that thought, then with acting on it."
+          }
+        },
+        {
+          "id": "v1e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the two ends of the list.",
+          "parts": [
+            { "type": "text", "text": "The seven begin with " },
+            { "type": "blank", "id": "b1", "answer": "rationality" },
+            { "type": "text", "text": " and end with " },
+            { "type": "blank", "id": "b2", "answer": "pride" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["rationality", "pride", "charity", "faith"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rationality is first in the unit summary. Pride is last."
+          }
+        },
+        {
+          "id": "v1e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "After rationality and independence, put the next three virtues in the unit’s order.",
+          "tokens": [
+            { "id": "t1", "text": "integrity" },
+            { "id": "t2", "text": "honesty" },
+            { "id": "t3", "text": "justice" },
+            { "id": "d1", "text": "humility" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The middle of the list is integrity, honesty, then justice. Humility is not one of the seven."
+          }
+        },
+        {
+          "id": "v1e5",
+          "type": "choice",
+          "prompt": "Which name is not one of the seven virtues?",
+          "answer": "hum",
+          "choices": [
+            { "id": "hon", "text": "Honesty" },
+            { "id": "jus", "text": "Justice" },
+            { "id": "pri", "text": "Pride" },
+            { "id": "hum", "text": "Humility" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Honesty, justice, and pride are on the list. Humility is not."
+          }
+        },
+        {
+          "id": "v1e6",
+          "type": "choice",
+          "prompt": "Which pair closes the list?",
+          "answer": "pp",
+          "choices": [
+            { "id": "pp", "text": "Productiveness and pride" },
+            { "id": "fh", "text": "Faith and hope" },
+            { "id": "pc", "text": "Pity and charity" },
+            { "id": "ob", "text": "Obedience and sacrifice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "After justice, the unit names productiveness and then pride."
+          }
+        },
+        {
+          "id": "v1e7",
+          "type": "match",
+          "prompt": "Match the last four virtues to the short job of each.",
+          "pairs": [
+            { "id": "hon", "left": "Honesty", "right": "Refuse to fake the facts" },
+            { "id": "jus", "left": "Justice", "right": "Judge people by what they do" },
+            { "id": "pro", "left": "Productiveness", "right": "Make the values you need" },
+            { "id": "pri", "left": "Pride", "right": "Earn the right to respect yourself" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "These four finish the code: truthfulness, fair judgment, productive work, and moral ambition."
+          }
+        },
+        {
+          "id": "v1e8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the full list in the unit’s order.",
+          "tokens": [
+            { "id": "t1", "text": "rationality" },
+            { "id": "t2", "text": "independence" },
+            { "id": "t3", "text": "integrity" },
+            { "id": "t4", "text": "honesty" },
+            { "id": "t5", "text": "justice" },
+            { "id": "t6", "text": "productiveness" },
+            { "id": "t7", "text": "pride" },
+            { "id": "d1", "text": "charity" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep that order: rationality, independence, integrity, honesty, justice, productiveness, pride."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rationality",
+      "title": "Rationality first",
+      "objective": "Treat rationality as the virtue of using reason to know the facts and to choose.",
+      "exercises": [
+        {
+          "id": "v2e1",
+          "type": "choice",
+          "prompt": "Which virtue is the use of reason as your way of knowing and choosing?",
+          "answer": "rat",
+          "choices": [
+            { "id": "rat", "text": "Rationality" },
+            { "id": "pri", "text": "Pride" },
+            { "id": "jus", "text": "Justice" },
+            { "id": "pro", "text": "Productiveness" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rationality is the virtue of guiding both knowledge and action by reason."
+          }
+        },
+        {
+          "id": "v2e2",
+          "type": "match",
+          "prompt": "Match each habit to whether it is rationality.",
+          "pairs": [
+            { "id": "look", "left": "Look at the facts before you act", "right": "Rationality" },
+            { "id": "wish", "left": "Let a wish stand in for a fact", "right": "Not rationality" },
+            { "id": "feel", "left": "Treat a feeling as proof", "right": "Not rationality" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A feeling can report your estimate. It does not replace looking at what is."
+          }
+        },
+        {
+          "id": "v2e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two steps rationality requires.",
+          "parts": [
+            { "type": "text", "text": "You " },
+            { "type": "blank", "id": "b1", "answer": "identify" },
+            { "type": "text", "text": " the facts, then you " },
+            { "type": "blank", "id": "b2", "answer": "choose" },
+            { "type": "text", "text": " by them." }
+          ],
+          "bank": ["identify", "choose", "ignore", "guess"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rationality is not thought with no decision, and not a decision with no thought."
+          }
+        },
+        {
+          "id": "v2e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study line for what reason guides.",
+          "tokens": [
+            { "id": "t1", "text": "Reason" },
+            { "id": "t2", "text": "guides" },
+            { "id": "t3", "text": "knowledge" },
+            { "id": "t4", "text": "and" },
+            { "id": "t5", "text": "choice" },
+            { "id": "d1", "text": "whim" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Under rationality, reason is the guide for what you know and for what you do."
+          }
+        },
+        {
+          "id": "v2e5",
+          "type": "choice",
+          "prompt": "A rational person treats reality as something to do what with?",
+          "answer": "id",
+          "choices": [
+            { "id": "id", "text": "Identify, then act on what is identified" },
+            { "id": "rw", "text": "Rewrite by wishing" },
+            { "id": "vote", "text": "Settle by a show of hands" },
+            { "id": "hide", "text": "Set aside when it is inconvenient" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rationality starts from the facts. It does not ask the facts to move out of the way."
+          }
+        },
+        {
+          "id": "v2e6",
+          "type": "choice",
+          "prompt": "Why does this unit list rationality before the other six?",
+          "answer": "base",
+          "choices": [
+            { "id": "base", "text": "The others are ways of acting by reason" },
+            { "id": "alpha", "text": "The names happen to be alphabetical" },
+            { "id": "easy", "text": "It is the easiest one to skip" },
+            { "id": "social", "text": "It only matters in a crowd" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Independence, integrity, honesty, justice, productiveness, and pride each assume you are using your mind."
+          }
+        },
+        {
+          "id": "v2e7",
+          "type": "match",
+          "prompt": "Match each breach to the rational habit it drops.",
+          "pairs": [
+            { "id": "ev", "left": "Refusing to see a known fact", "right": "Drops looking" },
+            { "id": "wh", "left": "Letting a feeling set the standard", "right": "Drops judgment" },
+            { "id": "dr", "left": "Acting with no check on the conclusion", "right": "Drops review" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rationality means you look, you judge, and you are willing to recheck."
+          }
+        },
+        {
+          "id": "v2e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the virtue that the other six depend on.",
+          "parts": [
+            { "type": "text", "text": "The basic virtue in this set is " },
+            { "type": "blank", "id": "b1", "answer": "rationality" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["rationality", "pride", "justice", "honesty"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Without rationality, the rest of the list has no method."
+          }
+        },
+        {
+          "id": "v2e9",
+          "type": "choice",
+          "prompt": "Which policy is rationality in daily choices?",
+          "answer": "full",
+          "choices": [
+            { "id": "full", "text": "Think as far as the choice requires, then act" },
+            { "id": "half", "text": "Think only when nothing is at stake" },
+            { "id": "out", "text": "Hand every decision to someone else" },
+            { "id": "mood", "text": "Follow the strongest mood" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rationality is a standing policy of using your mind, not a special occasion."
+          }
+        }
+      ]
+    },
+    {
+      "id": "independence-integrity",
+      "title": "Independence and integrity",
+      "objective": "Separate thinking for yourself from acting on the judgment you have reached.",
+      "exercises": [
+        {
+          "id": "v3e1",
+          "type": "choice",
+          "prompt": "Independence, in this unit, is mainly about what?",
+          "answer": "own",
+          "choices": [
+            { "id": "own", "text": "Taking responsibility for your own judgments" },
+            { "id": "alone", "text": "Living with no contact with other people" },
+            { "id": "stub", "text": "Refusing to hear any evidence" },
+            { "id": "rank", "text": "Outranking everyone in the room" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Independence is the work of your own mind. It is not isolation and it is not stubbornness."
+          }
+        },
+        {
+          "id": "v3e2",
+          "type": "choice",
+          "prompt": "Integrity, in this unit, is mainly about what?",
+          "answer": "act",
+          "choices": [
+            { "id": "act", "text": "Acting on the convictions you accept" },
+            { "id": "say", "text": "Saying whatever is popular" },
+            { "id": "hide", "text": "Keeping your real view secret while you do the opposite" },
+            { "id": "mood", "text": "Matching your mood of the hour" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Integrity is loyalty in action to the judgment you have already reached."
+          }
+        },
+        {
+          "id": "v3e3",
+          "type": "match",
+          "prompt": "Match each virtue to its focus.",
+          "pairs": [
+            { "id": "ind", "left": "Independence", "right": "Whose mind forms the judgment" },
+            { "id": "int", "left": "Integrity", "right": "Whether your action matches that judgment" },
+            { "id": "both", "left": "A borrowed script you never checked", "right": "Fails both" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One virtue asks who thought it. The other asks whether you live it."
+          }
+        },
+        {
+          "id": "v3e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the contrast.",
+          "parts": [
+            { "type": "text", "text": "Independence is about your " },
+            { "type": "blank", "id": "b1", "answer": "judgment" },
+            { "type": "text", "text": ". Integrity is about your " },
+            { "type": "blank", "id": "b2", "answer": "action" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["judgment", "action", "costume", "slogan"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "You can tell the two apart by that split: judgment, then action."
+          }
+        },
+        {
+          "id": "v3e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the order these two virtues require.",
+          "tokens": [
+            { "id": "t1", "text": "Form" },
+            { "id": "t2", "text": "your" },
+            { "id": "t3", "text": "own" },
+            { "id": "t4", "text": "judgment" },
+            { "id": "t5", "text": "then" },
+            { "id": "t6", "text": "act" },
+            { "id": "t7", "text": "on" },
+            { "id": "t8", "text": "it" },
+            { "id": "d1", "text": "instead" },
+            { "id": "d2", "text": "borrow" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Independence comes in the forming. Integrity comes in the acting."
+          }
+        },
+        {
+          "id": "v3e6",
+          "type": "choice",
+          "prompt": "You repeat a conclusion you do not understand because the group likes it. Which virtue fails first?",
+          "answer": "ind",
+          "choices": [
+            { "id": "ind", "text": "Independence" },
+            { "id": "pro", "text": "Productiveness" },
+            { "id": "pri", "text": "Pride" },
+            { "id": "jus", "text": "Justice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The judgment is not yours. That is a failure of independence, even before you act."
+          }
+        },
+        {
+          "id": "v3e7",
+          "type": "choice",
+          "prompt": "You know the right course and do the opposite to avoid trouble. Which virtue fails?",
+          "answer": "int",
+          "choices": [
+            { "id": "int", "text": "Integrity" },
+            { "id": "ind", "text": "Independence, because you never thought" },
+            { "id": "pro", "text": "Productiveness" },
+            { "id": "non", "text": "None, if the trouble is real" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The judgment is already yours. Dropping it in action is a breach of integrity."
+          }
+        },
+        {
+          "id": "v3e8",
+          "type": "match",
+          "prompt": "Match the case to the virtue it practices.",
+          "pairs": [
+            { "id": "check", "left": "You check a claim before you accept it", "right": "Independence" },
+            { "id": "do", "left": "You do what you have judged to be right", "right": "Integrity" },
+            { "id": "both", "left": "You think it through and then live it", "right": "Both" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two virtues can be split in a case, and they can stand together."
+          }
+        },
+        {
+          "id": "v3e9",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name each virtue in the sentence.",
+          "parts": [
+            { "type": "text", "text": "Thinking for yourself is " },
+            { "type": "blank", "id": "b1", "answer": "independence" },
+            { "type": "text", "text": ". Living what you think is " },
+            { "type": "blank", "id": "b2", "answer": "integrity" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["independence", "integrity", "justice", "pride"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the names on those two jobs and do not swap them."
+          }
+        }
+      ]
+    },
+    {
+      "id": "honesty-justice",
+      "title": "Honesty and justice",
+      "objective": "Contrast refusing to fake reality with judging people by the facts of what they do.",
+      "exercises": [
+        {
+          "id": "v4e1",
+          "type": "choice",
+          "prompt": "Honesty, in this unit, is the refusal to do what?",
+          "answer": "fake",
+          "choices": [
+            { "id": "fake", "text": "Fake reality to gain a value" },
+            { "id": "speak", "text": "Speak at all" },
+            { "id": "trade", "text": "Trade with other people" },
+            { "id": "err", "text": "Ever be mistaken" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Honesty is not a ban on error. It is the policy of not pretending the facts are something else."
+          }
+        },
+        {
+          "id": "v4e2",
+          "type": "choice",
+          "prompt": "Justice, in this unit, means what?",
+          "answer": "des",
+          "choices": [
+            { "id": "des", "text": "Judge people by the facts and treat them as they deserve" },
+            { "id": "same", "text": "Give everyone the same praise no matter what they do" },
+            { "id": "mood", "text": "Reward whoever you happen to like" },
+            { "id": "none", "text": "Refuse to judge other people at all" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Justice uses the facts about a person, then grants what those facts earn."
+          }
+        },
+        {
+          "id": "v4e3",
+          "type": "match",
+          "prompt": "Match each virtue to its subject.",
+          "pairs": [
+            { "id": "hon", "left": "Honesty", "right": "Facts, including facts about yourself" },
+            { "id": "jus", "left": "Justice", "right": "What each person has earned" },
+            { "id": "both", "left": "Pretending, whether about a fact or a person", "right": "Both reject it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Honesty faces reality. Justice faces people in the light of reality."
+          }
+        },
+        {
+          "id": "v4e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the two definitions in study language.",
+          "parts": [
+            { "type": "text", "text": "Honesty refuses to " },
+            { "type": "blank", "id": "b1", "answer": "fake" },
+            { "type": "text", "text": " reality. Justice gives each person what the facts say they " },
+            { "type": "blank", "id": "b2", "answer": "deserve" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["fake", "deserve", "invent", "ignore"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One verb is about reality: do not fake it. The other is about people: give what is deserved."
+          }
+        },
+        {
+          "id": "v4e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the line that keeps the two virtues distinct.",
+          "tokens": [
+            { "id": "t1", "text": "Honesty" },
+            { "id": "t2", "text": "names" },
+            { "id": "t3", "text": "the" },
+            { "id": "t4", "text": "fact" },
+            { "id": "t5", "text": "justice" },
+            { "id": "t6", "text": "names" },
+            { "id": "t7", "text": "the" },
+            { "id": "t8", "text": "desert" },
+            { "id": "d1", "text": "excuse" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Honesty stops at what is so. Justice goes on to what that fact means a person should receive."
+          }
+        },
+        {
+          "id": "v4e6",
+          "type": "choice",
+          "prompt": "You praise someone for a virtue they did not practice. Which virtue fails?",
+          "answer": "jus",
+          "choices": [
+            { "id": "jus", "text": "Justice" },
+            { "id": "pro", "text": "Productiveness" },
+            { "id": "ind", "text": "Independence" },
+            { "id": "none", "text": "None, if the praise is kind" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Praise that the facts do not support is unjust. Kindness is not a substitute for justice."
+          }
+        },
+        {
+          "id": "v4e7",
+          "type": "choice",
+          "prompt": "You gain a benefit by pretending a fact is other than it is. Which virtue fails?",
+          "answer": "hon",
+          "choices": [
+            { "id": "hon", "text": "Honesty" },
+            { "id": "pri", "text": "Pride only, and only if you feel bad later" },
+            { "id": "pro", "text": "Productiveness, because any gain counts as work" },
+            { "id": "none", "text": "None, if nobody is hurt" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A value gained by faking reality is a breach of honesty, whether or not a bystander notices."
+          }
+        },
+        {
+          "id": "v4e8",
+          "type": "match",
+          "prompt": "Match the act to the breach or the practice.",
+          "pairs": [
+            { "id": "lie", "left": "Fake a fact to get a value", "right": "Breach of honesty" },
+            { "id": "rew", "left": "Reward what was not earned", "right": "Breach of justice" },
+            { "id": "both", "left": "Name the fact and what it deserves", "right": "Both virtues" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Faking is the honesty failure. Misplaced reward is the justice failure. Naming both is the practice."
+          }
+        },
+        {
+          "id": "v4e9",
+          "type": "choice",
+          "prompt": "An honest mistake differs from dishonesty because you did what?",
+          "answer": "try",
+          "choices": [
+            { "id": "try", "text": "Tried to see the fact and were wrong" },
+            { "id": "hide", "text": "Knew the fact and hid it" },
+            { "id": "spin", "text": "Twisted the fact on purpose" },
+            { "id": "same", "text": "Nothing different; every error is a lie" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Honesty is the policy toward reality. A real effort that misses is not the same as a fake."
+          }
+        }
+      ]
+    },
+    {
+      "id": "work-and-pride",
+      "title": "Productiveness and pride",
+      "objective": "Connect making values with the moral ambition to be worthy of your own life.",
+      "exercises": [
+        {
+          "id": "v5e1",
+          "type": "choice",
+          "prompt": "Productiveness, in this unit, is which policy?",
+          "answer": "make",
+          "choices": [
+            { "id": "make", "text": "Create the values your life needs" },
+            { "id": "wait", "text": "Wait for values to appear" },
+            { "id": "take", "text": "Take what other people have made" },
+            { "id": "wish", "text": "Wish harder until the work is done" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Productiveness is the virtue of making values by thought and effort."
+          }
+        },
+        {
+          "id": "v5e2",
+          "type": "choice",
+          "prompt": "Pride, in this unit, means what?",
+          "answer": "earn",
+          "choices": [
+            { "id": "earn", "text": "Moral ambition: earn the right to respect yourself" },
+            { "id": "van", "text": "Vanity: demand that others admire you" },
+            { "id": "rank", "text": "A title you inherit" },
+            { "id": "boast", "text": "Boasting with nothing behind it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Pride here is earned self-respect, not a claim on an audience."
+          }
+        },
+        {
+          "id": "v5e3",
+          "type": "match",
+          "prompt": "Match each idea to the virtue or the opposite.",
+          "pairs": [
+            { "id": "pro", "left": "Make the values you need", "right": "Productiveness" },
+            { "id": "pri", "left": "Become worthy of the life you are making", "right": "Pride" },
+            { "id": "take", "left": "Live off values you did not earn", "right": "Neither virtue" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Productiveness supplies values. Pride is the character that has earned them. Taking is neither."
+          }
+        },
+        {
+          "id": "v5e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two names.",
+          "parts": [
+            { "type": "text", "text": "The virtue of making values is " },
+            { "type": "blank", "id": "b1", "answer": "productiveness" },
+            { "type": "text", "text": ". The virtue of moral ambition is " },
+            { "type": "blank", "id": "b2", "answer": "pride" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["productiveness", "pride", "honesty", "justice"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep productiveness on the work and pride on the earned character."
+          }
+        },
+        {
+          "id": "v5e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the link between the two virtues.",
+          "tokens": [
+            { "id": "t1", "text": "You" },
+            { "id": "t2", "text": "produce" },
+            { "id": "t3", "text": "values" },
+            { "id": "t4", "text": "and" },
+            { "id": "t5", "text": "earn" },
+            { "id": "t6", "text": "self-respect" },
+            { "id": "d1", "text": "applause" },
+            { "id": "d2", "text": "inherit" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Productiveness is the making. Pride is the self-respect that making, and the rest of the code, can earn."
+          }
+        },
+        {
+          "id": "v5e6",
+          "type": "choice",
+          "prompt": "Which is pride, rather than vanity?",
+          "answer": "char",
+          "choices": [
+            { "id": "char", "text": "Building a character you can honestly respect" },
+            { "id": "show", "text": "Needing strangers to clap" },
+            { "id": "rank", "text": "Resting on a family name" },
+            { "id": "none", "text": "Declaring that no standard applies to you" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Pride looks at whether you have earned your own respect. Vanity looks at an audience."
+          }
+        },
+        {
+          "id": "v5e7",
+          "type": "choice",
+          "prompt": "A productive person adjusts what?",
+          "answer": "world",
+          "choices": [
+            { "id": "world", "text": "The world, by thought and effort, toward human needs" },
+            { "id": "facts", "text": "The facts, so work is unnecessary" },
+            { "id": "others", "text": "Other people, so they must provide" },
+            { "id": "none", "text": "Nothing; nature owes the values" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Productiveness reshapes materials and plans. It does not pretend the facts will do the work."
+          }
+        },
+        {
+          "id": "v5e8",
+          "type": "match",
+          "prompt": "Match the result to the virtue that aims at it.",
+          "pairs": [
+            { "id": "goods", "left": "Values brought into existence by work", "right": "Productiveness" },
+            { "id": "self", "left": "A self you have made worth esteeming", "right": "Pride" },
+            { "id": "wish", "left": "A wish with no effort and no standard", "right": "Neither" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Work without a moral standard is not yet pride. Self-regard without making or earning is not productiveness."
+          }
+        },
+        {
+          "id": "v5e9",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Close the unit’s list.",
+          "parts": [
+            { "type": "text", "text": "After justice come " },
+            { "type": "blank", "id": "b1", "answer": "productiveness" },
+            { "type": "text", "text": " and " },
+            { "type": "blank", "id": "b2", "answer": "pride" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["productiveness", "pride", "charity", "humility"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The seven end where they began in purpose: a mind that produces and a person who can look at that life with earned pride."
+          }
+        },
+        {
+          "id": "v5e10",
+          "type": "choice",
+          "prompt": "Which set is the whole code this unit teaches?",
+          "answer": "all",
+          "choices": [
+            { "id": "all", "text": "Rationality, independence, integrity, honesty, justice, productiveness, and pride" },
+            { "id": "three", "text": "Faith, hope, and charity" },
+            { "id": "card", "text": "Only reason, purpose, and self-esteem" },
+            { "id": "two", "text": "Only productiveness and pride" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Productiveness and pride finish the list. They do not replace the five virtues that come before them."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

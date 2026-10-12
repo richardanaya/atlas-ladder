@@ -1,0 +1,247 @@
+{
+  "sectionFile": "epistemology.json",
+  "key": "senses/do-not-invent",
+  "exercises": [
+    {
+      "id": "e3e1",
+      "type": "choice",
+      "prompt": "In Galt’s speech, the organs of perception are physical and have no power to do which of these?",
+      "answer": "inv",
+      "feedback": {
+        "kind": "quote",
+        "quote": "his organs of perception are physical and have no volition, no power to invent or to distort",
+        "note": "This is a contiguous excerpt from a longer sentence. The speech is arguing that the organs do not invent their object. The mind still has to identify what they provide.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+      },
+      "choices": [
+        {
+          "id": "inv",
+          "text": "Invent or distort"
+        },
+        {
+          "id": "see",
+          "text": "Respond to entities"
+        },
+        {
+          "id": "act",
+          "text": "Act at all"
+        },
+        {
+          "id": "exi",
+          "text": "Exist"
+        }
+      ]
+    },
+    {
+      "id": "e3e2",
+      "type": "choice",
+      "prompt": "The same passage says his senses cannot do what?",
+      "answer": "dec",
+      "feedback": {
+        "kind": "quote",
+        "quote": "His senses cannot deceive him",
+        "note": "Excerpt. The surrounding argument says the evidence is absolute and the mind must learn to understand it. A misidentification is a failure of that later work, not a lie told by the eye.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+      },
+      "choices": [
+        {
+          "id": "dec",
+          "text": "Deceive him"
+        },
+        {
+          "id": "rep",
+          "text": "Report entities"
+        },
+        {
+          "id": "dif",
+          "text": "Differ from one another"
+        },
+        {
+          "id": "exi",
+          "text": "Exist in a body"
+        }
+      ]
+    },
+    {
+      "id": "e3e3",
+      "type": "choice",
+      "prompt": "You misjudge what you saw. Where is the error?",
+      "answer": "mind",
+      "feedback": {
+        "kind": "quote",
+        "quote": "the evidence they give him is an absolute, but his mind must learn to understand it",
+        "note": "The senses do not invent or deceive. A false conclusion is a failure to identify evidence they actually gave.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+      },
+      "choices": [
+        {
+          "id": "mind",
+          "text": "In the mind’s failure to identify evidence the senses gave"
+        },
+        {
+          "id": "vol",
+          "text": "In the sense organ’s volition to invent a different object"
+        },
+        {
+          "id": "lie",
+          "text": "In the senses deceiving him about what is absolute"
+        },
+        {
+          "id": "opt",
+          "text": "In the organ choosing, at will, to distort the percept"
+        }
+      ]
+    },
+    {
+      "id": "e3e4",
+      "type": "fill",
+      "mode": "blanks",
+      "prompt": "Complete the excerpt.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "His senses cannot "
+        },
+        {
+          "type": "blank",
+          "id": "b1",
+          "answer": "deceive"
+        },
+        {
+          "type": "text",
+          "text": " him"
+        }
+      ],
+      "bank": [
+        "deceive",
+        "obey",
+        "create",
+        "replace"
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "His senses cannot deceive him",
+        "note": "The verb is deceive. The excerpt does not say the senses cannot err in the sense that your conclusions cannot err.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+      }
+    },
+    {
+      "id": "e3e5",
+      "type": "choice",
+      "prompt": "Which reading fits the passage?",
+      "answer": "mat",
+      "feedback": {
+        "kind": "quote",
+        "quote": "the evidence they give him is an absolute, but his mind must learn to understand it",
+        "note": "Excerpt. “Absolute” names the evidence. “Must learn” names the work still to be done. Both halves are required.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+      },
+      "choices": [
+        {
+          "id": "mat",
+          "text": "The senses give material. The mind must identify it."
+        },
+        {
+          "id": "fin",
+          "text": "The senses hand him finished scientific knowledge"
+        },
+        {
+          "id": "gui",
+          "text": "The senses are guilty until proved innocent"
+        },
+        {
+          "id": "for",
+          "text": "If a percept can be misread, the sense organ forged the object"
+        }
+      ]
+    },
+    {
+      "id": "e3e6",
+      "type": "match",
+      "prompt": "Match the item to the point in this passage.",
+      "feedback": {
+        "kind": "quote",
+        "quote": "physical objects cannot act without causes",
+        "note": "Another contiguous excerpt from the same sentence. The three match-lines are three excerpts, not one continuous quotation.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+      },
+      "pairs": [
+        {
+          "id": "org",
+          "left": "Sense organs",
+          "right": "No volition to invent or distort"
+        },
+        {
+          "id": "min",
+          "left": "Mind",
+          "right": "Must learn to understand the evidence"
+        },
+        {
+          "id": "obj",
+          "left": "Physical objects",
+          "right": "Cannot act without causes"
+        }
+      ]
+    },
+    {
+      "id": "e3e7",
+      "type": "choice",
+      "prompt": "A stick half in water looks bent. What follows if the senses cannot deceive you?",
+      "answer": "und",
+      "feedback": {
+        "kind": "quote",
+        "quote": "His senses cannot deceive him",
+        "note": "The look is evidence, not a lie the eye invented. The mind still has to learn what that evidence means.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+      },
+      "choices": [
+        {
+          "id": "und",
+          "text": "The look is evidence the mind must learn to understand, not a distortion the eye chose"
+        },
+        {
+          "id": "inv",
+          "text": "The eye used volition to invent a bend that was not given"
+        },
+        {
+          "id": "fin",
+          "text": "The senses delivered the finished conclusion that the stick is bent"
+        },
+        {
+          "id": "cau",
+          "text": "The stick acted without a cause, so the organ had to correct it"
+        }
+      ]
+    },
+    {
+      "id": "e3e8",
+      "type": "choice",
+      "prompt": "Which claim does the passage make about physical objects?",
+      "answer": "cau",
+      "feedback": {
+        "kind": "quote",
+        "quote": "physical objects cannot act without causes",
+        "note": "Excerpt from the same speech. It sits next to the claim that the sense organs themselves are physical.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 156"
+      },
+      "choices": [
+        {
+          "id": "cau",
+          "text": "They cannot act without causes"
+        },
+        {
+          "id": "non",
+          "text": "They act without causes"
+        },
+        {
+          "id": "min",
+          "text": "They are ideas in a mind"
+        },
+        {
+          "id": "opt",
+          "text": "Their action is optional"
+        }
+      ]
+    }
+  ]
+}

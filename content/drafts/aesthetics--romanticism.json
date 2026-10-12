@@ -1,0 +1,807 @@
+{
+  "sectionId": "aesthetics",
+  "sectionFile": "aesthetics.json",
+  "unitId": "romanticism",
+  "title": "Romanticism",
+  "summary": "Romanticism as the school committed to volition, and its place in Rand's esthetics.",
+  "lessons": [
+    {
+      "id": "where-schools-sit",
+      "title": "Where a school sits",
+      "objective": "Locate Romanticism as a school inside esthetics, named by its view of man, not by a feeling.",
+      "exercises": [
+        {
+          "id": "r1e1",
+          "type": "choice",
+          "prompt": "What does esthetics study, in the branch where this unit sits?",
+          "answer": "art",
+          "choices": [
+            { "id": "art", "text": "Art" },
+            { "id": "pol", "text": "The proper use of force" },
+            { "id": "lab", "text": "Laboratory measurement" },
+            { "id": "eti", "text": "Table manners" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Esthetics is the study of art. Romanticism is placed inside that study, not in politics or in a lab."
+          }
+        },
+        {
+          "id": "r1e2",
+          "type": "choice",
+          "prompt": "In this unit, what names a school of art?",
+          "answer": "man",
+          "choices": [
+            { "id": "man", "text": "Its basic view of man" },
+            { "id": "year", "text": "The century on the copyright page" },
+            { "id": "palette", "text": "How bright the colors are" },
+            { "id": "bio", "text": "The artist's childhood" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A school is a fundamental view of man as art presents him. Date, palette, and biography do not name the school."
+          }
+        },
+        {
+          "id": "r1e3",
+          "type": "match",
+          "prompt": "Match each name to the job this unit gives it.",
+          "pairs": [
+            { "id": "est", "left": "Esthetics", "right": "The study of art" },
+            { "id": "sch", "left": "A school", "right": "A basic view of man in art" },
+            { "id": "rom", "left": "Romanticism", "right": "The school committed to volition" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the three levels apart: the branch, the kind of classification, and the school this unit teaches."
+          }
+        },
+        {
+          "id": "r1e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the placement.",
+          "parts": [
+            { "type": "text", "text": "Romanticism is a " },
+            { "type": "blank", "id": "b1", "answer": "school" },
+            { "type": "text", "text": " of art, not a fifth " },
+            { "type": "blank", "id": "b2", "answer": "branch" },
+            { "type": "text", "text": " of philosophy." }
+          ],
+          "bank": ["school", "branch", "mood", "party"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "It sits inside esthetics as a school. It is not an extra branch beside metaphysics, epistemology, ethics, and politics, and it is not a mood."
+          }
+        },
+        {
+          "id": "r1e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that places the school.",
+          "tokens": [
+            { "id": "t1", "text": "Romanticism" },
+            { "id": "t2", "text": "belongs" },
+            { "id": "t3", "text": "inside" },
+            { "id": "t4", "text": "esthetics" },
+            { "id": "d1", "text": "politics" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The school is an esthetic classification. Politics is a different branch."
+          }
+        },
+        {
+          "id": "r1e6",
+          "type": "choice",
+          "prompt": "Which name does this unit use for the school committed to volition?",
+          "answer": "rom",
+          "choices": [
+            { "id": "rom", "text": "Romanticism" },
+            { "id": "nat", "text": "Naturalism" },
+            { "id": "etiq", "text": "Etiquette" },
+            { "id": "skep", "text": "Skepticism" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Romanticism is the name of that commitment. Naturalism is the contrast you will meet later, not this name."
+          }
+        },
+        {
+          "id": "r1e7",
+          "type": "choice",
+          "prompt": "What is the second job of this unit, after naming the commitment?",
+          "answer": "place",
+          "choices": [
+            { "id": "place", "text": "To place the school in her esthetics" },
+            { "id": "vote", "text": "To rank living painters by fame" },
+            { "id": "price", "text": "To set ticket prices" },
+            { "id": "law", "text": "To draft a statute" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit teaches the commitment to volition and where that school sits in her esthetics. Fame, price, and statutes are outside it."
+          }
+        },
+        {
+          "id": "r1e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the commitment named in the unit summary.",
+          "parts": [
+            { "type": "text", "text": "The school is committed to " },
+            { "type": "blank", "id": "b1", "answer": "volition" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["volition", "fashion", "nostalgia", "luck"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Volition is the commitment. Fashion, nostalgia, and luck are not what the school is named for."
+          }
+        },
+        {
+          "id": "r1e9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about what a school states.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "school" },
+            { "id": "t3", "text": "states" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "view" },
+            { "id": "t6", "text": "of" },
+            { "id": "t7", "text": "man" },
+            { "id": "d1", "text": "weather" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The classification is a view of man. Weather is scenery, not the school."
+          }
+        }
+      ]
+    },
+    {
+      "id": "volition-premise",
+      "title": "The premise of volition",
+      "objective": "State the premise that defines Romanticism: man can choose.",
+      "exercises": [
+        {
+          "id": "r2e1",
+          "type": "choice",
+          "prompt": "What premise defines Romanticism?",
+          "answer": "vol",
+          "choices": [
+            { "id": "vol", "text": "Man possesses volition" },
+            { "id": "gland", "text": "Glands write a man's course" },
+            { "id": "class", "text": "Class origin fixes every end" },
+            { "id": "stars", "text": "The stars decree each act" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The school stands on volition: man can choose. Forces that erase choice are the opposite premise."
+          }
+        },
+        {
+          "id": "r2e2",
+          "type": "choice",
+          "prompt": "Under that premise, what sets a character's course?",
+          "answer": "choice",
+          "choices": [
+            { "id": "choice", "text": "Choice" },
+            { "id": "weather", "text": "Weather alone" },
+            { "id": "street", "text": "The street name alone" },
+            { "id": "blood", "text": "Blood type alone" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Setting can matter, but the Romantic premise is that the person chooses a course rather than only undergoing one."
+          }
+        },
+        {
+          "id": "r2e3",
+          "type": "match",
+          "prompt": "Match each idea to what the premise says about it.",
+          "pairs": [
+            { "id": "prem", "left": "The premise", "right": "Man can choose" },
+            { "id": "act", "left": "A course of action", "right": "Chosen, not merely undergone" },
+            { "id": "fail", "left": "Failure", "right": "Possible because a choice can be wrong" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If choice is real, a person can pick a value, pursue it, and also miss. That is the premise at work."
+          }
+        },
+        {
+          "id": "r2e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the defining claim.",
+          "parts": [
+            { "type": "text", "text": "Romanticism holds that man possesses " },
+            { "type": "blank", "id": "b1", "answer": "volition" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["volition", "omniscience", "immunity", "rank"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The faculty named here is volition. The school does not claim that man knows everything, cannot be hurt, or holds a title."
+          }
+        },
+        {
+          "id": "r2e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the premise.",
+          "tokens": [
+            { "id": "t1", "text": "Man" },
+            { "id": "t2", "text": "can" },
+            { "id": "t3", "text": "choose" },
+            { "id": "t4", "text": "his" },
+            { "id": "t5", "text": "course" },
+            { "id": "d1", "text": "cannot" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Can choose is the premise. Cannot would cancel the school."
+          }
+        },
+        {
+          "id": "r2e6",
+          "type": "choice",
+          "prompt": "In this unit, volition means which power?",
+          "answer": "choose",
+          "choices": [
+            { "id": "choose", "text": "The power to choose" },
+            { "id": "feel", "text": "A talent for feeling strongly" },
+            { "id": "muscle", "text": "Physical strength" },
+            { "id": "status", "text": "Social status" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Volition is the faculty of choice. Intensity of feeling, muscle, and status are different facts."
+          }
+        },
+        {
+          "id": "r2e7",
+          "type": "choice",
+          "prompt": "A story insists the hero could not have done otherwise. What has happened to the Romantic premise?",
+          "answer": "dropped",
+          "choices": [
+            { "id": "dropped", "text": "The premise has been dropped" },
+            { "id": "proved", "text": "The premise has been proved" },
+            { "id": "doubled", "text": "The premise has been doubled" },
+            { "id": "named", "text": "The premise has just been named" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If no alternative was open, choice was not real in that story. That is a dropped premise, not a proof of it."
+          }
+        },
+        {
+          "id": "r2e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name what the school will not drop.",
+          "parts": [
+            { "type": "text", "text": "Choice is the " },
+            { "type": "blank", "id": "b1", "answer": "premise" },
+            { "type": "text", "text": " the school will not drop." }
+          ],
+          "bank": ["premise", "costume", "dialect", "scenery"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Costume, dialect, and scenery can change. The premise that stays is choice."
+          }
+        },
+        {
+          "id": "r2e9",
+          "type": "match",
+          "prompt": "Match each case to the premise it shows.",
+          "pairs": [
+            { "id": "yes", "left": "The person could choose", "right": "Romantic premise" },
+            { "id": "no", "left": "The person could not choose", "right": "Not this school" },
+            { "id": "val", "left": "Values pursued by decision", "right": "What the premise makes real" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The test is whether choice is real. Values pursued by decision are what that reality looks like in the work."
+          }
+        },
+        {
+          "id": "r2e10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about characters.",
+          "tokens": [
+            { "id": "t1", "text": "Characters" },
+            { "id": "t2", "text": "act" },
+            { "id": "t3", "text": "by" },
+            { "id": "t4", "text": "choice" },
+            { "id": "d1", "text": "reflex" },
+            { "id": "d2", "text": "drift" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Action by choice is the premise in story form. Reflex and drift are not substitutes for it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "against-denial",
+      "title": "Against the denial of choice",
+      "objective": "Tell Romanticism from the school that presents man as determined.",
+      "exercises": [
+        {
+          "id": "r3e1",
+          "type": "choice",
+          "prompt": "Which view is the contrast to Romanticism in this unit?",
+          "answer": "det",
+          "choices": [
+            { "id": "det", "text": "Man is a product of forces he does not choose" },
+            { "id": "vol", "text": "Man possesses volition" },
+            { "id": "map", "text": "Maps should be drawn to scale" },
+            { "id": "rhyme", "text": "Every line must rhyme" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The opposing view denies choice and treats man as determined by forces. Scale and rhyme are not the contrast."
+          }
+        },
+        {
+          "id": "r3e2",
+          "type": "choice",
+          "prompt": "In this contrast, what does Naturalism do with volition?",
+          "answer": "deny",
+          "choices": [
+            { "id": "deny", "text": "It denies volition" },
+            { "id": "name", "text": "It is the name of the volitional school" },
+            { "id": "prove", "text": "It proves that anyone can choose" },
+            { "id": "ignore", "text": "It is only a rule about paintbrushes" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Naturalism, as the contrast here, is the school that denies volition. Romanticism is the school that holds it."
+          }
+        },
+        {
+          "id": "r3e3",
+          "type": "match",
+          "prompt": "Match each school to its stand on choice.",
+          "pairs": [
+            { "id": "rom", "left": "Romanticism", "right": "Man chooses" },
+            { "id": "nat", "left": "Naturalism", "right": "Man is determined" },
+            { "id": "split", "left": "The difference", "right": "Volition or its denial" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The split is volition versus the denial of volition. That is the whole contrast between the two schools."
+          }
+        },
+        {
+          "id": "r3e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast.",
+          "parts": [
+            { "type": "text", "text": "Naturalism " },
+            { "type": "blank", "id": "b1", "answer": "denies" },
+            { "type": "text", "text": " volition." }
+          ],
+          "bank": ["denies", "worships", "invents", "paints"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Denies is the relation. Naturalism is not a hymn to volition and not a brush technique."
+          }
+        },
+        {
+          "id": "r3e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about a determined man.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "determined" },
+            { "id": "t3", "text": "man" },
+            { "id": "t4", "text": "does" },
+            { "id": "t5", "text": "not" },
+            { "id": "t6", "text": "choose" },
+            { "id": "t7", "text": "his" },
+            { "id": "t8", "text": "course" },
+            { "id": "d1", "text": "always" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Determination, in this contrast, means the course is not chosen. That is why it is not Romanticism."
+          }
+        },
+        {
+          "id": "r3e6",
+          "type": "choice",
+          "prompt": "Heredity and the street alone decide the ending. Which premise is the story carrying?",
+          "answer": "notrom",
+          "choices": [
+            { "id": "notrom", "text": "Not the Romantic premise" },
+            { "id": "rom", "text": "The Romantic premise in full" },
+            { "id": "both", "text": "Both schools at once, with no difference" },
+            { "id": "none", "text": "No view of man at all, by definition" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If only unchosen forces decide the end, the story is not carrying the premise that man chooses."
+          }
+        },
+        {
+          "id": "r3e7",
+          "type": "choice",
+          "prompt": "Both schools can use realistic detail. What actually splits them?",
+          "answer": "choice",
+          "choices": [
+            { "id": "choice", "text": "Whether man is shown as able to choose" },
+            { "id": "dust", "text": "Whether the furniture looks dusty" },
+            { "id": "pages", "text": "Whether the book is long" },
+            { "id": "ink", "text": "Whether the ink is black" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Realistic detail can appear on either side. The school is fixed by the view of choice, not by how solid the furniture looks."
+          }
+        },
+        {
+          "id": "r3e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line about the split.",
+          "parts": [
+            { "type": "text", "text": "The split is about " },
+            { "type": "blank", "id": "b1", "answer": "volition" },
+            { "type": "text", "text": ", not about how real the furniture looks." }
+          ],
+          "bank": ["volition", "upholstery", "pagination", "ink"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Volition is the issue. Upholstery, page count, and ink do not classify the school."
+          }
+        },
+        {
+          "id": "r3e9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about what does not decide the school.",
+          "tokens": [
+            { "id": "t1", "text": "Detail" },
+            { "id": "t2", "text": "does" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "decide" },
+            { "id": "t5", "text": "the" },
+            { "id": "t6", "text": "school" },
+            { "id": "d1", "text": "volition" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Detail is not the classifier. Volition is, which is why it is the distractor you leave out of this sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-a-mood",
+      "title": "Not a mood",
+      "objective": "Separate Romanticism from the popular mix-up with emotion, mysticism, or escape from facts.",
+      "exercises": [
+        {
+          "id": "r4e1",
+          "type": "choice",
+          "prompt": "Does feeling strongly, by itself, make a work Romantic?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No" },
+            { "id": "yes", "text": "Yes, intensity is the definition" },
+            { "id": "only", "text": "Only if the feeling is sadness" },
+            { "id": "tears", "text": "Only if the audience cries" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Intensity is not the definition. The school is a commitment to volition, not a measure of how hard someone feels."
+          }
+        },
+        {
+          "id": "r4e2",
+          "type": "choice",
+          "prompt": "Is escape from the facts what Romanticism is committed to?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. The commitment is volition, not a cancellation of facts" },
+            { "id": "yes", "text": "Yes. The school exists to leave reality" },
+            { "id": "dream", "text": "Yes, if the setting is a dream" },
+            { "id": "past", "text": "Yes, if the costumes are old" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The school re-creates a world in which people choose. It does not mean flight from facts, dreams, or period costume."
+          }
+        },
+        {
+          "id": "r4e3",
+          "type": "match",
+          "prompt": "Match each popular stand-in to what this unit says about it.",
+          "pairs": [
+            { "id": "feel", "left": "Strong feeling", "right": "Not the definition" },
+            { "id": "mys", "left": "Mysticism", "right": "Not the commitment" },
+            { "id": "vol", "left": "Volition", "right": "The commitment" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Feeling and mysticism are common mix-ups. Volition is what the school actually commits to."
+          }
+        },
+        {
+          "id": "r4e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the correction.",
+          "parts": [
+            { "type": "text", "text": "Romanticism is a commitment to " },
+            { "type": "blank", "id": "b1", "answer": "volition" },
+            { "type": "text", "text": ", not to mood." }
+          ],
+          "bank": ["volition", "mood", "fog", "costume"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Mood, fog, and costume can decorate any school. They do not replace the commitment to volition."
+          }
+        },
+        {
+          "id": "r4e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that rejects the mix-up.",
+          "tokens": [
+            { "id": "t1", "text": "Emotion" },
+            { "id": "t2", "text": "does" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "define" },
+            { "id": "t5", "text": "the" },
+            { "id": "t6", "text": "school" },
+            { "id": "d1", "text": "defines" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Emotion does not define it. The distractor would reverse the point."
+          }
+        },
+        {
+          "id": "r4e6",
+          "type": "choice",
+          "prompt": "A gloomy mystical tale shows no chosen action. Is it Romantic just because it is intense?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No" },
+            { "id": "yes", "text": "Yes, gloom is enough" },
+            { "id": "if", "text": "Yes, if a castle appears" },
+            { "id": "music", "text": "Yes, if the music swells" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Intensity, gloom, castles, and swelling music do not supply the premise. Without chosen action, it is not this school."
+          }
+        },
+        {
+          "id": "r4e7",
+          "type": "choice",
+          "prompt": "A bright adventure shows nothing chosen. Does the cheerful tone make it Romantic?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. Tone is not the test" },
+            { "id": "yes", "text": "Yes. Brightness is the test" },
+            { "id": "speed", "text": "Yes, if the pace is fast" },
+            { "id": "hero", "text": "Yes, if someone is called a hero" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Cheer and gloom are both tones. The test remains whether the work treats man as able to choose."
+          }
+        },
+        {
+          "id": "r4e8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names the test.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "test" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "choice" },
+            { "id": "d1", "text": "intensity" },
+            { "id": "d2", "text": "costume" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Choice is the test. Intensity and costume are the mix-ups this lesson sets aside."
+          }
+        }
+      ]
+    },
+    {
+      "id": "place-in-esthetics",
+      "title": "What the premise makes visible",
+      "objective": "Connect the volitional premise to purposeful action in art, and to why the school belongs in her esthetics.",
+      "exercises": [
+        {
+          "id": "r5e1",
+          "type": "choice",
+          "prompt": "Because man can choose, what can a work show besides events that are only endured?",
+          "answer": "values",
+          "choices": [
+            { "id": "values", "text": "Values selected and pursued" },
+            { "id": "weather", "text": "Nothing but the weather report" },
+            { "id": "lists", "text": "Nothing but a list of objects" },
+            { "id": "silence", "text": "Nothing a person could aim at" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Volition makes selected values visible. A list or a weather report does not use that premise."
+          }
+        },
+        {
+          "id": "r5e2",
+          "type": "choice",
+          "prompt": "Why does purposeful action belong to this school?",
+          "answer": "chooser",
+          "choices": [
+            { "id": "chooser", "text": "Purpose presupposes a chooser" },
+            { "id": "rhyme", "text": "Purpose is only a rhyme scheme" },
+            { "id": "length", "text": "Purpose means the work is short" },
+            { "id": "crowd", "text": "Purpose means a crowd agrees" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A purpose is an end someone chooses to pursue. Without a chooser, the action is not purposeful in this sense."
+          }
+        },
+        {
+          "id": "r5e3",
+          "type": "match",
+          "prompt": "Match each term to its role in this unit.",
+          "pairs": [
+            { "id": "vol", "left": "Volition", "right": "The premise of the school" },
+            { "id": "pur", "left": "Purpose", "right": "Action aimed at a chosen end" },
+            { "id": "est", "left": "Esthetics", "right": "The branch where the school is placed" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Volition is the premise, purpose is what that premise lets action be, and esthetics is where the school is classified."
+          }
+        },
+        {
+          "id": "r5e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete why the school belongs in her esthetics.",
+          "parts": [
+            { "type": "text", "text": "It belongs there because she takes man to be a being of " },
+            { "type": "blank", "id": "b1", "answer": "volitional" },
+            { "type": "text", "text": " consciousness." }
+          ],
+          "bank": ["volitional", "automatic", "tribal", "ornamental"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Her view of man is volitional consciousness. Romanticism is the esthetic school that projects that fact, not an automatic, tribal, or merely decorative premise."
+          }
+        },
+        {
+          "id": "r5e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that links purpose to choice.",
+          "tokens": [
+            { "id": "t1", "text": "Purpose" },
+            { "id": "t2", "text": "needs" },
+            { "id": "t3", "text": "a" },
+            { "id": "t4", "text": "chooser" },
+            { "id": "d1", "text": "crowd" },
+            { "id": "d2", "text": "rhyme" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A chooser is required. A crowd count or a rhyme does not supply a purpose."
+          }
+        },
+        {
+          "id": "r5e6",
+          "type": "choice",
+          "prompt": "Where does Romanticism sit, and what does it not replace?",
+          "answer": "inside",
+          "choices": [
+            { "id": "inside", "text": "Inside esthetics, as the school that projects volition" },
+            { "id": "ethics", "text": "It replaces ethics" },
+            { "id": "politics", "text": "It replaces politics" },
+            { "id": "math", "text": "It replaces arithmetic" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The place is inside esthetics. The school does not stand in for ethics, politics, or arithmetic."
+          }
+        },
+        {
+          "id": "r5e7",
+          "type": "choice",
+          "prompt": "What does this unit fix about a work, and what does it leave for later?",
+          "answer": "school",
+          "choices": [
+            { "id": "school", "text": "It fixes the school by the volition premise, and leaves other standards of judgment for later" },
+            { "id": "price", "text": "It fixes the market price" },
+            { "id": "award", "text": "It fixes which prize the work must win" },
+            { "id": "ban", "text": "It fixes a legal ban" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "This unit identifies the school. Judging a work by the full standards of art is a further question, not this lesson."
+          }
+        },
+        {
+          "id": "r5e8",
+          "type": "match",
+          "prompt": "Match each branch to what it covers, so the place of this school stays clear.",
+          "pairs": [
+            { "id": "eth", "left": "Ethics", "right": "How to live" },
+            { "id": "pol", "left": "Politics", "right": "How force is used" },
+            { "id": "est", "left": "Esthetics", "right": "Art, including this school" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Romanticism is not a code of living and not a theory of force. It is a school inside the study of art."
+          }
+        },
+        {
+          "id": "r5e9",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete what the school projects.",
+          "parts": [
+            { "type": "text", "text": "Romanticism projects man as able to " },
+            { "type": "blank", "id": "b1", "answer": "choose" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["choose", "vanish", "obey-only", "float"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The projection is a being who can choose. Vanishing, mere obedience, and floating are not that projection."
+          }
+        },
+        {
+          "id": "r5e10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the projection.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "school" },
+            { "id": "t3", "text": "projects" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "being" },
+            { "id": "t6", "text": "who" },
+            { "id": "t7", "text": "chooses" },
+            { "id": "d1", "text": "drifts" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That projection is the place of Romanticism in her esthetics: art that presents man as a being who chooses."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

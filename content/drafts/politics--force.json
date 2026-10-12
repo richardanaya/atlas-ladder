@@ -1,0 +1,886 @@
+{
+  "sectionId": "politics",
+  "sectionFile": "politics.json",
+  "unitId": "force",
+  "title": "The Initiation of Force",
+  "summary": "Why starting the use of physical force is the basic political evil.",
+  "lessons": [
+    {
+      "id": "what-counts",
+      "title": "What physical force is",
+      "objective": "Name physical force as compulsion against a person’s body or property, not as a strong opinion.",
+      "exercises": [
+        {
+          "id": "wc1",
+          "type": "choice",
+          "prompt": "In this unit, what is physical force?",
+          "answer": "comp",
+          "choices": [
+            { "id": "comp", "text": "Compulsion against a person’s body or property" },
+            { "id": "loud", "text": "Any argument spoken in a loud voice" },
+            { "id": "loss", "text": "Any loss someone feels after a deal" },
+            { "id": "vote", "text": "Any idea that loses a vote" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Physical force here means making someone act by seizing the body or what the person owns, not by winning an argument."
+          }
+        },
+        {
+          "id": "wc2",
+          "type": "match",
+          "prompt": "Match each act to whether it is physical force.",
+          "pairs": [
+            { "id": "p1", "left": "Seizing someone’s goods", "right": "Physical force" },
+            { "id": "p2", "left": "Stating a harsh criticism", "right": "Not physical force" },
+            { "id": "p3", "left": "Locking a person in a room", "right": "Physical force" },
+            { "id": "p4", "left": "Refusing to agree", "right": "Not physical force" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Force acts on body or property. Words and refusals do not become force just because they sting."
+          }
+        },
+        {
+          "id": "wc3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the definition used in this lesson.",
+          "parts": [
+            { "type": "text", "text": "Physical force compels a person through the " },
+            { "type": "blank", "id": "b1", "answer": "body" },
+            { "type": "text", "text": " or through " },
+            { "type": "blank", "id": "b2", "answer": "property" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["body", "property", "feelings", "opinions"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two targets of physical force in politics are the person’s body and the person’s property."
+          }
+        },
+        {
+          "id": "wc4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states what persuasion does instead of force.",
+          "tokens": [
+            { "id": "t1", "text": "Persuasion" },
+            { "id": "t2", "text": "asks" },
+            { "id": "t3", "text": "for" },
+            { "id": "t4", "text": "agreement" },
+            { "id": "d1", "text": "seizes" },
+            { "id": "d2", "text": "property" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Persuasion leaves the other person free to say yes or no. Force does not."
+          }
+        },
+        {
+          "id": "wc5",
+          "type": "choice",
+          "prompt": "Which of these is physical force?",
+          "answer": "grab",
+          "choices": [
+            { "id": "grab", "text": "Taking a wallet out of someone’s hand" },
+            { "id": "essay", "text": "Publishing an essay the owner dislikes" },
+            { "id": "price", "text": "Offering a price the seller rejects" },
+            { "id": "walk", "text": "Walking away from a conversation" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Taking the wallet uses the other person’s property without consent. The other three leave body and property untouched."
+          }
+        },
+        {
+          "id": "wc6",
+          "type": "choice",
+          "prompt": "Why is a bitter insult not physical force?",
+          "answer": "mind",
+          "choices": [
+            { "id": "mind", "text": "It still leaves the hearer free to judge and act" },
+            { "id": "kind", "text": "Insults are always kind in politics" },
+            { "id": "law", "text": "Only a written law can be force" },
+            { "id": "group", "text": "Force exists only when a crowd does it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An insult can be wrong in other ways, but it does not replace the hearer’s control of body or property."
+          }
+        },
+        {
+          "id": "wc7",
+          "type": "match",
+          "prompt": "Match each word to the idea it names in this lesson.",
+          "pairs": [
+            { "id": "a", "left": "Compulsion", "right": "Making someone act against choice" },
+            { "id": "b", "left": "Persuasion", "right": "Offering reasons for a choice" },
+            { "id": "c", "left": "Property", "right": "What a person owns and controls" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Compulsion overrides choice. Persuasion addresses it. Property is one of the things force can seize."
+          }
+        },
+        {
+          "id": "wc8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the contrast.",
+          "parts": [
+            { "type": "text", "text": "A disagreement is settled by " },
+            { "type": "blank", "id": "b1", "answer": "reason" },
+            { "type": "text", "text": ", not by grabbing a " },
+            { "type": "blank", "id": "b2", "answer": "body" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["reason", "body", "shouting", "majority"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "People can argue and still each keep control of themselves. Force ends that."
+          }
+        },
+        {
+          "id": "wc9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Order the tokens into the lesson’s rule.",
+          "tokens": [
+            { "id": "t1", "text": "Force" },
+            { "id": "t2", "text": "overrides" },
+            { "id": "t3", "text": "choice" },
+            { "id": "d1", "text": "polishes" },
+            { "id": "d2", "text": "manners" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The mark of physical force is that the victim’s choice no longer decides what happens to body or property."
+          }
+        },
+        {
+          "id": "wc10",
+          "type": "choice",
+          "prompt": "Which pair both count as physical force?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "A beating and a confiscation of tools" },
+            { "id": "words", "text": "A rumor and a bad review" },
+            { "id": "trade", "text": "A high price and a low bid" },
+            { "id": "leave", "text": "Silence and leaving the room" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Hitting the body and taking the tools are the same kind of act: compulsion. Talk and trade offers are not."
+          }
+        }
+      ]
+    },
+    {
+      "id": "who-starts",
+      "title": "Who starts it",
+      "objective": "Separate the person who starts force from the person who uses force only to stop it.",
+      "exercises": [
+        {
+          "id": "ws1",
+          "type": "choice",
+          "prompt": "Who initiates force?",
+          "answer": "first",
+          "choices": [
+            { "id": "first", "text": "The person who first uses force against another" },
+            { "id": "answer", "text": "The person who stops an attack already underway" },
+            { "id": "loudest", "text": "Whoever speaks first in a dispute" },
+            { "id": "richer", "text": "Whoever has more money in the dispute" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Initiation means being the one who starts the use of force. Answering an attack is not the start."
+          }
+        },
+        {
+          "id": "ws2",
+          "type": "match",
+          "prompt": "Match each role to the right description.",
+          "pairs": [
+            { "id": "i", "left": "Initiator", "right": "Begins the use of force" },
+            { "id": "v", "left": "Victim", "right": "Has force used against them first" },
+            { "id": "d", "left": "Defender", "right": "Uses force only to stop the attack" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The moral difference in this unit is who started it, not who is stronger when it ends."
+          }
+        },
+        {
+          "id": "ws3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast.",
+          "parts": [
+            { "type": "text", "text": "Starting force is the evil. Force used only to " },
+            { "type": "blank", "id": "b1", "answer": "stop" },
+            { "type": "text", "text": " an attack is " },
+            { "type": "blank", "id": "b2", "answer": "defensive" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["stop", "defensive", "stylish", "optional"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Defensive force answers a force that someone else already started. It does not open a new attack."
+          }
+        },
+        {
+          "id": "ws4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about the order of acts.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "first" },
+            { "id": "t3", "text": "blow" },
+            { "id": "t4", "text": "initiates" },
+            { "id": "d1", "text": "forgives" },
+            { "id": "d2", "text": "debate" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The start is the first use of force. Later force that only blocks that start is a different act."
+          }
+        },
+        {
+          "id": "ws5",
+          "type": "choice",
+          "prompt": "A mugger grabs a bag. The owner pulls it back and shoves the mugger off. Who initiated force?",
+          "answer": "mug",
+          "choices": [
+            { "id": "mug", "text": "The mugger" },
+            { "id": "own", "text": "The owner" },
+            { "id": "both", "text": "Both equally, because both used their hands" },
+            { "id": "none", "text": "Neither, because no law was read aloud" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The grab started the force. Pulling the bag back and shoving the attacker off answers that start."
+          }
+        },
+        {
+          "id": "ws6",
+          "type": "choice",
+          "prompt": "What makes retaliatory force different from initiation?",
+          "answer": "after",
+          "choices": [
+            { "id": "after", "text": "It comes after force has already been started, and aims to stop it" },
+            { "id": "nicer", "text": "It is always gentler than the first blow" },
+            { "id": "secret", "text": "It is hidden so the starter never notices" },
+            { "id": "profit", "text": "It is done only to make a profit" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Retaliation is a response. Its point is to end the force that someone else began, not to open a new one."
+          }
+        },
+        {
+          "id": "ws7",
+          "type": "match",
+          "prompt": "Match the act to the label.",
+          "pairs": [
+            { "id": "a", "left": "Breaking into a shop at night", "right": "Initiation" },
+            { "id": "b", "left": "A guard stopping that break-in", "right": "Defense" },
+            { "id": "c", "left": "The same guard later looting a closed shop", "right": "A new initiation" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Stopping the break-in answers force. Looting a different shop starts a new use of force."
+          }
+        },
+        {
+          "id": "ws8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the rule about who is responsible for the start.",
+          "parts": [
+            { "type": "text", "text": "The person who " },
+            { "type": "blank", "id": "b1", "answer": "begins" },
+            { "type": "text", "text": " the force is the one who " },
+            { "type": "blank", "id": "b2", "answer": "initiates" },
+            { "type": "text", "text": " it." }
+          ],
+          "bank": ["begins", "initiates", "watches", "records"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Responsibility for initiation tracks the first use, not the later effort to end it."
+          }
+        },
+        {
+          "id": "ws9",
+          "type": "choice",
+          "prompt": "Two people trade insults, then one throws a punch. What started the force?",
+          "answer": "punch",
+          "choices": [
+            { "id": "punch", "text": "The punch" },
+            { "id": "firstword", "text": "The first insult" },
+            { "id": "topic", "text": "The topic they argued about" },
+            { "id": "crowd", "text": "Anyone who heard them" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Insults are not physical force. The punch is the start of force in that scene."
+          }
+        },
+        {
+          "id": "ws10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names the basic political evil in this unit.",
+          "tokens": [
+            { "id": "t1", "text": "Starting" },
+            { "id": "t2", "text": "force" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "the" },
+            { "id": "t5", "text": "evil" },
+            { "id": "d1", "text": "answering" },
+            { "id": "d2", "text": "a" },
+            { "id": "d3", "text": "hobby" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The evil named here is the start of physical force, not the act of stopping that start."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-basic",
+      "title": "Why it is basic",
+      "objective": "Explain why starting force is the basic political evil: it replaces the victim’s judgment with compulsion.",
+      "exercises": [
+        {
+          "id": "wb1",
+          "type": "choice",
+          "prompt": "Why is starting force called the basic political evil?",
+          "answer": "swap",
+          "choices": [
+            { "id": "swap", "text": "It swaps the victim’s judgment for the starter’s compulsion" },
+            { "id": "rude", "text": "It is the rudest tone a person can use" },
+            { "id": "rare", "text": "It is rare, so it matters more than common wrongs" },
+            { "id": "taxform", "text": "It is the only act a tax form can describe" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Politics is about how people deal with one another. Starting force ends dealing by judgment and puts compulsion in its place."
+          }
+        },
+        {
+          "id": "wb2",
+          "type": "match",
+          "prompt": "Match each way of dealing with others to its result.",
+          "pairs": [
+            { "id": "r", "left": "Reason and trade", "right": "Each person still judges" },
+            { "id": "f", "left": "Started force", "right": "The victim’s judgment is overridden" },
+            { "id": "e", "left": "A private error", "right": "A mistake, not yet a political attack" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A private mistake can be wrong without being the basic political evil. Starting force is that evil because it rules another person."
+          }
+        },
+        {
+          "id": "wb3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the idea.",
+          "parts": [
+            { "type": "text", "text": "Started force makes the victim act by " },
+            { "type": "blank", "id": "b1", "answer": "compulsion" },
+            { "type": "text", "text": " instead of by " },
+            { "type": "blank", "id": "b2", "answer": "judgment" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["compulsion", "judgment", "fashion", "luck"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The victim may still have a mind, but the starter will not let that mind decide what happens."
+          }
+        },
+        {
+          "id": "wb4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about social life.",
+          "tokens": [
+            { "id": "t1", "text": "People" },
+            { "id": "t2", "text": "can" },
+            { "id": "t3", "text": "live" },
+            { "id": "t4", "text": "by" },
+            { "id": "t5", "text": "persuasion" },
+            { "id": "d1", "text": "only" },
+            { "id": "d2", "text": "by" },
+            { "id": "d3", "text": "seizure" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The alternative to started force is dealing by persuasion and voluntary exchange, where each person still chooses."
+          }
+        },
+        {
+          "id": "wb5",
+          "type": "choice",
+          "prompt": "A person lies to himself about a fact and harms only his own plan. Is that the basic political evil?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. It is a private error, not the start of force against someone else" },
+            { "id": "yes", "text": "Yes. Every error is the basic political evil" },
+            { "id": "if", "text": "Yes, if anyone later hears about the error" },
+            { "id": "vote", "text": "Only if a committee disagrees with the plan" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Political evil in this unit is about force between people. A self-contained mistake does not initiate force."
+          }
+        },
+        {
+          "id": "wb6",
+          "type": "choice",
+          "prompt": "What does the initiator take from the victim that persuasion does not?",
+          "answer": "control",
+          "choices": [
+            { "id": "control", "text": "Control over the victim’s own action" },
+            { "id": "mood", "text": "A pleasant mood for the rest of the day" },
+            { "id": "topic", "text": "The right to pick the topic of a chat" },
+            { "id": "style", "text": "A preferred style of speech" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Persuasion can change a mind only if the person accepts it. Force takes the decision away."
+          }
+        },
+        {
+          "id": "wb7",
+          "type": "match",
+          "prompt": "Match the phrase to its meaning.",
+          "pairs": [
+            { "id": "b", "left": "Basic", "right": "The root political wrong, not a side complaint" },
+            { "id": "p", "left": "Political", "right": "About how people deal with one another" },
+            { "id": "e", "left": "Evil", "right": "The wrong of starting compulsion" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Calling it basic means other political wrongs trace back to someone starting force, not to mere disagreement."
+          }
+        },
+        {
+          "id": "wb8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the blanks.",
+          "parts": [
+            { "type": "text", "text": "The starter substitutes his own " },
+            { "type": "blank", "id": "b1", "answer": "will" },
+            { "type": "text", "text": " for the victim’s " },
+            { "type": "blank", "id": "b2", "answer": "choice" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["will", "choice", "accent", "hobby"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That substitution is why the start of force is not just a private flaw. It rules another person."
+          }
+        },
+        {
+          "id": "wb9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Order the tokens.",
+          "tokens": [
+            { "id": "t1", "text": "Compulsion" },
+            { "id": "t2", "text": "blocks" },
+            { "id": "t3", "text": "voluntary" },
+            { "id": "t4", "text": "action" },
+            { "id": "d1", "text": "invites" },
+            { "id": "d2", "text": "small" },
+            { "id": "d3", "text": "talk" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Voluntary action is action the person chose. Started force is the block on that."
+          }
+        },
+        {
+          "id": "wb10",
+          "type": "choice",
+          "prompt": "Which scene shows the basic political evil of this unit?",
+          "answer": "raid",
+          "choices": [
+            { "id": "raid", "text": "A gang takes a farmer’s crop so he must obey them" },
+            { "id": "miss", "text": "A farmer miscounts his own seed and plants too little" },
+            { "id": "price", "text": "A buyer offers less than the farmer hoped" },
+            { "id": "poem", "text": "A neighbor writes a poem the farmer finds ugly" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The raid starts force and replaces the farmer’s judgment about his crop. The other scenes do not."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fraud-threats",
+      "title": "Fraud and threats",
+      "objective": "Treat fraud and a credible threat of force as ways of starting force, not as clever exceptions.",
+      "exercises": [
+        {
+          "id": "ft1",
+          "type": "choice",
+          "prompt": "Why does a credible threat count as starting force?",
+          "answer": "obey",
+          "choices": [
+            { "id": "obey", "text": "The victim obeys to avoid harm to body or property" },
+            { "id": "ink", "text": "Threats are written in special ink" },
+            { "id": "joke", "text": "Every joke about harm is force" },
+            { "id": "vote", "text": "A threat counts only after an election" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If the victim yields because force is promised against body or property, the force has already been started by the threat."
+          }
+        },
+        {
+          "id": "ft2",
+          "type": "match",
+          "prompt": "Match each case to the right label.",
+          "pairs": [
+            { "id": "t", "left": "Pay me or I burn your shop", "right": "A threat of force" },
+            { "id": "f", "left": "Selling a painted rock as a gold coin", "right": "Fraud" },
+            { "id": "o", "left": "Saying the coin looks ugly but is real gold", "right": "Not fraud and not force" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A threat promises compulsion. Fraud takes property by a fake deal. A mere opinion about looks does neither."
+          }
+        },
+        {
+          "id": "ft3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the account of fraud.",
+          "parts": [
+            { "type": "text", "text": "Fraud takes " },
+            { "type": "blank", "id": "b1", "answer": "property" },
+            { "type": "text", "text": " by faking the " },
+            { "type": "blank", "id": "b2", "answer": "consent" },
+            { "type": "text", "text": " the victim seems to give." }
+          ],
+          "bank": ["property", "consent", "weather", "accent"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The victim would not hand the goods over if the facts of the deal were what they seemed. The consent is fake."
+          }
+        },
+        {
+          "id": "ft4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about a threat.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "credible" },
+            { "id": "t3", "text": "threat" },
+            { "id": "t4", "text": "starts" },
+            { "id": "t5", "text": "force" },
+            { "id": "d1", "text": "ends" },
+            { "id": "d2", "text": "polite" },
+            { "id": "d3", "text": "chat" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The harm need not land yet. Promising it so the victim yields is already the start."
+          }
+        },
+        {
+          "id": "ft5",
+          "type": "choice",
+          "prompt": "A seller swaps an empty box for the full one after the buyer has paid, then keeps the money. What is that?",
+          "answer": "fraud",
+          "choices": [
+            { "id": "fraud", "text": "Fraud, a way of starting force against property" },
+            { "id": "skill", "text": "Sharp skill that the buyer should admire" },
+            { "id": "taste", "text": "A difference of taste about packaging" },
+            { "id": "gift", "text": "A gift the buyer chose twice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The buyer consented to a full box. The swap takes the payment without that consent, which is fraud."
+          }
+        },
+        {
+          "id": "ft6",
+          "type": "choice",
+          "prompt": "Which line is not a start of force?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "I will not buy your goods at that price" },
+            { "id": "burn", "text": "Pay me or I smash the goods" },
+            { "id": "fake", "text": "This deed is genuine, though the seller forged it" },
+            { "id": "gun", "text": "Sign this or you will be shot" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Refusing a price leaves the other person’s body and property alone. The other three take or threaten them."
+          }
+        },
+        {
+          "id": "ft7",
+          "type": "match",
+          "prompt": "Match the indirect start to what it uses.",
+          "pairs": [
+            { "id": "th", "left": "Threat", "right": "A promised harm if the victim does not yield" },
+            { "id": "fr", "left": "Fraud", "right": "A fake fact that obtains a handover" },
+            { "id": "bl", "left": "Direct blow", "right": "Force already landing on body or goods" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Direct force, threats, and fraud are three ways of starting the same evil. They differ in method, not in kind."
+          }
+        },
+        {
+          "id": "ft8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the blanks.",
+          "parts": [
+            { "type": "text", "text": "An empty boast is not force. A threat the victim must take as " },
+            { "type": "blank", "id": "b1", "answer": "real" },
+            { "type": "text", "text": " is a start of " },
+            { "type": "blank", "id": "b2", "answer": "force" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["real", "force", "poetry", "humor"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The test is whether the victim is being made to yield to promised compulsion, not whether the words sound dramatic."
+          }
+        },
+        {
+          "id": "ft9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Order the tokens about fraud.",
+          "tokens": [
+            { "id": "t1", "text": "Fraud" },
+            { "id": "t2", "text": "fakes" },
+            { "id": "t3", "text": "consent" },
+            { "id": "d1", "text": "sharpens" },
+            { "id": "d2", "text": "wit" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Without the fake, the handover would not happen. That is why fraud belongs with started force."
+          }
+        },
+        {
+          "id": "ft10",
+          "type": "choice",
+          "prompt": "Someone says, Give me the keys or I will hurt you, and means it. The keys change hands. No blow lands. Did force start?",
+          "answer": "yes",
+          "choices": [
+            { "id": "yes", "text": "Yes. The credible threat already started it" },
+            { "id": "no", "text": "No. Force starts only when a blow lands" },
+            { "id": "later", "text": "Only if the victim later feels sad" },
+            { "id": "keys", "text": "Only if the keys were made of iron" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The victim gave up the keys to avoid the promised harm. Waiting for the blow would miss the start."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-force",
+      "title": "What is not a start of force",
+      "objective": "Keep refusal, competition, error, and unwelcome speech outside the idea of starting force.",
+      "exercises": [
+        {
+          "id": "nf1",
+          "type": "choice",
+          "prompt": "A shopper buys from a rival, so your sales fall. Did the shopper initiate force?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. Choosing another seller is not force" },
+            { "id": "yes", "text": "Yes. Any loss of sales is force" },
+            { "id": "if", "text": "Yes, if you needed that sale badly" },
+            { "id": "week", "text": "Yes, if it happens more than once a week" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Competition can cost you a sale. It does not seize your body or your goods. The shopper’s money was never yours until a deal."
+          }
+        },
+        {
+          "id": "nf2",
+          "type": "match",
+          "prompt": "Match each act to the right class.",
+          "pairs": [
+            { "id": "r", "left": "Refusing to trade", "right": "Not a start of force" },
+            { "id": "s", "left": "Speech you dislike", "right": "Not a start of force" },
+            { "id": "t", "left": "Taking goods by threat", "right": "A start of force" },
+            { "id": "e", "left": "A calculation error in your own books", "right": "Not a start of force" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Loss, offense, and mistakes can be real without being the initiation of force. The threat that takes goods is that initiation."
+          }
+        },
+        {
+          "id": "nf3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the distinction.",
+          "parts": [
+            { "type": "text", "text": "A refusal leaves the other person’s " },
+            { "type": "blank", "id": "b1", "answer": "property" },
+            { "type": "text", "text": " in place. A seizure takes that " },
+            { "type": "blank", "id": "b2", "answer": "control" },
+            { "type": "text", "text": " away." }
+          ],
+          "bank": ["property", "control", "mood", "reputation"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Saying no does not reach into what the other person already has. Seizure does."
+          }
+        },
+        {
+          "id": "nf4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about unwelcome speech.",
+          "tokens": [
+            { "id": "t1", "text": "Unwelcome" },
+            { "id": "t2", "text": "speech" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "not" },
+            { "id": "t5", "text": "force" },
+            { "id": "d1", "text": "always" },
+            { "id": "d2", "text": "a" },
+            { "id": "d3", "text": "seizure" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Speech can be false, cruel, or unwanted and still not be the start of physical force."
+          }
+        },
+        {
+          "id": "nf5",
+          "type": "choice",
+          "prompt": "Which act does initiate force?",
+          "answer": "lock",
+          "choices": [
+            { "id": "lock", "text": "Locking a worker in until the worker signs" },
+            { "id": "hire", "text": "Hiring someone else for the job" },
+            { "id": "review", "text": "Printing a harsh review of the work" },
+            { "id": "quit", "text": "Quitting a job you no longer want" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Locking the worker in compels the signature. Hiring, reviewing, and quitting leave the other person’s body and property alone."
+          }
+        },
+        {
+          "id": "nf6",
+          "type": "choice",
+          "prompt": "You are offered a deal and you say no. What did you do?",
+          "answer": "keep",
+          "choices": [
+            { "id": "keep", "text": "You kept your own choice. You did not start force" },
+            { "id": "stole", "text": "You stole the offer by refusing it" },
+            { "id": "hit", "text": "You used force equal to a blow" },
+            { "id": "fraud", "text": "You committed fraud by disagreeing" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An offer is not an entitlement. Declining it is the ordinary opposite of force."
+          }
+        },
+        {
+          "id": "nf7",
+          "type": "match",
+          "prompt": "Match the feeling to the fact about force.",
+          "pairs": [
+            { "id": "a", "left": "I lost a customer", "right": "A loss, not initiated force" },
+            { "id": "b", "left": "I hate that speech", "right": "Dislike, not initiated force" },
+            { "id": "c", "left": "Someone took my tools", "right": "Initiated force" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Feelings of loss or offense do not decide the question. The question is whether force against body or property was started."
+          }
+        },
+        {
+          "id": "nf8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the summary line.",
+          "parts": [
+            { "type": "text", "text": "Error, rivalry, and rude " },
+            { "type": "blank", "id": "b1", "answer": "words" },
+            { "type": "text", "text": " are not the basic political evil. Starting " },
+            { "type": "blank", "id": "b2", "answer": "force" },
+            { "type": "text", "text": " is." }
+          ],
+          "bank": ["words", "force", "profit", "silence"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "This unit keeps the evil narrow on purpose: the start of physical force, including fraud and real threats."
+          }
+        },
+        {
+          "id": "nf9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Order the closing rule.",
+          "tokens": [
+            { "id": "t1", "text": "Do" },
+            { "id": "t2", "text": "not" },
+            { "id": "t3", "text": "call" },
+            { "id": "t4", "text": "refusal" },
+            { "id": "t5", "text": "force" },
+            { "id": "d1", "text": "always" },
+            { "id": "d2", "text": "name" },
+            { "id": "d3", "text": "trade" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Refusal is how a person keeps control. Treating it as force would erase the difference this unit teaches."
+          }
+        },
+        {
+          "id": "nf10",
+          "type": "choice",
+          "prompt": "What is the basic political evil in this unit?",
+          "answer": "start",
+          "choices": [
+            { "id": "start", "text": "Starting the use of physical force" },
+            { "id": "poor", "text": "Being less wealthy than a neighbor" },
+            { "id": "wrong", "text": "Holding a false opinion in private" },
+            { "id": "plain", "text": "Speaking in plain words someone dislikes" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Wealth gaps, private error, and disliked speech are not that evil. Starting physical force is."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

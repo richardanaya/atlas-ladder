@@ -1,0 +1,883 @@
+{
+  "sectionId": "ethics",
+  "sectionFile": "ethics.json",
+  "unitId": "why-morality",
+  "title": "Why Man Needs Morality",
+  "summary": "Why a code of values is a requirement of human life, not a decoration.",
+  "lessons": [
+    {
+      "id": "code-of-values",
+      "title": "A code of values",
+      "objective": "Name morality as a code of values that guides choices and actions, not a mood or a slogan.",
+      "exercises": [
+        {
+          "id": "l1e1",
+          "type": "choice",
+          "prompt": "In this unit, what is morality?",
+          "answer": "code",
+          "choices": [
+            { "id": "code", "text": "A code of values that guides choices and actions" },
+            { "id": "mood", "text": "A mood that comes and goes" },
+            { "id": "decor", "text": "A decoration added after life is already secure" },
+            { "id": "taste", "text": "A list of other people's tastes" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Morality here means a code of values used to guide what you choose and what you do."
+          }
+        },
+        {
+          "id": "l1e2",
+          "type": "match",
+          "prompt": "Match each item to the role this unit gives it.",
+          "pairs": [
+            { "id": "p1", "left": "Morality", "right": "A code of values" },
+            { "id": "p2", "left": "The code", "right": "A guide for choices and actions" },
+            { "id": "p3", "left": "A passing mood", "right": "Not a code" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A mood is not yet a code. A code is a guide you can apply to choices and actions."
+          }
+        },
+        {
+          "id": "l1e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit's name for morality.",
+          "parts": [
+            { "type": "text", "text": "Morality is a " },
+            { "type": "blank", "id": "b1", "answer": "code" },
+            { "type": "text", "text": " of " },
+            { "type": "blank", "id": "b2", "answer": "values" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["code", "values", "decoration", "whim"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two words to hold are code and values. Decoration and whim are the contrasts, not the definition."
+          }
+        },
+        {
+          "id": "l1e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that says what a code of values does.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "code" },
+            { "id": "t3", "text": "of" },
+            { "id": "t4", "text": "values" },
+            { "id": "t5", "text": "guides" },
+            { "id": "t6", "text": "choices" },
+            { "id": "d1", "text": "decorates" },
+            { "id": "d2", "text": "moods" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The code's job is to guide choices. It does not decorate moods."
+          }
+        },
+        {
+          "id": "l1e5",
+          "type": "choice",
+          "prompt": "Which question does a code of values answer?",
+          "answer": "guide",
+          "choices": [
+            { "id": "guide", "text": "What should I choose, and how should I act?" },
+            { "id": "after", "text": "How should I feel once the action is over?" },
+            { "id": "look", "text": "How should a finished life look from outside?" },
+            { "id": "skip", "text": "Which choices can I skip because I am already alive?" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A code is for choosing and acting. It is not a report of feelings after the fact, and it is not a look."
+          }
+        },
+        {
+          "id": "l1e6",
+          "type": "match",
+          "prompt": "Match each word to what it is in this lesson.",
+          "pairs": [
+            { "id": "p1", "left": "Code", "right": "A standard you can apply again" },
+            { "id": "p2", "left": "Whim", "right": "A feeling of one moment" },
+            { "id": "p3", "left": "Slogan", "right": "A phrase that does not guide action" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A code can be used on the next choice. A whim and a slogan cannot do that work."
+          }
+        },
+        {
+          "id": "l1e7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Say what the code guides.",
+          "parts": [
+            { "type": "text", "text": "The code guides " },
+            { "type": "blank", "id": "b1", "answer": "choices" },
+            { "type": "text", "text": " and " },
+            { "type": "blank", "id": "b2", "answer": "actions" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["choices", "actions", "ornaments", "slogans"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Choices and actions are what the code is for. Ornaments and slogans are not substitutes."
+          }
+        },
+        {
+          "id": "l1e8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the definition you are learning.",
+          "tokens": [
+            { "id": "t1", "text": "Morality" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "a" },
+            { "id": "t4", "text": "code" },
+            { "id": "t5", "text": "of" },
+            { "id": "t6", "text": "values" },
+            { "id": "d1", "text": "luxury" },
+            { "id": "d2", "text": "hobby" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Morality is a code of values. Luxury and hobby drop the idea of a guide for action."
+          }
+        },
+        {
+          "id": "l1e9",
+          "type": "choice",
+          "prompt": "Which of these is not a code of values?",
+          "answer": "mood",
+          "choices": [
+            { "id": "mood", "text": "Today's passing mood" },
+            { "id": "standard", "text": "A standard for choosing actions" },
+            { "id": "again", "text": "A guide you can use more than once" },
+            { "id": "set", "text": "A set of values held as a code" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A passing mood is not a code. A code is a standard you can use again when you choose."
+          }
+        },
+        {
+          "id": "l1e10",
+          "type": "choice",
+          "prompt": "Why call it a code rather than a single value?",
+          "answer": "many",
+          "choices": [
+            { "id": "many", "text": "It has to guide many choices, not one isolated wish" },
+            { "id": "one", "text": "A person is allowed only one action in a life" },
+            { "id": "look", "text": "A longer list looks more decorative" },
+            { "id": "none", "text": "Values are unnecessary if the list is long" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A code covers the choices and actions of a life. One isolated wish is not that guide."
+          }
+        }
+      ]
+    },
+    {
+      "id": "life-requires-it",
+      "title": "Why human life requires it",
+      "objective": "Explain why a being who must choose needs a code of values, while a life of automatic action does not.",
+      "exercises": [
+        {
+          "id": "l2e1",
+          "type": "choice",
+          "prompt": "Why does a human being need a code of values?",
+          "answer": "choose",
+          "choices": [
+            { "id": "choose", "text": "He must choose the actions his life requires" },
+            { "id": "vote", "text": "Other species vote on his values" },
+            { "id": "decor", "text": "Decoration is the purpose of ethics" },
+            { "id": "none", "text": "Human life continues with no choices at all" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The need comes from having to choose the actions on which a human life depends."
+          }
+        },
+        {
+          "id": "l2e2",
+          "type": "match",
+          "prompt": "Match each kind of life to how values are pursued.",
+          "pairs": [
+            { "id": "p1", "left": "A plant or an animal", "right": "Pursues values by its nature, automatically" },
+            { "id": "p2", "left": "A human being", "right": "Must choose, and so needs a code" },
+            { "id": "p3", "left": "A code of values", "right": "The guide those choices require" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Automatic action does not need a chosen code. Chosen action does."
+          }
+        },
+        {
+          "id": "l2e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the reason a person needs a code.",
+          "parts": [
+            { "type": "text", "text": "A human being must " },
+            { "type": "blank", "id": "b1", "answer": "choose" },
+            { "type": "text", "text": " the actions his life " },
+            { "type": "blank", "id": "b2", "answer": "requires" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["choose", "requires", "decorate", "skips"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Life requires certain actions, and a person has to choose them. That is why a code is required."
+          }
+        },
+        {
+          "id": "l2e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the claim about human life.",
+          "tokens": [
+            { "id": "t1", "text": "Human" },
+            { "id": "t2", "text": "life" },
+            { "id": "t3", "text": "requires" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "code" },
+            { "id": "t6", "text": "of" },
+            { "id": "t7", "text": "values" },
+            { "id": "d1", "text": "optional" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Human life requires a code of values. Optional is the word this unit rejects."
+          }
+        },
+        {
+          "id": "l2e5",
+          "type": "choice",
+          "prompt": "What is different about human action in this unit?",
+          "answer": "notauto",
+          "choices": [
+            { "id": "notauto", "text": "The values a human life needs are not pursued automatically" },
+            { "id": "instinct", "text": "Instinct never fails, so no code is needed" },
+            { "id": "end", "text": "Values are decorations added at the end" },
+            { "id": "alive", "text": "Being alive already settles every choice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A human life is not programmed the way an animal's pursuit of values is. The actions have to be chosen."
+          }
+        },
+        {
+          "id": "l2e6",
+          "type": "match",
+          "prompt": "Match each fact to the conclusion this lesson draws.",
+          "pairs": [
+            { "id": "p1", "left": "Automatic pursuit", "right": "Enough for an animal's life" },
+            { "id": "p2", "left": "Chosen pursuit", "right": "What a human life requires" },
+            { "id": "p3", "left": "No code", "right": "No guide for those choices" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Take away the code and the choices a human life depends on have no guide."
+          }
+        },
+        {
+          "id": "l2e7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Contrast the two kinds of life.",
+          "parts": [
+            { "type": "text", "text": "An animal does not need a conceptual " },
+            { "type": "blank", "id": "b1", "answer": "code" },
+            { "type": "text", "text": ". A person does, because action is " },
+            { "type": "blank", "id": "b2", "answer": "chosen" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["code", "chosen", "decorative", "automatic"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The conceptual code is needed because human action is chosen, not because decoration demands it."
+          }
+        },
+        {
+          "id": "l2e8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the short link between choice and a code.",
+          "tokens": [
+            { "id": "t1", "text": "Choice" },
+            { "id": "t2", "text": "needs" },
+            { "id": "t3", "text": "a" },
+            { "id": "t4", "text": "code" },
+            { "id": "d1", "text": "whim" },
+            { "id": "d2", "text": "instinct" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Once action is chosen, it needs a code. Whim and instinct are not that code."
+          }
+        },
+        {
+          "id": "l2e9",
+          "type": "choice",
+          "prompt": "If action is chosen, what supplies the guide?",
+          "answer": "code",
+          "choices": [
+            { "id": "code", "text": "A code of values" },
+            { "id": "species", "text": "The fact that other species act automatically" },
+            { "id": "decor", "text": "A decoration" },
+            { "id": "none", "text": "The absence of any standard" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Other species do not need the code you need. Absence of a standard does not guide a choice."
+          }
+        },
+        {
+          "id": "l2e10",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name what chosen action has to sustain.",
+          "parts": [
+            { "type": "text", "text": "The code is required so chosen action can sustain a human " },
+            { "type": "blank", "id": "b1", "answer": "life" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["life", "ornament", "mood", "slogan"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The thing to be sustained is a human life. An ornament, a mood, or a slogan is not the reason for the code."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-a-decoration",
+      "title": "Not a decoration",
+      "objective": "Reject the idea that morality is an optional ornament, a luxury, or something added only after life is secure.",
+      "exercises": [
+        {
+          "id": "l3e1",
+          "type": "choice",
+          "prompt": "On this unit's account, a code of values is what?",
+          "answer": "req",
+          "choices": [
+            { "id": "req", "text": "A requirement of human life" },
+            { "id": "skip", "text": "A decoration you may skip" },
+            { "id": "holiday", "text": "Useful only on special occasions" },
+            { "id": "costume", "text": "A costume for people who already know how to live" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit's word is requirement. Decoration, occasion, and costume all treat the code as optional."
+          }
+        },
+        {
+          "id": "l3e2",
+          "type": "match",
+          "prompt": "Match each label to the status it gives morality.",
+          "pairs": [
+            { "id": "p1", "left": "Requirement", "right": "What the code is" },
+            { "id": "p2", "left": "Decoration", "right": "What the code is not" },
+            { "id": "p3", "left": "Optional extra", "right": "The same mistake as calling it a decoration" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Optional extra is another way of saying decoration. This unit says the code is a requirement."
+          }
+        },
+        {
+          "id": "l3e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit summary.",
+          "parts": [
+            { "type": "text", "text": "A code of values is a " },
+            { "type": "blank", "id": "b1", "answer": "requirement" },
+            { "type": "text", "text": " of human " },
+            { "type": "blank", "id": "b2", "answer": "life" },
+            { "type": "text", "text": ", not a decoration." }
+          ],
+          "bank": ["requirement", "life", "luxury", "ornament"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Requirement of human life is the claim. Luxury and ornament are the errors being set aside."
+          }
+        },
+        {
+          "id": "l3e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the contrast in the unit title's idea.",
+          "tokens": [
+            { "id": "t1", "text": "Not" },
+            { "id": "t2", "text": "a" },
+            { "id": "t3", "text": "decoration" },
+            { "id": "t4", "text": "of" },
+            { "id": "t5", "text": "human" },
+            { "id": "t6", "text": "life" },
+            { "id": "d1", "text": "luxury" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The code is not a decoration of human life. Calling it a luxury says the same false thing."
+          }
+        },
+        {
+          "id": "l3e5",
+          "type": "choice",
+          "prompt": "When is the code needed?",
+          "answer": "order",
+          "choices": [
+            { "id": "order", "text": "In order to live, not after living is finished" },
+            { "id": "after", "text": "Only after every practical need is already met" },
+            { "id": "look", "text": "Only when you want to look moral" },
+            { "id": "never", "text": "Never, if you are already alive" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The code is a means of living. Waiting until life is finished treats morality as trim."
+          }
+        },
+        {
+          "id": "l3e6",
+          "type": "match",
+          "prompt": "Match each aim to requirement or decoration.",
+          "pairs": [
+            { "id": "p1", "left": "Choose how to live", "right": "Requirement" },
+            { "id": "p2", "left": "Look moral from outside", "right": "Decoration" },
+            { "id": "p3", "left": "Skip the code and still expect a policy", "right": "Treating morality as optional" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Choosing how to live is the requirement. Looking moral, or skipping the code, is the decorative mistake."
+          }
+        },
+        {
+          "id": "l3e7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Say what morality is not.",
+          "parts": [
+            { "type": "text", "text": "Morality is not an " },
+            { "type": "blank", "id": "b1", "answer": "ornament" },
+            { "type": "text", "text": " you add when life is already " },
+            { "type": "blank", "id": "b2", "answer": "secure" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["ornament", "secure", "code", "required"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An ornament added once life is secure is the view this unit denies. The code is required in order to live."
+          }
+        },
+        {
+          "id": "l3e8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the status of the code.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "code" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "requirement" },
+            { "id": "d1", "text": "luxury" },
+            { "id": "d2", "text": "trim" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The code is a requirement. Luxury and trim are the names to leave out."
+          }
+        },
+        {
+          "id": "l3e9",
+          "type": "choice",
+          "prompt": "Which line matches the unit?",
+          "answer": "req",
+          "choices": [
+            { "id": "req", "text": "A code of values is required by human life" },
+            { "id": "frost", "text": "Morality is the frosting on survival" },
+            { "id": "later", "text": "Live first and adopt a code later" },
+            { "id": "hobby", "text": "Values are a hobby for quiet weekends" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Frosting, later, and hobby all make the code a decoration. The unit says human life requires it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "without-a-code",
+      "title": "Without a code",
+      "objective": "See that without a code, choices have no standard, so action drifts by whim and is not a policy for living.",
+      "exercises": [
+        {
+          "id": "l4e1",
+          "type": "choice",
+          "prompt": "Without a code of values, what guides a choice?",
+          "answer": "whim",
+          "choices": [
+            { "id": "whim", "text": "Whim, the feeling of the moment" },
+            { "id": "standard", "text": "A standard you can apply tomorrow" },
+            { "id": "life", "text": "A stated requirement of human life" },
+            { "id": "named", "text": "A code you refused to name but still use" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Drop the code and what is left is the feeling of the moment. That feeling is not a standard for tomorrow."
+          }
+        },
+        {
+          "id": "l4e2",
+          "type": "match",
+          "prompt": "Match each way of acting to what it is.",
+          "pairs": [
+            { "id": "p1", "left": "Whim", "right": "The range of the moment" },
+            { "id": "p2", "left": "A code", "right": "A standard across choices" },
+            { "id": "p3", "left": "Drift", "right": "Action with no policy for living" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A code holds from choice to choice. Whim and drift do not make a policy for living."
+          }
+        },
+        {
+          "id": "l4e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the contrast.",
+          "parts": [
+            { "type": "text", "text": "A feeling of the moment is a " },
+            { "type": "blank", "id": "b1", "answer": "whim" },
+            { "type": "text", "text": ", not a " },
+            { "type": "blank", "id": "b2", "answer": "code" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["whim", "code", "policy", "requirement"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Whim is not a code. A policy and a requirement belong with the code, not with the moment's feeling."
+          }
+        },
+        {
+          "id": "l4e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the rejection of whim.",
+          "tokens": [
+            { "id": "t1", "text": "Whim" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "code" },
+            { "id": "t6", "text": "of" },
+            { "id": "t7", "text": "values" },
+            { "id": "d1", "text": "policy" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Whim is not a code of values. A policy would be a code you can keep using."
+          }
+        },
+        {
+          "id": "l4e5",
+          "type": "choice",
+          "prompt": "Why can't whim do the job of a code?",
+          "answer": "span",
+          "choices": [
+            { "id": "span", "text": "It does not give a standard you can use from choice to choice" },
+            { "id": "same", "text": "It is the same thing as a code of values" },
+            { "id": "auto", "text": "It automatically serves human life" },
+            { "id": "decor", "text": "It is a decoration, and decorations are requirements" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A code has to reach the next choice. A whim expires with the moment and does not serve life by default."
+          }
+        },
+        {
+          "id": "l4e6",
+          "type": "match",
+          "prompt": "Match each item to whether it can guide a life.",
+          "pairs": [
+            { "id": "p1", "left": "One mood today", "right": "Not a policy" },
+            { "id": "p2", "left": "The opposite mood tomorrow", "right": "Still not a code" },
+            { "id": "p3", "left": "A code of values", "right": "A guide you can keep" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Swapping moods does not create a code. A code is the guide that stays in force."
+          }
+        },
+        {
+          "id": "l4e7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Say what a policy needs.",
+          "parts": [
+            { "type": "text", "text": "To live by a policy, you need a " },
+            { "type": "blank", "id": "b1", "answer": "code" },
+            { "type": "text", "text": " that lasts beyond one " },
+            { "type": "blank", "id": "b2", "answer": "moment" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["code", "moment", "whim", "ornament"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A policy lasts beyond one moment, so it has to be a code. Whim and ornament do not last as guides."
+          }
+        },
+        {
+          "id": "l4e8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the reach of a code.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "code" },
+            { "id": "t3", "text": "reaches" },
+            { "id": "t4", "text": "past" },
+            { "id": "t5", "text": "the" },
+            { "id": "t6", "text": "moment" },
+            { "id": "d1", "text": "whim" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A code reaches past the moment. A whim does not."
+          }
+        },
+        {
+          "id": "l4e9",
+          "type": "choice",
+          "prompt": "Range-of-the-moment action is which of these?",
+          "answer": "notyet",
+          "choices": [
+            { "id": "notyet", "text": "Not yet a morality" },
+            { "id": "def", "text": "The definition of a code of values" },
+            { "id": "plants", "text": "How plants choose a code" },
+            { "id": "req", "text": "The decoration that human life requires" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Action that only tracks the moment is not a morality. Morality is a code, and human life requires that code, not a decoration."
+          }
+        },
+        {
+          "id": "l4e10",
+          "type": "choice",
+          "prompt": "What is this lesson's contrast?",
+          "answer": "cw",
+          "choices": [
+            { "id": "cw", "text": "A code of values versus whim" },
+            { "id": "dd", "text": "Decoration versus ornament" },
+            { "id": "ap", "text": "Animal life versus plant life" },
+            { "id": "ss", "text": "One slogan versus another slogan" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The contrast is code versus whim. Decoration and ornament are the same mistake, and plants are not choosing codes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hold-the-reason",
+      "title": "The reason, held together",
+      "objective": "State the full claim: man needs morality because a code of values is required to choose the actions human life depends on, and that need is not decorative.",
+      "exercises": [
+        {
+          "id": "l5e1",
+          "type": "choice",
+          "prompt": "Why does man need morality, on this unit's account?",
+          "answer": "req",
+          "choices": [
+            { "id": "req", "text": "A code of values is a requirement of human life" },
+            { "id": "decor", "text": "A code of values is a decoration of human life" },
+            { "id": "same", "text": "Animals need the same conceptual code" },
+            { "id": "whim", "text": "Whim already is a code" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Man needs morality because human life requires a code of values. Animals do not need that conceptual code, and whim is not one."
+          }
+        },
+        {
+          "id": "l5e2",
+          "type": "match",
+          "prompt": "Match each piece of the unit to its place.",
+          "pairs": [
+            { "id": "p1", "left": "Man", "right": "Needs a code of values" },
+            { "id": "p2", "left": "The code", "right": "Guides choices and actions" },
+            { "id": "p3", "left": "The need", "right": "A requirement, not a decoration" },
+            { "id": "p4", "left": "Whim", "right": "Not a substitute for the code" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Hold four pieces: the person who needs the code, what the code guides, the status of the need, and the substitute that fails."
+          }
+        },
+        {
+          "id": "l5e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "State why man needs morality.",
+          "parts": [
+            { "type": "text", "text": "Man needs morality because human life " },
+            { "type": "blank", "id": "b1", "answer": "requires" },
+            { "type": "text", "text": " a code of " },
+            { "type": "blank", "id": "b2", "answer": "values" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["requires", "values", "decorates", "whims"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Human life requires a code of values. It does not decorate whims."
+          }
+        },
+        {
+          "id": "l5e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the unit summary's main clause.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "code" },
+            { "id": "t3", "text": "of" },
+            { "id": "t4", "text": "values" },
+            { "id": "t5", "text": "is" },
+            { "id": "t6", "text": "a" },
+            { "id": "t7", "text": "requirement" },
+            { "id": "t8", "text": "of" },
+            { "id": "t9", "text": "human" },
+            { "id": "t10", "text": "life" },
+            { "id": "d1", "text": "decoration" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A code of values is a requirement of human life. Decoration is the word the summary refuses."
+          }
+        },
+        {
+          "id": "l5e5",
+          "type": "choice",
+          "prompt": "Which set is the whole claim?",
+          "answer": "whole",
+          "choices": [
+            { "id": "whole", "text": "A code of values, required by human life, not a decoration" },
+            { "id": "wrong", "text": "Decoration, whim, and automatic instinct" },
+            { "id": "mood", "text": "Mood, slogan, and luxury" },
+            { "id": "lives", "text": "Plant life, animal life, and no choices" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The whole claim has three parts: code of values, required by human life, and not a decoration."
+          }
+        },
+        {
+          "id": "l5e6",
+          "type": "match",
+          "prompt": "Match each status to the life it belongs to.",
+          "pairs": [
+            { "id": "p1", "left": "A code is required", "right": "A life that must choose its actions" },
+            { "id": "p2", "left": "No conceptual code is required", "right": "A life that pursues values automatically" },
+            { "id": "p3", "left": "Not a decoration", "right": "The status of the code for a human being" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The requirement attaches to a life of chosen action. For that life, the code is not a decoration."
+          }
+        },
+        {
+          "id": "l5e7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Say what the code is for.",
+          "parts": [
+            { "type": "text", "text": "The code is for " },
+            { "type": "blank", "id": "b1", "answer": "chosen" },
+            { "type": "text", "text": " action in the service of " },
+            { "type": "blank", "id": "b2", "answer": "life" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["chosen", "life", "ornament", "display"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Chosen action in the service of life is the work of the code. Ornament and display are not."
+          }
+        },
+        {
+          "id": "l5e8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build what morality does for the choices life depends on.",
+          "tokens": [
+            { "id": "t1", "text": "Morality" },
+            { "id": "t2", "text": "guides" },
+            { "id": "t3", "text": "the" },
+            { "id": "t4", "text": "choices" },
+            { "id": "t5", "text": "life" },
+            { "id": "t6", "text": "depends" },
+            { "id": "t7", "text": "on" },
+            { "id": "d1", "text": "decorates" },
+            { "id": "d2", "text": "whim" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Morality guides the choices life depends on. It does not decorate a whim."
+          }
+        },
+        {
+          "id": "l5e9",
+          "type": "choice",
+          "prompt": "Which mistake drops the point of the unit?",
+          "answer": "opt",
+          "choices": [
+            { "id": "opt", "text": "Treating the code as an optional ornament" },
+            { "id": "req", "text": "Treating the code as a requirement" },
+            { "id": "whim", "text": "Treating whim as not enough" },
+            { "id": "reason", "text": "Treating human life as the reason for the code" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The mistake is to treat the code as an optional ornament. Requirement, the failure of whim, and human life as the reason are the unit itself."
+          }
+        },
+        {
+          "id": "l5e10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the short form of the title's answer.",
+          "tokens": [
+            { "id": "t1", "text": "Man" },
+            { "id": "t2", "text": "needs" },
+            { "id": "t3", "text": "morality" },
+            { "id": "t4", "text": "to" },
+            { "id": "t5", "text": "live" },
+            { "id": "d1", "text": "decorate" },
+            { "id": "d2", "text": "display" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Man needs morality to live. Decorate and display are the uses this unit rules out."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,798 @@
+{
+  "sectionId": "ethics",
+  "sectionFile": "ethics.json",
+  "unitId": "life-standard",
+  "title": "Life as the Standard",
+  "summary": "Life as the root of value, and one's own life as the standard of moral value.",
+  "lessons": [
+    {
+      "id": "root-of-value",
+      "title": "Why Value Needs Life",
+      "objective": "Recognize that the idea of value depends on a living being that can gain or lose its existence.",
+      "exercises": [
+        {
+          "id": "ls1e1",
+          "type": "choice",
+          "prompt": "On this account, what makes the idea of value possible?",
+          "answer": "life",
+          "choices": [
+            { "id": "life", "text": "A living being that can keep existing or cease to exist" },
+            { "id": "vote", "text": "A majority that agrees on a preference" },
+            { "id": "mood", "text": "A feeling that arrives with no reason" },
+            { "id": "rock", "text": "An inanimate object that never faces an alternative" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Value is rooted in life. Only a living thing has something it can gain or lose by what it does."
+          }
+        },
+        {
+          "id": "ls1e2",
+          "type": "choice",
+          "prompt": "Why does a rock not have values?",
+          "answer": "noalt",
+          "choices": [
+            { "id": "noalt", "text": "Nothing it does can sustain or end a life of its own" },
+            { "id": "hidden", "text": "Its values are real but hidden from observers" },
+            { "id": "law", "text": "A law forbids rocks from valuing" },
+            { "id": "size", "text": "Only large objects can have values" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Without the alternative of life or non-life, there is nothing for or against which an action could count."
+          }
+        },
+        {
+          "id": "ls1e3",
+          "type": "match",
+          "prompt": "Match each thing to what this unit says about value.",
+          "pairs": [
+            { "id": "liv", "left": "A living organism", "right": "Can face gain or loss of its existence" },
+            { "id": "inan", "left": "An inanimate object", "right": "Has no stake that could make something a value" },
+            { "id": "root", "left": "Life", "right": "The root that makes value possible" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Life is the root of value because only the living confront an alternative that matters."
+          }
+        },
+        {
+          "id": "ls1e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the claim about the root of value.",
+          "parts": [
+            { "type": "text", "text": "The root of value is " },
+            { "type": "blank", "id": "b1", "answer": "life" },
+            { "type": "text", "text": ", because only a living being can " },
+            { "type": "blank", "id": "b2", "answer": "gain" },
+            { "type": "text", "text": " or lose its existence." }
+          ],
+          "bank": ["life", "gain", "fashion", "lose nothing"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Call life the root. The living being is the one for whom outcomes can be gains or losses."
+          }
+        },
+        {
+          "id": "ls1e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names the root of value.",
+          "tokens": [
+            { "id": "t1", "text": "Life" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "the root" },
+            { "id": "t4", "text": "of value" },
+            { "id": "d1", "text": "a social custom" },
+            { "id": "d2", "text": "optional decoration" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Life is the root of value, not a custom added after the fact and not a decoration."
+          }
+        },
+        {
+          "id": "ls1e6",
+          "type": "choice",
+          "prompt": "If nothing were alive, what would follow for the idea of value?",
+          "answer": "empty",
+          "choices": [
+            { "id": "empty", "text": "There would be no valuer and no values" },
+            { "id": "same", "text": "Values would stay the same, only unnamed" },
+            { "id": "rocks", "text": "Rocks would take over the role of valuers" },
+            { "id": "more", "text": "Values would multiply without anyone to hold them" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Value requires a living valuer. Remove life and the concept has nothing left to apply to."
+          }
+        },
+        {
+          "id": "ls1e7",
+          "type": "match",
+          "prompt": "Match each phrase to its role in this lesson.",
+          "pairs": [
+            { "id": "root", "left": "Root of value", "right": "Life" },
+            { "id": "who", "left": "Who can have values", "right": "A living being" },
+            { "id": "stake", "left": "What is at stake", "right": "Continued existence or its end" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the three links: life is the root, the living are the valuers, and existence is what is at stake."
+          }
+        },
+        {
+          "id": "ls1e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the contrast.",
+          "parts": [
+            { "type": "text", "text": "A living being can " },
+            { "type": "blank", "id": "b1", "answer": "value" },
+            { "type": "text", "text": ". An inanimate thing cannot, because it faces no alternative of " },
+            { "type": "blank", "id": "b2", "answer": "life" },
+            { "type": "text", "text": " or death." }
+          ],
+          "bank": ["value", "life", "vote", "decorate"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Valuing belongs to the living. The alternative that makes it possible is life or death."
+          }
+        },
+        {
+          "id": "ls1e9",
+          "type": "choice",
+          "prompt": "Which statement fits this lesson?",
+          "answer": "root",
+          "choices": [
+            { "id": "root", "text": "Life is the root of value" },
+            { "id": "extra", "text": "Value exists first, and life is added later as a hobby" },
+            { "id": "equal", "text": "Rocks and organisms are valuers in the same way" },
+            { "id": "none", "text": "Nothing in reality is at stake for a living being" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Start from life. Value is not a free-floating extra that living beings happen to notice."
+          }
+        }
+      ]
+    },
+    {
+      "id": "life-or-death",
+      "title": "The Alternative That Makes Good and Evil",
+      "objective": "Explain that good and evil arise only where the alternative is life or death.",
+      "exercises": [
+        {
+          "id": "ls2e1",
+          "type": "choice",
+          "prompt": "What alternative gives the words good and evil a meaning?",
+          "answer": "ld",
+          "choices": [
+            { "id": "ld", "text": "Life or death for a living being" },
+            { "id": "taste", "text": "One flavor versus another flavor" },
+            { "id": "team", "text": "One sports team versus another" },
+            { "id": "style", "text": "One clothing style versus another" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Good and evil name what furthers or works against life. Without that alternative, the words have no moral job."
+          }
+        },
+        {
+          "id": "ls2e2",
+          "type": "choice",
+          "prompt": "Where nothing faces life or death, what happens to moral good and evil?",
+          "answer": "napply",
+          "choices": [
+            { "id": "napply", "text": "They do not apply" },
+            { "id": "harder", "text": "They become stricter" },
+            { "id": "swap", "text": "They trade places every day" },
+            { "id": "rocks", "text": "They attach to rocks instead" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Moral good and evil presuppose a living being for whom existence is the alternative."
+          }
+        },
+        {
+          "id": "ls2e3",
+          "type": "match",
+          "prompt": "Match each side of the alternative to the evaluation it supports.",
+          "pairs": [
+            { "id": "for", "left": "What sustains life", "right": "The good" },
+            { "id": "against", "left": "What destroys life", "right": "The evil" },
+            { "id": "none", "left": "No life-or-death alternative", "right": "No moral good or evil" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The alternative sets the direction: for life is good, against life is evil, and with no alternative the terms drop out."
+          }
+        },
+        {
+          "id": "ls2e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the alternative.",
+          "parts": [
+            { "type": "text", "text": "The alternative that makes value possible is " },
+            { "type": "blank", "id": "b1", "answer": "life" },
+            { "type": "text", "text": " or " },
+            { "type": "blank", "id": "b2", "answer": "death" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["life", "death", "fashion", "applause"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Name the alternative as life or death. Taste and applause are not that alternative."
+          }
+        },
+        {
+          "id": "ls2e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about where good and evil apply.",
+          "tokens": [
+            { "id": "t1", "text": "Good and evil" },
+            { "id": "t2", "text": "presuppose" },
+            { "id": "t3", "text": "the alternative" },
+            { "id": "t4", "text": "of life or death" },
+            { "id": "d1", "text": "a coin toss" },
+            { "id": "d2", "text": "a dress code" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Good and evil presuppose life or death. They are not labels for a coin toss or a dress code."
+          }
+        },
+        {
+          "id": "ls2e6",
+          "type": "choice",
+          "prompt": "A plant turns toward light and takes in water. In this unit, what does that illustrate?",
+          "answer": "act",
+          "choices": [
+            { "id": "act", "text": "Even nonhuman life acts in ways that sustain it" },
+            { "id": "moral", "text": "A plant chooses a moral code" },
+            { "id": "none", "text": "A plant has no relationship to the alternative of life or death" },
+            { "id": "vote", "text": "A plant waits for a vote before growing" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Life is already the root of value for living organisms. A plant does not hold a moral code, but its life is still what its actions serve."
+          }
+        },
+        {
+          "id": "ls2e7",
+          "type": "match",
+          "prompt": "Match each case to the right conclusion.",
+          "pairs": [
+            { "id": "plant", "left": "A plant taking in water", "right": "Action that sustains a life" },
+            { "id": "stone", "left": "A stone sitting on a path", "right": "No values, because no life is at stake for it" },
+            { "id": "person", "left": "A person who can live or die", "right": "A being for whom good and evil can apply" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Organisms have a stake. A stone does not. A person is the kind of living being for whom moral judgment applies."
+          }
+        },
+        {
+          "id": "ls2e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the evaluations.",
+          "parts": [
+            { "type": "text", "text": "What furthers life is the " },
+            { "type": "blank", "id": "b1", "answer": "good" },
+            { "type": "text", "text": ". What works against life is the " },
+            { "type": "blank", "id": "b2", "answer": "evil" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["good", "evil", "optional", "stylish"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The direction is fixed by life: for it is good, against it is evil."
+          }
+        },
+        {
+          "id": "ls2e9",
+          "type": "choice",
+          "prompt": "Which pair is the alternative this lesson is about?",
+          "answer": "ld",
+          "choices": [
+            { "id": "ld", "text": "Life or death" },
+            { "id": "hot", "text": "Hot or cold weather as such" },
+            { "id": "left", "text": "Left hand or right hand" },
+            { "id": "old", "text": "Old custom or new custom" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only life or death is the alternative that gives value, good, and evil their root."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-whim",
+      "title": "Not a Whim or a Command",
+      "objective": "Reject whim, crowd opinion, and a supernatural command as the root of value.",
+      "exercises": [
+        {
+          "id": "ls3e1",
+          "type": "choice",
+          "prompt": "What does this unit refuse as the root of value?",
+          "answer": "whim",
+          "choices": [
+            { "id": "whim", "text": "A whim, a crowd's opinion, or a supernatural command" },
+            { "id": "life", "text": "The fact that a being is alive" },
+            { "id": "alt", "text": "The alternative of life or death" },
+            { "id": "own", "text": "The requirements of one's own life" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Life is the root. A passing wish, a poll, or an order from outside reality does not replace that root."
+          }
+        },
+        {
+          "id": "ls3e2",
+          "type": "choice",
+          "prompt": "Someone says a thing is good only because they feel like it. What is wrong with that, on this account?",
+          "answer": "noroot",
+          "choices": [
+            { "id": "noroot", "text": "A feeling does not replace life as the root of value" },
+            { "id": "always", "text": "Feelings are always false reports of the facts" },
+            { "id": "illegal", "text": "Feelings are forbidden in every context" },
+            { "id": "crowd", "text": "Only a crowd is allowed to feel" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A whim is not the standard. Whether something is a value depends on its relation to life, not on the wish of the moment."
+          }
+        },
+        {
+          "id": "ls3e3",
+          "type": "match",
+          "prompt": "Match each proposed root to the verdict in this unit.",
+          "pairs": [
+            { "id": "whim", "left": "A personal whim", "right": "Not the root of value" },
+            { "id": "crowd", "left": "Whatever the crowd prefers", "right": "Not the root of value" },
+            { "id": "life", "left": "Life", "right": "The root of value" },
+            { "id": "cmd", "left": "A command with no tie to life", "right": "Not the root of value" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only life is the root. Whim, crowd preference, and a detached command are refused."
+          }
+        },
+        {
+          "id": "ls3e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the refusal.",
+          "parts": [
+            { "type": "text", "text": "Value is not created by a " },
+            { "type": "blank", "id": "b1", "answer": "whim" },
+            { "type": "text", "text": ". Its root is " },
+            { "type": "blank", "id": "b2", "answer": "life" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["whim", "life", "slogan", "costume"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A whim does not create value. Life remains the root."
+          }
+        },
+        {
+          "id": "ls3e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that rejects the crowd as the root.",
+          "tokens": [
+            { "id": "t1", "text": "A crowd's opinion" },
+            { "id": "t2", "text": "is not" },
+            { "id": "t3", "text": "the root" },
+            { "id": "t4", "text": "of value" },
+            { "id": "d1", "text": "is automatically" },
+            { "id": "d2", "text": "the final proof" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Numbers do not turn a preference into the root of value. Life does that work."
+          }
+        },
+        {
+          "id": "ls3e6",
+          "type": "choice",
+          "prompt": "A rule is announced as good solely because a supernatural authority said so, with no tie to life. How should this unit classify that rule?",
+          "answer": "notroot",
+          "choices": [
+            { "id": "notroot", "text": "The command is not the root of value" },
+            { "id": "root", "text": "The command replaces life as the root" },
+            { "id": "same", "text": "Every command is automatically for one's life" },
+            { "id": "rock", "text": "The command gives values to inanimate matter" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A command does not become the root of value by being announced. The root remains life."
+          }
+        },
+        {
+          "id": "ls3e7",
+          "type": "choice",
+          "prompt": "Which question follows the root of value?",
+          "answer": "lifeq",
+          "choices": [
+            { "id": "lifeq", "text": "Does this sustain a life, or work against it?" },
+            { "id": "pollq", "text": "Did enough people clap?" },
+            { "id": "wishq", "text": "Do I feel like it right now?" },
+            { "id": "cmdq", "text": "Was it ordered, regardless of life?" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Once life is the root, the question is whether something sustains life or works against it."
+          }
+        },
+        {
+          "id": "ls3e8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the root.",
+          "tokens": [
+            { "id": "t1", "text": "Life" },
+            { "id": "t2", "text": "not a command" },
+            { "id": "t3", "text": "is the root" },
+            { "id": "t4", "text": "of value" },
+            { "id": "d1", "text": "a passing mood" },
+            { "id": "d2", "text": "replaces life" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Life, not a command, is the root of value."
+          }
+        },
+        {
+          "id": "ls3e9",
+          "type": "match",
+          "prompt": "Match the test to what it actually checks.",
+          "pairs": [
+            { "id": "feel", "left": "I feel like it", "right": "A whim, not the root of value" },
+            { "id": "many", "left": "Many people say so", "right": "A crowd's opinion, not the root of value" },
+            { "id": "sust", "left": "It sustains life", "right": "A relation to the root of value" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Feeling and popularity do not establish value. A relation to life does."
+          }
+        }
+      ]
+    },
+    {
+      "id": "own-life",
+      "title": "One's Own Life as the Standard",
+      "objective": "Identify one's own life as the standard used to judge moral good and evil for oneself.",
+      "exercises": [
+        {
+          "id": "ls4e1",
+          "type": "choice",
+          "prompt": "In this unit, what is the standard of moral value?",
+          "answer": "own",
+          "choices": [
+            { "id": "own", "text": "One's own life" },
+            { "id": "any", "text": "No life in particular" },
+            { "id": "other", "text": "Someone else's life in place of one's own" },
+            { "id": "none", "text": "The absence of any standard" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Life is the root of value, and the moral standard for a person is that person's own life."
+          }
+        },
+        {
+          "id": "ls4e2",
+          "type": "choice",
+          "prompt": "What job does the standard do?",
+          "answer": "judge",
+          "choices": [
+            { "id": "judge", "text": "It is what you judge moral good and evil by" },
+            { "id": "decor", "text": "It decorates a choice after the choice is made" },
+            { "id": "hide", "text": "It hides the fact that you are alive" },
+            { "id": "erase", "text": "It erases the difference between life and death" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A standard of moral value is the measure for calling something good or evil. Here that measure is one's own life."
+          }
+        },
+        {
+          "id": "ls4e3",
+          "type": "match",
+          "prompt": "Match each idea to the wording of this unit.",
+          "pairs": [
+            { "id": "root", "left": "Root of value", "right": "Life" },
+            { "id": "std", "left": "Standard of moral value", "right": "One's own life" },
+            { "id": "not", "left": "Not the moral standard", "right": "A stranger's life substituted for one's own" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep root and standard distinct in wording: life is the root, and one's own life is the moral standard."
+          }
+        },
+        {
+          "id": "ls4e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the standard.",
+          "parts": [
+            { "type": "text", "text": "The standard of moral value is one's own " },
+            { "type": "blank", "id": "b1", "answer": "life" },
+            { "type": "text", "text": ", not a " },
+            { "type": "blank", "id": "b2", "answer": "whim" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["life", "whim", "costume", "rumor"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One's own life is the standard. A whim is not."
+          }
+        },
+        {
+          "id": "ls4e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names the moral standard.",
+          "tokens": [
+            { "id": "t1", "text": "One's own life" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "the standard" },
+            { "id": "t4", "text": "of moral value" },
+            { "id": "d1", "text": "a neighbor's mood" },
+            { "id": "d2", "text": "no measure at all" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One's own life is the standard of moral value."
+          }
+        },
+        {
+          "id": "ls4e6",
+          "type": "choice",
+          "prompt": "Why is the standard one's own life rather than life with no owner?",
+          "answer": "who",
+          "choices": [
+            { "id": "who", "text": "Moral judgment is about the life of the person who must choose" },
+            { "id": "avg", "text": "Morality is an average taken over nobody in particular" },
+            { "id": "swap", "text": "Each person is required to adopt a stranger as the standard" },
+            { "id": "none", "text": "The chooser drops out of morality" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The person who acts has a life to sustain. That life, not a life with no owner, is the moral standard."
+          }
+        },
+        {
+          "id": "ls4e7",
+          "type": "choice",
+          "prompt": "Which substitution does this unit reject?",
+          "answer": "sub",
+          "choices": [
+            { "id": "sub", "text": "Putting someone else's life in place of one's own as the standard" },
+            { "id": "own", "text": "Using one's own life as the standard" },
+            { "id": "root", "text": "Treating life as the root of value" },
+            { "id": "alt", "text": "Remembering the alternative of life or death" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The standard is one's own life. Replacing it with another person's life changes the standard."
+          }
+        },
+        {
+          "id": "ls4e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both roles named in the unit summary.",
+          "parts": [
+            { "type": "text", "text": "Life is the " },
+            { "type": "blank", "id": "b1", "answer": "root" },
+            { "type": "text", "text": " of value. One's own life is the " },
+            { "type": "blank", "id": "b2", "answer": "standard" },
+            { "type": "text", "text": " of moral value." }
+          ],
+          "bank": ["root", "standard", "costume", "rumor"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Use root for life as such, and standard for one's own life in moral judgment."
+          }
+        },
+        {
+          "id": "ls4e9",
+          "type": "match",
+          "prompt": "Match the question to the answer this unit gives.",
+          "pairs": [
+            { "id": "q1", "left": "What is the root of value?", "right": "Life" },
+            { "id": "q2", "left": "What is the standard of moral value?", "right": "One's own life" },
+            { "id": "q3", "left": "Whose life is that standard?", "right": "The life of the person who must choose" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Three answers stay fixed: life, one's own life, and the chooser's life as that standard."
+          }
+        },
+        {
+          "id": "ls4e10",
+          "type": "choice",
+          "prompt": "A person asks how to judge an action morally. Which measure fits this unit?",
+          "answer": "own",
+          "choices": [
+            { "id": "own", "text": "Whether it sustains or damages one's own life" },
+            { "id": "clap", "text": "Whether onlookers clap" },
+            { "id": "wish", "text": "Whether it matches a whim of the moment" },
+            { "id": "none", "text": "Whether no standard is used at all" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Moral judgment uses one's own life as the standard: sustain it or damage it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "for-or-against",
+      "title": "For or Against That Life",
+      "objective": "Judge an action as morally good when it sustains one's own life and as morally evil when it works against that life.",
+      "exercises": [
+        {
+          "id": "ls5e1",
+          "type": "choice",
+          "prompt": "By the standard of one's own life, when is an action morally good?",
+          "answer": "sust",
+          "choices": [
+            { "id": "sust", "text": "When it sustains one's own life" },
+            { "id": "harms", "text": "When it works against one's own life" },
+            { "id": "random", "text": "When it is chosen at random" },
+            { "id": "crowd", "text": "When a crowd would do the same thing for no reason tied to life" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Good, under this standard, is what sustains one's own life. Working against that life is the opposite evaluation."
+          }
+        },
+        {
+          "id": "ls5e2",
+          "type": "choice",
+          "prompt": "By the same standard, when is an action morally evil?",
+          "answer": "against",
+          "choices": [
+            { "id": "against", "text": "When it works against one's own life" },
+            { "id": "sust", "text": "When it sustains one's own life" },
+            { "id": "quiet", "text": "Whenever it is unpopular, even if it sustains one's life" },
+            { "id": "new", "text": "Whenever it is unfamiliar" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Evil is what works against one's own life. Unpopularity or unfamiliarity is not the standard."
+          }
+        },
+        {
+          "id": "ls5e3",
+          "type": "match",
+          "prompt": "Match each action, described only by its relation to one's life, to the moral evaluation.",
+          "pairs": [
+            { "id": "food", "left": "Keeping the means of sustaining one's life", "right": "Morally good by this standard" },
+            { "id": "ruin", "left": "Destroying what one's life requires", "right": "Morally evil by this standard" },
+            { "id": "drift", "left": "Choosing with no reference to one's life", "right": "Not using the standard" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Apply the standard directly: for one's life, against one's life, or not using the standard at all."
+          }
+        },
+        {
+          "id": "ls5e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the two evaluations.",
+          "parts": [
+            { "type": "text", "text": "What sustains one's own life is morally " },
+            { "type": "blank", "id": "b1", "answer": "good" },
+            { "type": "text", "text": ". What works against it is morally " },
+            { "type": "blank", "id": "b2", "answer": "evil" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["good", "evil", "optional", "stylish"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The standard yields two directions: good when it sustains one's own life, evil when it works against that life."
+          }
+        },
+        {
+          "id": "ls5e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the rule of evaluation.",
+          "tokens": [
+            { "id": "t1", "text": "Judge an action" },
+            { "id": "t2", "text": "by whether" },
+            { "id": "t3", "text": "it sustains" },
+            { "id": "t4", "text": "one's own life" },
+            { "id": "d1", "text": "a passing whim" },
+            { "id": "d2", "text": "a crowd's costume" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The moral question is whether the action sustains one's own life."
+          }
+        },
+        {
+          "id": "ls5e6",
+          "type": "choice",
+          "prompt": "An action feels exciting and also wrecks what one's life requires. How does the standard judge it?",
+          "answer": "evil",
+          "choices": [
+            { "id": "evil", "text": "Morally evil, because it works against one's own life" },
+            { "id": "good", "text": "Morally good, because the feeling was strong" },
+            { "id": "skip", "text": "Beyond judgment, because a feeling was present" },
+            { "id": "rock", "text": "A value for an inanimate object" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The standard is one's own life, not the thrill. Working against that life is morally evil on this account."
+          }
+        },
+        {
+          "id": "ls5e7",
+          "type": "choice",
+          "prompt": "An action is quiet and unfashionable, and it sustains one's own life. How does the standard judge it?",
+          "answer": "good",
+          "choices": [
+            { "id": "good", "text": "Morally good, because it sustains one's own life" },
+            { "id": "evil", "text": "Morally evil, because it is unfashionable" },
+            { "id": "none", "text": "Neither, because fashion was not involved in a loud way" },
+            { "id": "crowd", "text": "Good only if a crowd copies it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Fashion is not the standard. Sustaining one's own life is what makes the action morally good here."
+          }
+        },
+        {
+          "id": "ls5e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the standard inside the judgment.",
+          "parts": [
+            { "type": "text", "text": "The measure is not a whim. The measure is one's own " },
+            { "type": "blank", "id": "b1", "answer": "life" },
+            { "type": "text", "text": ", and the good is what " },
+            { "type": "blank", "id": "b2", "answer": "sustains" },
+            { "type": "text", "text": " it." }
+          ],
+          "bank": ["life", "sustains", "erases", "ignores"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One's own life is the measure. The good sustains it."
+          }
+        },
+        {
+          "id": "ls5e9",
+          "type": "match",
+          "prompt": "Match each mistake to what the standard actually says.",
+          "pairs": [
+            { "id": "feel", "left": "A strong feeling decides the good", "right": "No: one's own life is the standard" },
+            { "id": "harm", "left": "Harm to one's life can still be the good", "right": "No: that action is morally evil by this standard" },
+            { "id": "for", "left": "Sustaining one's life is the good", "right": "Yes: that is the evaluation the standard gives" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Feeling does not replace the standard. Harm to one's life is not the good. Sustaining that life is."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

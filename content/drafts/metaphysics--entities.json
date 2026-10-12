@@ -1,0 +1,812 @@
+{
+  "sectionId": "metaphysics",
+  "sectionFile": "metaphysics.json",
+  "unitId": "entities",
+  "title": "Entities and Their Actions",
+  "summary": "To exist is to be an entity of a specific nature. Action follows from what the entity is.",
+  "lessons": [
+    {
+      "id": "to-be-something",
+      "title": "To be something",
+      "objective": "Recognize that to exist is to be something, set against the nothing of nonexistence.",
+      "exercises": [
+        {
+          "id": "e1c1",
+          "type": "choice",
+          "prompt": "On this floor, what does it mean to exist?",
+          "answer": "something",
+          "choices": [
+            { "id": "something", "text": "To be something" },
+            { "id": "nothing", "text": "To be the nothing of nonexistence" },
+            { "id": "wish", "text": "To be whatever a wish names" },
+            { "id": "label", "text": "To be only a word with no referent" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Existence is being something. The nothing of nonexistence is what existence is set against, not a kind of thing that exists."
+          }
+        },
+        {
+          "id": "e1m1",
+          "type": "match",
+          "prompt": "Match each phrase to what it names.",
+          "pairs": [
+            { "id": "p1", "left": "To exist", "right": "To be something" },
+            { "id": "p2", "left": "Nonexistence", "right": "The nothing that is not a thing" },
+            { "id": "p3", "left": "A something", "right": "What existence requires" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The contrast is simple: existence is something, and nonexistence is not a hidden kind of something."
+          }
+        },
+        {
+          "id": "e1b1",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the contrast.",
+          "parts": [
+            { "type": "text", "text": "To exist is to be " },
+            { "type": "blank", "id": "b1", "answer": "something" },
+            { "type": "text", "text": ", not the nothing of nonexistence." }
+          ],
+          "bank": ["something", "nothing", "a wish", "a label"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The blank is something. Nothing, a wish, and a label do not name what existence is."
+          }
+        },
+        {
+          "id": "e1c2",
+          "type": "choice",
+          "prompt": "Which claim treats nonexistence as if it were a thing?",
+          "answer": "kind",
+          "choices": [
+            { "id": "kind", "text": "Nothing is a special kind of entity" },
+            { "id": "set", "text": "Nonexistence is what existence is set against" },
+            { "id": "be", "text": "To exist is to be something" },
+            { "id": "not", "text": "The nothing of nonexistence is not a something" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Calling nothing a kind of entity erases the contrast. Nonexistence is the absence of a something, not another something."
+          }
+        },
+        {
+          "id": "e1s1",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the short claim in order.",
+          "tokens": [
+            { "id": "t1", "text": "To" },
+            { "id": "t2", "text": "exist" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "to" },
+            { "id": "t5", "text": "be" },
+            { "id": "t6", "text": "something" },
+            { "id": "d1", "text": "nothing" },
+            { "id": "d2", "text": "optional" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The claim stops at something. Nothing and optional are the distractors, not part of the sentence."
+          }
+        },
+        {
+          "id": "e1c3",
+          "type": "choice",
+          "prompt": "A student says existence can be a pure blank, with no something in it. What is wrong?",
+          "answer": "blank",
+          "choices": [
+            { "id": "blank", "text": "A blank is not a something, so it is not existence" },
+            { "id": "fine", "text": "A blank still counts as existing" },
+            { "id": "softer", "text": "Existence is weaker than being something" },
+            { "id": "later", "text": "Being something starts only after a name is chosen" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "There is no existence that is not a something. A blank is the contrast, not a third option."
+          }
+        },
+        {
+          "id": "e1m2",
+          "type": "match",
+          "prompt": "Match each mistake to the correction.",
+          "pairs": [
+            { "id": "p1", "left": "Existence is a blank", "right": "Existence is a something" },
+            { "id": "p2", "left": "Nothing is an entity", "right": "Nothing is not a something" },
+            { "id": "p3", "left": "A word can exist with no referent", "right": "To exist is still to be something" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each correction returns to the same point: existence is being something, not a blank, a nothing, or a free-floating word."
+          }
+        },
+        {
+          "id": "e1b2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the contrast and the requirement.",
+          "parts": [
+            { "type": "text", "text": "Existence is set against the " },
+            { "type": "blank", "id": "b1", "answer": "nothing" },
+            { "type": "text", "text": " of nonexistence, and it requires a " },
+            { "type": "blank", "id": "b2", "answer": "something" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["nothing", "something", "wish", "vote"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The first blank is the nothing of nonexistence. The second is the something that existence requires."
+          }
+        },
+        {
+          "id": "e1c4",
+          "type": "choice",
+          "prompt": "Which sentence stays on this lesson?",
+          "answer": "be",
+          "choices": [
+            { "id": "be", "text": "If it exists, it is something" },
+            { "id": "law", "text": "Causality is a separate primary beside identity" },
+            { "id": "sense", "text": "The senses are the only source of information" },
+            { "id": "right", "text": "A right is a moral principle in a social context" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "This lesson only holds the contrast between something and the nothing of nonexistence. The other lines belong on other floors."
+          }
+        }
+      ]
+    },
+    {
+      "id": "an-entity",
+      "title": "An entity",
+      "objective": "Identify what exists as an entity, not as a loose feature floating free of any thing.",
+      "exercises": [
+        {
+          "id": "e2c1",
+          "type": "choice",
+          "prompt": "What kind of something does existence name here?",
+          "answer": "entity",
+          "choices": [
+            { "id": "entity", "text": "An entity" },
+            { "id": "fog", "text": "A fog of features with no thing" },
+            { "id": "mood", "text": "A mood about the world" },
+            { "id": "rule", "text": "A rule that exists instead of things" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "To be something is to be an entity. Features, moods, and rules are not substitutes for the entity."
+          }
+        },
+        {
+          "id": "e2m1",
+          "type": "match",
+          "prompt": "Match each item to how this lesson treats it.",
+          "pairs": [
+            { "id": "p1", "left": "A rock", "right": "An entity" },
+            { "id": "p2", "left": "Redness with no thing that is red", "right": "Not an entity on its own" },
+            { "id": "p3", "left": "A length with no thing that has it", "right": "Not a something by itself" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The rock is the entity. Color and length are not extra things floating beside it."
+          }
+        },
+        {
+          "id": "e2b1",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the claim.",
+          "parts": [
+            { "type": "text", "text": "To exist is to be an " },
+            { "type": "blank", "id": "b1", "answer": "entity" },
+            { "type": "text", "text": ", not a feature cut loose from any thing." }
+          ],
+          "bank": ["entity", "mood", "vote", "blank"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word for the something that exists is entity. A mood, a vote, or a blank is not that something."
+          }
+        },
+        {
+          "id": "e2c2",
+          "type": "choice",
+          "prompt": "Someone lists only colors, weights, and shapes, and says the entities can be dropped. What is missing?",
+          "answer": "thing",
+          "choices": [
+            { "id": "thing", "text": "The entity those features belong to" },
+            { "id": "more", "text": "A longer list of the same loose features" },
+            { "id": "name", "text": "A prettier name for the list" },
+            { "id": "ok", "text": "Nothing; features can exist with no entity" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Features are of an entity. Dropping the entity leaves a list that does not exist on its own."
+          }
+        },
+        {
+          "id": "e2s1",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the claim in order.",
+          "tokens": [
+            { "id": "t1", "text": "What" },
+            { "id": "t2", "text": "exists" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "an" },
+            { "id": "t5", "text": "entity" },
+            { "id": "d1", "text": "mood" },
+            { "id": "d2", "text": "fog" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The sentence names an entity. Mood and fog are the wrong substitutes."
+          }
+        },
+        {
+          "id": "e2c3",
+          "type": "choice",
+          "prompt": "Which line keeps the entity in place?",
+          "answer": "of",
+          "choices": [
+            { "id": "of", "text": "The redness is the redness of this apple" },
+            { "id": "alone", "text": "Redness exists even if no apple and no other thing is red" },
+            { "id": "swap", "text": "The apple can be deleted and the redness stays as a thing" },
+            { "id": "none", "text": "Existence never reaches entities" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The color is of the apple, which is the entity. It is not a second entity left behind when the apple is gone."
+          }
+        },
+        {
+          "id": "e2m2",
+          "type": "match",
+          "prompt": "Match each starting point to the result.",
+          "pairs": [
+            { "id": "p1", "left": "Start from the entity", "right": "Features have something to belong to" },
+            { "id": "p2", "left": "Start from a loose feature", "right": "You still owe the entity" },
+            { "id": "p3", "left": "Drop every entity", "right": "Nothing is left that exists" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Entities are what exist. Features are identified only as features of those entities."
+          }
+        },
+        {
+          "id": "e2b2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both blanks.",
+          "parts": [
+            { "type": "text", "text": "A weight is the weight of an " },
+            { "type": "blank", "id": "b1", "answer": "entity" },
+            { "type": "text", "text": ", not an entity of its " },
+            { "type": "blank", "id": "b2", "answer": "own" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["entity", "own", "mood", "vote"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Weight belongs to an entity. It is not an entity of its own."
+          }
+        },
+        {
+          "id": "e2c4",
+          "type": "choice",
+          "prompt": "Why is a pile of labels not enough?",
+          "answer": "refer",
+          "choices": [
+            { "id": "refer", "text": "The labels still have to name entities" },
+            { "id": "labels", "text": "Labels are the entities, so the things can go" },
+            { "id": "softer", "text": "An entity is less real than its name" },
+            { "id": "later", "text": "Entities appear only after a theory is voted in" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A label is not a substitute for the entity it is about. What exists is the entity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "specific-nature",
+      "title": "A specific nature",
+      "objective": "State that an entity has a specific nature, not an open character that can be anything.",
+      "exercises": [
+        {
+          "id": "e3c1",
+          "type": "choice",
+          "prompt": "What kind of nature does an entity have?",
+          "answer": "specific",
+          "choices": [
+            { "id": "specific", "text": "A specific nature" },
+            { "id": "any", "text": "Whatever nature a listener prefers" },
+            { "id": "none", "text": "No nature at all" },
+            { "id": "all", "text": "Every nature at once" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An entity is something of a specific nature. Open, empty, and all-at-once natures are not that claim."
+          }
+        },
+        {
+          "id": "e3m1",
+          "type": "match",
+          "prompt": "Match each entity to the nature this lesson keeps fixed.",
+          "pairs": [
+            { "id": "p1", "left": "A stone", "right": "The nature of that stone" },
+            { "id": "p2", "left": "A leaf", "right": "The nature of that leaf" },
+            { "id": "p3", "left": "A flame", "right": "The nature of that flame" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each entity has its own specific nature. One nature is not a blank you can hand to every entity."
+          }
+        },
+        {
+          "id": "e3b1",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit line.",
+          "parts": [
+            { "type": "text", "text": "To exist is to be an entity of a " },
+            { "type": "blank", "id": "b1", "answer": "specific" },
+            { "type": "text", "text": " nature." }
+          ],
+          "bank": ["specific", "optional", "voted", "blank"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The nature is specific. Optional, voted, and blank deny that the entity is something in particular."
+          }
+        },
+        {
+          "id": "e3c2",
+          "type": "choice",
+          "prompt": "A student says a leaf can also be a stone while remaining the same entity. What fails?",
+          "answer": "swap",
+          "choices": [
+            { "id": "swap", "text": "A leaf’s nature is not a stone’s nature" },
+            { "id": "ok", "text": "Specific natures are interchangeable" },
+            { "id": "names", "text": "Only the names differ, so the natures match" },
+            { "id": "later", "text": "Nature is assigned after the swap" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Specific means this nature, not a costume. A leaf is not a stone, and calling it both does not change that."
+          }
+        },
+        {
+          "id": "e3s1",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the claim in order.",
+          "tokens": [
+            { "id": "t1", "text": "An" },
+            { "id": "t2", "text": "entity" },
+            { "id": "t3", "text": "has" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "specific" },
+            { "id": "t6", "text": "nature" },
+            { "id": "d1", "text": "optional" },
+            { "id": "d2", "text": "every" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The sentence keeps nature specific. Optional and every pull it toward no nature or every nature."
+          }
+        },
+        {
+          "id": "e3c3",
+          "type": "choice",
+          "prompt": "Why is a nature with no character not a nature?",
+          "answer": "none",
+          "choices": [
+            { "id": "none", "text": "Then the entity would not be anything in particular" },
+            { "id": "fine", "text": "A blank nature is still specific" },
+            { "id": "softer", "text": "Specific only means popular" },
+            { "id": "vote", "text": "A group can vote a blank into a nature" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Specific nature is what makes the entity this something rather than a blank or anything else."
+          }
+        },
+        {
+          "id": "e3m2",
+          "type": "match",
+          "prompt": "Match each claim to the verdict.",
+          "pairs": [
+            { "id": "p1", "left": "This flame has the nature of a flame", "right": "Keeps the nature specific" },
+            { "id": "p2", "left": "The flame is also solid ice in the same respect", "right": "Drops the specific nature" },
+            { "id": "p3", "left": "The flame has no nature", "right": "Denies that it is something" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A specific nature rules out both a blank and a contradiction of that nature."
+          }
+        },
+        {
+          "id": "e3b2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two requirements.",
+          "parts": [
+            { "type": "text", "text": "The something that exists is an entity, and that entity has a " },
+            { "type": "blank", "id": "b1", "answer": "specific" },
+            { "type": "text", "text": " " },
+            { "type": "blank", "id": "b2", "answer": "nature" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["specific", "nature", "optional", "mood"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Both words belong: the nature is specific. Optional and mood are not names for it."
+          }
+        },
+        {
+          "id": "e3c4",
+          "type": "choice",
+          "prompt": "Which question does this lesson answer?",
+          "answer": "what",
+          "choices": [
+            { "id": "what", "text": "What kind of nature an entity has" },
+            { "id": "howknow", "text": "How concepts omit measurements" },
+            { "id": "rights", "text": "Which rights a government may protect" },
+            { "id": "art", "text": "What makes a work romanticist" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The lesson is only about specific nature. Concept-formation, rights, and art schools are later floors."
+          }
+        }
+      ]
+    },
+    {
+      "id": "specific-attributes",
+      "title": "Specific attributes",
+      "objective": "Connect an entity’s nature to the specific attributes that make that nature up.",
+      "exercises": [
+        {
+          "id": "e4c1",
+          "type": "choice",
+          "prompt": "What is a specific nature made of?",
+          "answer": "attributes",
+          "choices": [
+            { "id": "attributes", "text": "Specific attributes" },
+            { "id": "wishes", "text": "Wishes about the entity" },
+            { "id": "votes", "text": "Votes about what it should be" },
+            { "id": "blanks", "text": "Blanks with no character" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Nature is not a tag pasted on afterward. It is made of the entity’s specific attributes."
+          }
+        },
+        {
+          "id": "e4m1",
+          "type": "match",
+          "prompt": "Match each attribute to the entity it helps specify.",
+          "pairs": [
+            { "id": "p1", "left": "Hard and mineral", "right": "A stone" },
+            { "id": "p2", "left": "Thin and green", "right": "A leaf" },
+            { "id": "p3", "left": "Hot and luminous", "right": "A flame" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "These attributes are examples of what makes each nature specific. They are not a full inventory of the entity."
+          }
+        },
+        {
+          "id": "e4b1",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the line about nature.",
+          "parts": [
+            { "type": "text", "text": "A specific nature is made of specific " },
+            { "type": "blank", "id": "b1", "answer": "attributes" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["attributes", "wishes", "votes", "blanks"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The blank is attributes. Wishes, votes, and blanks do not make up a nature."
+          }
+        },
+        {
+          "id": "e4c2",
+          "type": "choice",
+          "prompt": "Which move separates attributes from the nature?",
+          "answer": "loose",
+          "choices": [
+            { "id": "loose", "text": "Treating them as optional stickers on a blank entity" },
+            { "id": "of", "text": "Treating them as what the nature is made of" },
+            { "id": "this", "text": "Keeping them specific to this entity" },
+            { "id": "same", "text": "Refusing to swap them for another entity’s attributes" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Attributes are not decorations added to a nature that was already blank. They are the nature, specified."
+          }
+        },
+        {
+          "id": "e4s1",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the claim in order.",
+          "tokens": [
+            { "id": "t1", "text": "Nature" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "made" },
+            { "id": "t4", "text": "of" },
+            { "id": "t5", "text": "specific" },
+            { "id": "t6", "text": "attributes" },
+            { "id": "d1", "text": "wishes" },
+            { "id": "d2", "text": "rumors" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The sentence ends on attributes. Wishes and rumors are not what a nature is made of."
+          }
+        },
+        {
+          "id": "e4c3",
+          "type": "choice",
+          "prompt": "Two stones differ in size. What does this lesson still require?",
+          "answer": "each",
+          "choices": [
+            { "id": "each", "text": "Each stone still has its own specific attributes" },
+            { "id": "same", "text": "Different size means neither stone has attributes" },
+            { "id": "one", "text": "Only the larger stone is an entity" },
+            { "id": "none", "text": "Size cancels nature" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A difference in an attribute does not erase attributes. Each entity remains something with its own specific ones."
+          }
+        },
+        {
+          "id": "e4m2",
+          "type": "match",
+          "prompt": "Match each description to the status it has here.",
+          "pairs": [
+            { "id": "p1", "left": "The attributes of this leaf", "right": "Part of its specific nature" },
+            { "id": "p2", "left": "A wish that the leaf be stone", "right": "Not an attribute of the leaf" },
+            { "id": "p3", "left": "A vote that the flame be cold", "right": "Not what the flame’s nature is made of" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Attributes are of the entity. A wish or a vote does not become an attribute by being insisted on."
+          }
+        },
+        {
+          "id": "e4b2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both blanks.",
+          "parts": [
+            { "type": "text", "text": "The entity’s " },
+            { "type": "blank", "id": "b1", "answer": "nature" },
+            { "type": "text", "text": " is made of its specific " },
+            { "type": "blank", "id": "b2", "answer": "attributes" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["nature", "attributes", "wishes", "votes"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Nature and attributes stay tied. Wishes and votes are the items that do not make up the nature."
+          }
+        },
+        {
+          "id": "e4c4",
+          "type": "choice",
+          "prompt": "What would a nature with no attributes be?",
+          "answer": "not",
+          "choices": [
+            { "id": "not", "text": "Not a specific nature" },
+            { "id": "full", "text": "A complete specific nature" },
+            { "id": "better", "text": "A purer nature than one with attributes" },
+            { "id": "later", "text": "A nature that gains attributes only by vote" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Take the attributes away and nothing specific remains. A nature is made of them."
+          }
+        },
+        {
+          "id": "e4c5",
+          "type": "choice",
+          "prompt": "Where do the attributes sit?",
+          "answer": "in",
+          "choices": [
+            { "id": "in", "text": "In the entity’s nature" },
+            { "id": "beside", "text": "Beside existence, as a second world" },
+            { "id": "after", "text": "Only after someone describes them" },
+            { "id": "instead", "text": "Instead of the entity" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Attributes are how the entity’s nature is specific. They are not a rival world, a later addition, or a replacement for the entity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "action-follows",
+      "title": "Action follows",
+      "objective": "Explain that what an entity does follows from what that entity is, not from a demand that ignores its nature.",
+      "exercises": [
+        {
+          "id": "e5c1",
+          "type": "choice",
+          "prompt": "What does an entity’s action follow from?",
+          "answer": "is",
+          "choices": [
+            { "id": "is", "text": "What the entity is" },
+            { "id": "wish", "text": "A wish that ignores what it is" },
+            { "id": "vote", "text": "A vote about what it ought to do" },
+            { "id": "nowhere", "text": "Nothing about the entity" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Action follows from the entity. A wish, a vote, or a blank cause does not replace what the entity is."
+          }
+        },
+        {
+          "id": "e5m1",
+          "type": "match",
+          "prompt": "Match each entity to an action that follows from what it is.",
+          "pairs": [
+            { "id": "p1", "left": "A flame", "right": "It can burn what will burn" },
+            { "id": "p2", "left": "A stone", "right": "It can fall as a solid body" },
+            { "id": "p3", "left": "A leaf", "right": "It can dry and crumble as a leaf" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The examples stay with each nature. The action is the kind of action that entity’s nature allows, not a demand from outside."
+          }
+        },
+        {
+          "id": "e5b1",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit’s second claim.",
+          "parts": [
+            { "type": "text", "text": "Action follows from what the entity " },
+            { "type": "blank", "id": "b1", "answer": "is" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["is", "wishes", "votes", "denies"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The blank is is. Wishes, votes, and denials are not what the action follows from."
+          }
+        },
+        {
+          "id": "e5c2",
+          "type": "choice",
+          "prompt": "Someone demands that a stone burn as a flame burns, while remaining a stone. What is ignored?",
+          "answer": "nature",
+          "choices": [
+            { "id": "nature", "text": "The stone’s specific nature" },
+            { "id": "nothing", "text": "Nothing; any entity can do any action" },
+            { "id": "name", "text": "Only the spelling of stone" },
+            { "id": "later", "text": "A later vote that could rewrite the stone" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The action of burning as a flame follows from a flame, not from a stone. The demand skips the nature."
+          }
+        },
+        {
+          "id": "e5s1",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the claim in order.",
+          "tokens": [
+            { "id": "t1", "text": "Action" },
+            { "id": "t2", "text": "follows" },
+            { "id": "t3", "text": "from" },
+            { "id": "t4", "text": "what" },
+            { "id": "t5", "text": "the" },
+            { "id": "t6", "text": "entity" },
+            { "id": "t7", "text": "is" },
+            { "id": "d1", "text": "wishes" },
+            { "id": "d2", "text": "nowhere" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The sentence ties action to what the entity is. Wishes and nowhere do not belong in it."
+          }
+        },
+        {
+          "id": "e5c3",
+          "type": "choice",
+          "prompt": "Why can you not keep the entity and throw away the limits on its action?",
+          "answer": "same",
+          "choices": [
+            { "id": "same", "text": "The limits come from the same nature that makes it that entity" },
+            { "id": "extra", "text": "Limits are an extra rule with no tie to the entity" },
+            { "id": "mood", "text": "Limits are only a mood about action" },
+            { "id": "after", "text": "The entity is finished before any nature applies" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "What it can do is not taped on later. It follows from the specific nature the entity already is."
+          }
+        },
+        {
+          "id": "e5m2",
+          "type": "match",
+          "prompt": "Match each demand to the fact it skips.",
+          "pairs": [
+            { "id": "p1", "left": "Make the flame solid like the stone", "right": "A flame is not a stone" },
+            { "id": "p2", "left": "Make the stone give light as the flame does", "right": "A stone is not a flame" },
+            { "id": "p3", "left": "Give the leaf no attributes and every action", "right": "A leaf is an entity of a specific nature" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each demand asks for an action that does not follow from that entity. The nature stays in place."
+          }
+        },
+        {
+          "id": "e5b2",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Hold both halves of the unit.",
+          "parts": [
+            { "type": "text", "text": "An entity of a specific nature acts as that " },
+            { "type": "blank", "id": "b1", "answer": "nature" },
+            { "type": "text", "text": " allows, because action follows from what it " },
+            { "type": "blank", "id": "b2", "answer": "is" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["nature", "is", "wish", "vote"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two blanks keep the unit together: the nature, and what the entity is. Wish and vote are not either one."
+          }
+        },
+        {
+          "id": "e5c4",
+          "type": "choice",
+          "prompt": "Which pair states this unit and nothing beyond it?",
+          "answer": "pair",
+          "choices": [
+            { "id": "pair", "text": "A specific entity, and action that follows from what it is" },
+            { "id": "senses", "text": "Percepts, then measurement-omission" },
+            { "id": "rights", "text": "Rights, then laissez-faire" },
+            { "id": "art", "text": "Sense of life, then a school of art" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "This unit stops at the entity of a specific nature and the action that follows from it. The other pairs are other sections."
+          }
+        },
+        {
+          "id": "e5c5",
+          "type": "choice",
+          "prompt": "A cause with no entity behind the action would be which of these?",
+          "answer": "empty",
+          "choices": [
+            { "id": "empty", "text": "An action cut off from what anything is" },
+            { "id": "fine", "text": "The ordinary case of action" },
+            { "id": "better", "text": "A clearer account than one that starts from the entity" },
+            { "id": "nature", "text": "Just another name for specific nature" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Action is of an entity. Drop the entity and there is nothing left whose nature the action could follow."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

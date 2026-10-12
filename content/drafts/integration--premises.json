@@ -1,0 +1,812 @@
+{
+  "sectionId": "integration",
+  "sectionFile": "integration.json",
+  "unitId": "premises",
+  "title": "Check Your Premises",
+  "summary": "When a conclusion clashes with a fact, inspect the premise that produced the conclusion.",
+  "lessons": [
+    {
+      "id": "the-clash",
+      "title": "Name the clash",
+      "objective": "Recognize a clash as a conclusion that does not fit a known fact.",
+      "exercises": [
+        {
+          "id": "c1",
+          "type": "choice",
+          "prompt": "In this unit, what is a clash?",
+          "answer": "fit",
+          "choices": [
+            { "id": "fit", "text": "A conclusion that does not fit a known fact" },
+            { "id": "mood", "text": "Two people who dislike the same idea" },
+            { "id": "style", "text": "A sentence that sounds too sharp" },
+            { "id": "new", "text": "A fact you have not looked at yet" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A clash is a mismatch between what you concluded and what is the case."
+          }
+        },
+        {
+          "id": "c2",
+          "type": "choice",
+          "prompt": "Which pair is a clash?",
+          "answer": "empty",
+          "choices": [
+            { "id": "empty", "text": "You conclude the tank is full, and the gauge reads empty" },
+            { "id": "same", "text": "You conclude the tank is empty, and the gauge reads empty" },
+            { "id": "guess", "text": "You have not concluded anything, and the gauge is unread" },
+            { "id": "like", "text": "Two people prefer different gauges" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The conclusion and the fact have to disagree. Agreement is not a clash, and a preference is not a fact."
+          }
+        },
+        {
+          "id": "c3",
+          "type": "match",
+          "prompt": "Match each item to its role in a clash.",
+          "pairs": [
+            { "id": "p1", "left": "The conclusion", "right": "What your reasoning said must be so" },
+            { "id": "p2", "left": "The fact", "right": "What is actually the case" },
+            { "id": "p3", "left": "The clash", "right": "Those two do not fit" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the three roles separate. The clash is the mismatch, not either side by itself."
+          }
+        },
+        {
+          "id": "c4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit's picture of a clash.",
+          "parts": [
+            { "type": "text", "text": "A clash is a conclusion that does not fit a known " },
+            { "type": "blank", "id": "b1", "answer": "fact" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["fact", "mood", "slogan", "audience"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The other side of the clash is a fact, not a mood or a slogan."
+          }
+        },
+        {
+          "id": "c5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names a clash.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "conclusion" },
+            { "id": "t3", "text": "does" },
+            { "id": "t4", "text": "not" },
+            { "id": "t5", "text": "fit" },
+            { "id": "t6", "text": "the" },
+            { "id": "t7", "text": "fact" },
+            { "id": "d1", "text": "mood" },
+            { "id": "d2", "text": "always" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Naming the clash is the first step. It says the conclusion and the fact disagree."
+          }
+        },
+        {
+          "id": "c6",
+          "type": "choice",
+          "prompt": "You conclude the bridge is closed. A sign at the entrance says it is open. What do you have?",
+          "answer": "clash",
+          "choices": [
+            { "id": "clash", "text": "A clash between a conclusion and a fact" },
+            { "id": "proof", "text": "Proof that the sign is decoration" },
+            { "id": "none", "text": "No clash, because conclusions outrank signs" },
+            { "id": "style", "text": "A clash of writing styles" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Open on the sign and closed in the conclusion do not fit. That mismatch is the clash."
+          }
+        },
+        {
+          "id": "c7",
+          "type": "match",
+          "prompt": "Match each report to whether it is a clash.",
+          "pairs": [
+            { "id": "a", "left": "Conclusion says dry; the road is wet", "right": "A clash" },
+            { "id": "b", "left": "Conclusion says wet; the road is wet", "right": "No clash" },
+            { "id": "c", "left": "No conclusion yet; the road is wet", "right": "Not yet a clash" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "You need both a conclusion and a fact, and they need to disagree."
+          }
+        },
+        {
+          "id": "c8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the contrast.",
+          "parts": [
+            { "type": "text", "text": "Agreement is not a clash. A clash needs a " },
+            { "type": "blank", "id": "b1", "answer": "mismatch" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["mismatch", "compliment", "title", "habit"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If the conclusion already fits the fact, there is nothing here to inspect."
+          }
+        },
+        {
+          "id": "c9",
+          "type": "choice",
+          "prompt": "Which item is not, by itself, a clash?",
+          "answer": "fact",
+          "choices": [
+            { "id": "fact", "text": "A fact with no conclusion set against it" },
+            { "id": "both", "text": "A conclusion that contradicts a measurement" },
+            { "id": "map", "text": "A map that says north where the compass says south" },
+            { "id": "count", "text": "A count of five when there are three" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A fact alone is not a clash. The clash starts when a conclusion fails to fit that fact."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fact-holds",
+      "title": "The fact holds",
+      "objective": "Keep the fact, and treat the clashing conclusion as the side that has to give.",
+      "exercises": [
+        {
+          "id": "f1",
+          "type": "choice",
+          "prompt": "When a conclusion clashes with a fact, which side stays?",
+          "answer": "fact",
+          "choices": [
+            { "id": "fact", "text": "The fact" },
+            { "id": "wish", "text": "The conclusion you prefer" },
+            { "id": "both", "text": "Both, by calling the fact optional" },
+            { "id": "neither", "text": "Neither, until a vote decides" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The fact is what is the case. The conclusion is what has to be reconsidered."
+          }
+        },
+        {
+          "id": "f2",
+          "type": "choice",
+          "prompt": "What is the wrong first move?",
+          "answer": "rewrite",
+          "choices": [
+            { "id": "rewrite", "text": "Rewrite the fact so the conclusion can stay" },
+            { "id": "hold", "text": "Hold the fact and question the conclusion" },
+            { "id": "name", "text": "Name the clash out loud" },
+            { "id": "look", "text": "Look again at what produced the conclusion" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Editing the fact to rescue a conclusion throws away the only check you have."
+          }
+        },
+        {
+          "id": "f3",
+          "type": "match",
+          "prompt": "Match each move to what it does.",
+          "pairs": [
+            { "id": "p1", "left": "Keep the fact", "right": "Leave the check in place" },
+            { "id": "p2", "left": "Drop the conclusion", "right": "Let the side that clashes give way" },
+            { "id": "p3", "left": "Edit the fact", "right": "Remove the check" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The fact is the check. Protecting the conclusion by changing the fact is the error."
+          }
+        },
+        {
+          "id": "f4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rule.",
+          "parts": [
+            { "type": "text", "text": "The fact holds. The " },
+            { "type": "blank", "id": "b1", "answer": "conclusion" },
+            { "type": "text", "text": " is what has to give." }
+          ],
+          "bank": ["conclusion", "ruler", "audience", "title"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Giving way belongs to the conclusion, not to the fact it failed to fit."
+          }
+        },
+        {
+          "id": "f5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the rule in order.",
+          "tokens": [
+            { "id": "t1", "text": "Keep" },
+            { "id": "t2", "text": "the" },
+            { "id": "t3", "text": "fact" },
+            { "id": "t4", "text": "and" },
+            { "id": "t5", "text": "question" },
+            { "id": "t6", "text": "the" },
+            { "id": "t7", "text": "conclusion" },
+            { "id": "d1", "text": "rewrite" },
+            { "id": "d2", "text": "vote" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Questioning starts on the conclusion side. The fact is not up for a rewrite."
+          }
+        },
+        {
+          "id": "f6",
+          "type": "choice",
+          "prompt": "The scale reads 70. Your conclusion said 90. What do you not do?",
+          "answer": "bend",
+          "choices": [
+            { "id": "bend", "text": "Treat 70 as if it were 90" },
+            { "id": "accept", "text": "Accept 70 as the fact" },
+            { "id": "drop", "text": "Drop the conclusion that said 90" },
+            { "id": "ask", "text": "Ask what led you to 90" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Calling 70 a 90 saves the conclusion by discarding the reading. That is the move this lesson rejects."
+          }
+        },
+        {
+          "id": "f7",
+          "type": "match",
+          "prompt": "Match the side to its standing.",
+          "pairs": [
+            { "id": "a", "left": "A known fact", "right": "Stays" },
+            { "id": "b", "left": "A clashing conclusion", "right": "Has to give" },
+            { "id": "c", "left": "A wish that the fact were otherwise", "right": "Does not change the fact" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Wishing the reading were different does not make a new fact."
+          }
+        },
+        {
+          "id": "f8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the warning.",
+          "parts": [
+            { "type": "text", "text": "Do not rewrite the fact to rescue the " },
+            { "type": "blank", "id": "b1", "answer": "conclusion" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["conclusion", "scale", "day", "name"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rescue that edits the fact is not checking. It is refusing the clash."
+          }
+        },
+        {
+          "id": "f9",
+          "type": "choice",
+          "prompt": "Why does the fact outrank the conclusion?",
+          "answer": "case",
+          "choices": [
+            { "id": "case", "text": "The fact is what is the case; the conclusion is a claim about it" },
+            { "id": "loud", "text": "Facts are always shouted louder" },
+            { "id": "old", "text": "Older sentences beat newer ones" },
+            { "id": "nice", "text": "Facts are the kinder wording" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A conclusion is accountable to the fact. The fact is not accountable to the conclusion."
+          }
+        }
+      ]
+    },
+    {
+      "id": "trace-back",
+      "title": "Trace it back",
+      "objective": "Trace the clashing conclusion to the premise that produced it.",
+      "exercises": [
+        {
+          "id": "t1",
+          "type": "choice",
+          "prompt": "After you keep the fact, what do you look for?",
+          "answer": "premise",
+          "choices": [
+            { "id": "premise", "text": "The premise that produced the conclusion" },
+            { "id": "blame", "text": "Someone to blame for noticing the fact" },
+            { "id": "volume", "text": "A louder restatement of the same conclusion" },
+            { "id": "exit", "text": "A way to stop thinking" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The conclusion came from a premise. That premise is the next thing to find."
+          }
+        },
+        {
+          "id": "t2",
+          "type": "choice",
+          "prompt": "What is a premise, in this unit?",
+          "answer": "from",
+          "choices": [
+            { "id": "from", "text": "A claim you reasoned from to reach the conclusion" },
+            { "id": "end", "text": "The fact that clashed with the conclusion" },
+            { "id": "mood", "text": "How sure you felt at the end" },
+            { "id": "title", "text": "The name of the subject" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A premise is an earlier claim in the reasoning. The conclusion is what that claim helped produce."
+          }
+        },
+        {
+          "id": "t3",
+          "type": "match",
+          "prompt": "Match each piece of reasoning to its place.",
+          "pairs": [
+            { "id": "p1", "left": "Premise", "right": "What you reasoned from" },
+            { "id": "p2", "left": "Conclusion", "right": "What that reasoning produced" },
+            { "id": "p3", "left": "Fact", "right": "The check the conclusion failed" },
+            { "id": "p4", "left": "Tracing", "right": "Walking from the conclusion back to the premise" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Tracing goes backward: from the bad fit, to the conclusion, to the premise that produced it."
+          }
+        },
+        {
+          "id": "t4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the step.",
+          "parts": [
+            { "type": "text", "text": "Trace the conclusion back to the " },
+            { "type": "blank", "id": "b1", "answer": "premise" },
+            { "type": "text", "text": " that produced it." }
+          ],
+          "bank": ["premise", "volume", "excuse", "title"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit asks for the producing premise, not a louder repeat of the conclusion."
+          }
+        },
+        {
+          "id": "t5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the tracing step.",
+          "tokens": [
+            { "id": "t1", "text": "Find" },
+            { "id": "t2", "text": "the" },
+            { "id": "t3", "text": "premise" },
+            { "id": "t4", "text": "behind" },
+            { "id": "t5", "text": "the" },
+            { "id": "t6", "text": "conclusion" },
+            { "id": "d1", "text": "shout" },
+            { "id": "d2", "text": "decor" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Finding the premise is how you get from a bad conclusion to something you can inspect."
+          }
+        },
+        {
+          "id": "t6",
+          "type": "choice",
+          "prompt": "You concluded the train left, because you assumed the clock on the wall was right. The board says the train is still here. Which claim is the premise to trace?",
+          "answer": "clock",
+          "choices": [
+            { "id": "clock", "text": "The clock on the wall is right" },
+            { "id": "board", "text": "The board says the train is still here" },
+            { "id": "left", "text": "The conclusion that the train left" },
+            { "id": "station", "text": "The fact that stations have boards" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The board is the fact. The conclusion is that the train left. The premise you used was that the wall clock was right."
+          }
+        },
+        {
+          "id": "t7",
+          "type": "match",
+          "prompt": "Match the train example to its role.",
+          "pairs": [
+            { "id": "a", "left": "The wall clock is right", "right": "Premise" },
+            { "id": "b", "left": "The train has left", "right": "Conclusion" },
+            { "id": "c", "left": "The board says the train is here", "right": "Fact" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only one of those three was the claim you reasoned from. That one is the premise."
+          }
+        },
+        {
+          "id": "t8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the distinction.",
+          "parts": [
+            { "type": "text", "text": "The conclusion is the result. The premise is what you reasoned " },
+            { "type": "blank", "id": "b1", "answer": "from" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["from", "past", "over", "aloud"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "From marks the earlier claim. The conclusion is later."
+          }
+        },
+        {
+          "id": "t9",
+          "type": "choice",
+          "prompt": "Why trace at all, instead of only deleting the conclusion?",
+          "answer": "source",
+          "choices": [
+            { "id": "source", "text": "The same premise can produce the next bad conclusion" },
+            { "id": "style", "text": "Tracing makes the wording prettier" },
+            { "id": "skip", "text": "Tracing lets you ignore the fact" },
+            { "id": "vote", "text": "A premise is whatever most people repeat" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Deleting one conclusion leaves the premise in place to mislead you again."
+          }
+        },
+        {
+          "id": "t10",
+          "type": "choice",
+          "prompt": "Two premises led to a conclusion that clashes with a fact. What does tracing require?",
+          "answer": "which",
+          "choices": [
+            { "id": "which", "text": "Find which premise produced that conclusion" },
+            { "id": "all", "text": "Throw out every idea you have ever used" },
+            { "id": "none", "text": "Keep both premises and drop the fact" },
+            { "id": "random", "text": "Pick a premise at random to feel decisive" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Tracing is specific. You want the premise that produced this conclusion, not a pile of unrelated ideas."
+          }
+        }
+      ]
+    },
+    {
+      "id": "inspect",
+      "title": "Inspect the premise",
+      "objective": "Check the producing premise against the fact, instead of shielding it, discarding every idea, or rewriting the fact.",
+      "exercises": [
+        {
+          "id": "i1",
+          "type": "choice",
+          "prompt": "What does inspect mean here?",
+          "answer": "check",
+          "choices": [
+            { "id": "check", "text": "Check that premise against the fact" },
+            { "id": "guard", "text": "Guard the premise from the fact" },
+            { "id": "erase", "text": "Erase every premise you hold" },
+            { "id": "rename", "text": "Rename the fact so the premise survives" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Inspection is a check. Shielding, total erasure, and renaming the fact are ways to avoid the check."
+          }
+        },
+        {
+          "id": "i2",
+          "type": "choice",
+          "prompt": "A premise led you to say the path is safe. The path is blocked by a fallen tree. What is the inspection?",
+          "answer": "ask",
+          "choices": [
+            { "id": "ask", "text": "Ask whether the premise still fits, given the tree" },
+            { "id": "tree", "text": "Decide the tree does not count" },
+            { "id": "all", "text": "Reject the idea of paths as such" },
+            { "id": "keep", "text": "Keep the premise because you liked the walk" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The tree is the fact. Inspection asks whether the premise that produced safe can stand next to that tree."
+          }
+        },
+        {
+          "id": "i3",
+          "type": "match",
+          "prompt": "Match each response to what it really is.",
+          "pairs": [
+            { "id": "p1", "left": "Check the premise against the fact", "right": "Inspection" },
+            { "id": "p2", "left": "Protect the premise and edit the fact", "right": "Shielding" },
+            { "id": "p3", "left": "Drop every idea because one premise failed", "right": "Overreach" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One bad premise does not license either protecting it or throwing out thinking as such."
+          }
+        },
+        {
+          "id": "i4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the instruction.",
+          "parts": [
+            { "type": "text", "text": "Inspect the premise. Do not " },
+            { "type": "blank", "id": "b1", "answer": "shield" },
+            { "type": "text", "text": " it from the fact." }
+          ],
+          "bank": ["shield", "read", "name", "weigh"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Shielding is the opposite of inspection. The fact is allowed to count against the premise."
+          }
+        },
+        {
+          "id": "i5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the inspection rule.",
+          "tokens": [
+            { "id": "t1", "text": "Check" },
+            { "id": "t2", "text": "the" },
+            { "id": "t3", "text": "premise" },
+            { "id": "t4", "text": "against" },
+            { "id": "t5", "text": "the" },
+            { "id": "t6", "text": "fact" },
+            { "id": "d1", "text": "shield" },
+            { "id": "d2", "text": "erase" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Against the fact is the whole test. A premise that cannot face the fact does not pass."
+          }
+        },
+        {
+          "id": "i6",
+          "type": "choice",
+          "prompt": "Which result can an inspection reach?",
+          "answer": "fail",
+          "choices": [
+            { "id": "fail", "text": "This premise does not fit the fact" },
+            { "id": "fact", "text": "The fact must be rewritten" },
+            { "id": "never", "text": "Premises are never open to checking" },
+            { "id": "mood", "text": "The fact is only a mood" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A real inspection can find that the premise fails. That finding is the point of the check."
+          }
+        },
+        {
+          "id": "i7",
+          "type": "match",
+          "prompt": "Match the mistake to the dodge it uses.",
+          "pairs": [
+            { "id": "a", "left": "The fact is inconvenient, so change it", "right": "Rewriting the fact" },
+            { "id": "b", "left": "One premise failed, so trust nothing", "right": "Discarding every idea" },
+            { "id": "c", "left": "I like this premise, so the clash does not count", "right": "Shielding the premise" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each dodge avoids the same job: checking this premise against this fact."
+          }
+        },
+        {
+          "id": "i8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the limit on the check.",
+          "parts": [
+            { "type": "text", "text": "Inspect the premise that produced the conclusion, not " },
+            { "type": "blank", "id": "b1", "answer": "every" },
+            { "type": "text", "text": " idea you hold." }
+          ],
+          "bank": ["every", "one", "the", "no"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The check is aimed. A failed premise does not mean every other idea failed with it."
+          }
+        },
+        {
+          "id": "i9",
+          "type": "choice",
+          "prompt": "You assumed the recipe needed no salt, and the dish is inedibly flat. What do you inspect?",
+          "answer": "salt",
+          "choices": [
+            { "id": "salt", "text": "The premise that the recipe needed no salt" },
+            { "id": "taste", "text": "Whether flatness is allowed to count as a fact" },
+            { "id": "cooking", "text": "Whether cooking as such was a mistake" },
+            { "id": "plate", "text": "The color of the plate" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The flat dish is the fact. The premise to inspect is the no-salt claim that produced your conclusion about the dish."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fit-again",
+      "title": "A conclusion that fits",
+      "objective": "Replace the faulty premise so the new conclusion agrees with the fact.",
+      "exercises": [
+        {
+          "id": "n1",
+          "type": "choice",
+          "prompt": "What is the point of replacing a faulty premise?",
+          "answer": "agree",
+          "choices": [
+            { "id": "agree", "text": "So the new conclusion agrees with the fact" },
+            { "id": "same", "text": "So the old conclusion can stay unchanged" },
+            { "id": "hide", "text": "So the fact can be set aside" },
+            { "id": "style", "text": "So the wording sounds firmer" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Replacement is successful when the conclusion you now draw fits the fact that exposed the old one."
+          }
+        },
+        {
+          "id": "n2",
+          "type": "choice",
+          "prompt": "The old premise said the clock was right, so you concluded the train had left. The board says the train is here, and the clock is slow. What is the corrected conclusion?",
+          "answer": "here",
+          "choices": [
+            { "id": "here", "text": "The train is still here" },
+            { "id": "left", "text": "The train left, because the old conclusion felt sure" },
+            { "id": "none", "text": "There is no train" },
+            { "id": "board", "text": "Boards never report facts" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Once the slow clock replaces the premise that the clock was right, the conclusion that fits the board is that the train is here."
+          }
+        },
+        {
+          "id": "n3",
+          "type": "match",
+          "prompt": "Match each stage to its outcome.",
+          "pairs": [
+            { "id": "p1", "left": "Faulty premise kept", "right": "The conclusion still clashes" },
+            { "id": "p2", "left": "Faulty premise replaced", "right": "A conclusion that can fit the fact" },
+            { "id": "p3", "left": "Fact rewritten instead", "right": "The check is gone" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only a new premise gives you a new conclusion. Editing the fact removes the test instead."
+          }
+        },
+        {
+          "id": "n4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the repair.",
+          "parts": [
+            { "type": "text", "text": "Replace the faulty premise so the new conclusion " },
+            { "type": "blank", "id": "b1", "answer": "fits" },
+            { "type": "text", "text": " the fact." }
+          ],
+          "bank": ["fits", "hides", "votes", "flatters"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Fits is the standard for the new conclusion. Hiding the fact is not a repair."
+          }
+        },
+        {
+          "id": "n5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the closing rule of the unit.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "corrected" },
+            { "id": "t3", "text": "premise" },
+            { "id": "t4", "text": "yields" },
+            { "id": "t5", "text": "a" },
+            { "id": "t6", "text": "conclusion" },
+            { "id": "t7", "text": "that" },
+            { "id": "t8", "text": "fits" },
+            { "id": "d1", "text": "ignores" },
+            { "id": "d2", "text": "slogan" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The repair is not done until the conclusion you draw from the new premise agrees with the fact."
+          }
+        },
+        {
+          "id": "n6",
+          "type": "choice",
+          "prompt": "Which repair is finished?",
+          "answer": "salt",
+          "choices": [
+            { "id": "salt", "text": "You drop the no-salt premise and conclude the dish needs salt, matching the flat taste" },
+            { "id": "deny", "text": "You keep the no-salt premise and call the flat taste unreal" },
+            { "id": "shrug", "text": "You drop cooking entirely" },
+            { "id": "repeat", "text": "You repeat the no-salt premise in a firmer voice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The new conclusion has to agree with the flat taste. A firmer voice does not change the premise."
+          }
+        },
+        {
+          "id": "n7",
+          "type": "match",
+          "prompt": "Match the old piece to the piece that replaces it.",
+          "pairs": [
+            { "id": "a", "left": "The clock is right", "right": "The clock is slow" },
+            { "id": "b", "left": "The train has left", "right": "The train is still here" },
+            { "id": "c", "left": "The recipe needs no salt", "right": "The dish needs salt" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each new claim is the one that agrees with the fact the old claim missed."
+          }
+        },
+        {
+          "id": "n8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the sequence.",
+          "parts": [
+            { "type": "text", "text": "Clash, then keep the fact, then inspect the premise, then draw a conclusion that " },
+            { "type": "blank", "id": "b1", "answer": "agrees" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["agrees", "shouts", "hesitates", "flatters"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Agrees names the end of the sequence: the new conclusion and the fact no longer clash."
+          }
+        },
+        {
+          "id": "n9",
+          "type": "choice",
+          "prompt": "The new premise still produces a conclusion that clashes with the same fact. What is true?",
+          "answer": "not",
+          "choices": [
+            { "id": "not", "text": "The repair is not finished" },
+            { "id": "done", "text": "Any new premise counts as success" },
+            { "id": "fact", "text": "The fact should now be retired" },
+            { "id": "old", "text": "The old conclusion was right after all" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A replacement that still clashes has not done the job. Keep the fact and inspect again."
+          }
+        },
+        {
+          "id": "n10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build what you do when the conclusion clashes with a fact.",
+          "tokens": [
+            { "id": "t1", "text": "Inspect" },
+            { "id": "t2", "text": "the" },
+            { "id": "t3", "text": "premise" },
+            { "id": "t4", "text": "that" },
+            { "id": "t5", "text": "produced" },
+            { "id": "t6", "text": "it" },
+            { "id": "d1", "text": "ignore" },
+            { "id": "d2", "text": "fact" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit's whole move is that short: when the conclusion clashes, inspect the premise that produced it."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

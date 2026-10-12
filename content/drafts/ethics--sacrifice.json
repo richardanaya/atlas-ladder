@@ -1,0 +1,774 @@
+{
+  "sectionId": "ethics",
+  "sectionFile": "ethics.json",
+  "unitId": "sacrifice",
+  "title": "Sacrifice",
+  "summary": "Sacrifice as giving up a higher value for a lesser one, and why that is not a virtue on this ladder.",
+  "lessons": [
+    {
+      "id": "higher-for-lesser",
+      "title": "What sacrifice names",
+      "objective": "Define sacrifice, on this ladder, as giving up a higher value for a lesser one.",
+      "exercises": [
+        {
+          "id": "hf1",
+          "type": "choice",
+          "prompt": "On this ladder, what does sacrifice name?",
+          "answer": "hl",
+          "choices": [
+            { "id": "hl", "text": "Giving up a higher value for a lesser one" },
+            { "id": "lh", "text": "Giving up a lesser value for a higher one" },
+            { "id": "any", "text": "Any cost you pay to gain something you want" },
+            { "id": "pain", "text": "Any feeling of effort or discomfort" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The name is reserved for dropping what you rank higher in order to keep or gain what you rank lower."
+          }
+        },
+        {
+          "id": "hf2",
+          "type": "match",
+          "prompt": "Match each piece of the definition to its role.",
+          "pairs": [
+            { "id": "p1", "left": "The value you give up", "right": "The higher one" },
+            { "id": "p2", "left": "The value you take instead", "right": "The lesser one" },
+            { "id": "p3", "left": "The name for that trade", "right": "Sacrifice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Sacrifice is not just a loss. It is a loss of the higher value in favor of the lesser one."
+          }
+        },
+        {
+          "id": "hf3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the definition.",
+          "parts": [
+            { "type": "text", "text": "Sacrifice is giving up a " },
+            { "type": "blank", "id": "b1", "answer": "higher" },
+            { "type": "text", "text": " value for a lesser one." }
+          ],
+          "bank": ["higher", "lesser", "equal", "hidden"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word higher marks what is surrendered. The lesser value is what is accepted in its place."
+          }
+        },
+        {
+          "id": "hf4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the definition in order.",
+          "tokens": [
+            { "id": "t1", "text": "Sacrifice" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "giving" },
+            { "id": "t4", "text": "up" },
+            { "id": "t5", "text": "a" },
+            { "id": "t6", "text": "higher" },
+            { "id": "t7", "text": "value" },
+            { "id": "t8", "text": "for" },
+            { "id": "t9", "text": "a" },
+            { "id": "t10", "text": "lesser" },
+            { "id": "t11", "text": "one" },
+            { "id": "d1", "text": "virtue" },
+            { "id": "d2", "text": "equal" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10", "t11"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the order: the higher value is given up, and the lesser value is what remains."
+          }
+        },
+        {
+          "id": "hf5",
+          "type": "choice",
+          "prompt": "Which trade fits the definition of sacrifice?",
+          "answer": "career",
+          "choices": [
+            { "id": "career", "text": "Dropping a career you value more to keep a habit you value less" },
+            { "id": "study", "text": "Spending an evening on study you rank above the party" },
+            { "id": "price", "text": "Paying money for a tool you need more than the cash" },
+            { "id": "rest", "text": "Resting so you can do better work tomorrow" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the first trade surrenders the higher value for the lesser one. The others move toward what ranks higher."
+          }
+        },
+        {
+          "id": "hf6",
+          "type": "match",
+          "prompt": "Match each phrase to what it describes.",
+          "pairs": [
+            { "id": "p1", "left": "Higher value given up", "right": "The loss that makes the act a sacrifice" },
+            { "id": "p2", "left": "Lesser value accepted", "right": "What is chosen in place of the higher value" },
+            { "id": "p3", "left": "A mere cost for a greater gain", "right": "Not this unit’s definition of sacrifice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The definition turns on rank. A cost that buys something you value more is a different kind of trade."
+          }
+        },
+        {
+          "id": "hf7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the contrast inside the definition.",
+          "parts": [
+            { "type": "text", "text": "You give up the higher value for a " },
+            { "type": "blank", "id": "b1", "answer": "lesser" },
+            { "type": "text", "text": " one." }
+          ],
+          "bank": ["lesser", "higher", "sacred", "random"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Lesser means lower on your own ranking of values, not merely smaller in size or price."
+          }
+        },
+        {
+          "id": "hf8",
+          "type": "choice",
+          "prompt": "What must be true of the two values for the trade to be a sacrifice?",
+          "answer": "rank",
+          "choices": [
+            { "id": "rank", "text": "The one given up ranks higher than the one accepted" },
+            { "id": "same", "text": "They must be equal in your judgment" },
+            { "id": "public", "text": "Other people must approve the loss" },
+            { "id": "hurt", "text": "The act must hurt, whatever the ranks are" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Without a higher value surrendered for a lesser one, the definition does not apply."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-every-cost",
+      "title": "Not every cost",
+      "objective": "Separate a cost paid to gain a higher value from sacrifice as this unit defines it.",
+      "exercises": [
+        {
+          "id": "nc1",
+          "type": "choice",
+          "prompt": "You skip a snack you care little about so you can finish work you care about more. Is that a sacrifice on this ladder?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. The thing given up ranks lower than the thing gained" },
+            { "id": "yes", "text": "Yes. Any skipped pleasure is a sacrifice" },
+            { "id": "if", "text": "Only if someone else notices the skip" },
+            { "id": "always", "text": "Yes, because work always counts as a loss" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A cost is not a sacrifice when what you keep or gain ranks higher than what you give up."
+          }
+        },
+        {
+          "id": "nc2",
+          "type": "match",
+          "prompt": "Match each trade to the label this unit uses.",
+          "pairs": [
+            { "id": "p1", "left": "Give up a lesser value for a higher one", "right": "Not a sacrifice" },
+            { "id": "p2", "left": "Give up a higher value for a lesser one", "right": "Sacrifice" },
+            { "id": "p3", "left": "Pay a price you judge worth the gain", "right": "A cost, not a sacrifice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The same outward loss can be a cost or a sacrifice. The rank of the values decides which."
+          }
+        },
+        {
+          "id": "nc3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast.",
+          "parts": [
+            { "type": "text", "text": "Paying a cost to gain a higher value is not a " },
+            { "type": "blank", "id": "b1", "answer": "sacrifice" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["sacrifice", "choice", "value", "fact"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit keeps the word sacrifice for the downward trade, not for every price a person pays."
+          }
+        },
+        {
+          "id": "nc4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that marks a cost as not a sacrifice.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "cost" },
+            { "id": "t3", "text": "for" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "higher" },
+            { "id": "t6", "text": "value" },
+            { "id": "t7", "text": "is" },
+            { "id": "t8", "text": "not" },
+            { "id": "t9", "text": "a" },
+            { "id": "t10", "text": "sacrifice" },
+            { "id": "d1", "text": "always" },
+            { "id": "d2", "text": "virtue" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If the gain ranks higher, the payment is a cost in service of that value, not a sacrifice."
+          }
+        },
+        {
+          "id": "nc5",
+          "type": "choice",
+          "prompt": "Which everyday idea does this unit refuse to treat as sacrifice?",
+          "answer": "effort",
+          "choices": [
+            { "id": "effort", "text": "Effort spent to reach something you value more" },
+            { "id": "down", "text": "Trading away what you value more for what you value less" },
+            { "id": "swap", "text": "Dropping your top value to protect a minor convenience" },
+            { "id": "loss", "text": "Surrendering the greater good for a smaller one" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Effort toward a higher value is often called a sacrifice in ordinary speech. This ladder does not use the word that way."
+          }
+        },
+        {
+          "id": "nc6",
+          "type": "match",
+          "prompt": "Match the action to the rank it assumes.",
+          "pairs": [
+            { "id": "p1", "left": "Saving money you need less than the emergency fund", "right": "Lesser given up for higher" },
+            { "id": "p2", "left": "Spending the emergency fund on a whim you rank lower", "right": "Higher given up for lesser" },
+            { "id": "p3", "left": "Training because skill matters more than the spare hour", "right": "A cost aimed at a higher value" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Look at which value is higher in the person’s own ranking before you apply the word sacrifice."
+          }
+        },
+        {
+          "id": "nc7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the missing rank.",
+          "parts": [
+            { "type": "text", "text": "Giving up a lesser value for a " },
+            { "type": "blank", "id": "b1", "answer": "higher" },
+            { "type": "text", "text": " one is not a sacrifice." }
+          ],
+          "bank": ["higher", "lesser", "public", "secret"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The upward trade keeps the higher value. That is the opposite of the definition."
+          }
+        },
+        {
+          "id": "nc8",
+          "type": "choice",
+          "prompt": "Why can two similar losses get different names?",
+          "answer": "rank",
+          "choices": [
+            { "id": "rank", "text": "Because the values given up and gained may rank differently" },
+            { "id": "size", "text": "Because only large losses count, whatever you value" },
+            { "id": "words", "text": "Because the name depends on how loudly you complain" },
+            { "id": "time", "text": "Because a loss counts only if it lasts a year" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The definition is about which value is higher, not about how the loss looks from outside."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-a-virtue",
+      "title": "Not a virtue",
+      "objective": "Explain why giving up a higher value for a lesser one is not a virtue on this ladder.",
+      "exercises": [
+        {
+          "id": "nv1",
+          "type": "choice",
+          "prompt": "On this ladder, is sacrifice a virtue?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. Giving up a higher value for a lesser one is not a virtue" },
+            { "id": "yes", "text": "Yes. The greater the loss, the greater the virtue" },
+            { "id": "sometimes", "text": "Yes, whenever the loss is noticed by others" },
+            { "id": "only", "text": "Yes, but only when both values are equal" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A virtue is not made by surrendering what you hold as higher. That surrender is what this unit refuses to praise."
+          }
+        },
+        {
+          "id": "nv2",
+          "type": "match",
+          "prompt": "Match each claim to the judgment this unit makes.",
+          "pairs": [
+            { "id": "p1", "left": "Sacrifice, as defined here", "right": "Not a virtue" },
+            { "id": "p2", "left": "Giving up the higher for the lesser", "right": "The act that is not to be praised" },
+            { "id": "p3", "left": "Treating that loss as moral greatness", "right": "A mistake this unit rejects" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit’s second claim is a refusal: that kind of giving up is not a moral virtue."
+          }
+        },
+        {
+          "id": "nv3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the moral claim.",
+          "parts": [
+            { "type": "text", "text": "Sacrifice is not a " },
+            { "type": "blank", "id": "b1", "answer": "virtue" },
+            { "type": "text", "text": " on this ladder." }
+          ],
+          "bank": ["virtue", "fact", "trade", "cost"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The definition and the moral claim go together. The downward trade is identified, then denied the status of a virtue."
+          }
+        },
+        {
+          "id": "nv4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that withholds praise.",
+          "tokens": [
+            { "id": "t1", "text": "Giving" },
+            { "id": "t2", "text": "up" },
+            { "id": "t3", "text": "a" },
+            { "id": "t4", "text": "higher" },
+            { "id": "t5", "text": "value" },
+            { "id": "t6", "text": "is" },
+            { "id": "t7", "text": "not" },
+            { "id": "t8", "text": "a" },
+            { "id": "t9", "text": "virtue" },
+            { "id": "d1", "text": "always" },
+            { "id": "d2", "text": "duty" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Praise does not attach to the loss of the higher value. That is why the act is not called a virtue."
+          }
+        },
+        {
+          "id": "nv5",
+          "type": "choice",
+          "prompt": "Why does this ladder refuse to call sacrifice a virtue?",
+          "answer": "down",
+          "choices": [
+            { "id": "down", "text": "Because it is the surrender of a higher value for a lesser one" },
+            { "id": "hard", "text": "Because virtuous acts must be easy" },
+            { "id": "rare", "text": "Because a virtue cannot involve any choice" },
+            { "id": "name", "text": "Because the word itself is too old to use" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The reason is the direction of the trade. What is given up matters more, on the person’s ranking, than what is gained."
+          }
+        },
+        {
+          "id": "nv6",
+          "type": "match",
+          "prompt": "Match the idea people sometimes praise with the correction.",
+          "pairs": [
+            { "id": "p1", "left": "A loss is noble because it is a loss", "right": "Rejected. Rank decides, not the mere fact of loss" },
+            { "id": "p2", "left": "The bigger sacrifice is the better virtue", "right": "Rejected. That trade is not a virtue at all" },
+            { "id": "p3", "left": "Keeping the higher value", "right": "Not the act this unit calls sacrifice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Size of loss does not turn a downward trade into a virtue. The unit denies that status outright."
+          }
+        },
+        {
+          "id": "nv7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the reason the act fails as a virtue.",
+          "parts": [
+            { "type": "text", "text": "It gives up the " },
+            { "type": "blank", "id": "b1", "answer": "higher" },
+            { "type": "text", "text": " value for a lesser one." }
+          ],
+          "bank": ["higher", "lesser", "only", "shared"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "What makes the act fail as a virtue is the same fact that makes it a sacrifice: the higher value is the one abandoned."
+          }
+        },
+        {
+          "id": "nv8",
+          "type": "choice",
+          "prompt": "Which praise does this unit reject?",
+          "answer": "noble",
+          "choices": [
+            { "id": "noble", "text": "Calling the surrender of a higher value a moral virtue" },
+            { "id": "name", "text": "Naming that surrender a sacrifice" },
+            { "id": "rank", "text": "Checking which of two values ranks higher" },
+            { "id": "cost", "text": "Admitting that some choices have a cost" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit keeps the definition and drops the praise. Naming the act is not the same as calling it a virtue."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rank-the-values",
+      "title": "Rank decides",
+      "objective": "Use the rank of two values to decide whether a trade is a sacrifice.",
+      "exercises": [
+        {
+          "id": "rv1",
+          "type": "choice",
+          "prompt": "You value your honesty more than a small cash gain, and you refuse the cash. What did you do?",
+          "answer": "keep",
+          "choices": [
+            { "id": "keep", "text": "Kept the higher value. That is not a sacrifice" },
+            { "id": "sac", "text": "Sacrificed honesty for the cash" },
+            { "id": "both", "text": "Sacrificed both values equally" },
+            { "id": "none", "text": "Made no choice about values" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Refusing the lesser gain protects the higher value. Sacrifice would have been taking the cash and dropping honesty."
+          }
+        },
+        {
+          "id": "rv2",
+          "type": "match",
+          "prompt": "Match each ranking to the trade that would be a sacrifice.",
+          "pairs": [
+            { "id": "p1", "left": "Health ranks above a dare", "right": "Taking the dare and wrecking your health" },
+            { "id": "p2", "left": "A friendship ranks above gossip", "right": "Spreading the gossip and losing the friend" },
+            { "id": "p3", "left": "Your work ranks above a distraction", "right": "Dropping the work for the distraction" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "In each pair, sacrifice is the choice that abandons the value you already rank as higher."
+          }
+        },
+        {
+          "id": "rv3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the test.",
+          "parts": [
+            { "type": "text", "text": "Ask which value ranks " },
+            { "type": "blank", "id": "b1", "answer": "higher" },
+            { "type": "text", "text": " before you call the trade a sacrifice." }
+          ],
+          "bank": ["higher", "louder", "older", "cheaper"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rank is the test. Without it, a cost and a sacrifice look the same."
+          }
+        },
+        {
+          "id": "rv4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the rule for judging a trade.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "higher" },
+            { "id": "t3", "text": "value" },
+            { "id": "t4", "text": "is" },
+            { "id": "t5", "text": "the" },
+            { "id": "t6", "text": "one" },
+            { "id": "t7", "text": "you" },
+            { "id": "t8", "text": "should" },
+            { "id": "t9", "text": "not" },
+            { "id": "t10", "text": "surrender" },
+            { "id": "d1", "text": "lesser" },
+            { "id": "d2", "text": "always" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Surrender is the sacrifice when it hits the higher value. The rule is to identify that value first."
+          }
+        },
+        {
+          "id": "rv5",
+          "type": "choice",
+          "prompt": "Two people give up the same afternoon. One ranks the project above the outing. The other ranks the outing above the project, then skips the outing anyway. Who made a sacrifice?",
+          "answer": "second",
+          "choices": [
+            { "id": "second", "text": "The second person, who gave up the higher value" },
+            { "id": "first", "text": "The first person, who worked on the higher value" },
+            { "id": "both", "text": "Both, because both lost an afternoon" },
+            { "id": "neither", "text": "Neither, because time cannot be a value" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The same hours can be a cost for one person and a sacrifice for another. Their rankings differ."
+          }
+        },
+        {
+          "id": "rv6",
+          "type": "match",
+          "prompt": "Match the question to the answer it seeks.",
+          "pairs": [
+            { "id": "p1", "left": "Which value is higher?", "right": "The one sacrifice would give up" },
+            { "id": "p2", "left": "Which value is lesser?", "right": "The one sacrifice would accept instead" },
+            { "id": "p3", "left": "Did you keep the higher value?", "right": "Then the trade was not a sacrifice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Three checks use one scale: higher, lesser, and which of them the choice actually keeps."
+          }
+        },
+        {
+          "id": "rv7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the decision rule.",
+          "parts": [
+            { "type": "text", "text": "If you give up the higher value, the trade is a " },
+            { "type": "blank", "id": "b1", "answer": "sacrifice" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["sacrifice", "virtue", "standard", "axiom"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The rule is direct. Giving up the higher value is what the word sacrifice picks out."
+          }
+        },
+        {
+          "id": "rv8",
+          "type": "choice",
+          "prompt": "What should you not use as the test?",
+          "answer": "pain",
+          "choices": [
+            { "id": "pain", "text": "How much the choice hurts, apart from which value is higher" },
+            { "id": "rank", "text": "Which of the two values you rank as higher" },
+            { "id": "keep", "text": "Whether the choice keeps the higher value" },
+            { "id": "swap", "text": "Whether the lesser value is what you accept instead" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Pain, effort, and the look of a loss do not replace the ranking of the two values."
+          }
+        },
+        {
+          "id": "rv9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the short test.",
+          "tokens": [
+            { "id": "t1", "text": "Rank" },
+            { "id": "t2", "text": "the" },
+            { "id": "t3", "text": "values" },
+            { "id": "t4", "text": "before" },
+            { "id": "t5", "text": "you" },
+            { "id": "t6", "text": "name" },
+            { "id": "t7", "text": "the" },
+            { "id": "t8", "text": "trade" },
+            { "id": "d1", "text": "after" },
+            { "id": "d2", "text": "ignore" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Naming comes after ranking. Otherwise the word sacrifice is only a comment on discomfort."
+          }
+        }
+      ]
+    },
+    {
+      "id": "whole-claim",
+      "title": "The claim together",
+      "objective": "State the whole unit: sacrifice is giving up a higher value for a lesser one, and that is not a virtue.",
+      "exercises": [
+        {
+          "id": "wc1",
+          "type": "choice",
+          "prompt": "Which sentence states the whole unit?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "Sacrifice is giving up a higher value for a lesser one, and that is not a virtue" },
+            { "id": "onlydef", "text": "Sacrifice is any cost, and every cost is a virtue" },
+            { "id": "onlyno", "text": "Nothing a person gives up can be named at all" },
+            { "id": "flip", "text": "Sacrifice is keeping the higher value, and that is not allowed" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit has two parts that stay together: the definition, and the denial that the act is a virtue."
+          }
+        },
+        {
+          "id": "wc2",
+          "type": "match",
+          "prompt": "Match each part of the unit to its job.",
+          "pairs": [
+            { "id": "p1", "left": "Giving up a higher value for a lesser one", "right": "The definition of sacrifice" },
+            { "id": "p2", "left": "That act is not a virtue", "right": "The moral claim" },
+            { "id": "p3", "left": "A cost paid for a higher value", "right": "Outside the definition" },
+            { "id": "p4", "left": "Both parts in one statement", "right": "The unit held together" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Definition, denial, and the excluded case are one lesson when you can say them in a single breath."
+          }
+        },
+        {
+          "id": "wc3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete both halves.",
+          "parts": [
+            { "type": "text", "text": "Sacrifice gives up a higher value for a lesser one, and it is not a " },
+            { "type": "blank", "id": "b1", "answer": "virtue" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["virtue", "price", "habit", "name"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The blank is the moral half. The first half already states what the act is."
+          }
+        },
+        {
+          "id": "wc4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the full claim.",
+          "tokens": [
+            { "id": "t1", "text": "Sacrifice" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "virtue" },
+            { "id": "t6", "text": "because" },
+            { "id": "t7", "text": "it" },
+            { "id": "t8", "text": "drops" },
+            { "id": "t9", "text": "a" },
+            { "id": "t10", "text": "higher" },
+            { "id": "t11", "text": "value" },
+            { "id": "d1", "text": "lesser" },
+            { "id": "d2", "text": "always" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10", "t11"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The because ties the two halves. The act is not a virtue for the reason the definition already names."
+          }
+        },
+        {
+          "id": "wc5",
+          "type": "choice",
+          "prompt": "Someone says every hard choice is a virtuous sacrifice. What does this unit answer?",
+          "answer": "split",
+          "choices": [
+            { "id": "split", "text": "A hard cost for a higher value is not a sacrifice, and a real sacrifice is not a virtue" },
+            { "id": "agree", "text": "Yes. Hardship itself is the virtue" },
+            { "id": "none", "text": "No choice can be hard if values are ranked" },
+            { "id": "all", "text": "Every trade of values is a sacrifice, virtuous or not" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The answer uses both lessons: do not call every cost a sacrifice, and do not call a sacrifice a virtue."
+          }
+        },
+        {
+          "id": "wc6",
+          "type": "match",
+          "prompt": "Match the mistake to the correction.",
+          "pairs": [
+            { "id": "p1", "left": "Calling every cost a sacrifice", "right": "Check whether the higher value was given up" },
+            { "id": "p2", "left": "Praising that giving up as a virtue", "right": "This ladder does not treat it as a virtue" },
+            { "id": "p3", "left": "Ignoring which value ranks higher", "right": "Rank is what makes the definition work" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each mistake drops one piece of the unit. The correction puts that piece back."
+          }
+        },
+        {
+          "id": "wc7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both key words.",
+          "parts": [
+            { "type": "text", "text": "Give up the " },
+            { "type": "blank", "id": "b1", "answer": "higher" },
+            { "type": "text", "text": " value for a lesser one, and you have a sacrifice, not a " },
+            { "type": "blank", "id": "b2", "answer": "virtue" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["higher", "virtue", "lesser", "cost"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Higher marks the value that is lost. Virtue is the status the unit withholds from that loss."
+          }
+        },
+        {
+          "id": "wc8",
+          "type": "choice",
+          "prompt": "Which pair of ideas must you not split apart?",
+          "answer": "pair",
+          "choices": [
+            { "id": "pair", "text": "The definition of sacrifice and the claim that it is not a virtue" },
+            { "id": "pain", "text": "How tired you feel and how long the day was" },
+            { "id": "price", "text": "The cash price and the store receipt" },
+            { "id": "mood", "text": "A passing mood and a change in the weather" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The summary is one claim with two halves. Either half alone is only part of the unit."
+          }
+        },
+        {
+          "id": "wc9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the closing line.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "sacrifice" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "not" },
+            { "id": "t5", "text": "a" },
+            { "id": "t6", "text": "virtue" },
+            { "id": "d1", "text": "always" },
+            { "id": "d2", "text": "required" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That short line is the moral half. It still depends on the definition of what a sacrifice is."
+          }
+        },
+        {
+          "id": "wc10",
+          "type": "choice",
+          "prompt": "A person keeps a lesser comfort and drops a value he himself ranks higher, then calls the drop virtuous. What is wrong on this ladder?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "The drop is a sacrifice, and a sacrifice is not a virtue" },
+            { "id": "name", "text": "Nothing is wrong, because comfort always outranks other values" },
+            { "id": "word", "text": "The only error is using the word sacrifice" },
+            { "id": "rank", "text": "Rank does not matter once the person feels proud" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Pride in the loss does not change the rank. The higher value was given up for a lesser one, and that is not a virtue."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

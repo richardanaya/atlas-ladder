@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atlas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <style>
+    html, body { margin: 0; height: 100%; background: #2A4E5A; color: #f7f7f5; }
+    body {
+      min-height: 100%;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      font-family: Antonio, "Avenir Next", sans-serif;
+    }
+    header, footer { display: flex; align-items: baseline; justify-content: space-between; padding: 18px 28px 0; }
+    footer { padding-bottom: 22px; justify-content: center; }
+    h1 { margin: 0; font-weight: 100; letter-spacing: 0.18em; text-transform: uppercase; font-size: 1.35rem; }
+    p { margin: 0; letter-spacing: 0.14em; text-transform: uppercase; font-size: 0.78rem; opacity: 0.75; }
+    main { display: grid; place-items: center; }
+    .poses { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+    button {
+      font: inherit; letter-spacing: 0.12em; text-transform: uppercase;
+      background: transparent; color: #f7f7f5; border: 1px solid #A8C4CF;
+      padding: 8px 14px; cursor: pointer;
+    }
+    button[aria-pressed="true"] { background: #f7f7f5; color: #2A4E5A; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Atlas</h1>
+    <p id="pose-name">Idle</p>
+  </header>
+  <main>
+    <atlas-mascot id="atlas" state="idle" size="studio"></atlas-mascot>
+  </main>
+  <footer>
+    <div class="poses" id="poses">
+      <button type="button" data-pose="idle" aria-pressed="true">Idle</button>
+      <button type="button" data-pose="thinking">Thinking</button>
+      <button type="button" data-pose="encourage">Encourage</button>
+      <button type="button" data-pose="cheer">Cheer</button>
+      <button type="button" data-pose="celebrate">Celebrate</button>
+    </div>
+  </footer>
+  <script type="module">
+    import './js/components/atlas-mascot.js';
+    const atlas = document.querySelector('#atlas');
+    const name = document.querySelector('#pose-name');
+    document.querySelector('#poses').addEventListener('click', (event) => {
+      const button = event.target.closest('button');
+      if (!button) return;
+      const pose = button.dataset.pose;
+      atlas.setAttribute('state', pose);
+      name.textContent = button.textContent;
+      for (const item of document.querySelectorAll('#poses button')) {
+        item.setAttribute('aria-pressed', item === button ? 'true' : 'false');
+      }
+    });
+  </script>
+</body>
+</html>

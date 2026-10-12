@@ -1,0 +1,841 @@
+{
+  "sectionId": "aesthetics",
+  "sectionFile": "aesthetics.json",
+  "unitId": "judgment",
+  "title": "Esthetic Judgment",
+  "summary": "How to judge a work by what it does as art, which is not the same as agreeing with its philosophy.",
+  "lessons": [
+    {
+      "id": "two-questions",
+      "title": "Two different questions",
+      "objective": "Separate an esthetic judgment of a work from a philosophical agreement with its ideas.",
+      "exercises": [
+        {
+          "id": "tq-choice-ask",
+          "type": "choice",
+          "prompt": "What does an esthetic judgment ask about a work?",
+          "answer": "does",
+          "choices": [
+            { "id": "does", "text": "What it does as art" },
+            { "id": "vote", "text": "Whether you vote with its author" },
+            { "id": "price", "text": "Whether the price is high" },
+            { "id": "fame", "text": "Whether the artist is famous" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Esthetic judgment looks at the work as art. Agreement, price, and fame are different questions."
+          }
+        },
+        {
+          "id": "tq-choice-agree",
+          "type": "choice",
+          "prompt": "Agreeing with a work’s stated ideas is which kind of judgment?",
+          "answer": "phil",
+          "choices": [
+            { "id": "phil", "text": "A philosophical judgment" },
+            { "id": "est", "text": "Already a full esthetic judgment" },
+            { "id": "mkt", "text": "A market forecast" },
+            { "id": "bio", "text": "A biography of the artist" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Sharing a philosophy answers whether you accept the ideas. It does not by itself grade the work as art."
+          }
+        },
+        {
+          "id": "tq-match-kinds",
+          "type": "match",
+          "prompt": "Match each question to the kind of judgment it is.",
+          "pairs": [
+            { "id": "hold", "left": "Does this painting hold together as a painting?", "right": "Esthetic" },
+            { "id": "hist", "left": "Is the novel’s theory of history true?", "right": "Philosophical" },
+            { "id": "whole", "left": "Did the sculpture make one whole in its medium?", "right": "Esthetic" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Questions about the work as art stay esthetic. A question about whether a theory is true is philosophical."
+          }
+        },
+        {
+          "id": "tq-fill-not-same",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit’s distinction.",
+          "parts": [
+            { "type": "text", "text": "Judge the work by what it " },
+            { "type": "blank", "id": "b1", "answer": "does" },
+            { "type": "text", "text": " as art, not by whether you " },
+            { "type": "blank", "id": "b2", "answer": "agree" },
+            { "type": "text", "text": " with its philosophy." }
+          ],
+          "bank": ["does", "agree", "costs", "ignores"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two blanks name the split: performance as art on one side, agreement on the other."
+          }
+        },
+        {
+          "id": "tq-sentence-split",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the split.",
+          "tokens": [
+            { "id": "t1", "text": "Esthetic" },
+            { "id": "t2", "text": "judgment" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "not" },
+            { "id": "t5", "text": "agreement" },
+            { "id": "d1", "text": "price" },
+            { "id": "d2", "text": "fame" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The judgment and the agreement are neighbors that people mix. They are not the same act."
+          }
+        },
+        {
+          "id": "tq-choice-still",
+          "type": "choice",
+          "prompt": "A reader who rejects a novel’s ideas can still do what?",
+          "answer": "judge",
+          "choices": [
+            { "id": "judge", "text": "Judge whether the novel succeeds as art" },
+            { "id": "skip", "text": "Skip judgment, because disagreement ends the question" },
+            { "id": "burn", "text": "Treat disagreement as proof the art failed" },
+            { "id": "copy", "text": "Copy the ideas in order to be fair" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rejection of the philosophy leaves the esthetic question open. It does not answer it."
+          }
+        },
+        {
+          "id": "tq-choice-mix",
+          "type": "choice",
+          "prompt": "Which remark mixes the two questions?",
+          "answer": "bad",
+          "choices": [
+            { "id": "bad", "text": "I disagree, so the book is bad as art." },
+            { "id": "open", "text": "I disagree, and I still have to judge the art." },
+            { "id": "sep", "text": "The ideas are one issue. The work as art is another." },
+            { "id": "both", "text": "I can answer each question on its own." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Disagreement is not an esthetic grade. Using it as one collapses the two questions."
+          }
+        },
+        {
+          "id": "tq-match-evidence",
+          "type": "match",
+          "prompt": "Match each item to the role it can play.",
+          "pairs": [
+            { "id": "like", "left": "Liking the message", "right": "Not yet an esthetic judgment" },
+            { "id": "integ", "left": "A clear whole in the medium", "right": "Evidence for an esthetic judgment" },
+            { "id": "essay", "left": "A true premise in a separate essay", "right": "Philosophy outside the work" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only what the work does as art supplies the esthetic evidence. Approval and a side essay do not."
+          }
+        },
+        {
+          "id": "tq-fill-both",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the pair of verdicts one person can hold.",
+          "parts": [
+            { "type": "text", "text": "You can praise the work as " },
+            { "type": "blank", "id": "b1", "answer": "art" },
+            { "type": "text", "text": " and still reject its " },
+            { "type": "blank", "id": "b2", "answer": "philosophy" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["art", "philosophy", "price", "autograph"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two verdicts are allowed to differ. Praise of the art is not a signature under the philosophy."
+          }
+        },
+        {
+          "id": "tq-choice-rule",
+          "type": "choice",
+          "prompt": "Which line is the rule of this unit?",
+          "answer": "rule",
+          "choices": [
+            { "id": "rule", "text": "Judge the work by what it does as art." },
+            { "id": "club", "text": "Judge the work by the club the artist joins." },
+            { "id": "mood", "text": "Judge the work by your mood that afternoon." },
+            { "id": "age", "text": "Judge the work by how old it is." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Club, mood, and age are not the standard. The standard is what the work does as art."
+          }
+        }
+      ]
+    },
+    {
+      "id": "what-it-does",
+      "title": "What the work does as art",
+      "objective": "Judge by the selective re-creation the work actually presents, not by a slogan placed beside it.",
+      "exercises": [
+        {
+          "id": "wd-choice-job",
+          "type": "choice",
+          "prompt": "As art, what is the work supposed to have done?",
+          "answer": "sel",
+          "choices": [
+            { "id": "sel", "text": "Presented a selective re-creation, formed as one work" },
+            { "id": "list", "text": "Listed every fact about its subject" },
+            { "id": "vote", "text": "Won a vote for a party" },
+            { "id": "hide", "text": "Hidden its subject so nothing can be seen" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The esthetic question looks for a selective re-creation that stands as a work, not a dump of facts or a campaign."
+          }
+        },
+        {
+          "id": "wd-choice-preface",
+          "type": "choice",
+          "prompt": "A slogan in the preface, while the work itself is muddled, counts as what?",
+          "answer": "not",
+          "choices": [
+            { "id": "not", "text": "Not a substitute for what the work does" },
+            { "id": "fix", "text": "A repair of the work as art" },
+            { "id": "all", "text": "The whole esthetic judgment" },
+            { "id": "med", "text": "The medium of the work" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A line beside the work can announce an intention. It cannot do the work’s job for it."
+          }
+        },
+        {
+          "id": "wd-match-where",
+          "type": "match",
+          "prompt": "Match each item to where it belongs in the judgment.",
+          "pairs": [
+            { "id": "form", "left": "What is selected and how it is formed", "right": "The work as art" },
+            { "id": "talk", "left": "An interview about intentions", "right": "Outside the work" },
+            { "id": "party", "left": "The critic’s party membership", "right": "Not evidence about the work" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Judgment stays on the re-creation in the work. Talk around it, and the critic’s politics, are not that re-creation."
+          }
+        },
+        {
+          "id": "wd-fill-label",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the warning about labels.",
+          "parts": [
+            { "type": "text", "text": "Look at what the work " },
+            { "type": "blank", "id": "b1", "answer": "does" },
+            { "type": "text", "text": ", not at a " },
+            { "type": "blank", "id": "b2", "answer": "label" },
+            { "type": "text", "text": " stuck beside it." }
+          ],
+          "bank": ["does", "label", "price", "frame"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A label can name a hope. The esthetic fact is what the work itself does."
+          }
+        },
+        {
+          "id": "wd-sentence-present",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the instruction for this lesson.",
+          "tokens": [
+            { "id": "t1", "text": "Judge" },
+            { "id": "t2", "text": "the" },
+            { "id": "t3", "text": "re-creation" },
+            { "id": "t4", "text": "the" },
+            { "id": "t5", "text": "work" },
+            { "id": "t6", "text": "presents" },
+            { "id": "d1", "text": "caption" },
+            { "id": "d2", "text": "rumor" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The object of judgment is the re-creation on the page, the stage, or the wall, not a caption or a rumor."
+          }
+        },
+        {
+          "id": "wd-choice-image",
+          "type": "choice",
+          "prompt": "A painting is judged esthetically by which of these?",
+          "answer": "img",
+          "choices": [
+            { "id": "img", "text": "What the image presents and how it is made" },
+            { "id": "wall", "text": "The wall text alone" },
+            { "id": "gift", "text": "Who gave the museum the painting" },
+            { "id": "seat", "text": "How soft the gallery bench is" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The image is the work. A wall text can help a visitor, but it is not the painting."
+          }
+        },
+        {
+          "id": "wd-choice-same-msg",
+          "type": "choice",
+          "prompt": "Two works share a message. What follows for esthetic judgment?",
+          "answer": "diff",
+          "choices": [
+            { "id": "diff", "text": "They can still differ in what they do as art" },
+            { "id": "same", "text": "They must be equal as art" },
+            { "id": "none", "text": "Neither can be judged" },
+            { "id": "win", "text": "The longer one wins" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A shared message does not settle the art. Each work is graded by the re-creation it presents."
+          }
+        },
+        {
+          "id": "wd-match-jobs",
+          "type": "match",
+          "prompt": "Match each case to what it does as art.",
+          "pairs": [
+            { "id": "one", "left": "A selective whole that embodies its view", "right": "Does the job of art" },
+            { "id": "pile", "left": "A pile of true facts with no selection", "right": "Does not do that job" },
+            { "id": "cap", "left": "A caption that states the moral for a blank canvas", "right": "Does not replace the work" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Truth in a pile, or a moral in a caption, is not yet a selective re-creation."
+          }
+        },
+        {
+          "id": "wd-fill-follow",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the comparison of two works that share a creed.",
+          "parts": [
+            { "type": "text", "text": "The esthetic question follows each " },
+            { "type": "blank", "id": "b1", "answer": "work" },
+            { "type": "text", "text": ", not the shared " },
+            { "type": "blank", "id": "b2", "answer": "creed" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["work", "creed", "poster", "seat"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The creed can be the same while the works are not. Follow the work."
+          }
+        },
+        {
+          "id": "wd-choice-means-line",
+          "type": "choice",
+          "prompt": "In this unit, “what it does as art” means which of these?",
+          "answer": "acc",
+          "choices": [
+            { "id": "acc", "text": "What it accomplishes as a selective re-creation" },
+            { "id": "ads", "text": "How many ads it sells" },
+            { "id": "yrs", "text": "How many years the artist spent" },
+            { "id": "ink", "text": "How much ink the printer used" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Time, ink, and sales are not the accomplishment. The accomplishment is the re-creation the work achieves."
+          }
+        }
+      ]
+    },
+    {
+      "id": "skill-and-view",
+      "title": "Skill is not a vote",
+      "objective": "See that artistic skill and agreement with a philosophy can come apart in either direction.",
+      "exercises": [
+        {
+          "id": "sv-choice-strong",
+          "type": "choice",
+          "prompt": "A work is highly skilled, and you reject its philosophy. What can you say?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "It can be strong as art while you reject the view" },
+            { "id": "must", "text": "Skill forces you to accept the view" },
+            { "id": "zero", "text": "Rejection forces the skill to count as zero" },
+            { "id": "ban", "text": "Skill is not allowed in a work you reject" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Skill is about what the work does as art. It does not cast your vote on the philosophy."
+          }
+        },
+        {
+          "id": "sv-choice-clumsy",
+          "type": "choice",
+          "prompt": "You accept the philosophy, and the work is clumsy as art. What follows?",
+          "answer": "not",
+          "choices": [
+            { "id": "not", "text": "Agreement does not make the work good art" },
+            { "id": "good", "text": "Agreement repairs the clumsiness" },
+            { "id": "only", "text": "Clumsiness proves the philosophy is false" },
+            { "id": "hide", "text": "You must hide the clumsiness" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A welcome philosophy cannot stand in for a re-creation the work failed to achieve."
+          }
+        },
+        {
+          "id": "sv-match-splits",
+          "type": "match",
+          "prompt": "Match each split to the fair description.",
+          "pairs": [
+            { "id": "rej", "left": "Skilled projection of a view you reject", "right": "Strong as art, disputed as philosophy" },
+            { "id": "acc", "left": "Clumsy projection of a view you accept", "right": "Welcome as philosophy, weak as art" },
+            { "id": "mix", "left": "Treating skill as a vote for the ideas", "right": "A mix-up of the two questions" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each direction of the split is possible. Only the third line confuses skill with agreement."
+          }
+        },
+        {
+          "id": "sv-fill-ballot",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line about what skill is evidence of.",
+          "parts": [
+            { "type": "text", "text": "Skill is evidence about the " },
+            { "type": "blank", "id": "b1", "answer": "art" },
+            { "type": "text", "text": ", not a ballot for the " },
+            { "type": "blank", "id": "b2", "answer": "philosophy" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["art", "philosophy", "ticket", "gallery"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A ballot chooses a view. Skill shows what the work accomplished as art."
+          }
+        },
+        {
+          "id": "sv-sentence-vote",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that keeps skill off the ballot.",
+          "tokens": [
+            { "id": "t1", "text": "Skill" },
+            { "id": "t2", "text": "does" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "vote" },
+            { "id": "t5", "text": "for" },
+            { "id": "t6", "text": "the" },
+            { "id": "t7", "text": "philosophy" },
+            { "id": "d1", "text": "poster" },
+            { "id": "d2", "text": "price" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "You can record the skill and withhold agreement. The skill did not vote."
+          }
+        },
+        {
+          "id": "sv-choice-fair",
+          "type": "choice",
+          "prompt": "Which report is a fair split?",
+          "answer": "fair",
+          "choices": [
+            { "id": "fair", "text": "The play is well made, and I still reject its view of man." },
+            { "id": "swap", "text": "The play is well made, so I must accept its view of man." },
+            { "id": "erase", "text": "I reject the view, so the making does not count." },
+            { "id": "same", "text": "Well made and true-for-me are the same phrase." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The fair report keeps the making and the view in separate columns."
+          }
+        },
+        {
+          "id": "sv-choice-unfair",
+          "type": "choice",
+          "prompt": "Which report is unfair to the art?",
+          "answer": "share",
+          "choices": [
+            { "id": "share", "text": "I share the moral, so the drawing must be good." },
+            { "id": "look", "text": "I share the moral, and I still look at the drawing." },
+            { "id": "weak", "text": "I share the moral, and the drawing is still weak." },
+            { "id": "ask", "text": "Sharing the moral leaves the drawing to be judged." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A shared moral is not a grade for the drawing. The drawing still has to do its job."
+          }
+        },
+        {
+          "id": "sv-fill-pair",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the two verbs you may use together.",
+          "parts": [
+            { "type": "text", "text": "You may " },
+            { "type": "blank", "id": "b1", "answer": "admire" },
+            { "type": "text", "text": " the craft and " },
+            { "type": "blank", "id": "b2", "answer": "reject" },
+            { "type": "text", "text": " the ideas in the same work." }
+          ],
+          "bank": ["admire", "reject", "buy", "erase"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Admire names the esthetic side. Reject names the philosophical side. Both can stand."
+          }
+        },
+        {
+          "id": "sv-match-roles",
+          "type": "match",
+          "prompt": "Match each act to what it is.",
+          "pairs": [
+            { "id": "craft", "left": "Admiring the craft", "right": "An esthetic response" },
+            { "id": "ideas", "left": "Rejecting the ideas", "right": "A philosophical response" },
+            { "id": "asif", "left": "Treating admiration as agreement", "right": "A mix-up" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Admiration is not a signature. Calling it agreement mixes the two responses."
+          }
+        }
+      ]
+    },
+    {
+      "id": "theme-and-means",
+      "title": "Theme through the means",
+      "objective": "Ask whether the theme is carried by the work’s own means, rather than by a lecture standing in for the art.",
+      "exercises": [
+        {
+          "id": "tm-choice-when",
+          "type": "choice",
+          "prompt": "When does a theme belong inside an esthetic judgment?",
+          "answer": "means",
+          "choices": [
+            { "id": "means", "text": "When the work’s own means carry it" },
+            { "id": "note", "text": "When a footnote states it and the work does not" },
+            { "id": "friend", "text": "When a friend explains it after you leave" },
+            { "id": "trend", "text": "When a trend says themes are fashionable" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The theme counts as part of what the work does only if the means of that work carry it."
+          }
+        },
+        {
+          "id": "tm-choice-lecture",
+          "type": "choice",
+          "prompt": "A lecture stands in for the story, and the story never embodies the point. What is that, as art?",
+          "answer": "fail",
+          "choices": [
+            { "id": "fail", "text": "A failure to do the job, even if the lecture is true" },
+            { "id": "save", "text": "A success, because truth repairs any story" },
+            { "id": "only", "text": "The best use of a story’s means" },
+            { "id": "skip", "text": "Something esthetic judgment must ignore" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A true speech is still a speech. If it replaces the art, the work has not done its job as art."
+          }
+        },
+        {
+          "id": "tm-match-carry",
+          "type": "match",
+          "prompt": "Match each case to the judgment it supports.",
+          "pairs": [
+            { "id": "act", "left": "The theme is shown in the action", "right": "The means are doing the work" },
+            { "id": "ann", "left": "The theme is announced, and the action never supports it", "right": "A lecture is substituting" },
+            { "id": "ign", "left": "The medium is ignored so a message can be delivered", "right": "The work is not being judged as art" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Support inside the work is the test. An announcement, or a message that skips the medium, is not that test."
+          }
+        },
+        {
+          "id": "tm-fill-through",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rule about theme and means.",
+          "parts": [
+            { "type": "text", "text": "The theme has to come " },
+            { "type": "blank", "id": "b1", "answer": "through" },
+            { "type": "text", "text": " the work’s " },
+            { "type": "blank", "id": "b2", "answer": "means" },
+            { "type": "text", "text": ", not instead of them." }
+          ],
+          "bank": ["through", "means", "around", "poster"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Through the means is the esthetic path. Around them is a lecture wearing the work’s name."
+          }
+        },
+        {
+          "id": "tm-sentence-true",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the warning about a true sentence.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "true" },
+            { "id": "t3", "text": "sentence" },
+            { "id": "t4", "text": "is" },
+            { "id": "t5", "text": "not" },
+            { "id": "t6", "text": "the" },
+            { "id": "t7", "text": "art" },
+            { "id": "d1", "text": "ticket" },
+            { "id": "d2", "text": "price" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Truth of a sentence is a philosophical point. It does not become the art by being true."
+          }
+        },
+        {
+          "id": "tm-choice-relevant",
+          "type": "choice",
+          "prompt": "How is a novel’s philosophy relevant to the esthetic question?",
+          "answer": "real",
+          "choices": [
+            { "id": "real", "text": "Only as what the novel must make real in its own story" },
+            { "id": "held", "text": "Only if it is a view you already hold" },
+            { "id": "long", "text": "Only if a character states it at the greatest length" },
+            { "id": "none", "text": "It can never appear in the story at all" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The philosophy matters esthetically as the theme the story concretizes, not as a view you prepaid for."
+          }
+        },
+        {
+          "id": "tm-choice-didactic",
+          "type": "choice",
+          "prompt": "In this lesson, what is the failure called when art is used only as a slot for a speech?",
+          "answer": "slot",
+          "choices": [
+            { "id": "slot", "text": "Letting a lecture replace the means" },
+            { "id": "sel", "text": "Selecting and forming a re-creation" },
+            { "id": "split", "text": "Keeping esthetic and philosophical questions apart" },
+            { "id": "skill", "text": "Showing skill you do not agree with" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The failure is substitution: the speech does the talking, and the means of the art do not."
+          }
+        },
+        {
+          "id": "tm-match-image",
+          "type": "match",
+          "prompt": "Match each case to its role.",
+          "pairs": [
+            { "id": "emb", "left": "An image that embodies the meaning", "right": "A painting doing its job" },
+            { "id": "mud", "left": "A note that tells you what to feel while the image is mud", "right": "Means that are failing" },
+            { "id": "prior", "left": "Your prior agreement with the meaning", "right": "Not a means of the work" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Embodiment is the painting’s job. A scolding note, and your prior agreement, are not means of that painting."
+          }
+        },
+        {
+          "id": "tm-fill-carry",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the test.",
+          "parts": [
+            { "type": "text", "text": "If the means do not " },
+            { "type": "blank", "id": "b1", "answer": "carry" },
+            { "type": "text", "text": " the theme, the work has not " },
+            { "type": "blank", "id": "b2", "answer": "done" },
+            { "type": "text", "text": " it as art." }
+          ],
+          "bank": ["carry", "done", "vote", "price"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Carry and done name the test: the means either achieve the theme as art, or they do not."
+          }
+        },
+        {
+          "id": "tm-choice-ask",
+          "type": "choice",
+          "prompt": "Which question closes this lesson?",
+          "answer": "carry",
+          "choices": [
+            { "id": "carry", "text": "Do this work’s means actually carry its theme?" },
+            { "id": "club", "text": "Does the author belong to my club?" },
+            { "id": "long", "text": "Is the speech the longest chapter?" },
+            { "id": "true", "text": "Is the theme true, and can I stop there?" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Stop on the means. Club membership, length, and bare truth do not answer whether the work carried its theme."
+          }
+        }
+      ]
+    },
+    {
+      "id": "one-standard",
+      "title": "One standard, applied",
+      "objective": "Apply the same esthetic standard to works you welcome and works you oppose.",
+      "exercises": [
+        {
+          "id": "os-choice-dislike",
+          "type": "choice",
+          "prompt": "You dislike the philosophy. What happens to the esthetic standard?",
+          "answer": "same",
+          "choices": [
+            { "id": "same", "text": "It stays the same" },
+            { "id": "drop", "text": "It is dropped" },
+            { "id": "rev", "text": "It reverses so failure counts as success" },
+            { "id": "mood", "text": "It becomes your mood" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Dislike changes your philosophical answer. It does not rewrite the esthetic standard."
+          }
+        },
+        {
+          "id": "os-choice-love",
+          "type": "choice",
+          "prompt": "You love the philosophy. What happens to the esthetic standard?",
+          "answer": "same",
+          "choices": [
+            { "id": "same", "text": "It stays the same" },
+            { "id": "soft", "text": "It softens so any effort counts as success" },
+            { "id": "skip", "text": "It no longer applies" },
+            { "id": "fan", "text": "It becomes loyalty to the author" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Love of the ideas is not a softer ruler. The work is still judged by what it does as art."
+          }
+        },
+        {
+          "id": "os-match-apply",
+          "type": "match",
+          "prompt": "Match each situation to the right move.",
+          "pairs": [
+            { "id": "love", "left": "A work you love that is poorly made", "right": "Say so under the esthetic standard" },
+            { "id": "opp", "left": "A work you oppose that is strongly made", "right": "Say so under the same standard" },
+            { "id": "unread", "left": "A work you have not taken in", "right": "No esthetic judgment yet" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The standard applies in both directions, and only to a work you have actually taken in."
+          }
+        },
+        {
+          "id": "os-fill-one",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rule of application.",
+          "parts": [
+            { "type": "text", "text": "Use one " },
+            { "type": "blank", "id": "b1", "answer": "standard" },
+            { "type": "text", "text": " for works you welcome and works you " },
+            { "type": "blank", "id": "b2", "answer": "oppose" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["standard", "oppose", "ignore", "price"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Welcome and oppose are philosophical postures. They share one esthetic standard."
+          }
+        },
+        {
+          "id": "os-sentence-same",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the instruction to keep the ruler steady.",
+          "tokens": [
+            { "id": "t1", "text": "Use" },
+            { "id": "t2", "text": "the" },
+            { "id": "t3", "text": "same" },
+            { "id": "t4", "text": "standard" },
+            { "id": "t5", "text": "either" },
+            { "id": "t6", "text": "way" },
+            { "id": "d1", "text": "softer" },
+            { "id": "d2", "text": "louder" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Either way means when you agree and when you do not. Softer and louder are not the standard."
+          }
+        },
+        {
+          "id": "os-choice-keeps",
+          "type": "choice",
+          "prompt": "Which report keeps the questions apart?",
+          "answer": "fail",
+          "choices": [
+            { "id": "fail", "text": "As art it fails to integrate, though I agree with the author." },
+            { "id": "because", "text": "As art it fails because I disagree." },
+            { "id": "so", "text": "As art it succeeds because I agree." },
+            { "id": "never", "text": "I never say what it does as art." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The first report gives the art its own grade and the philosophy a separate one."
+          }
+        },
+        {
+          "id": "os-choice-collapse",
+          "type": "choice",
+          "prompt": "Which report collapses the two questions?",
+          "answer": "dis",
+          "choices": [
+            { "id": "dis", "text": "It fails as art because I disagree." },
+            { "id": "made", "text": "It is strongly made, and I disagree." },
+            { "id": "weak", "text": "It is weakly made, and I agree." },
+            { "id": "ask", "text": "I ask what it does as art before I grade it." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Because I disagree is a philosophical reason dressed up as an esthetic grade."
+          }
+        },
+        {
+          "id": "os-match-check",
+          "type": "match",
+          "prompt": "Match each question to its job.",
+          "pairs": [
+            { "id": "art", "left": "What does it do as art?", "right": "The esthetic question" },
+            { "id": "agr", "left": "Do I agree?", "right": "The philosophical question" },
+            { "id": "which", "left": "Which question am I answering?", "right": "The check before you grade" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Name the question first. Then the grade lands on art or on agreement, not on a blur of both."
+          }
+        },
+        {
+          "id": "os-sentence-hold",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the closing instruction.",
+          "tokens": [
+            { "id": "t1", "text": "Hold" },
+            { "id": "t2", "text": "the" },
+            { "id": "t3", "text": "two" },
+            { "id": "t4", "text": "judgments" },
+            { "id": "t5", "text": "apart" },
+            { "id": "d1", "text": "price" },
+            { "id": "d2", "text": "fame" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Apart means each judgment gets its own answer: what the work does as art, and whether you agree."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

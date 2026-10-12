@@ -1,0 +1,818 @@
+{
+  "sectionId": "metaphysics",
+  "sectionFile": "metaphysics.json",
+  "unitId": "given",
+  "title": "The Metaphysically Given",
+  "summary": "Facts that are, as against facts that human choice brings into existence. What is given is not up for a vote.",
+  "lessons": [
+    {
+      "id": "facts-that-are",
+      "title": "Facts that are",
+      "objective": "Name a metaphysically given fact as something that is, not something a person decided to create.",
+      "exercises": [
+        {
+          "id": "g1e1",
+          "type": "choice",
+          "prompt": "What is the metaphysically given?",
+          "answer": "are",
+          "choices": [
+            { "id": "are", "text": "Facts that are, apart from human choice" },
+            { "id": "vote", "text": "Facts that become true when enough people agree" },
+            { "id": "made", "text": "Facts that exist only because someone chose to make them" },
+            { "id": "mood", "text": "Facts that change whenever a person feels differently" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The metaphysically given is the side of facts that simply are. Human choice did not bring them into existence."
+          }
+        },
+        {
+          "id": "g1e2",
+          "type": "choice",
+          "prompt": "Which item is a fact that is, rather than a product of choice?",
+          "answer": "burn",
+          "choices": [
+            { "id": "burn", "text": "Fire burns" },
+            { "id": "rule", "text": "A club rule that meetings start at noon" },
+            { "id": "song", "text": "A song someone wrote" },
+            { "id": "name", "text": "The name a parent picks for a child" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Fire burns whether or not anyone chose that it should. A rule, a song, and a name exist because someone chose them."
+          }
+        },
+        {
+          "id": "g1e3",
+          "type": "match",
+          "prompt": "Match each item to the kind of fact it is.",
+          "pairs": [
+            { "id": "p1", "left": "Stone is hard", "right": "A fact that is" },
+            { "id": "p2", "left": "A paved road", "right": "Brought into existence by choice" },
+            { "id": "p3", "left": "Water is wet", "right": "Metaphysically given" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Hardness and wetness are given. A road is there because people chose to build it."
+          }
+        },
+        {
+          "id": "g1e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the line for this side of the distinction.",
+          "parts": [
+            { "type": "text", "text": "The metaphysically given is facts that " },
+            { "type": "blank", "id": "b1", "answer": "are" },
+            { "type": "text", "text": ", not facts that choice creates." }
+          ],
+          "bank": ["are", "vote", "wish", "expire"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The short name for this side is facts that are. They are not waiting on a decision."
+          }
+        },
+        {
+          "id": "g1e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states what the metaphysically given is.",
+          "tokens": [
+            { "id": "t1", "text": "Facts" },
+            { "id": "t2", "text": "that" },
+            { "id": "t3", "text": "are" },
+            { "id": "d1", "text": "ballots" },
+            { "id": "d2", "text": "opinions" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Leave the distractors out. The given is facts that are, not ballots or opinions."
+          }
+        },
+        {
+          "id": "g1e6",
+          "type": "choice",
+          "prompt": "A mountain stands where it stands. What kind of fact is that?",
+          "answer": "given",
+          "choices": [
+            { "id": "given", "text": "A metaphysically given fact" },
+            { "id": "statute", "text": "A statute someone passed" },
+            { "id": "habit", "text": "A habit a town invented" },
+            { "id": "brand", "text": "A brand a company launched" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The mountain is there as a fact of reality. No human choice brought the mountain into existence."
+          }
+        },
+        {
+          "id": "g1e7",
+          "type": "match",
+          "prompt": "Match the phrase to what it points at.",
+          "pairs": [
+            { "id": "p1", "left": "Metaphysically given", "right": "Facts that are" },
+            { "id": "p2", "left": "Human choice", "right": "What brings some facts into existence" },
+            { "id": "p3", "left": "Not the given", "right": "A fact that needed a decision" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the two sides apart. The given is what is. The other side exists because someone chose."
+          }
+        },
+        {
+          "id": "g1e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the topic of this unit in the blank.",
+          "parts": [
+            { "type": "text", "text": "This unit is about the metaphysically " },
+            { "type": "blank", "id": "b1", "answer": "given" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["given", "optional", "elected", "invented"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The name is the metaphysically given: facts that are, as against facts that choice brings about."
+          }
+        },
+        {
+          "id": "g1e9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Put the words in order so the sentence names only the given side.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "given" },
+            { "id": "t3", "text": "fact" },
+            { "id": "t4", "text": "simply" },
+            { "id": "t5", "text": "is" },
+            { "id": "d1", "text": "a" },
+            { "id": "d2", "text": "decree" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A given fact simply is. A decree belongs on the choice side, so it stays out of this sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "brought-by-choice",
+      "title": "Brought into existence by choice",
+      "objective": "Identify facts that exist because human choice brought them into existence.",
+      "exercises": [
+        {
+          "id": "g2e1",
+          "type": "choice",
+          "prompt": "Which fact did human choice bring into existence?",
+          "answer": "bridge",
+          "choices": [
+            { "id": "bridge", "text": "A bridge across a river" },
+            { "id": "river", "text": "The river the bridge crosses" },
+            { "id": "flow", "text": "The fact that water flows downhill" },
+            { "id": "iron", "text": "The fact that iron is a metal" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "People chose to build the bridge. The river, the flow, and the metal are facts that are."
+          }
+        },
+        {
+          "id": "g2e2",
+          "type": "choice",
+          "prompt": "A city passes a speed limit. What kind of fact is the speed limit?",
+          "answer": "choice",
+          "choices": [
+            { "id": "choice", "text": "A fact human choice brought into existence" },
+            { "id": "given", "text": "A metaphysically given fact" },
+            { "id": "nature", "text": "A fact of nature no one enacted" },
+            { "id": "identity", "text": "The identity of the road surface itself" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The limit exists because people chose it. The road's physical nature is a different kind of fact."
+          }
+        },
+        {
+          "id": "g2e3",
+          "type": "match",
+          "prompt": "Match each product of choice to what made it a fact.",
+          "pairs": [
+            { "id": "p1", "left": "A written law", "right": "People chose to enact it" },
+            { "id": "p2", "left": "A tool", "right": "Someone chose to make it" },
+            { "id": "p3", "left": "A custom of bowing", "right": "People chose to practice it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Laws, tools, and customs are facts, but they are facts that choice brought into existence."
+          }
+        },
+        {
+          "id": "g2e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast from the unit summary.",
+          "parts": [
+            { "type": "text", "text": "Some facts are. Other facts are what human " },
+            { "type": "blank", "id": "b1", "answer": "choice" },
+            { "type": "text", "text": " brings into existence." }
+          ],
+          "bank": ["choice", "weather", "gravity", "stone"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The second side of the distinction is human choice. Weather, gravity, and stone stay on the given side."
+          }
+        },
+        {
+          "id": "g2e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about the choice side.",
+          "tokens": [
+            { "id": "t1", "text": "Human" },
+            { "id": "t2", "text": "choice" },
+            { "id": "t3", "text": "brings" },
+            { "id": "t4", "text": "some" },
+            { "id": "t5", "text": "facts" },
+            { "id": "t6", "text": "into" },
+            { "id": "t7", "text": "existence" },
+            { "id": "d1", "text": "erases" },
+            { "id": "d2", "text": "nature" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Choice brings some facts into existence. It does not erase nature, so those distractors do not belong."
+          }
+        },
+        {
+          "id": "g2e6",
+          "type": "choice",
+          "prompt": "Which pair puts a chosen fact next to a given fact?",
+          "answer": "pair",
+          "choices": [
+            { "id": "pair", "text": "A calendar date for a holiday, and the length of a day" },
+            { "id": "both-made", "text": "A recipe, and the restaurant that serves it" },
+            { "id": "both-given", "text": "That ice is cold, and that iron sinks in water" },
+            { "id": "both-rules", "text": "A dress code, and a school bell schedule" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A holiday date is chosen. The length of a day is a fact that is. The other pairs sit entirely on one side."
+          }
+        },
+        {
+          "id": "g2e7",
+          "type": "match",
+          "prompt": "Sort each item.",
+          "pairs": [
+            { "id": "p1", "left": "A house", "right": "Brought into existence by choice" },
+            { "id": "p2", "left": "The ground it stands on", "right": "A fact that is" },
+            { "id": "p3", "left": "The street name on the sign", "right": "Chosen by people" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The house and the street name exist because people decided. The ground is metaphysically given."
+          }
+        },
+        {
+          "id": "g2e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two blanks with the two sides.",
+          "parts": [
+            { "type": "text", "text": "A poem is a product of " },
+            { "type": "blank", "id": "b1", "answer": "choice" },
+            { "type": "text", "text": ". That sound travels is " },
+            { "type": "blank", "id": "b2", "answer": "given" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["choice", "given", "both", "neither"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Someone chooses to write a poem. That sound travels is a fact that is, so it is given."
+          }
+        },
+        {
+          "id": "g2e9",
+          "type": "choice",
+          "prompt": "If nobody had ever chosen to invent money, what would follow?",
+          "answer": "no-money",
+          "choices": [
+            { "id": "no-money", "text": "Money would not be a fact, because choice never brought it into existence" },
+            { "id": "still", "text": "Money would still be metaphysically given" },
+            { "id": "nature", "text": "Nature would also fail to exist" },
+            { "id": "vote", "text": "A later vote could make the past invention unnecessary" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Money is a fact only because human choice brought it into existence. The given does not depend on that choice."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-a-vote",
+      "title": "Not up for a vote",
+      "objective": "See that a metaphysically given fact is not settled by a vote, a poll, or a majority.",
+      "exercises": [
+        {
+          "id": "g3e1",
+          "type": "choice",
+          "prompt": "What does this unit say about what is given?",
+          "answer": "no-vote",
+          "choices": [
+            { "id": "no-vote", "text": "It is not up for a vote" },
+            { "id": "majority", "text": "A majority can revise it" },
+            { "id": "tie", "text": "A tie vote leaves it undecided" },
+            { "id": "optional", "text": "Each person may opt out of it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "What is given is not up for a vote. Agreement does not decide whether a given fact is a fact."
+          }
+        },
+        {
+          "id": "g3e2",
+          "type": "choice",
+          "prompt": "A meeting votes that stones float. What happens to the fact?",
+          "answer": "stays",
+          "choices": [
+            { "id": "stays", "text": "Stones still do not float. The vote does not rewrite the given." },
+            { "id": "float", "text": "Stones start to float because the vote passed." },
+            { "id": "local", "text": "Stones float inside the meeting room only." },
+            { "id": "until", "text": "Stones float until the next election." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A vote can create a rule. It cannot turn a metaphysically given fact into its opposite."
+          }
+        },
+        {
+          "id": "g3e3",
+          "type": "match",
+          "prompt": "Match each action to what it can change.",
+          "pairs": [
+            { "id": "p1", "left": "A vote on a club rule", "right": "A fact that choice can bring about" },
+            { "id": "p2", "left": "A vote against gravity", "right": "Nothing about the given fact" },
+            { "id": "p3", "left": "A poll about whether fire burns", "right": "Only the tally, not the burning" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Votes settle chosen arrangements. They do not settle facts that are."
+          }
+        },
+        {
+          "id": "g3e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the unit's line about the given.",
+          "parts": [
+            { "type": "text", "text": "What is given is not up for a " },
+            { "type": "blank", "id": "b1", "answer": "vote" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["vote", "rewrite", "mood", "season"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The line is literal: what is given is not up for a vote."
+          }
+        },
+        {
+          "id": "g3e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that refuses to put the given on a ballot.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "given" },
+            { "id": "t3", "text": "fact" },
+            { "id": "t4", "text": "is" },
+            { "id": "t5", "text": "not" },
+            { "id": "t6", "text": "a" },
+            { "id": "t7", "text": "ballot" },
+            { "id": "t8", "text": "item" },
+            { "id": "d1", "text": "always" },
+            { "id": "d2", "text": "optional" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A given fact is not a ballot item. Calling it optional would miss the point, so that word stays unused."
+          }
+        },
+        {
+          "id": "g3e6",
+          "type": "choice",
+          "prompt": "Everyone in a town agrees that winter is summer. Which statement is right?",
+          "answer": "still",
+          "choices": [
+            { "id": "still", "text": "The season is still whatever it is. Agreement is not a vote that rewrites it." },
+            { "id": "becomes", "text": "Winter becomes summer because everyone agrees." },
+            { "id": "half", "text": "The season becomes half of each." },
+            { "id": "private", "text": "The season changes only for the people who agreed." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Unanimous agreement is still not a power over the metaphysically given. The fact remains what it is."
+          }
+        },
+        {
+          "id": "g3e7",
+          "type": "match",
+          "prompt": "Match the claim to the correction.",
+          "pairs": [
+            { "id": "p1", "left": "We voted, so the fact changed", "right": "A vote does not change the given" },
+            { "id": "p2", "left": "Most people say otherwise", "right": "A majority is not the given" },
+            { "id": "p3", "left": "We can repeal nature", "right": "Nature is not a statute" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Votes, majorities, and repeals belong to facts that choice brings into existence. They do not govern facts that are."
+          }
+        },
+        {
+          "id": "g3e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both blanks.",
+          "parts": [
+            { "type": "text", "text": "A law can be up for a " },
+            { "type": "blank", "id": "b1", "answer": "vote" },
+            { "type": "text", "text": ". A given fact cannot be up for a " },
+            { "type": "blank", "id": "b2", "answer": "vote" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["vote", "cloud", "mineral"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The same word marks the contrast. Chosen rules can be voted. What is given cannot."
+          }
+        },
+        {
+          "id": "g3e9",
+          "type": "choice",
+          "prompt": "Which question treats a given fact as if it were up for a vote?",
+          "answer": "bad",
+          "choices": [
+            { "id": "bad", "text": "Shall we decide that heavy things fall upward?" },
+            { "id": "ok1", "text": "Shall we build a bridge here?" },
+            { "id": "ok2", "text": "Shall we change the meeting time?" },
+            { "id": "ok3", "text": "Shall we name the new street?" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Building, scheduling, and naming are matters of choice. Whether heavy things fall is a fact that is, so it is not a ballot question."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wish-versus-fact",
+      "title": "A wish is not the given",
+      "objective": "Separate wanting a fact to be otherwise from the metaphysically given fact itself.",
+      "exercises": [
+        {
+          "id": "g4e1",
+          "type": "choice",
+          "prompt": "You wish a desert were a lake. What is true of the desert?",
+          "answer": "remains",
+          "choices": [
+            { "id": "remains", "text": "It remains a desert. The wish does not replace the given fact." },
+            { "id": "becomes", "text": "It becomes a lake because you wish it." },
+            { "id": "half", "text": "It becomes a lake for you and a desert for others." },
+            { "id": "vote", "text": "It waits until a vote confirms the wish." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A wish is not a way to bring a new nature into existence. The given fact stays what it is."
+          }
+        },
+        {
+          "id": "g4e2",
+          "type": "choice",
+          "prompt": "Which sentence respects the metaphysically given?",
+          "answer": "is",
+          "choices": [
+            { "id": "is", "text": "The fact is what it is, whether or not I want it." },
+            { "id": "want", "text": "If I want it otherwise, the fact changes." },
+            { "id": "group", "text": "If we all want it otherwise, the fact changes." },
+            { "id": "ignore", "text": "If I ignore it, it stops being a fact." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Wanting, group wanting, and ignoring are not powers over facts that are."
+          }
+        },
+        {
+          "id": "g4e3",
+          "type": "match",
+          "prompt": "Match each stance to the side it treats correctly.",
+          "pairs": [
+            { "id": "p1", "left": "I wish the rock were soft", "right": "A wish, not a change in the given" },
+            { "id": "p2", "left": "The rock is hard", "right": "A fact that is" },
+            { "id": "p3", "left": "I choose to carve the rock", "right": "Choice acting on a given fact" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "You can choose what to do with a rock. You cannot wish the rock's nature out of existence."
+          }
+        },
+        {
+          "id": "g4e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast.",
+          "parts": [
+            { "type": "text", "text": "A wish is not a " },
+            { "type": "blank", "id": "b1", "answer": "fact" },
+            { "type": "text", "text": " that replaces what is given." }
+          ],
+          "bank": ["fact", "cloud", "ballot", "title"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Wishing does not install a new fact in place of the metaphysically given."
+          }
+        },
+        {
+          "id": "g4e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that keeps the wish and the fact apart.",
+          "tokens": [
+            { "id": "t1", "text": "Wanting" },
+            { "id": "t2", "text": "otherwise" },
+            { "id": "t3", "text": "does" },
+            { "id": "t4", "text": "not" },
+            { "id": "t5", "text": "change" },
+            { "id": "t6", "text": "what" },
+            { "id": "t7", "text": "is" },
+            { "id": "t8", "text": "given" },
+            { "id": "d1", "text": "cancels" },
+            { "id": "d2", "text": "nature" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Wanting otherwise does not change what is given. The extra words would say something this lesson does not claim."
+          }
+        },
+        {
+          "id": "g4e6",
+          "type": "choice",
+          "prompt": "Someone dislikes that people need food. What follows?",
+          "answer": "still-need",
+          "choices": [
+            { "id": "still-need", "text": "The need remains a given fact. Dislike is not a repeal." },
+            { "id": "ends", "text": "The need ends because it is unwelcome." },
+            { "id": "choice", "text": "The need was brought into existence by a vote." },
+            { "id": "optional", "text": "Each person may decline the fact." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Dislike does not move a fact from the given side onto the choice side. The fact still is."
+          }
+        },
+        {
+          "id": "g4e7",
+          "type": "match",
+          "prompt": "Match the mistake to what it confuses.",
+          "pairs": [
+            { "id": "p1", "left": "Treating a wish as a fact", "right": "Confuses wanting with what is" },
+            { "id": "p2", "left": "Treating a vote as nature", "right": "Confuses a ballot with the given" },
+            { "id": "p3", "left": "Treating a tool as uncaused by people", "right": "Confuses a product of choice with a fact that is" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each mistake slides one side of the distinction over the other. Wishes and votes do not rewrite facts that are, and tools are not given."
+          }
+        },
+        {
+          "id": "g4e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the blanks from the two sides.",
+          "parts": [
+            { "type": "text", "text": "The storm is " },
+            { "type": "blank", "id": "b1", "answer": "given" },
+            { "type": "text", "text": ". The decision to carry an umbrella is " },
+            { "type": "blank", "id": "b2", "answer": "choice" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["given", "choice", "vote", "wish"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The storm is a fact that is. Carrying an umbrella is something a person chooses in light of that fact."
+          }
+        },
+        {
+          "id": "g4e9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Order the words so the sentence states the limit on a wish.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "wish" },
+            { "id": "t3", "text": "leaves" },
+            { "id": "t4", "text": "the" },
+            { "id": "t5", "text": "given" },
+            { "id": "t6", "text": "fact" },
+            { "id": "t7", "text": "unchanged" },
+            { "id": "d1", "text": "rewrites" },
+            { "id": "d2", "text": "reality" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A wish leaves the given fact unchanged. It does not rewrite reality."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hold-both-sides",
+      "title": "Hold both sides",
+      "objective": "Sort mixed cases by keeping facts that are on one side and facts that choice brings into existence on the other.",
+      "exercises": [
+        {
+          "id": "g5e1",
+          "type": "choice",
+          "prompt": "A farmer plants wheat in soil. Which split is right?",
+          "answer": "split",
+          "choices": [
+            { "id": "split", "text": "Planting is choice. That seeds grow in soil is given." },
+            { "id": "all-choice", "text": "Planting and the growth of seeds are both products of a vote." },
+            { "id": "all-given", "text": "The decision to plant is as given as the soil." },
+            { "id": "neither", "text": "Neither planting nor growth is a fact." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Hold both sides at once. Choice brings the planting into existence. The way seeds grow is a fact that is."
+          }
+        },
+        {
+          "id": "g5e2",
+          "type": "match",
+          "prompt": "Sort the mixed case of a ship at sea.",
+          "pairs": [
+            { "id": "p1", "left": "The ship", "right": "Brought into existence by choice" },
+            { "id": "p2", "left": "The sea", "right": "A fact that is" },
+            { "id": "p3", "left": "The course the captain picks", "right": "A human choice" },
+            { "id": "p4", "left": "That wood floats or sinks as it does", "right": "Metaphysically given" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "People make the ship and pick the course. The sea and the way materials behave are given."
+          }
+        },
+        {
+          "id": "g5e3",
+          "type": "choice",
+          "prompt": "Which statement keeps the whole distinction?",
+          "answer": "whole",
+          "choices": [
+            { "id": "whole", "text": "Facts that are stand apart from facts that human choice brings into existence, and the given is not up for a vote." },
+            { "id": "only-choice", "text": "Every fact exists only because someone chose it." },
+            { "id": "only-given", "text": "Human choice never brings any fact into existence." },
+            { "id": "vote-all", "text": "Both sides are up for a vote." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit needs both sides and the limit on voting. Dropping either side, or putting the given on a ballot, loses the distinction."
+          }
+        },
+        {
+          "id": "g5e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the summary in order.",
+          "parts": [
+            { "type": "text", "text": "Facts that " },
+            { "type": "blank", "id": "b1", "answer": "are" },
+            { "type": "text", "text": ", as against facts that human choice brings into existence. What is given is not up for a " },
+            { "type": "blank", "id": "b2", "answer": "vote" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["are", "vote", "maybe", "mood"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Those two words carry the unit: facts that are, and not up for a vote."
+          }
+        },
+        {
+          "id": "g5e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build one sentence that names both sides.",
+          "tokens": [
+            { "id": "t1", "text": "Some" },
+            { "id": "t2", "text": "facts" },
+            { "id": "t3", "text": "are" },
+            { "id": "t4", "text": "and" },
+            { "id": "t5", "text": "some" },
+            { "id": "t6", "text": "are" },
+            { "id": "t7", "text": "chosen" },
+            { "id": "d1", "text": "none" },
+            { "id": "d2", "text": "voted" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Some facts are, and some are chosen. None of the given facts are voted into being."
+          }
+        },
+        {
+          "id": "g5e6",
+          "type": "choice",
+          "prompt": "A language has a word for snow, and snow is cold. How do you sort them?",
+          "answer": "sort",
+          "choices": [
+            { "id": "sort", "text": "The word is a product of choice. That snow is cold is given." },
+            { "id": "both-words", "text": "Both the word and the cold are products of choice." },
+            { "id": "both-given", "text": "Both the word and the cold are metaphysically given." },
+            { "id": "reversed", "text": "The cold is chosen and the word is given." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "People bring words into existence by choice. The cold of snow is a fact that is, and no vocabulary vote changes it."
+          }
+        },
+        {
+          "id": "g5e7",
+          "type": "match",
+          "prompt": "Match each test question to the answer it calls for.",
+          "pairs": [
+            { "id": "p1", "left": "Did human choice bring this into existence?", "right": "If yes, it is not the given" },
+            { "id": "p2", "left": "Would it still be a fact with no vote?", "right": "If yes, it is given" },
+            { "id": "p3", "left": "Can a wish replace it?", "right": "Not if it is given" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Use the unit's own tests. Choice accounts for one side. The other side is what is, and it is not up for a wish or a vote."
+          }
+        },
+        {
+          "id": "g5e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Label the two items.",
+          "parts": [
+            { "type": "text", "text": "A courtroom is a product of " },
+            { "type": "blank", "id": "b1", "answer": "choice" },
+            { "type": "text", "text": ". That people are mortal is " },
+            { "type": "blank", "id": "b2", "answer": "given" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["choice", "given", "optional", "elected"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Courts exist because people chose to make them. Mortality is a fact that is, and it is not up for a vote."
+          }
+        },
+        {
+          "id": "g5e9",
+          "type": "choice",
+          "prompt": "After this unit, which error is still an error?",
+          "answer": "error",
+          "choices": [
+            { "id": "error", "text": "Treating a given fact as something a vote or a wish can replace" },
+            { "id": "ok-build", "text": "Noticing that a bridge exists because people chose to build it" },
+            { "id": "ok-fire", "text": "Noticing that fire burns whether or not anyone prefers that" },
+            { "id": "ok-both", "text": "Keeping the given and the chosen on different sides" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The error is putting the metaphysically given up for a vote or a wish. The other three answers are the distinction held correctly."
+          }
+        },
+        {
+          "id": "g5e10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Close the unit with the sentence in order.",
+          "tokens": [
+            { "id": "t1", "text": "What" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "given" },
+            { "id": "t4", "text": "is" },
+            { "id": "t5", "text": "not" },
+            { "id": "t6", "text": "up" },
+            { "id": "t7", "text": "for" },
+            { "id": "t8", "text": "a" },
+            { "id": "t9", "text": "vote" },
+            { "id": "d1", "text": "wish" },
+            { "id": "d2", "text": "maybe" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "What is given is not up for a vote. A wish does not take the place of that limit."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

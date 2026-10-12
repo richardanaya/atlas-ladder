@@ -1,0 +1,829 @@
+{
+  "sectionId": "human-nature",
+  "sectionFile": "human-nature.json",
+  "unitId": "rational-animal",
+  "title": "Man as a Rational Animal",
+  "summary": "Living organisms as goal-directed, and reason as the human means of survival.",
+  "lessons": [
+    {
+      "id": "living-goals",
+      "title": "Life aims at itself",
+      "objective": "See a living organism as an entity whose actions are directed at keeping itself alive.",
+      "exercises": [
+        {
+          "id": "lg1",
+          "type": "choice",
+          "prompt": "In this unit, what makes an action goal-directed?",
+          "answer": "life",
+          "choices": [
+            { "id": "life", "text": "It is the action of a living organism sustaining itself" },
+            { "id": "wish", "text": "Any motion that someone later calls a purpose" },
+            { "id": "rock", "text": "A rock rolling downhill toward a valley" },
+            { "id": "vote", "text": "A group decision about what the thing ought to want" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Goals belong to living organisms. Their actions are organized around staying alive, not around a label added afterward."
+          }
+        },
+        {
+          "id": "lg2",
+          "type": "choice",
+          "prompt": "Which of these can have a goal of its own?",
+          "answer": "plant",
+          "choices": [
+            { "id": "plant", "text": "A living plant" },
+            { "id": "stone", "text": "A stone on a hillside" },
+            { "id": "cloud", "text": "A cloud changing shape" },
+            { "id": "echo", "text": "An echo in a canyon" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only a living organism acts to maintain itself. Inanimate things change, but they do not pursue a goal."
+          }
+        },
+        {
+          "id": "lg3",
+          "type": "match",
+          "prompt": "Match each thing to what this unit says about goals.",
+          "pairs": [
+            { "id": "p1", "left": "A living organism", "right": "Acts to sustain its own life" },
+            { "id": "p2", "left": "Inanimate matter", "right": "Has no goal of its own" },
+            { "id": "p3", "left": "The organism's goal", "right": "Its continued life" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Life is the goal that organizes a living thing's action. Nothing non-living has that kind of goal."
+          }
+        },
+        {
+          "id": "lg4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line about living action.",
+          "parts": [
+            { "type": "text", "text": "A living organism acts to sustain its own " },
+            { "type": "blank", "id": "b1", "answer": "life" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["life", "whim", "reputation", "echo"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The direction of the action is the organism's own life, not a social score or a random wish."
+          }
+        },
+        {
+          "id": "lg5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the idea in order.",
+          "tokens": [
+            { "id": "t1", "text": "Life" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "self-sustaining" },
+            { "id": "t4", "text": "action" },
+            { "id": "d1", "text": "a vote" },
+            { "id": "d2", "text": "inertia" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "To be alive is to keep generating the action that maintains that life. It is not mere sitting still."
+          }
+        },
+        {
+          "id": "lg6",
+          "type": "choice",
+          "prompt": "If an organism stops the actions that sustain it, what follows?",
+          "answer": "ends",
+          "choices": [
+            { "id": "ends", "text": "Its life ends" },
+            { "id": "same", "text": "It stays the same kind of living thing, only quieter" },
+            { "id": "rockier", "text": "It becomes a more successful rock" },
+            { "id": "goal", "text": "It gains a new goal automatically" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The goal and the process are the same fact: stop the self-sustaining action, and the organism is no longer alive."
+          }
+        },
+        {
+          "id": "lg7",
+          "type": "match",
+          "prompt": "Match the contrast.",
+          "pairs": [
+            { "id": "a", "left": "Goal-directed", "right": "Organized toward staying alive" },
+            { "id": "b", "left": "Not goal-directed", "right": "Change with no aim of its own" },
+            { "id": "c", "left": "The alternative for a living thing", "right": "Life or the end of life" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Goal-direction is not a mood. It is the fact that the organism faces the alternative of continuing or not."
+          }
+        },
+        {
+          "id": "lg8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two blanks.",
+          "parts": [
+            { "type": "text", "text": "Only a " },
+            { "type": "blank", "id": "b1", "answer": "living" },
+            { "type": "text", "text": " organism is " },
+            { "type": "blank", "id": "b2", "answer": "goal-directed" },
+            { "type": "text", "text": " in this sense." }
+          ],
+          "bank": ["living", "goal-directed", "inanimate", "elected"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Goal-direction here means action aimed at the organism's own continued life. Inanimate things do not have it."
+          }
+        },
+        {
+          "id": "lg9",
+          "type": "choice",
+          "prompt": "A river cuts a canyon over ages. On this unit's terms, the river is:",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "Changing, but not pursuing a goal" },
+            { "id": "yes", "text": "A living organism sustaining itself" },
+            { "id": "moral", "text": "Choosing a moral code" },
+            { "id": "reason", "text": "Using reason as its means of survival" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Physical change is not enough. A goal, in this unit, belongs to a living organism acting to keep itself in existence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "no-code",
+      "title": "No built-in survival code",
+      "objective": "Contrast automatic living action in plants and animals with the fact that a human being has no innate program for how to survive.",
+      "exercises": [
+        {
+          "id": "nc1",
+          "type": "choice",
+          "prompt": "How does a plant keep itself alive, on this account?",
+          "answer": "auto",
+          "choices": [
+            { "id": "auto", "text": "By automatic physical processes, such as taking in what its nature requires" },
+            { "id": "debate", "text": "By forming concepts and arguing about soil" },
+            { "id": "vote", "text": "By a committee of leaves" },
+            { "id": "books", "text": "By reading a manual it wrote" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A plant's self-sustaining action runs automatically. It does not identify the world in concepts and then decide."
+          }
+        },
+        {
+          "id": "nc2",
+          "type": "choice",
+          "prompt": "What guides much of an animal's action within its range?",
+          "answer": "sense",
+          "choices": [
+            { "id": "sense", "text": "Sensation and perception, within the range its body is built for" },
+            { "id": "concepts", "text": "A conceptual science it invents" },
+            { "id": "laws", "text": "A written legal code" },
+            { "id": "none", "text": "Nothing at all; animals do not act to live" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Animals are goal-directed too, but the guidance built into sensation and perception is not the human method."
+          }
+        },
+        {
+          "id": "nc3",
+          "type": "match",
+          "prompt": "Match each kind of organism to how it sustains itself.",
+          "pairs": [
+            { "id": "pl", "left": "Plant", "right": "Automatic physical action" },
+            { "id": "an", "left": "Animal", "right": "Sensation and perception in a set range" },
+            { "id": "hu", "left": "Human being", "right": "No innate code of survival" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The ladder of living action runs from automatic processes, to perceptual guidance, to a being who must find out how to live."
+          }
+        },
+        {
+          "id": "nc4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast.",
+          "parts": [
+            { "type": "text", "text": "A human being has no " },
+            { "type": "blank", "id": "b1", "answer": "automatic" },
+            { "type": "text", "text": " code of survival." }
+          ],
+          "bank": ["automatic", "optional", "plant", "social"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Nothing in human nature hands over a finished program for food, shelter, or how to act. That has to be learned."
+          }
+        },
+        {
+          "id": "nc5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about human survival.",
+          "tokens": [
+            { "id": "t1", "text": "People" },
+            { "id": "t2", "text": "are" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "born" },
+            { "id": "t5", "text": "knowing" },
+            { "id": "t6", "text": "how" },
+            { "id": "t7", "text": "to" },
+            { "id": "t8", "text": "live" },
+            { "id": "d1", "text": "photosynthesize" },
+            { "id": "d2", "text": "instinctively" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Birth does not include a ready set of survival instructions. Knowledge of how to live has to be acquired."
+          }
+        },
+        {
+          "id": "nc6",
+          "type": "choice",
+          "prompt": "A newborn has senses and a body. What does this unit say the newborn does not have?",
+          "answer": "code",
+          "choices": [
+            { "id": "code", "text": "An innate set of instructions for how to survive" },
+            { "id": "body", "text": "A body" },
+            { "id": "senses", "text": "Any contact with the world" },
+            { "id": "life", "text": "The status of a living organism" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The child is a living organism from the start. The means of knowing what to do is not installed as an automatic code."
+          }
+        },
+        {
+          "id": "nc7",
+          "type": "choice",
+          "prompt": "Why is a human being not in the same position as a plant?",
+          "answer": "noauto",
+          "choices": [
+            { "id": "noauto", "text": "Human survival action is not run by automatic bodily processes alone" },
+            { "id": "notlive", "text": "A human being is not a living organism" },
+            { "id": "nogoal", "text": "A human being has no goal" },
+            { "id": "stronger", "text": "Plants choose concepts and humans do not" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Both are alive and goal-directed. The difference is the means: automatic action for the plant, no such built-in code for the human."
+          }
+        },
+        {
+          "id": "nc8",
+          "type": "match",
+          "prompt": "Match the claim to the mistake it rejects.",
+          "pairs": [
+            { "id": "m1", "left": "Humans are goal-directed organisms", "right": "Treating people as purposeless objects" },
+            { "id": "m2", "left": "Humans lack an automatic survival code", "right": "Treating people as if instinct already knew how to live" },
+            { "id": "m3", "left": "Animals are guided within a range", "right": "Treating animal action as conceptual science" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the three levels apart. People are living and goal-directed, and still not pre-programmed the way a plant or a non-rational animal is."
+          }
+        },
+        {
+          "id": "nc9",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both blanks.",
+          "parts": [
+            { "type": "text", "text": "Plants act " },
+            { "type": "blank", "id": "b1", "answer": "automatically" },
+            { "type": "text", "text": "; humans must " },
+            { "type": "blank", "id": "b2", "answer": "learn" },
+            { "type": "text", "text": " how to survive." }
+          ],
+          "bank": ["automatically", "learn", "vote", "dissolve"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Automatic self-maintenance fits the plant. Human survival depends on knowledge that is not given at birth."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reason-means",
+      "title": "Reason is the means",
+      "objective": "Identify reason as the human means of survival: the faculty that identifies and integrates what the senses provide.",
+      "exercises": [
+        {
+          "id": "rm1",
+          "type": "choice",
+          "prompt": "What is the distinctively human means of survival?",
+          "answer": "reason",
+          "choices": [
+            { "id": "reason", "text": "Reason" },
+            { "id": "claws", "text": "Claws and camouflage" },
+            { "id": "weather", "text": "The weather" },
+            { "id": "instinct", "text": "A finished instinctive code" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "People do not survive by an automatic program or by animal equipment alone. Reason is the means that fits a rational animal."
+          }
+        },
+        {
+          "id": "rm2",
+          "type": "choice",
+          "prompt": "What does reason do with what the senses provide?",
+          "answer": "integrate",
+          "choices": [
+            { "id": "integrate", "text": "It identifies and integrates that material" },
+            { "id": "replaces", "text": "It throws the senses out and starts from a blank" },
+            { "id": "feels", "text": "It substitutes a mood for observation" },
+            { "id": "votes", "text": "It takes a poll and calls the winner a fact" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason is not a rival to the senses. It is the faculty that identifies and integrates the material the senses give."
+          }
+        },
+        {
+          "id": "rm3",
+          "type": "match",
+          "prompt": "Match each piece of the means of survival.",
+          "pairs": [
+            { "id": "s", "left": "Senses", "right": "Provide the material" },
+            { "id": "r", "left": "Reason", "right": "Identifies and integrates that material" },
+            { "id": "k", "left": "Knowledge", "right": "Guides the action that keeps you alive" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Survival by reason is a chain: sensory material, identification, then action guided by what you know."
+          }
+        },
+        {
+          "id": "rm4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the faculty.",
+          "parts": [
+            { "type": "text", "text": "Reason is the human means of " },
+            { "type": "blank", "id": "b1", "answer": "survival" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["survival", "decoration", "surrender", "camouflage"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason is not an optional hobby beside life. For a human being it is how life is sustained."
+          }
+        },
+        {
+          "id": "rm5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the definition used in this lesson.",
+          "tokens": [
+            { "id": "t1", "text": "Reason" },
+            { "id": "t2", "text": "identifies" },
+            { "id": "t3", "text": "and" },
+            { "id": "t4", "text": "integrates" },
+            { "id": "t5", "text": "sensory" },
+            { "id": "t6", "text": "material" },
+            { "id": "d1", "text": "replaces" },
+            { "id": "d2", "text": "whims" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That is the job of reason in this unit: identify and integrate what the senses provide, so action has a guide."
+          }
+        },
+        {
+          "id": "rm6",
+          "type": "choice",
+          "prompt": "Food, shelter, and tools, on this account, depend on what?",
+          "answer": "thought",
+          "choices": [
+            { "id": "thought", "text": "Knowledge gained by reason and put into action" },
+            { "id": "claws", "text": "Claws humans are born with" },
+            { "id": "luck", "text": "Luck with no need to know anything" },
+            { "id": "instinct", "text": "An instinct that already farms and builds" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Producing the values a human life needs is work guided by knowledge. Reason is the basic means of that work."
+          }
+        },
+        {
+          "id": "rm7",
+          "type": "choice",
+          "prompt": "Which description fits reason as a means of survival?",
+          "answer": "tool",
+          "choices": [
+            { "id": "tool", "text": "The basic tool for knowing what to do in order to live" },
+            { "id": "ornament", "text": "An ornament added after survival is already guaranteed" },
+            { "id": "enemy", "text": "A rival that fights the fact that you are an organism" },
+            { "id": "sense", "text": "Another name for an eye or an ear" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Eyes and ears supply material. Reason is the faculty that turns that material into knowledge you can act on."
+          }
+        },
+        {
+          "id": "rm8",
+          "type": "match",
+          "prompt": "Match the need to the role of reason.",
+          "pairs": [
+            { "id": "a", "left": "What is this thing?", "right": "Identification" },
+            { "id": "b", "left": "How do these facts connect?", "right": "Integration" },
+            { "id": "c", "left": "What must I do to live?", "right": "Knowledge guiding action" },
+            { "id": "d", "left": "Where does the material come from?", "right": "The senses" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason does not float free of observation, and observation does not by itself state what you should do. Both steps belong to surviving by reason."
+          }
+        },
+        {
+          "id": "rm9",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the blanks.",
+          "parts": [
+            { "type": "text", "text": "Reason " },
+            { "type": "blank", "id": "b1", "answer": "identifies" },
+            { "type": "text", "text": " and " },
+            { "type": "blank", "id": "b2", "answer": "integrates" },
+            { "type": "text", "text": " what the senses provide." }
+          ],
+          "bank": ["identifies", "integrates", "cancels", "votes"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Identification says what something is. Integration connects it with the rest of what you know. That is how reason works on sensory material."
+          }
+        },
+        {
+          "id": "rm10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Put the means of survival in order.",
+          "tokens": [
+            { "id": "t1", "text": "Senses" },
+            { "id": "t2", "text": "provide" },
+            { "id": "t3", "text": "material" },
+            { "id": "t4", "text": "reason" },
+            { "id": "t5", "text": "integrates" },
+            { "id": "d1", "text": "instinct" },
+            { "id": "d2", "text": "skips" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The order is fixed for this unit: the senses give the material, and reason integrates it into knowledge you can live by."
+          }
+        }
+      ]
+    },
+    {
+      "id": "must-use",
+      "title": "Reason has to be used",
+      "objective": "Hold that reason does not run by itself: surviving by it takes the choice to think and to act on what you know.",
+      "exercises": [
+        {
+          "id": "mu1",
+          "type": "choice",
+          "prompt": "Does reason operate automatically, the way a plant grows?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. It has to be used" },
+            { "id": "yes", "text": "Yes. Thinking runs whether you engage it or not" },
+            { "id": "night", "text": "Yes, but only while you sleep" },
+            { "id": "crowd", "text": "Yes, whenever a crowd feels strongly" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The means of survival is a faculty you must exercise. It is not an automatic process like a plant's growth."
+          }
+        },
+        {
+          "id": "mu2",
+          "type": "choice",
+          "prompt": "If someone refuses to think, what backup does human nature supply?",
+          "answer": "none",
+          "choices": [
+            { "id": "none", "text": "None. There is no instinctive code waiting in reserve" },
+            { "id": "plant", "text": "Photosynthesis" },
+            { "id": "pack", "text": "A full animal survival program equal to reason" },
+            { "id": "faith", "text": "A second mind that knows without looking" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Dropping reason does not switch on another human means of survival. The faculty you do not use does not work in your place."
+          }
+        },
+        {
+          "id": "mu3",
+          "type": "match",
+          "prompt": "Match each fact to what it requires.",
+          "pairs": [
+            { "id": "a", "left": "Reason is a faculty, not a reflex", "right": "You have to choose to think" },
+            { "id": "b", "left": "Knowledge that is never applied", "right": "Does not yet sustain your life" },
+            { "id": "c", "left": "No innate survival code", "right": "Nothing automatic replaces thinking" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Having the faculty is not the same as using it, and knowing is not the same as acting on what you know."
+          }
+        },
+        {
+          "id": "mu4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the requirement.",
+          "parts": [
+            { "type": "text", "text": "To survive by reason, you must " },
+            { "type": "blank", "id": "b1", "answer": "think" },
+            { "type": "text", "text": " and " },
+            { "type": "blank", "id": "b2", "answer": "act" },
+            { "type": "text", "text": " on what you know." }
+          ],
+          "bank": ["think", "act", "sleep", "guess"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Both steps belong to the means. Thought that never guides action leaves the organism's goal unserved."
+          }
+        },
+        {
+          "id": "mu5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the warning in this lesson.",
+          "tokens": [
+            { "id": "t1", "text": "Unused" },
+            { "id": "t2", "text": "reason" },
+            { "id": "t3", "text": "does" },
+            { "id": "t4", "text": "not" },
+            { "id": "t5", "text": "keep" },
+            { "id": "t6", "text": "you" },
+            { "id": "t7", "text": "alive" },
+            { "id": "d1", "text": "instinct" },
+            { "id": "d2", "text": "automatically" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A capacity you never exercise is not functioning as your means of survival."
+          }
+        },
+        {
+          "id": "mu6",
+          "type": "choice",
+          "prompt": "Someone memorizes that fire burns and then grabs a hot stove. What failed?",
+          "answer": "act",
+          "choices": [
+            { "id": "act", "text": "Acting on knowledge already gained" },
+            { "id": "senses", "text": "The fact that senses exist" },
+            { "id": "life", "text": "The fact that organisms are goal-directed" },
+            { "id": "species", "text": "The classification of humans as animals" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason serves survival when knowledge guides what you do. A fact you ignore does not protect you."
+          }
+        },
+        {
+          "id": "mu7",
+          "type": "choice",
+          "prompt": "Choosing to think is required because:",
+          "answer": "notauto",
+          "choices": [
+            { "id": "notauto", "text": "Conceptual knowledge is not produced automatically" },
+            { "id": "plants", "text": "Plants also file concepts in seed catalogs" },
+            { "id": "optional", "text": "Survival itself is optional for a living organism" },
+            { "id": "social", "text": "Only a committee can identify a fact" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The senses work as your contact with the world. Forming and using conceptual knowledge is something you must undertake."
+          }
+        },
+        {
+          "id": "mu8",
+          "type": "match",
+          "prompt": "Match the action to its place in survival by reason.",
+          "pairs": [
+            { "id": "a", "left": "Look and identify", "right": "Using reason on what is there" },
+            { "id": "b", "left": "Connect the facts", "right": "Integrating what you know" },
+            { "id": "c", "left": "Do what the knowledge requires", "right": "Letting reason guide action" },
+            { "id": "d", "left": "Refuse to think", "right": "Leaving yourself without that means" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each positive step is a use of the means. Refusing the first step does not summon a substitute code."
+          }
+        },
+        {
+          "id": "mu9",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the blank.",
+          "parts": [
+            { "type": "text", "text": "Reason sustains you only when it is " },
+            { "type": "blank", "id": "b1", "answer": "exercised" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["exercised", "inherited", "asleep", "outsourced"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The faculty is yours by nature. Its work is not. Surviving by reason means actually thinking and acting on the result."
+          }
+        }
+      ]
+    },
+    {
+      "id": "one-picture",
+      "title": "One picture of the rational animal",
+      "objective": "Put the unit in one order: a goal-directed organism, no innate survival code, and reason as the means you must use.",
+      "exercises": [
+        {
+          "id": "op1",
+          "type": "choice",
+          "prompt": "In the phrase rational animal, what does animal mark?",
+          "answer": "org",
+          "choices": [
+            { "id": "org", "text": "A living organism, goal-directed like other animals" },
+            { "id": "machine", "text": "A machine with no goal" },
+            { "id": "ghost", "text": "A mind that is not a living being" },
+            { "id": "rock", "text": "Inanimate matter" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word animal keeps the human being inside life: an organism whose actions are aimed at staying alive."
+          }
+        },
+        {
+          "id": "op2",
+          "type": "choice",
+          "prompt": "In the same phrase, what does rational mark?",
+          "answer": "means",
+          "choices": [
+            { "id": "means", "text": "Reason as the means of survival" },
+            { "id": "fur", "text": "A body covering shared with other species" },
+            { "id": "auto", "text": "An automatic code like a plant's" },
+            { "id": "mood", "text": "Whatever feeling is strongest" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rational names the distinctive means. The organism lives by identifying and integrating the world, then acting on that knowledge."
+          }
+        },
+        {
+          "id": "op3",
+          "type": "match",
+          "prompt": "Match each part of the unit to its idea.",
+          "pairs": [
+            { "id": "a", "left": "Living organism", "right": "Goal-directed action" },
+            { "id": "b", "left": "No innate code", "right": "Survival is not programmed in advance" },
+            { "id": "c", "left": "Reason", "right": "The human means of survival" },
+            { "id": "d", "left": "Must be used", "right": "Thinking and acting are not automatic" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Those four points are the whole unit. Each one answers a different question about the same being."
+          }
+        },
+        {
+          "id": "op4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the definition's two sides.",
+          "parts": [
+            { "type": "text", "text": "A human being is a " },
+            { "type": "blank", "id": "b1", "answer": "rational" },
+            { "type": "text", "text": " " },
+            { "type": "blank", "id": "b2", "answer": "animal" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["rational", "animal", "inanimate", "automatic"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rational names the means. Animal names the living, goal-directed organism. Neither word is a spare decoration."
+          }
+        },
+        {
+          "id": "op5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the order this unit uses.",
+          "tokens": [
+            { "id": "t1", "text": "Organism" },
+            { "id": "t2", "text": "then" },
+            { "id": "t3", "text": "no" },
+            { "id": "t4", "text": "innate" },
+            { "id": "t5", "text": "code" },
+            { "id": "t6", "text": "then" },
+            { "id": "t7", "text": "reason" },
+            { "id": "d1", "text": "whim" },
+            { "id": "d2", "text": "first" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Start from the living organism, then the missing automatic code, then reason as the means that fills that need."
+          }
+        },
+        {
+          "id": "op6",
+          "type": "choice",
+          "prompt": "Which order matches this unit?",
+          "answer": "ord",
+          "choices": [
+            { "id": "ord", "text": "Goal-directed life, no innate code, reason as the means you must use" },
+            { "id": "rev", "text": "Reason first, and life only if a committee approves it" },
+            { "id": "plant", "text": "Humans photosynthesize, then optionally think" },
+            { "id": "rock", "text": "Rocks have goals, and organisms copy them" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason is the means because you are a living organism without an automatic code. The order is not optional."
+          }
+        },
+        {
+          "id": "op7",
+          "type": "choice",
+          "prompt": "Which claim leaves the unit?",
+          "answer": "out",
+          "choices": [
+            { "id": "out", "text": "Reason is a weekend hobby after instinct has already secured your life" },
+            { "id": "in1", "text": "Living organisms act to sustain themselves" },
+            { "id": "in2", "text": "Humans have no automatic survival code" },
+            { "id": "in3", "text": "Reason identifies and integrates sensory material" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Instinct does not already solve human survival. Reason is the means, and it works only when it is used."
+          }
+        },
+        {
+          "id": "op8",
+          "type": "match",
+          "prompt": "Match the question to the unit's answer.",
+          "pairs": [
+            { "id": "q1", "left": "What kind of thing has goals here?", "right": "A living organism" },
+            { "id": "q2", "left": "What do humans lack at birth?", "right": "An automatic code of survival" },
+            { "id": "q3", "left": "What is their means of survival?", "right": "Reason" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Three questions, three answers. Together they state what a rational animal is."
+          }
+        },
+        {
+          "id": "op9",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Close the unit.",
+          "parts": [
+            { "type": "text", "text": "Reason is the means by which a human " },
+            { "type": "blank", "id": "b1", "answer": "organism" },
+            { "type": "text", "text": " sustains its " },
+            { "type": "blank", "id": "b2", "answer": "life" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["organism", "life", "echo", "ballot"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That is the unit in one line: a living, goal-directed organism, surviving by reason rather than by an innate code."
+          }
+        },
+        {
+          "id": "op10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "State the means in a full line.",
+          "tokens": [
+            { "id": "t1", "text": "Reason" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "the" },
+            { "id": "t4", "text": "human" },
+            { "id": "t5", "text": "means" },
+            { "id": "t6", "text": "of" },
+            { "id": "t7", "text": "survival" },
+            { "id": "d1", "text": "hobby" },
+            { "id": "d2", "text": "optional" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the summary in that shape. Reason is not an extra. It is how this organism lives."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,318 @@
+{
+  "sectionFile": "metaphysics.json",
+  "key": "axioms/where-it-starts",
+  "exercises": [
+    {
+      "id": "m1e1",
+      "type": "choice",
+      "prompt": "What name did Ayn Rand choose for her philosophy?",
+      "answer": "o",
+      "feedback": {
+        "kind": "quote",
+        "quote": "The name I have chosen for my philosophy is Objectivism.",
+        "note": "She states the name at the opening of that preface.",
+        "citation": "Ayn Rand, \"Preface,\" For the New Intellectual, viii"
+      },
+      "choices": [
+        {
+          "id": "o",
+          "text": "Objectivism"
+        },
+        {
+          "id": "e",
+          "text": "Existentialism"
+        },
+        {
+          "id": "p",
+          "text": "Pragmatism"
+        },
+        {
+          "id": "l",
+          "text": "Logical positivism"
+        }
+      ]
+    },
+    {
+      "id": "m1e2",
+      "type": "match",
+      "prompt": "Match each one-foot branch to the plain saying Rand offers for it.",
+      "feedback": {
+        "kind": "quote",
+        "quote": "1. \"Nature, to be commanded, must be obeyed\" or \"Wishing won't make it so.\"\n2. \"You can't eat your cake and have it, too.\"\n3. \"Man is an end in himself.\"\n4. \"Give me liberty or give me death.\"",
+        "note": "These four sayings are the plain-language translations of the same four branches, not a separate list.",
+        "citation": "Ayn Rand, \"Introducing Objectivism,\" The Objectivist Newsletter, August 1962, 35"
+      },
+      "pairs": [
+        {
+          "id": "meta",
+          "left": "Metaphysics",
+          "right": "Nature, to be commanded, must be obeyed"
+        },
+        {
+          "id": "epi",
+          "left": "Epistemology",
+          "right": "You can't eat your cake and have it, too"
+        },
+        {
+          "id": "eth",
+          "left": "Ethics",
+          "right": "Man is an end in himself"
+        },
+        {
+          "id": "pol",
+          "left": "Politics",
+          "right": "Give me liberty or give me death"
+        }
+      ]
+    },
+    {
+      "id": "m1e3",
+      "type": "choice",
+      "prompt": "In the 1962 “on one foot” summary, what does she put beside Metaphysics?",
+      "answer": "or",
+      "feedback": {
+        "kind": "quote",
+        "quote": "1. Metaphysics: Objective Reality\n2. Epistemology: Reason\n3. Ethics: Self-interest\n4. Politics: Capitalism",
+        "note": "Those four labels are the whole of the one-foot list. Esthetics is not in it.",
+        "citation": "Ayn Rand, \"Introducing Objectivism,\" The Objectivist Newsletter, August 1962, 35"
+      },
+      "choices": [
+        {
+          "id": "or",
+          "text": "Objective Reality"
+        },
+        {
+          "id": "rs",
+          "text": "Rational self-interest"
+        },
+        {
+          "id": "cap",
+          "text": "Laissez-faire capitalism"
+        },
+        {
+          "id": "rr",
+          "text": "Romantic Realism"
+        }
+      ]
+    },
+    {
+      "id": "m1e4",
+      "type": "match",
+      "prompt": "Match each branch to its one-foot label.",
+      "feedback": {
+        "kind": "quote",
+        "quote": "1. Metaphysics: Objective Reality\n2. Epistemology: Reason\n3. Ethics: Self-interest\n4. Politics: Capitalism",
+        "note": "Keep the four pairings in that order. The summary stops at politics.",
+        "citation": "Ayn Rand, \"Introducing Objectivism,\" The Objectivist Newsletter, August 1962, 35"
+      },
+      "pairs": [
+        {
+          "id": "meta",
+          "left": "Metaphysics",
+          "right": "Objective Reality"
+        },
+        {
+          "id": "epi",
+          "left": "Epistemology",
+          "right": "Reason"
+        },
+        {
+          "id": "eth",
+          "left": "Ethics",
+          "right": "Self-interest"
+        },
+        {
+          "id": "pol",
+          "left": "Politics",
+          "right": "Capitalism"
+        }
+      ]
+    },
+    {
+      "id": "m1e5",
+      "type": "fill",
+      "mode": "blanks",
+      "prompt": "Complete the one-foot line for metaphysics.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Metaphysics: "
+        },
+        {
+          "type": "blank",
+          "id": "b1",
+          "answer": "Objective"
+        },
+        {
+          "type": "text",
+          "text": " Reality"
+        }
+      ],
+      "bank": [
+        "Objective",
+        "Subjective",
+        "Collective",
+        "Divine"
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "1. Metaphysics: Objective Reality\n2. Epistemology: Reason\n3. Ethics: Self-interest\n4. Politics: Capitalism",
+        "note": "The word she uses is Objective, not a social or supernatural substitute.",
+        "citation": "Ayn Rand, \"Introducing Objectivism,\" The Objectivist Newsletter, August 1962, 35"
+      }
+    },
+    {
+      "id": "m1e6",
+      "type": "choice",
+      "prompt": "In the list of first and primary axiomatic concepts, what is identity?",
+      "answer": "cor",
+      "feedback": {
+        "kind": "quote",
+        "quote": "The first and primary axiomatic concepts are \"existence,\" \"identity\" (which is a corollary of \"existence\") and \"consciousness.\"",
+        "note": "Identity is not a second universe. It is the corollary that existence is something specific.",
+        "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+      },
+      "choices": [
+        {
+          "id": "cor",
+          "text": "A corollary of existence"
+        },
+        {
+          "id": "sub",
+          "text": "A separate substance beside existence"
+        },
+        {
+          "id": "mood",
+          "text": "A mood, not a fact"
+        },
+        {
+          "id": "pol",
+          "text": "A political program"
+        }
+      ]
+    },
+    {
+      "id": "m1e7",
+      "type": "choice",
+      "prompt": "Which are the first and primary axiomatic concepts?",
+      "answer": "eic",
+      "feedback": {
+        "kind": "quote",
+        "quote": "The first and primary axiomatic concepts are \"existence,\" \"identity\" (which is a corollary of \"existence\") and \"consciousness.\"",
+        "note": "Identity is named as a corollary of existence, not as a separate kind of stuff.",
+        "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+      },
+      "choices": [
+        {
+          "id": "eic",
+          "text": "Existence, identity, and consciousness"
+        },
+        {
+          "id": "mbs",
+          "text": "Mind, body, and spirit"
+        },
+        {
+          "id": "tas",
+          "text": "Thesis, antithesis, and synthesis"
+        },
+        {
+          "id": "fhc",
+          "text": "Faith, hope, and charity"
+        }
+      ]
+    },
+    {
+      "id": "m1e8",
+      "type": "match",
+      "prompt": "Match each formula to the axiom it states.",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Existence exists—Consciousness is conscious—A is A.",
+        "note": "Rand says axiomatic concepts can be stated only in that repetitive form.",
+        "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+      },
+      "pairs": [
+        {
+          "id": "ex",
+          "left": "Existence exists",
+          "right": "Existence"
+        },
+        {
+          "id": "aa",
+          "left": "A is A",
+          "right": "Identity"
+        },
+        {
+          "id": "cc",
+          "left": "Consciousness is conscious",
+          "right": "Consciousness"
+        }
+      ]
+    },
+    {
+      "id": "m1e9",
+      "type": "fill",
+      "mode": "sentence",
+      "prompt": "Build the three formulas in the order Rand lists them.",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Existence exists"
+        },
+        {
+          "id": "t2",
+          "text": "Consciousness is conscious"
+        },
+        {
+          "id": "t3",
+          "text": "A is A"
+        },
+        {
+          "id": "d1",
+          "text": "Wishing won't"
+        }
+      ],
+      "answer": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "Existence exists—Consciousness is conscious—A is A.",
+        "note": "The order in that sentence is existence, then consciousness, then identity.",
+        "citation": "Ayn Rand, \"Axiomatic Concepts,\" Introduction to Objectivist Epistemology, 55"
+      }
+    },
+    {
+      "id": "m1e10",
+      "type": "choice",
+      "prompt": "On Rand’s account, an axiom defeats its opponents because they must do what?",
+      "answer": "use",
+      "feedback": {
+        "kind": "quote",
+        "quote": "An axiom is a proposition that defeats its opponents by the fact that they have to accept it and use it in the process of any attempt to deny it.",
+        "note": "Denial is still an act of consciousness about something that exists.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 155"
+      },
+      "choices": [
+        {
+          "id": "use",
+          "text": "Accept it and use it in any attempt to deny it"
+        },
+        {
+          "id": "vote",
+          "text": "Wait until a majority accepts it"
+        },
+        {
+          "id": "pref",
+          "text": "Treat it as an arbitrary preference"
+        },
+        {
+          "id": "exp",
+          "text": "Leave it to experts"
+        }
+      ]
+    }
+  ]
+}

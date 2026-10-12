@@ -1,0 +1,782 @@
+{
+  "sectionId": "politics",
+  "sectionFile": "politics.json",
+  "unitId": "government",
+  "title": "Government's Proper Role",
+  "summary": "Government as an agent that protects rights, limited to retaliatory force.",
+  "lessons": [
+    {
+      "id": "an-agent",
+      "title": "An agent, not a master",
+      "objective": "Identify government as an agent that acts for people, not as an owner of their lives.",
+      "exercises": [
+        {
+          "id": "ag1",
+          "type": "choice",
+          "prompt": "In this unit, what kind of thing is government?",
+          "answer": "agent",
+          "choices": [
+            { "id": "agent", "text": "An agent that acts for the people whose rights it protects" },
+            { "id": "owner", "text": "The owner of the lives and property of its citizens" },
+            { "id": "club", "text": "A private club with no special relation to force" },
+            { "id": "mood", "text": "A mood shared by a nation, not an institution" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Government is an agent. It does not own the people it serves."
+          }
+        },
+        {
+          "id": "ag2",
+          "type": "choice",
+          "prompt": "An agent acts on whose behalf?",
+          "answer": "people",
+          "choices": [
+            { "id": "people", "text": "The people whose rights it is hired to protect" },
+            { "id": "itself", "text": "Only its own officials, as a purpose in themselves" },
+            { "id": "fate", "text": "History, which chooses rulers without a job description" },
+            { "id": "none", "text": "Nobody; an agent has no principal" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Calling government an agent means it has a principal: the people whose rights it protects."
+          }
+        },
+        {
+          "id": "ag3",
+          "type": "match",
+          "prompt": "Match each picture of government to the idea it expresses.",
+          "pairs": [
+            { "id": "p1", "left": "Agent", "right": "Acts for others under a limited job" },
+            { "id": "p2", "left": "Master", "right": "Treats citizens as subjects it owns" },
+            { "id": "p3", "left": "Proper role", "right": "Protect rights, and only by retaliatory force" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The proper role is the agent's job: protect rights, and stay inside retaliatory force."
+          }
+        },
+        {
+          "id": "ag4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit's description of government.",
+          "parts": [
+            { "type": "text", "text": "Government is an " },
+            { "type": "blank", "id": "b1", "answer": "agent" },
+            { "type": "text", "text": " that protects rights." }
+          ],
+          "bank": ["agent", "owner", "prophet", "market"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word for its standing is agent: it acts for people, under a defined job."
+          }
+        },
+        {
+          "id": "ag5",
+          "type": "choice",
+          "prompt": "Which claim fits an agent and rejects a master?",
+          "answer": "job",
+          "choices": [
+            { "id": "job", "text": "Officials hold a job with a limit, not a blank permission to rule" },
+            { "id": "blank", "text": "Once chosen, officials may do anything they judge good" },
+            { "id": "divine", "text": "Office is a personal right to command" },
+            { "id": "none", "text": "There is no difference between an agent and a master" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An agent is bound by the job. A master is not. This unit keeps government on the agent side."
+          }
+        },
+        {
+          "id": "ag6",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states government's standing.",
+          "tokens": [
+            { "id": "t1", "text": "Government" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "an" },
+            { "id": "t4", "text": "agent" },
+            { "id": "d1", "text": "a" },
+            { "id": "d2", "text": "sovereign" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Government is an agent. It is not a sovereign that stands above the rights it is supposed to guard."
+          }
+        },
+        {
+          "id": "ag7",
+          "type": "match",
+          "prompt": "Match who holds the role to what that role may do.",
+          "pairs": [
+            { "id": "m1", "left": "The agent", "right": "Carry out the job of protecting rights" },
+            { "id": "m2", "left": "The citizen", "right": "Remain the person whose rights are protected" },
+            { "id": "m3", "left": "The limit", "right": "Stop the agent at retaliatory force" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The citizen is not the property of the agent. The agent's reach stops at retaliatory force."
+          }
+        },
+        {
+          "id": "ag8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the contrast.",
+          "parts": [
+            { "type": "text", "text": "Government is an agent, not a " },
+            { "type": "blank", "id": "b1", "answer": "master" },
+            { "type": "text", "text": " of the people." }
+          ],
+          "bank": ["master", "servant-word", "contract", "right"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Master is the rejected picture. Agent is the one this unit teaches."
+          }
+        },
+        {
+          "id": "ag9",
+          "type": "choice",
+          "prompt": "If government is an agent, what follows about its powers?",
+          "answer": "limited",
+          "choices": [
+            { "id": "limited", "text": "They are limited to the job it was given" },
+            { "id": "open", "text": "They grow whenever officials want a new project" },
+            { "id": "none", "text": "An agent may use no force of any kind" },
+            { "id": "secret", "text": "The job is whatever is not written down" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An agent's powers track the job. Here the job is protecting rights, and the means stop at retaliatory force."
+          }
+        }
+      ]
+    },
+    {
+      "id": "protects-rights",
+      "title": "The job: protect rights",
+      "objective": "State the purpose of government as the protection of individual rights, and reject substitute purposes.",
+      "exercises": [
+        {
+          "id": "pr1",
+          "type": "choice",
+          "prompt": "What is government's job in this unit?",
+          "answer": "rights",
+          "choices": [
+            { "id": "rights", "text": "Protect individual rights" },
+            { "id": "wealth", "text": "Decide how wealth should be shared" },
+            { "id": "virtue", "text": "Force people to be virtuous" },
+            { "id": "taste", "text": "Set the nation's tastes and opinions" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The purpose named here is protection of rights. Other social projects are not that job."
+          }
+        },
+        {
+          "id": "pr2",
+          "type": "choice",
+          "prompt": "Whose rights does the agent protect?",
+          "answer": "each",
+          "choices": [
+            { "id": "each", "text": "The rights of individuals" },
+            { "id": "office", "text": "Only the rights of people in office" },
+            { "id": "crowd", "text": "A group right that replaces the individual" },
+            { "id": "none", "text": "No one's; rights are outside politics" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The agent protects individual rights. It does not replace the individual with a group that has no rights of its own."
+          }
+        },
+        {
+          "id": "pr3",
+          "type": "match",
+          "prompt": "Match each proposed purpose to whether it is the job.",
+          "pairs": [
+            { "id": "a", "left": "Protect rights", "right": "This is the job" },
+            { "id": "b", "left": "Run people's lives", "right": "Not the job" },
+            { "id": "c", "left": "Start force for a social plan", "right": "Outside the proper role" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Protecting rights is the purpose. Directing lives, or starting force for a plan, is not that purpose."
+          }
+        },
+        {
+          "id": "pr4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the purpose.",
+          "parts": [
+            { "type": "text", "text": "Government's job is to protect " },
+            { "type": "blank", "id": "b1", "answer": "rights" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["rights", "moods", "profits", "rituals"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The object of protection is rights. That is the purpose this unit assigns to the agent."
+          }
+        },
+        {
+          "id": "pr5",
+          "type": "choice",
+          "prompt": "A program orders people to give up property so officials can fund a favorite project. What is wrong with it under this unit?",
+          "answer": "swap",
+          "choices": [
+            { "id": "swap", "text": "It replaces protection of rights with a different purpose" },
+            { "id": "slow", "text": "It is fine if the paperwork is slow" },
+            { "id": "vote", "text": "A vote makes any purpose the proper role" },
+            { "id": "small", "text": "Only large projects can protect rights" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The proper purpose is protecting rights. Taking them for a favorite project is a different purpose."
+          }
+        },
+        {
+          "id": "pr6",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names the job.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "agent" },
+            { "id": "t3", "text": "protects" },
+            { "id": "t4", "text": "rights" },
+            { "id": "d1", "text": "invents" },
+            { "id": "d2", "text": "duties" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The agent protects rights. It does not invent a new set of duties and call that the same job."
+          }
+        },
+        {
+          "id": "pr7",
+          "type": "match",
+          "prompt": "Match the phrase to its place in the unit.",
+          "pairs": [
+            { "id": "m1", "left": "Agent", "right": "What government is" },
+            { "id": "m2", "left": "Protect rights", "right": "What the job is" },
+            { "id": "m3", "left": "Retaliatory force", "right": "How far its force may go" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Three pieces stay distinct: what government is, what it is for, and the limit on its force."
+          }
+        },
+        {
+          "id": "pr8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both parts of the purpose line.",
+          "parts": [
+            { "type": "text", "text": "An " },
+            { "type": "blank", "id": "b1", "answer": "agent" },
+            { "type": "text", "text": " that protects " },
+            { "type": "blank", "id": "b2", "answer": "rights" }
+          ],
+          "bank": ["agent", "rights", "crowd", "whim"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep both words: agent, and rights. Drop either one and the purpose is no longer the one in this unit."
+          }
+        },
+        {
+          "id": "pr9",
+          "type": "choice",
+          "prompt": "Which goal still counts as the proper purpose?",
+          "answer": "guard",
+          "choices": [
+            { "id": "guard", "text": "Stop others from violating a person's rights" },
+            { "id": "shape", "text": "Shape a citizen into an official ideal" },
+            { "id": "pick", "text": "Pick winners in peaceful trade" },
+            { "id": "silence", "text": "Silence ideas officials dislike" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Guarding a person against rights-violations is the job. Shaping, picking winners, or silencing is not protection of rights."
+          }
+        }
+      ]
+    },
+    {
+      "id": "retaliatory-only",
+      "title": "Only retaliatory force",
+      "objective": "Limit the force government may use to retaliation against those who have started force.",
+      "exercises": [
+        {
+          "id": "rf1",
+          "type": "choice",
+          "prompt": "What kind of force is government limited to?",
+          "answer": "ret",
+          "choices": [
+            { "id": "ret", "text": "Retaliatory force" },
+            { "id": "any", "text": "Any force that might improve society" },
+            { "id": "first", "text": "The first use of force, so others will obey" },
+            { "id": "none", "text": "No force, including defense against attackers" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The limit is retaliatory force. That includes answering force that was started by someone else. It does not include starting force."
+          }
+        },
+        {
+          "id": "rf2",
+          "type": "choice",
+          "prompt": "Retaliatory force answers what?",
+          "answer": "started",
+          "choices": [
+            { "id": "started", "text": "Force that someone else has already started" },
+            { "id": "taste", "text": "A private taste the majority dislikes" },
+            { "id": "poverty", "text": "The mere fact that someone has less money" },
+            { "id": "quiet", "text": "Peaceful refusal to join a plan" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Retaliation is a response to initiated force. Disagreement, poverty, or a peaceful no is not that trigger."
+          }
+        },
+        {
+          "id": "rf3",
+          "type": "match",
+          "prompt": "Match each use of force to its place under the limit.",
+          "pairs": [
+            { "id": "a", "left": "Arrest someone who has committed assault", "right": "Retaliatory" },
+            { "id": "b", "left": "Seize a peaceful person's goods for a plan", "right": "Not retaliatory" },
+            { "id": "c", "left": "Repel an invading army", "right": "Retaliatory defense" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Answering assault or invasion stays inside retaliatory force. Starting force against the peaceful does not."
+          }
+        },
+        {
+          "id": "rf4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the limit.",
+          "parts": [
+            { "type": "text", "text": "Government is limited to " },
+            { "type": "blank", "id": "b1", "answer": "retaliatory" },
+            { "type": "text", "text": " force." }
+          ],
+          "bank": ["retaliatory", "unlimited", "initiatory", "secret"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The adjective that marks the limit is retaliatory. Unlimited or initiatory force is the thing the limit rules out."
+          }
+        },
+        {
+          "id": "rf5",
+          "type": "choice",
+          "prompt": "Officials threaten fines to make a peaceful speaker stop. Under this unit, that threat is what?",
+          "answer": "start",
+          "choices": [
+            { "id": "start", "text": "A start of force, outside the retaliatory limit" },
+            { "id": "ret", "text": "Retaliation, because speech annoyed someone" },
+            { "id": "job", "text": "The job of protecting rights" },
+            { "id": "none", "text": "Not force, because no one was struck" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A threat of penalties against a peaceful person is started force. The retaliatory limit does not cover it."
+          }
+        },
+        {
+          "id": "rf6",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the limit in one line.",
+          "tokens": [
+            { "id": "t1", "text": "Force" },
+            { "id": "t2", "text": "must" },
+            { "id": "t3", "text": "stay" },
+            { "id": "t4", "text": "retaliatory" },
+            { "id": "d1", "text": "creative" },
+            { "id": "d2", "text": "first" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The force government uses must stay retaliatory. Being first to use force is the line it may not cross."
+          }
+        },
+        {
+          "id": "rf7",
+          "type": "match",
+          "prompt": "Match the word to its meaning in this lesson.",
+          "pairs": [
+            { "id": "m1", "left": "Retaliate", "right": "Answer force that was started" },
+            { "id": "m2", "left": "Initiate", "right": "Be the one who starts force" },
+            { "id": "m3", "left": "Limit", "right": "Bar government from the second of those" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The limit allows retaliation and bars initiation. Those are not two names for the same act."
+          }
+        },
+        {
+          "id": "rf8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the contrast.",
+          "parts": [
+            { "type": "text", "text": "Retaliatory force answers initiated force. It does not " },
+            { "type": "blank", "id": "b1", "answer": "start" },
+            { "type": "text", "text": " force." }
+          ],
+          "bank": ["start", "name", "study", "trade"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The barred act is to start force. Naming, studying, or trading is not the contrast this lesson draws."
+          }
+        },
+        {
+          "id": "rf9",
+          "type": "choice",
+          "prompt": "Why is retaliatory force still a use of force?",
+          "answer": "answer",
+          "choices": [
+            { "id": "answer", "text": "It uses force, but only to answer force already started" },
+            { "id": "fake", "text": "It is only a speech, never physical" },
+            { "id": "same", "text": "It is the same act as starting force" },
+            { "id": "ban", "text": "This unit bans every use of force, including defense" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The limit is not pacifism. Government may use force, and only as retaliation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "three-functions",
+      "title": "Police, courts, defense",
+      "objective": "Place police, law courts, and armed defense inside the job of protecting rights by retaliatory force.",
+      "exercises": [
+        {
+          "id": "tf1",
+          "type": "choice",
+          "prompt": "Which set belongs to the proper role?",
+          "answer": "three",
+          "choices": [
+            { "id": "three", "text": "Police, law courts, and armed defense" },
+            { "id": "press", "text": "A state press, a state church, and a state shop" },
+            { "id": "plan", "text": "A planning board for every trade" },
+            { "id": "taste", "text": "Censors for art, speech, and science" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Police, courts, and armed defense are how an agent protects rights with retaliatory force. Running speech, trade, or worship is not."
+          }
+        },
+        {
+          "id": "tf2",
+          "type": "choice",
+          "prompt": "What do the police do when they stay inside the role?",
+          "answer": "answer",
+          "choices": [
+            { "id": "answer", "text": "Answer crimes that violate rights" },
+            { "id": "pick", "text": "Pick which peaceful businesses may open" },
+            { "id": "edit", "text": "Edit what people may say" },
+            { "id": "tax-taste", "text": "Punish unpopular but peaceful tastes" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Police work that belongs here is a response to rights-violations, not direction of peaceful life."
+          }
+        },
+        {
+          "id": "tf3",
+          "type": "match",
+          "prompt": "Match each function to the retaliatory task it performs.",
+          "pairs": [
+            { "id": "p", "left": "Police", "right": "Answer force and fraud against rights at home" },
+            { "id": "c", "left": "Courts", "right": "Judge disputes under objective rules" },
+            { "id": "d", "left": "Armed defense", "right": "Repel force from outside the country" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each function is a way of protecting rights. None of them is a license to start force against the peaceful."
+          }
+        },
+        {
+          "id": "tf4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name the three functions.",
+          "parts": [
+            { "type": "text", "text": "The proper functions include police, " },
+            { "type": "blank", "id": "b1", "answer": "courts" },
+            { "type": "text", "text": ", and armed " },
+            { "type": "blank", "id": "b2", "answer": "defense" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["courts", "defense", "censors", "cartels"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Courts and defense sit with the police. Censors and cartels are not functions of this role."
+          }
+        },
+        {
+          "id": "tf5",
+          "type": "choice",
+          "prompt": "Why do courts belong in the proper role?",
+          "answer": "rules",
+          "choices": [
+            { "id": "rules", "text": "They decide claims of rights under rules, instead of private revenge" },
+            { "id": "fashion", "text": "They tell people which fashions are moral" },
+            { "id": "price", "text": "They set every price in the market" },
+            { "id": "faith", "text": "They require a single faith" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Courts are part of retaliatory protection: they settle rights-claims by objective rules rather than by whoever is stronger."
+          }
+        },
+        {
+          "id": "tf6",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the list of proper functions.",
+          "tokens": [
+            { "id": "t1", "text": "Police" },
+            { "id": "t2", "text": "courts" },
+            { "id": "t3", "text": "and" },
+            { "id": "t4", "text": "defense" },
+            { "id": "d1", "text": "censors" },
+            { "id": "d2", "text": "planners" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Police, courts, and defense are the functions that carry out protection by retaliatory force."
+          }
+        },
+        {
+          "id": "tf7",
+          "type": "match",
+          "prompt": "Match the institution to what would push it outside the role.",
+          "pairs": [
+            { "id": "a", "left": "Police who jail peaceful critics", "right": "Started force, not retaliation" },
+            { "id": "b", "left": "A court that ignores rights and obeys a faction", "right": "No longer judging rights" },
+            { "id": "c", "left": "An army used to conquer peaceful neighbors", "right": "Initiated force abroad" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The same institutions leave the proper role when they start force or stop protecting rights."
+          }
+        },
+        {
+          "id": "tf8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the link to the limit.",
+          "parts": [
+            { "type": "text", "text": "These functions use force only as " },
+            { "type": "blank", "id": "b1", "answer": "retaliation" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["retaliation", "inspiration", "charity", "taste"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Police, courts, and defense stay proper only while their force is retaliation in defense of rights."
+          }
+        },
+        {
+          "id": "tf9",
+          "type": "choice",
+          "prompt": "Armed defense fits the unit when it does what?",
+          "answer": "repel",
+          "choices": [
+            { "id": "repel", "text": "Repels force directed against the rights of the people" },
+            { "id": "grab", "text": "Seizes land because it would be useful" },
+            { "id": "creed", "text": "Spreads a creed by conquest" },
+            { "id": "trade", "text": "Replaces voluntary trade with occupation" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Defense is retaliatory when it answers force. Conquest for land, creed, or trade is initiation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "the-line",
+      "title": "Where the role stops",
+      "objective": "Apply the whole unit: an agent that protects rights and stops where retaliatory force stops.",
+      "exercises": [
+        {
+          "id": "ln1",
+          "type": "choice",
+          "prompt": "Which sentence states the whole unit?",
+          "answer": "whole",
+          "choices": [
+            { "id": "whole", "text": "Government is an agent that protects rights, limited to retaliatory force" },
+            { "id": "wide", "text": "Government may pursue any goal the voters like" },
+            { "id": "none", "text": "Government should not exist in any form" },
+            { "id": "own", "text": "Government owns rights and lends them back" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Agent, protection of rights, and the retaliatory limit are one role, not three optional slogans."
+          }
+        },
+        {
+          "id": "ln2",
+          "type": "choice",
+          "prompt": "A law bans a peaceful trade because officials dislike it. Where does it fall?",
+          "answer": "over",
+          "choices": [
+            { "id": "over", "text": "Over the line: it starts force instead of retaliating" },
+            { "id": "on", "text": "On the line: dislike is the same as a rights-violation" },
+            { "id": "agent", "text": "Inside the role, because an agent may ban anything" },
+            { "id": "court", "text": "A court function, because a paper was filed" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Banning peaceful trade starts force. The role stops before that line."
+          }
+        },
+        {
+          "id": "ln3",
+          "type": "match",
+          "prompt": "Match each case to the verdict under this unit.",
+          "pairs": [
+            { "id": "a", "left": "Prosecuting a thief", "right": "Inside the role" },
+            { "id": "b", "left": "Funding a project by seizing peaceful earnings", "right": "Outside the role" },
+            { "id": "c", "left": "A court enforcing a voluntary contract", "right": "Protecting rights" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Answering theft and enforcing a voluntary contract protect rights. Seizing peaceful earnings does not."
+          }
+        },
+        {
+          "id": "ln4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Restate the summary.",
+          "parts": [
+            { "type": "text", "text": "An agent that protects rights, limited to " },
+            { "type": "blank", "id": "b1", "answer": "retaliatory" },
+            { "type": "text", "text": " force." }
+          ],
+          "bank": ["retaliatory", "popular", "total", "moralizing"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Popularity, totality, or a wish to moralize people does not replace the word retaliatory."
+          }
+        },
+        {
+          "id": "ln5",
+          "type": "choice",
+          "prompt": "What does the limit rule out even when a goal sounds kind?",
+          "answer": "init",
+          "choices": [
+            { "id": "init", "text": "Starting force against people who have not started it" },
+            { "id": "help", "text": "Any private act of kindness" },
+            { "id": "talk", "text": "Argument that uses no force" },
+            { "id": "guard", "text": "Guarding a victim against an attacker" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A kind-sounding goal does not license initiated force. Guarding a victim is still inside retaliation."
+          }
+        },
+        {
+          "id": "ln6",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the closing line of the unit.",
+          "tokens": [
+            { "id": "t1", "text": "Protect" },
+            { "id": "t2", "text": "rights" },
+            { "id": "t3", "text": "by" },
+            { "id": "t4", "text": "retaliation" },
+            { "id": "t5", "text": "only" },
+            { "id": "d1", "text": "decree" },
+            { "id": "d2", "text": "anything" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The close of the unit is protect rights by retaliation only. A decree to do anything is the rejected alternative."
+          }
+        },
+        {
+          "id": "ln7",
+          "type": "match",
+          "prompt": "Match each piece so the role stays whole.",
+          "pairs": [
+            { "id": "m1", "left": "If it is not an agent", "right": "It claims to own the people" },
+            { "id": "m2", "left": "If it does not protect rights", "right": "It has left its job" },
+            { "id": "m3", "left": "If its force is not retaliatory", "right": "It has crossed the limit" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Drop any one piece and the proper role is gone: the standing, the job, or the limit on force."
+          }
+        },
+        {
+          "id": "ln8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two boundaries.",
+          "parts": [
+            { "type": "text", "text": "The job is to protect " },
+            { "type": "blank", "id": "b1", "answer": "rights" },
+            { "type": "text", "text": ". The means stop at " },
+            { "type": "blank", "id": "b2", "answer": "retaliation" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["rights", "retaliation", "tastes", "conquest"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rights name the job. Retaliation names where the means stop. Tastes and conquest are the decoys."
+          }
+        },
+        {
+          "id": "ln9",
+          "type": "choice",
+          "prompt": "A neighbor asks the government to stop a mugging, and also to stop a rival's honest shop. What may the agent do?",
+          "answer": "mug",
+          "choices": [
+            { "id": "mug", "text": "Act against the mugging, and refuse to shut the honest shop" },
+            { "id": "both", "text": "Do both, because both requests came from a citizen" },
+            { "id": "shop", "text": "Shut the shop only, because trade is easier to police" },
+            { "id": "neither", "text": "Do neither, because all force is forbidden" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Stopping a mugging is retaliatory protection of rights. Closing an honest shop would start force, so the agent must refuse it."
+          }
+        },
+        {
+          "id": "ln10",
+          "type": "choice",
+          "prompt": "Which change would end the proper role while keeping the same buildings and uniforms?",
+          "answer": "start",
+          "choices": [
+            { "id": "start", "text": "Using those institutions to start force for goals other than rights" },
+            { "id": "paint", "text": "Painting the buildings a new color" },
+            { "id": "name", "text": "Giving the police a new official name" },
+            { "id": "map", "text": "Drawing a new map of court districts" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Names and buildings do not make the role. Starting force for some other goal leaves the role even if the uniforms stay."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

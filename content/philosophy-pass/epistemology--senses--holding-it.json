@@ -1,0 +1,266 @@
+{
+  "sectionFile": "epistemology.json",
+  "key": "senses/holding-it",
+  "exercises": [
+    {
+      "id": "e5e1",
+      "type": "choice",
+      "prompt": "Which order matches the texts in this unit?",
+      "answer": "ok",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Reason is the faculty that identifies and integrates the material provided by man's senses.",
+        "note": "Put the percept under that sentence: percepts, not isolated sensations, are the given form of the material.",
+        "citation": "Ayn Rand, \"The Objectivist Ethics,\" The Virtue of Selfishness, 20"
+      },
+      "choices": [
+        {
+          "id": "ok",
+          "text": "Senses provide material. Percepts are the given. Reason identifies and integrates."
+        },
+        {
+          "id": "bad",
+          "text": "Reason invents material. The senses vote on it. Percepts are optional."
+        },
+        {
+          "id": "inn",
+          "text": "Innate ideas come first. Percepts decorate them."
+        },
+        {
+          "id": "emo",
+          "text": "Emotions report the facts. The senses illustrate the emotions."
+        }
+      ]
+    },
+    {
+      "id": "e5e2",
+      "type": "match",
+      "prompt": "Match each stage to the role it plays, from material through truth.",
+      "feedback": {
+        "kind": "paraphrase",
+        "note": "The senses supply material in the form of percepts. Reason identifies and integrates that material. Truth is the recognition of reality, and reason is its standard."
+      },
+      "pairs": [
+        {
+          "id": "se",
+          "left": "Material",
+          "right": "What the senses provide for cognition"
+        },
+        {
+          "id": "pe",
+          "left": "Percept",
+          "right": "The given form in which sensory evidence is grasped"
+        },
+        {
+          "id": "em",
+          "left": "Identification",
+          "right": "Reason's work of identifying and integrating that material"
+        },
+        {
+          "id": "de",
+          "left": "Truth",
+          "right": "Recognition of reality, with reason as the only standard"
+        }
+      ]
+    },
+    {
+      "id": "e5e3",
+      "type": "fill",
+      "mode": "blanks",
+      "prompt": "Complete the definition of reason.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Reason is the faculty that identifies and integrates the material provided by man's "
+        },
+        {
+          "type": "blank",
+          "id": "b1",
+          "answer": "senses"
+        }
+      ],
+      "bank": [
+        "senses",
+        "feelings",
+        "ancestors",
+        "rulers"
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "Reason is the faculty that identifies and integrates the material provided by man's senses.",
+        "note": "The last word is senses. Substituting feelings would make reason a rationalizer of emotion, which the interview denies.",
+        "citation": "Ayn Rand, \"The Objectivist Ethics,\" The Virtue of Selfishness, 20"
+      }
+    },
+    {
+      "id": "e5e4",
+      "type": "choice",
+      "prompt": "What does this unit mean by truth?",
+      "answer": "ftni",
+      "choices": [
+        {
+          "id": "ftni",
+          "text": "The recognition of reality, with reason as the only standard"
+        },
+        {
+          "id": "fh",
+          "text": "A feeling that reality has matched a wish"
+        },
+        {
+          "id": "rm",
+          "text": "Whatever a group agrees to call real"
+        },
+        {
+          "id": "an",
+          "text": "A name detached from any recognition of the facts"
+        }
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "Truth is the recognition of reality; reason, man's only means of knowledge, is his only standard of truth.",
+        "note": "Truth is tied to reality, and the standard named in the sentence is reason, not feeling and not a vote.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 126"
+      }
+    },
+    {
+      "id": "e5e5",
+      "type": "choice",
+      "prompt": "“Reason is man’s only means of grasping reality and of acquiring knowledge” implies which consequence, in the same sentence?",
+      "answer": "rej",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Reason is man's only means of grasping reality and of acquiring knowledge—and, therefore, the rejection of reason means that men should act regardless of and/or in contradiction to the facts of reality.",
+        "note": "The “therefore” is part of the sentence. It is a consequence she draws, not a separate slogan.",
+        "citation": "Ayn Rand, \"The Left: Old and New,\" Return of the Primitive: The Anti-Industrial Revolution, 162"
+      },
+      "choices": [
+        {
+          "id": "rej",
+          "text": "Rejecting reason means acting regardless of, or against, the facts"
+        },
+        {
+          "id": "ok",
+          "text": "Rejecting reason leaves the facts untouched and the action rational"
+        },
+        {
+          "id": "emo",
+          "text": "Emotion then becomes the means of knowledge"
+        },
+        {
+          "id": "soc",
+          "text": "Society becomes the means of knowledge"
+        }
+      ]
+    },
+    {
+      "id": "e5e6",
+      "type": "fill",
+      "mode": "sentence",
+      "prompt": "Build the shorter truth sentence’s opening.",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Truth"
+        },
+        {
+          "id": "t2",
+          "text": "is"
+        },
+        {
+          "id": "t3",
+          "text": "the"
+        },
+        {
+          "id": "t4",
+          "text": "recognition"
+        },
+        {
+          "id": "t5",
+          "text": "of"
+        },
+        {
+          "id": "t6",
+          "text": "reality"
+        },
+        {
+          "id": "d1",
+          "text": "feeling"
+        }
+      ],
+      "answer": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "Truth is the recognition of reality; reason, man's only means of knowledge, is his only standard of truth.",
+        "note": "You built the opening clause. The sentence goes on to name reason as the only standard.",
+        "citation": "Ayn Rand, Galt's Speech, For the New Intellectual, 126"
+      }
+    },
+    {
+      "id": "e5e7",
+      "type": "choice",
+      "prompt": "A philosophic system, in the West Point lecture, is:",
+      "answer": "int",
+      "feedback": {
+        "kind": "quote",
+        "quote": "A philosophic system is an integrated view of existence.",
+        "note": "The sentence defines a philosophic system as one view, not a pile of tips. This floor only asks for that definition.",
+        "citation": "Ayn Rand, \"Philosophy: Who Needs It,\" Philosophy: Who Needs It, 5"
+      },
+      "choices": [
+        {
+          "id": "int",
+          "text": "An integrated view of existence"
+        },
+        {
+          "id": "bag",
+          "text": "A grab bag of isolated tips"
+        },
+        {
+          "id": "mood",
+          "text": "A mood"
+        },
+        {
+          "id": "law",
+          "text": "A statute"
+        }
+      ]
+    },
+    {
+      "id": "e5e8",
+      "type": "choice",
+      "prompt": "Which mistake does this unit treat as a stolen-concept move?",
+      "answer": "atk",
+      "feedback": {
+        "kind": "quote",
+        "quote": "The arguments of those who attack the senses are merely variants of the fallacy of the \"stolen concept.\"",
+        "note": "You can now say what is stolen: the evidential base the argument still stands on.",
+        "citation": "Ayn Rand, \"Foreword to the First Edition,\" Introduction to Objectivist Epistemology, 4"
+      },
+      "choices": [
+        {
+          "id": "atk",
+          "text": "Attacking the senses while using sensory evidence to make the attack"
+        },
+        {
+          "id": "see",
+          "text": "Reporting what you see"
+        },
+        {
+          "id": "int",
+          "text": "Integrating two percepts"
+        },
+        {
+          "id": "nam",
+          "text": "Naming an entity"
+        }
+      ]
+    }
+  ]
+}

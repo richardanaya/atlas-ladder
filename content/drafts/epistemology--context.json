@@ -1,0 +1,749 @@
+{
+  "sectionId": "epistemology",
+  "sectionFile": "epistemology.json",
+  "unitId": "context",
+  "title": "Context and Hierarchy",
+  "summary": "Knowledge is contextual and hierarchical. A concept used with no context is floating.",
+  "lessons": [
+    {
+      "id": "what-context",
+      "title": "Knowledge has a context",
+      "objective": "Explain a context of knowledge as the body of facts and earlier ideas a claim depends on, not as a mood or a private story.",
+      "exercises": [
+        {
+          "id": "wc1",
+          "type": "choice",
+          "prompt": "In this unit, what is a context of knowledge?",
+          "answer": "body",
+          "choices": [
+            { "id": "body", "text": "The facts and earlier ideas a claim depends on" },
+            { "id": "mood", "text": "The feeling you have while you say the claim" },
+            { "id": "crowd", "text": "The number of people who repeat the claim" },
+            { "id": "style", "text": "The wording you happen to prefer" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Context is the knowledge the claim rests on. Mood, popularity, and style do not supply that base."
+          }
+        },
+        {
+          "id": "wc2",
+          "type": "choice",
+          "prompt": "Why is knowledge called contextual?",
+          "answer": "holds",
+          "choices": [
+            { "id": "holds", "text": "A claim holds in relation to the knowledge that supports it" },
+            { "id": "changes", "text": "A claim means whatever the speaker feels today" },
+            { "id": "none", "text": "A claim needs no facts once it has a name" },
+            { "id": "vote", "text": "A claim is true only when a group agrees" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Contextual means the claim is tied to a definite body of knowledge, not that truth is a feeling or a vote."
+          }
+        },
+        {
+          "id": "wc3",
+          "type": "match",
+          "prompt": "Match each item to its role in a context.",
+          "pairs": [
+            { "id": "p1", "left": "Observed facts the claim uses", "right": "Part of the context" },
+            { "id": "p2", "left": "Earlier ideas the claim relies on", "right": "Part of the context" },
+            { "id": "p3", "left": "A mood that is not evidence", "right": "Not part of the context" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Facts and the ideas that depend on them form the context. A mood left unconnected to those facts does not."
+          }
+        },
+        {
+          "id": "wc4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the lesson statement.",
+          "parts": [
+            { "type": "text", "text": "Knowledge is " },
+            { "type": "blank", "id": "b1", "answer": "contextual" },
+            { "type": "text", "text": ": a claim depends on the facts and ideas already in hand." }
+          ],
+          "bank": ["contextual", "optional", "private", "random"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word for this dependence is contextual. Optional, private, and random deny that dependence."
+          }
+        },
+        {
+          "id": "wc5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states what a context is.",
+          "tokens": [
+            { "id": "t1", "text": "A context" },
+            { "id": "t2", "text": "is the knowledge" },
+            { "id": "t3", "text": "a claim depends on" },
+            { "id": "d1", "text": "is a private mood" },
+            { "id": "d2", "text": "replaces the facts" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Context names the supporting knowledge. It is not a substitute for the facts and it is not a mood."
+          }
+        },
+        {
+          "id": "wc6",
+          "type": "choice",
+          "prompt": "You say the bridge is safe. Which item belongs in the context of that claim?",
+          "answer": "inspect",
+          "choices": [
+            { "id": "inspect", "text": "The inspection results and the engineering ideas those results use" },
+            { "id": "hope", "text": "How much you hope the trip goes well" },
+            { "id": "name", "text": "The fact that the bridge has a name" },
+            { "id": "loud", "text": "How confidently you say the word safe" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The context is the knowledge the safety claim depends on. Hope, a label, and a tone of voice are not that knowledge."
+          }
+        },
+        {
+          "id": "wc7",
+          "type": "match",
+          "prompt": "Match each mistake to what it confuses with context.",
+          "pairs": [
+            { "id": "m1", "left": "My feeling makes the claim true", "right": "Treats a mood as context" },
+            { "id": "m2", "left": "Everyone says it, so the base is done", "right": "Treats agreement as context" },
+            { "id": "m3", "left": "The word itself is the whole proof", "right": "Treats a label as context" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Context is supporting knowledge. A feeling, a chorus, or a word used alone does not do that job."
+          }
+        },
+        {
+          "id": "wc8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the contrast.",
+          "parts": [
+            { "type": "text", "text": "A claim is contextual when it stays tied to its " },
+            { "type": "blank", "id": "b1", "answer": "supporting" },
+            { "type": "text", "text": " knowledge." }
+          ],
+          "bank": ["supporting", "hidden", "popular", "emotional"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The tie that matters is to supporting knowledge, not to secrecy, popularity, or emotion."
+          }
+        }
+      ]
+    },
+    {
+      "id": "knowledge-order",
+      "title": "Knowledge has an order",
+      "objective": "Describe hierarchy as an order in which later knowledge rests on earlier knowledge and cannot be used as if it came first.",
+      "exercises": [
+        {
+          "id": "ko1",
+          "type": "choice",
+          "prompt": "What does hierarchical mean for knowledge?",
+          "answer": "order",
+          "choices": [
+            { "id": "order", "text": "Later knowledge rests on earlier knowledge in a definite order" },
+            { "id": "pile", "text": "Every idea is equally basic and can be swapped at will" },
+            { "id": "rank", "text": "Ideas are ranked by how impressive they sound" },
+            { "id": "age", "text": "The newest sentence always replaces the older facts" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Hierarchy is an order of dependence. It is not a pile, a contest of tone, or a rule that the newest line wins."
+          }
+        },
+        {
+          "id": "ko2",
+          "type": "choice",
+          "prompt": "Which use respects the hierarchy?",
+          "answer": "first",
+          "choices": [
+            { "id": "first", "text": "You keep the earlier facts in place and then draw the later conclusion" },
+            { "id": "skip", "text": "You start with the later conclusion and deny the facts it needed" },
+            { "id": "swap", "text": "You treat a remote conclusion as if it were your first observation" },
+            { "id": "drop", "text": "You erase the earlier step because the later word sounds complete" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The order runs from earlier knowledge to later knowledge. Skipping, swapping, or erasing the base breaks that order."
+          }
+        },
+        {
+          "id": "ko3",
+          "type": "match",
+          "prompt": "Match each item to its place in the order.",
+          "pairs": [
+            { "id": "a", "left": "What you know first and directly", "right": "Earlier in the hierarchy" },
+            { "id": "b", "left": "A conclusion that uses that earlier knowledge", "right": "Later in the hierarchy" },
+            { "id": "c", "left": "A later conclusion used as if nothing came before it", "right": "Hierarchy broken" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Earlier knowledge supports later knowledge. Treating the later item as free-standing breaks the order."
+          }
+        },
+        {
+          "id": "ko4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit line about order.",
+          "parts": [
+            { "type": "text", "text": "Knowledge is hierarchical: " },
+            { "type": "blank", "id": "b1", "answer": "later" },
+            { "type": "text", "text": " knowledge rests on earlier knowledge." }
+          ],
+          "bank": ["later", "louder", "newer", "vaguer"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The dependence runs from earlier to later. Loudness, novelty, and vagueness are not the order."
+          }
+        },
+        {
+          "id": "ko5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the order.",
+          "tokens": [
+            { "id": "t1", "text": "Later knowledge" },
+            { "id": "t2", "text": "rests on" },
+            { "id": "t3", "text": "earlier knowledge" },
+            { "id": "d1", "text": "cancels" },
+            { "id": "d2", "text": "a vote" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Hierarchy means later knowledge rests on earlier knowledge. It does not cancel that base, and a vote is not the base."
+          }
+        },
+        {
+          "id": "ko6",
+          "type": "choice",
+          "prompt": "Someone uses an advanced conclusion to wipe out the simple facts it was built from. What failed?",
+          "answer": "hier",
+          "choices": [
+            { "id": "hier", "text": "The hierarchy: the later item was turned against the earlier base" },
+            { "id": "tone", "text": "Only the tone of voice" },
+            { "id": "speed", "text": "Only the speed of the sentence" },
+            { "id": "nothing", "text": "Nothing, because later always outranks earlier" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A later conclusion cannot erase the earlier knowledge it depends on. That reversal is a break in the hierarchy."
+          }
+        },
+        {
+          "id": "ko7",
+          "type": "match",
+          "prompt": "Match each move to the result.",
+          "pairs": [
+            { "id": "r1", "left": "Keep the earlier facts, then conclude", "right": "Order kept" },
+            { "id": "r2", "left": "Treat every idea as equally first", "right": "Order denied" },
+            { "id": "r3", "left": "Use a late conclusion to cancel its base", "right": "Order reversed" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keeping the base preserves the hierarchy. Flattening every idea, or reversing the dependence, does not."
+          }
+        },
+        {
+          "id": "ko8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the warning about order.",
+          "tokens": [
+            { "id": "t1", "text": "Do not use" },
+            { "id": "t2", "text": "a later conclusion" },
+            { "id": "t3", "text": "as if it came first" },
+            { "id": "d1", "text": "a louder slogan" },
+            { "id": "d2", "text": "instead of any order" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The warning is about place in the order. A slogan and a refusal of order are not the correction."
+          }
+        },
+        {
+          "id": "ko9",
+          "type": "choice",
+          "prompt": "Which pair names the two features in this unit's title?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "Context and hierarchy" },
+            { "id": "moods", "text": "Mood and memory tricks" },
+            { "id": "votes", "text": "Polls and slogans" },
+            { "id": "styles", "text": "Style and volume" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit is about context and hierarchy. Moods, polls, slogans, style, and volume are not those features."
+          }
+        }
+      ]
+    },
+    {
+      "id": "floating-concept",
+      "title": "A concept with no context",
+      "objective": "Identify a floating concept as one used with no context, cut off from the facts and the order that give it a meaning.",
+      "exercises": [
+        {
+          "id": "fc1",
+          "type": "choice",
+          "prompt": "When is a concept floating?",
+          "answer": "none",
+          "choices": [
+            { "id": "none", "text": "When it is used with no context" },
+            { "id": "long", "text": "When the word has many letters" },
+            { "id": "old", "text": "When the idea was learned long ago" },
+            { "id": "shared", "text": "When more than one person knows the word" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Floating means used with no context. Length, age, and how many people know the word are not the test."
+          }
+        },
+        {
+          "id": "fc2",
+          "type": "choice",
+          "prompt": "What has a floating concept lost?",
+          "answer": "tie",
+          "choices": [
+            { "id": "tie", "text": "Its tie to the facts and to the knowledge that comes before it" },
+            { "id": "sound", "text": "Its spelling, while the meaning stays fully specified" },
+            { "id": "fans", "text": "Its fans, while the context stays explicit" },
+            { "id": "ink", "text": "Nothing but the ink on the page" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "With no context, the concept is detached from the facts and from the earlier knowledge that give it meaning."
+          }
+        },
+        {
+          "id": "fc3",
+          "type": "match",
+          "prompt": "Match each use to floating or not floating.",
+          "pairs": [
+            { "id": "u1", "left": "A word waved with no facts and no earlier ideas attached", "right": "Floating" },
+            { "id": "u2", "left": "The same word tied to the facts it names and the ideas it rests on", "right": "Not floating" },
+            { "id": "u3", "left": "A grand term used as if it needed no base at all", "right": "Floating" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The difference is context. A tied concept is not floating. A word with no base is floating, however grand it sounds."
+          }
+        },
+        {
+          "id": "fc4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit summary line.",
+          "parts": [
+            { "type": "text", "text": "A concept used with no context is " },
+            { "type": "blank", "id": "b1", "answer": "floating" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["floating", "finished", "forbidden", "automatic"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "No context means the concept is floating. Finished, forbidden, and automatic are different claims."
+          }
+        },
+        {
+          "id": "fc5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names the fault.",
+          "tokens": [
+            { "id": "t1", "text": "A concept" },
+            { "id": "t2", "text": "with no context" },
+            { "id": "t3", "text": "is floating" },
+            { "id": "d1", "text": "is fully grounded" },
+            { "id": "d2", "text": "needs no meaning" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Used with no context, the concept is floating. That is not the same as being grounded, and it does not mean meaning is unnecessary."
+          }
+        },
+        {
+          "id": "fc6",
+          "type": "choice",
+          "prompt": "Which speaker is using a floating concept?",
+          "answer": "wave",
+          "choices": [
+            { "id": "wave", "text": "Justice matters, and I will not say which facts or earlier ideas I mean" },
+            { "id": "tie", "text": "Justice here means this rule applied to these stated facts" },
+            { "id": "order", "text": "This conclusion comes after the observations I just listed" },
+            { "id": "base", "text": "I can point to the earlier knowledge this word rests on" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Refusing to name any facts or earlier ideas leaves the concept with no context. The other speakers keep that tie."
+          }
+        },
+        {
+          "id": "fc7",
+          "type": "choice",
+          "prompt": "Does a long explanation by itself stop a concept from floating?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. Length is not context. The tie to facts and to earlier knowledge is" },
+            { "id": "yes", "text": "Yes. Any long speech supplies a context automatically" },
+            { "id": "if", "text": "Yes, if the speech uses bigger words than the question" },
+            { "id": "only", "text": "Only when the speech is delivered loudly" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A concept floats when context is missing. More words, bigger words, or more volume do not replace that context."
+          }
+        },
+        {
+          "id": "fc8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both blanks.",
+          "parts": [
+            { "type": "text", "text": "Floating means the concept is cut off from its " },
+            { "type": "blank", "id": "b1", "answer": "context" },
+            { "type": "text", "text": " and from the " },
+            { "type": "blank", "id": "b2", "answer": "order" },
+            { "type": "text", "text": " of knowledge." }
+          ],
+          "bank": ["context", "order", "volume", "costume"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "What is missing is context and the order of knowledge. Volume and costume are not those missing pieces."
+          }
+        },
+        {
+          "id": "fc9",
+          "type": "match",
+          "prompt": "Match the phrase to the idea it illustrates.",
+          "pairs": [
+            { "id": "i1", "left": "Used with no context", "right": "Floating concept" },
+            { "id": "i2", "left": "Tied to the knowledge it depends on", "right": "Concept kept in context" },
+            { "id": "i3", "left": "Placed after the knowledge it rests on", "right": "Concept kept in the hierarchy" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "No context makes the concept float. A tie to supporting knowledge, and a place after that knowledge, keeps it from floating."
+          }
+        }
+      ]
+    },
+    {
+      "id": "put-it-back",
+      "title": "Put the concept back",
+      "objective": "Restore a concept by naming the facts it refers to and the earlier knowledge it rests on, instead of adding emphasis.",
+      "exercises": [
+        {
+          "id": "pb1",
+          "type": "choice",
+          "prompt": "What is the first useful move when a concept is floating?",
+          "answer": "name",
+          "choices": [
+            { "id": "name", "text": "Name the facts it refers to and the earlier knowledge it rests on" },
+            { "id": "shout", "text": "Repeat the word more forcefully" },
+            { "id": "rename", "text": "Swap in a fancier synonym and stop" },
+            { "id": "drop", "text": "Declare that context is impossible" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Putting a concept back means restoring its context: the facts and the earlier knowledge. Force, a synonym, or a denial does not do that."
+          }
+        },
+        {
+          "id": "pb2",
+          "type": "choice",
+          "prompt": "Which reply puts freedom back into a context?",
+          "answer": "acts",
+          "choices": [
+            { "id": "acts", "text": "Here it means these people may take these actions, on the facts and rules already stated" },
+            { "id": "glow", "text": "Freedom is just a glow-word, and that is all I will say" },
+            { "id": "any", "text": "Freedom means anything, so no facts are required" },
+            { "id": "first", "text": "I will use the late political slogan to erase the earlier facts" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The useful reply states referents and the knowledge already in place. A glow, a blank meaning, or a reversal of order leaves the concept floating."
+          }
+        },
+        {
+          "id": "pb3",
+          "type": "match",
+          "prompt": "Match each repair to what it restores.",
+          "pairs": [
+            { "id": "s1", "left": "Point to the facts the word refers to", "right": "The context of reference" },
+            { "id": "s2", "left": "Show which earlier knowledge the word rests on", "right": "The place in the hierarchy" },
+            { "id": "s3", "left": "Only raise your voice", "right": "Nothing about context or order" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Facts restore what the concept is about. Earlier knowledge restores its place. Emphasis restores neither."
+          }
+        },
+        {
+          "id": "pb4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the repair.",
+          "parts": [
+            { "type": "text", "text": "To stop a concept from floating, state its " },
+            { "type": "blank", "id": "b1", "answer": "context" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["context", "volume", "slogan", "synonym"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The repair is to state the context. Volume, a slogan, or a synonym is not a substitute."
+          }
+        },
+        {
+          "id": "pb5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that says how to restore a concept.",
+          "tokens": [
+            { "id": "t1", "text": "Name the facts" },
+            { "id": "t2", "text": "and the earlier knowledge" },
+            { "id": "t3", "text": "the concept rests on" },
+            { "id": "d1", "text": "Shout the label" },
+            { "id": "d2", "text": "until context vanishes" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Restoration names facts and earlier knowledge. Shouting a label does not put the concept back."
+          }
+        },
+        {
+          "id": "pb6",
+          "type": "choice",
+          "prompt": "A student says the concept is too advanced to connect to anything earlier. What is wrong with that?",
+          "answer": "denies",
+          "choices": [
+            { "id": "denies", "text": "It denies the hierarchy by treating a later concept as if it had no base" },
+            { "id": "proves", "text": "It proves the concept is fully in context" },
+            { "id": "shows", "text": "It shows that earlier knowledge is optional once a word is long" },
+            { "id": "fixes", "text": "It fixes a floating concept by calling it advanced" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Advanced does not mean baseless. A later concept still rests on earlier knowledge. Calling it advanced does not restore context."
+          }
+        },
+        {
+          "id": "pb7",
+          "type": "match",
+          "prompt": "Match the attempted fix to the verdict.",
+          "pairs": [
+            { "id": "v1", "left": "Specify the referents and the prior knowledge", "right": "Context restored" },
+            { "id": "v2", "left": "Offer a synonym and no facts", "right": "Still floating" },
+            { "id": "v3", "left": "Insist the later word cancels the earlier facts", "right": "Hierarchy still broken" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the tie to referents and prior knowledge restores the concept. A synonym or a reversal leaves the fault in place."
+          }
+        },
+        {
+          "id": "pb8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both blanks in the repair rule.",
+          "parts": [
+            { "type": "text", "text": "State the " },
+            { "type": "blank", "id": "b1", "answer": "facts" },
+            { "type": "text", "text": " the concept refers to and the " },
+            { "type": "blank", "id": "b2", "answer": "earlier" },
+            { "type": "text", "text": " knowledge it rests on." }
+          ],
+          "bank": ["facts", "earlier", "applause", "font"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two things to state are the facts and the earlier knowledge. Applause and font are irrelevant."
+          }
+        }
+      ]
+    },
+    {
+      "id": "one-check",
+      "title": "One check, two questions",
+      "objective": "Apply context and hierarchy together: ask what knowledge the concept depends on, and whether that knowledge is earlier in the order.",
+      "exercises": [
+        {
+          "id": "oc1",
+          "type": "choice",
+          "prompt": "Which pair of questions checks this unit in one pass?",
+          "answer": "two",
+          "choices": [
+            { "id": "two", "text": "What knowledge does this depend on, and is that knowledge earlier in the order?" },
+            { "id": "one", "text": "How loud is the claim, and how new is the wording?" },
+            { "id": "poll", "text": "Who agrees, and who said it first in the room?" },
+            { "id": "feel", "text": "How does it feel, and does the word sound important?" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The check is context plus hierarchy: the supporting knowledge, and its earlier place. Volume, novelty, agreement, and feeling are not the check."
+          }
+        },
+        {
+          "id": "oc2",
+          "type": "choice",
+          "prompt": "A conclusion names real facts but treats those facts as less basic than itself. Which part failed?",
+          "answer": "hier",
+          "choices": [
+            { "id": "hier", "text": "The hierarchy: the order of dependence is upside down" },
+            { "id": "none", "text": "Nothing, because any mention of facts completes both checks" },
+            { "id": "only", "text": "Only the spelling of the conclusion" },
+            { "id": "mood", "text": "Only the speaker's mood, which this unit treats as the context" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Mentioning facts starts the context. Turning those facts into something less basic than the conclusion still breaks the hierarchy."
+          }
+        },
+        {
+          "id": "oc3",
+          "type": "match",
+          "prompt": "Match each case to the check it fails.",
+          "pairs": [
+            { "id": "c1", "left": "The word is used with no facts and no prior ideas", "right": "Fails context: the concept is floating" },
+            { "id": "c2", "left": "A later conclusion is used to erase its base", "right": "Fails hierarchy: the order is reversed" },
+            { "id": "c3", "left": "Facts are named and the conclusion comes after them", "right": "Passes both checks" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "No context leaves the concept floating. A reversed order breaks the hierarchy. Named facts followed by the conclusion pass both."
+          }
+        },
+        {
+          "id": "oc4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the summary.",
+          "parts": [
+            { "type": "text", "text": "Knowledge is contextual and " },
+            { "type": "blank", "id": "b1", "answer": "hierarchical" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["hierarchical", "optional", "emotional", "collective"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two words that belong together here are contextual and hierarchical. The other bank words drop one or both."
+          }
+        },
+        {
+          "id": "oc5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the full summary sentence.",
+          "tokens": [
+            { "id": "t1", "text": "Knowledge is" },
+            { "id": "t2", "text": "contextual and hierarchical" },
+            { "id": "d1", "text": "a matter of mood" },
+            { "id": "d2", "text": "free of any order" },
+            { "id": "t3", "text": "and a concept with no context is floating" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit summary joins both features, then names the floating concept. Mood and the denial of order are the errors the summary rejects."
+          }
+        },
+        {
+          "id": "oc6",
+          "type": "choice",
+          "prompt": "You can state the context, and that context is earlier than the conclusion. What should you say about the concept?",
+          "answer": "held",
+          "choices": [
+            { "id": "held", "text": "It is held in context and in the hierarchy" },
+            { "id": "float", "text": "It is floating because a check was even needed" },
+            { "id": "late", "text": "It is floating because the context came first" },
+            { "id": "vote", "text": "It is floating until a crowd approves the wording" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A stated context that is earlier than the conclusion is exactly the hold this unit asks for. Needing the check, or having the base first, is not a fault."
+          }
+        },
+        {
+          "id": "oc7",
+          "type": "choice",
+          "prompt": "Which statement keeps both ideas without turning either into the other?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "Context is the supporting knowledge. Hierarchy is the order of that support. A concept with neither tie is floating" },
+            { "id": "same", "text": "Context and hierarchy are the same word, so one question is enough" },
+            { "id": "onlyh", "text": "Hierarchy replaces context, so facts need not be named" },
+            { "id": "onlyc", "text": "Context replaces hierarchy, so a later idea may come first" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Context answers what the claim depends on. Hierarchy answers the order of that dependence. Dropping either one leaves the concept unanchored."
+          }
+        },
+        {
+          "id": "oc8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both blanks in the closing check.",
+          "parts": [
+            { "type": "text", "text": "Ask for the " },
+            { "type": "blank", "id": "b1", "answer": "context" },
+            { "type": "text", "text": ", then check that it is " },
+            { "type": "blank", "id": "b2", "answer": "earlier" },
+            { "type": "text", "text": " in the order of knowledge." }
+          ],
+          "bank": ["context", "earlier", "louder", "newer"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two-part check asks for the context and for its earlier place. Louder and newer are not the standard."
+          }
+        },
+        {
+          "id": "oc9",
+          "type": "match",
+          "prompt": "Match each unit idea to the short test.",
+          "pairs": [
+            { "id": "t1", "left": "Contextual", "right": "The claim depends on definite knowledge" },
+            { "id": "t2", "left": "Hierarchical", "right": "That knowledge comes earlier in the order" },
+            { "id": "t3", "left": "Floating", "right": "The concept is used with no context" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Contextual names the dependence, hierarchical names the order, and floating names a concept used with no context."
+          }
+        },
+        {
+          "id": "oc10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the closing reminder.",
+          "tokens": [
+            { "id": "t1", "text": "Keep the concept" },
+            { "id": "t2", "text": "in its context" },
+            { "id": "t3", "text": "and in the hierarchy" },
+            { "id": "d1", "text": "in a slogan only" },
+            { "id": "d2", "text": "ahead of every fact" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The reminder holds both requirements at once. A slogan, or a concept placed ahead of every fact, drops them."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

@@ -1,0 +1,833 @@
+{
+  "sectionId": "politics",
+  "sectionFile": "politics.json",
+  "unitId": "property",
+  "title": "Property Rights",
+  "summary": "The right to keep and use the product of your effort, and why freedom of action requires it.",
+  "lessons": [
+    {
+      "id": "what-property-is",
+      "title": "What property is",
+      "objective": "Name property as the right to keep and use the product of your effort.",
+      "exercises": [
+        {
+          "id": "p1e1",
+          "type": "choice",
+          "prompt": "In this unit, what is a property right?",
+          "answer": "keep",
+          "choices": [
+            { "id": "keep", "text": "The right to keep and use the product of your effort" },
+            { "id": "share", "text": "A duty to split every gain with the group" },
+            { "id": "title", "text": "A title the state may invent without your work" },
+            { "id": "mood", "text": "A feeling that something ought to be yours" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Property, here, is the right to keep and use what your effort produces. It is not a mood, a group split, or a title with no work behind it."
+          }
+        },
+        {
+          "id": "p1e2",
+          "type": "choice",
+          "prompt": "Which two acts does the right cover?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "Keeping the product and using it" },
+            { "id": "look", "text": "Looking at it but never using it" },
+            { "id": "give", "text": "Handing it over as soon as it is made" },
+            { "id": "vote", "text": "Voting on who may keep it next" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The right is not bare display. It is the right to keep the product and to use it."
+          }
+        },
+        {
+          "id": "p1e3",
+          "type": "match",
+          "prompt": "Match each phrase to the idea it names.",
+          "pairs": [
+            { "id": "m1", "left": "Property right", "right": "Keep and use the product of your effort" },
+            { "id": "m2", "left": "What the right covers", "right": "The product of your effort" },
+            { "id": "m3", "left": "What the right is not", "right": "A feeling that something ought to be yours" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Name the right by what it covers: keep and use the product of your effort. A feeling is not the right."
+          }
+        },
+        {
+          "id": "p1e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit's name for the right.",
+          "parts": [
+            { "type": "text", "text": "A property right is the right to keep and " },
+            { "type": "blank", "id": "b1", "answer": "use" },
+            { "type": "text", "text": " the product of your effort." }
+          ],
+          "bank": ["use", "surrender", "display", "vote"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The missing act is use. Surrender, display, and a vote are not the name of the right."
+          }
+        },
+        {
+          "id": "p1e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study sentence.",
+          "tokens": [
+            { "id": "t1", "text": "Property" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "a" },
+            { "id": "t4", "text": "right" },
+            { "id": "t5", "text": "to" },
+            { "id": "t6", "text": "keep" },
+            { "id": "d1", "text": "a" },
+            { "id": "d2", "text": "mood" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Call property a right to keep. A mood is not that right. The extra word a does not belong in the sentence."
+          }
+        },
+        {
+          "id": "p1e6",
+          "type": "choice",
+          "prompt": "A farmer grows a crop by his own work. Under this unit, the crop is what?",
+          "answer": "his",
+          "choices": [
+            { "id": "his", "text": "The product of his effort, which he has a right to keep and use" },
+            { "id": "none", "text": "Nobody's until a committee names an owner" },
+            { "id": "all", "text": "Automatically everyone's, because food is useful" },
+            { "id": "land", "text": "A gift of the soil, so his work does not matter" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The crop is the product of his effort. The right is to keep it and use it. Usefulness to others does not erase that."
+          }
+        },
+        {
+          "id": "p1e7",
+          "type": "match",
+          "prompt": "Match each item to how this unit treats it.",
+          "pairs": [
+            { "id": "a", "left": "Wages you earned", "right": "A product you may keep and use" },
+            { "id": "b", "left": "A wish to own a neighbor's tools", "right": "Not a property right" },
+            { "id": "c", "left": "The two acts in the right", "right": "Keep and use" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Earned wages fit the right. A wish for someone else's tools does not. The acts are keep and use."
+          }
+        },
+        {
+          "id": "p1e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both blanks from the unit summary.",
+          "parts": [
+            { "type": "text", "text": "The right is to " },
+            { "type": "blank", "id": "b1", "answer": "keep" },
+            { "type": "text", "text": " and use the product of your " },
+            { "type": "blank", "id": "b2", "answer": "effort" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["keep", "effort", "borrow", "luck"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep names the holding. Effort names whose product it is. Borrow and luck are not the claim."
+          }
+        },
+        {
+          "id": "p1e9",
+          "type": "choice",
+          "prompt": "Which statement matches this lesson?",
+          "answer": "name",
+          "choices": [
+            { "id": "name", "text": "Property is the right to keep and use the product of your effort" },
+            { "id": "only", "text": "Property is only a paper label with no right to use" },
+            { "id": "any", "text": "Property is whatever you can take and hold by strength" },
+            { "id": "need", "text": "Property is assigned by who needs the thing most" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "This lesson only names the right. Taking by strength and assigning by need are different claims, and a label without use is too thin."
+          }
+        }
+      ]
+    },
+    {
+      "id": "product-of-effort",
+      "title": "The product of your effort",
+      "objective": "Identify what the right covers as the product of your own effort, and reject treating another person's product as yours.",
+      "exercises": [
+        {
+          "id": "p2e1",
+          "type": "choice",
+          "prompt": "What does the property right cover?",
+          "answer": "yours",
+          "choices": [
+            { "id": "yours", "text": "The product of your own effort" },
+            { "id": "theirs", "text": "The product of anyone whose work you admire" },
+            { "id": "idle", "text": "Goods that appear with no effort at all" },
+            { "id": "pool", "text": "A common pool of everyone's products" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The right tracks your effort. It does not cover another person's product or a pool of everyone's goods."
+          }
+        },
+        {
+          "id": "p2e2",
+          "type": "choice",
+          "prompt": "You did not make, earn, or trade for a tool. Under this unit, is it your property?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. It is not the product of your effort" },
+            { "id": "yes", "text": "Yes, if you want it more than the maker does" },
+            { "id": "if", "text": "Yes, if the tool is useful to many people" },
+            { "id": "soon", "text": "Yes, after you have looked at it long enough" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Wanting a thing, or its being useful, does not make it the product of your effort."
+          }
+        },
+        {
+          "id": "p2e3",
+          "type": "match",
+          "prompt": "Match each case to the right verdict.",
+          "pairs": [
+            { "id": "a", "left": "Pay you earned this week", "right": "Product of your effort" },
+            { "id": "b", "left": "A neighbor's harvest you did not grow", "right": "Not your product" },
+            { "id": "c", "left": "A book you wrote", "right": "Yours to keep and use" },
+            { "id": "d", "left": "A book someone else wrote", "right": "The writer's product, not yours by wanting it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The line is whose effort produced it. Your pay and your book fall on your side. Their harvest and their book do not."
+          }
+        },
+        {
+          "id": "p2e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast.",
+          "parts": [
+            { "type": "text", "text": "The right covers the product of " },
+            { "type": "blank", "id": "b1", "answer": "your" },
+            { "type": "text", "text": " effort, not the product of " },
+            { "type": "blank", "id": "b2", "answer": "another" },
+            { "type": "text", "text": " person's effort." }
+          ],
+          "bank": ["your", "another", "nobody", "every"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Your effort sets the coverage. Another person's effort stays outside it. Nobody and every erase that line."
+          }
+        },
+        {
+          "id": "p2e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study sentence.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "product" },
+            { "id": "t3", "text": "of" },
+            { "id": "t4", "text": "your" },
+            { "id": "t5", "text": "effort" },
+            { "id": "t6", "text": "is" },
+            { "id": "t7", "text": "yours" },
+            { "id": "d1", "text": "everyone's" },
+            { "id": "d2", "text": "optional" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The product of your effort is yours. It is not automatically everyone's, and the claim is not optional wording."
+          }
+        },
+        {
+          "id": "p2e6",
+          "type": "choice",
+          "prompt": "A trader swaps goods both sides produced or already owned by honest trade. What is that swap?",
+          "answer": "ok",
+          "choices": [
+            { "id": "ok", "text": "Each side using and disposing of his own product" },
+            { "id": "theft", "text": "Each side taking the other's product without right" },
+            { "id": "gift", "text": "A cancellation of property, because goods moved" },
+            { "id": "vote", "text": "A public assignment of both products" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Trade is a use of what is already yours. Moving goods by agreement does not make them a common pool."
+          }
+        },
+        {
+          "id": "p2e7",
+          "type": "match",
+          "prompt": "Match the mistake to why it fails.",
+          "pairs": [
+            { "id": "a", "left": "I need it, so it is mine", "right": "Need is not effort" },
+            { "id": "b", "left": "We all benefit, so it is ours", "right": "A benefit is not a claim on the maker's product" },
+            { "id": "c", "left": "I could have made it, so I own it", "right": "Possible effort is not the effort that produced it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Need, a shared benefit, and effort you did not do are not the product of your effort."
+          }
+        },
+        {
+          "id": "p2e8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the rejection.",
+          "tokens": [
+            { "id": "t1", "text": "Another" },
+            { "id": "t2", "text": "person's" },
+            { "id": "t3", "text": "product" },
+            { "id": "t4", "text": "is" },
+            { "id": "t5", "text": "not" },
+            { "id": "t6", "text": "yours" },
+            { "id": "d1", "text": "always" },
+            { "id": "d2", "text": "shared" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Another person's product is not yours. Always and shared would erase the line this lesson draws."
+          }
+        },
+        {
+          "id": "p2e9",
+          "type": "choice",
+          "prompt": "Which line keeps this lesson's point?",
+          "answer": "line",
+          "choices": [
+            { "id": "line", "text": "Your effort's product is yours; another person's product is not" },
+            { "id": "all", "text": "Every useful thing belongs to whoever can use it" },
+            { "id": "none", "text": "Nothing produced can be owned, because nature supplied the materials" },
+            { "id": "half", "text": "Half of every product belongs to people who did not make it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Materials from nature do not cancel the effort that turned them into a product. The right still follows that effort, not a forced half-share."
+          }
+        }
+      ]
+    },
+    {
+      "id": "right-to-use",
+      "title": "The right to use it",
+      "objective": "Treat use as part of the right, and reject a title that forbids the owner to act on what he keeps.",
+      "exercises": [
+        {
+          "id": "p3e1",
+          "type": "choice",
+          "prompt": "You may keep a workshop, but you are forbidden to run it, sell from it, or alter it. What is missing?",
+          "answer": "use",
+          "choices": [
+            { "id": "use", "text": "The right to use the product of your effort" },
+            { "id": "name", "text": "A longer name on the deed" },
+            { "id": "crowd", "text": "A crowd to approve each tool" },
+            { "id": "tax", "text": "A rule that the building is nobody's" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keeping without use is not the right this unit names. The missing part is use."
+          }
+        },
+        {
+          "id": "p3e2",
+          "type": "choice",
+          "prompt": "Which control counts as use in this lesson?",
+          "answer": "act",
+          "choices": [
+            { "id": "act", "text": "Acting on what you keep: employing it, consuming it, or trading it" },
+            { "id": "stare", "text": "Only being allowed to look at it" },
+            { "id": "ask", "text": "Asking permission every time you touch your own product" },
+            { "id": "wait", "text": "Waiting until others have used it first" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Use means you may act on the product: employ it, consume it, or trade it. Looking, and waiting for others, are not that use."
+          }
+        },
+        {
+          "id": "p3e3",
+          "type": "match",
+          "prompt": "Match each setup to the verdict.",
+          "pairs": [
+            { "id": "a", "left": "You own the press and may print with it", "right": "Keep and use" },
+            { "id": "b", "left": "You hold title but may not operate the press", "right": "Keep without the right of use" },
+            { "id": "c", "left": "Someone else runs your press by your agreement", "right": "A use you chose" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Use can be your own hands or a use you chose, including a trade. A ban on operating what you keep cuts the right."
+          }
+        },
+        {
+          "id": "p3e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the lesson's contrast.",
+          "parts": [
+            { "type": "text", "text": "A title you cannot act on is not the full right, because the right includes " },
+            { "type": "blank", "id": "b1", "answer": "use" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["use", "display", "silence", "permission"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word is use. Display, silence, and a standing need for permission are not substitutes."
+          }
+        },
+        {
+          "id": "p3e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study sentence.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "right" },
+            { "id": "t3", "text": "includes" },
+            { "id": "t4", "text": "use" },
+            { "id": "d1", "text": "excludes" },
+            { "id": "d2", "text": "guesswork" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The right includes use. Excludes would reverse the lesson. Guesswork is not part of the claim."
+          }
+        },
+        {
+          "id": "p3e6",
+          "type": "choice",
+          "prompt": "Selling what you made, because you choose to, is which of these?",
+          "answer": "use",
+          "choices": [
+            { "id": "use", "text": "A use of your product" },
+            { "id": "loss", "text": "Proof that you never had a right to it" },
+            { "id": "ban", "text": "A ban on keeping anything" },
+            { "id": "force", "text": "A start of force against the buyer" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A chosen sale is a use. It does not erase the right, and an agreed trade is not force against the buyer."
+          }
+        },
+        {
+          "id": "p3e7",
+          "type": "match",
+          "prompt": "Match each limit to what it does to the right.",
+          "pairs": [
+            { "id": "a", "left": "You may not consume what you grew", "right": "Use is denied" },
+            { "id": "b", "left": "You may not sell what you made", "right": "One use is forbidden" },
+            { "id": "c", "left": "You may keep it only as a sealed exhibit", "right": "Keep is hollow" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Barring consumption, sale, or any action leaves you with a label, not the right to use."
+          }
+        },
+        {
+          "id": "p3e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two acts the summary names.",
+          "parts": [
+            { "type": "text", "text": "The right is to keep and " },
+            { "type": "blank", "id": "b1", "answer": "use" },
+            { "type": "text", "text": " the product, not merely to " },
+            { "type": "blank", "id": "b2", "answer": "label" },
+            { "type": "text", "text": " it." }
+          ],
+          "bank": ["use", "label", "hide", "forget"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Use is the act. A label alone is the thin substitute this lesson rejects."
+          }
+        },
+        {
+          "id": "p3e9",
+          "type": "choice",
+          "prompt": "Which statement is the lesson's point?",
+          "answer": "full",
+          "choices": [
+            { "id": "full", "text": "Property includes use; a title that forbids action is not the right" },
+            { "id": "paper", "text": "Property is only the paper, and use is a separate favor" },
+            { "id": "once", "text": "You may use a thing once, then the right ends" },
+            { "id": "others", "text": "Use belongs to others, and you only store the thing" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Use is inside the right, not a favor, a one-time pass, or a job left to other people."
+          }
+        }
+      ]
+    },
+    {
+      "id": "freedom-requires-it",
+      "title": "Why freedom of action requires it",
+      "objective": "Explain that freedom of action requires property, because action needs control of its means and of its result.",
+      "exercises": [
+        {
+          "id": "p4e1",
+          "type": "choice",
+          "prompt": "Why does this unit say freedom of action requires property?",
+          "answer": "ctrl",
+          "choices": [
+            { "id": "ctrl", "text": "Action needs control of its means and of its result" },
+            { "id": "taste", "text": "People prefer owning things, and tastes decide rights" },
+            { "id": "speed", "text": "Owners work faster, so the right is a growth trick" },
+            { "id": "custom", "text": "Most societies have used the word property" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The reason is not taste, speed, or custom. Without control of means and result, the action is not yours to direct."
+          }
+        },
+        {
+          "id": "p4e2",
+          "type": "choice",
+          "prompt": "You may 'act freely,' but others seize whatever your action produces. What fails?",
+          "answer": "res",
+          "choices": [
+            { "id": "res", "text": "Control of the result, so the freedom is empty" },
+            { "id": "word", "text": "Only the spelling of the word freedom" },
+            { "id": "hope", "text": "Nothing, if you still feel free" },
+            { "id": "vote", "text": "Nothing, if a vote approved the seizure" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If the result is taken, you do not control the action's product. A feeling or a vote does not restore that control."
+          }
+        },
+        {
+          "id": "p4e3",
+          "type": "match",
+          "prompt": "Match each piece of action to the control it needs.",
+          "pairs": [
+            { "id": "a", "left": "The means you act with", "right": "Control so the tools of the action are yours to use" },
+            { "id": "b", "left": "The result the action produces", "right": "Control so the product remains yours" },
+            { "id": "c", "left": "Freedom of action without either control", "right": "A phrase with the action taken out of your hands" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Means and result are the two controls. Drop both, and freedom of action is only a phrase."
+          }
+        },
+        {
+          "id": "p4e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the reason.",
+          "parts": [
+            { "type": "text", "text": "Freedom of action requires property because action needs control of its " },
+            { "type": "blank", "id": "b1", "answer": "means" },
+            { "type": "text", "text": " and of its " },
+            { "type": "blank", "id": "b2", "answer": "result" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["means", "result", "audience", "slogan"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two words are means and result. An audience or a slogan is not what the action has to control."
+          }
+        },
+        {
+          "id": "p4e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the study sentence.",
+          "tokens": [
+            { "id": "t1", "text": "Freedom" },
+            { "id": "t2", "text": "of" },
+            { "id": "t3", "text": "action" },
+            { "id": "t4", "text": "requires" },
+            { "id": "t5", "text": "property" },
+            { "id": "d1", "text": "replaces" },
+            { "id": "d2", "text": "decor" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Freedom of action requires property. It does not replace property, and property is not decor."
+          }
+        },
+        {
+          "id": "p4e6",
+          "type": "choice",
+          "prompt": "Your tools are locked away from you, though you are told you may still 'choose your work.' What is blocked?",
+          "answer": "means",
+          "choices": [
+            { "id": "means", "text": "Control of the means the action needs" },
+            { "id": "name", "text": "Only the name of the trade" },
+            { "id": "rest", "text": "Nothing, because speech about work is still allowed" },
+            { "id": "weather", "text": "Only the weather, which property cannot touch" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Without the means, the choice of work cannot be carried out. Speech about work is not control of the means."
+          }
+        },
+        {
+          "id": "p4e7",
+          "type": "match",
+          "prompt": "Match the seizure to the control it breaks.",
+          "pairs": [
+            { "id": "a", "left": "Your tools are taken before you work", "right": "Control of the means" },
+            { "id": "b", "left": "Your finished goods are taken after you work", "right": "Control of the result" },
+            { "id": "c", "left": "Both are left in your hands", "right": "The control freedom of action requires" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Taking tools hits the means. Taking the finished goods hits the result. Leaving both is the control the freedom requires."
+          }
+        },
+        {
+          "id": "p4e8",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the reason in short form.",
+          "tokens": [
+            { "id": "t1", "text": "No" },
+            { "id": "t2", "text": "control" },
+            { "id": "t3", "text": "of" },
+            { "id": "t4", "text": "the" },
+            { "id": "t5", "text": "result" },
+            { "id": "t6", "text": "means" },
+            { "id": "t7", "text": "no" },
+            { "id": "t8", "text": "real" },
+            { "id": "t9", "text": "freedom" },
+            { "id": "d1", "text": "extra" },
+            { "id": "d2", "text": "applause" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Read it as: no control of the result means no real freedom. Extra applause is not the reason."
+          }
+        },
+        {
+          "id": "p4e9",
+          "type": "choice",
+          "prompt": "Which statement is this lesson, and not a different unit?",
+          "answer": "why",
+          "choices": [
+            { "id": "why", "text": "Freedom of action requires property, because action needs its means and its result" },
+            { "id": "gov", "text": "The lesson's job is to list police, courts, and defense" },
+            { "id": "cap", "text": "The lesson's job is to name laissez-faire as a system" },
+            { "id": "force", "text": "The lesson's job is to define fraud as a start of force" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "This lesson is the link from freedom of action to property. Government's jobs, the name of capitalism, and the definition of force are other units."
+          }
+        },
+        {
+          "id": "p4e10",
+          "type": "choice",
+          "prompt": "If you control neither the means nor the result, what is left of 'freedom of action'?",
+          "answer": "empty",
+          "choices": [
+            { "id": "empty", "text": "A permission to gesture, while the action's substance is out of your hands" },
+            { "id": "full", "text": "Full freedom, because nobody argued with your opinions" },
+            { "id": "more", "text": "More freedom, because nothing is yours to worry about" },
+            { "id": "same", "text": "The same freedom as when you keep and use the product" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Opinions without control of means and result are not the freedom of action this unit is protecting. Losing the product does not increase that freedom."
+          }
+        }
+      ]
+    },
+    {
+      "id": "whole-claim",
+      "title": "The whole claim",
+      "objective": "Apply the full unit: the right to keep and use the product of your effort, because freedom of action requires that control.",
+      "exercises": [
+        {
+          "id": "p5e1",
+          "type": "choice",
+          "prompt": "Which sentence states the whole unit?",
+          "answer": "all",
+          "choices": [
+            { "id": "all", "text": "You may keep and use the product of your effort, because freedom of action requires that control" },
+            { "id": "half", "text": "You may look at your product, and others may use it" },
+            { "id": "vote", "text": "Freedom of action is whatever a vote leaves you this year" },
+            { "id": "none", "text": "Effort creates no claim, and action needs no means" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The whole claim joins keep, use, the product of your effort, and the reason: freedom of action requires that control."
+          }
+        },
+        {
+          "id": "p5e2",
+          "type": "match",
+          "prompt": "Match each part of the unit to its role.",
+          "pairs": [
+            { "id": "a", "left": "Keep and use", "right": "The acts the right includes" },
+            { "id": "b", "left": "Product of your effort", "right": "What the right covers" },
+            { "id": "c", "left": "Freedom of action", "right": "What fails without that control" },
+            { "id": "d", "left": "Means and result", "right": "The control action needs" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Acts, coverage, the freedom at stake, and the needed control are four parts of one claim."
+          }
+        },
+        {
+          "id": "p5e3",
+          "type": "choice",
+          "prompt": "A law lets you work but takes the product and locks the tools. Which parts of the unit does that break?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "Use of your means and keeping the result" },
+            { "id": "none", "text": "None, if you are still called free" },
+            { "id": "only", "text": "Only the spelling of property" },
+            { "id": "mood", "text": "Only your mood, which the right ignores" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Locked tools deny use of the means. A taken product denies keeping the result. A flattering name does not repair either."
+          }
+        },
+        {
+          "id": "p5e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the summary in the unit's words.",
+          "parts": [
+            { "type": "text", "text": "The right to " },
+            { "type": "blank", "id": "b1", "answer": "keep" },
+            { "type": "text", "text": " and use the product of your effort, and why " },
+            { "type": "blank", "id": "b2", "answer": "freedom" },
+            { "type": "text", "text": " of action requires it." }
+          ],
+          "bank": ["keep", "freedom", "charity", "fashion"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep is the first act. Freedom of action is what requires the right. Charity and fashion are not the summary."
+          }
+        },
+        {
+          "id": "p5e5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the whole claim in one line.",
+          "tokens": [
+            { "id": "t1", "text": "Keep" },
+            { "id": "t2", "text": "and" },
+            { "id": "t3", "text": "use" },
+            { "id": "t4", "text": "what" },
+            { "id": "t5", "text": "your" },
+            { "id": "t6", "text": "effort" },
+            { "id": "t7", "text": "produces" },
+            { "id": "d1", "text": "abandon" },
+            { "id": "d2", "text": "anyone's" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep and use what your effort produces. Abandon reverses the right. Anyone's would drop whose effort it was."
+          }
+        },
+        {
+          "id": "p5e6",
+          "type": "choice",
+          "prompt": "Someone says property is greed and freedom is doing without any means. What does this unit answer?",
+          "answer": "need",
+          "choices": [
+            { "id": "need", "text": "Freedom of action requires control of means and result, which is the property right" },
+            { "id": "agree", "text": "Agree: the right is only a wish to have more than others" },
+            { "id": "drop", "text": "Drop use, and keep the word property as a courtesy" },
+            { "id": "swap", "text": "Swap the product to whoever has the stronger wish" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit's answer is the requirement, not a contest of wishes and not a courtesy title."
+          }
+        },
+        {
+          "id": "p5e7",
+          "type": "match",
+          "prompt": "Match each challenge to the part of the claim that answers it.",
+          "pairs": [
+            { "id": "a", "left": "Why not take her product if I need it?", "right": "The right covers her effort, not your need" },
+            { "id": "b", "left": "Why not let her keep it but ban her from using it?", "right": "The right includes use" },
+            { "id": "c", "left": "Why does action care about ownership at all?", "right": "Without means and result, freedom of action is empty" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Need does not move the product. A ban on use cuts the right. Action cares because it needs means and result."
+          }
+        },
+        {
+          "id": "p5e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the chain.",
+          "parts": [
+            { "type": "text", "text": "You act with your " },
+            { "type": "blank", "id": "b1", "answer": "means" },
+            { "type": "text", "text": ", you keep the " },
+            { "type": "blank", "id": "b2", "answer": "result" },
+            { "type": "text", "text": ", and that is why freedom of action requires property." }
+          ],
+          "bank": ["means", "result", "rumor", "permit"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Means, then result. A rumor or a permit is not the chain."
+          }
+        },
+        {
+          "id": "p5e9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the reason that closes the unit.",
+          "tokens": [
+            { "id": "t1", "text": "Freedom" },
+            { "id": "t2", "text": "of" },
+            { "id": "t3", "text": "action" },
+            { "id": "t4", "text": "requires" },
+            { "id": "t5", "text": "that" },
+            { "id": "t6", "text": "control" },
+            { "id": "d1", "text": "cancels" },
+            { "id": "d2", "text": "gossip" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Freedom of action requires that control. Cancels would deny the unit. Gossip is not a substitute for control."
+          }
+        },
+        {
+          "id": "p5e10",
+          "type": "choice",
+          "prompt": "A writer keeps her manuscript, revises it, and sells copies she chooses to sell. Which reading fits the unit?",
+          "answer": "fit",
+          "choices": [
+            { "id": "fit", "text": "She keeps and uses the product of her effort, which her freedom of action requires" },
+            { "id": "bad", "text": "The sale proves the manuscript was never hers" },
+            { "id": "pub", "text": "Readers' wish to have it free overrides her effort" },
+            { "id": "seal", "text": "She may store the pages but must not revise or sell them" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keeping, revising, and a chosen sale are keep and use. Readers' wishes do not make the manuscript theirs, and a seal on use would cut the right."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

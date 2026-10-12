@@ -1,0 +1,801 @@
+{
+  "sectionId": "human-nature",
+  "sectionFile": "human-nature.json",
+  "unitId": "social",
+  "title": "Man Among Men",
+  "summary": "Other people can be a value in a voluntary relationship. Society is not an organism that owns the individual.",
+  "lessons": [
+    {
+      "id": "people-as-value",
+      "title": "Other people can be a value",
+      "objective": "See that another person can be a value to you, not a threat merely by existing.",
+      "exercises": [
+        {
+          "id": "pav-choice-can",
+          "type": "choice",
+          "prompt": "On this floor, what can another person be to you?",
+          "answer": "value",
+          "choices": [
+            { "id": "value", "text": "A value" },
+            { "id": "threat", "text": "A threat just by existing" },
+            { "id": "owner", "text": "An owner of your life" },
+            { "id": "organ", "text": "An organ of a social body" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Other people can be a value. Their existence is not, by itself, a threat, and they are not organs of a body that owns you."
+          }
+        },
+        {
+          "id": "pav-choice-miss",
+          "type": "choice",
+          "prompt": "Someone says every other person is a rival you must lose to. What does that miss?",
+          "answer": "can-value",
+          "choices": [
+            { "id": "can-value", "text": "That another person can be a value" },
+            { "id": "must-lose", "text": "That you must always lose to them" },
+            { "id": "owns", "text": "That society owns each person" },
+            { "id": "organism", "text": "That society is one living organism" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Treating every other person as a rival you must lose to skips the claim that other people can be a value."
+          }
+        },
+        {
+          "id": "pav-match-status",
+          "type": "match",
+          "prompt": "Match each claim to its status on this floor.",
+          "pairs": [
+            { "id": "value", "left": "Another person can be a value", "right": "This floor’s claim" },
+            { "id": "threat", "left": "Existence alone makes them a threat", "right": "Not this floor’s claim" },
+            { "id": "zero", "left": "Other people can never matter", "right": "Rejected here" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The floor affirms that another person can be a value. It rejects both the automatic-threat picture and the claim that other people can never matter."
+          }
+        },
+        {
+          "id": "pav-blanks-line",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the short claim about other people.",
+          "parts": [
+            { "type": "text", "text": "Other people can be a " },
+            { "type": "blank", "id": "b1", "answer": "value" },
+            { "type": "text", "text": ", not a threat merely by " },
+            { "type": "blank", "id": "b2", "answer": "existing" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["value", "existing", "owner", "organ"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A person can be a value. Existing is not enough to make that person a threat."
+          }
+        },
+        {
+          "id": "pav-sentence-value",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the claim.",
+          "tokens": [
+            { "id": "t1", "text": "Another" },
+            { "id": "t2", "text": "person" },
+            { "id": "t3", "text": "can" },
+            { "id": "t4", "text": "be" },
+            { "id": "t5", "text": "a" },
+            { "id": "t6", "text": "value" },
+            { "id": "d1", "text": "owner" },
+            { "id": "d2", "text": "must" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The claim is possibility, not ownership: another person can be a value. Must and owner do not belong in that sentence."
+          }
+        },
+        {
+          "id": "pav-choice-not",
+          "type": "choice",
+          "prompt": "Which line stays inside this lesson?",
+          "answer": "can",
+          "choices": [
+            { "id": "can", "text": "Other people can be a value to you" },
+            { "id": "code", "text": "Reason is an innate survival code" },
+            { "id": "feel", "text": "Feelings are tools that discover facts" },
+            { "id": "hand", "text": "Character is a self you are handed" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "This lesson is only that other people can be a value. Survival codes, feelings as tools, and a handed character belong on other floors."
+          }
+        },
+        {
+          "id": "pav-blanks-to-you",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line about what another person can be.",
+          "parts": [
+            { "type": "text", "text": "To you, another person can be a " },
+            { "type": "blank", "id": "b1", "answer": "value" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["value", "threat", "property", "organ"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word this lesson uses is value. Threat, property, and organ are pictures this floor does not teach."
+          }
+        },
+        {
+          "id": "pav-sentence-not-threat",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that rejects the automatic-threat picture.",
+          "tokens": [
+            { "id": "t1", "text": "Existing" },
+            { "id": "t2", "text": "does" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "make" },
+            { "id": "t5", "text": "a" },
+            { "id": "t6", "text": "person" },
+            { "id": "t7", "text": "a" },
+            { "id": "t8", "text": "threat" },
+            { "id": "d1", "text": "owner" },
+            { "id": "d2", "text": "always" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A person is not a threat merely by existing. Always and owner are not part of that rejection."
+          }
+        }
+      ]
+    },
+    {
+      "id": "voluntary",
+      "title": "A voluntary relationship",
+      "objective": "Hold that the value of other people is a relationship both people choose, not a tie that is forced.",
+      "exercises": [
+        {
+          "id": "vol-choice-form",
+          "type": "choice",
+          "prompt": "In what kind of relationship can other people be a value, on this floor?",
+          "answer": "voluntary",
+          "choices": [
+            { "id": "voluntary", "text": "A voluntary relationship" },
+            { "id": "forced", "text": "A relationship one side is forced into" },
+            { "id": "owned", "text": "A relationship in which society owns both" },
+            { "id": "organ", "text": "A relationship of organs inside one body" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Other people can be a value in a voluntary relationship. Force, ownership by society, and the organ picture are not that relationship."
+          }
+        },
+        {
+          "id": "vol-choice-both",
+          "type": "choice",
+          "prompt": "Who chooses in the relationship this floor describes?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "Both people" },
+            { "id": "one", "text": "Only the stronger person" },
+            { "id": "society", "text": "Society, as if it were one organism" },
+            { "id": "none", "text": "No one; the tie is automatic" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Voluntary means both people choose the relationship. It is not assigned by a social organism or seized by one side."
+          }
+        },
+        {
+          "id": "vol-match-kinds",
+          "type": "match",
+          "prompt": "Match each relationship to how this floor treats it.",
+          "pairs": [
+            { "id": "vol", "left": "Chosen by both people", "right": "The relationship that can be a value" },
+            { "id": "force", "left": "Forced on one person", "right": "Not the relationship this floor names" },
+            { "id": "auto", "left": "Automatic, with no choice", "right": "Outside this claim" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The value is tied to a relationship both people choose. A forced tie and a tie with no choice are not what this lesson names."
+          }
+        },
+        {
+          "id": "vol-blanks-line",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the unit’s line about the relationship.",
+          "parts": [
+            { "type": "text", "text": "Other people can be a value in a " },
+            { "type": "blank", "id": "b1", "answer": "voluntary" },
+            { "type": "text", "text": " " },
+            { "type": "blank", "id": "b2", "answer": "relationship" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["voluntary", "relationship", "forced", "organism"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two words that carry the claim are voluntary and relationship. Forced and organism name pictures this lesson sets aside."
+          }
+        },
+        {
+          "id": "vol-sentence-choose",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about who chooses.",
+          "tokens": [
+            { "id": "t1", "text": "Both" },
+            { "id": "t2", "text": "people" },
+            { "id": "t3", "text": "choose" },
+            { "id": "t4", "text": "the" },
+            { "id": "t5", "text": "relationship" },
+            { "id": "d1", "text": "organism" },
+            { "id": "d2", "text": "owns" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A voluntary relationship is one both people choose. Organism and owns belong to the claim this unit rejects, not to this sentence."
+          }
+        },
+        {
+          "id": "vol-choice-force",
+          "type": "choice",
+          "prompt": "A tie is imposed and one person cannot leave it. Is that the relationship this floor calls a value?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. The relationship has to be voluntary" },
+            { "id": "yes", "text": "Yes. Force makes the other person a value" },
+            { "id": "owns", "text": "Yes, because society owns the individual" },
+            { "id": "body", "text": "Yes, because people are organs of one body" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Imposing a tie takes away the voluntary character. Force does not turn another person into the value this floor describes."
+          }
+        },
+        {
+          "id": "vol-blanks-not-forced",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast with a forced tie.",
+          "parts": [
+            { "type": "text", "text": "A value between people is " },
+            { "type": "blank", "id": "b1", "answer": "chosen" },
+            { "type": "text", "text": ", not " },
+            { "type": "blank", "id": "b2", "answer": "forced" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["chosen", "forced", "owned", "inherited"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Chosen marks the voluntary relationship. Forced, owned, and inherited do not name the value this lesson teaches."
+          }
+        },
+        {
+          "id": "vol-match-words",
+          "type": "match",
+          "prompt": "Match each word to the role it has here.",
+          "pairs": [
+            { "id": "vol", "left": "Voluntary", "right": "Chosen by the people in it" },
+            { "id": "rel", "left": "Relationship", "right": "The setting in which others can be a value" },
+            { "id": "force", "left": "Forced", "right": "Not the setting this floor names" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Voluntary names the choosing. Relationship names the setting of the value. Forced is the contrast, not the claim."
+          }
+        },
+        {
+          "id": "vol-sentence-value-in",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the full line for this lesson.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "value" },
+            { "id": "t3", "text": "in" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "voluntary" },
+            { "id": "t6", "text": "relationship" },
+            { "id": "d1", "text": "forced" },
+            { "id": "d2", "text": "organism" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The value sits in a voluntary relationship. Forced and organism are distractors, not parts of the line."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-an-organism",
+      "title": "Not an organism",
+      "objective": "Reject the picture of society as a living organism with a life of its own above the people in it.",
+      "exercises": [
+        {
+          "id": "org-choice-what",
+          "type": "choice",
+          "prompt": "How does this floor describe society?",
+          "answer": "not-org",
+          "choices": [
+            { "id": "not-org", "text": "Not an organism" },
+            { "id": "org", "text": "A living organism above the people" },
+            { "id": "owner", "text": "A body that owns each person" },
+            { "id": "mind", "text": "A single mind shared by everyone" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Society is not an organism. It is not a life above the people, an owner of them, or one shared mind."
+          }
+        },
+        {
+          "id": "org-choice-life",
+          "type": "choice",
+          "prompt": "Does society have a life of its own, apart from the individuals in it?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. It is not an organism with its own life" },
+            { "id": "yes", "text": "Yes. Its life outranks each person" },
+            { "id": "parts", "text": "Yes. People are only its organs" },
+            { "id": "owns", "text": "Yes, and that life owns the individual" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An organism picture gives society a life of its own and treats people as parts. This floor rejects that picture."
+          }
+        },
+        {
+          "id": "org-match-pictures",
+          "type": "match",
+          "prompt": "Match each picture of society to its status.",
+          "pairs": [
+            { "id": "org", "left": "A living organism", "right": "Rejected" },
+            { "id": "above", "left": "A life above the people", "right": "Not this floor’s claim" },
+            { "id": "people", "left": "People, not one super-organism", "right": "What the rejection protects" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Calling society an organism, or a life above the people, is the picture to drop. What remains in view are the people, not a super-organism."
+          }
+        },
+        {
+          "id": "org-blanks-line",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rejection.",
+          "parts": [
+            { "type": "text", "text": "Society is not an " },
+            { "type": "blank", "id": "b1", "answer": "organism" },
+            { "type": "text", "text": " with a life of its " },
+            { "type": "blank", "id": "b2", "answer": "own" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["organism", "own", "owner", "value"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Society is not an organism, and it does not have a life of its own above the individuals."
+          }
+        },
+        {
+          "id": "org-sentence-not",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names the rejection.",
+          "tokens": [
+            { "id": "t1", "text": "Society" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "an" },
+            { "id": "t5", "text": "organism" },
+            { "id": "d1", "text": "value" },
+            { "id": "d2", "text": "owner" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The short rejection is that society is not an organism. Value and owner are other ideas on this floor, not words in this sentence."
+          }
+        },
+        {
+          "id": "org-choice-organs",
+          "type": "choice",
+          "prompt": "If society were an organism, what would the people in it be?",
+          "answer": "parts",
+          "choices": [
+            { "id": "parts", "text": "Parts or organs of that organism" },
+            { "id": "choosers", "text": "People who choose voluntary relationships" },
+            { "id": "values", "text": "Values to one another and nothing else" },
+            { "id": "codes", "text": "Innate survival codes" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The organism picture turns people into parts. This floor refuses that picture, so it does not treat people as organs."
+          }
+        },
+        {
+          "id": "org-blanks-parts",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line about people and parts.",
+          "parts": [
+            { "type": "text", "text": "People are not " },
+            { "type": "blank", "id": "b1", "answer": "organs" },
+            { "type": "text", "text": " of a social " },
+            { "type": "blank", "id": "b2", "answer": "organism" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["organs", "organism", "values", "choices"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Organs of an organism is the picture being denied. Values and choices name other ideas, not the blank answers here."
+          }
+        },
+        {
+          "id": "org-match-terms",
+          "type": "match",
+          "prompt": "Match each term to what this lesson says about it.",
+          "pairs": [
+            { "id": "soc", "left": "Society", "right": "Not an organism" },
+            { "id": "life", "left": "A life of its own", "right": "Not something society has" },
+            { "id": "person", "left": "A person", "right": "Not an organ of society" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Society is not an organism and has no life of its own. A person is not an organ of it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "does-not-own",
+      "title": "It does not own you",
+      "objective": "Deny that society owns the individual or may treat a person as its property.",
+      "exercises": [
+        {
+          "id": "own-choice-deny",
+          "type": "choice",
+          "prompt": "Does society own the individual?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. Society does not own the individual" },
+            { "id": "yes", "text": "Yes. Each person is society’s property" },
+            { "id": "organs", "text": "Yes, because people are its organs" },
+            { "id": "only", "text": "Only when the relationship is voluntary" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Society does not own the individual. Ownership is not created by an organism picture, and a voluntary relationship is not a grant of ownership to society."
+          }
+        },
+        {
+          "id": "own-choice-property",
+          "type": "choice",
+          "prompt": "Which description of a person does this lesson reject?",
+          "answer": "property",
+          "choices": [
+            { "id": "property", "text": "Society’s property" },
+            { "id": "chooser", "text": "Someone who can choose a relationship" },
+            { "id": "value", "text": "Someone who can be a value to another" },
+            { "id": "person", "text": "An individual, not an organ" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The rejected description is property of society. Chooser, value, and individual are descriptions this unit keeps."
+          }
+        },
+        {
+          "id": "own-match-claims",
+          "type": "match",
+          "prompt": "Match each claim to its status.",
+          "pairs": [
+            { "id": "owns", "left": "Society owns the individual", "right": "Denied" },
+            { "id": "prop", "left": "A person is society’s property", "right": "Rejected" },
+            { "id": "ind", "left": "The individual is not owned", "right": "This lesson’s claim" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Ownership by society, and the property picture that goes with it, are denied. The individual is not owned."
+          }
+        },
+        {
+          "id": "own-blanks-line",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the ownership line.",
+          "parts": [
+            { "type": "text", "text": "Society does not " },
+            { "type": "blank", "id": "b1", "answer": "own" },
+            { "type": "text", "text": " the " },
+            { "type": "blank", "id": "b2", "answer": "individual" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["own", "individual", "value", "choose"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The denial is direct: society does not own the individual. Value and choose name the other half of the unit, not these blanks."
+          }
+        },
+        {
+          "id": "own-sentence-not",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that denies ownership.",
+          "tokens": [
+            { "id": "t1", "text": "Society" },
+            { "id": "t2", "text": "does" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "own" },
+            { "id": "t5", "text": "the" },
+            { "id": "t6", "text": "individual" },
+            { "id": "d1", "text": "organism" },
+            { "id": "d2", "text": "value" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Society does not own the individual. Organism and value are related words on this floor, but they are not in this sentence."
+          }
+        },
+        {
+          "id": "own-choice-use",
+          "type": "choice",
+          "prompt": "A slogan says the individual exists to be used by society. What does this lesson say?",
+          "answer": "no-own",
+          "choices": [
+            { "id": "no-own", "text": "Society does not own the individual, so the person is not its property to use" },
+            { "id": "yes-use", "text": "Use is fine, because society is the real organism" },
+            { "id": "voluntary", "text": "Use is the meaning of a voluntary relationship" },
+            { "id": "value", "text": "Being a value means being owned" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If society does not own the individual, a person is not property for society to use. Being a value in a voluntary relationship is not the same as being owned."
+          }
+        },
+        {
+          "id": "own-blanks-property",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the property contrast.",
+          "parts": [
+            { "type": "text", "text": "A person is not the " },
+            { "type": "blank", "id": "b1", "answer": "property" },
+            { "type": "text", "text": " of " },
+            { "type": "blank", "id": "b2", "answer": "society" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["property", "society", "value", "choice"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Property of society is the description this lesson refuses. Value and choice are not the missing words."
+          }
+        },
+        {
+          "id": "own-sentence-property",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that rejects the property picture.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "person" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "not" },
+            { "id": "t5", "text": "society’s" },
+            { "id": "t6", "text": "property" },
+            { "id": "d1", "text": "value" },
+            { "id": "d2", "text": "organ" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A person is not society’s property. Value and organ are distractors here."
+          }
+        },
+        {
+          "id": "own-match-words",
+          "type": "match",
+          "prompt": "Match each word to the lesson’s use of it.",
+          "pairs": [
+            { "id": "own", "left": "Own", "right": "What society does not do to the individual" },
+            { "id": "ind", "left": "Individual", "right": "The person who is not owned" },
+            { "id": "prop", "left": "Property", "right": "A status this lesson rejects" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Own is denied, the individual is the one not owned, and property is the status being rejected."
+          }
+        }
+      ]
+    },
+    {
+      "id": "value-not-ownership",
+      "title": "Value, not ownership",
+      "objective": "Hold both claims at once: other people can be a value in a voluntary relationship, and society is not an organism that owns the individual.",
+      "exercises": [
+        {
+          "id": "vno-choice-both",
+          "type": "choice",
+          "prompt": "Which pair states the whole unit?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "Others can be a value in a voluntary relationship, and society is not an organism that owns the individual" },
+            { "id": "only-value", "text": "Others can be a value, and society is an organism that owns you" },
+            { "id": "only-deny", "text": "Other people can never be a value, and society does not own you" },
+            { "id": "force", "text": "A forced tie is the value, and the individual is property" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Both halves belong together. Dropping either one, or swapping in force and ownership, is not the unit."
+          }
+        },
+        {
+          "id": "vno-choice-split",
+          "type": "choice",
+          "prompt": "A person is a value to you in a relationship you both chose. What follows about society?",
+          "answer": "still-not",
+          "choices": [
+            { "id": "still-not", "text": "Society is still not an organism that owns the individual" },
+            { "id": "now-owns", "text": "Society now owns both of you" },
+            { "id": "now-org", "text": "The relationship turns society into an organism" },
+            { "id": "cancel", "text": "The value cancels the fact that you are individuals" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A voluntary value between people does not make society an organism and does not hand it ownership of the individual."
+          }
+        },
+        {
+          "id": "vno-match-halves",
+          "type": "match",
+          "prompt": "Match each half of the unit to its claim.",
+          "pairs": [
+            { "id": "people", "left": "Other people", "right": "Can be a value in a voluntary relationship" },
+            { "id": "society", "left": "Society", "right": "Is not an organism that owns the individual" },
+            { "id": "together", "left": "The two claims", "right": "Held together, not traded off" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One half is the value in a voluntary relationship. The other is the denial that society is an owning organism. The unit keeps both."
+          }
+        },
+        {
+          "id": "vno-blanks-both",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the two-part line.",
+          "parts": [
+            { "type": "text", "text": "A " },
+            { "type": "blank", "id": "b1", "answer": "voluntary" },
+            { "type": "text", "text": " relationship can be a value, and society does not " },
+            { "type": "blank", "id": "b2", "answer": "own" },
+            { "type": "text", "text": " the individual." }
+          ],
+          "bank": ["voluntary", "own", "forced", "organism"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Voluntary names the relationship that can be a value. Own is what society does not do. Forced and organism are not the answers."
+          }
+        },
+        {
+          "id": "vno-sentence-not-org",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that keeps the organism denial in the full unit.",
+          "tokens": [
+            { "id": "t1", "text": "Society" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "an" },
+            { "id": "t5", "text": "organism" },
+            { "id": "t6", "text": "that" },
+            { "id": "t7", "text": "owns" },
+            { "id": "t8", "text": "the" },
+            { "id": "t9", "text": "individual" },
+            { "id": "d1", "text": "value" },
+            { "id": "d2", "text": "forced" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Society is not an organism that owns the individual. Value and forced are distractors beside that sentence."
+          }
+        },
+        {
+          "id": "vno-choice-error",
+          "type": "choice",
+          "prompt": "Which error keeps one half of the unit and drops the other?",
+          "answer": "drop",
+          "choices": [
+            { "id": "drop", "text": "Saying others can be a value, then treating society as an owner" },
+            { "id": "both", "text": "Keeping the voluntary value and the denial of ownership" },
+            { "id": "people", "text": "Naming a relationship both people choose" },
+            { "id": "deny", "text": "Denying that people are organs" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The error is splitting the unit: a value among people does not license society as an owner. The other lines keep the unit intact."
+          }
+        },
+        {
+          "id": "vno-blanks-organism",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the summary in the unit’s own terms.",
+          "parts": [
+            { "type": "text", "text": "Other people can be a " },
+            { "type": "blank", "id": "b1", "answer": "value" },
+            { "type": "text", "text": ". Society is not an " },
+            { "type": "blank", "id": "b2", "answer": "organism" },
+            { "type": "text", "text": " that owns the individual." }
+          ],
+          "bank": ["value", "organism", "threat", "property"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Value is what other people can be. Organism is what society is not. Threat and property are the pictures the unit refuses."
+          }
+        },
+        {
+          "id": "vno-match-errors",
+          "type": "match",
+          "prompt": "Match each mistake to what it gets wrong.",
+          "pairs": [
+            { "id": "threat", "left": "Every other person is only a threat", "right": "Drops the value in a voluntary relationship" },
+            { "id": "org", "left": "Society is one organism", "right": "Gives society a life above the people" },
+            { "id": "own", "left": "Society owns the individual", "right": "Treats a person as property" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The threat-only picture drops the value. The organism picture invents a life above people. Ownership treats the individual as property."
+          }
+        },
+        {
+          "id": "vno-sentence-value",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence for the value half of the unit.",
+          "tokens": [
+            { "id": "t1", "text": "Other" },
+            { "id": "t2", "text": "people" },
+            { "id": "t3", "text": "can" },
+            { "id": "t4", "text": "be" },
+            { "id": "t5", "text": "a" },
+            { "id": "t6", "text": "value" },
+            { "id": "t7", "text": "in" },
+            { "id": "t8", "text": "a" },
+            { "id": "t9", "text": "voluntary" },
+            { "id": "t10", "text": "relationship" },
+            { "id": "d1", "text": "forced" },
+            { "id": "d2", "text": "organism" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Other people can be a value in a voluntary relationship. Forced and organism do not belong in that half."
+          }
+        },
+        {
+          "id": "vno-choice-order",
+          "type": "choice",
+          "prompt": "What is the right way to hold the two claims?",
+          "answer": "together",
+          "choices": [
+            { "id": "together", "text": "Together: a voluntary value among people, and no owning organism" },
+            { "id": "first-own", "text": "Ownership first, and the value only if society allows it" },
+            { "id": "either", "text": "Either claim, since they cancel each other" },
+            { "id": "organs", "text": "As organs who sometimes choose" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The claims do not cancel. People can be a value to one another voluntarily, and society still is not an organism that owns the individual."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

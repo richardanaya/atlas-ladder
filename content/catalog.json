@@ -45,26 +45,200 @@
         {
           "id": "primacy",
           "title": "Primacy of Existence",
-          "status": "soon",
-          "summary": "The universe exists independent of consciousness. Consciousness apprehends. It does not decree."
+          "status": "ready",
+          "summary": "The universe exists independent of consciousness. Consciousness apprehends. It does not decree.",
+          "lessons": [
+            {
+              "id": "independent",
+              "title": "Independent of consciousness",
+              "objective": "State that the universe exists whether or not anyone is aware of it."
+            },
+            {
+              "id": "apprehends",
+              "title": "Consciousness apprehends",
+              "objective": "Say what consciousness does: it takes in what exists. It does not create it."
+            },
+            {
+              "id": "no-decree",
+              "title": "It does not decree",
+              "objective": "Reject the idea that wishing, believing, or agreeing can rewrite what exists."
+            },
+            {
+              "id": "two-claims",
+              "title": "Two opposite claims",
+              "objective": "Tell primacy of existence apart from the claim that consciousness comes first and sets the facts."
+            },
+            {
+              "id": "hold-it",
+              "title": "Hold the unit",
+              "objective": "Put the three lines together: independent existence, apprehension, and no decree."
+            }
+          ]
         },
         {
           "id": "causality",
           "title": "Causality as a Corollary of Identity",
-          "status": "soon",
-          "summary": "The law of causality as the law of identity applied to action. A fuller floor than the preview you just climbed."
+          "status": "ready",
+          "summary": "The law of causality as the law of identity applied to action. A fuller floor than the preview you just climbed.",
+          "lessons": [
+            {
+              "id": "identity-applied",
+              "title": "Identity applied to action",
+              "objective": "State the law of causality as the law of identity applied to action, not as a second rule beside identity."
+            },
+            {
+              "id": "entities-that-act",
+              "title": "The entities that act",
+              "objective": "Locate the cause in the nature of the entities that act, not in a push with no thing behind it."
+            },
+            {
+              "id": "no-contradiction",
+              "title": "No action against its nature",
+              "objective": "Hold that a thing cannot act in contradiction to its nature, while still allowing action that fits what it is."
+            },
+            {
+              "id": "not-a-rival",
+              "title": "Not a rival law",
+              "objective": "Reject substitutes that treat causality as chance, decree, or a second axiom that can break identity."
+            },
+            {
+              "id": "fuller-floor",
+              "title": "The fuller floor",
+              "objective": "Connect the short formula to the longer clause and treat them as one statement, fuller than the preview."
+            }
+          ]
         },
         {
           "id": "given",
           "title": "The Metaphysically Given",
-          "status": "soon",
-          "summary": "Facts that are, as against facts that human choice brings into existence. What is given is not up for a vote."
+          "status": "ready",
+          "summary": "Facts that are, as against facts that human choice brings into existence. What is given is not up for a vote.",
+          "lessons": [
+            {
+              "id": "facts-that-are",
+              "title": "Facts that are",
+              "objective": "Name a metaphysically given fact as something that is, not something a person decided to create."
+            },
+            {
+              "id": "brought-by-choice",
+              "title": "Brought into existence by choice",
+              "objective": "Identify facts that exist because human choice brought them into existence."
+            },
+            {
+              "id": "not-a-vote",
+              "title": "Not up for a vote",
+              "objective": "See that a metaphysically given fact is not settled by a vote, a poll, or a majority."
+            },
+            {
+              "id": "wish-versus-fact",
+              "title": "A wish is not the given",
+              "objective": "Separate wanting a fact to be otherwise from the metaphysically given fact itself."
+            },
+            {
+              "id": "hold-both-sides",
+              "title": "Hold both sides",
+              "objective": "Sort mixed cases by keeping facts that are on one side and facts that choice brings into existence on the other."
+            }
+          ]
         },
         {
           "id": "volition",
           "title": "Volition",
-          "status": "soon",
-          "summary": "The primary choice to focus or not, and volition as axiomatic. This ladder places it after the metaphysically given."
+          "status": "ready",
+          "summary": "The primary choice to focus or not, and volition as axiomatic. This ladder places it after the metaphysically given.",
+          "lessons": [
+            {
+              "id": "primary-choice",
+              "title": "The primary choice",
+              "objective": "Name the primary act of volition: the choice to focus the mind or not to focus it."
+            },
+            {
+              "id": "effort-first",
+              "title": "Focus before content",
+              "objective": "Separate the effort of focus from later choices about what to think, say, or do."
+            },
+            {
+              "id": "axiom-of-will",
+              "title": "Volition is axiomatic",
+              "objective": "Explain why volition is axiomatic: an attempt to deny the choice already uses it."
+            },
+            {
+              "id": "after-the-given",
+              "title": "After the metaphysically given",
+              "objective": "Place volition after the metaphysically given: what is given is not chosen, and choice is what can add man-made facts."
+            },
+            {
+              "id": "hold-the-unit",
+              "title": "Given, then the axiom",
+              "objective": "Hold the unit in one order: the metaphysically given, the primary choice to focus or not, and volition as axiomatic."
+            }
+          ]
+        },
+        {
+          "id": "entities",
+          "title": "Entities and Their Actions",
+          "status": "ready",
+          "summary": "To exist is to be an entity of a specific nature. Action follows from what the entity is.",
+          "lessons": [
+            {
+              "id": "to-be-something",
+              "title": "To be something",
+              "objective": "Recognize that to exist is to be something, set against the nothing of nonexistence."
+            },
+            {
+              "id": "an-entity",
+              "title": "An entity",
+              "objective": "Identify what exists as an entity, not as a loose feature floating free of any thing."
+            },
+            {
+              "id": "specific-nature",
+              "title": "A specific nature",
+              "objective": "State that an entity has a specific nature, not an open character that can be anything."
+            },
+            {
+              "id": "specific-attributes",
+              "title": "Specific attributes",
+              "objective": "Connect an entity’s nature to the specific attributes that make that nature up."
+            },
+            {
+              "id": "action-follows",
+              "title": "Action follows",
+              "objective": "Explain that what an entity does follows from what that entity is, not from a demand that ignores its nature."
+            }
+          ]
+        },
+        {
+          "id": "totality",
+          "title": "Existence as the Total",
+          "status": "ready",
+          "summary": "There is nothing outside existence. The universe is everything that exists.",
+          "lessons": [
+            {
+              "id": "nothing-outside",
+              "title": "Nothing outside",
+              "objective": "State that there is nothing outside existence: whatever is, is inside existence."
+            },
+            {
+              "id": "the-sum",
+              "title": "Everything that exists",
+              "objective": "Define the universe as everything that exists, not as one object among other objects."
+            },
+            {
+              "id": "not-a-place",
+              "title": "Nonexistence is not a place",
+              "objective": "Reject treating nonexistence as a region, a background, or a somewhere beyond what exists."
+            },
+            {
+              "id": "no-container",
+              "title": "No larger container",
+              "objective": "See that existence is not inside a bigger frame, void, or second total."
+            },
+            {
+              "id": "hold-the-total",
+              "title": "Hold the two lines",
+              "objective": "Hold both lines together: nothing is outside existence, and the universe is everything that exists."
+            }
+          ]
         }
       ]
     },
@@ -111,32 +285,233 @@
         {
           "id": "concepts",
           "title": "Concept-Formation and Measurement-Omission",
-          "status": "soon",
-          "summary": "Differentiation, integration, and concepts as a mathematical process of measurement-omission."
+          "status": "ready",
+          "summary": "Differentiation, integration, and concepts as a mathematical process of measurement-omission.",
+          "lessons": [
+            {
+              "id": "differentiation",
+              "title": "Set the group apart",
+              "objective": "Isolate units by what they share with each other and how they differ from a wider background."
+            },
+            {
+              "id": "integration",
+              "title": "Unite the units",
+              "objective": "Integrate the isolated units into one new mental entity, the concept."
+            },
+            {
+              "id": "measurable",
+              "title": "Same characteristic, different measure",
+              "objective": "Treat similarity as the same characteristic possessed in different measure, so the process is mathematical."
+            },
+            {
+              "id": "omission",
+              "title": "Omit the particular measurements",
+              "objective": "Form the concept by retaining the characteristic and omitting the particular measurements."
+            },
+            {
+              "id": "whole-process",
+              "title": "One mathematical process",
+              "objective": "Run differentiation, integration, and measurement-omission as one ordered process that yields a concept."
+            }
+          ]
         },
         {
           "id": "definitions",
           "title": "Definitions and the Hierarchy",
-          "status": "soon",
-          "summary": "Definition as the last step of concept-formation, and concepts as a hierarchy rather than a pile."
+          "status": "ready",
+          "summary": "Definition as the last step of concept-formation, and concepts as a hierarchy rather than a pile.",
+          "lessons": [
+            {
+              "id": "last-step",
+              "title": "The last step",
+              "objective": "Place a definition after concept-formation: the units are integrated first, and the definition then states what kind they are."
+            },
+            {
+              "id": "genus-differentia",
+              "title": "Genus and differentia",
+              "objective": "Build a definition from a genus, the wider group, and a differentia, the characteristic that sets these units apart inside that group."
+            },
+            {
+              "id": "fundamental",
+              "title": "The fundamental characteristic",
+              "objective": "Select the fundamental distinguishing characteristic, the one that explains the others, rather than a surface mark."
+            },
+            {
+              "id": "hierarchy",
+              "title": "A hierarchy, not a pile",
+              "objective": "Treat concepts as a hierarchy in which later concepts rest on earlier ones, not as a flat pile of labels."
+            },
+            {
+              "id": "context-and-order",
+              "title": "Context and the same units",
+              "objective": "See that a definition states the fundamentals in the order of one's knowledge, and can be restated when that knowledge deepens without dropping the units."
+            }
+          ]
         },
         {
           "id": "objectivity",
           "title": "Objectivity",
-          "status": "soon",
-          "summary": "Volitional adherence to reality by the method of logic. Knowledge as contextual and hierarchical."
+          "status": "ready",
+          "summary": "Volitional adherence to reality by the method of logic. Knowledge as contextual and hierarchical.",
+          "lessons": [
+            {
+              "id": "adherence",
+              "title": "Adherence to reality",
+              "objective": "State objectivity as a chosen adherence to the facts, not as neutrality and not as a mind that writes reality."
+            },
+            {
+              "id": "method-of-logic",
+              "title": "The method of logic",
+              "objective": "Identify logic as the method of objectivity: non-contradictory identification of the facts."
+            },
+            {
+              "id": "chosen-focus",
+              "title": "A choice to adhere",
+              "objective": "Separate what is given in awareness from the choice to adhere to it by logic."
+            },
+            {
+              "id": "contextual",
+              "title": "Knowledge in context",
+              "objective": "Treat a conclusion as holding in the context of the evidence that supports it, and treat context-dropping as a failure of objectivity."
+            },
+            {
+              "id": "hierarchical",
+              "title": "Knowledge in an order",
+              "objective": "Treat knowledge as hierarchical: later conclusions rest on earlier ones and cannot replace the base they depend on."
+            }
+          ]
         },
         {
           "id": "reason-rivals",
           "title": "Reason, Mysticism, and Skepticism",
-          "status": "soon",
-          "summary": "Reason as the only means of knowledge, and mysticism and skepticism as denials of it."
+          "status": "ready",
+          "summary": "Reason as the only means of knowledge, and mysticism and skepticism as denials of it.",
+          "lessons": [
+            {
+              "id": "only-means",
+              "title": "The only means of knowledge",
+              "objective": "Reason is the only means of knowledge and the only standard of truth."
+            },
+            {
+              "id": "mysticism",
+              "title": "Mysticism",
+              "objective": "Mysticism claims a way of knowing that bypasses reason, such as faith, revelation, or feeling used as proof."
+            },
+            {
+              "id": "skepticism",
+              "title": "Skepticism",
+              "objective": "Skepticism denies that knowledge is possible, and so denies that reason succeeds."
+            },
+            {
+              "id": "the-cost",
+              "title": "What rejecting reason licenses",
+              "objective": "Rejecting reason means acting with no regard for the facts, or against them."
+            },
+            {
+              "id": "tell-apart",
+              "title": "Three answers about knowledge",
+              "objective": "Sort reason, mysticism, and skepticism by what each says about whether and how you can know."
+            }
+          ]
         },
         {
           "id": "certainty",
           "title": "Certainty and the Arbitrary",
-          "status": "soon",
-          "summary": "The arbitrary as neither true nor false, and certainty as contextual."
+          "status": "ready",
+          "summary": "The arbitrary as neither true nor false, and certainty as contextual.",
+          "lessons": [
+            {
+              "id": "no-evidence",
+              "title": "A claim with nothing behind it",
+              "objective": "Recognize an arbitrary assertion as a claim offered with no evidence and no tie to the facts you know."
+            },
+            {
+              "id": "no-truth-value",
+              "title": "Neither true nor false",
+              "objective": "Treat the arbitrary as cognitively empty: it is neither true nor false, so it is set aside instead of weighed as a candidate."
+            },
+            {
+              "id": "burden",
+              "title": "Who must offer evidence",
+              "objective": "Place the burden of proof on the person who asserts, and refuse the demand to disprove a claim that was never supported."
+            },
+            {
+              "id": "context",
+              "title": "Certainty inside a context",
+              "objective": "Explain certainty as knowing that, inside a given context of evidence, nothing warrants doubt, without claiming to know every fact outside that context."
+            },
+            {
+              "id": "possibility",
+              "title": "Possibility is not a shrug",
+              "objective": "Separate a genuine possibility, which some evidence supports, from an arbitrary maybe that cannot undercut contextual certainty."
+            }
+          ]
+        },
+        {
+          "id": "logic",
+          "title": "Logic",
+          "status": "ready",
+          "summary": "Logic as the art of non-contradictory identification.",
+          "lessons": [
+            {
+              "id": "what-logic-is",
+              "title": "The art itself",
+              "objective": "State logic as the art of identifying what is, and of keeping those identifications free of contradiction."
+            },
+            {
+              "id": "identification",
+              "title": "Identify what is",
+              "objective": "Treat logic as naming facts that are already there, not as inventing them or swapping them for a wish."
+            },
+            {
+              "id": "same-respect",
+              "title": "Not both at once",
+              "objective": "Apply non-contradiction: the same thing cannot be two incompatible things at the same time and in the same respect."
+            },
+            {
+              "id": "error-in-thinking",
+              "title": "The error is in the thinking",
+              "objective": "Treat a contradiction as a confession that your thinking went wrong, not as a discovery that reality contradicts itself."
+            },
+            {
+              "id": "drop-the-clash",
+              "title": "Do not keep the clash",
+              "objective": "Distinguish finding a contradiction, which exposes an error, from maintaining it, which gives up the mind's hold on the facts."
+            }
+          ]
+        },
+        {
+          "id": "context",
+          "title": "Context and Hierarchy",
+          "status": "ready",
+          "summary": "Knowledge is contextual and hierarchical. A concept used with no context is floating.",
+          "lessons": [
+            {
+              "id": "what-context",
+              "title": "Knowledge has a context",
+              "objective": "Explain a context of knowledge as the body of facts and earlier ideas a claim depends on, not as a mood or a private story."
+            },
+            {
+              "id": "knowledge-order",
+              "title": "Knowledge has an order",
+              "objective": "Describe hierarchy as an order in which later knowledge rests on earlier knowledge and cannot be used as if it came first."
+            },
+            {
+              "id": "floating-concept",
+              "title": "A concept with no context",
+              "objective": "Identify a floating concept as one used with no context, cut off from the facts and the order that give it a meaning."
+            },
+            {
+              "id": "put-it-back",
+              "title": "Put the concept back",
+              "objective": "Restore a concept by naming the facts it refers to and the earlier knowledge it rests on, instead of adding emphasis."
+            },
+            {
+              "id": "one-check",
+              "title": "One check, two questions",
+              "objective": "Apply context and hierarchy together: ask what knowledge the concept depends on, and whether that knowledge is earlier in the order."
+            }
+          ]
         }
       ]
     },
@@ -145,31 +520,205 @@
       "title": "Human Nature",
       "accent": "gold",
       "summary": "What kind of organism a human being is, once metaphysics and epistemology are in place.",
-      "file": null,
+      "file": "human-nature.json",
       "units": [
         {
           "id": "rational-animal",
           "title": "Man as a Rational Animal",
-          "status": "soon",
-          "summary": "Living organisms as goal-directed, and reason as the human means of survival."
+          "status": "ready",
+          "summary": "Living organisms as goal-directed, and reason as the human means of survival.",
+          "lessons": [
+            {
+              "id": "living-goals",
+              "title": "Life aims at itself",
+              "objective": "See a living organism as an entity whose actions are directed at keeping itself alive."
+            },
+            {
+              "id": "no-code",
+              "title": "No built-in survival code",
+              "objective": "Contrast automatic living action in plants and animals with the fact that a human being has no innate program for how to survive."
+            },
+            {
+              "id": "reason-means",
+              "title": "Reason is the means",
+              "objective": "Identify reason as the human means of survival: the faculty that identifies and integrates what the senses provide."
+            },
+            {
+              "id": "must-use",
+              "title": "Reason has to be used",
+              "objective": "Hold that reason does not run by itself: surviving by it takes the choice to think and to act on what you know."
+            },
+            {
+              "id": "one-picture",
+              "title": "One picture of the rational animal",
+              "objective": "Put the unit in one order: a goal-directed organism, no innate survival code, and reason as the means you must use."
+            }
+          ]
         },
         {
           "id": "mind-body",
           "title": "Mind and Body",
-          "status": "soon",
-          "summary": "No war between a ghostly mind and a mechanical body. Reason is an attribute of the individual."
+          "status": "ready",
+          "summary": "No war between a ghostly mind and a mechanical body. Reason is an attribute of the individual.",
+          "lessons": [
+            {
+              "id": "false-war",
+              "title": "The war that is not there",
+              "objective": "Name the false picture: a ghostly mind at war with a mechanical body."
+            },
+            {
+              "id": "one-individual",
+              "title": "One individual",
+              "objective": "Hold mind and body as aspects of one individual, not two rivals sharing a life."
+            },
+            {
+              "id": "reason-attribute",
+              "title": "Reason belongs to the person",
+              "objective": "Place reason as an attribute of the individual, not of a spirit world or a crowd."
+            },
+            {
+              "id": "no-ghost",
+              "title": "No ghostly mind",
+              "objective": "Deny that the mind is a disembodied ghost occupying a body."
+            },
+            {
+              "id": "no-machine",
+              "title": "No mechanical body",
+              "objective": "Deny that the body is a mindless machine the mind must conquer."
+            }
+          ]
         },
         {
           "id": "emotions",
           "title": "Emotions as Products of Ideas",
-          "status": "soon",
-          "summary": "Emotions as consequences of value-judgments, not as tools that discover facts."
+          "status": "ready",
+          "summary": "Emotions as consequences of value-judgments, not as tools that discover facts.",
+          "lessons": [
+            {
+              "id": "products-of-ideas",
+              "title": "Products of ideas",
+              "objective": "See an emotion as a consequence of a value-judgment you already hold, not as a first fact about the world."
+            },
+            {
+              "id": "estimate-not-facts",
+              "title": "An estimate, not the facts",
+              "objective": "Distinguish what a feeling reports — your estimate of the facts — from what it does not report: the facts themselves."
+            },
+            {
+              "id": "not-a-tool",
+              "title": "Not a tool that discovers facts",
+              "objective": "Reject the claim that emotions are tools of cognition — means that discover facts."
+            },
+            {
+              "id": "judgment-first",
+              "title": "The judgment comes first",
+              "objective": "Trace the order: idea and value-judgment, then emotion. The feeling does not come first and then invent the judgment."
+            },
+            {
+              "id": "when-they-clash",
+              "title": "When feeling and fact clash",
+              "objective": "When a feeling and a fact conflict, re-check the value-judgment instead of treating the feeling as evidence."
+            }
+          ]
         },
         {
           "id": "character",
           "title": "Free Will and Character",
-          "status": "soon",
-          "summary": "Character as the self you build by the choices you automate. A later floor, not a substitute for volition."
+          "status": "ready",
+          "summary": "Character as the self you build by the choices you automate. A later floor, not a substitute for volition.",
+          "lessons": [
+            {
+              "id": "self-you-build",
+              "title": "The self you build",
+              "objective": "Name character as the self you build, not a finished self you are handed."
+            },
+            {
+              "id": "choices-you-automate",
+              "title": "Choices you automate",
+              "objective": "Show that character is formed when choices are repeated until they run as a standing policy."
+            },
+            {
+              "id": "later-floor",
+              "title": "A later floor",
+              "objective": "Place character after volition: a later floor, not the base of the ladder."
+            },
+            {
+              "id": "not-a-substitute",
+              "title": "Not a substitute",
+              "objective": "Show that an automated character does not stand in for the choice you still have."
+            },
+            {
+              "id": "will-then-character",
+              "title": "Will, then character",
+              "objective": "Hold the unit in one order: free will first, then the self those choices make automatic."
+            }
+          ]
+        },
+        {
+          "id": "needs",
+          "title": "Needs of a Living Being",
+          "status": "ready",
+          "summary": "A living organism's needs follow from the kind of organism it is. Man's needs include the use of reason.",
+          "lessons": [
+            {
+              "id": "what-a-need",
+              "title": "What a need is",
+              "objective": "Identify a need as something required by the kind of living organism, not a whim or a luxury."
+            },
+            {
+              "id": "kind-sets-needs",
+              "title": "The kind sets the needs",
+              "objective": "Show that different kinds of organism have different needs, because each need follows from the kind of organism it is."
+            },
+            {
+              "id": "mans-kind",
+              "title": "Man's kind, man's needs",
+              "objective": "Apply the rule to man: his needs are the needs of the kind of organism he is, not a list taken from another kind."
+            },
+            {
+              "id": "need-for-reason",
+              "title": "The need to use reason",
+              "objective": "Place the use of reason among man’s needs, as a requirement of the kind of organism he is, not as an optional extra."
+            },
+            {
+              "id": "needs-in-order",
+              "title": "Needs in one picture",
+              "objective": "Hold the unit in one order: a living organism’s needs follow from the kind of organism it is, and man’s needs include the use of reason."
+            }
+          ]
+        },
+        {
+          "id": "social",
+          "title": "Man Among Men",
+          "status": "ready",
+          "summary": "Other people can be a value in a voluntary relationship. Society is not an organism that owns the individual.",
+          "lessons": [
+            {
+              "id": "people-as-value",
+              "title": "Other people can be a value",
+              "objective": "See that another person can be a value to you, not a threat merely by existing."
+            },
+            {
+              "id": "voluntary",
+              "title": "A voluntary relationship",
+              "objective": "Hold that the value of other people is a relationship both people choose, not a tie that is forced."
+            },
+            {
+              "id": "not-an-organism",
+              "title": "Not an organism",
+              "objective": "Reject the picture of society as a living organism with a life of its own above the people in it."
+            },
+            {
+              "id": "does-not-own",
+              "title": "It does not own you",
+              "objective": "Deny that society owns the individual or may treat a person as its property."
+            },
+            {
+              "id": "value-not-ownership",
+              "title": "Value, not ownership",
+              "objective": "Hold both claims at once: other people can be a value in a voluntary relationship, and society is not an organism that owns the individual."
+            }
+          ]
         }
       ]
     },
@@ -178,43 +727,271 @@
       "title": "Ethics",
       "accent": "copper",
       "summary": "The code that guides choices, once you know what you are and how you know.",
-      "file": null,
+      "file": "ethics.json",
       "units": [
         {
           "id": "why-morality",
           "title": "Why Man Needs Morality",
-          "status": "soon",
-          "summary": "Why a code of values is a requirement of human life, not a decoration."
+          "status": "ready",
+          "summary": "Why a code of values is a requirement of human life, not a decoration.",
+          "lessons": [
+            {
+              "id": "code-of-values",
+              "title": "A code of values",
+              "objective": "Name morality as a code of values that guides choices and actions, not a mood or a slogan."
+            },
+            {
+              "id": "life-requires-it",
+              "title": "Why human life requires it",
+              "objective": "Explain why a being who must choose needs a code of values, while a life of automatic action does not."
+            },
+            {
+              "id": "not-a-decoration",
+              "title": "Not a decoration",
+              "objective": "Reject the idea that morality is an optional ornament, a luxury, or something added only after life is secure."
+            },
+            {
+              "id": "without-a-code",
+              "title": "Without a code",
+              "objective": "See that without a code, choices have no standard, so action drifts by whim and is not a policy for living."
+            },
+            {
+              "id": "hold-the-reason",
+              "title": "The reason, held together",
+              "objective": "State the full claim: man needs morality because a code of values is required to choose the actions human life depends on, and that need is not decorative."
+            }
+          ]
         },
         {
           "id": "life-standard",
           "title": "Life as the Standard",
-          "status": "soon",
-          "summary": "Life as the root of value, and one’s own life as the standard of moral value."
+          "status": "ready",
+          "summary": "Life as the root of value, and one’s own life as the standard of moral value.",
+          "lessons": [
+            {
+              "id": "root-of-value",
+              "title": "Why Value Needs Life",
+              "objective": "Recognize that the idea of value depends on a living being that can gain or lose its existence."
+            },
+            {
+              "id": "life-or-death",
+              "title": "The Alternative That Makes Good and Evil",
+              "objective": "Explain that good and evil arise only where the alternative is life or death."
+            },
+            {
+              "id": "not-whim",
+              "title": "Not a Whim or a Command",
+              "objective": "Reject whim, crowd opinion, and a supernatural command as the root of value."
+            },
+            {
+              "id": "own-life",
+              "title": "One's Own Life as the Standard",
+              "objective": "Identify one's own life as the standard used to judge moral good and evil for oneself."
+            },
+            {
+              "id": "for-or-against",
+              "title": "For or Against That Life",
+              "objective": "Judge an action as morally good when it sustains one's own life and as morally evil when it works against that life."
+            }
+          ]
         },
         {
           "id": "cardinal",
           "title": "The Three Cardinal Values",
-          "status": "soon",
-          "summary": "Reason, purpose, and self-esteem."
+          "status": "ready",
+          "summary": "Reason, purpose, and self-esteem.",
+          "lessons": [
+            {
+              "id": "name-the-three",
+              "title": "Name the three",
+              "objective": "Name reason, purpose, and self-esteem as the three cardinal values, and say what cardinal means."
+            },
+            {
+              "id": "reason-first",
+              "title": "Reason as a value",
+              "objective": "Explain reason as the cardinal value that makes knowledge and chosen action possible."
+            },
+            {
+              "id": "chosen-purpose",
+              "title": "Purpose",
+              "objective": "Explain purpose as a chosen central goal that ranks a person's other values."
+            },
+            {
+              "id": "earned-esteem",
+              "title": "Self-esteem",
+              "objective": "Explain self-esteem as the earned conviction that one is competent to think and worthy of living."
+            },
+            {
+              "id": "one-set",
+              "title": "One set",
+              "objective": "Hold reason, purpose, and self-esteem as one set, and see how each depends on the other two."
+            }
+          ]
         },
         {
           "id": "virtues",
           "title": "The Seven Virtues",
-          "status": "soon",
-          "summary": "Rationality, independence, integrity, honesty, justice, productiveness, and pride."
+          "status": "ready",
+          "summary": "Rationality, independence, integrity, honesty, justice, productiveness, and pride.",
+          "lessons": [
+            {
+              "id": "the-seven",
+              "title": "Name the seven",
+              "objective": "Name the seven virtues in the unit’s order and keep them as one code."
+            },
+            {
+              "id": "rationality",
+              "title": "Rationality first",
+              "objective": "Treat rationality as the virtue of using reason to know the facts and to choose."
+            },
+            {
+              "id": "independence-integrity",
+              "title": "Independence and integrity",
+              "objective": "Separate thinking for yourself from acting on the judgment you have reached."
+            },
+            {
+              "id": "honesty-justice",
+              "title": "Honesty and justice",
+              "objective": "Contrast refusing to fake reality with judging people by the facts of what they do."
+            },
+            {
+              "id": "work-and-pride",
+              "title": "Productiveness and pride",
+              "objective": "Connect making values with the moral ambition to be worthy of your own life."
+            }
+          ]
         },
         {
           "id": "happiness",
           "title": "Happiness",
-          "status": "soon",
-          "summary": "Happiness as the emotional state that follows from achieved values, not as a whim."
+          "status": "ready",
+          "summary": "Happiness as the emotional state that follows from achieved values, not as a whim.",
+          "lessons": [
+            {
+              "id": "emotional-state",
+              "title": "An Emotional State",
+              "objective": "Identify happiness as an emotional state, not a possession, a rule, or a mood you invent."
+            },
+            {
+              "id": "follows-values",
+              "title": "What It Follows From",
+              "objective": "Connect the emotional state of happiness to values that have been achieved."
+            },
+            {
+              "id": "order-of-cause",
+              "title": "Achievement Comes First",
+              "objective": "Keep the order straight: the value is achieved, and the emotional state follows."
+            },
+            {
+              "id": "not-a-whim",
+              "title": "Not a Whim",
+              "objective": "Separate happiness from a whim, a feeling with no tie to achieved values."
+            },
+            {
+              "id": "whole-definition",
+              "title": "The Whole Definition",
+              "objective": "State the full idea in one piece: the emotional state that follows achieved values, and not a whim."
+            }
+          ]
         },
         {
           "id": "egoism",
           "title": "Egoism and Altruism",
-          "status": "soon",
-          "summary": "The individual as the proper beneficiary of his own action, against the demand that he live for others."
+          "status": "ready",
+          "summary": "The individual as the proper beneficiary of his own action, against the demand that he live for others.",
+          "lessons": [
+            {
+              "id": "own-beneficiary",
+              "title": "Who the action is for",
+              "objective": "Name the individual himself as the proper beneficiary of his own action."
+            },
+            {
+              "id": "live-for-others",
+              "title": "The demand to live for others",
+              "objective": "Identify the moral demand this unit rejects: that a person live for others."
+            },
+            {
+              "id": "what-altruism-asks",
+              "title": "What altruism asks",
+              "objective": "Describe altruism, in this contrast, as the code that makes others the beneficiary of one’s action."
+            },
+            {
+              "id": "action-and-gain",
+              "title": "Action and its proper gain",
+              "objective": "Connect a concrete action to the person who properly gains from it, and reject handing that gain away as a duty."
+            },
+            {
+              "id": "hold-the-contrast",
+              "title": "Hold the contrast",
+              "objective": "Keep egoism and the rejected demand distinct when the wording changes."
+            }
+          ]
+        },
+        {
+          "id": "trader",
+          "title": "The Trader Principle",
+          "status": "ready",
+          "summary": "Give value for value. Do not seek the unearned.",
+          "lessons": [
+            {
+              "id": "value-for-value",
+              "title": "Give value for value",
+              "objective": "State the trader principle as an exchange in which each person gives a value and receives a value."
+            },
+            {
+              "id": "both-gain",
+              "title": "Both sides gain",
+              "objective": "Explain that a trade is an exchange in which each person gains a value, so neither is asked to lose for the other."
+            },
+            {
+              "id": "no-unearned",
+              "title": "Do not seek the unearned",
+              "objective": "Identify the unearned as a value one seeks without giving a value in return, and reject that aim."
+            },
+            {
+              "id": "not-taking",
+              "title": "Trade is not taking",
+              "objective": "Tell a trade apart from taking, from a one-sided demand, and from payment that does not match a value given."
+            },
+            {
+              "id": "both-clauses",
+              "title": "Both clauses together",
+              "objective": "Hold the full rule: give value for value, and do not seek the unearned, including when a case looks mixed."
+            }
+          ]
+        },
+        {
+          "id": "sacrifice",
+          "title": "Sacrifice",
+          "status": "ready",
+          "summary": "Sacrifice as giving up a higher value for a lesser one, and why that is not a virtue on this ladder.",
+          "lessons": [
+            {
+              "id": "higher-for-lesser",
+              "title": "What sacrifice names",
+              "objective": "Define sacrifice, on this ladder, as giving up a higher value for a lesser one."
+            },
+            {
+              "id": "not-every-cost",
+              "title": "Not every cost",
+              "objective": "Separate a cost paid to gain a higher value from sacrifice as this unit defines it."
+            },
+            {
+              "id": "not-a-virtue",
+              "title": "Not a virtue",
+              "objective": "Explain why giving up a higher value for a lesser one is not a virtue on this ladder."
+            },
+            {
+              "id": "rank-the-values",
+              "title": "Rank decides",
+              "objective": "Use the rank of two values to decide whether a trade is a sacrifice."
+            },
+            {
+              "id": "whole-claim",
+              "title": "The claim together",
+              "objective": "State the whole unit: sacrifice is giving up a higher value for a lesser one, and that is not a virtue."
+            }
+          ]
         }
       ]
     },
@@ -223,31 +1000,205 @@
       "title": "Politics",
       "accent": "gold",
       "summary": "The social principles that follow when each person is an end in himself.",
-      "file": null,
+      "file": "politics.json",
       "units": [
         {
           "id": "rights",
           "title": "Individual Rights",
-          "status": "soon",
-          "summary": "Rights as principles that sanction freedom of action in a social context."
+          "status": "ready",
+          "summary": "Rights as principles that sanction freedom of action in a social context.",
+          "lessons": [
+            {
+              "id": "what-a-right-is",
+              "title": "What a right is",
+              "objective": "Identify a right as a principle that sanctions a person's freedom of action."
+            },
+            {
+              "id": "social-context",
+              "title": "A social context",
+              "objective": "Place rights among people, not in a person's dealings with nature or with himself alone."
+            },
+            {
+              "id": "freedom-of-action",
+              "title": "Freedom of action",
+              "objective": "Distinguish the freedom a right sanctions from a claim on other people's effort or goods."
+            },
+            {
+              "id": "not-a-permission",
+              "title": "Not a permission",
+              "objective": "Contrast a right with a permission or privilege that others can grant or withdraw."
+            },
+            {
+              "id": "rights-as-principles",
+              "title": "Rights as principles",
+              "objective": "Treat rights as moral principles that set a standard, not as wishes, customs, or majority votes."
+            }
+          ]
         },
         {
           "id": "force",
           "title": "The Initiation of Force",
-          "status": "soon",
-          "summary": "Why starting the use of physical force is the basic political evil."
+          "status": "ready",
+          "summary": "Why starting the use of physical force is the basic political evil.",
+          "lessons": [
+            {
+              "id": "what-counts",
+              "title": "What physical force is",
+              "objective": "Name physical force as compulsion against a person’s body or property, not as a strong opinion."
+            },
+            {
+              "id": "who-starts",
+              "title": "Who starts it",
+              "objective": "Separate the person who starts force from the person who uses force only to stop it."
+            },
+            {
+              "id": "why-basic",
+              "title": "Why it is basic",
+              "objective": "Explain why starting force is the basic political evil: it replaces the victim’s judgment with compulsion."
+            },
+            {
+              "id": "fraud-threats",
+              "title": "Fraud and threats",
+              "objective": "Treat fraud and a credible threat of force as ways of starting force, not as clever exceptions."
+            },
+            {
+              "id": "not-force",
+              "title": "What is not a start of force",
+              "objective": "Keep refusal, competition, error, and unwelcome speech outside the idea of starting force."
+            }
+          ]
         },
         {
           "id": "government",
           "title": "Government’s Proper Role",
-          "status": "soon",
-          "summary": "Government as an agent that protects rights, limited to retaliatory force."
+          "status": "ready",
+          "summary": "Government as an agent that protects rights, limited to retaliatory force.",
+          "lessons": [
+            {
+              "id": "an-agent",
+              "title": "An agent, not a master",
+              "objective": "Identify government as an agent that acts for people, not as an owner of their lives."
+            },
+            {
+              "id": "protects-rights",
+              "title": "The job: protect rights",
+              "objective": "State the purpose of government as the protection of individual rights, and reject substitute purposes."
+            },
+            {
+              "id": "retaliatory-only",
+              "title": "Only retaliatory force",
+              "objective": "Limit the force government may use to retaliation against those who have started force."
+            },
+            {
+              "id": "three-functions",
+              "title": "Police, courts, defense",
+              "objective": "Place police, law courts, and armed defense inside the job of protecting rights by retaliatory force."
+            },
+            {
+              "id": "the-line",
+              "title": "Where the role stops",
+              "objective": "Apply the whole unit: an agent that protects rights and stops where retaliatory force stops."
+            }
+          ]
         },
         {
           "id": "capitalism",
           "title": "Capitalism and Its Moral Basis",
-          "status": "soon",
-          "summary": "Laissez-faire capitalism as the system that follows from rights, not as a brute economic preference."
+          "status": "ready",
+          "summary": "Laissez-faire capitalism as the system that follows from rights, not as a brute economic preference.",
+          "lessons": [
+            {
+              "id": "name-the-system",
+              "title": "Name the system",
+              "objective": "Identify laissez-faire capitalism as the political system this unit defends."
+            },
+            {
+              "id": "follows-from-rights",
+              "title": "It follows from rights",
+              "objective": "Explain that the case for laissez-faire capitalism starts from individual rights."
+            },
+            {
+              "id": "not-a-preference",
+              "title": "Not a brute preference",
+              "objective": "Reject the idea that capitalism is only a taste for markets or a growth trick."
+            },
+            {
+              "id": "what-laissez-means",
+              "title": "What laissez-faire rules out",
+              "objective": "State what laissez-faire rules out: running the economy and handing out special favors."
+            },
+            {
+              "id": "one-chain",
+              "title": "One chain",
+              "objective": "Hold one order: each person is an end, rights follow, and laissez-faire capitalism is the system that respects those rights."
+            }
+          ]
+        },
+        {
+          "id": "property",
+          "title": "Property Rights",
+          "status": "ready",
+          "summary": "The right to keep and use the product of your effort, and why freedom of action requires it.",
+          "lessons": [
+            {
+              "id": "what-property-is",
+              "title": "What property is",
+              "objective": "Name property as the right to keep and use the product of your effort."
+            },
+            {
+              "id": "product-of-effort",
+              "title": "The product of your effort",
+              "objective": "Identify what the right covers as the product of your own effort, and reject treating another person's product as yours."
+            },
+            {
+              "id": "right-to-use",
+              "title": "The right to use it",
+              "objective": "Treat use as part of the right, and reject a title that forbids the owner to act on what he keeps."
+            },
+            {
+              "id": "freedom-requires-it",
+              "title": "Why freedom of action requires it",
+              "objective": "Explain that freedom of action requires property, because action needs control of its means and of its result."
+            },
+            {
+              "id": "whole-claim",
+              "title": "The whole claim",
+              "objective": "Apply the full unit: the right to keep and use the product of your effort, because freedom of action requires that control."
+            }
+          ]
+        },
+        {
+          "id": "statism",
+          "title": "Statism",
+          "status": "ready",
+          "summary": "The political view that a person's life belongs to the state.",
+          "lessons": [
+            {
+              "id": "name-the-view",
+              "title": "Name the view",
+              "objective": "Identify statism as the political view that a person's life belongs to the state."
+            },
+            {
+              "id": "who-the-owner-is",
+              "title": "Who the owner is",
+              "objective": "Name the state, not the person, as the owner statism assigns to a life."
+            },
+            {
+              "id": "what-belongs-covers",
+              "title": "What the life covers",
+              "objective": "Treat the life that statism assigns to the state as including the person's work, time, and choices."
+            },
+            {
+              "id": "person-as-means",
+              "title": "The person as a means",
+              "objective": "Explain that statism treats the person as a means to the state's ends because the life belongs to the state."
+            },
+            {
+              "id": "spot-the-wording",
+              "title": "Spot the wording",
+              "objective": "Recognize the same statism claim when it is worded as a duty to the state, a national purpose, or the public's ownership of the person."
+            }
+          ]
         }
       ]
     },
@@ -256,31 +1207,205 @@
       "title": "Aesthetics",
       "accent": "copper",
       "summary": "Art as a need of a conceptual consciousness, and the standards for judging it.",
-      "file": null,
+      "file": "aesthetics.json",
       "units": [
         {
           "id": "selective",
           "title": "Art as Selective Re-creation",
-          "status": "soon",
-          "summary": "Art as a selective re-creation of reality according to metaphysical value-judgments."
+          "status": "ready",
+          "summary": "Art as a selective re-creation of reality according to metaphysical value-judgments.",
+          "lessons": [
+            {
+              "id": "what-art-is",
+              "title": "What Art Is",
+              "objective": "State the definition of art as a selective re-creation of reality according to metaphysical value-judgments."
+            },
+            {
+              "id": "what-selective-means",
+              "title": "What Selective Means",
+              "objective": "Explain that the artist includes, omits, and stresses aspects of reality rather than recording everything."
+            },
+            {
+              "id": "recreation-not-copy",
+              "title": "Re-creation, Not a Dump or a Fantasy",
+              "objective": "Distinguish a re-creation of reality from an unselective record and from a presentation cut off from reality."
+            },
+            {
+              "id": "metaphysical-judgments",
+              "title": "Metaphysical Value-Judgments",
+              "objective": "Identify metaphysical value-judgments as the artist’s fundamental appraisal of man and existence, and as the standard of selection."
+            },
+            {
+              "id": "one-claim",
+              "title": "One Claim, Three Parts",
+              "objective": "Apply the full definition, keeping selection, re-creation of reality, and metaphysical value-judgments together."
+            }
+          ]
         },
         {
           "id": "sense-of-life",
           "title": "Sense of Life",
-          "status": "soon",
-          "summary": "A sense of life as a pre-conceptual, emotional appraisal of man and of existence."
+          "status": "ready",
+          "summary": "A sense of life as a pre-conceptual, emotional appraisal of man and of existence.",
+          "lessons": [
+            {
+              "id": "what-it-names",
+              "title": "What the phrase names",
+              "objective": "Name a sense of life as a pre-conceptual, emotional appraisal, and reject the usual substitutes."
+            },
+            {
+              "id": "appraisal-of-man",
+              "title": "An appraisal of man",
+              "objective": "Identify man as one object of the appraisal: what kind of being one takes a human being to be."
+            },
+            {
+              "id": "appraisal-of-existence",
+              "title": "An appraisal of existence",
+              "objective": "Identify existence as the other object: an emotional estimate of the world a human being faces."
+            },
+            {
+              "id": "before-philosophy",
+              "title": "Before a stated philosophy",
+              "objective": "Hold that the appraisal is in place before it is translated into explicit ideas, without treating the feeling as a proof."
+            },
+            {
+              "id": "emotional-whole",
+              "title": "The emotional whole",
+              "objective": "Assemble the full definition: an emotional appraisal that is pre-conceptual and aimed at both man and existence."
+            }
+          ]
         },
         {
           "id": "romanticism",
           "title": "Romanticism",
-          "status": "soon",
-          "summary": "Romanticism as the school committed to volition, and its place in Rand’s esthetics."
+          "status": "ready",
+          "summary": "Romanticism as the school committed to volition, and its place in Rand’s esthetics.",
+          "lessons": [
+            {
+              "id": "where-schools-sit",
+              "title": "Where a school sits",
+              "objective": "Locate Romanticism as a school inside esthetics, named by its view of man, not by a feeling."
+            },
+            {
+              "id": "volition-premise",
+              "title": "The premise of volition",
+              "objective": "State the premise that defines Romanticism: man can choose."
+            },
+            {
+              "id": "against-denial",
+              "title": "Against the denial of choice",
+              "objective": "Tell Romanticism from the school that presents man as determined."
+            },
+            {
+              "id": "not-a-mood",
+              "title": "Not a mood",
+              "objective": "Separate Romanticism from the popular mix-up with emotion, mysticism, or escape from facts."
+            },
+            {
+              "id": "place-in-esthetics",
+              "title": "What the premise makes visible",
+              "objective": "Connect the volitional premise to purposeful action in art, and to why the school belongs in her esthetics."
+            }
+          ]
         },
         {
           "id": "judgment",
           "title": "Esthetic Judgment",
-          "status": "soon",
-          "summary": "How to judge a work by what it does as art, which is not the same as agreeing with its philosophy."
+          "status": "ready",
+          "summary": "How to judge a work by what it does as art, which is not the same as agreeing with its philosophy.",
+          "lessons": [
+            {
+              "id": "two-questions",
+              "title": "Two different questions",
+              "objective": "Separate an esthetic judgment of a work from a philosophical agreement with its ideas."
+            },
+            {
+              "id": "what-it-does",
+              "title": "What the work does as art",
+              "objective": "Judge by the selective re-creation the work actually presents, not by a slogan placed beside it."
+            },
+            {
+              "id": "skill-and-view",
+              "title": "Skill is not a vote",
+              "objective": "See that artistic skill and agreement with a philosophy can come apart in either direction."
+            },
+            {
+              "id": "theme-and-means",
+              "title": "Theme through the means",
+              "objective": "Ask whether the theme is carried by the work’s own means, rather than by a lecture standing in for the art."
+            },
+            {
+              "id": "one-standard",
+              "title": "One standard, applied",
+              "objective": "Apply the same esthetic standard to works you welcome and works you oppose."
+            }
+          ]
+        },
+        {
+          "id": "need",
+          "title": "Why a Conceptual Mind Needs Art",
+          "status": "ready",
+          "summary": "Art as a need of a conceptual consciousness, not as a luxury added after thought is finished.",
+          "lessons": [
+            {
+              "id": "conceptual-mind",
+              "title": "The mind that has the need",
+              "objective": "Identify the consciousness that needs art as one that lives by concepts, not by the immediate moment alone."
+            },
+            {
+              "id": "not-a-luxury",
+              "title": "Not a spare pleasure",
+              "objective": "Reject the claim that art is a luxury a person can skip once practical needs are met."
+            },
+            {
+              "id": "not-afterward",
+              "title": "Not attached later",
+              "objective": "Reject the picture that thought is finished first and art is attached afterward as decoration."
+            },
+            {
+              "id": "why-the-need",
+              "title": "Why the need arises",
+              "objective": "Explain that a conceptual mind needs its wide abstractions in a form it can experience, which is why art is a need."
+            },
+            {
+              "id": "one-claim",
+              "title": "The claim in one line",
+              "objective": "Hold the full claim: art is a need of a conceptual consciousness, not a luxury added after thought is finished."
+            }
+          ]
+        },
+        {
+          "id": "theme",
+          "title": "Theme",
+          "status": "ready",
+          "summary": "A work's abstract meaning, carried by the concretes the artist chose.",
+          "lessons": [
+            {
+              "id": "what-theme-is",
+              "title": "What a theme is",
+              "objective": "Name a theme as the work's abstract meaning, and reject substitutes that are not a meaning at all."
+            },
+            {
+              "id": "not-a-plot",
+              "title": "Not a plot summary",
+              "objective": "Tell a theme apart from a retelling of the events, characters, or surface details."
+            },
+            {
+              "id": "chosen-concretes",
+              "title": "The concretes chosen",
+              "objective": "Identify the concretes as the particulars the artist chose, which are what carry the theme."
+            },
+            {
+              "id": "carried-not-pasted",
+              "title": "Carried, not pasted on",
+              "objective": "Hold that the theme is carried by the concretes, not supplied by a slogan attached beside them."
+            },
+            {
+              "id": "one-claim",
+              "title": "One claim",
+              "objective": "Apply the full claim: a theme is the work's abstract meaning, and that meaning is carried by the concretes the artist chose."
+            }
+          ]
         }
       ]
     },
@@ -289,19 +1414,139 @@
       "title": "Integration",
       "accent": "gold",
       "summary": "The philosophy as one whole, and what it asks of a life.",
-      "file": null,
+      "file": "integration.json",
       "units": [
         {
           "id": "whole",
           "title": "The Philosophy as a Whole",
-          "status": "soon",
-          "summary": "Why an idea pulled out of the middle cannot be validated or used."
+          "status": "ready",
+          "summary": "Why an idea pulled out of the middle cannot be validated or used.",
+          "lessons": [
+            {
+              "id": "one-system",
+              "title": "One view, not a pile",
+              "objective": "Tell an integrated philosophy from a pile of separate claims."
+            },
+            {
+              "id": "chain-order",
+              "title": "The chain has an order",
+              "objective": "See that later ideas rest on earlier ones, so the order is part of the philosophy."
+            },
+            {
+              "id": "pulled-middle",
+              "title": "Pulled out of the middle",
+              "objective": "Spot an idea that has been cut away from the premises that support it."
+            },
+            {
+              "id": "cannot-validate",
+              "title": "Nothing left to check",
+              "objective": "Explain why a middle idea, taken alone, cannot be validated."
+            },
+            {
+              "id": "cannot-use",
+              "title": "Nothing left to apply",
+              "objective": "Explain why that same detached idea cannot guide a concrete choice."
+            }
+          ]
         },
         {
           "id": "applying",
           "title": "Applying It",
-          "status": "soon",
-          "summary": "Holding the principles in concrete choices, without turning the philosophy into a script."
+          "status": "ready",
+          "summary": "Holding the principles in concrete choices, without turning the philosophy into a script.",
+          "lessons": [
+            {
+              "id": "not-a-script",
+              "title": "Not a script",
+              "objective": "Tell a principle from a script: a principle names the kind of choice that is right, and a script pretends the moves are already listed."
+            },
+            {
+              "id": "this-choice",
+              "title": "This choice",
+              "objective": "Apply a principle to the facts of this situation instead of letting a slogan stand in for those facts."
+            },
+            {
+              "id": "facts-change",
+              "title": "When the facts change",
+              "objective": "See that one principle can call for different concrete actions when the facts of the case change."
+            },
+            {
+              "id": "you-judge",
+              "title": "You still judge",
+              "objective": "Use the philosophy as a standard for your thinking, not as a substitute that decides the case in your place."
+            },
+            {
+              "id": "life-not-ritual",
+              "title": "A life, not a ritual",
+              "objective": "Hold the principles across ordinary choices without turning practice into ceremony, costume, or a checklist of gestures."
+            }
+          ]
+        },
+        {
+          "id": "package-deals",
+          "title": "Package Deals",
+          "status": "ready",
+          "summary": "Two claims glued together so that accepting one seems to force the other.",
+          "lessons": [
+            {
+              "id": "two-claims",
+              "title": "Two claims, one package",
+              "objective": "Recognize a package deal as two claims treated as if they were a single claim."
+            },
+            {
+              "id": "the-glue",
+              "title": "Find the glue",
+              "objective": "Find the word or slogan that hides the join between the two claims."
+            },
+            {
+              "id": "split-them",
+              "title": "Name each claim",
+              "objective": "Name each claim separately once the package is opened."
+            },
+            {
+              "id": "one-not-both",
+              "title": "One yes is not two",
+              "objective": "Judge each claim on its own so that a yes to one is not a yes to the other."
+            },
+            {
+              "id": "two-questions",
+              "title": "Ask two questions",
+              "objective": "Replace the package with two questions you can answer one at a time."
+            }
+          ]
+        },
+        {
+          "id": "premises",
+          "title": "Check Your Premises",
+          "status": "ready",
+          "summary": "When a conclusion clashes with a fact, inspect the premise that produced the conclusion.",
+          "lessons": [
+            {
+              "id": "the-clash",
+              "title": "Name the clash",
+              "objective": "Recognize a clash as a conclusion that does not fit a known fact."
+            },
+            {
+              "id": "fact-holds",
+              "title": "The fact holds",
+              "objective": "Keep the fact, and treat the clashing conclusion as the side that has to give."
+            },
+            {
+              "id": "trace-back",
+              "title": "Trace it back",
+              "objective": "Trace the clashing conclusion to the premise that produced it."
+            },
+            {
+              "id": "inspect",
+              "title": "Inspect the premise",
+              "objective": "Check the producing premise against the fact, instead of shielding it, discarding every idea, or rewriting the fact."
+            },
+            {
+              "id": "fit-again",
+              "title": "A conclusion that fits",
+              "objective": "Replace the faulty premise so the new conclusion agrees with the fact."
+            }
+          ]
         }
       ]
     }

@@ -1,0 +1,855 @@
+{
+  "sectionId": "integration",
+  "sectionFile": "integration.json",
+  "unitId": "whole",
+  "title": "The Philosophy as a Whole",
+  "summary": "Why an idea pulled out of the middle cannot be validated or used.",
+  "lessons": [
+    {
+      "id": "one-system",
+      "title": "One view, not a pile",
+      "objective": "Tell an integrated philosophy from a pile of separate claims.",
+      "exercises": [
+        {
+          "id": "sys-choice-whole",
+          "type": "choice",
+          "prompt": "What makes a philosophy one whole?",
+          "answer": "fit",
+          "choices": [
+            { "id": "fit", "text": "Its ideas fit as one view of existence" },
+            { "id": "list", "text": "It is a long list of unrelated opinions" },
+            { "id": "mood", "text": "It matches whatever you feel today" },
+            { "id": "vote", "text": "A group has voted each line in separately" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A philosophy is one integrated view. Separate favorite lines are not yet a system."
+          }
+        },
+        {
+          "id": "sys-match-marks",
+          "type": "match",
+          "prompt": "Match each description to what it is.",
+          "pairs": [
+            { "id": "p1", "left": "Ideas that depend on one another", "right": "One philosophy" },
+            { "id": "p2", "left": "Claims that do not connect", "right": "A pile" },
+            { "id": "p3", "left": "A line kept only because it sounds bold", "right": "A slogan" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Connection is the mark of a whole. A slogan or a pile has no such tie."
+          }
+        },
+        {
+          "id": "sys-blanks-view",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the description of a philosophy.",
+          "parts": [
+            { "type": "text", "text": "A philosophy is one " },
+            { "type": "blank", "id": "b1", "answer": "integrated" },
+            { "type": "text", "text": " view, not a pile of " },
+            { "type": "blank", "id": "b2", "answer": "separate" },
+            { "type": "text", "text": " claims." }
+          ],
+          "bank": ["integrated", "separate", "random", "secret"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Integrated means the parts belong together. Separate claims have not been tied into one view."
+          }
+        },
+        {
+          "id": "sys-sentence-whole",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that states the unit’s starting point.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "philosophy" },
+            { "id": "t3", "text": "stands" },
+            { "id": "t4", "text": "as" },
+            { "id": "t5", "text": "one" },
+            { "id": "t6", "text": "whole" },
+            { "id": "d1", "text": "slogan" },
+            { "id": "d2", "text": "mood" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Later lessons ask what happens when one idea is pulled out of that whole."
+          }
+        },
+        {
+          "id": "sys-choice-drop",
+          "type": "choice",
+          "prompt": "You drop one branch and keep a conclusion that needed it. What do you have?",
+          "answer": "gap",
+          "choices": [
+            { "id": "gap", "text": "A hole in the view, not the same philosophy" },
+            { "id": "same", "text": "The same whole, only shorter" },
+            { "id": "stronger", "text": "A stronger system, because less can go wrong" },
+            { "id": "axiom", "text": "A new axiom that needs no support" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If a conclusion depended on the branch you dropped, the view is no longer intact."
+          }
+        },
+        {
+          "id": "sys-match-jobs",
+          "type": "match",
+          "prompt": "Match each part of a whole to the job it does inside the view.",
+          "pairs": [
+            { "id": "j1", "left": "What exists", "right": "The base the rest must fit" },
+            { "id": "j2", "left": "How you know", "right": "The method that ties claims to facts" },
+            { "id": "j3", "left": "What you should do", "right": "A conclusion that rests on both" },
+            { "id": "j4", "left": "A favorite sentence alone", "right": "Not yet a branch of the view" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each real part has a job in the same view. A lone sentence has not been given that job."
+          }
+        },
+        {
+          "id": "sys-blanks-tie",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the test for whether two ideas belong to one philosophy.",
+          "parts": [
+            { "type": "text", "text": "They belong together when each " },
+            { "type": "blank", "id": "b1", "answer": "depends" },
+            { "type": "text", "text": " on the same view of " },
+            { "type": "blank", "id": "b2", "answer": "existence" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["depends", "existence", "ignores", "fashion"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Dependence on one view of existence is what makes the ideas one system."
+          }
+        },
+        {
+          "id": "sys-sentence-pile",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the warning about a pile of lines.",
+          "tokens": [
+            { "id": "t1", "text": "Unrelated" },
+            { "id": "t2", "text": "lines" },
+            { "id": "t3", "text": "are" },
+            { "id": "t4", "text": "not" },
+            { "id": "t5", "text": "a" },
+            { "id": "t6", "text": "philosophy" },
+            { "id": "d1", "text": "always" },
+            { "id": "d2", "text": "proof" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Counting lines does not integrate them. Integration is the connection among them."
+          }
+        },
+        {
+          "id": "sys-choice-next",
+          "type": "choice",
+          "prompt": "Once the ideas form one view, what else must you keep?",
+          "answer": "order",
+          "choices": [
+            { "id": "order", "text": "The order in which later ideas rest on earlier ones" },
+            { "id": "shuffle", "text": "The freedom to shuffle them with no loss" },
+            { "id": "middle", "text": "Only the middle line you like best" },
+            { "id": "tone", "text": "Only the tone, not the connections" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A whole has an order. The next lesson is that order."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chain-order",
+      "title": "The chain has an order",
+      "objective": "See that later ideas rest on earlier ones, so the order is part of the philosophy.",
+      "exercises": [
+        {
+          "id": "ord-choice-rest",
+          "type": "choice",
+          "prompt": "In this philosophy, where does a later conclusion get its support?",
+          "answer": "earlier",
+          "choices": [
+            { "id": "earlier", "text": "From the earlier ideas it rests on" },
+            { "id": "itself", "text": "From being repeated often enough" },
+            { "id": "end", "text": "Only from whatever comes after it" },
+            { "id": "nowhere", "text": "From nowhere; every line is a starting point" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Support runs from earlier ideas to later ones. Repetition is not that support."
+          }
+        },
+        {
+          "id": "ord-match-place",
+          "type": "match",
+          "prompt": "Match each place in the chain to its role.",
+          "pairs": [
+            { "id": "r1", "left": "The base", "right": "What the later ideas must fit" },
+            { "id": "r2", "left": "The middle", "right": "A conclusion that still needs the base" },
+            { "id": "r3", "left": "A still later conclusion", "right": "Something that needs the middle and the base" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Place in the chain is not decoration. It tells you what an idea is allowed to rest on."
+          }
+        },
+        {
+          "id": "ord-blanks-order",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rule about order.",
+          "parts": [
+            { "type": "text", "text": "A later idea " },
+            { "type": "blank", "id": "b1", "answer": "rests" },
+            { "type": "text", "text": " on earlier ones, so the " },
+            { "type": "blank", "id": "b2", "answer": "order" },
+            { "type": "text", "text": " is part of the philosophy." }
+          ],
+          "bank": ["rests", "order", "floats", "slogan"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If you change the order, you change what the idea is claiming to stand on."
+          }
+        },
+        {
+          "id": "ord-sentence-base",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about where a chain starts.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "chain" },
+            { "id": "t3", "text": "starts" },
+            { "id": "t4", "text": "at" },
+            { "id": "t5", "text": "the" },
+            { "id": "t6", "text": "base" },
+            { "id": "d1", "text": "middle" },
+            { "id": "d2", "text": "slogan" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The base is what later lines have to fit. The middle is not a second base."
+          }
+        },
+        {
+          "id": "ord-choice-swap",
+          "type": "choice",
+          "prompt": "Someone treats a middle conclusion as if nothing had to come before it. What did they change?",
+          "answer": "role",
+          "choices": [
+            { "id": "role", "text": "They turned a dependent idea into a fake starting point" },
+            { "id": "wording", "text": "Only the wording, not the philosophy" },
+            { "id": "length", "text": "Only how long the lesson is" },
+            { "id": "nothing", "text": "Nothing; every idea is a starting point" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A middle idea is dependent. Calling it a start erases the order the philosophy needs."
+          }
+        },
+        {
+          "id": "ord-match-errors",
+          "type": "match",
+          "prompt": "Match each move to what it does to the chain.",
+          "pairs": [
+            { "id": "e1", "left": "Keep the earlier ideas in place", "right": "Leave the support intact" },
+            { "id": "e2", "left": "Skip the base and start in the middle", "right": "Drop the support" },
+            { "id": "e3", "left": "Put a later conclusion under an earlier one", "right": "Reverse the order" },
+            { "id": "e4", "left": "Treat every line as equal and free-standing", "right": "Erase the chain" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Support, skip, reversal, and a flat list are different failures. Only the first keeps the chain."
+          }
+        },
+        {
+          "id": "ord-blanks-before",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the point about what the middle still needs.",
+          "parts": [
+            { "type": "text", "text": "Even a true middle idea still " },
+            { "type": "blank", "id": "b1", "answer": "needs" },
+            { "type": "text", "text": " what comes " },
+            { "type": "blank", "id": "b2", "answer": "before" },
+            { "type": "text", "text": " it." }
+          ],
+          "bank": ["needs", "before", "replaces", "after"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Truth does not make a middle idea self-supporting. It still depends on earlier ideas."
+          }
+        },
+        {
+          "id": "ord-sentence-later",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about later ideas.",
+          "tokens": [
+            { "id": "t1", "text": "Later" },
+            { "id": "t2", "text": "ideas" },
+            { "id": "t3", "text": "presuppose" },
+            { "id": "t4", "text": "earlier" },
+            { "id": "t5", "text": "ones" },
+            { "id": "d1", "text": "cancel" },
+            { "id": "d2", "text": "moods" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "To presuppose is to rely on. A later idea relies on the earlier ones whether or not you name them."
+          }
+        },
+        {
+          "id": "ord-choice-check",
+          "type": "choice",
+          "prompt": "You want to know whether a conclusion belongs in this philosophy. What do you check first?",
+          "answer": "fit",
+          "choices": [
+            { "id": "fit", "text": "Whether it fits the earlier ideas it claims to rest on" },
+            { "id": "volume", "text": "Whether it is the longest sentence in the set" },
+            { "id": "novelty", "text": "Whether nobody has said it before" },
+            { "id": "heat", "text": "Whether it is the most exciting line" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Belonging is a question of fit with the earlier chain, not of excitement or length."
+          }
+        },
+        {
+          "id": "ord-choice-middle-place",
+          "type": "choice",
+          "prompt": "Why call some ideas middle ideas?",
+          "answer": "between",
+          "choices": [
+            { "id": "between", "text": "They sit between the base and still later conclusions" },
+            { "id": "average", "text": "They are average in quality" },
+            { "id": "optional", "text": "They are the optional part you may delete" },
+            { "id": "hidden", "text": "They are secrets that need no statement" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Middle names a place in the chain. The next lesson is what happens when that place is torn out."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pulled-middle",
+      "title": "Pulled out of the middle",
+      "objective": "Spot an idea that has been cut away from the premises that support it.",
+      "exercises": [
+        {
+          "id": "mid-choice-pull",
+          "type": "choice",
+          "prompt": "What does it mean to pull an idea out of the middle?",
+          "answer": "cut",
+          "choices": [
+            { "id": "cut", "text": "To keep the idea and drop the premises it needs" },
+            { "id": "study", "text": "To learn the idea together with its premises" },
+            { "id": "base", "text": "To start from the base and climb in order" },
+            { "id": "name", "text": "To give the whole philosophy its name" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The pull is a cut. The sentence stays; the support that gave it a place is gone."
+          }
+        },
+        {
+          "id": "mid-match-cases",
+          "type": "match",
+          "prompt": "Match each handling of an idea to the result.",
+          "pairs": [
+            { "id": "c1", "left": "State it with the premises it rests on", "right": "Leave it in the whole" },
+            { "id": "c2", "left": "Quote it and refuse the premises", "right": "Pull it out of the middle" },
+            { "id": "c3", "left": "Treat the bare line as self-evident", "right": "Pretend a middle idea is a base" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keeping the premises leaves the idea in the system. The other two detach it."
+          }
+        },
+        {
+          "id": "mid-blanks-cut",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the definition.",
+          "parts": [
+            { "type": "text", "text": "A pulled-out idea is cut away from the " },
+            { "type": "blank", "id": "b1", "answer": "premises" },
+            { "type": "text", "text": " that " },
+            { "type": "blank", "id": "b2", "answer": "support" },
+            { "type": "text", "text": " it." }
+          ],
+          "bank": ["premises", "support", "rhymes", "replace"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Premises are the earlier ideas. Without them the line has been pulled out of its place."
+          }
+        },
+        {
+          "id": "mid-sentence-looks",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about how a detached line can still look.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "detached" },
+            { "id": "t3", "text": "line" },
+            { "id": "t4", "text": "can" },
+            { "id": "t5", "text": "still" },
+            { "id": "t6", "text": "sound" },
+            { "id": "t7", "text": "familiar" },
+            { "id": "d1", "text": "proven" },
+            { "id": "d2", "text": "basic" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Familiar sound is not the same as still being tied to the premises."
+          }
+        },
+        {
+          "id": "mid-choice-not",
+          "type": "choice",
+          "prompt": "Which of these is not a pull from the middle?",
+          "answer": "climb",
+          "choices": [
+            { "id": "climb", "text": "Studying a conclusion only after the ideas it rests on" },
+            { "id": "banner", "text": "Carrying one conclusion as a banner and ignoring its base" },
+            { "id": "deny", "text": "Using a conclusion while denying what it depends on" },
+            { "id": "alone", "text": "Asking the conclusion to stand with no earlier ideas" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Climbing in order keeps the idea inside the whole. The other three take it out."
+          }
+        },
+        {
+          "id": "mid-match-signs",
+          "type": "match",
+          "prompt": "Match each sign to what it shows.",
+          "pairs": [
+            { "id": "s1", "left": "You can name the earlier ideas it needs", "right": "It is still in the chain" },
+            { "id": "s2", "left": "You can say the line but not what it rests on", "right": "It has been pulled out" },
+            { "id": "s3", "left": "You call it obvious so you can skip the base", "right": "A middle idea is posing as a start" },
+            { "id": "s4", "left": "You keep the word and drop the view that defined it", "right": "The idea’s context is gone" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The test is whether the earlier context is still attached, not whether the words are catchy."
+          }
+        },
+        {
+          "id": "mid-blanks-context",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the point about context.",
+          "parts": [
+            { "type": "text", "text": "Pulled out of the middle, an idea loses the " },
+            { "type": "blank", "id": "b1", "answer": "context" },
+            { "type": "text", "text": " that gave it its " },
+            { "type": "blank", "id": "b2", "answer": "place" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["context", "place", "volume", "costume"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Context here means the surrounding ideas. Place means where it sat in the chain."
+          }
+        },
+        {
+          "id": "mid-sentence-same",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about the words that remain.",
+          "tokens": [
+            { "id": "t1", "text": "Same" },
+            { "id": "t2", "text": "words" },
+            { "id": "t3", "text": "without" },
+            { "id": "t4", "text": "the" },
+            { "id": "t5", "text": "premises" },
+            { "id": "d1", "text": "are" },
+            { "id": "d2", "text": "proof" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The wording can survive the cut. The idea’s standing in the philosophy does not."
+          }
+        },
+        {
+          "id": "mid-choice-both",
+          "type": "choice",
+          "prompt": "A detached middle idea is missing something you need for two jobs. Which pair?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "The link you would use to validate it and the link you would use to apply it" },
+            { "id": "spelling", "text": "Only a spelling rule and a louder voice" },
+            { "id": "author", "text": "Only the author’s name and the book’s length" },
+            { "id": "neither", "text": "Nothing; detachment leaves both jobs easier" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Validation and use both need the chain. The next two lessons take those failures one at a time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cannot-validate",
+      "title": "Nothing left to check",
+      "objective": "Explain why a middle idea, taken alone, cannot be validated.",
+      "exercises": [
+        {
+          "id": "val-choice-means",
+          "type": "choice",
+          "prompt": "To validate an idea, in this unit’s sense, is to do what?",
+          "answer": "trace",
+          "choices": [
+            { "id": "trace", "text": "Trace it back through the ideas it rests on" },
+            { "id": "like", "text": "Notice that you like the sound of it" },
+            { "id": "count", "text": "Count how many people repeat it" },
+            { "id": "shout", "text": "Say it more firmly than the objection" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Validation follows the chain backward. Liking, votes, and volume are not that check."
+          }
+        },
+        {
+          "id": "val-match-tries",
+          "type": "match",
+          "prompt": "Match each attempt to why it does or does not validate.",
+          "pairs": [
+            { "id": "v1", "left": "Follow the idea back to the base", "right": "A real check" },
+            { "id": "v2", "left": "Offer the middle line with no earlier ideas", "right": "Nothing left to check it against" },
+            { "id": "v3", "left": "Call the middle line self-evident", "right": "Skip the check by renaming the idea" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the path back to the base is validation. The other two leave the idea unchecked."
+          }
+        },
+        {
+          "id": "val-blanks-against",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the reason a pulled-out idea cannot be validated.",
+          "parts": [
+            { "type": "text", "text": "With the premises gone, there is nothing " },
+            { "type": "blank", "id": "b1", "answer": "left" },
+            { "type": "text", "text": " to check the idea " },
+            { "type": "blank", "id": "b2", "answer": "against" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["left", "against", "inside", "loudly"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The check needs the earlier ideas. Pull them out and the check has no target."
+          }
+        },
+        {
+          "id": "val-sentence-alone",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about a middle idea taken alone.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "middle" },
+            { "id": "t3", "text": "idea" },
+            { "id": "t4", "text": "alone" },
+            { "id": "t5", "text": "cannot" },
+            { "id": "t6", "text": "be" },
+            { "id": "t7", "text": "validated" },
+            { "id": "d1", "text": "shouted" },
+            { "id": "d2", "text": "voted" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Alone means without the chain. That is why the validation fails, not because the topic is unpopular."
+          }
+        },
+        {
+          "id": "val-choice-consequences",
+          "type": "choice",
+          "prompt": "You accept a middle idea only because you like a result that comes after it. What did you skip?",
+          "answer": "base",
+          "choices": [
+            { "id": "base", "text": "The check back to the ideas it actually rests on" },
+            { "id": "result", "text": "Nothing; a liked result is the whole validation" },
+            { "id": "words", "text": "Only a thesaurus" },
+            { "id": "name", "text": "Only the title of the philosophy" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A later result is not the base. Validation still has to run back through the premises."
+          }
+        },
+        {
+          "id": "val-match-substitutes",
+          "type": "match",
+          "prompt": "Match each substitute to the check it fails to be.",
+          "pairs": [
+            { "id": "u1", "left": "It feels obvious", "right": "A feeling standing in for a trace" },
+            { "id": "u2", "left": "Many people say it", "right": "A tally standing in for a trace" },
+            { "id": "u3", "left": "It fits the earlier ideas", "right": "The check this unit requires" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Feeling and popularity can attach to a detached line. Neither ties it back to the base."
+          }
+        },
+        {
+          "id": "val-blanks-deny",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the point about denying the base.",
+          "parts": [
+            { "type": "text", "text": "If you deny the ideas a conclusion " },
+            { "type": "blank", "id": "b1", "answer": "needs" },
+            { "type": "text", "text": ", you cannot " },
+            { "type": "blank", "id": "b2", "answer": "validate" },
+            { "type": "text", "text": " that conclusion." }
+          ],
+          "bank": ["needs", "validate", "market", "shorten"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Denying the premises removes the only path the check can travel."
+          }
+        },
+        {
+          "id": "val-sentence-path",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about the path of a check.",
+          "tokens": [
+            { "id": "t1", "text": "Validation" },
+            { "id": "t2", "text": "follows" },
+            { "id": "t3", "text": "the" },
+            { "id": "t4", "text": "chain" },
+            { "id": "t5", "text": "backward" },
+            { "id": "d1", "text": "sideways" },
+            { "id": "d2", "text": "nowhere" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Backward means toward the earlier ideas, not toward a preferred consequence."
+          }
+        },
+        {
+          "id": "val-choice-still-true",
+          "type": "choice",
+          "prompt": "Suppose the middle idea happens to be true inside the whole philosophy. Why can the detached version still not be validated?",
+          "answer": "missing",
+          "choices": [
+            { "id": "missing", "text": "The detached version no longer includes the path that would show it" },
+            { "id": "false", "text": "A true idea becomes false the moment you repeat it" },
+            { "id": "short", "text": "Only long paragraphs can be true" },
+            { "id": "auto", "text": "Truth makes the path unnecessary, so detachment is a proof" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Validation is the showing. Without the path, you have not validated the idea, even if the line was true in context."
+          }
+        },
+        {
+          "id": "val-choice-bridge",
+          "type": "choice",
+          "prompt": "Validation fails for a pulled-out idea. What other job fails for the same reason?",
+          "answer": "use",
+          "choices": [
+            { "id": "use", "text": "Using it, because use also needs the missing context" },
+            { "id": "print", "text": "Printing it, because the words vanish" },
+            { "id": "hear", "text": "Hearing it, because sound requires the base" },
+            { "id": "none", "text": "No other job; use is easier once you skip the check" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The same missing context blocks use. That is the last lesson of this unit."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cannot-use",
+      "title": "Nothing left to apply",
+      "objective": "Explain why that same detached idea cannot guide a concrete choice.",
+      "exercises": [
+        {
+          "id": "use-choice-need",
+          "type": "choice",
+          "prompt": "What do you need before a middle idea can guide a concrete choice?",
+          "answer": "context",
+          "choices": [
+            { "id": "context", "text": "The context that says what it means and when it applies" },
+            { "id": "echo", "text": "Only an echo of the wording" },
+            { "id": "haste", "text": "Only a wish to act quickly" },
+            { "id": "vote", "text": "Only a show of hands" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Use depends on meaning and range. Both come from the idea’s place in the whole."
+          }
+        },
+        {
+          "id": "use-match-gaps",
+          "type": "match",
+          "prompt": "Match each gap to the question you can no longer answer.",
+          "pairs": [
+            { "id": "g1", "left": "The premises that defined the idea", "right": "What does this word refer to?" },
+            { "id": "g2", "left": "The place of the idea in the chain", "right": "What is it allowed to override?" },
+            { "id": "g3", "left": "The link from the idea to a kind of fact", "right": "Which concrete case does it cover?" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Those three questions are the practical content of the idea. Detachment leaves them blank."
+          }
+        },
+        {
+          "id": "use-blanks-guide",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the reason the detached idea cannot be used.",
+          "parts": [
+            { "type": "text", "text": "Without the whole, you do not know what the idea " },
+            { "type": "blank", "id": "b1", "answer": "means" },
+            { "type": "text", "text": " in a " },
+            { "type": "blank", "id": "b2", "answer": "concrete" },
+            { "type": "text", "text": " case." }
+          ],
+          "bank": ["means", "concrete", "rhymes", "abstract"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A concrete case is a particular choice. Meaning in that case comes from the surrounding philosophy."
+          }
+        },
+        {
+          "id": "use-sentence-cannot",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence about use.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "detached" },
+            { "id": "t3", "text": "middle" },
+            { "id": "t4", "text": "idea" },
+            { "id": "t5", "text": "cannot" },
+            { "id": "t6", "text": "be" },
+            { "id": "t7", "text": "used" },
+            { "id": "d1", "text": "shorter" },
+            { "id": "d2", "text": "louder" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Used means applied to a real choice. The bare sentence does not carry its own instructions."
+          }
+        },
+        {
+          "id": "use-choice-slogan",
+          "type": "choice",
+          "prompt": "You remember a true conclusion but not the view that fixed its meaning. What are you holding?",
+          "answer": "slogan",
+          "choices": [
+            { "id": "slogan", "text": "A slogan you cannot apply" },
+            { "id": "tool", "text": "A finished tool, ready for any case" },
+            { "id": "base", "text": "A new base that defines itself" },
+            { "id": "proof", "text": "A proof that needs no premises" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Memory of the words is not the context. Without that context the conclusion cannot guide a choice."
+          }
+        },
+        {
+          "id": "use-match-moves",
+          "type": "match",
+          "prompt": "Match each move to what it does when you face a choice.",
+          "pairs": [
+            { "id": "m1", "left": "Bring the earlier ideas with the conclusion", "right": "Keep a way to apply it" },
+            { "id": "m2", "left": "Apply the bare wording to every case alike", "right": "Ignore the missing context" },
+            { "id": "m3", "left": "Wait until the line feels urgent", "right": "Substitute a mood for a principle" },
+            { "id": "m4", "left": "Drop the idea because the chain is long", "right": "Refuse the whole instead of using it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the first move keeps the idea usable. The others either fake an application or abandon the philosophy."
+          }
+        },
+        {
+          "id": "use-blanks-when",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the two things context supplies.",
+          "parts": [
+            { "type": "text", "text": "Context tells you what the idea means and " },
+            { "type": "blank", "id": "b1", "answer": "when" },
+            { "type": "text", "text": " it " },
+            { "type": "blank", "id": "b2", "answer": "applies" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["when", "applies", "if", "rhymes"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Meaning without range, or range without meaning, still will not tell you what to do."
+          }
+        },
+        {
+          "id": "use-sentence-both",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the unit’s closing claim.",
+          "tokens": [
+            { "id": "t1", "text": "Pulled" },
+            { "id": "t2", "text": "from" },
+            { "id": "t3", "text": "the" },
+            { "id": "t4", "text": "middle" },
+            { "id": "t5", "text": "it" },
+            { "id": "t6", "text": "cannot" },
+            { "id": "t7", "text": "be" },
+            { "id": "t8", "text": "validated" },
+            { "id": "t9", "text": "or" },
+            { "id": "t10", "text": "used" },
+            { "id": "d1", "text": "memorized" },
+            { "id": "d2", "text": "printed" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Those are the two failures this unit teaches. Both come from taking the idea out of the whole."
+          }
+        },
+        {
+          "id": "use-choice-repair",
+          "type": "choice",
+          "prompt": "How do you put a middle idea back in a condition where it can be validated and used?",
+          "answer": "restore",
+          "choices": [
+            { "id": "restore", "text": "Restore the earlier ideas that give it its place" },
+            { "id": "repeat", "text": "Repeat the bare line until it feels solid" },
+            { "id": "narrow", "text": "Cut still more of the philosophy away" },
+            { "id": "swap", "text": "Swap in whichever premise is popular this year" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The repair is the whole, not a louder slogan and not a thinner cut. The idea works only in its chain."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

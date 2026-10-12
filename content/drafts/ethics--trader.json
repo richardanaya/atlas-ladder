@@ -1,0 +1,818 @@
+{
+  "sectionId": "ethics",
+  "sectionFile": "ethics.json",
+  "unitId": "trader",
+  "title": "The Trader Principle",
+  "summary": "Give value for value. Do not seek the unearned.",
+  "lessons": [
+    {
+      "id": "value-for-value",
+      "title": "Give value for value",
+      "objective": "State the trader principle as an exchange in which each person gives a value and receives a value.",
+      "exercises": [
+        {
+          "id": "vv1",
+          "type": "choice",
+          "prompt": "What does the trader principle tell a person to do?",
+          "answer": "trade",
+          "choices": [
+            { "id": "trade", "text": "Give value for value" },
+            { "id": "take", "text": "Take what is useful and offer nothing" },
+            { "id": "gift", "text": "Hand over values and expect nothing back" },
+            { "id": "wait", "text": "Wait until someone else supplies every need" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The principle is an exchange. Each side gives a value in return for a value."
+          }
+        },
+        {
+          "id": "vv2",
+          "type": "match",
+          "prompt": "Match each side of a trade to what it does.",
+          "pairs": [
+            { "id": "p1", "left": "The person who offers a good", "right": "Gives a value" },
+            { "id": "p2", "left": "The person who pays for it", "right": "Gives a value in return" },
+            { "id": "p3", "left": "The exchange as a whole", "right": "Value for value" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A trade has two offerings. One value is given for another value."
+          }
+        },
+        {
+          "id": "vv3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the short form of the principle.",
+          "parts": [
+            { "type": "text", "text": "Give " },
+            { "type": "blank", "id": "b1", "answer": "value" },
+            { "type": "text", "text": " for " },
+            { "type": "blank", "id": "b2", "answer": "value" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["value", "nothing", "pity", "force"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Both blanks name the same idea: what is given and what is received are values."
+          }
+        },
+        {
+          "id": "vv4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that names the exchange.",
+          "tokens": [
+            { "id": "t1", "text": "Each" },
+            { "id": "t2", "text": "person" },
+            { "id": "t3", "text": "gives" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "value" },
+            { "id": "t6", "text": "and" },
+            { "id": "t7", "text": "receives" },
+            { "id": "t8", "text": "a" },
+            { "id": "t9", "text": "value" },
+            { "id": "d1", "text": "nothing" },
+            { "id": "d2", "text": "demands" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Giving and receiving are both part of the trade. Neither side is left out."
+          }
+        },
+        {
+          "id": "vv5",
+          "type": "choice",
+          "prompt": "A mechanic fixes a car and the owner pays the agreed price. What is that, on this principle?",
+          "answer": "fair",
+          "choices": [
+            { "id": "fair", "text": "Value given for value received" },
+            { "id": "loss", "text": "A loss, because money changed hands" },
+            { "id": "gift", "text": "A gift from the owner to the mechanic" },
+            { "id": "debt", "text": "A debt the mechanic still owes the owner" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The repair is a value. The payment is a value. That is the exchange the principle names."
+          }
+        },
+        {
+          "id": "vv6",
+          "type": "choice",
+          "prompt": "In this unit, what counts as the value in a trade?",
+          "answer": "offered",
+          "choices": [
+            { "id": "offered", "text": "What one person offers the other in the exchange" },
+            { "id": "mood", "text": "A warm feeling with no offering" },
+            { "id": "title", "text": "A title someone was born with" },
+            { "id": "wish", "text": "A wish that the other person will provide" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A value here is something offered in exchange, such as goods, work, or payment."
+          }
+        },
+        {
+          "id": "vv7",
+          "type": "match",
+          "prompt": "Match each offering to the kind of value it is in a trade.",
+          "pairs": [
+            { "id": "p1", "left": "A loaf the baker sells", "right": "A good offered for payment" },
+            { "id": "p2", "left": "The money the buyer pays", "right": "Payment offered for the good" },
+            { "id": "p3", "left": "An hour of skilled work", "right": "Work offered for a return" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Goods, payment, and work can all be the values that change hands."
+          }
+        },
+        {
+          "id": "vv8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the description of a trade.",
+          "parts": [
+            { "type": "text", "text": "One person gives a value and " },
+            { "type": "blank", "id": "b1", "answer": "receives" },
+            { "type": "text", "text": " a value." }
+          ],
+          "bank": ["receives", "seizes", "owes", "hides"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The second half of the exchange is receiving a value, not seizing one."
+          }
+        },
+        {
+          "id": "vv9",
+          "type": "choice",
+          "prompt": "Which sentence states the trader principle?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "Give a value and take a value in return" },
+            { "id": "only", "text": "Give only when you will get more than you give" },
+            { "id": "none", "text": "Refuse every exchange" },
+            { "id": "one", "text": "Let one person give and the other only take" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The principle is two-sided. A value goes out and a value comes back."
+          }
+        }
+      ]
+    },
+    {
+      "id": "both-gain",
+      "title": "Both sides gain",
+      "objective": "Explain that a trade is an exchange in which each person gains a value, so neither is asked to lose for the other.",
+      "exercises": [
+        {
+          "id": "bg1",
+          "type": "choice",
+          "prompt": "After a willing trade, who has gained a value?",
+          "answer": "each",
+          "choices": [
+            { "id": "each", "text": "Each person in the exchange" },
+            { "id": "one", "text": "Only the person who paid" },
+            { "id": "seller", "text": "Only the person who sold" },
+            { "id": "none", "text": "Neither, because trade is a loss for both" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each side wanted what the other offered. Each leaves with a value."
+          }
+        },
+        {
+          "id": "bg2",
+          "type": "match",
+          "prompt": "Match each person in a sale to the gain.",
+          "pairs": [
+            { "id": "p1", "left": "The buyer", "right": "Gets the good that was wanted" },
+            { "id": "p2", "left": "The seller", "right": "Gets the payment that was wanted" },
+            { "id": "p3", "left": "A bystander who gave nothing", "right": "Is not a party to the gain" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The gain belongs to the people who exchanged values, not to someone outside the trade."
+          }
+        },
+        {
+          "id": "bg3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the claim about who gains.",
+          "parts": [
+            { "type": "text", "text": "In a trade, " },
+            { "type": "blank", "id": "b1", "answer": "each" },
+            { "type": "text", "text": " person gains a value." }
+          ],
+          "bank": ["each", "neither", "one", "no"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word each keeps both parties in the gain. A trade is not a win for only one side."
+          }
+        },
+        {
+          "id": "bg4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that rejects a one-sided loss.",
+          "tokens": [
+            { "id": "t1", "text": "Neither" },
+            { "id": "t2", "text": "person" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "asked" },
+            { "id": "t5", "text": "to" },
+            { "id": "t6", "text": "lose" },
+            { "id": "t7", "text": "so" },
+            { "id": "t8", "text": "the" },
+            { "id": "t9", "text": "other" },
+            { "id": "t10", "text": "can" },
+            { "id": "t11", "text": "gain" },
+            { "id": "d1", "text": "must" },
+            { "id": "d2", "text": "suffer" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10", "t11"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Trade is not a demand that one person be worse off so the other can be better off."
+          }
+        },
+        {
+          "id": "bg5",
+          "type": "choice",
+          "prompt": "A student pays a tutor for a lesson both agreed to. Which description fits?",
+          "answer": "swap",
+          "choices": [
+            { "id": "swap", "text": "The student gains the lesson and the tutor gains the pay" },
+            { "id": "tutor", "text": "Only the tutor gains, because knowledge was shared" },
+            { "id": "student", "text": "Only the student gains, because money was spent" },
+            { "id": "harm", "text": "Both are harmed, because an exchange occurred" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The lesson is a value to the student. The pay is a value to the tutor. Both gain."
+          }
+        },
+        {
+          "id": "bg6",
+          "type": "choice",
+          "prompt": "Why is a trade not a sacrifice of one person to the other?",
+          "answer": "return",
+          "choices": [
+            { "id": "return", "text": "Each person receives a value in return" },
+            { "id": "pain", "text": "Because one person must be hurt" },
+            { "id": "zero", "text": "Because nothing of value changes hands" },
+            { "id": "order", "text": "Because a third person orders the deal" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A sacrifice would be a loss with no value in return. A trade returns a value to each side."
+          }
+        },
+        {
+          "id": "bg7",
+          "type": "match",
+          "prompt": "Match each pattern to the result.",
+          "pairs": [
+            { "id": "p1", "left": "Value exchanged for value", "right": "Each side gains" },
+            { "id": "p2", "left": "One side gives and gets nothing", "right": "Not a trade" },
+            { "id": "p3", "left": "One side takes and gives nothing", "right": "Not a trade either" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the two-way exchange leaves a gain on both sides."
+          }
+        },
+        {
+          "id": "bg8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Name what each trader walks away with.",
+          "parts": [
+            { "type": "text", "text": "Each trader leaves with a " },
+            { "type": "blank", "id": "b1", "answer": "gain" },
+            { "type": "text", "text": ", not a required loss." }
+          ],
+          "bank": ["gain", "wound", "debt", "blank"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The point of the exchange is a gain for each person who took part."
+          }
+        },
+        {
+          "id": "bg9",
+          "type": "choice",
+          "prompt": "Two neighbors swap a spare chair for a spare lamp. Both wanted the swap. What does the principle say?",
+          "answer": "ok",
+          "choices": [
+            { "id": "ok", "text": "Each gave a value and each gained a value" },
+            { "id": "bad", "text": "It fails, because no money was used" },
+            { "id": "one", "text": "Only the person with the chair gained" },
+            { "id": "duty", "text": "One neighbor now owes a further unpaid gift" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Money is one form of value, not the only one. A willing swap of goods is still value for value."
+          }
+        }
+      ]
+    },
+    {
+      "id": "no-unearned",
+      "title": "Do not seek the unearned",
+      "objective": "Identify the unearned as a value one seeks without giving a value in return, and reject that aim.",
+      "exercises": [
+        {
+          "id": "nu1",
+          "type": "choice",
+          "prompt": "What does this unit tell you not to seek?",
+          "answer": "un",
+          "choices": [
+            { "id": "un", "text": "The unearned" },
+            { "id": "work", "text": "Payment for work you did" },
+            { "id": "swap", "text": "A good you pay for" },
+            { "id": "skill", "text": "A skill you practice to learn" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The second clause of the unit is a refusal: do not seek the unearned."
+          }
+        },
+        {
+          "id": "nu2",
+          "type": "match",
+          "prompt": "Match each aim to whether it seeks the unearned.",
+          "pairs": [
+            { "id": "p1", "left": "Pay for a coat you want", "right": "Not seeking the unearned" },
+            { "id": "p2", "left": "Demand the coat and offer nothing", "right": "Seeking the unearned" },
+            { "id": "p3", "left": "Ask for praise you did not earn", "right": "Also seeking the unearned" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unearned is a value sought with no value given back, whether the value is a good or praise."
+          }
+        },
+        {
+          "id": "nu3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rule.",
+          "parts": [
+            { "type": "text", "text": "Do not seek the " },
+            { "type": "blank", "id": "b1", "answer": "unearned" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["unearned", "purchased", "practiced", "traded"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Unearned names what was not given in exchange and was not produced by the person who wants it."
+          }
+        },
+        {
+          "id": "nu4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that defines the thing to refuse.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "unearned" },
+            { "id": "t3", "text": "is" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "value" },
+            { "id": "t6", "text": "sought" },
+            { "id": "t7", "text": "with" },
+            { "id": "t8", "text": "nothing" },
+            { "id": "t9", "text": "given" },
+            { "id": "t10", "text": "back" },
+            { "id": "d1", "text": "payment" },
+            { "id": "d2", "text": "always" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Nothing given back is what makes the aim unearned. A return of value would make it a trade."
+          }
+        },
+        {
+          "id": "nu5",
+          "type": "choice",
+          "prompt": "Someone wants a wage for a job that was never done. What is that want?",
+          "answer": "un",
+          "choices": [
+            { "id": "un", "text": "Seeking the unearned" },
+            { "id": "pay", "text": "Ordinary pay for work performed" },
+            { "id": "trade", "text": "Value given for value" },
+            { "id": "skill", "text": "Practice that builds a skill" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A wage is a value. Wanting it for work that was not done is seeking it unearned."
+          }
+        },
+        {
+          "id": "nu6",
+          "type": "choice",
+          "prompt": "Which of these is earned, not unearned?",
+          "answer": "done",
+          "choices": [
+            { "id": "done", "text": "A fee for a repair you actually made" },
+            { "id": "claim", "text": "Credit for a book you did not write" },
+            { "id": "loot", "text": "Goods taken and not paid for" },
+            { "id": "rank", "text": "Honor demanded for no achievement" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The fee matches a value that was given. The other three seek a value with nothing offered."
+          }
+        },
+        {
+          "id": "nu7",
+          "type": "match",
+          "prompt": "Match each value to how a trader treats it.",
+          "pairs": [
+            { "id": "p1", "left": "Pay for work done", "right": "Accept it as earned" },
+            { "id": "p2", "left": "Goods taken without return", "right": "Refuse to seek them" },
+            { "id": "p3", "left": "Praise for a deed not done", "right": "Refuse that too" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Earned return is kept. Unearned goods and unearned praise are both refused."
+          }
+        },
+        {
+          "id": "nu8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the contrast.",
+          "parts": [
+            { "type": "text", "text": "A trader seeks what is " },
+            { "type": "blank", "id": "b1", "answer": "earned" },
+            { "type": "text", "text": " and does not seek what is unearned." }
+          ],
+          "bank": ["earned", "stolen", "gifted", "owed"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Earned means a value tied to a value you gave. That is what the principle allows you to seek."
+          }
+        },
+        {
+          "id": "nu9",
+          "type": "choice",
+          "prompt": "A neighbor offers you a birthday gift you did not demand. You may accept it. What would still break the principle?",
+          "answer": "right",
+          "choices": [
+            { "id": "right", "text": "Treating further gifts as something you are owed" },
+            { "id": "thanks", "text": "Thanking the neighbor for the gift" },
+            { "id": "keep", "text": "Keeping a gift that was freely offered" },
+            { "id": "trade", "text": "Later buying something from that neighbor" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A free gift is not a claim. Seeking more as if it were owed is seeking the unearned."
+          }
+        },
+        {
+          "id": "nu10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the refusal in plain words.",
+          "tokens": [
+            { "id": "t1", "text": "Do" },
+            { "id": "t2", "text": "not" },
+            { "id": "t3", "text": "seek" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "value" },
+            { "id": "t6", "text": "you" },
+            { "id": "t7", "text": "did" },
+            { "id": "t8", "text": "not" },
+            { "id": "t9", "text": "earn" },
+            { "id": "d1", "text": "always" },
+            { "id": "d2", "text": "grab" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The refusal is aimed at the unearned value, not at values you have actually earned."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-taking",
+      "title": "Trade is not taking",
+      "objective": "Tell a trade apart from taking, from a one-sided demand, and from payment that does not match a value given.",
+      "exercises": [
+        {
+          "id": "nt1",
+          "type": "choice",
+          "prompt": "Which action is a trade?",
+          "answer": "buy",
+          "choices": [
+            { "id": "buy", "text": "Buying a book at the price the seller asks" },
+            { "id": "take", "text": "Walking off with the book and paying nothing" },
+            { "id": "order", "text": "Ordering the seller to hand it over" },
+            { "id": "claim", "text": "Claiming the book because you want it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Buying gives a value for the book. Taking, ordering, and mere wanting do not."
+          }
+        },
+        {
+          "id": "nt2",
+          "type": "match",
+          "prompt": "Match each action to its name in this unit.",
+          "pairs": [
+            { "id": "p1", "left": "Goods for an agreed payment", "right": "A trade" },
+            { "id": "p2", "left": "Goods taken with nothing returned", "right": "Taking" },
+            { "id": "p3", "left": "A demand that others supply you", "right": "A one-sided demand" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the first action gives value for value. The other two seek a value without a return."
+          }
+        },
+        {
+          "id": "nt3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast.",
+          "parts": [
+            { "type": "text", "text": "A trade returns a value. Taking returns " },
+            { "type": "blank", "id": "b1", "answer": "nothing" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["nothing", "double", "praise", "interest"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The difference is the return. Taking leaves the other person with nothing in exchange."
+          }
+        },
+        {
+          "id": "nt4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the sentence that separates trade from a demand.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "demand" },
+            { "id": "t3", "text": "for" },
+            { "id": "t4", "text": "something" },
+            { "id": "t5", "text": "unpaid" },
+            { "id": "t6", "text": "is" },
+            { "id": "t7", "text": "not" },
+            { "id": "t8", "text": "a" },
+            { "id": "t9", "text": "trade" },
+            { "id": "d1", "text": "always" },
+            { "id": "d2", "text": "fair" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Trade needs a value coming back. An unpaid demand does not offer one."
+          }
+        },
+        {
+          "id": "nt5",
+          "type": "choice",
+          "prompt": "A shopkeeper is told to give away stock because the customer needs it and will not pay. What is that?",
+          "answer": "side",
+          "choices": [
+            { "id": "side", "text": "A one-sided demand, not a trade" },
+            { "id": "fair", "text": "A fair trade, because need is a payment" },
+            { "id": "both", "text": "A gain for both, with nothing returned" },
+            { "id": "earn", "text": "Payment the shopkeeper has earned" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Need is not a value offered in exchange. Without a return, the demand is not a trade."
+          }
+        },
+        {
+          "id": "nt6",
+          "type": "choice",
+          "prompt": "You do half the agreed work and want the full agreed pay, with no change in the deal. What is off?",
+          "answer": "match",
+          "choices": [
+            { "id": "match", "text": "The pay does not match the value given" },
+            { "id": "full", "text": "Nothing; any pay is value for value" },
+            { "id": "work", "text": "Doing any work at all is seeking the unearned" },
+            { "id": "pay", "text": "Accepting pay is always taking" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Value for value means the return matches what was given. The unpaid half is sought unearned."
+          }
+        },
+        {
+          "id": "nt7",
+          "type": "match",
+          "prompt": "Match each case to the judgment.",
+          "pairs": [
+            { "id": "p1", "left": "Full work for the agreed fee", "right": "Value matches value" },
+            { "id": "p2", "left": "No work, but the fee is still claimed", "right": "The fee is unearned" },
+            { "id": "p3", "left": "Stock taken from a shelf", "right": "Taking, not trading" },
+            { "id": "p4", "left": "A price both people accept", "right": "The terms of a trade" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Matching values and accepted terms mark a trade. A claim without work, or goods taken, does not."
+          }
+        },
+        {
+          "id": "nt8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the test for a real trade.",
+          "parts": [
+            { "type": "text", "text": "Check that a value is " },
+            { "type": "blank", "id": "b1", "answer": "given" },
+            { "type": "text", "text": " and a value is received." }
+          ],
+          "bank": ["given", "hidden", "wished", "seized"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "If nothing is given, there is nothing to call a trade, no matter how much is received."
+          }
+        },
+        {
+          "id": "nt9",
+          "type": "choice",
+          "prompt": "Which pair is value for value?",
+          "answer": "hours",
+          "choices": [
+            { "id": "hours", "text": "Ten hours of agreed work for the pay those hours earn" },
+            { "id": "zero", "text": "No hours of work for that same pay" },
+            { "id": "shelf", "text": "A coat from a shelf and an empty hand" },
+            { "id": "title", "text": "A prize for a contest you did not enter" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The hours and the pay answer each other. The other pairs seek a value that was not given."
+          }
+        }
+      ]
+    },
+    {
+      "id": "both-clauses",
+      "title": "Both clauses together",
+      "objective": "Hold the full rule: give value for value, and do not seek the unearned, including when a case looks mixed.",
+      "exercises": [
+        {
+          "id": "bc1",
+          "type": "choice",
+          "prompt": "Which statement is the whole trader principle?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "Give value for value, and do not seek the unearned" },
+            { "id": "give", "text": "Give value for value, and also take whatever else you can" },
+            { "id": "none", "text": "Do not seek the unearned, and do not trade either" },
+            { "id": "gift", "text": "Give values away and never receive one" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The unit has two clauses. Both are required: exchange values, and refuse the unearned."
+          }
+        },
+        {
+          "id": "bc2",
+          "type": "match",
+          "prompt": "Match each clause to the job it does.",
+          "pairs": [
+            { "id": "p1", "left": "Give value for value", "right": "Names the exchange to make" },
+            { "id": "p2", "left": "Do not seek the unearned", "right": "Names the aim to refuse" },
+            { "id": "p3", "left": "The two clauses together", "right": "The full trader principle" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "One clause tells you how to deal. The other tells you what not to go after. Together they are the principle."
+          }
+        },
+        {
+          "id": "bc3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both clauses.",
+          "parts": [
+            { "type": "text", "text": "Give value for " },
+            { "type": "blank", "id": "b1", "answer": "value" },
+            { "type": "text", "text": ". Do not seek the " },
+            { "type": "blank", "id": "b2", "answer": "unearned" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["value", "unearned", "nothing", "loot"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The first blank completes the exchange. The second names what a trader does not seek."
+          }
+        },
+        {
+          "id": "bc4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the full rule in one line.",
+          "tokens": [
+            { "id": "t1", "text": "Give" },
+            { "id": "t2", "text": "value" },
+            { "id": "t3", "text": "for" },
+            { "id": "t4", "text": "value" },
+            { "id": "t5", "text": "and" },
+            { "id": "t6", "text": "do" },
+            { "id": "t7", "text": "not" },
+            { "id": "t8", "text": "seek" },
+            { "id": "t9", "text": "the" },
+            { "id": "t10", "text": "unearned" },
+            { "id": "d1", "text": "loot" },
+            { "id": "d2", "text": "instead" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Dropping either half would shrink the principle. The line keeps the exchange and the refusal."
+          }
+        },
+        {
+          "id": "bc5",
+          "type": "choice",
+          "prompt": "A writer sells a story for an agreed fee, then also demands a prize for a contest she skipped. What fits the principle?",
+          "answer": "fee",
+          "choices": [
+            { "id": "fee", "text": "Keep the fee and drop the prize demand" },
+            { "id": "both", "text": "Keep the fee and demand the prize too" },
+            { "id": "none", "text": "Return the fee, because selling is wrong" },
+            { "id": "prize", "text": "Drop the fee and demand only the prize" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The fee is value for value. The prize for a contest she skipped would be unearned."
+          }
+        },
+        {
+          "id": "bc6",
+          "type": "choice",
+          "prompt": "Which mistake drops only the second clause?",
+          "answer": "extra",
+          "choices": [
+            { "id": "extra", "text": "Trading fairly, then also grabbing an extra unpaid bonus" },
+            { "id": "no", "text": "Refusing every exchange, paid or unpaid" },
+            { "id": "gift", "text": "Giving values away and receiving none" },
+            { "id": "both", "text": "Neither trading nor seeking anything" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The fair trade satisfies the first clause. The unpaid bonus breaks the refusal of the unearned."
+          }
+        },
+        {
+          "id": "bc7",
+          "type": "match",
+          "prompt": "Match each mixed case to the clause it breaks or keeps.",
+          "pairs": [
+            { "id": "p1", "left": "Paid work at the agreed rate", "right": "Keeps give value for value" },
+            { "id": "p2", "left": "A bonus claimed for work not done", "right": "Breaks do not seek the unearned" },
+            { "id": "p3", "left": "A purchase with nothing paid", "right": "Breaks both the exchange and the refusal" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Use both clauses on a mixed case. One part can be a real trade while another part is unearned."
+          }
+        },
+        {
+          "id": "bc8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Say what a trader does with each kind of value.",
+          "parts": [
+            { "type": "text", "text": "Trade for what you " },
+            { "type": "blank", "id": "b1", "answer": "earn" },
+            { "type": "text", "text": ", and leave the unearned alone." }
+          ],
+          "bank": ["earn", "seize", "wish", "owe"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Earning is the path the principle allows. The unearned is left alone."
+          }
+        },
+        {
+          "id": "bc9",
+          "type": "choice",
+          "prompt": "A friend pays you for helping move furniture, as you both agreed. You do the work. What should you conclude?",
+          "answer": "yes",
+          "choices": [
+            { "id": "yes", "text": "The pay is earned, so taking it fits both clauses" },
+            { "id": "no", "text": "Any pay from a friend is unearned" },
+            { "id": "more", "text": "You should also bill strangers who did not hire you" },
+            { "id": "free", "text": "You must refuse the pay to stay a trader" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The help was a value and the pay is the value returned. That is the principle, not a special ban on friends."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

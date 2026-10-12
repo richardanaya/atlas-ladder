@@ -15,7 +15,6 @@ export class App {
     this.router = new Router();
     this.catalog = null;
     this.fresh = [];
-    this._sideTimer = 0;
     this._wideQuery = window.matchMedia('(min-width: 1024px)');
   }
 
@@ -34,7 +33,9 @@ export class App {
   }
 
   _bindChrome() {
-    document.querySelector('#home').addEventListener('click', () => this.router.go('/'));
+    const goHome = () => this.router.go('/');
+    document.querySelector('#home').addEventListener('click', goHome);
+    document.querySelector('#brand-home').addEventListener('click', goHome);
     document.querySelector('#mute').addEventListener('click', () => {
       const muted = this.sound.toggle();
       this._renderMute(muted);
@@ -55,13 +56,6 @@ export class App {
       if (!button) return;
       this._scrollToSection(button.dataset.section);
     });
-    document.querySelector('#side-poses').addEventListener('click', (event) => {
-      const pose = event.target.closest('[data-pose]');
-      if (!pose) return;
-      clearInterval(this._sideTimer);
-      this._setSidePose(pose.dataset.pose);
-    });
-    document.querySelector('#side-play').addEventListener('click', () => this._cycleSidePose());
   }
 
   _renderChrome() {
@@ -123,7 +117,8 @@ export class App {
     const items = lessons.map((lesson) => {
       const key = lessonKey(section.id, unit.id, lesson.id);
       const state = completed[key] ? 'done' : key === current ? 'now' : 'wait';
-      return `<li data-state="${state}">${escapeHtml(lesson.title)}</li>`;
+      const tag = state === 'now' ? 'Learning' : state === 'done' ? 'Done' : 'Locked';
+      return `<li data-state="${state}"><span class="climb-tag">${tag}</span>${escapeHtml(lesson.title)}</li>`;
     }).join('');
     box.innerHTML = `
       <p class="dossier-kicker">${escapeHtml(section?.title || '')}</p>
@@ -142,27 +137,6 @@ export class App {
     });
   }
 
-  _setSidePose(state) {
-    const mascot = document.querySelector('#side-atlas');
-    const label = document.querySelector('#side-pose');
-    mascot?.setAttribute('state', state);
-    if (label) label.textContent = state.charAt(0).toUpperCase() + state.slice(1);
-    document.querySelectorAll('#side-poses [data-pose]').forEach((button) => {
-      button.classList.toggle('is-on', button.dataset.pose === state);
-    });
-  }
-
-  _cycleSidePose() {
-    const poses = ['idle', 'thinking', 'encourage', 'cheer', 'celebrate'];
-    clearInterval(this._sideTimer);
-    let index = 0;
-    this._setSidePose(poses[0]);
-    this._sideTimer = setInterval(() => {
-      index = (index + 1) % poses.length;
-      this._setSidePose(poses[index]);
-    }, 1500);
-  }
-
   _renderMute(muted) {
     const button = document.querySelector('#mute');
     button.setAttribute('aria-pressed', muted ? 'true' : 'false');
@@ -174,7 +148,6 @@ export class App {
     document.body.classList.toggle('is-lesson', mode === 'lesson' || mode === 'sources');
     document.body.classList.toggle('is-celebrate', mode === 'celebrate');
     document.body.classList.toggle('is-tower', mode === 'tower');
-    if (mode !== 'tower') clearInterval(this._sideTimer);
     this._placeChrome();
   }
 

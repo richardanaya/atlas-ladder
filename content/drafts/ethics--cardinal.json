@@ -1,0 +1,789 @@
+{
+  "sectionId": "ethics",
+  "sectionFile": "ethics.json",
+  "unitId": "cardinal",
+  "title": "The Three Cardinal Values",
+  "summary": "Reason, purpose, and self-esteem.",
+  "lessons": [
+    {
+      "id": "name-the-three",
+      "title": "Name the three",
+      "objective": "Name reason, purpose, and self-esteem as the three cardinal values, and say what cardinal means.",
+      "exercises": [
+        {
+          "id": "n1",
+          "type": "choice",
+          "prompt": "Which set is the three cardinal values in this ethics?",
+          "answer": "rps",
+          "choices": [
+            { "id": "rps", "text": "Reason, purpose, and self-esteem" },
+            { "id": "fhc", "text": "Faith, hope, and charity" },
+            { "id": "wpd", "text": "Wealth, power, and duty" },
+            { "id": "fhs", "text": "Feeling, habit, and sacrifice" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The cardinal values are reason, purpose, and self-esteem. The other lists name substitutes or unrelated aims."
+          }
+        },
+        {
+          "id": "n2",
+          "type": "choice",
+          "prompt": "In this unit, what does cardinal mean?",
+          "answer": "primary",
+          "choices": [
+            { "id": "primary", "text": "A primary value the rest of the code depends on" },
+            { "id": "church", "text": "A rule issued by a church office" },
+            { "id": "minor", "text": "A minor taste one may drop without cost" },
+            { "id": "number", "text": "A count of how many friends one has" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Cardinal marks the values that come first. Lesser preferences hang from them; they do not replace them."
+          }
+        },
+        {
+          "id": "n3",
+          "type": "match",
+          "prompt": "Match each cardinal value to the job it does.",
+          "pairs": [
+            { "id": "p1", "left": "Reason", "right": "The means of knowing what is true" },
+            { "id": "p2", "left": "Purpose", "right": "The chosen goal that ranks other values" },
+            { "id": "p3", "left": "Self-esteem", "right": "The conviction that one is able and worthy" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each value has a distinct job. Knowing, choosing a central goal, and trusting one's own mind are not the same task."
+          }
+        },
+        {
+          "id": "n4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill in the three cardinal values.",
+          "parts": [
+            { "type": "text", "text": "The three cardinal values are " },
+            { "type": "blank", "id": "b1", "answer": "reason" },
+            { "type": "text", "text": ", " },
+            { "type": "blank", "id": "b2", "answer": "purpose" },
+            { "type": "text", "text": ", and " },
+            { "type": "blank", "id": "b3", "answer": "self-esteem" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["reason", "purpose", "self-esteem", "faith", "sacrifice"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep the set to reason, purpose, and self-esteem. Faith and sacrifice are not members of it."
+          }
+        },
+        {
+          "id": "n5",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the standard order of the three cardinal values.",
+          "tokens": [
+            { "id": "t1", "text": "Reason" },
+            { "id": "t2", "text": "purpose" },
+            { "id": "t3", "text": "self-esteem" },
+            { "id": "d1", "text": "whim" },
+            { "id": "d2", "text": "sacrifice" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The usual order is reason, then purpose, then self-esteem. Whim and sacrifice do not belong in the list."
+          }
+        },
+        {
+          "id": "n6",
+          "type": "choice",
+          "prompt": "Which item is not one of the three cardinal values?",
+          "answer": "drift",
+          "choices": [
+            { "id": "drift", "text": "Drifting with the mood of the moment" },
+            { "id": "reason", "text": "Reason" },
+            { "id": "purpose", "text": "Purpose" },
+            { "id": "esteem", "text": "Self-esteem" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Drifting is the absence of a chosen purpose, not a cardinal value beside the other three."
+          }
+        },
+        {
+          "id": "n7",
+          "type": "match",
+          "prompt": "Match each substitute to the cardinal value it tries to replace.",
+          "pairs": [
+            { "id": "p1", "left": "Faith instead of evidence", "right": "Reason" },
+            { "id": "p2", "left": "Waiting to be assigned a life", "right": "Purpose" },
+            { "id": "p3", "left": "A verdict borrowed from a crowd", "right": "Self-esteem" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Each substitute drops the value it mimics. Evidence, a chosen goal, and one's own judgment are what the substitutes leave out."
+          }
+        },
+        {
+          "id": "n8",
+          "type": "choice",
+          "prompt": "Why does this ethics name three cardinal values instead of a pile of likes?",
+          "answer": "root",
+          "choices": [
+            { "id": "root", "text": "A human life needs these three at the root" },
+            { "id": "fashion", "text": "Three is a fashionable number of hobbies" },
+            { "id": "law", "text": "A statute requires every person to list three tastes" },
+            { "id": "luck", "text": "The count was chosen by chance" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The three are cardinal because life as a thinking being depends on them, not because a list happened to be short."
+          }
+        },
+        {
+          "id": "n9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Say what a cardinal value is, and what it is not.",
+          "tokens": [
+            { "id": "t1", "text": "A cardinal value" },
+            { "id": "t2", "text": "is a primary value" },
+            { "id": "t3", "text": "not a passing preference" },
+            { "id": "d1", "text": "is a church title" },
+            { "id": "d2", "text": "is optional decoration" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Cardinal means primary. A passing preference can change without rewriting the code; these three cannot."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reason-first",
+      "title": "Reason as a value",
+      "objective": "Explain reason as the cardinal value that makes knowledge and chosen action possible.",
+      "exercises": [
+        {
+          "id": "r1",
+          "type": "choice",
+          "prompt": "What is reason, as this unit uses the word?",
+          "answer": "faculty",
+          "choices": [
+            { "id": "faculty", "text": "The faculty that identifies what is real" },
+            { "id": "mood", "text": "A mood that decides without evidence" },
+            { "id": "vote", "text": "Whatever most people currently feel" },
+            { "id": "voice", "text": "A voice that reveals facts without looking" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason identifies reality. A mood, a vote, or a claimed revelation is not a substitute for that work."
+          }
+        },
+        {
+          "id": "r2",
+          "type": "choice",
+          "prompt": "Why is reason a value, and not only a description of a faculty?",
+          "answer": "life",
+          "choices": [
+            { "id": "life", "text": "A person's life depends on knowing the facts" },
+            { "id": "style", "text": "Clear speech is a pleasant style" },
+            { "id": "school", "text": "Schools award points for long essays" },
+            { "id": "habit", "text": "Thinking is a habit one may skip with no loss" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason is a value because survival and chosen action require knowledge. Skipping it is not a harmless style choice."
+          }
+        },
+        {
+          "id": "r3",
+          "type": "match",
+          "prompt": "Match each act to using reason or refusing it.",
+          "pairs": [
+            { "id": "p1", "left": "Checking a claim against the facts", "right": "Using reason" },
+            { "id": "p2", "left": "Acting on a wish that contradicts the facts", "right": "Refusing reason" },
+            { "id": "p3", "left": "Revising a conclusion when the evidence changes", "right": "Using reason" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Using reason means staying with the facts, including when a conclusion has to change. A wish against the facts is a refusal."
+          }
+        },
+        {
+          "id": "r4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line about reason.",
+          "parts": [
+            { "type": "text", "text": "Reason is the " },
+            { "type": "blank", "id": "b1", "answer": "faculty" },
+            { "type": "text", "text": " by which a person " },
+            { "type": "blank", "id": "b2", "answer": "identifies" },
+            { "type": "text", "text": " reality." }
+          ],
+          "bank": ["faculty", "identifies", "mood", "invents"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason is a faculty of identification. It does not invent reality, and a mood does not do its job."
+          }
+        },
+        {
+          "id": "r5",
+          "type": "choice",
+          "prompt": "Which claim treats feelings as a replacement for reason?",
+          "answer": "feel",
+          "choices": [
+            { "id": "feel", "text": "If I feel it strongly, the facts must give way" },
+            { "id": "check", "text": "A strong feeling is a clue I still have to check" },
+            { "id": "name", "text": "I can name what I observe before I judge it" },
+            { "id": "revise", "text": "I change my mind when the evidence requires it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A feeling can be noticed. It does not outrank the facts. Treating it as a standard is a rejection of reason."
+          }
+        },
+        {
+          "id": "r6",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "State what rejecting reason amounts to.",
+          "tokens": [
+            { "id": "t1", "text": "To reject reason" },
+            { "id": "t2", "text": "is to act" },
+            { "id": "t3", "text": "without regard to the facts" },
+            { "id": "d1", "text": "is to see more clearly" },
+            { "id": "d2", "text": "makes reality obey" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Rejecting reason does not sharpen sight or bend reality. It means acting as if the facts did not bind the choice."
+          }
+        },
+        {
+          "id": "r7",
+          "type": "choice",
+          "prompt": "Does reason create reality?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. It identifies what exists." },
+            { "id": "yes", "text": "Yes. Thinking makes the facts whatever one prefers." },
+            { "id": "vote", "text": "Only when a group agrees to create them." },
+            { "id": "faith", "text": "Only when faith is added to the thought." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason is a means of knowing, not a power that decrees. The facts stay what they are whether or not one thinks well."
+          }
+        },
+        {
+          "id": "r8",
+          "type": "match",
+          "prompt": "Match each term to its meaning in this lesson.",
+          "pairs": [
+            { "id": "p1", "left": "Reason", "right": "The faculty that identifies facts" },
+            { "id": "p2", "left": "Fact", "right": "What reason has to respect" },
+            { "id": "p3", "left": "Whim", "right": "A feeling treated as a standard" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason answers to facts. A whim promotes a feeling into a standard and thereby drops that answer."
+          }
+        },
+        {
+          "id": "r9",
+          "type": "choice",
+          "prompt": "Why does this unit put reason first among the three cardinal values?",
+          "answer": "base",
+          "choices": [
+            { "id": "base", "text": "Purpose and self-esteem depend on thinking" },
+            { "id": "alpha", "text": "The word comes first in the alphabet" },
+            { "id": "easier", "text": "Thinking is easier than choosing a goal" },
+            { "id": "public", "text": "Other people can see thoughts more easily than goals" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason comes first because a purpose has to fit the facts, and self-esteem has to be about a mind that actually thinks."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chosen-purpose",
+      "title": "Purpose",
+      "objective": "Explain purpose as a chosen central goal that ranks a person's other values.",
+      "exercises": [
+        {
+          "id": "p1",
+          "type": "choice",
+          "prompt": "What is purpose, as a cardinal value?",
+          "answer": "goal",
+          "choices": [
+            { "id": "goal", "text": "A chosen long-range goal that organizes one's life" },
+            { "id": "mood", "text": "Whatever one feels like doing this hour" },
+            { "id": "order", "text": "A task assigned by someone else with no choice" },
+            { "id": "fate", "text": "A fate one discovers and must not question" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A purpose is chosen and long-range. A mood, an imposed order, or an unquestioned fate is not that value."
+          }
+        },
+        {
+          "id": "p2",
+          "type": "choice",
+          "prompt": "What does this ethics treat as the central purpose of a rational person's life?",
+          "answer": "work",
+          "choices": [
+            { "id": "work", "text": "Productive work" },
+            { "id": "rest", "text": "Avoiding every effort" },
+            { "id": "fame", "text": "Being noticed, whatever the work" },
+            { "id": "escape", "text": "Escaping the need to choose" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Productive work is the central purpose. It is the goal that can integrate the rest of a life, not a substitute for one."
+          }
+        },
+        {
+          "id": "p3",
+          "type": "match",
+          "prompt": "Match each idea to the right label.",
+          "pairs": [
+            { "id": "p1", "left": "A chosen long-range goal", "right": "Purpose" },
+            { "id": "p2", "left": "The central purpose of a rational life", "right": "Productive work" },
+            { "id": "p3", "left": "A feeling that picks a new aim every hour", "right": "Not a purpose" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Purpose is the chosen goal. Productive work is the central case of it. A rotating mood never settles into a purpose."
+          }
+        },
+        {
+          "id": "p4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line about productive work.",
+          "parts": [
+            { "type": "text", "text": "Productive work is the central " },
+            { "type": "blank", "id": "b1", "answer": "purpose" },
+            { "type": "text", "text": " of a rational person's " },
+            { "type": "blank", "id": "b2", "answer": "life" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["purpose", "life", "hobby", "excuse"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Productive work is central purpose, not a side hobby and not an excuse for having no goal."
+          }
+        },
+        {
+          "id": "p5",
+          "type": "choice",
+          "prompt": "What does a purpose do to a person's other values?",
+          "answer": "rank",
+          "choices": [
+            { "id": "rank", "text": "It ranks them so they form an order" },
+            { "id": "erase", "text": "It erases every value except one hobby" },
+            { "id": "freeze", "text": "It freezes them so none can ever be reconsidered" },
+            { "id": "hide", "text": "It hides them so no choice is required" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A purpose ranks other values. It does not wipe them out, freeze them forever, or remove the need to choose."
+          }
+        },
+        {
+          "id": "p6",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "State what is missing when there is no purpose.",
+          "tokens": [
+            { "id": "t1", "text": "Without a purpose" },
+            { "id": "t2", "text": "values have" },
+            { "id": "t3", "text": "no order" },
+            { "id": "d1", "text": "every wish is final" },
+            { "id": "d2", "text": "thinking is unnecessary" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Values still exist as possibilities, but without a central goal they do not form a hierarchy one can act on."
+          }
+        },
+        {
+          "id": "p7",
+          "type": "choice",
+          "prompt": "Who chooses a person's purpose?",
+          "answer": "self",
+          "choices": [
+            { "id": "self", "text": "The person, by a judgment of his own life" },
+            { "id": "crowd", "text": "A crowd, by applause" },
+            { "id": "fate", "text": "A fate that thinking cannot touch" },
+            { "id": "none", "text": "Nobody, because purposes are not chosen" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A purpose is a choice. Applause and fate can pressure a person, but they do not do the choosing for him."
+          }
+        },
+        {
+          "id": "p8",
+          "type": "match",
+          "prompt": "Match each case to whether it is a purpose.",
+          "pairs": [
+            { "id": "p1", "left": "Building a career one chose and can explain", "right": "Has a purpose" },
+            { "id": "p2", "left": "Waiting to be told what is worth doing", "right": "Has no purpose" },
+            { "id": "p3", "left": "Letting today's mood pick every goal", "right": "Has no purpose" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A purpose is a goal one chose and can stand behind. Waiting and drifting leave that choice unmade."
+          }
+        },
+        {
+          "id": "p9",
+          "type": "choice",
+          "prompt": "What is wrong with a purpose chosen against the facts?",
+          "answer": "empty",
+          "choices": [
+            { "id": "empty", "text": "It is not a rational purpose, because a goal has to fit reality" },
+            { "id": "better", "text": "It is better, because facts only limit small people" },
+            { "id": "same", "text": "Nothing, because any intense wish counts as purpose" },
+            { "id": "holy", "text": "It becomes noble precisely by ignoring reality" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Purpose depends on reason. A goal that contradicts the facts is a wish, not a rational purpose."
+          }
+        }
+      ]
+    },
+    {
+      "id": "earned-esteem",
+      "title": "Self-esteem",
+      "objective": "Explain self-esteem as the earned conviction that one is competent to think and worthy of living.",
+      "exercises": [
+        {
+          "id": "s1",
+          "type": "choice",
+          "prompt": "Which pair states the two parts of self-esteem in this unit?",
+          "answer": "both",
+          "choices": [
+            { "id": "both", "text": "Competent to think, and worthy of living" },
+            { "id": "fame", "text": "Famous to others, and feared by rivals" },
+            { "id": "mood", "text": "Cheerful today, and liked in a group" },
+            { "id": "rank", "text": "Born to a rank, and excused from effort" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Self-esteem is about one's mind and one's right to one's own life. Fame, mood, and rank are different claims."
+          }
+        },
+        {
+          "id": "s2",
+          "type": "choice",
+          "prompt": "Where does self-esteem come from?",
+          "answer": "earned",
+          "choices": [
+            { "id": "earned", "text": "It is earned by one's own thinking and action" },
+            { "id": "gift", "text": "It is a gift other people can hand over" },
+            { "id": "birth", "text": "It is assigned at birth and cannot change" },
+            { "id": "luck", "text": "It arrives by luck and needs no cause" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Self-esteem is earned. No audience, birth rank, or streak of luck can deposit it in a mind that has not earned it."
+          }
+        },
+        {
+          "id": "s3",
+          "type": "match",
+          "prompt": "Match each statement to what it expresses.",
+          "pairs": [
+            { "id": "p1", "left": "I can think and judge", "right": "Competence" },
+            { "id": "p2", "left": "My life is worth living", "right": "Worthiness" },
+            { "id": "p3", "left": "They applaud me, so I am good", "right": "Not self-esteem" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Competence and worthiness are the two parts of self-esteem. Applause is someone else's noise, not that conviction."
+          }
+        },
+        {
+          "id": "s4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the definition of self-esteem.",
+          "parts": [
+            { "type": "text", "text": "Self-esteem is the conviction that one is " },
+            { "type": "blank", "id": "b1", "answer": "competent" },
+            { "type": "text", "text": " to think and " },
+            { "type": "blank", "id": "b2", "answer": "worthy" },
+            { "type": "text", "text": " of living." }
+          ],
+          "bank": ["competent", "worthy", "famous", "excused"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two words are competent and worthy. Fame and excuses do not fill either blank."
+          }
+        },
+        {
+          "id": "s5",
+          "type": "choice",
+          "prompt": "Which habit undercuts self-esteem?",
+          "answer": "fake",
+          "choices": [
+            { "id": "fake", "text": "Faking what one knows and living by others' verdicts" },
+            { "id": "judge", "text": "Judging by the facts one can see" },
+            { "id": "work", "text": "Doing work one chose and can stand behind" },
+            { "id": "correct", "text": "Correcting a mistake when one finds it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Faking and outsourcing one's verdict tell the mind it is not competent. Judging, working, and correcting do the opposite."
+          }
+        },
+        {
+          "id": "s6",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Say how self-esteem is gained.",
+          "tokens": [
+            { "id": "t1", "text": "Self-esteem" },
+            { "id": "t2", "text": "is earned" },
+            { "id": "t3", "text": "not borrowed from an audience" },
+            { "id": "d1", "text": "is a costume" },
+            { "id": "d2", "text": "is voted into a person" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An audience can clap or boo. Neither act deposits self-esteem. The conviction has to be earned."
+          }
+        },
+        {
+          "id": "s7",
+          "type": "choice",
+          "prompt": "Can self-esteem stand if a person refuses to think?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. The conviction would not be about a mind that works." },
+            { "id": "yes", "text": "Yes. Refusing to think makes the conviction purer." },
+            { "id": "if", "text": "Yes, if enough people still offer praise." },
+            { "id": "mood", "text": "Yes, whenever the mood feels confident." }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Self-esteem is confidence in one's competence to think. Drop the thinking and the confidence has nothing real to rest on."
+          }
+        },
+        {
+          "id": "s8",
+          "type": "match",
+          "prompt": "Match each practice to its effect on self-esteem.",
+          "pairs": [
+            { "id": "p1", "left": "Judging by the facts", "right": "Builds it" },
+            { "id": "p2", "left": "Pretending to know what one does not", "right": "Undercuts it" },
+            { "id": "p3", "left": "Seeking approval instead of the truth", "right": "Undercuts it" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Judging by facts practices the competence self-esteem names. Pretense and approval-seeking practice the opposite."
+          }
+        },
+        {
+          "id": "s9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Tie self-esteem back to the first cardinal value.",
+          "tokens": [
+            { "id": "t1", "text": "Self-esteem" },
+            { "id": "t2", "text": "requires reason" },
+            { "id": "t3", "text": "because the conviction is about one's mind" },
+            { "id": "d1", "text": "replaces reason" },
+            { "id": "d2", "text": "needs no facts" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Self-esteem does not replace reason and does not float free of facts. It is a verdict about a mind that uses reason."
+          }
+        }
+      ]
+    },
+    {
+      "id": "one-set",
+      "title": "One set",
+      "objective": "Hold reason, purpose, and self-esteem as one set, and see how each depends on the other two.",
+      "exercises": [
+        {
+          "id": "o1",
+          "type": "choice",
+          "prompt": "Which dependence among the three is the right one?",
+          "answer": "chain",
+          "choices": [
+            { "id": "chain", "text": "Reason makes a rational purpose possible, and achieving it supports self-esteem" },
+            { "id": "reverse", "text": "Self-esteem invents the facts, and purpose cancels the need to think" },
+            { "id": "apart", "text": "Each value works alone and none needs the others" },
+            { "id": "crowd", "text": "The crowd supplies all three if one stays popular" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Reason is the base. A purpose uses it. Self-esteem is the conviction that follows from thinking and from achieving what one chose."
+          }
+        },
+        {
+          "id": "o2",
+          "type": "match",
+          "prompt": "Match each cardinal value to its place in the set.",
+          "pairs": [
+            { "id": "p1", "left": "Reason", "right": "The base the other two rest on" },
+            { "id": "p2", "left": "Purpose", "right": "The direction for action" },
+            { "id": "p3", "left": "Self-esteem", "right": "The result of thinking and achieving" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Base, direction, and result are three jobs inside one set. None of the three is a spare part."
+          }
+        },
+        {
+          "id": "o3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the line about the set.",
+          "parts": [
+            { "type": "text", "text": "Reason, " },
+            { "type": "blank", "id": "b1", "answer": "purpose" },
+            { "type": "text", "text": ", and self-esteem stand or fall " },
+            { "type": "blank", "id": "b2", "answer": "together" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["purpose", "together", "whim", "apart"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The missing value is purpose, and the three stand or fall together. They do not survive as separate whims."
+          }
+        },
+        {
+          "id": "o4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "State what happens if one cardinal value is dropped.",
+          "tokens": [
+            { "id": "t1", "text": "Drop one cardinal value" },
+            { "id": "t2", "text": "and the other two" },
+            { "id": "t3", "text": "lose their ground" },
+            { "id": "d1", "text": "grow stronger" },
+            { "id": "d2", "text": "need no mind" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Removing one does not strengthen the rest. Purpose without reason, or self-esteem without either, has nothing firm under it."
+          }
+        },
+        {
+          "id": "o5",
+          "type": "choice",
+          "prompt": "What is wrong with claiming self-esteem while refusing reason?",
+          "answer": "unearned",
+          "choices": [
+            { "id": "unearned", "text": "The conviction would be unearned" },
+            { "id": "finer", "text": "Nothing, because confidence is finer without facts" },
+            { "id": "required", "text": "Refusal of reason is required for real confidence" },
+            { "id": "private", "text": "Nothing, if the refusal stays private" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Self-esteem names competence to think. A refusal to think leaves the claim with no earned base."
+          }
+        },
+        {
+          "id": "o6",
+          "type": "choice",
+          "prompt": "A goal chosen against the facts is which of these?",
+          "answer": "not",
+          "choices": [
+            { "id": "not", "text": "Not a rational purpose" },
+            { "id": "best", "text": "The best kind of purpose" },
+            { "id": "esteem", "text": "Proof of self-esteem by itself" },
+            { "id": "reason", "text": "A higher form of reason" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A rational purpose has to fit reality. Defying the facts is not a higher purpose, a proof of esteem, or a better use of reason."
+          }
+        },
+        {
+          "id": "o7",
+          "type": "match",
+          "prompt": "Match each life to the set it shows.",
+          "pairs": [
+            { "id": "p1", "left": "Thinks, chooses his work, and trusts his mind", "right": "The full set" },
+            { "id": "p2", "left": "Follows feelings, drifts, and seeks praise", "right": "The broken set" },
+            { "id": "p3", "left": "Knows facts, keeps no goal, and calls that humility", "right": "Missing purpose and self-esteem" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The full set uses all three. Drift replaces them. Facts without a goal and without esteem leave two of the three out."
+          }
+        },
+        {
+          "id": "o8",
+          "type": "choice",
+          "prompt": "Which of these is not a cardinal value in this unit?",
+          "answer": "sacrifice",
+          "choices": [
+            { "id": "sacrifice", "text": "Sacrifice of one's life to other people's needs" },
+            { "id": "reason", "text": "Reason" },
+            { "id": "purpose", "text": "Purpose" },
+            { "id": "esteem", "text": "Self-esteem" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Sacrifice of one's life to others is not one of the three. The cardinal values are reason, purpose, and self-esteem."
+          }
+        },
+        {
+          "id": "o9",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Name the three cardinal values in order.",
+          "tokens": [
+            { "id": "t1", "text": "The three cardinal values" },
+            { "id": "t2", "text": "are reason, purpose," },
+            { "id": "t3", "text": "and self-esteem" },
+            { "id": "d1", "text": "are faith and sacrifice" },
+            { "id": "d2", "text": "are whatever one feels" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The set stays reason, purpose, and self-esteem. Faith, sacrifice, and raw feeling are not stand-ins for that set."
+          }
+        },
+        {
+          "id": "o10",
+          "type": "choice",
+          "prompt": "A person uses reason, holds a productive purpose, and has earned self-esteem. What does this unit call that?",
+          "answer": "set",
+          "choices": [
+            { "id": "set", "text": "The three cardinal values, held together" },
+            { "id": "extra", "text": "Three optional hobbies" },
+            { "id": "vice", "text": "A moral failure" },
+            { "id": "luck", "text": "A lucky mood with no cause" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Held together, the three are the cardinal values of this ethics. They are not hobbies, vices, or a causeless mood."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

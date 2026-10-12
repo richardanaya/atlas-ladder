@@ -1,0 +1,796 @@
+{
+  "sectionId": "aesthetics",
+  "sectionFile": "aesthetics.json",
+  "unitId": "need",
+  "title": "Why a Conceptual Mind Needs Art",
+  "summary": "Art as a need of a conceptual consciousness, not as a luxury added after thought is finished.",
+  "lessons": [
+    {
+      "id": "conceptual-mind",
+      "title": "The mind that has the need",
+      "objective": "Identify the consciousness that needs art as one that lives by concepts, not by the immediate moment alone.",
+      "exercises": [
+        {
+          "id": "cm-who",
+          "type": "choice",
+          "prompt": "On this claim, what kind of consciousness needs art?",
+          "answer": "conceptual",
+          "choices": [
+            { "id": "conceptual", "text": "A consciousness that lives by concepts" },
+            { "id": "only-now", "text": "A mind that never leaves the immediate moment" },
+            { "id": "wealth", "text": "Only a mind that already has spare wealth" },
+            { "id": "mood", "text": "Only a mind that happens to feel artistic" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The need is tied to a conceptual consciousness. It is not reserved for a mood or a surplus of money."
+          }
+        },
+        {
+          "id": "cm-concept",
+          "type": "choice",
+          "prompt": "What is a concept, in the sense this unit uses?",
+          "answer": "wide",
+          "choices": [
+            { "id": "wide", "text": "A unit that holds many concretes under one abstraction" },
+            { "id": "photo", "text": "A photograph of one moment" },
+            { "id": "hobby", "text": "A spare-time hobby" },
+            { "id": "paint", "text": "The paint on a canvas" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A concept reaches past one immediate percept. That reach is why this kind of mind has a special need."
+          }
+        },
+        {
+          "id": "cm-not-percept",
+          "type": "choice",
+          "prompt": "Why is a mind of the immediate moment alone not the subject of this need?",
+          "answer": "no-concepts",
+          "choices": [
+            { "id": "no-concepts", "text": "It does not have to live by wide abstractions" },
+            { "id": "too-poor", "text": "It cannot afford museums" },
+            { "id": "no-eyes", "text": "It has no senses at all" },
+            { "id": "hates", "text": "It dislikes every story" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The need follows from living by concepts. A consciousness that stayed only in the moment would not have that problem to solve."
+          }
+        },
+        {
+          "id": "cm-match-kinds",
+          "type": "match",
+          "prompt": "Match each kind of awareness to what this unit says about art.",
+          "pairs": [
+            { "id": "p1", "left": "Conceptual consciousness", "right": "The kind that needs art" },
+            { "id": "p2", "left": "Awareness stuck in one moment", "right": "Not the mind this need is about" },
+            { "id": "p3", "left": "A concept", "right": "An abstraction covering many concretes" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Art is a need because the mind works in concepts. The claim is about that kind of consciousness."
+          }
+        },
+        {
+          "id": "cm-match-scale",
+          "type": "match",
+          "prompt": "Match each item to its scale.",
+          "pairs": [
+            { "id": "s1", "left": "One percept right now", "right": "Immediate and narrow" },
+            { "id": "s2", "left": "A concept", "right": "Wide enough to cover many cases" },
+            { "id": "s3", "left": "A conceptual life", "right": "A life that must use those wide units" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Concepts are wider than the moment. A life run by concepts is the life for which art is a need."
+          }
+        },
+        {
+          "id": "cm-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the claim about who needs art.",
+          "parts": [
+            { "type": "text", "text": "Art is a need of a " },
+            { "type": "blank", "id": "b1", "answer": "conceptual" },
+            { "type": "text", "text": " consciousness." }
+          ],
+          "bank": ["conceptual", "momentary", "wealthy", "idle"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The word that names the mind is conceptual. Wealth and idle time are not the basis of the need."
+          }
+        },
+        {
+          "id": "cm-blank-hold",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast.",
+          "parts": [
+            { "type": "text", "text": "A concept holds many concretes under one " },
+            { "type": "blank", "id": "b1", "answer": "abstraction" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["abstraction", "hobby", "luxury", "museum"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "What makes the unit wide is that it is an abstraction, not a pastime."
+          }
+        },
+        {
+          "id": "cm-sent",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the claim about who has the need.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "conceptual" },
+            { "id": "t3", "text": "consciousness" },
+            { "id": "t4", "text": "needs" },
+            { "id": "t5", "text": "art" },
+            { "id": "d1", "text": "wealth" },
+            { "id": "d2", "text": "afterward" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The subject of the need is a conceptual consciousness. Wealth and afterward are not part of that sentence."
+          }
+        },
+        {
+          "id": "cm-sent-not",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the contrast with a mind of the moment.",
+          "tokens": [
+            { "id": "t1", "text": "The" },
+            { "id": "t2", "text": "immediate" },
+            { "id": "t3", "text": "moment" },
+            { "id": "t4", "text": "is" },
+            { "id": "t5", "text": "not" },
+            { "id": "t6", "text": "enough" },
+            { "id": "d1", "text": "luxury" },
+            { "id": "d2", "text": "museum" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A conceptual mind cannot live on the immediate moment alone. That is the setting of the need."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-a-luxury",
+      "title": "Not a spare pleasure",
+      "objective": "Reject the claim that art is a luxury a person can skip once practical needs are met.",
+      "exercises": [
+        {
+          "id": "nl-what",
+          "type": "choice",
+          "prompt": "What does this unit deny about art?",
+          "answer": "luxury",
+          "choices": [
+            { "id": "luxury", "text": "That art is a luxury you can skip" },
+            { "id": "exists", "text": "That paintings exist" },
+            { "id": "senses", "text": "That people have senses" },
+            { "id": "choice", "text": "That anyone can choose a subject" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The denial is about status. Art is not classed as a luxury on top of a finished practical life."
+          }
+        },
+        {
+          "id": "nl-luxury-means",
+          "type": "choice",
+          "prompt": "In this contrast, what is a luxury?",
+          "answer": "extra",
+          "choices": [
+            { "id": "extra", "text": "An optional extra after real needs are met" },
+            { "id": "need", "text": "A requirement of a conceptual mind" },
+            { "id": "axiom", "text": "A starting fact of existence" },
+            { "id": "sense", "text": "A sense organ" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Calling something a luxury means treating it as optional once necessities are covered. That is the label this unit refuses for art."
+          }
+        },
+        {
+          "id": "nl-comfort",
+          "type": "choice",
+          "prompt": "Someone has food, shelter, and free evenings, and says art is therefore unnecessary. What is wrong with that step?",
+          "answer": "wrong-need",
+          "choices": [
+            { "id": "wrong-need", "text": "Practical comfort does not cancel a need of the conceptual mind" },
+            { "id": "no-food", "text": "Food is not actually useful" },
+            { "id": "evenings", "text": "Free evenings are immoral" },
+            { "id": "must-poor", "text": "Only poor people need art" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Meeting practical needs does not retire the need that comes from living by concepts."
+          }
+        },
+        {
+          "id": "nl-match",
+          "type": "match",
+          "prompt": "Match each label to the status this unit gives it.",
+          "pairs": [
+            { "id": "m1", "left": "Art", "right": "A need of a conceptual consciousness" },
+            { "id": "m2", "left": "A luxury", "right": "Something optional after necessities" },
+            { "id": "m3", "left": "Practical comfort", "right": "Does not replace the need for art" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Art stays a need. Comfort and luxury are different ideas and do not erase it."
+          }
+        },
+        {
+          "id": "nl-match-say",
+          "type": "match",
+          "prompt": "Match each remark to the verdict.",
+          "pairs": [
+            { "id": "r1", "left": "Art is only for people with money left over", "right": "Treats art as a luxury" },
+            { "id": "r2", "left": "A conceptual mind needs art", "right": "States the claim" },
+            { "id": "r3", "left": "Once you can eat, you are done with art", "right": "Confuses comfort with the need" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Spare money and a full table are not the test. The test is the kind of consciousness."
+          }
+        },
+        {
+          "id": "nl-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the denial.",
+          "parts": [
+            { "type": "text", "text": "Art is not a " },
+            { "type": "blank", "id": "b1", "answer": "luxury" },
+            { "type": "text", "text": " added once life is comfortable." }
+          ],
+          "bank": ["luxury", "need", "concept", "sense"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The rejected word is luxury. Comfort does not turn the need into an extra."
+          }
+        },
+        {
+          "id": "nl-blank-still",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the sentence.",
+          "parts": [
+            { "type": "text", "text": "Food and shelter do not retire the " },
+            { "type": "blank", "id": "b1", "answer": "need" },
+            { "type": "text", "text": " for art." }
+          ],
+          "bank": ["need", "luxury", "price", "mood"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Practical goods meet other needs. They leave this one in place."
+          }
+        },
+        {
+          "id": "nl-sent",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the denial.",
+          "tokens": [
+            { "id": "t1", "text": "Art" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "luxury" },
+            { "id": "d1", "text": "meal" },
+            { "id": "d2", "text": "optional" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The direct denial is that art is not a luxury. Optional is the same mistake in another word."
+          }
+        },
+        {
+          "id": "nl-sent-skip",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build what you cannot honestly say.",
+          "tokens": [
+            { "id": "t1", "text": "A" },
+            { "id": "t2", "text": "conceptual" },
+            { "id": "t3", "text": "mind" },
+            { "id": "t4", "text": "cannot" },
+            { "id": "t5", "text": "skip" },
+            { "id": "t6", "text": "art" },
+            { "id": "d1", "text": "dessert" },
+            { "id": "d2", "text": "tickets" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Skipping art is the luxury picture. This unit says a conceptual mind cannot treat art that way."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-afterward",
+      "title": "Not attached later",
+      "objective": "Reject the picture that thought is finished first and art is attached afterward as decoration.",
+      "exercises": [
+        {
+          "id": "na-when",
+          "type": "choice",
+          "prompt": "Which timing does this unit reject?",
+          "answer": "after",
+          "choices": [
+            { "id": "after", "text": "Thought is finished, and then art is added" },
+            { "id": "with", "text": "The need belongs to a mind that thinks in concepts" },
+            { "id": "during", "text": "The need is part of conceptual life" },
+            { "id": "because", "text": "The need comes from the kind of consciousness" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The error puts art after thought is finished. The claim keeps the need inside conceptual life."
+          }
+        },
+        {
+          "id": "na-decoration",
+          "type": "choice",
+          "prompt": "What is wrong with calling art a decoration on a completed thought?",
+          "answer": "addon",
+          "choices": [
+            { "id": "addon", "text": "It treats art as an add-on after the mind’s work is done" },
+            { "id": "color", "text": "Decorations cannot have color" },
+            { "id": "books", "text": "Thought never uses words" },
+            { "id": "late", "text": "Art can only be made at night" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Decoration-afterward means the thinking is already finished. That is the timing this unit refuses."
+          }
+        },
+        {
+          "id": "na-spare-hour",
+          "type": "choice",
+          "prompt": "A student finishes a chain of reasoning and only then allows art, as a reward. Which idea is that?",
+          "answer": "afterward",
+          "choices": [
+            { "id": "afterward", "text": "Art as something added after thought is finished" },
+            { "id": "need", "text": "Art as a need of conceptual consciousness" },
+            { "id": "concept", "text": "A concept covering many concretes" },
+            { "id": "mind", "text": "The fact that humans think" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Using art as a reward after thinking treats it as later and optional. The need is not a prize for finishing thought."
+          }
+        },
+        {
+          "id": "na-match",
+          "type": "match",
+          "prompt": "Match each picture of art to the verdict.",
+          "pairs": [
+            { "id": "a1", "left": "Added after thought is finished", "right": "The timing this unit rejects" },
+            { "id": "a2", "left": "A need while a conceptual mind lives", "right": "The timing this unit accepts" },
+            { "id": "a3", "left": "A decoration on a completed idea", "right": "The add-on picture" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Finished-then-decorate is the rejected order. The need is not a later ornament."
+          }
+        },
+        {
+          "id": "na-match-words",
+          "type": "match",
+          "prompt": "Match each phrase to its role in this lesson.",
+          "pairs": [
+            { "id": "w1", "left": "After thought is finished", "right": "The rejected sequence" },
+            { "id": "w2", "left": "Not a postscript", "right": "Art is not tacked on at the end" },
+            { "id": "w3", "left": "Part of conceptual life", "right": "Where the need belongs" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A postscript comes after the real text. This unit says art is not that kind of ending."
+          }
+        },
+        {
+          "id": "na-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the rejected picture.",
+          "parts": [
+            { "type": "text", "text": "Art is not added after thought is " },
+            { "type": "blank", "id": "b1", "answer": "finished" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["finished", "conceptual", "needed", "true"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Finished names the bad timing. The need is not waiting for thought to close."
+          }
+        },
+        {
+          "id": "na-blank-not",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the correction.",
+          "parts": [
+            { "type": "text", "text": "The need is not a later " },
+            { "type": "blank", "id": "b1", "answer": "decoration" },
+            { "type": "text", "text": " on a completed thought." }
+          ],
+          "bank": ["decoration", "concept", "mind", "axiom"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Decoration is the add-on image. The need is not an ornament placed on thinking that is already done."
+          }
+        },
+        {
+          "id": "na-sent",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the rejected sequence.",
+          "tokens": [
+            { "id": "t1", "text": "Thought" },
+            { "id": "t2", "text": "first" },
+            { "id": "t3", "text": "art" },
+            { "id": "t4", "text": "afterward" },
+            { "id": "d1", "text": "need" },
+            { "id": "d2", "text": "together" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Thought first, art afterward, is the order to refuse. Together would tell a different story."
+          }
+        },
+        {
+          "id": "na-sent-fix",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the correction.",
+          "tokens": [
+            { "id": "t1", "text": "Art" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "not" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "later" },
+            { "id": "t6", "text": "add-on" },
+            { "id": "d1", "text": "reward" },
+            { "id": "d2", "text": "prize" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An add-on arrives after the main job. Art is not that kind of later piece."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-the-need",
+      "title": "Why the need arises",
+      "objective": "Explain that a conceptual mind needs its wide abstractions in a form it can experience, which is why art is a need.",
+      "exercises": [
+        {
+          "id": "wn-problem",
+          "type": "choice",
+          "prompt": "What problem of a conceptual mind does this unit put under the need for art?",
+          "answer": "wide",
+          "choices": [
+            { "id": "wide", "text": "Its important abstractions are too wide to live as one immediate percept" },
+            { "id": "hungry", "text": "It sometimes gets hungry" },
+            { "id": "bored", "text": "It needs a hobby after work" },
+            { "id": "famous", "text": "It wants to become famous" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Concepts stretch past the moment. The need is a way to hold those wide abstractions in a form the mind can experience."
+          }
+        },
+        {
+          "id": "wn-form",
+          "type": "choice",
+          "prompt": "What does art supply, on this account of the need?",
+          "answer": "concrete",
+          "choices": [
+            { "id": "concrete", "text": "A concrete form in which wide abstractions can be experienced" },
+            { "id": "spare", "text": "A spare pleasure after thinking stops" },
+            { "id": "cash", "text": "A substitute for food and shelter" },
+            { "id": "proof", "text": "A proof that existence exists" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The need is for wide abstractions brought into concrete, experienceable form. It is not a cash substitute or a proof of an axiom."
+          }
+        },
+        {
+          "id": "wn-not-hobby",
+          "type": "choice",
+          "prompt": "Why is boredom a poor account of this need?",
+          "answer": "kind",
+          "choices": [
+            { "id": "kind", "text": "The need comes from living by concepts, not from having empty hours" },
+            { "id": "never", "text": "Conceptual minds never feel bored" },
+            { "id": "hours", "text": "Empty hours are impossible" },
+            { "id": "only-books", "text": "Only books can be art" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Empty time is not the cause. The cause is the kind of mind that must use wide abstractions."
+          }
+        },
+        {
+          "id": "wn-match",
+          "type": "match",
+          "prompt": "Match each piece of the explanation.",
+          "pairs": [
+            { "id": "e1", "left": "Wide abstractions", "right": "What a conceptual mind has to live with" },
+            { "id": "e2", "left": "One immediate percept", "right": "Too narrow to hold those abstractions by itself" },
+            { "id": "e3", "left": "Art", "right": "A concrete form in which they can be experienced" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The mind’s abstractions outrun a single percept. Art is how they are met in concrete form."
+          }
+        },
+        {
+          "id": "wn-match-cause",
+          "type": "match",
+          "prompt": "Match each proposed cause to the verdict.",
+          "pairs": [
+            { "id": "c1", "left": "Living by concepts", "right": "The real source of the need" },
+            { "id": "c2", "left": "Spare time after work", "right": "Not the source" },
+            { "id": "c3", "left": "Wanting a decoration", "right": "Too late and too slight" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The source is conceptual life. Spare time and decoration miss why the need arises."
+          }
+        },
+        {
+          "id": "wn-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the explanation.",
+          "parts": [
+            { "type": "text", "text": "Art lets a conceptual mind experience wide abstractions in " },
+            { "type": "blank", "id": "b1", "answer": "concrete" },
+            { "type": "text", "text": " form." }
+          ],
+          "bank": ["concrete", "optional", "later", "costly"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Concrete names the form. Optional, later, and costly belong to the luxury picture, not to this explanation."
+          }
+        },
+        {
+          "id": "wn-blank-why",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the reason.",
+          "parts": [
+            { "type": "text", "text": "The need arises because concepts are " },
+            { "type": "blank", "id": "b1", "answer": "abstractions" },
+            { "type": "text", "text": " a mind must still be able to experience." }
+          ],
+          "bank": ["abstractions", "luxuries", "rewards", "tickets"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "They are abstractions, and an abstraction still has to be available to experience. That is the pressure behind the need."
+          }
+        },
+        {
+          "id": "wn-sent",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the explanation.",
+          "tokens": [
+            { "id": "t1", "text": "Wide" },
+            { "id": "t2", "text": "abstractions" },
+            { "id": "t3", "text": "need" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "concrete" },
+            { "id": "t6", "text": "form" },
+            { "id": "d1", "text": "hobby" },
+            { "id": "d2", "text": "price" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The sentence is about form, not about a hobby or a price."
+          }
+        },
+        {
+          "id": "wn-sent-art",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build what art does for that mind.",
+          "tokens": [
+            { "id": "t1", "text": "Art" },
+            { "id": "t2", "text": "gives" },
+            { "id": "t3", "text": "abstractions" },
+            { "id": "t4", "text": "a" },
+            { "id": "t5", "text": "form" },
+            { "id": "t6", "text": "to" },
+            { "id": "t7", "text": "experience" },
+            { "id": "d1", "text": "skip" },
+            { "id": "d2", "text": "after" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Art is how those abstractions become something the mind can experience. Skip and after belong to the views this unit rejects."
+          }
+        }
+      ]
+    },
+    {
+      "id": "one-claim",
+      "title": "The claim in one line",
+      "objective": "Hold the full claim: art is a need of a conceptual consciousness, not a luxury added after thought is finished.",
+      "exercises": [
+        {
+          "id": "oc-full",
+          "type": "choice",
+          "prompt": "Which sentence is the full claim of this unit?",
+          "answer": "full",
+          "choices": [
+            { "id": "full", "text": "Art is a need of a conceptual consciousness, not a luxury added after thought is finished" },
+            { "id": "lux", "text": "Art is a luxury added after thought is finished" },
+            { "id": "mood", "text": "Art is a mood with no connection to the mind" },
+            { "id": "meal", "text": "Art replaces food and shelter" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep both halves: it is a need of a conceptual consciousness, and it is not a luxury added afterward."
+          }
+        },
+        {
+          "id": "oc-half",
+          "type": "choice",
+          "prompt": "Someone says only that art is not a luxury, and stops. What is missing?",
+          "answer": "who",
+          "choices": [
+            { "id": "who", "text": "Whose need it is: a conceptual consciousness" },
+            { "id": "price", "text": "The price of admission" },
+            { "id": "date", "text": "The year the work was made" },
+            { "id": "frame", "text": "The style of the frame" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Denying luxury is only half. The claim also names the mind that has the need."
+          }
+        },
+        {
+          "id": "oc-case",
+          "type": "choice",
+          "prompt": "A reader says: philosophy first, and art only if there is time left. Which half of the claim does that miss?",
+          "answer": "after",
+          "choices": [
+            { "id": "after", "text": "Art is not something added after thought is finished" },
+            { "id": "food", "text": "People do not need food" },
+            { "id": "time", "text": "Clocks do not measure hours" },
+            { "id": "read", "text": "Reading is impossible" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Time left over is the afterward picture. The claim says the need is not scheduled after thought is done."
+          }
+        },
+        {
+          "id": "oc-match",
+          "type": "match",
+          "prompt": "Match each half of the claim to its job.",
+          "pairs": [
+            { "id": "h1", "left": "A need of a conceptual consciousness", "right": "Names who has the need and that it is a need" },
+            { "id": "h2", "left": "Not a luxury", "right": "Rejects the optional-extra label" },
+            { "id": "h3", "left": "Not added after thought is finished", "right": "Rejects the later-decoration timing" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The three pieces do different work. Dropping any one of them shortens the claim."
+          }
+        },
+        {
+          "id": "oc-match-case",
+          "type": "match",
+          "prompt": "Match each case to the response.",
+          "pairs": [
+            { "id": "k1", "left": "Art is only for spare cash", "right": "Call it the luxury error" },
+            { "id": "k2", "left": "Finish thinking, then decorate", "right": "Call it the afterward error" },
+            { "id": "k3", "left": "A mind of concepts needs art", "right": "Call it the claim" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Spare cash and decorate-later are the two refusals. The positive claim is the conceptual mind’s need."
+          }
+        },
+        {
+          "id": "oc-blank",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the full claim.",
+          "parts": [
+            { "type": "text", "text": "Art is a need of a conceptual consciousness, not a " },
+            { "type": "blank", "id": "b1", "answer": "luxury" },
+            { "type": "text", "text": " added after thought is finished." }
+          ],
+          "bank": ["luxury", "concept", "need", "mind"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Luxury is the word the full sentence refuses. The other bank words belong on the positive side of the claim."
+          }
+        },
+        {
+          "id": "oc-blank-two",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both sides.",
+          "parts": [
+            { "type": "text", "text": "The need belongs to a " },
+            { "type": "blank", "id": "b1", "answer": "conceptual" },
+            { "type": "text", "text": " mind, and it is not added after thought is " },
+            { "type": "blank", "id": "b2", "answer": "finished" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["conceptual", "finished", "idle", "costly"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Conceptual names the mind. Finished names the timing that does not apply."
+          }
+        },
+        {
+          "id": "oc-sent",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the full claim’s opening.",
+          "tokens": [
+            { "id": "t1", "text": "Art" },
+            { "id": "t2", "text": "is" },
+            { "id": "t3", "text": "a" },
+            { "id": "t4", "text": "need" },
+            { "id": "t5", "text": "of" },
+            { "id": "t6", "text": "conceptual" },
+            { "id": "t7", "text": "consciousness" },
+            { "id": "d1", "text": "luxury" },
+            { "id": "d2", "text": "afterward" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The opening states the positive half. Luxury and afterward are the halves this sentence is not using."
+          }
+        },
+        {
+          "id": "oc-sent-not",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the refusal that completes the claim.",
+          "tokens": [
+            { "id": "t1", "text": "Not" },
+            { "id": "t2", "text": "a" },
+            { "id": "t3", "text": "luxury" },
+            { "id": "t4", "text": "after" },
+            { "id": "t5", "text": "thought" },
+            { "id": "t6", "text": "is" },
+            { "id": "t7", "text": "finished" },
+            { "id": "d1", "text": "during" },
+            { "id": "d2", "text": "meal" }
+          ],
+          "answer": ["t1", "t2", "t3", "t4", "t5", "t6", "t7"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The refusal is not a luxury after thought is finished. That closing belongs with the positive half."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}

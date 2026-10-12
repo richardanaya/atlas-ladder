@@ -1,0 +1,268 @@
+{
+  "sectionFile": "epistemology.json",
+  "key": "senses/direct-contact",
+  "exercises": [
+    {
+      "id": "e1e1",
+      "type": "choice",
+      "prompt": "Rand says man’s only direct cognitive contact with reality is:",
+      "answer": "s",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Man's senses are his only direct cognitive contact with reality and, therefore, his only source of information.",
+        "note": "The second half of that sentence calls the senses his only source of information. Later integration still starts from that contact.",
+        "citation": "Ayn Rand, \"Kant Versus Sullivan,\" Philosophy: Who Needs It, 90"
+      },
+      "choices": [
+        {
+          "id": "s",
+          "text": "His senses"
+        },
+        {
+          "id": "t",
+          "text": "Tradition"
+        },
+        {
+          "id": "l",
+          "text": "Logic with no observation"
+        },
+        {
+          "id": "r",
+          "text": "Revelation"
+        }
+      ]
+    },
+    {
+      "id": "e1e2",
+      "type": "choice",
+      "prompt": "If the senses are man’s only direct cognitive contact with reality, what follows about information?",
+      "answer": "only",
+      "choices": [
+        {
+          "id": "only",
+          "text": "They are also his only source of information"
+        },
+        {
+          "id": "opt",
+          "text": "They become optional once concepts exist"
+        },
+        {
+          "id": "emo",
+          "text": "Emotions can supply facts the senses missed"
+        },
+        {
+          "id": "rev",
+          "text": "Revelation is a second direct contact"
+        }
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "Man's senses are his only direct cognitive contact with reality and, therefore, his only source of information.",
+        "note": "The therefore ties the two claims together: no other direct contact means no other source of information.",
+        "citation": "Ayn Rand, \"Kant Versus Sullivan,\" Philosophy: Who Needs It, 90"
+      }
+    },
+    {
+      "id": "e1e3",
+      "type": "choice",
+      "prompt": "Without sensory evidence, she says, there can be no:",
+      "answer": "c",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Without sensory evidence, there can be no concepts; without concepts, there can be no language; without language, there can be no knowledge and no science.",
+        "note": "The chain runs evidence, concepts, language, knowledge. It does not say the senses hand you finished science.",
+        "citation": "Ayn Rand, \"Kant Versus Sullivan,\" Philosophy: Who Needs It, 90"
+      },
+      "choices": [
+        {
+          "id": "c",
+          "text": "Concepts"
+        },
+        {
+          "id": "s",
+          "text": "Suns"
+        },
+        {
+          "id": "r",
+          "text": "Rocks"
+        },
+        {
+          "id": "e",
+          "text": "Entities"
+        }
+      ]
+    },
+    {
+      "id": "e1e4",
+      "type": "fill",
+      "mode": "blanks",
+      "prompt": "Complete the sentence.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Man's senses are his only direct cognitive contact with "
+        },
+        {
+          "type": "blank",
+          "id": "b1",
+          "answer": "reality"
+        }
+      ],
+      "bank": [
+        "reality",
+        "society",
+        "scripture",
+        "chance"
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "Man's senses are his only direct cognitive contact with reality and, therefore, his only source of information.",
+        "note": "The missing word is reality, not a social or sacred substitute.",
+        "citation": "Ayn Rand, \"Kant Versus Sullivan,\" Philosophy: Who Needs It, 90"
+      }
+    },
+    {
+      "id": "e1e5",
+      "type": "choice",
+      "prompt": "She defines reason as the faculty that does what with sensory material?",
+      "answer": "id",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Reason is the faculty that identifies and integrates the material provided by man's senses.",
+        "note": "Reason is not a rival of the senses. It is what you do with what they provide.",
+        "citation": "Ayn Rand, \"The Objectivist Ethics,\" The Virtue of Selfishness, 20"
+      },
+      "choices": [
+        {
+          "id": "id",
+          "text": "Identifies and integrates it"
+        },
+        {
+          "id": "ig",
+          "text": "Ignores it in favor of innate ideas"
+        },
+        {
+          "id": "re",
+          "text": "Replaces it with revelation"
+        },
+        {
+          "id": "vo",
+          "text": "Votes on it"
+        }
+      ]
+    },
+    {
+      "id": "e1e6",
+      "type": "match",
+      "prompt": "Match each item to the job these texts give it.",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Emotions are not tools of cognition.",
+        "note": "The senses, reason, and logic lines are quoted on this floor and the metaphysics floors. The emotion line is from the 1964 interview.",
+        "citation": "Ayn Rand, interview with Alvin Toffler, Playboy, March 1964"
+      },
+      "pairs": [
+        {
+          "id": "se",
+          "left": "Senses",
+          "right": "Provide the material of knowledge"
+        },
+        {
+          "id": "re",
+          "left": "Reason",
+          "right": "Identify and integrate that material"
+        },
+        {
+          "id": "lo",
+          "left": "Logic",
+          "right": "Non-contradictory identification"
+        },
+        {
+          "id": "em",
+          "left": "Emotions",
+          "right": "Not tools of cognition"
+        }
+      ]
+    },
+    {
+      "id": "e1e7",
+      "type": "choice",
+      "prompt": "What does what you feel tell you about the facts?",
+      "answer": "est",
+      "choices": [
+        {
+          "id": "est",
+          "text": "Nothing about the facts; only something about your estimate of them"
+        },
+        {
+          "id": "fac",
+          "text": "The facts themselves, with no estimate involved"
+        },
+        {
+          "id": "sen",
+          "text": "A direct sensory contact that reason need not integrate"
+        },
+        {
+          "id": "rep",
+          "text": "A substitute for both the senses and reason"
+        }
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "What you feel tells you nothing about the facts; it merely tells you something about your estimate of the facts.",
+        "note": "A feeling tracks your estimate. It does not inspect reality in place of the senses or of reason.",
+        "citation": "Ayn Rand, interview with Alvin Toffler, Playboy, March 1964"
+      }
+    },
+    {
+      "id": "e1e8",
+      "type": "fill",
+      "mode": "sentence",
+      "prompt": "Build the interview sentence.",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Emotions"
+        },
+        {
+          "id": "t2",
+          "text": "are"
+        },
+        {
+          "id": "t3",
+          "text": "not"
+        },
+        {
+          "id": "t4",
+          "text": "tools"
+        },
+        {
+          "id": "t5",
+          "text": "of"
+        },
+        {
+          "id": "t6",
+          "text": "cognition"
+        },
+        {
+          "id": "d1",
+          "text": "guides"
+        }
+      ],
+      "answer": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "What you feel tells you nothing about the facts; it merely tells you something about your estimate of the facts.",
+        "note": "The sentence you built is the shorter line from the same answer. Feelings register your estimate. They do not inspect the facts for you.",
+        "citation": "Ayn Rand, interview with Alvin Toffler, Playboy, March 1964"
+      }
+    }
+  ]
+}

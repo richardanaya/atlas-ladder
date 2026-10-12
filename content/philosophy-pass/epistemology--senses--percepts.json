@@ -1,0 +1,267 @@
+{
+  "sectionFile": "epistemology.json",
+  "key": "senses/percepts",
+  "exercises": [
+    {
+      "id": "e2e1",
+      "type": "choice",
+      "prompt": "In Introduction to Objectivist Epistemology, a percept is:",
+      "answer": "p",
+      "feedback": {
+        "kind": "quote",
+        "quote": "A percept is a group of sensations automatically retained and integrated by the brain of a living organism.",
+        "note": "A closely related sentence in The Virtue of Selfishness uses the word perception. This exact sentence, which begins with the words A percept is, is the ITOE wording.",
+        "citation": "Ayn Rand, \"Cognition and Measurement,\" Introduction to Objectivist Epistemology, 5"
+      },
+      "choices": [
+        {
+          "id": "p",
+          "text": "A group of sensations automatically retained and integrated by the brain"
+        },
+        {
+          "id": "w",
+          "text": "A word chosen by convention"
+        },
+        {
+          "id": "i",
+          "text": "An innate idea"
+        },
+        {
+          "id": "g",
+          "text": "A guess about an unknowable object"
+        }
+      ]
+    },
+    {
+      "id": "e2e2",
+      "type": "choice",
+      "prompt": "When you see a table, what are you aware of, on this account?",
+      "answer": "ent",
+      "choices": [
+        {
+          "id": "ent",
+          "text": "The table as an entity, grasped as a percept—not sensations stored one by one"
+        },
+        {
+          "id": "bits",
+          "text": "Free-floating color patches filed separately, with no entity yet"
+        },
+        {
+          "id": "word",
+          "text": "Only the word “table,” which creates the object"
+        },
+        {
+          "id": "inn",
+          "text": "An innate blueprint you had before any awareness"
+        }
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "It is in the form of percepts that man grasps the evidence of his senses and apprehends reality.",
+        "note": "You are aware of entities. Sensations are integrated into the percept; they are not a stock of isolated items you store and then assemble.",
+        "citation": "Ayn Rand, \"Cognition and Measurement,\" Introduction to Objectivist Epistemology, 5"
+      }
+    },
+    {
+      "id": "e2e3",
+      "type": "choice",
+      "prompt": "Epistemologically, she says the base of man’s knowledge is:",
+      "answer": "per",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Although, chronologically, man's consciousness develops in three stages: the stage of sensations, the perceptual, the conceptual—epistemologically, the base of all of man's knowledge is the perceptual stage.",
+        "note": "Chronological order and epistemological base are not the same claim. The base, she says, is the perceptual stage.",
+        "citation": "Ayn Rand, \"Cognition and Measurement,\" Introduction to Objectivist Epistemology, 5"
+      },
+      "choices": [
+        {
+          "id": "per",
+          "text": "The perceptual stage"
+        },
+        {
+          "id": "sen",
+          "text": "Isolated sensations retained as such"
+        },
+        {
+          "id": "inn",
+          "text": "Innate propositions"
+        },
+        {
+          "id": "txt",
+          "text": "Texts"
+        }
+      ]
+    },
+    {
+      "id": "e2e4",
+      "type": "choice",
+      "prompt": "What does she say are the given, the self-evident?",
+      "answer": "per",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Percepts, not sensations, are the given, the self-evident.",
+        "note": "She also says sensations as such are not retained in memory, and that man is not able to experience a pure isolated sensation.",
+        "citation": "Ayn Rand, \"Cognition and Measurement,\" Introduction to Objectivist Epistemology, 5"
+      },
+      "choices": [
+        {
+          "id": "per",
+          "text": "Percepts, not sensations"
+        },
+        {
+          "id": "sen",
+          "text": "Sensations, not percepts"
+        },
+        {
+          "id": "con",
+          "text": "Concepts, with no percepts under them"
+        },
+        {
+          "id": "wor",
+          "text": "Words, before any awareness"
+        }
+      ]
+    },
+    {
+      "id": "e2e5",
+      "type": "fill",
+      "mode": "blanks",
+      "prompt": "Complete the sentence.",
+      "parts": [
+        {
+          "type": "text",
+          "text": "Percepts, not sensations, are the "
+        },
+        {
+          "type": "blank",
+          "id": "b1",
+          "answer": "given"
+        },
+        {
+          "type": "text",
+          "text": ", the self-evident."
+        }
+      ],
+      "bank": [
+        "given",
+        "optional",
+        "invented",
+        "hidden"
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "Percepts, not sensations, are the given, the self-evident.",
+        "note": "“Given” here means the base you are aware of, not a gift from a second world.",
+        "citation": "Ayn Rand, \"Cognition and Measurement,\" Introduction to Objectivist Epistemology, 5"
+      }
+    },
+    {
+      "id": "e2e6",
+      "type": "match",
+      "prompt": "Match the item to the point made in “Cognition and Measurement.”",
+      "feedback": {
+        "kind": "quote",
+        "quote": "It is in the form of percepts that man grasps the evidence of his senses and apprehends reality.",
+        "note": "The concept line in the match is our label for the contrast she draws: the conceptual level comes after, and on that level the process is volitional. The percept sentence is the quotation.",
+        "citation": "Ayn Rand, \"Cognition and Measurement,\" Introduction to Objectivist Epistemology, 5"
+      },
+      "pairs": [
+        {
+          "id": "sen",
+          "left": "Sensation",
+          "right": "Not retained in man’s memory as such"
+        },
+        {
+          "id": "per",
+          "left": "Percept",
+          "right": "The form in which man grasps sensory evidence"
+        },
+        {
+          "id": "con",
+          "left": "Concept",
+          "right": "A later, volitional level of awareness"
+        }
+      ]
+    },
+    {
+      "id": "e2e7",
+      "type": "fill",
+      "mode": "sentence",
+      "prompt": "Build the sentence.",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "Percepts"
+        },
+        {
+          "id": "t2",
+          "text": "not"
+        },
+        {
+          "id": "t3",
+          "text": "sensations"
+        },
+        {
+          "id": "t4",
+          "text": "are"
+        },
+        {
+          "id": "t5",
+          "text": "the"
+        },
+        {
+          "id": "t6",
+          "text": "given"
+        },
+        {
+          "id": "d1",
+          "text": "optional"
+        }
+      ],
+      "answer": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5",
+        "t6"
+      ],
+      "feedback": {
+        "kind": "quote",
+        "quote": "Percepts, not sensations, are the given, the self-evident.",
+        "note": "The bank omits the comma and the second clause. The order of the six words is the claim.",
+        "citation": "Ayn Rand, \"Cognition and Measurement,\" Introduction to Objectivist Epistemology, 5"
+      }
+    },
+    {
+      "id": "e2e8",
+      "type": "choice",
+      "prompt": "She says man is not able to experience which of these?",
+      "answer": "iso",
+      "feedback": {
+        "kind": "quote",
+        "quote": "Sensations, as such, are not retained in man's memory, nor is man able to experience a pure isolated sensation.",
+        "note": "Discriminated awareness, she says, begins on the level of percepts. The knowledge that sensations are components of percepts is a later scientific discovery, not the form in which you are aware.",
+        "citation": "Ayn Rand, \"Cognition and Measurement,\" Introduction to Objectivist Epistemology, 5"
+      },
+      "choices": [
+        {
+          "id": "iso",
+          "text": "A pure isolated sensation"
+        },
+        {
+          "id": "ent",
+          "text": "An entity"
+        },
+        {
+          "id": "per",
+          "text": "A percept"
+        },
+        {
+          "id": "day",
+          "text": "The daylight"
+        }
+      ]
+    }
+  ]
+}

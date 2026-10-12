@@ -1,0 +1,741 @@
+{
+  "sectionId": "aesthetics",
+  "sectionFile": "aesthetics.json",
+  "unitId": "theme",
+  "title": "Theme",
+  "summary": "A work's abstract meaning, carried by the concretes the artist chose.",
+  "lessons": [
+    {
+      "id": "what-theme-is",
+      "title": "What a theme is",
+      "objective": "Name a theme as the work's abstract meaning, and reject substitutes that are not a meaning at all.",
+      "exercises": [
+        {
+          "id": "th1e1",
+          "type": "choice",
+          "prompt": "What is a theme?",
+          "answer": "mean",
+          "choices": [
+            { "id": "mean", "text": "The work's abstract meaning" },
+            { "id": "plot", "text": "The list of events in order" },
+            { "id": "skill", "text": "How skilled the artist is" },
+            { "id": "price", "text": "What the work sold for" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A theme is the work's abstract meaning, not a record of events, a rating of skill, or a market fact."
+          }
+        },
+        {
+          "id": "th1e2",
+          "type": "match",
+          "prompt": "Match each phrase to what it names in a work.",
+          "pairs": [
+            { "id": "p1", "left": "Theme", "right": "Abstract meaning" },
+            { "id": "p2", "left": "Concretes", "right": "The particulars the artist chose" },
+            { "id": "p3", "left": "Carrier", "right": "How that meaning is presented" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The theme is the meaning. The concretes are what the artist put in. They are what carry the meaning."
+          }
+        },
+        {
+          "id": "th1e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the name of a theme.",
+          "parts": [
+            { "type": "text", "text": "A theme is the work's " },
+            { "type": "blank", "id": "b1", "answer": "abstract" },
+            { "type": "text", "text": " meaning." }
+          ],
+          "bank": ["abstract", "private", "accidental", "market"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Abstract means the meaning is a general idea, not one isolated fact sitting beside the work."
+          }
+        },
+        {
+          "id": "th1e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the unit's claim in order.",
+          "tokens": [
+            { "id": "t1", "text": "A theme is" },
+            { "id": "t2", "text": "abstract meaning" },
+            { "id": "t3", "text": "carried by concretes" },
+            { "id": "d1", "text": "a sales figure" }
+          ],
+          "answer": ["t1", "t2", "t3"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep both parts: the theme is abstract meaning, and that meaning is carried by the concretes."
+          }
+        },
+        {
+          "id": "th1e5",
+          "type": "choice",
+          "prompt": "Which of these could be a theme?",
+          "answer": "idea",
+          "choices": [
+            { "id": "idea", "text": "A person can remake a life by choice" },
+            { "id": "cast", "text": "The story has three named people" },
+            { "id": "page", "text": "The book is two hundred pages" },
+            { "id": "ink", "text": "The cover is blue" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A theme is a meaning you can state in general terms. A head count, a length, or a color is not a meaning."
+          }
+        },
+        {
+          "id": "th1e6",
+          "type": "match",
+          "prompt": "Match each candidate to theme or not a theme.",
+          "pairs": [
+            { "id": "p1", "left": "Justice can fail when people look away", "right": "Theme" },
+            { "id": "p2", "left": "Chapter four is the longest", "right": "Not a theme" },
+            { "id": "p3", "left": "The painting uses oil", "right": "Not a theme" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the first item states an abstract meaning. Length and medium are facts about the object, not its theme."
+          }
+        },
+        {
+          "id": "th1e7",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill the two words that name what a theme is.",
+          "parts": [
+            { "type": "text", "text": "Theme names " },
+            { "type": "blank", "id": "b1", "answer": "abstract" },
+            { "type": "text", "text": " " },
+            { "type": "blank", "id": "b2", "answer": "meaning" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["abstract", "meaning", "length", "price"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Those two words are the core. Everything else in the unit says how that meaning gets into the work."
+          }
+        },
+        {
+          "id": "th1e8",
+          "type": "choice",
+          "prompt": "A theme belongs to which of these?",
+          "answer": "work",
+          "choices": [
+            { "id": "work", "text": "The work, as its abstract meaning" },
+            { "id": "fan", "text": "Only the loudest fan's mood" },
+            { "id": "shelf", "text": "The shelf the book sits on" },
+            { "id": "ticket", "text": "The price of a ticket" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The theme is the work's meaning. A viewer's mood or a price tag is not a substitute for it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "not-a-plot",
+      "title": "Not a plot summary",
+      "objective": "Tell a theme apart from a retelling of the events, characters, or surface details.",
+      "exercises": [
+        {
+          "id": "th2e1",
+          "type": "choice",
+          "prompt": "A plot summary mainly reports what?",
+          "answer": "events",
+          "choices": [
+            { "id": "events", "text": "What happens, in the concretes" },
+            { "id": "theme", "text": "The abstract meaning those events carry" },
+            { "id": "school", "text": "Which esthetic school the artist joined" },
+            { "id": "vote", "text": "Whether you agree with the artist" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A summary stays with the events. A theme states the abstract meaning those events are there to carry."
+          }
+        },
+        {
+          "id": "th2e2",
+          "type": "match",
+          "prompt": "Match each sentence to plot or theme.",
+          "pairs": [
+            { "id": "p1", "left": "She leaves the town after the trial", "right": "Plot" },
+            { "id": "p2", "left": "Integrity can cost a place in the group", "right": "Theme" },
+            { "id": "p3", "left": "He finds the letter in the desk", "right": "Plot" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Leaving, a trial, and a letter are concretes. Integrity and its cost are the kind of meaning a theme states."
+          }
+        },
+        {
+          "id": "th2e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the contrast.",
+          "parts": [
+            { "type": "text", "text": "A plot recounts events. A theme states " },
+            { "type": "blank", "id": "b1", "answer": "meaning" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["meaning", "pages", "dates", "prices"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Do not stop at what happened. Ask what abstract meaning those happenings carry."
+          }
+        },
+        {
+          "id": "th2e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Order the contrast.",
+          "tokens": [
+            { "id": "t1", "text": "Events are the plot" },
+            { "id": "t2", "text": "Meaning is the theme" },
+            { "id": "d1", "text": "Length is the theme" },
+            { "id": "d2", "text": "Ink is the plot" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Plot answers what happens. Theme answers what that sequence means in abstract terms."
+          }
+        },
+        {
+          "id": "th2e5",
+          "type": "choice",
+          "prompt": "Someone says the theme is that the hero crosses a river. What went wrong?",
+          "answer": "event",
+          "choices": [
+            { "id": "event", "text": "That names an event, not an abstract meaning" },
+            { "id": "right", "text": "Nothing. An event is already a theme" },
+            { "id": "short", "text": "The sentence is too short to be a plot" },
+            { "id": "name", "text": "A theme must include the hero's name" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Crossing a river is a concrete event. The theme would be the abstract meaning that crossing is used to carry."
+          }
+        },
+        {
+          "id": "th2e6",
+          "type": "match",
+          "prompt": "Match the question to the answer it seeks.",
+          "pairs": [
+            { "id": "p1", "left": "What happens?", "right": "Plot" },
+            { "id": "p2", "left": "What does it mean?", "right": "Theme" },
+            { "id": "p3", "left": "Who is on stage?", "right": "Cast, not theme" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Who appears and what they do are concretes. The theme is the meaning those choices carry."
+          }
+        },
+        {
+          "id": "th2e7",
+          "type": "choice",
+          "prompt": "Two works share the same chase scene. Must they share a theme?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. The same kind of event can carry different meanings" },
+            { "id": "yes", "text": "Yes. Matching events fix the theme" },
+            { "id": "only", "text": "Only if both works are short" },
+            { "id": "never", "text": "No event can carry any meaning" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A chase is a concrete. What it means depends on the meaning the whole choice of concretes carries."
+          }
+        },
+        {
+          "id": "th2e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the warning.",
+          "parts": [
+            { "type": "text", "text": "Retelling the events is not yet stating the " },
+            { "type": "blank", "id": "b1", "answer": "theme" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["theme", "cast", "medium", "price"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A retelling stays at the concretes. The theme is the abstract meaning those concretes carry."
+          }
+        },
+        {
+          "id": "th2e9",
+          "type": "choice",
+          "prompt": "Which line is closer to a theme than to a plot note?",
+          "answer": "abs",
+          "choices": [
+            { "id": "abs", "text": "Courage is acting when the outcome is not guaranteed" },
+            { "id": "door", "text": "She opens the door at midnight" },
+            { "id": "rain", "text": "It rains in chapter two" },
+            { "id": "hat", "text": "He wears a gray hat" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The first line states an abstract meaning. The others report details a plot summary might include."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chosen-concretes",
+      "title": "The concretes chosen",
+      "objective": "Identify the concretes as the particulars the artist chose, which are what carry the theme.",
+      "exercises": [
+        {
+          "id": "th3e1",
+          "type": "choice",
+          "prompt": "In this unit, what carries the theme?",
+          "answer": "con",
+          "choices": [
+            { "id": "con", "text": "The concretes the artist chose" },
+            { "id": "ad", "text": "A preface written by someone else" },
+            { "id": "ad2", "text": "A review printed later" },
+            { "id": "box", "text": "The shipping crate" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The theme is carried by the concretes the artist chose, not by packaging or by a later comment."
+          }
+        },
+        {
+          "id": "th3e2",
+          "type": "match",
+          "prompt": "Match each concrete to the art it could belong to.",
+          "pairs": [
+            { "id": "p1", "left": "A named action in a story", "right": "A concrete in fiction" },
+            { "id": "p2", "left": "A figure placed in a painting", "right": "A concrete in painting" },
+            { "id": "p3", "left": "A musical phrase set against silence", "right": "A concrete in music" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Concretes differ by art. In each case they are the particulars the artist chose to carry the meaning."
+          }
+        },
+        {
+          "id": "th3e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the carrier.",
+          "parts": [
+            { "type": "text", "text": "The theme is carried by the " },
+            { "type": "blank", "id": "b1", "answer": "concretes" },
+            { "type": "text", "text": " the artist chose." }
+          ],
+          "bank": ["concretes", "reviews", "prices", "rumors"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Chosen concretes are the carrier. Outside talk about the work is not a substitute carrier."
+          }
+        },
+        {
+          "id": "th3e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Build the relation.",
+          "tokens": [
+            { "id": "t1", "text": "The artist chooses concretes" },
+            { "id": "t2", "text": "Those concretes carry the theme" },
+            { "id": "d1", "text": "The crate carries the theme" },
+            { "id": "d2", "text": "A rumor replaces the work" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Choice of concretes and the meaning they carry belong together. The theme is not parked outside the work."
+          }
+        },
+        {
+          "id": "th3e5",
+          "type": "choice",
+          "prompt": "Why say the artist chose the concretes?",
+          "answer": "sel",
+          "choices": [
+            { "id": "sel", "text": "The particulars in the work are there by the artist's selection" },
+            { "id": "all", "text": "Every fact in the world is automatically in the work" },
+            { "id": "none", "text": "Concretes appear with no one deciding" },
+            { "id": "fans", "text": "The audience inserts the concretes later" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A work does not contain everything. The concretes that carry the theme are the ones the artist chose."
+          }
+        },
+        {
+          "id": "th3e6",
+          "type": "match",
+          "prompt": "Match each item to inside the work or outside it.",
+          "pairs": [
+            { "id": "p1", "left": "The action the story shows", "right": "A chosen concrete" },
+            { "id": "p2", "left": "A friend's summary at dinner", "right": "Outside the work" },
+            { "id": "p3", "left": "The image the painting presents", "right": "A chosen concrete" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only what the artist put into the work is a concrete that can carry its theme. Talk about the work is not the work."
+          }
+        },
+        {
+          "id": "th3e7",
+          "type": "choice",
+          "prompt": "An artist drops a scene that pointed another way. What changed?",
+          "answer": "set",
+          "choices": [
+            { "id": "set", "text": "The set of concretes that carry the meaning" },
+            { "id": "none", "text": "Nothing, because theme ignores concretes" },
+            { "id": "law", "text": "The legal status of the audience" },
+            { "id": "year", "text": "The calendar year of the reader's birth" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Leaving a scene out changes which concretes are there to carry the theme. The carrier is the set the artist kept."
+          }
+        },
+        {
+          "id": "th3e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Fill both blanks.",
+          "parts": [
+            { "type": "text", "text": "Abstract " },
+            { "type": "blank", "id": "b1", "answer": "meaning" },
+            { "type": "text", "text": " is carried by chosen " },
+            { "type": "blank", "id": "b2", "answer": "concretes" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["meaning", "concretes", "receipts", "rumors"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Meaning is the theme. Concretes are the carrier. Both words are required."
+          }
+        },
+        {
+          "id": "th3e9",
+          "type": "choice",
+          "prompt": "Which list is a list of concretes rather than a theme?",
+          "answer": "list",
+          "choices": [
+            { "id": "list", "text": "A bridge, a storm, and a refusal to turn back" },
+            { "id": "th", "text": "Resolve holds when conditions turn against you" },
+            { "id": "both", "text": "Both lines are themes" },
+            { "id": "neither", "text": "Neither line has anything to do with a work" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Bridge, storm, and refusal are particulars. The sentence about resolve is the kind of abstract meaning they might carry."
+          }
+        }
+      ]
+    },
+    {
+      "id": "carried-not-pasted",
+      "title": "Carried, not pasted on",
+      "objective": "Hold that the theme is carried by the concretes, not supplied by a slogan attached beside them.",
+      "exercises": [
+        {
+          "id": "th4e1",
+          "type": "choice",
+          "prompt": "A poster beside a painting says what the painting means, but the image shows none of it. Where is the theme of the painting?",
+          "answer": "img",
+          "choices": [
+            { "id": "img", "text": "Only in what the image's concretes actually carry" },
+            { "id": "post", "text": "In the poster, which replaces the image" },
+            { "id": "both", "text": "The poster becomes part of the painting automatically" },
+            { "id": "none", "text": "Paintings cannot have a theme" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "A slogan next to the work is not the carrier. The theme has to be carried by the concretes the artist chose."
+          }
+        },
+        {
+          "id": "th4e2",
+          "type": "match",
+          "prompt": "Match each case to carried or merely pasted.",
+          "pairs": [
+            { "id": "p1", "left": "The actions show the meaning the author names", "right": "Carried" },
+            { "id": "p2", "left": "A last sentence announces a meaning the story never shows", "right": "Pasted" },
+            { "id": "p3", "left": "A caption states a moral the picture does not present", "right": "Pasted" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Carried means the concretes present the meaning. Pasted means the meaning is only announced from outside those concretes."
+          }
+        },
+        {
+          "id": "th4e3",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete the standard.",
+          "parts": [
+            { "type": "text", "text": "The meaning must be " },
+            { "type": "blank", "id": "b1", "answer": "carried" },
+            { "type": "text", "text": " by the concretes." }
+          ],
+          "bank": ["carried", "ignored", "priced", "hidden"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Carried is the verb in this unit. A meaning that the concretes do not carry is not the work's theme."
+          }
+        },
+        {
+          "id": "th4e4",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Order the check.",
+          "tokens": [
+            { "id": "t1", "text": "Look at the concretes" },
+            { "id": "t2", "text": "Read the meaning they carry" },
+            { "id": "d1", "text": "Trust only the poster" },
+            { "id": "d2", "text": "Skip the work" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Start from the chosen concretes. The theme is the abstract meaning they carry, not a line attached later."
+          }
+        },
+        {
+          "id": "th4e5",
+          "type": "choice",
+          "prompt": "The artist can state the theme in an essay. Does that statement replace the work?",
+          "answer": "no",
+          "choices": [
+            { "id": "no", "text": "No. In the work, the concretes still have to carry it" },
+            { "id": "yes", "text": "Yes. An essay is the theme of every work by that artist" },
+            { "id": "only", "text": "Only if the essay is shorter than the work" },
+            { "id": "never", "text": "No artist may say what a work means" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An outside statement can name a meaning. Inside the work, that meaning still has to be carried by the concretes."
+          }
+        },
+        {
+          "id": "th4e6",
+          "type": "choice",
+          "prompt": "A story's events all show betrayal, and the last line says the theme is loyalty. Which meaning did the concretes carry?",
+          "answer": "bet",
+          "choices": [
+            { "id": "bet", "text": "Betrayal, the meaning the events present" },
+            { "id": "loy", "text": "Loyalty, because the last line says so" },
+            { "id": "both", "text": "Both equally, with no role for the events" },
+            { "id": "none", "text": "Neither, because stories have no theme" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "When the announcement and the concretes conflict, the theme of the work is the meaning the concretes carry."
+          }
+        },
+        {
+          "id": "th4e7",
+          "type": "match",
+          "prompt": "Match the mistake to what it confuses.",
+          "pairs": [
+            { "id": "p1", "left": "Treating a plot note as the theme", "right": "Event instead of meaning" },
+            { "id": "p2", "left": "Treating a slogan as the theme", "right": "Announcement instead of carrier" },
+            { "id": "p3", "left": "Treating a review as the theme", "right": "Outside talk instead of the work" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The theme is abstract meaning, and it is carried by the work's own concretes. Events, slogans, and reviews each miss one of those."
+          }
+        },
+        {
+          "id": "th4e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Finish the contrast.",
+          "parts": [
+            { "type": "text", "text": "A pasted slogan is not a substitute for meaning " },
+            { "type": "blank", "id": "b1", "answer": "carried" },
+            { "type": "text", "text": " by concretes." }
+          ],
+          "bank": ["carried", "erased", "sold", "guessed"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Pasting a moral beside the work does not make that moral the theme. The concretes have to carry it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "one-claim",
+      "title": "One claim",
+      "objective": "Apply the full claim: a theme is the work's abstract meaning, and that meaning is carried by the concretes the artist chose.",
+      "exercises": [
+        {
+          "id": "th5e1",
+          "type": "choice",
+          "prompt": "Which sentence states this unit's full claim?",
+          "answer": "full",
+          "choices": [
+            { "id": "full", "text": "A theme is the work's abstract meaning, carried by the concretes the artist chose" },
+            { "id": "half", "text": "A theme is whatever a reviewer feels that day" },
+            { "id": "plot", "text": "A theme is the order of chapters" },
+            { "id": "mood", "text": "A theme is a sense of life, and nothing further" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Keep both halves. Abstract meaning names the theme. The chosen concretes are what carry it."
+          }
+        },
+        {
+          "id": "th5e2",
+          "type": "match",
+          "prompt": "Match each half of the claim to its job.",
+          "pairs": [
+            { "id": "p1", "left": "Abstract meaning", "right": "What the theme is" },
+            { "id": "p2", "left": "Chosen concretes", "right": "What carries that meaning" },
+            { "id": "p3", "left": "A slogan beside the work", "right": "Not the carrier" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "The two halves answer different questions: what the meaning is, and what in the work carries it."
+          }
+        },
+        {
+          "id": "th5e3",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Assemble the full claim.",
+          "tokens": [
+            { "id": "t1", "text": "Theme is abstract meaning" },
+            { "id": "t2", "text": "carried by chosen concretes" },
+            { "id": "d1", "text": "replaced by a review" },
+            { "id": "d2", "text": "identical to the plot" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Drop the distractors. The claim is meaning plus the concretes that carry it, not a review and not the plot."
+          }
+        },
+        {
+          "id": "th5e4",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "Complete both halves.",
+          "parts": [
+            { "type": "text", "text": "A theme is abstract " },
+            { "type": "blank", "id": "b1", "answer": "meaning" },
+            { "type": "text", "text": ", carried by the concretes the artist " },
+            { "type": "blank", "id": "b2", "answer": "chose" },
+            { "type": "text", "text": "." }
+          ],
+          "bank": ["meaning", "chose", "ignored", "priced"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Meaning names the theme. Chose names the artist's selection of the concretes that carry it."
+          }
+        },
+        {
+          "id": "th5e5",
+          "type": "choice",
+          "prompt": "A reader reports only the events and never the meaning. What is missing?",
+          "answer": "th",
+          "choices": [
+            { "id": "th", "text": "The theme, the abstract meaning those events carry" },
+            { "id": "ev", "text": "The events, which were never mentioned" },
+            { "id": "price", "text": "The sale price" },
+            { "id": "school", "text": "The name of an esthetic school" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Events are the concretes. Without the abstract meaning they carry, the theme has not been stated."
+          }
+        },
+        {
+          "id": "th5e6",
+          "type": "choice",
+          "prompt": "A reader states a grand meaning and never looks at what the artist put in the work. What is missing?",
+          "answer": "car",
+          "choices": [
+            { "id": "car", "text": "The concretes that would have to carry that meaning" },
+            { "id": "word", "text": "Nothing, because a meaning needs no carrier" },
+            { "id": "font", "text": "The typeface of the title" },
+            { "id": "city", "text": "The city where the reader lives" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "An abstract meaning becomes the work's theme only as what the chosen concretes carry."
+          }
+        },
+        {
+          "id": "th5e7",
+          "type": "match",
+          "prompt": "Match the reader's move to the verdict.",
+          "pairs": [
+            { "id": "p1", "left": "States a meaning the concretes carry", "right": "Has the theme" },
+            { "id": "p2", "left": "Stops at a list of events", "right": "Has the plot, not the theme" },
+            { "id": "p3", "left": "Quotes a slogan the work does not present", "right": "Has a paste-on, not the theme" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Only the first move keeps abstract meaning and the chosen concretes together."
+          }
+        },
+        {
+          "id": "th5e8",
+          "type": "fill",
+          "mode": "blanks",
+          "prompt": "One last completion.",
+          "parts": [
+            { "type": "text", "text": "The theme is not the plot and not a slogan. It is " },
+            { "type": "blank", "id": "b1", "answer": "abstract" },
+            { "type": "text", "text": " meaning carried by concretes." }
+          ],
+          "bank": ["abstract", "retail", "random", "secret"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "That is the whole unit: abstract meaning, carried by the concretes the artist chose."
+          }
+        },
+        {
+          "id": "th5e9",
+          "type": "choice",
+          "prompt": "Two readers name the same abstract meaning. One can point to the concretes that carry it. The other cannot. Who has shown the theme of this work?",
+          "answer": "one",
+          "choices": [
+            { "id": "one", "text": "The reader who ties the meaning to the chosen concretes" },
+            { "id": "two", "text": "The reader who only announces the meaning" },
+            { "id": "neither", "text": "Neither, because a theme cannot be shown" },
+            { "id": "both", "text": "Both equally, because concretes do not matter" }
+          ],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "Showing the theme means showing the abstract meaning as what these concretes carry, not merely saying a general idea."
+          }
+        },
+        {
+          "id": "th5e10",
+          "type": "fill",
+          "mode": "sentence",
+          "prompt": "Put the check in the order this unit uses.",
+          "tokens": [
+            { "id": "t1", "text": "Name the abstract meaning" },
+            { "id": "t2", "text": "Point to the concretes that carry it" },
+            { "id": "d1", "text": "Skip the work" },
+            { "id": "d2", "text": "Quote a poster instead" }
+          ],
+          "answer": ["t1", "t2"],
+          "feedback": {
+            "kind": "paraphrase",
+            "note": "First the meaning, then the concretes that carry it. A poster or a refusal to look at the work does not complete the claim."
+          }
+        }
+      ]
+    }
+  ],
+  "sources": []
+}
