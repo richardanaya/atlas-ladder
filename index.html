@@ -5,15 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Atlas Ladder</title>
   <meta name="description" content="Atlas Ladder is a study tower for Objectivism, the philosophy of Ayn Rand.">
-  <meta name="theme-color" content="#2A4E5A">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%232A4E5A'/%3E%3Ccircle cx='16' cy='7.2' r='4.3' fill='none' stroke='%23f7f7f5' stroke-width='1.5'/%3E%3Cpath d='M13.2 7.2h5.6M16 3.1v8.2M13.6 4.6c.7 1.5.7 3.6 0 5.1M18.4 4.6c-.7 1.5-.7 3.6 0 5.1' fill='none' stroke='%23f7f7f5' stroke-width='1'/%3E%3Cpath d='M11.2 14.2 9.2 29M20.8 14.2 22.8 29M10.6 19.2h10.8M10 24h12' fill='none' stroke='%23f7f7f5' stroke-width='1.6' stroke-linecap='square'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#070A12">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23070A12'/%3E%3Ccircle cx='16' cy='7.2' r='4.3' fill='none' stroke='%23E4C36A' stroke-width='1.5'/%3E%3Cpath d='M13.2 7.2h5.6M16 3.1v8.2M13.6 4.6c.7 1.5.7 3.6 0 5.1M18.4 4.6c-.7 1.5-.7 3.6 0 5.1' fill='none' stroke='%23E4C36A' stroke-width='1'/%3E%3Cpath d='M11.2 14.2 9.2 29M20.8 14.2 22.8 29M10.6 19.2h10.8M10 24h12' fill='none' stroke='%23E4C36A' stroke-width='1.6' stroke-linecap='square'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;500&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/tokens.css">
   <link rel="stylesheet" href="css/base.css">
 </head>
 <body class="is-tower">
+  <div class="ornament" aria-hidden="true">
+    <div class="inset"></div>
+    <div class="inset-2"></div>
+    <div class="corner tl"><svg class="corner-svg" viewBox="0 0 120 120"><path d="M10 72V14H68" fill="none" stroke="currentColor" stroke-width="1.25"/><path d="M18 52V22H48" fill="none" stroke="currentColor" stroke-width="1"/><path d="M26 40V30H36" fill="none" stroke="currentColor" stroke-width="1"/><path d="M14 14h12M14 14v12" fill="none" stroke="currentColor" stroke-width="1.25"/><g fill="none" stroke="currentColor" stroke-width="0.9"><path d="M20 20 L40 8M20 20 L44 20M20 20 L38 32M20 20 L28 42M20 20 L8 30"/></g></svg></div>
+    <div class="corner tr"><svg class="corner-svg" viewBox="0 0 120 120"><path d="M10 72V14H68" fill="none" stroke="currentColor" stroke-width="1.25"/><path d="M18 52V22H48" fill="none" stroke="currentColor" stroke-width="1"/><path d="M26 40V30H36" fill="none" stroke="currentColor" stroke-width="1"/><path d="M14 14h12M14 14v12" fill="none" stroke="currentColor" stroke-width="1.25"/><g fill="none" stroke="currentColor" stroke-width="0.9"><path d="M20 20 L40 8M20 20 L44 20M20 20 L38 32M20 20 L28 42M20 20 L8 30"/></g></svg></div>
+    <div class="corner bl"><svg class="corner-svg" viewBox="0 0 120 120"><path d="M10 72V14H68" fill="none" stroke="currentColor" stroke-width="1.25"/><path d="M18 52V22H48" fill="none" stroke="currentColor" stroke-width="1"/><path d="M26 40V30H36" fill="none" stroke="currentColor" stroke-width="1"/><path d="M14 14h12M14 14v12" fill="none" stroke="currentColor" stroke-width="1.25"/><g fill="none" stroke="currentColor" stroke-width="0.9"><path d="M20 20 L40 8M20 20 L44 20M20 20 L38 32M20 20 L28 42M20 20 L8 30"/></g></svg></div>
+    <div class="corner br"><svg class="corner-svg" viewBox="0 0 120 120"><path d="M10 72V14H68" fill="none" stroke="currentColor" stroke-width="1.25"/><path d="M18 52V22H48" fill="none" stroke="currentColor" stroke-width="1"/><path d="M26 40V30H36" fill="none" stroke="currentColor" stroke-width="1"/><path d="M14 14h12M14 14v12" fill="none" stroke="currentColor" stroke-width="1.25"/><g fill="none" stroke="currentColor" stroke-width="0.9"><path d="M20 20 L40 8M20 20 L44 20M20 20 L38 32M20 20 L28 42M20 20 L8 30"/></g></svg></div>
+  </div>
   <div class="app-shell">
     <header class="topbar">
       <button type="button" class="brand-mark" id="home" aria-label="Atlas Ladder, back to the tower">
@@ -32,9 +40,12 @@
     <div class="frame">
       <nav class="rail" id="rail" aria-label="Sections"></nav>
       <main id="main"></main>
-      <aside class="dossier" id="dossier" aria-label="Your climb">
+      <aside class="dossier" id="dossier" aria-label="Your progress">
+        <p class="panel-kicker">Your progress</p>
         <div class="dossier-card">
-          <atlas-mascot id="side-atlas" state="idle" size="lg"></atlas-mascot>
+          <div class="atlas-halo">
+            <atlas-mascot id="side-atlas" state="idle" size="lg"></atlas-mascot>
+          </div>
           <div class="dossier-meters" id="dossier-meters"></div>
           <div class="dossier-unit" id="dossier-unit"></div>
         </div>

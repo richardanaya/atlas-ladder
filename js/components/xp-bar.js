@@ -1,4 +1,5 @@
 import { adopt } from '../shared-styles.js';
+import { applySlots } from '../assets.js';
 import { CONFIG } from '../config.js';
 import { levelFor, xpIntoLevel } from '../progress-rules.js';
 
@@ -32,20 +33,32 @@ export class XpBarElement extends HTMLElement {
       const wrap = document.createElement('div');
       wrap.className = 'xp';
       wrap.innerHTML = `
-        <span class="lvl"></span>
-        <span class="track" aria-hidden="true"><span class="fill"></span></span>
+        <div class="ring-wrap">
+          <img class="slot xp-plate" data-slot="icons/xp.png" alt="">
+          <svg class="ring" viewBox="0 0 120 120" aria-hidden="true">
+            <circle class="ring-track" cx="60" cy="60" r="46"></circle>
+            <circle class="ring-value" cx="60" cy="60" r="46"></circle>
+          </svg>
+        </div>
         <span class="num"></span>
+        <span class="lvl"></span>
       `;
       this.shadowRoot.append(wrap);
+      applySlots(wrap);
     }
     const xp = this.xp;
     const level = levelFor(xp);
     const into = xpIntoLevel(xp);
     const ratio = into / CONFIG.xpPerLevel;
     const root = this.shadowRoot;
-    root.querySelector('.lvl').textContent = String(level);
+    const ring = root.querySelector('.ring-value');
+    const radius = 46;
+    const circ = 2 * Math.PI * radius;
+    ring.style.strokeDasharray = String(circ);
+    ring.style.strokeDashoffset = String(circ * (1 - ratio));
+    ring.setAttribute('stroke-linecap', ratio > 0.03 ? 'round' : 'butt');
+    root.querySelector('.lvl').textContent = `Level ${level}`;
     root.querySelector('.num').textContent = `${xp} XP`;
-    root.querySelector('.fill').style.transform = `scaleX(${ratio})`;
     this.setAttribute('aria-label', `Level ${level}, ${xp} XP`);
   }
 }

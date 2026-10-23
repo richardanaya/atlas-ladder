@@ -1,4 +1,5 @@
 import { adopt } from '../shared-styles.js';
+import { applySlots } from '../assets.js';
 
 const FLAME = `
 <svg viewBox="0 0 36 46" aria-hidden="true">
@@ -31,8 +32,9 @@ export class StreakFlameElement extends HTMLElement {
     if (!this.shadowRoot.querySelector('.flame')) {
       const wrap = document.createElement('div');
       wrap.className = 'flame';
-      wrap.innerHTML = `${FLAME}<span class="count"></span>`;
+      wrap.innerHTML = `<span class="glyph"><img class="slot base" data-slot="icons/streak.png" alt=""><img class="slot lit" data-slot="icons/streak-lit.png" alt="">${FLAME}</span><span class="count"></span>`;
       this.shadowRoot.append(wrap);
+      applySlots(wrap);
     }
     const count = this.getAttribute('count') || '0';
     this.shadowRoot.querySelector('.count').textContent = count;

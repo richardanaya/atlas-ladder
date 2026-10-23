@@ -1,0 +1,37 @@
+Drop a PNG at one of these paths and reload. Missing files keep the CSS and SVG.
+
+backgrounds/tower.png
+backgrounds/lesson.png
+backgrounds/celebrate.png
+backgrounds/card.png
+mascot/idle.png
+mascot/thinking.png
+mascot/encourage.png
+mascot/cheer.png
+mascot/celebrate.png
+floors/done.png
+floors/current.png
+floors/locked.png
+floors/soon.png
+sections/metaphysics.png
+sections/epistemology.png
+sections/human-nature.png
+sections/ethics.png
+sections/politics.png
+sections/aesthetics.png
+sections/integration.png
+icons/streak.png
+icons/streak-lit.png
+icons/xp.png
+icons/heart.png
+icons/heart-empty.png
+ornaments/corner.png
+ornaments/sunburst.png
+celebration/cleared.png
+
+Mascot plates are transparent portraits. The SVG keeps bobbing, nodding, and the hoist.
+Floor plates are square medallions on a transparent ground.
+corner.png is the top-left ornament; the page mirrors it.
+icons/xp.png sits inside the live SVG progress ring.
+celebration/cleared.png replaces the CSS sun. Atlas still celebrates.
+Backgrounds are full-bleed. card.png is a texture behind the question, and the gold frame stays.
