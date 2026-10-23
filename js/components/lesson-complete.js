@@ -1,4 +1,5 @@
 import { adopt } from '../shared-styles.js';
+import { applySlots } from '../assets.js';
 import { Celebration } from '../celebration.js';
 import { escapeHtml } from '../dom.js';
 import { reducedMotion } from '../motion.js';
@@ -23,6 +24,7 @@ export class LessonCompleteElement extends HTMLElement {
     root.className = 'done';
     root.innerHTML = `
       <div class="confetti-layer"></div>
+      <img class="slot cleared-art" data-slot="celebration/cleared.png" alt="">
       <div class="sun"></div>
       <p class="kicker">Floor cleared</p>
       <h2>The globe stays up</h2>
@@ -36,6 +38,7 @@ export class LessonCompleteElement extends HTMLElement {
       <button type="button" class="continue">Back to the tower</button>
     `;
     this.shadowRoot.append(root);
+    applySlots(root);
     root.querySelector('.continue').addEventListener('click', () => {
       this.dispatchEvent(new CustomEvent('continue', { bubbles: true, composed: true }));
     });

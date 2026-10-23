@@ -6,28 +6,28 @@
   <title>Atlas</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Source+Sans+3:wght@400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/tokens.css">
   <style>
-    html, body { margin: 0; height: 100%; background: #2A4E5A; color: #f7f7f5; }
+    html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ivory); }
     body {
       min-height: 100%;
       display: grid;
       grid-template-rows: auto 1fr auto;
-      font-family: Antonio, "Avenir Next", sans-serif;
+      font-family: var(--font);
     }
     header, footer { display: flex; align-items: baseline; justify-content: space-between; padding: 18px 28px 0; }
     footer { padding-bottom: 22px; justify-content: center; }
-    h1 { margin: 0; font-weight: 100; letter-spacing: 0.18em; text-transform: uppercase; font-size: 1.35rem; }
-    p { margin: 0; letter-spacing: 0.14em; text-transform: uppercase; font-size: 0.78rem; opacity: 0.75; }
+    h1 { margin: 0; font-family: var(--display); font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; font-size: 1.35rem; color: var(--gold); }
+    p { margin: 0; letter-spacing: 0.14em; text-transform: uppercase; font-size: 0.78rem; color: var(--ivory-soft); }
     main { display: grid; place-items: center; }
     .poses { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
     button {
-      font: inherit; letter-spacing: 0.12em; text-transform: uppercase;
-      background: transparent; color: #f7f7f5; border: 1px solid #A8C4CF;
+      font-family: var(--display); letter-spacing: 0.12em; text-transform: uppercase;
+      background: transparent; color: var(--gold); border: 1px solid var(--gold-deep);
       padding: 8px 14px; cursor: pointer;
     }
-    button[aria-pressed="true"] { background: #f7f7f5; color: #2A4E5A; }
+    button[aria-pressed="true"] { background: var(--gold-fill); color: var(--gold-ink); border-color: var(--gold-fill); }
   </style>
 </head>
 <body>

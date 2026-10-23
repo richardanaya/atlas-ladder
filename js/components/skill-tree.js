@@ -1,6 +1,16 @@
 import { adopt } from '../shared-styles.js';
 import { escapeHtml } from '../dom.js';
+import { applySlots } from '../assets.js';
 import { currentLessonKey, isLessonUnlocked, lessonKey } from '../progress-rules.js';
+
+const CHECK = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.2 9.2 16.5 19 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+const STAR = '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.8 14.7 9l6.6.5-5 4.2 1.6 6.4L12 16.8 6.1 20.1 7.7 13.7 2.7 9.5 9.3 9Z"/></svg>';
+const LOCK = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="10.5" width="12" height="9" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8.4 10.5V8.2a3.6 3.6 0 0 1 7.2 0v2.3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>';
+
+function medallion(slot, face, extra = '') {
+  const name = extra ? `octo ${extra}` : 'octo';
+  return `<span class="${name}"><img class="medallion slot" data-slot="${slot}" alt=""><span class="octo-face">${face}</span></span>`;
+}
 
 export class SkillTreeElement extends HTMLElement {
   constructor() {
@@ -40,10 +50,15 @@ export class SkillTreeElement extends HTMLElement {
         <div class="sun"></div>
       </footer>
     `;
-    const focus = tower.querySelector('.is-fresh') || tower.querySelector('.is-current') || tower.querySelector('.entrance');
+    applySlots(tower);
+    const focus = tower.querySelector('.is-fresh') || tower.querySelector('.is-current');
     this.style.visibility = 'hidden';
     requestAnimationFrame(() => {
-      focus?.scrollIntoView({ block: 'center' });
+      if (focus) {
+        const top = focus.getBoundingClientRect().top + window.scrollY;
+        if (top > window.innerHeight * 0.85) focus.scrollIntoView({ block: 'center' });
+        else window.scrollTo(0, 0);
+      }
       this.style.visibility = 'visible';
     });
   }
@@ -51,13 +66,13 @@ export class SkillTreeElement extends HTMLElement {
   _entrance() {
     return `
       <section class="entrance">
+        <p class="eyebrow">Study tower</p>
         <atlas-mascot state="idle" size="lg"></atlas-mascot>
       </section>
     `;
   }
 
   _section(section, completed, current, freshSet) {
-    let lessonCount = 0;
     const chunks = [];
     for (const unit of section.units) {
       if (unit.status === 'ready') {
@@ -68,31 +83,30 @@ export class SkillTreeElement extends HTMLElement {
           const unlocked = isLessonUnlocked(this._model.catalog, completed, key);
           const state = done ? 'done' : unlocked ? 'open' : 'locked';
           const isCurrent = key === current;
-          const side = lessonCount % 2 === 0 ? 'left' : 'right';
           const currentClass = isCurrent ? ' is-current' : '';
           const freshClass = freshSet.has(key) ? ' is-fresh' : '';
           const num = String(index + 1).padStart(2, '0');
           const status = isCurrent ? 'Learning' : done ? 'Done' : 'Locked';
-          const face = done ? '✓' : state === 'locked' ? '' : num;
+          const slot = done ? 'floors/done.png' : state === 'locked' ? 'floors/locked.png' : 'floors/current.png';
+          const face = done ? CHECK : state === 'locked' ? LOCK : isCurrent ? STAR : num;
           chunks.push(`
-            <div class="floor ${side}${currentClass}${freshClass}">
+            <div class="floor${currentClass}${freshClass}">
               <button type="button" class="node" data-lesson data-state="${state}"
                 data-section="${escapeHtml(section.id)}" data-unit="${escapeHtml(unit.id)}" data-lesson-id="${escapeHtml(lesson.id)}"
                 aria-label="${escapeHtml(lesson.title)}. ${status}"
                 ${isCurrent ? 'aria-current="step"' : ''}
                 ${state === 'locked' ? 'aria-disabled="true"' : ''}>
-                <span class="octo"><span class="octo-face">${face}</span></span>
+                ${medallion(slot, face)}
                 <span class="status">${status}</span>
                 <span class="floor-label">${escapeHtml(lesson.title)}</span>
               </button>
             </div>
           `);
-          lessonCount += 1;
         });
       } else {
         chunks.push(`
           <article class="soon">
-            <span class="octo dim"><span class="octo-face">···</span></span>
+            ${medallion('floors/soon.png', '···', 'dim')}
             <div>
               <p class="soon-kicker">Coming soon</p>
               <h3>${escapeHtml(unit.title)}</h3>
@@ -134,16 +148,17 @@ export class SkillTreeElement extends HTMLElement {
   }
 
   _toast(text) {
-    let toast = this.shadowRoot.querySelector('.toast');
+    let toast = document.querySelector('#ladder-toast');
     if (!toast) {
       toast = document.createElement('p');
-      toast.className = 'toast';
-      this.shadowRoot.append(toast);
+      toast.id = 'ladder-toast';
+      toast.setAttribute('role', 'status');
+      document.body.append(toast);
     }
     toast.textContent = text;
     toast.classList.add('show');
     clearTimeout(this._toastTimer);
-    this._toastTimer = setTimeout(() => toast.classList.remove('show'), 2000);
+    this._toastTimer = setTimeout(() => toast.classList.remove('show'), 2200);
   }
 }
 

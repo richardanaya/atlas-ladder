@@ -1,6 +1,6 @@
 # Atlas Ladder
 
-A mobile-first study tower for Objectivism, Ayn Rand’s philosophy, organized by topic. The first climb is Metaphysics, Unit 1 (the axioms) and Epistemology, Unit 1 (the senses). Later units are on the tower as coming soon, and they do not block a unit that is already built. On a wide screen the tower uses the full window: sections in a left rail, the climb in the center, and Atlas with your progress on the right.
+A mobile-first study tower for Objectivism, Ayn Rand’s philosophy, organized by topic. The first climb is Metaphysics, Unit 1 (the axioms) and Epistemology, Unit 1 (the senses). Later units are on the tower as coming soon, and they do not block a unit that is already built. On a wide screen the tower uses the full window: sections in a left rail, the climb in the center, and Atlas with your progress on the right. The interface is a near-black navy field with gold art-deco linework. Display type is Cinzel. Interface and lesson text use Source Sans 3.
 
 There is no build step. `index.html` at the repository root is the page. Styles live in `css/`. Behavior is native ES modules under `js/`. Lesson text is JSON under `content/`.
 
@@ -88,7 +88,11 @@ Accuracy matters more than color. The app quotes only short passages that were c
 
 ## Mascot
 
-Atlas is an inline SVG in `js/components/atlas-mascot.js`, traced from an Art Deco line drawing of the figure kneeling under the globe. The ink is `currentColor`, so it follows the tower’s text color. Looping motion is CSS. The hop, nod, and hoist use the Web Animations API. To swap in Rive or Lottie later, replace the SVG inside `.stage` and keep the `state` attribute (`idle`, `thinking`, `encourage`, `cheer`, `celebrate`).
+Atlas is an inline SVG in `js/components/atlas-mascot.js`, traced from an Art Deco line drawing of the figure kneeling under the globe. The figure is painted with a gold and bronze gradient, and the globe carries a soft glow. Looping motion is CSS. The hop, nod, and hoist use the Web Animations API. To swap in Rive or Lottie later, replace the SVG inside `.stage` and keep the `state` attribute (`idle`, `thinking`, `encourage`, `cheer`, `celebrate`).
+
+## Image plates
+
+`assets/` holds optional PNG plates. Drop a file at a path listed in `assets/SLOTS.txt` (or `js/assets.js`) and reload. Until that file is there, the CSS and SVG drawing is what you see, and it stays the fallback if a file fails. Pose plates replace the Atlas drawing for that pose; the same CSS motion still runs. Backgrounds are the custom properties `--image-bg-tower`, `--image-bg-lesson`, `--image-bg-celebrate`, `--image-bg-card`, `--image-ornament-corner`, and `--image-sunburst` in `css/tokens.css`. The XP ring stays an SVG arc so it can show real progress. `icons/xp.png` is only the emblem inside that ring.
 
 ## Code map
 

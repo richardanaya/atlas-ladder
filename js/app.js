@@ -4,7 +4,22 @@ import { ProgressStore } from './progress-store.js';
 import { SoundManager } from './sound-manager.js';
 import { Router } from './router.js';
 import { escapeHtml } from './dom.js';
+import { applySlots } from './assets.js';
 import { currentLessonKey, isLessonUnlocked, lessonKey, levelFor, readyLessons, todayISO, xpAward } from './progress-rules.js';
+
+const SECTION_ICONS = {
+  metaphysics: '<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3.5 27.5 16 16 28.5 4.5 16Z"/><path d="M16 9.5 22 16 16 22.5 10 16Z"/></svg>',
+  epistemology: '<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3.5 16S8.5 8.5 16 8.5 28.5 16 28.5 16 23.5 23.5 16 23.5 3.5 16 3.5 16Z"/><circle cx="16" cy="16" r="3.2"/></svg>',
+  'human-nature': '<svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="11" r="4.2"/><path d="M7.5 26.5c1.4-5 4.4-7.2 8.5-7.2s7.1 2.2 8.5 7.2"/></svg>',
+  ethics: '<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 25c1.8-7.2 5.2-13 10-15.2C20.8 12 24.2 17.8 26 25"/><path d="M16 9.8V25M11 14.2c1.6 2 3.3 3.6 5 4.6M21 14.2c-1.6 2-3.3 3.6-5 4.6"/></svg>',
+  politics: '<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 5.5v17M7 26.5h18M9.5 10.5h13"/><path d="M9.5 10.5 6 18h7l-3.5-7.5Zm13 0L19 18h7l-3.5-7.5Z"/></svg>',
+  aesthetics: '<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5.5 9.5c3.4 1.8 6.2 1.8 10.5 0 4.3 1.8 7.1 1.8 10.5 0v14c-3.4 1.8-6.2 1.8-10.5 0-4.3 1.8-7.1 1.8-10.5 0Z"/><path d="M16 9.5v14"/></svg>',
+  integration: '<svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="12.5" cy="16" r="6.2"/><circle cx="19.5" cy="16" r="6.2"/></svg>',
+};
+
+function sectionIcon(id) {
+  return SECTION_ICONS[id] || SECTION_ICONS.integration;
+}
 
 export class App {
   constructor({ main }) {
@@ -89,15 +104,16 @@ export class App {
     const current = currentLessonKey(this.catalog, this.store.state.completed);
     const currentSection = current ? current.split('/')[0] : this.catalog.sections[0]?.id;
     const rail = document.querySelector('#rail');
-    rail.innerHTML = this.catalog.sections.map((section, index) => {
+    rail.innerHTML = `<p class="panel-kicker">Sections</p>${this.catalog.sections.map((section) => {
       const ready = section.units.filter((unit) => unit.status === 'ready').length;
       const meta = ready ? `${ready} unit${ready === 1 ? '' : 's'} open` : 'Coming soon';
       const on = section.id === currentSection ? ' is-on' : '';
       return `<button type="button" data-section="${escapeHtml(section.id)}" class="rail-btn${on}">
-        <span class="rail-index">${String(index + 1).padStart(2, '0')}</span>
+        <span class="rail-icon"><img class="slot" data-slot="sections/${escapeHtml(section.id)}.png" alt="">${sectionIcon(section.id)}</span>
         <span class="rail-copy"><span class="rail-title">${escapeHtml(section.title)}</span><span class="rail-meta">${meta}</span></span>
       </button>`;
-    }).join('');
+    }).join('')}`;
+    applySlots(rail);
   }
 
   _renderDossier() {
@@ -114,16 +130,19 @@ export class App {
     }
     const lessons = unit?.lessons || [];
     const done = lessons.filter((lesson) => completed[lessonKey(section.id, unit.id, lesson.id)]).length;
+    const ratio = lessons.length ? done / lessons.length : 0;
     const items = lessons.map((lesson) => {
       const key = lessonKey(section.id, unit.id, lesson.id);
       const state = completed[key] ? 'done' : key === current ? 'now' : 'wait';
       const tag = state === 'now' ? 'Learning' : state === 'done' ? 'Done' : 'Locked';
       return `<li data-state="${state}"><span class="climb-tag">${tag}</span>${escapeHtml(lesson.title)}</li>`;
     }).join('');
+    const count = lessons.length ? `${done} of ${lessons.length} floors` : 'Coming soon';
     box.innerHTML = `
       <p class="dossier-kicker">${escapeHtml(section?.title || '')}</p>
+      ${lessons.length ? `<div class="unit-track" role="progressbar" aria-valuemin="0" aria-valuemax="${lessons.length}" aria-valuenow="${done}" aria-label="${escapeHtml(count)}"><span class="unit-fill" style="transform:scaleX(${ratio})"></span></div>` : ''}
       <h2>${escapeHtml(unit?.title || '')}</h2>
-      <p class="dossier-count">${lessons.length ? `${done} of ${lessons.length} floors` : 'Coming soon'}</p>
+      <p class="dossier-count">${count}</p>
       ${items ? `<ul>${items}</ul>` : ''}
     `;
   }

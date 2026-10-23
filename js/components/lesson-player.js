@@ -1,5 +1,6 @@
 import { adopt } from '../shared-styles.js';
 import { escapeHtml } from '../dom.js';
+import { applySlots } from '../assets.js';
 import { CONFIG } from '../config.js';
 
 const TAGS = {
@@ -42,16 +43,22 @@ export class LessonPlayerElement extends HTMLElement {
     root.className = 'lp';
     root.innerHTML = `
       <div class="lp-top">
-        <button type="button" class="text-btn" data-exit>Exit</button>
-        <div class="track" aria-hidden="true"><span></span></div>
+        <button type="button" class="text-btn" data-exit aria-label="Exit">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 6 18 18M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+        </button>
+        <div class="track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Lesson progress"><span></span></div>
         <div class="hearts" aria-live="polite"></div>
       </div>
-      <div class="lp-hero">
-        <atlas-mascot size="sm" state="idle"></atlas-mascot>
-        <p class="kicker"></p>
+      <div class="lp-layout">
+        <div class="lp-hero">
+          <atlas-mascot size="lg" state="idle"></atlas-mascot>
+        </div>
+        <div class="lp-main">
+          <p class="kicker"></p>
+          <div class="stage"></div>
+          <div class="actions"><button type="button" class="check" disabled>Check</button></div>
+        </div>
       </div>
-      <div class="stage"></div>
-      <div class="actions"><button type="button" class="check" disabled>Check</button></div>
       <div class="banner" role="status" aria-live="polite">
         <atlas-mascot size="sm" state="cheer"></atlas-mascot>
         <div class="banner-copy">
@@ -238,18 +245,23 @@ export class LessonPlayerElement extends HTMLElement {
     if (!wrap) return;
     const bits = [];
     for (let i = 0; i < CONFIG.hearts; i += 1) {
-      bits.push(`<svg class="heart ${i < this._hearts ? 'is-on' : ''}" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 19s-7-4.4-7-9a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 4.6-7 9-7 9z"/></svg>`);
+      const on = i < this._hearts;
+      const slot = on ? 'icons/heart.png' : 'icons/heart-empty.png';
+      bits.push(`<span class="heart-slot"><img class="slot" data-slot="${slot}" alt=""><svg class="heart ${on ? 'is-on' : ''}" viewBox="0 0 24 22" aria-hidden="true"><path d="M12 19s-7-4.4-7-9a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 4.6-7 9-7 9z"/></svg></span>`);
     }
     wrap.innerHTML = bits.join('');
     wrap.setAttribute('aria-label', `${this._hearts} hearts left`);
+    applySlots(wrap);
   }
 
   _paintTrack() {
-    const fill = this.shadowRoot.querySelector('.track span');
+    const track = this.shadowRoot.querySelector('.track');
+    const fill = track?.querySelector('span');
     if (!fill || !this._session) return;
     const total = this._session.exercises.length;
     const step = this._index < 0 ? 0 : (this._index + 1) / total;
     fill.style.transform = `scaleX(${step})`;
+    track.setAttribute('aria-valuenow', String(Math.round(step * 100)));
   }
 }
 
