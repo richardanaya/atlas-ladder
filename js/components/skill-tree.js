@@ -76,7 +76,7 @@ export class SkillTreeElement extends HTMLElement {
     const chunks = [];
     for (const unit of section.units) {
       if (unit.status === 'ready') {
-        chunks.push(`<p class="unit-name">${escapeHtml(unit.title)}</p>`);
+        const floors = [];
         unit.lessons.forEach((lesson, index) => {
           const key = lessonKey(section.id, unit.id, lesson.id);
           const done = Boolean(completed[key]);
@@ -89,7 +89,7 @@ export class SkillTreeElement extends HTMLElement {
           const status = isCurrent ? 'Learning' : done ? 'Done' : 'Locked';
           const slot = done ? 'floors/done.png' : state === 'locked' ? 'floors/locked.png' : 'floors/current.png';
           const face = done ? CHECK : state === 'locked' ? LOCK : isCurrent ? STAR : num;
-          chunks.push(`
+          floors.push(`
             <div class="floor${currentClass}${freshClass}">
               <button type="button" class="node" data-lesson data-state="${state}"
                 data-section="${escapeHtml(section.id)}" data-unit="${escapeHtml(unit.id)}" data-lesson-id="${escapeHtml(lesson.id)}"
@@ -103,6 +103,8 @@ export class SkillTreeElement extends HTMLElement {
             </div>
           `);
         });
+        chunks.push(`<p class="unit-name">${escapeHtml(unit.title)}</p>`);
+        chunks.push(`<div class="floors">${floors.join('')}</div>`);
       } else {
         chunks.push(`
           <article class="soon">
