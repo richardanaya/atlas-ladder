@@ -148,16 +148,17 @@ export class SkillTreeElement extends HTMLElement {
   }
 
   _toast(text) {
-    let toast = this.shadowRoot.querySelector('.toast');
+    let toast = document.querySelector('#ladder-toast');
     if (!toast) {
       toast = document.createElement('p');
-      toast.className = 'toast';
-      this.shadowRoot.append(toast);
+      toast.id = 'ladder-toast';
+      toast.setAttribute('role', 'status');
+      document.body.append(toast);
     }
     toast.textContent = text;
     toast.classList.add('show');
     clearTimeout(this._toastTimer);
-    this._toastTimer = setTimeout(() => toast.classList.remove('show'), 2000);
+    this._toastTimer = setTimeout(() => toast.classList.remove('show'), 2200);
   }
 }
 

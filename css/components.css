@@ -420,24 +420,6 @@
   -webkit-mask: radial-gradient(circle, transparent 0 42%, #000 46%);
   mask: radial-gradient(circle, transparent 0 42%, #000 46%);
 }
-:host(skill-tree) .toast {
-  position: fixed;
-  left: 50%;
-  bottom: 28px;
-  z-index: 50;
-  width: max-content;
-  max-width: min(420px, 92vw);
-  margin: 0;
-  background: var(--bg-card);
-  color: var(--ivory);
-  padding: 12px 16px;
-  border: 1px solid var(--gold);
-  opacity: 0;
-  transform: translateX(-50%) translateY(8px);
-  pointer-events: none;
-  transition: opacity 0.2s ease, transform 0.2s ease;
-}
-:host(skill-tree) .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 
 :host(lesson-player) {
   display: block;

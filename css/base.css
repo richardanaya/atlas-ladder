@@ -287,6 +287,26 @@ dialog p { color: var(--ivory); line-height: 1.5; }
   border-color: var(--wrong);
 }
 
+#ladder-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  z-index: 60;
+  width: max-content;
+  max-width: min(420px, 92vw);
+  margin: 0;
+  background: var(--bg-card);
+  color: var(--ivory);
+  padding: 12px 16px;
+  border: 1px solid var(--gold);
+  opacity: 0;
+  transform: translateX(-50%) translateY(8px);
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+#ladder-toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
 .panel-kicker {
   margin: 0 0 14px;
   font-family: var(--display);
@@ -599,4 +619,5 @@ html.plate-sunburst .atlas-halo::before {
 
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; }
+  #ladder-toast { transition: none; }
 }
