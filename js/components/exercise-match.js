@@ -66,6 +66,7 @@ export class ExerciseMatchElement extends ExerciseElement {
   _down(event) {
     const chip = event.target.closest('[data-chip]');
     if (!chip || this._locked) return;
+    if (event.cancelable) event.preventDefault();
     chip.setPointerCapture?.(event.pointerId);
     const rect = chip.getBoundingClientRect();
     this._drag = {

@@ -1,9 +1,26 @@
 * { box-sizing: border-box; }
 
+/* dvh tracks the visible iOS viewport. svh, then vh, cover older Safari. */
+:root { --page-height: 100vh; }
+@supports (height: 100svh) {
+  :root { --page-height: 100svh; }
+}
+@supports (height: 100dvh) {
+  :root { --page-height: 100dvh; }
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 html, body { margin: 0; min-height: 100%; }
 
 body {
-  min-height: 100dvh;
+  min-height: var(--page-height);
+  overscroll-behavior: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
   font-family: var(--font);
   font-weight: 400;
   font-size: 1rem;
@@ -37,7 +54,7 @@ body.is-celebrate {
 .app-shell {
   width: min(560px, 100%);
   margin: 0 auto;
-  min-height: 100dvh;
+  min-height: var(--page-height);
   display: flex;
   flex-direction: column;
   position: relative;
@@ -68,12 +85,18 @@ body.is-celebrate {
 }
 
 .ornament .inset {
-  inset: 16px;
+  top: calc(16px + env(safe-area-inset-top, 0px));
+  right: calc(16px + env(safe-area-inset-right, 0px));
+  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  left: calc(16px + env(safe-area-inset-left, 0px));
   border: 1px solid rgba(228, 195, 106, 0.55);
 }
 
 .ornament .inset-2 {
-  inset: 22px;
+  top: calc(22px + env(safe-area-inset-top, 0px));
+  right: calc(22px + env(safe-area-inset-right, 0px));
+  bottom: calc(22px + env(safe-area-inset-bottom, 0px));
+  left: calc(22px + env(safe-area-inset-left, 0px));
   border: 1px solid rgba(228, 195, 106, 0.22);
 }
 
@@ -92,10 +115,10 @@ body.is-celebrate {
 
 html.plate-ornament-corner .corner svg { visibility: hidden; }
 
-.corner.tl { top: 6px; left: 6px; }
-.corner.tr { top: 6px; right: 6px; transform: scaleX(-1); }
-.corner.bl { bottom: 6px; left: 6px; transform: scaleY(-1); }
-.corner.br { bottom: 6px; right: 6px; transform: scale(-1); }
+.corner.tl { top: calc(6px + env(safe-area-inset-top, 0px)); left: calc(6px + env(safe-area-inset-left, 0px)); }
+.corner.tr { top: calc(6px + env(safe-area-inset-top, 0px)); right: calc(6px + env(safe-area-inset-right, 0px)); transform: scaleX(-1); }
+.corner.bl { bottom: calc(6px + env(safe-area-inset-bottom, 0px)); left: calc(6px + env(safe-area-inset-left, 0px)); transform: scaleY(-1); }
+.corner.br { bottom: calc(6px + env(safe-area-inset-bottom, 0px)); right: calc(6px + env(safe-area-inset-right, 0px)); transform: scale(-1); }
 
 .topbar {
   position: sticky;
@@ -198,6 +221,21 @@ html.plate-ornament-corner .corner svg { visibility: hidden; }
   text-box-edge: cap alphabetic;
 }
 
+/* Phones fold Sound and Reset into the menu. Wide screens keep them in the grid. */
+.topbar .more-toggle { display: none; }
+.more-menu { display: contents; }
+
+.brand:active,
+.brand-mark:active,
+.colophon button:active,
+.sources .text-btn:active,
+.rail-btn:active,
+.icon-btn:active:not([aria-pressed="true"]) {
+  background: rgba(228, 195, 106, 0.16);
+}
+
+input, textarea, select { font-size: 16px; }
+
 .icon-btn[aria-pressed="true"] {
   color: var(--gold-ink);
   background: var(--gold-fill);
@@ -279,7 +317,7 @@ dialog {
   color: var(--ivory);
   padding: 22px;
   max-width: 380px;
-  width: calc(100% - 32px);
+  width: min(380px, calc(100% - 32px - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px)));
   box-shadow: 0 0 0 6px rgba(7, 10, 18, 0.72), 0 18px 50px rgba(0, 0, 0, 0.45);
 }
 
@@ -308,10 +346,10 @@ dialog p { color: var(--ivory); line-height: 1.5; }
 #ladder-toast {
   position: fixed;
   left: 50%;
-  bottom: 28px;
+  bottom: calc(28px + env(safe-area-inset-bottom, 0px));
   z-index: 60;
   width: max-content;
-  max-width: min(420px, 92vw);
+  max-width: min(420px, calc(100vw - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px) - 36px));
   margin: 0;
   background: var(--bg-card);
   color: var(--ivory);
@@ -536,14 +574,142 @@ html.plate-sunburst .atlas-halo::before {
 .dossier-unit li[data-state="wait"] { color: var(--ivory-soft); }
 .dossier-unit li[data-state="wait"] .climb-tag { color: var(--gold-deep); }
 
-@media (max-width: 420px) {
-  #reset { display: none; }
+@media (max-width: 1023px) {
+  .ornament { display: block; }
+
+  .corner { width: 32px; height: 32px; }
+
+  .ornament .inset {
+    top: calc(8px + env(safe-area-inset-top, 0px));
+    right: calc(8px + env(safe-area-inset-right, 0px));
+    bottom: calc(8px + env(safe-area-inset-bottom, 0px));
+    left: calc(8px + env(safe-area-inset-left, 0px));
+  }
+
+  .ornament .inset-2 {
+    top: calc(13px + env(safe-area-inset-top, 0px));
+    right: calc(13px + env(safe-area-inset-right, 0px));
+    bottom: calc(13px + env(safe-area-inset-bottom, 0px));
+    left: calc(13px + env(safe-area-inset-left, 0px));
+  }
+
+  .corner.tl { top: calc(1px + env(safe-area-inset-top, 0px)); left: calc(1px + env(safe-area-inset-left, 0px)); }
+  .corner.tr { top: calc(1px + env(safe-area-inset-top, 0px)); right: calc(1px + env(safe-area-inset-right, 0px)); }
+  .corner.bl { bottom: calc(1px + env(safe-area-inset-bottom, 0px)); left: calc(1px + env(safe-area-inset-left, 0px)); }
+  .corner.br { bottom: calc(1px + env(safe-area-inset-bottom, 0px)); right: calc(1px + env(safe-area-inset-right, 0px)); }
+
+  .app-shell {
+    width: 100%;
+    padding:
+      0
+      calc(env(safe-area-inset-right, 0px) + 22px)
+      calc(env(safe-area-inset-bottom, 0px) + 22px)
+      calc(env(safe-area-inset-left, 0px) + 22px);
+  }
+
   .topbar {
     grid-template-columns: auto minmax(0, 1fr) auto;
     grid-template-areas:
-      "mark brand mute"
+      "mark brand more"
       "streak xp xp";
+    gap: 6px 8px;
+    padding: calc(env(safe-area-inset-top, 0px) + 22px) 0 8px;
+    background: #070A12;
   }
+
+  .topbar .more-toggle {
+    display: inline-flex;
+    grid-area: more;
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
+    margin-right: 8px;
+    padding: 0;
+    text-box-trim: none;
+  }
+
+  .topbar .brand-mark { margin-left: 6px; }
+
+  .more-menu {
+    display: none;
+    position: absolute;
+    z-index: 6;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    justify-self: end;
+    align-self: start;
+    top: calc(100% + 8px);
+    right: 0;
+    left: auto;
+    width: 11.5rem;
+    height: auto;
+    margin: 0;
+    padding: 6px;
+    background: rgba(7, 10, 18, 0.98);
+    border: 1px solid rgba(228, 195, 106, 0.5);
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.5);
+  }
+
+  .more-menu.is-open {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .more-menu #mute,
+  .more-menu #reset {
+    grid-area: auto;
+    position: static;
+    width: 100%;
+    min-height: 44px;
+    padding: 0 14px;
+    font-size: 16px;
+    text-box-trim: none;
+  }
+
+  .brand-mark {
+    width: 44px;
+    height: 44px;
+  }
+
+  .topbar .brand {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    font-size: clamp(16px, 4.2vw, 1.15rem);
+  }
+
+  .icon-btn,
+  .text-btn,
+  .dialog-actions button,
+  .sources .text-btn,
+  .colophon button,
+  .rail-btn,
+  button,
+  input,
+  textarea,
+  select {
+    font-size: 16px;
+  }
+
+  .icon-btn,
+  .text-btn,
+  .dialog-actions button,
+  .sources .text-btn,
+  .colophon button,
+  .brand-mark,
+  .more-toggle {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  .colophon {
+    padding: 8px 2px 2px;
+    gap: 8px;
+  }
+
+  .colophon button { padding: 8px 4px; }
 }
 
 @media (min-width: 1024px) {
@@ -552,7 +718,11 @@ html.plate-sunburst .atlas-halo::before {
   body.is-wide .app-shell {
     width: 100%;
     max-width: none;
-    padding: 8px 28px 0;
+    padding:
+      8px
+      calc(28px + env(safe-area-inset-right, 0px))
+      env(safe-area-inset-bottom, 0px)
+      calc(28px + env(safe-area-inset-left, 0px));
   }
 
   body.is-wide .topbar {
@@ -586,8 +756,8 @@ html.plate-sunburst .atlas-halo::before {
     display: flex;
     flex-direction: column;
     position: sticky;
-    top: 84px;
-    max-height: calc(100dvh - 108px);
+    top: calc(84px + env(safe-area-inset-top, 0px));
+    max-height: calc(var(--page-height) - 108px - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
     overflow: auto;
     background: transparent;
     z-index: 2;
@@ -629,7 +799,7 @@ html.plate-sunburst .atlas-halo::before {
 
   body.is-lesson .app-shell,
   body.is-sources .app-shell {
-    width: min(1180px, calc(100% - 48px));
+    width: min(1180px, calc(100% - 48px - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px)));
   }
 
   body.is-celebrate .app-shell { width: 100%; max-width: none; }
