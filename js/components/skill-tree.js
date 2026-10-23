@@ -55,9 +55,17 @@ export class SkillTreeElement extends HTMLElement {
     this.style.visibility = 'hidden';
     requestAnimationFrame(() => {
       if (focus) {
-        const top = focus.getBoundingClientRect().top + window.scrollY;
-        if (top > window.innerHeight * 0.85) focus.scrollIntoView({ block: 'center' });
-        else window.scrollTo(0, 0);
+        const headerH = document.querySelector('.topbar')?.offsetHeight || 0;
+        const rect = focus.getBoundingClientRect();
+        const inView = rect.top >= headerH && rect.bottom <= window.innerHeight - 8;
+        if (!inView) {
+          const plaque = focus.closest('.section-stack')?.querySelector('.plaque');
+          const anchor = plaque || focus;
+          const y = anchor.getBoundingClientRect().top + window.scrollY - headerH - 10;
+          window.scrollTo(0, Math.max(0, y));
+        } else {
+          window.scrollTo(0, 0);
+        }
       }
       this.style.visibility = 'visible';
     });

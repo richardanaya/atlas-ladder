@@ -51,12 +51,35 @@ export class App {
     const goHome = () => this.router.go('/');
     document.querySelector('#home').addEventListener('click', goHome);
     document.querySelector('#brand-home').addEventListener('click', goHome);
+    const more = document.querySelector('#more');
+    const menu = document.querySelector('#more-menu');
+    const closeMenu = () => {
+      menu.classList.remove('is-open');
+      more.setAttribute('aria-expanded', 'false');
+      more.setAttribute('aria-label', 'Open menu');
+    };
+    more.addEventListener('click', () => {
+      const open = menu.classList.toggle('is-open');
+      more.setAttribute('aria-expanded', open ? 'true' : 'false');
+      more.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    });
+    document.addEventListener('click', (event) => {
+      if (!menu.classList.contains('is-open')) return;
+      if (event.target.closest('#more, #more-menu')) return;
+      closeMenu();
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') closeMenu();
+    });
     document.querySelector('#mute').addEventListener('click', () => {
       const muted = this.sound.toggle();
       this._renderMute(muted);
     });
     const dialog = document.querySelector('#reset-dialog');
-    document.querySelector('#reset').addEventListener('click', () => dialog.showModal());
+    document.querySelector('#reset').addEventListener('click', () => {
+      closeMenu();
+      dialog.showModal();
+    });
     dialog.addEventListener('close', () => {
       if (dialog.returnValue !== 'reset') return;
       this.store.reset();
@@ -90,9 +113,8 @@ export class App {
     const streak = document.querySelector('#streak');
     const xp = document.querySelector('#xp');
     const meters = document.querySelector('#dossier-meters');
-    const mute = document.querySelector('#mute');
     if (wide) meters.append(streak, xp);
-    else mute.before(streak, xp);
+    else document.querySelector('#more').before(streak, xp);
     if (wide) {
       this._renderRail();
       this._renderDossier();

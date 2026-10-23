@@ -1,7 +1,10 @@
 /* Component drawings. An assets/ plate hides its drawing once [data-slot] loads.
    Motion stays on these elements so a plate still bobs, glows, or flickers.
    Shadow trees do not inherit the page's border-box reset. */
-:host, :host * { box-sizing: border-box; }
+:host, :host * {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
 
 :host(atlas-mascot) { display: inline-block; width: 168px; height: 220px; color: var(--gold); }
 :host(atlas-mascot[size="sm"]) { width: 96px; height: 126px; }
@@ -178,7 +181,7 @@
   background: transparent;
   color: var(--ivory);
   font-family: var(--font);
-  min-height: calc(100dvh - 132px);
+  min-height: calc(var(--page-height) - 132px);
   position: relative;
   z-index: 1;
 }
@@ -378,11 +381,7 @@
   font-weight: 600;
 }
 @keyframes start-glow {
-  50% {
-    filter:
-      drop-shadow(0 0 10px rgba(255, 236, 190, 1))
-      drop-shadow(0 0 24px rgba(228, 195, 106, 0.85));
-  }
+  50% { transform: scale(1.05); }
 }
 :host(skill-tree) .is-fresh .octo { animation: pop 0.55s ease; }
 @keyframes pop {
@@ -434,7 +433,7 @@
   background: transparent;
   color: var(--ivory);
   font-family: var(--font);
-  min-height: calc(100dvh - 150px);
+  min-height: calc(var(--page-height) - 150px);
 }
 :host(lesson-player) .lp { padding: 8px 16px 28px; }
 :host(lesson-player) .lp-top {
@@ -561,7 +560,10 @@
 :host(lesson-player) .check { width: 100%; }
 :host(lesson-player) .check:hover:not(:disabled),
 :host(lesson-player) .continue:hover,
-:host(lesson-complete) .continue:hover { background: var(--gold-bright); }
+:host(lesson-complete) .continue:hover,
+:host(lesson-player) .check:active:not(:disabled),
+:host(lesson-player) .continue:active,
+:host(lesson-complete) .continue:active { background: var(--gold-bright); }
 :host(lesson-player) .check:disabled { opacity: 0.4; cursor: default; }
 :host(lesson-player) .check:focus-visible,
 :host(lesson-player) .continue:focus-visible,
@@ -572,9 +574,9 @@
 :host(lesson-player) .banner {
   position: fixed;
   left: 50%;
-  bottom: 0;
-  width: min(560px, 100%);
-  z-index: 30;
+  bottom: env(safe-area-inset-bottom, 0px);
+  width: min(560px, calc(100% - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px) - 24px));
+  z-index: 45;
   display: grid;
   grid-template-columns: 96px 1fr;
   gap: 8px;
@@ -666,6 +668,13 @@
 :host(exercise-quote) .option:hover,
 :host(exercise-match) .chip:hover,
 :host(exercise-fill) .token:hover { border-color: var(--gold-bright); }
+:host(exercise-choice) .option:active:not(.is-selected):not(.is-correct):not(.is-wrong),
+:host(exercise-quote) .option:active:not(.is-selected):not(.is-correct):not(.is-wrong),
+:host(exercise-match) .chip:active:not(.is-selected):not(.is-correct):not(.is-wrong),
+:host(exercise-fill) .token:active:not(.is-selected):not(.is-correct):not(.is-wrong) {
+  border-color: var(--gold-bright);
+  background: rgba(228, 195, 106, 0.12);
+}
 :host(exercise-choice) .option:focus-visible,
 :host(exercise-quote) .option:focus-visible,
 :host(exercise-match) .chip:focus-visible,
@@ -701,9 +710,10 @@
 }
 :host(exercise-match) .hint,
 :host(exercise-fill) .placeholder { color: var(--gold-deep); font-size: 0.85rem; }
-:host(exercise-match) .match { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+:host(exercise-match) .match { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; touch-action: none; }
 :host(exercise-match) .col { display: grid; gap: 8px; align-content: start; }
-:host(exercise-match) .chip { touch-action: none; user-select: none; }
+:host(exercise-match) .chip,
+:host(exercise-match) .ghost { touch-action: none; user-select: none; }
 :host(exercise-match) .chip.is-paired { outline: 2px solid var(--gold-bright); }
 :host(exercise-match) .chip.is-ghosted { opacity: 0.35; }
 :host(exercise-match) .ghost {
@@ -746,7 +756,7 @@
   display: block;
   position: relative;
   overflow: hidden;
-  min-height: calc(100dvh - 120px);
+  min-height: calc(var(--page-height) - 120px);
   background-color: transparent;
   background-image: var(--image-bg-celebrate), var(--pattern-celebrate);
   background-size: cover, auto;
@@ -874,6 +884,132 @@
   :host-context(body.is-wide):host(skill-tree) .octo-face { width: 76px; height: 76px; }
   :host-context(body.is-wide):host(skill-tree) .octo-face svg { width: 32px; height: 32px; }
   :host-context(body.is-wide):host(skill-tree) .floor-label { font-size: 0.92rem; }
+}
+
+@media (max-width: 1023px) {
+  :host(skill-tree) .entrance,
+  :host(skill-tree) .crown { padding: 2px 6px 4px; }
+  :host(skill-tree) .entrance atlas-mascot { width: 72px; height: 94px; }
+  :host(skill-tree) .eyebrow,
+  :host(skill-tree) .plaque-kicker,
+  :host(skill-tree) .soon-kicker {
+    font-size: 0.62rem;
+    letter-spacing: 0.18em;
+    margin: 0 0 4px;
+  }
+  :host(skill-tree) .lede,
+  :host(skill-tree) .footnote {
+    margin: 4px auto 6px;
+    font-size: 0.88rem;
+    line-height: 1.35;
+  }
+  :host(skill-tree) .section-stack {
+    width: 100%;
+    margin: 0;
+    padding: 8px 6px 12px;
+    border: 1px solid rgba(228, 195, 106, 0.4);
+    background: rgba(12, 18, 32, 0.72);
+    box-shadow: inset 0 0 0 5px rgba(7, 10, 18, 0.35);
+  }
+  :host(skill-tree) .plaque {
+    margin: 2px 6px 0;
+    padding: 2px 6px 4px;
+  }
+  :host(skill-tree) .plaque h2 {
+    font-size: 1.12rem;
+    letter-spacing: 0.1em;
+    margin: 0 0 2px;
+  }
+  :host(skill-tree) .plaque p {
+    font-size: 0.88rem;
+    line-height: 1.35;
+  }
+  :host(skill-tree) .unit-name {
+    margin: 6px auto 2px;
+    padding: 3px 8px;
+    font-size: 0.62rem;
+  }
+  :host(skill-tree) .floor { padding: 2px 6px 6px; }
+  :host(skill-tree) .node {
+    gap: 4px;
+    min-width: 44px;
+    min-height: 44px;
+  }
+  :host(skill-tree) .octo { width: 64px; height: 64px; }
+  :host(skill-tree) .octo-face { width: 52px; height: 52px; }
+  :host(skill-tree) .octo-face svg { width: 22px; height: 22px; }
+  :host(skill-tree) .floor-label { font-size: 0.8rem; }
+  :host(skill-tree) .soon {
+    margin: 8px 4px;
+    padding: 10px;
+    gap: 8px;
+  }
+  :host(skill-tree) .soon h3 { font-size: 0.95rem; }
+  :host(skill-tree) .soon p { font-size: 0.84rem; }
+  :host(skill-tree) .octo.dim { width: 44px; height: 44px; }
+  :host(skill-tree) .octo.dim .octo-face { width: 36px; height: 36px; }
+
+  :host(lesson-player) .lp { max-width: none; margin: 0; padding: 2px 0 12px; }
+  :host(lesson-player) .lp-layout { grid-template-columns: none; }
+  :host(lesson-player) .lp-top { gap: 8px; margin-bottom: 4px; }
+  :host(lesson-player) .lp-hero atlas-mascot { width: 88px; height: 116px; }
+  :host(lesson-player) .kicker { font-size: 0.68rem; letter-spacing: 0.14em; margin-bottom: 4px; }
+  :host(lesson-player) .stage { padding: 16px 12px 12px; }
+  :host(lesson-player) .intro h2 { font-size: 1.2rem; margin: 2px 0 6px; }
+  :host(lesson-player) .intro p { font-size: 0.95rem; }
+  :host(lesson-player) .actions:not([hidden]) { padding-top: 10px; }
+  :host(exercise-choice) .prompt,
+  :host(exercise-quote) .prompt,
+  :host(exercise-match) .prompt,
+  :host(exercise-fill) .prompt {
+    font-size: 1.05rem;
+    margin: 0 0 10px;
+    padding-bottom: 8px;
+  }
+  :host(exercise-quote) blockquote { font-size: 0.95rem; padding: 10px 12px; }
+  :host(exercise-choice) .options,
+  :host(exercise-quote) .options { gap: 8px; }
+  :host(exercise-choice) .option,
+  :host(exercise-quote) .option,
+  :host(exercise-match) .chip,
+  :host(exercise-fill) .token,
+  :host(exercise-fill) .slot,
+  :host(lesson-player) .check,
+  :host(lesson-player) .continue,
+  :host(lesson-complete) .continue {
+    font-size: 16px;
+    min-height: 44px;
+    min-width: 44px;
+    padding: 8px 14px;
+  }
+  :host(lesson-player) .check { width: 100%; }
+  :host(lesson-player) .banner {
+    grid-template-columns: 64px 1fr;
+    gap: 6px;
+    padding: 10px 12px 12px;
+    bottom: calc(env(safe-area-inset-bottom, 0px) + 16px);
+    width: min(520px, calc(100% - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px) - 40px));
+  }
+  :host(lesson-player) .banner atlas-mascot { width: 64px; height: 84px; }
+  :host(lesson-player) .verdict { font-size: 1.05rem; }
+  :host(lesson-complete) h2 { font-size: clamp(1.6rem, 7vw, 2.2rem); }
+  :host(lesson-complete) .xp-pop { font-size: 1.6rem; }
+  :host(lesson-complete) .done { padding: 16px 8px 24px; }
+  :host(lesson-complete) .sun { width: 112px; height: 112px; margin: -8px auto -48px; }
+}
+
+@media (max-width: 1023px) and (max-height: 500px) {
+  :host(skill-tree) .entrance atlas-mascot { width: 56px; height: 74px; }
+  :host(lesson-player) .lp-hero atlas-mascot { width: 64px; height: 84px; }
+  :host(skill-tree) .plaque p { font-size: 0.82rem; }
+}
+
+@media (max-width: 1023px) and (max-height: 420px) {
+  :host(skill-tree) .entrance { display: none; }
+  :host(skill-tree) .octo { width: 56px; height: 56px; }
+  :host(skill-tree) .octo-face { width: 46px; height: 46px; }
+  :host(skill-tree) .floor { padding: 2px 6px 4px; }
+  :host(skill-tree) .plaque p { font-size: 0.8rem; line-height: 1.3; }
 }
 
 @media (max-width: 380px) {
