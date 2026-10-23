@@ -1,5 +1,7 @@
 /* Component drawings. An assets/ plate hides its drawing once [data-slot] loads.
-   Motion stays on these elements so a plate still bobs, glows, or flickers. */
+   Motion stays on these elements so a plate still bobs, glows, or flickers.
+   Shadow trees do not inherit the page's border-box reset. */
+:host, :host * { box-sizing: border-box; }
 
 :host(atlas-mascot) { display: inline-block; width: 168px; height: 220px; color: var(--gold); }
 :host(atlas-mascot[size="sm"]) { width: 96px; height: 126px; }
