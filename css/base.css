@@ -125,6 +125,7 @@ html.plate-ornament-corner .corner svg { visibility: hidden; }
 .brand-mark {
   display: grid;
   place-items: center;
+  align-self: center;
   width: 40px;
   height: 40px;
   padding: 0;
@@ -146,11 +147,17 @@ html.plate-ornament-corner .corner svg { visibility: hidden; }
   letter-spacing: 0.14em;
   text-transform: uppercase;
   font-size: clamp(0.82rem, 3.4vw, 1.15rem);
+  line-height: 1;
+  text-box-trim: trim-both;
+  text-box-edge: cap alphabetic;
   color: var(--gold);
   text-align: left;
   cursor: pointer;
   min-width: 0;
   white-space: nowrap;
+  align-self: center;
+  /* Cinzel's cap box still sits high of the icon after trimming. */
+  transform: translateY(0.035em);
 }
 
 .brand:focus-visible,
@@ -177,7 +184,18 @@ html.plate-ornament-corner .corner svg { visibility: hidden; }
   letter-spacing: 0.14em;
   text-transform: uppercase;
   font-size: 0.68rem;
+  line-height: 1;
   cursor: pointer;
+}
+
+.topbar .icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding: 4px 12px 0;
+  text-box-trim: trim-both;
+  text-box-edge: cap alphabetic;
 }
 
 .icon-btn[aria-pressed="true"] {
