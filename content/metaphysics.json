@@ -38,12 +38,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It has used existence: the denial is something he is asserting"
-            },
-            {
               "id": "b",
               "text": "It has shown that only ideas exist"
+            },
+            {
+              "id": "a",
+              "text": "It has used existence: the denial is something he is asserting"
             },
             {
               "id": "c",
@@ -67,16 +67,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The opponent must accept the axiom and use it in the denial"
-            },
-            {
               "id": "b",
               "text": "The axiom wins because it is the most useful working rule"
             },
             {
               "id": "c",
               "text": "The axiom is a label one may drop without using any fact"
+            },
+            {
+              "id": "a",
+              "text": "The opponent must accept the axiom and use it in the denial"
             },
             {
               "id": "d",
@@ -97,10 +97,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Existence, identity as a corollary of existence, and consciousness"
-            },
-            {
               "id": "b",
               "text": "Wish, agreement, and a divine author of the world"
             },
@@ -111,6 +107,10 @@
             {
               "id": "d",
               "text": "A name for a philosophy, a slogan, and a political program"
+            },
+            {
+              "id": "a",
+              "text": "Existence, identity as a corollary of existence, and consciousness"
             }
           ],
           "feedback": {
@@ -222,6 +222,10 @@
               "text": "must"
             },
             {
+              "id": "d1",
+              "text": "renames"
+            },
+            {
               "id": "t4",
               "text": "use"
             },
@@ -234,20 +238,16 @@
               "text": "axiom"
             },
             {
+              "id": "d2",
+              "text": "escapes"
+            },
+            {
               "id": "t7",
               "text": "it"
             },
             {
               "id": "t8",
               "text": "denies"
-            },
-            {
-              "id": "d1",
-              "text": "renames"
-            },
-            {
-              "id": "d2",
-              "text": "escapes"
             }
           ],
           "answer": [
@@ -276,12 +276,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Something is, and it does not depend on being noticed"
-            },
-            {
               "id": "b",
               "text": "Only ideas exist"
+            },
+            {
+              "id": "a",
+              "text": "Something is, and it does not depend on being noticed"
             },
             {
               "id": "c",
@@ -304,16 +304,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The rock exists, with no awareness of it required"
-            },
-            {
               "id": "b",
               "text": "The rock exists only as an idea in a mind that is absent"
             },
             {
               "id": "c",
               "text": "The rock waits to exist until some perceiver arrives"
+            },
+            {
+              "id": "a",
+              "text": "The rock exists, with no awareness of it required"
             },
             {
               "id": "d",
@@ -333,10 +333,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Something exists which one perceives, and one exists as conscious of it"
-            },
-            {
               "id": "b",
               "text": "Only the act of perceiving is real, and the object is optional"
             },
@@ -347,6 +343,10 @@
             {
               "id": "d",
               "text": "What exists is whatever the perceiver decides the object is"
+            },
+            {
+              "id": "a",
+              "text": "Something exists which one perceives, and one exists as conscious of it"
             }
           ],
           "feedback": {
@@ -422,12 +422,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It replaces what exists with the contents of a mind"
-            },
-            {
               "id": "b",
               "text": "It treats a change over time as a contradiction"
+            },
+            {
+              "id": "a",
+              "text": "It replaces what exists with the contents of a mind"
             },
             {
               "id": "c",
@@ -464,8 +464,8 @@
             }
           ],
           "bank": [
-            "something",
             "nothing",
+            "something",
             "a wish",
             "a vote"
           ],
@@ -493,16 +493,16 @@
               "text": "independent"
             },
             {
+              "id": "d1",
+              "text": "ideas"
+            },
+            {
               "id": "t4",
               "text": "of"
             },
             {
               "id": "t5",
               "text": "awareness"
-            },
-            {
-              "id": "d1",
-              "text": "ideas"
             },
             {
               "id": "d2",
@@ -532,16 +532,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "To be something of a specific nature"
-            },
-            {
               "id": "b",
               "text": "To be nothing in particular"
             },
             {
               "id": "c",
               "text": "To be whatever a viewer feels it to be"
+            },
+            {
+              "id": "a",
+              "text": "To be something of a specific nature"
             },
             {
               "id": "d",
@@ -560,10 +560,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The change across time is not a contradiction"
-            },
-            {
               "id": "b",
               "text": "The leaf was both colors in the same respect at the same time"
             },
@@ -574,6 +570,10 @@
             {
               "id": "d",
               "text": "The autumn color rewrites the fact that it was green"
+            },
+            {
+              "id": "a",
+              "text": "The change across time is not a contradiction"
             }
           ],
           "feedback": {
@@ -619,12 +619,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Identity keeps a thing to its nature; action that fits the nature is not a breach"
-            },
-            {
               "id": "b",
               "text": "A is A is only a custom about how words are used"
+            },
+            {
+              "id": "a",
+              "text": "Identity keeps a thing to its nature; action that fits the nature is not a breach"
             },
             {
               "id": "c",
@@ -678,16 +678,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The clash is in the record of the thinking; the bill is not both"
-            },
-            {
               "id": "b",
               "text": "Identity allows both if the clerk feels strongly enough"
             },
             {
               "id": "c",
               "text": "A vote of the office can make both descriptions true together"
+            },
+            {
+              "id": "a",
+              "text": "The clash is in the record of the thinking; the bill is not both"
             },
             {
               "id": "d",
@@ -720,9 +720,9 @@
             }
           ],
           "bank": [
-            "a specific nature",
             "no nature",
             "a wish",
+            "a specific nature",
             "a vote"
           ],
           "feedback": {
@@ -757,16 +757,16 @@
               "text": "error"
             },
             {
+              "id": "d1",
+              "text": "a feature"
+            },
+            {
               "id": "t6",
               "text": "in"
             },
             {
               "id": "t7",
               "text": "thinking"
-            },
-            {
-              "id": "d1",
-              "text": "a feature"
             },
             {
               "id": "d2",
@@ -798,20 +798,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It perceives and identifies what exists; it does not create it"
-            },
-            {
               "id": "b",
-              "text": "It creates the objects it then seems to find"
+              "text": "It creates the objects it then seems to find, and discovery follows"
             },
             {
               "id": "c",
-              "text": "It is aware of nothing but itself"
+              "text": "It is aware of nothing but itself, so no outside thing is an object"
             },
             {
               "id": "d",
-              "text": "It turns wishes into the things it names"
+              "text": "It turns wishes into the things it names, so the wish is the body"
+            },
+            {
+              "id": "a",
+              "text": "It perceives and identifies what exists; it does not create it"
             }
           ],
           "feedback": {
@@ -831,15 +831,15 @@
             },
             {
               "id": "b",
-              "text": "The identification created the planet"
+              "text": "The identification created the planet, so the orbit began at the naming"
             },
             {
               "id": "c",
-              "text": "The planet exists only as a form of the astronomer's intuition"
+              "text": "The planet exists only as a form of the astronomer's intuition, not as a body"
             },
             {
               "id": "d",
-              "text": "The wish to find a planet was the planet"
+              "text": "The wish to find a planet was the planet, so wanting it brought the body into being"
             }
           ],
           "feedback": {
@@ -855,12 +855,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Consciousness perceives that which exists"
-            },
-            {
               "id": "b",
               "text": "Consciousness writes the existence it then perceives"
+            },
+            {
+              "id": "a",
+              "text": "Consciousness perceives that which exists"
             },
             {
               "id": "c",
@@ -885,20 +885,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Wishes are rocks, and rocks are wishes, so a feeling is the stone"
+            },
+            {
+              "id": "c",
+              "text": "The senses invent their objects by taking a vote, so agreement makes the thing"
+            },
+            {
               "id": "a",
               "text": "The mind's forms structure experience, so we do not know things as they are"
             },
             {
-              "id": "b",
-              "text": "Wishes are rocks, and rocks are wishes"
-            },
-            {
-              "id": "c",
-              "text": "The senses invent their objects by taking a vote"
-            },
-            {
               "id": "d",
-              "text": "Things act against their natures whenever a mind is present"
+              "text": "Things act against their natures whenever a mind is present, as the mind requires"
             }
           ],
           "feedback": {
@@ -944,10 +944,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A consciousness conscious only of itself is a contradiction"
-            },
-            {
               "id": "b",
               "text": "This is the axiom that existence exists"
             },
@@ -958,6 +954,10 @@
             {
               "id": "d",
               "text": "This is a man-made fact one must accept without judgment"
+            },
+            {
+              "id": "a",
+              "text": "A consciousness conscious only of itself is a contradiction"
             }
           ],
           "feedback": {
@@ -986,10 +986,10 @@
             }
           ],
           "bank": [
-            "identification",
             "creation",
             "a wish",
-            "a vote"
+            "a vote",
+            "identification"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -1007,6 +1007,10 @@
               "text": "Consciousness"
             },
             {
+              "id": "d1",
+              "text": "creates"
+            },
+            {
               "id": "t2",
               "text": "perceives"
             },
@@ -1019,16 +1023,12 @@
               "text": "which"
             },
             {
-              "id": "t5",
-              "text": "exists"
-            },
-            {
-              "id": "d1",
-              "text": "creates"
-            },
-            {
               "id": "d2",
               "text": "decrees"
+            },
+            {
+              "id": "t5",
+              "text": "exists"
             }
           ],
           "answer": [
@@ -1083,12 +1083,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "What exists has identity, and consciousness identifies it"
-            },
-            {
               "id": "b",
               "text": "Consciousness creates the identity it then reports"
+            },
+            {
+              "id": "a",
+              "text": "What exists has identity, and consciousness identifies it"
             },
             {
               "id": "c",
@@ -1113,16 +1113,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Identity is a corollary: to exist is already to be something"
-            },
-            {
               "id": "b",
               "text": "Identity is a man-made rule added later by agreement"
             },
             {
               "id": "c",
               "text": "Identity applies only while nothing acts"
+            },
+            {
+              "id": "a",
+              "text": "Identity is a corollary: to exist is already to be something"
             },
             {
               "id": "d",
@@ -1141,20 +1141,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Consciousness is real, so one must say whether it apprehends existence or claims to produce it"
-            },
-            {
               "id": "b",
-              "text": "Primacy means a wish outranks the fact it is about"
+              "text": "Primacy means a wish outranks the fact it is about, so the stronger feeling decides what is"
             },
             {
               "id": "c",
-              "text": "The axioms already say that the universe is a product of consciousness"
+              "text": "The axioms already say that the universe is a product of consciousness, so nothing remains to ask"
             },
             {
               "id": "d",
-              "text": "Primacy cancels identity and leaves existence without a nature"
+              "text": "Primacy cancels identity and leaves existence without a nature, once consciousness is granted"
+            },
+            {
+              "id": "a",
+              "text": "Consciousness is real, so one must say whether it apprehends existence or claims to produce it"
             }
           ],
           "feedback": {
@@ -1263,6 +1263,10 @@
               "text": "Existence"
             },
             {
+              "id": "d1",
+              "text": "creates"
+            },
+            {
               "id": "t2",
               "text": "is"
             },
@@ -1283,16 +1287,12 @@
               "text": "is"
             },
             {
-              "id": "t7",
-              "text": "identification"
-            },
-            {
-              "id": "d1",
-              "text": "creates"
-            },
-            {
               "id": "d2",
               "text": "replaces"
+            },
+            {
+              "id": "t7",
+              "text": "identification"
             }
           ],
           "answer": [
@@ -1320,12 +1320,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The law of identity applied to action"
-            },
-            {
               "id": "b",
               "text": "A second axiom that can override identity when things act"
+            },
+            {
+              "id": "a",
+              "text": "The law of identity applied to action"
             },
             {
               "id": "c",
@@ -1348,16 +1348,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Each action follows from what the cotton, the fire, and the stone are"
-            },
-            {
               "id": "b",
               "text": "The same sequence has been noticed, and the noticing is the cause"
             },
             {
               "id": "c",
               "text": "A will assigned burning to cotton for today and may reassign it"
+            },
+            {
+              "id": "a",
+              "text": "Each action follows from what the cotton, the fire, and the stone are"
             },
             {
               "id": "d",
@@ -1377,10 +1377,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Causality is identity in the form of action, not a separate rule"
-            },
-            {
               "id": "b",
               "text": "Causality replaces identity whenever something acts"
             },
@@ -1391,6 +1387,10 @@
             {
               "id": "d",
               "text": "Causality is only the observation that one event follows another"
+            },
+            {
+              "id": "a",
+              "text": "Causality is identity in the form of action, not a separate rule"
             }
           ],
           "feedback": {
@@ -1466,12 +1466,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The natures of the spark and the fuel, which are what act"
-            },
-            {
               "id": "b",
               "text": "Nothing: expectation is the entity that burns"
+            },
+            {
+              "id": "a",
+              "text": "The natures of the spark and the fuel, which are what act"
             },
             {
               "id": "c",
@@ -1508,8 +1508,8 @@
             }
           ],
           "bank": [
-            "action",
             "chance",
+            "action",
             "a wish",
             "a vote"
           ],
@@ -1525,8 +1525,16 @@
           "prompt": "Assemble the short statement of causality.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "chance"
+            },
+            {
               "id": "t1",
               "text": "Causality"
+            },
+            {
+              "id": "d2",
+              "text": "decree"
             },
             {
               "id": "t2",
@@ -1547,14 +1555,6 @@
             {
               "id": "t6",
               "text": "action"
-            },
-            {
-              "id": "d1",
-              "text": "chance"
-            },
-            {
-              "id": "d2",
-              "text": "decree"
             }
           ],
           "answer": [
@@ -1581,16 +1581,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "In the nature of the entities that act"
-            },
-            {
               "id": "b",
               "text": "In a push that has no entity behind it"
             },
             {
               "id": "c",
               "text": "In the observer's expectation that the action would occur"
+            },
+            {
+              "id": "a",
+              "text": "In the nature of the entities that act"
             },
             {
               "id": "d",
@@ -1609,10 +1609,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The natures of the acid, the metal, and the glass"
-            },
-            {
               "id": "b",
               "text": "A cause floating free of any of the three"
             },
@@ -1623,6 +1619,10 @@
             {
               "id": "d",
               "text": "A decree that could reverse the results with no change in the natures"
+            },
+            {
+              "id": "a",
+              "text": "The natures of the acid, the metal, and the glass"
             }
           ],
           "feedback": {
@@ -1668,20 +1668,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "This is identity applied to action, correctly stated, so the entity adds nothing"
+            },
+            {
               "id": "a",
               "text": "The force is the action of entities, not a substitute that leaves them out"
             },
             {
-              "id": "b",
-              "text": "This is identity applied to action, correctly stated"
-            },
-            {
               "id": "c",
-              "text": "A force with no nature is the primary existent"
+              "text": "A force with no nature is the primary existent, and entities are only its seats"
             },
             {
               "id": "d",
-              "text": "Constant conjunction is the entity he has identified"
+              "text": "Constant conjunction is the entity he has identified, so the sequence itself acts"
             }
           ],
           "feedback": {
@@ -1727,16 +1727,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The impact is the balls acting; dropping the balls drops the cause"
-            },
-            {
               "id": "b",
               "text": "Events cause events, and the entities are optional scenery"
             },
             {
               "id": "c",
               "text": "The cause is the player's wish that they move"
+            },
+            {
+              "id": "a",
+              "text": "The impact is the balls acting; dropping the balls drops the cause"
             },
             {
               "id": "d",
@@ -1769,9 +1769,9 @@
             }
           ],
           "bank": [
-            "entities",
             "wishes",
             "chances",
+            "entities",
             "votes"
           ],
           "feedback": {
@@ -1798,6 +1798,10 @@
               "text": "of"
             },
             {
+              "id": "d1",
+              "text": "chance"
+            },
+            {
               "id": "t4",
               "text": "the"
             },
@@ -1816,10 +1820,6 @@
             {
               "id": "t8",
               "text": "action"
-            },
-            {
-              "id": "d1",
-              "text": "chance"
             },
             {
               "id": "d2",
@@ -1852,10 +1852,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "An action that contradicts what the entity is"
-            },
-            {
               "id": "b",
               "text": "Every action, on the ground that identity means stillness"
             },
@@ -1866,6 +1862,10 @@
             {
               "id": "d",
               "text": "The choice to focus, on the ground that a mind has no nature"
+            },
+            {
+              "id": "a",
+              "text": "An action that contradicts what the entity is"
             }
           ],
           "feedback": {
@@ -1885,15 +1885,15 @@
             },
             {
               "id": "b",
-              "text": "The alternative is uncaused chance"
+              "text": "The alternative is uncaused chance, so a drift has no nature behind the focus"
             },
             {
               "id": "c",
-              "text": "The alternative is a decree from outside the mind's nature"
+              "text": "The alternative is a decree from outside the mind's nature, and the mind only receives it"
             },
             {
               "id": "d",
-              "text": "Causality pauses wherever a mind is in a position to choose"
+              "text": "Causality pauses wherever a mind is in a position to choose, then returns after the drift"
             }
           ],
           "feedback": {
@@ -1909,12 +1909,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The entity's nature sets the action, and the entity cannot do the opposite of that"
-            },
-            {
               "id": "b",
               "text": "The action is set by a will outside the entity"
+            },
+            {
+              "id": "a",
+              "text": "The entity's nature sets the action, and the entity cannot do the opposite of that"
             },
             {
               "id": "c",
@@ -1939,20 +1939,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The choice shows that only sequences are real, as Hume held, so no mental nature acts"
+            },
+            {
+              "id": "c",
+              "text": "A divine will has to fill the gap the choice opens, or the choice has no cause at all"
+            },
+            {
               "id": "a",
               "text": "The cause is the nature of a volitional consciousness; the choice is that nature in action"
             },
             {
-              "id": "b",
-              "text": "The choice shows that only sequences are real, as Hume held"
-            },
-            {
-              "id": "c",
-              "text": "A divine will has to fill the gap the choice opens"
-            },
-            {
               "id": "d",
-              "text": "Identity does not apply to minds, so the failure is expected"
+              "text": "Identity does not apply to minds, so the failure is expected and bodies alone stay under the law"
             }
           ],
           "feedback": {
@@ -1998,20 +1998,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It asks the ice to act against the nature that sets its action"
-            },
-            {
               "id": "b",
-              "text": "Melting is a contradiction inside the ice"
+              "text": "Melting is a contradiction inside the ice, so heat denies the ice"
             },
             {
               "id": "c",
-              "text": "Heat is only constant conjunction and not a cause"
+              "text": "Heat is only constant conjunction and not a cause, so nothing acts"
             },
             {
               "id": "d",
-              "text": "The need, if voted, becomes the ice's identity"
+              "text": "The need, if voted, becomes the ice's identity, and solidity follows"
+            },
+            {
+              "id": "a",
+              "text": "It asks the ice to act against the nature that sets its action"
             }
           ],
           "feedback": {
@@ -2040,10 +2040,10 @@
             }
           ],
           "bank": [
-            "nature",
             "past",
             "chance",
-            "wish"
+            "wish",
+            "nature"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -2065,8 +2065,16 @@
               "text": "acts"
             },
             {
+              "id": "d1",
+              "text": "against"
+            },
+            {
               "id": "t3",
               "text": "by"
+            },
+            {
+              "id": "d2",
+              "text": "chance"
             },
             {
               "id": "t4",
@@ -2079,14 +2087,6 @@
             {
               "id": "t6",
               "text": "nature"
-            },
-            {
-              "id": "d1",
-              "text": "against"
-            },
-            {
-              "id": "d2",
-              "text": "chance"
             }
           ],
           "answer": [
@@ -2118,15 +2118,15 @@
             },
             {
               "id": "b",
-              "text": "The nature of the entity that acts"
+              "text": "The nature of the entity that acts, rejected here as a rival of the law"
             },
             {
               "id": "c",
-              "text": "Identity applied to action"
+              "text": "Identity applied to action, set aside here as one more rival formula"
             },
             {
               "id": "d",
-              "text": "The fact that a volitional consciousness has a nature"
+              "text": "The fact that a volitional consciousness has a nature, as a rival to drop"
             }
           ],
           "feedback": {
@@ -2141,12 +2141,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The cause in the nature of the entities that act"
-            },
-            {
               "id": "b",
               "text": "The sequence, which this account denies ever happens"
+            },
+            {
+              "id": "a",
+              "text": "The cause in the nature of the entities that act"
             },
             {
               "id": "c",
@@ -2170,16 +2170,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "An effect cannot come before the conditions the entities make possible"
-            },
-            {
               "id": "b",
               "text": "You may have the effect first whenever a wish is strong enough"
             },
             {
               "id": "c",
               "text": "Causality is a second law that can grant the effect before the conditions"
+            },
+            {
+              "id": "a",
+              "text": "An effect cannot come before the conditions the entities make possible"
             },
             {
               "id": "d",
@@ -2200,10 +2200,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A decree has replaced the identity of the cotton"
-            },
-            {
               "id": "b",
               "text": "Nothing: this is identity applied to action"
             },
@@ -2214,6 +2210,10 @@
             {
               "id": "d",
               "text": "Constant conjunction, which is the same thing as a decree"
+            },
+            {
+              "id": "a",
+              "text": "A decree has replaced the identity of the cotton"
             }
           ],
           "feedback": {
@@ -2264,15 +2264,15 @@
             },
             {
               "id": "b",
-              "text": "A miracle is only change over time, so identity allows it"
+              "text": "A miracle is only change over time, so identity allows it and the entity acts as another kind"
             },
             {
               "id": "c",
-              "text": "Identity covers thoughts and causality covers bodies, so they may split"
+              "text": "Identity covers thoughts and causality covers bodies, so they may split and a miracle breaks one"
             },
             {
               "id": "d",
-              "text": "A vote can authorize the exception without touching either law"
+              "text": "A vote can authorize the exception without touching either law, and agreement keeps both intact"
             }
           ],
           "feedback": {
@@ -2322,6 +2322,10 @@
               "text": "Causality"
             },
             {
+              "id": "d1",
+              "text": "habit"
+            },
+            {
               "id": "t2",
               "text": "is"
             },
@@ -2332,6 +2336,10 @@
             {
               "id": "t4",
               "text": "chance"
+            },
+            {
+              "id": "d2",
+              "text": "wish"
             },
             {
               "id": "t5",
@@ -2348,14 +2356,6 @@
             {
               "id": "t8",
               "text": "decree"
-            },
-            {
-              "id": "d1",
-              "text": "habit"
-            },
-            {
-              "id": "d2",
-              "text": "wish"
             }
           ],
           "answer": [
@@ -2384,20 +2384,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "As two laws that are allowed to conflict, so the formula may forbid what the clause permits"
+            },
+            {
               "id": "a",
               "text": "As one statement: identity in action means the nature sets the act and bars its opposite"
             },
             {
-              "id": "b",
-              "text": "As two laws that are allowed to conflict"
-            },
-            {
               "id": "c",
-              "text": "The short formula forbids action, and the longer clause restores it"
+              "text": "The short formula forbids action, and the longer clause restores it, undoing the formula"
             },
             {
               "id": "d",
-              "text": "The longer clause replaces identity with constant conjunction"
+              "text": "The longer clause replaces identity with constant conjunction, and the nature drops out"
             }
           ],
           "feedback": {
@@ -2412,20 +2412,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The fire is chance, which identity does not cover, so spark and timber need not act as they are"
+            },
+            {
+              "id": "c",
+              "text": "The fire is a decree, and the entities are passive occasions, with no nature of their own in it"
+            },
+            {
               "id": "a",
               "text": "The fire is those entities acting as what they are, and the timber cannot burn as if it were stone"
             },
             {
-              "id": "b",
-              "text": "The fire is chance, which identity does not cover"
-            },
-            {
-              "id": "c",
-              "text": "The fire is a decree, and the entities are passive occasions"
-            },
-            {
               "id": "d",
-              "text": "The fire may precede the timber when someone needs the effect first"
+              "text": "The fire may precede the timber when someone needs the effect first, and the need sets that order"
             }
           ],
           "feedback": {
@@ -2440,10 +2440,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "He has cut the formula off from the clause that states its meaning"
-            },
-            {
               "id": "b",
               "text": "He has stated the full law in both of its wordings"
             },
@@ -2454,6 +2450,10 @@
             {
               "id": "d",
               "text": "He has separated a man-made rule from a given fact that need not agree with it"
+            },
+            {
+              "id": "a",
+              "text": "He has cut the formula off from the clause that states its meaning"
             }
           ],
           "feedback": {
@@ -2527,12 +2527,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The demand that the timber act as a different kind of entity"
-            },
-            {
               "id": "b",
               "text": "The burning, because any action violates the short formula"
+            },
+            {
+              "id": "a",
+              "text": "The demand that the timber act as a different kind of entity"
             },
             {
               "id": "c",
@@ -2569,8 +2569,8 @@
             }
           ],
           "bank": [
-            "identity",
             "chance",
+            "identity",
             "decree",
             "conjunction"
           ],
@@ -2594,6 +2594,10 @@
               "text": "sets"
             },
             {
+              "id": "d1",
+              "text": "chance"
+            },
+            {
               "id": "t3",
               "text": "the"
             },
@@ -2606,6 +2610,10 @@
               "text": "and"
             },
             {
+              "id": "d2",
+              "text": "decree"
+            },
+            {
               "id": "t6",
               "text": "bars"
             },
@@ -2616,14 +2624,6 @@
             {
               "id": "t8",
               "text": "opposite"
-            },
-            {
-              "id": "d1",
-              "text": "chance"
-            },
-            {
-              "id": "d2",
-              "text": "decree"
             }
           ],
           "answer": [
@@ -2652,16 +2652,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It is, it could not have been otherwise, and it must be accepted"
-            },
-            {
               "id": "b",
               "text": "It exists because someone chose to bring it about"
             },
             {
               "id": "c",
               "text": "It counts as given only when treating it as true is useful"
+            },
+            {
+              "id": "a",
+              "text": "It is, it could not have been otherwise, and it must be accepted"
             },
             {
               "id": "d",
@@ -2680,10 +2680,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A metaphysically given fact"
-            },
-            {
               "id": "b",
               "text": "A man-made fact, because people later named it"
             },
@@ -2694,6 +2690,10 @@
             {
               "id": "d",
               "text": "Not a fact, until a survey votes to recognize it"
+            },
+            {
+              "id": "a",
+              "text": "A metaphysically given fact"
             }
           ],
           "feedback": {
@@ -2739,20 +2739,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "He has stated the definition of the metaphysically given, so an unconditioned storm is what had to be"
+            },
+            {
               "id": "a",
               "text": "He treats a given event as if it could have been otherwise, which is the mark of the man-made"
             },
             {
-              "id": "b",
-              "text": "He has stated the definition of the metaphysically given"
-            },
-            {
               "id": "c",
-              "text": "A possibility with no difference in conditions is what identity requires"
+              "text": "A possibility with no difference in conditions is what identity requires of the event"
             },
             {
               "id": "d",
-              "text": "The storm is man-made because people were soaked by it"
+              "text": "The storm is man-made because people were soaked by it, and their presence produced the rain"
             }
           ],
           "feedback": {
@@ -2798,20 +2798,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Judgment creates the given fact, so the event starts only when someone calls it true"
+            },
+            {
+              "id": "c",
+              "text": "Acceptance is a vote, so the given waits on the tally and a loss leaves it unmade"
+            },
+            {
               "id": "a",
               "text": "The given simply is; the true-or-false question belongs to one's judgment about it"
             },
             {
-              "id": "b",
-              "text": "Judgment creates the given fact"
-            },
-            {
-              "id": "c",
-              "text": "Acceptance is a vote, so the given waits on the tally"
-            },
-            {
               "id": "d",
-              "text": "The given is false until it becomes useful"
+              "text": "The given is false until it becomes useful, so a fact with no payoff has not occurred"
             }
           ],
           "feedback": {
@@ -2840,9 +2840,9 @@
             }
           ],
           "bank": [
-            "differently",
             "by vote",
             "by wish",
+            "differently",
             "optionally"
           ],
           "feedback": {
@@ -2873,6 +2873,10 @@
               "text": "not"
             },
             {
+              "id": "d1",
+              "text": "voted"
+            },
+            {
               "id": "t5",
               "text": "have"
             },
@@ -2881,16 +2885,12 @@
               "text": "been"
             },
             {
-              "id": "t7",
-              "text": "otherwise"
-            },
-            {
-              "id": "d1",
-              "text": "voted"
-            },
-            {
               "id": "d2",
               "text": "wished"
+            },
+            {
+              "id": "t7",
+              "text": "otherwise"
             }
           ],
           "answer": [
@@ -2918,10 +2918,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Choice brought it about, it did not have to be, and it must be judged"
-            },
-            {
               "id": "b",
               "text": "It could not have been otherwise, so it must be accepted uncritically"
             },
@@ -2932,6 +2928,10 @@
             {
               "id": "d",
               "text": "It is not a fact at all, because a person produced it"
+            },
+            {
+              "id": "a",
+              "text": "Choice brought it about, it did not have to be, and it must be judged"
             }
           ],
           "feedback": {
@@ -2975,20 +2975,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Human products are not facts, so a raised building has no place in existence to judge"
+            },
+            {
               "id": "a",
               "text": "Human products are facts that choice brought about, and they might not have been made"
             },
             {
-              "id": "b",
-              "text": "Human products are not facts"
-            },
-            {
               "id": "c",
-              "text": "What man makes could not have been otherwise"
+              "text": "What man makes could not have been otherwise, so a statute has the necessity of a flood"
             },
             {
               "id": "d",
-              "text": "A human product is the same kind of fact as a natural phenomenon"
+              "text": "A human product is the same kind of fact as a natural phenomenon, and making changes nothing"
             }
           ],
           "feedback": {
@@ -3005,20 +3005,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Every existent is metaphysically given, so a statute on the books had to be and cannot be repealed"
+            },
+            {
+              "id": "c",
+              "text": "Judgment is a wish that the statute is not a fact, so rejection pretends the text was never passed"
+            },
+            {
               "id": "a",
               "text": "Existence does not exempt a man-made fact from judgment; the statute can be rejected and changed"
             },
             {
-              "id": "b",
-              "text": "Every existent is metaphysically given"
-            },
-            {
-              "id": "c",
-              "text": "Judgment is a wish that the statute is not a fact"
-            },
-            {
               "id": "d",
-              "text": "A statute is a natural phenomenon with no human part in it"
+              "text": "A statute is a natural phenomenon with no human part in it, and its cruelty must be taken like a flood"
             }
           ],
           "feedback": {
@@ -3064,10 +3064,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Judgment takes the statute as real and asks whether it should stand"
-            },
-            {
               "id": "b",
               "text": "Man-made facts are illusions, so the pretence is correct"
             },
@@ -3078,6 +3074,10 @@
             {
               "id": "d",
               "text": "A fact that choice created is a contradiction and cannot be judged"
+            },
+            {
+              "id": "a",
+              "text": "Judgment takes the statute as real and asks whether it should stand"
             }
           ],
           "feedback": {
@@ -3106,10 +3106,10 @@
             }
           ],
           "bank": [
-            "choice",
             "nature",
             "necessity",
-            "flood"
+            "flood",
+            "choice"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -3139,6 +3139,10 @@
               "text": "and"
             },
             {
+              "id": "d1",
+              "text": "accepted"
+            },
+            {
               "id": "t5",
               "text": "it"
             },
@@ -3151,16 +3155,12 @@
               "text": "be"
             },
             {
-              "id": "t8",
-              "text": "judged"
-            },
-            {
-              "id": "d1",
-              "text": "accepted"
-            },
-            {
               "id": "d2",
               "text": "uncritically"
+            },
+            {
+              "id": "t8",
+              "text": "judged"
             }
           ],
           "answer": [
@@ -3217,20 +3217,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "It makes the dryness a man-made fact in the houses, so the water withdraws"
+            },
+            {
               "id": "a",
               "text": "Nothing about the flood; a vote cannot rewrite a metaphysically given event"
             },
             {
-              "id": "b",
-              "text": "It makes the dryness a man-made fact in the houses"
-            },
-            {
               "id": "c",
-              "text": "It must be accepted as the nature of the water"
+              "text": "It must be accepted as the nature of the water, so the statute rewrites the flood"
             },
             {
               "id": "d",
-              "text": "It makes the flood real only if the losing side perceived it"
+              "text": "It makes the flood real only if the losing side perceived it, so sight decides it"
             }
           ],
           "feedback": {
@@ -3246,20 +3246,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Both kinds must be accepted uncritically, so a statute has the same necessity as a flood"
+            },
+            {
+              "id": "c",
+              "text": "Both kinds are settled by vote, so a tally can repeal a flood as it repeals a statute"
+            },
+            {
               "id": "a",
               "text": "The given must be accepted because it cannot be changed; the man-made must be judged"
             },
             {
-              "id": "b",
-              "text": "Both kinds must be accepted uncritically"
-            },
-            {
-              "id": "c",
-              "text": "Both kinds are settled by vote"
-            },
-            {
               "id": "d",
-              "text": "The given must be judged, and the man-made must be accepted as unchangeable"
+              "text": "The given must be judged, and the man-made must be accepted as unchangeable, so floods yield"
             }
           ],
           "feedback": {
@@ -3276,10 +3276,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The flood is given; the statute is man-made and can be judged and changed"
-            },
-            {
               "id": "b",
               "text": "Both are outside the power of any volition"
             },
@@ -3290,6 +3286,10 @@
             {
               "id": "d",
               "text": "Accepting the flood means accepting every policy adopted about it"
+            },
+            {
+              "id": "a",
+              "text": "The flood is given; the statute is man-made and can be judged and changed"
             }
           ],
           "feedback": {
@@ -3394,6 +3394,10 @@
           "prompt": "Assemble the claim that a tally cannot edit the given.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "wish"
+            },
+            {
               "id": "t1",
               "text": "A"
             },
@@ -3414,20 +3418,16 @@
               "text": "the"
             },
             {
+              "id": "d2",
+              "text": "can"
+            },
+            {
               "id": "t6",
               "text": "metaphysically"
             },
             {
               "id": "t7",
               "text": "given"
-            },
-            {
-              "id": "d1",
-              "text": "wish"
-            },
-            {
-              "id": "d2",
-              "text": "can"
             }
           ],
           "answer": [
@@ -3455,20 +3455,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A strong wish is a second given fact that cancels the first, so desire erases the event"
+            },
+            {
               "id": "a",
               "text": "The wish is not the fact, and wanting the fact otherwise leaves the fact as it is"
             },
             {
-              "id": "b",
-              "text": "A strong wish is a second given fact that cancels the first"
-            },
-            {
               "id": "c",
-              "text": "The wish turns the fact into a man-made fact"
+              "text": "The wish turns the fact into a man-made fact, so wanting a flood chooses the flood"
             },
             {
               "id": "d",
-              "text": "The fact is true or false according to the wish"
+              "text": "The fact is true or false according to the wish, so rejection makes the drought false"
             }
           ],
           "feedback": {
@@ -3483,16 +3483,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The need is a wish; the clear sky is the given fact"
-            },
-            {
               "id": "b",
               "text": "The wish is metaphysically given and the sky is man-made"
             },
             {
               "id": "c",
               "text": "Wanting rain creates the rain, because consciousness apprehends needs"
+            },
+            {
+              "id": "a",
+              "text": "The need is a wish; the clear sky is the given fact"
             },
             {
               "id": "d",
@@ -3512,20 +3512,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The given simply is; a judgment is true or false by whether it matches the facts"
-            },
-            {
               "id": "b",
-              "text": "The given is true when we wish it and false when we do not"
+              "text": "The given is true when we wish it and false when we do not, so desire sets its truth"
             },
             {
               "id": "c",
-              "text": "Judgments have no truth; only wishes do"
+              "text": "Judgments have no truth; only wishes do, so no correspondence to a fact is possible"
             },
             {
               "id": "d",
-              "text": "A fact that simply is can be voted false"
+              "text": "A fact that simply is can be voted false, and the tally puts that fact on the false side"
+            },
+            {
+              "id": "a",
+              "text": "The given simply is; a judgment is true or false by whether it matches the facts"
             }
           ],
           "feedback": {
@@ -3547,15 +3547,15 @@
             },
             {
               "id": "b",
-              "text": "The drought is true or false in itself, and the judgment's vote decides which"
+              "text": "The drought is true or false in itself, and the judgment's vote decides which, not the weather"
             },
             {
               "id": "c",
-              "text": "Correspondence means the fact must be brought into line with the wish"
+              "text": "Correspondence means the fact must be brought into line with the wish, and the drought yields"
             },
             {
               "id": "d",
-              "text": "A drought is man-made whenever it is unwanted"
+              "text": "A drought is man-made whenever it is unwanted, so dislike moves it onto the chosen side"
             }
           ],
           "feedback": {
@@ -3601,12 +3601,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Nothing in the disease; the refusal is a wish about a given fact of the organism"
-            },
-            {
               "id": "b",
               "text": "The disease, which becomes man-made because a person is involved"
+            },
+            {
+              "id": "a",
+              "text": "Nothing in the disease; the refusal is a wish about a given fact of the organism"
             },
             {
               "id": "c",
@@ -3643,8 +3643,8 @@
             }
           ],
           "bank": [
-            "fact",
             "feeling",
+            "fact",
             "hope",
             "fear"
           ],
@@ -3659,6 +3659,10 @@
           "mode": "sentence",
           "prompt": "Assemble the claim that wanting does not edit what is.",
           "tokens": [
+            {
+              "id": "d1",
+              "text": "creates"
+            },
             {
               "id": "t1",
               "text": "Wanting"
@@ -3680,6 +3684,10 @@
               "text": "does"
             },
             {
+              "id": "d2",
+              "text": "erases"
+            },
+            {
               "id": "t6",
               "text": "not"
             },
@@ -3690,14 +3698,6 @@
             {
               "id": "t8",
               "text": "it"
-            },
-            {
-              "id": "d1",
-              "text": "creates"
-            },
-            {
-              "id": "d2",
-              "text": "erases"
             }
           ],
           "answer": [
@@ -3726,16 +3726,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The canyon's carving is given; the dam is man-made"
-            },
-            {
               "id": "b",
               "text": "Both are given, because both are there now"
             },
             {
               "id": "c",
               "text": "Both are man-made, because people live nearby"
+            },
+            {
+              "id": "a",
+              "text": "The canyon's carving is given; the dam is man-made"
             },
             {
               "id": "d",
@@ -3755,10 +3755,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Both are facts, and they are facts of different kinds"
-            },
-            {
               "id": "b",
               "text": "Both are metaphysically given once they exist"
             },
@@ -3769,6 +3765,10 @@
             {
               "id": "d",
               "text": "Neither is a fact until someone prefers it"
+            },
+            {
+              "id": "a",
+              "text": "Both are facts, and they are facts of different kinds"
             }
           ],
           "feedback": {
@@ -3813,20 +3813,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Both had to be, because both resist water, so the dam has the flood's necessity"
+            },
+            {
               "id": "a",
               "text": "The flood had to occur given the conditions; the dam did not have to be built"
             },
             {
-              "id": "b",
-              "text": "Both had to be, because both resist water"
-            },
-            {
               "id": "c",
-              "text": "Neither had to be, because both involve water"
+              "text": "Neither had to be, because both involve water, so the flood was optional too"
             },
             {
               "id": "d",
-              "text": "The flood is man-made, because the dam was built in relation to it"
+              "text": "The flood is man-made, because the dam was built in relation to it, reaching backward"
             }
           ],
           "feedback": {
@@ -3872,16 +3872,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Accept the mountain, and judge the code, changing the code if the judgment requires it"
-            },
-            {
               "id": "b",
               "text": "Judge the mountain false, and accept the code uncritically because it is written"
             },
             {
               "id": "c",
               "text": "Treat both the mountain and the code as wishes"
+            },
+            {
+              "id": "a",
+              "text": "Accept the mountain, and judge the code, changing the code if the judgment requires it"
             },
             {
               "id": "d",
@@ -3914,9 +3914,9 @@
             }
           ],
           "bank": [
-            "given",
             "chosen",
             "voted",
+            "given",
             "wished"
           ],
           "feedback": {
@@ -3939,6 +3939,10 @@
               "text": "the"
             },
             {
+              "id": "d1",
+              "text": "rewrite"
+            },
+            {
               "id": "t3",
               "text": "given"
             },
@@ -3957,10 +3961,6 @@
             {
               "id": "t7",
               "text": "man-made"
-            },
-            {
-              "id": "d1",
-              "text": "rewrite"
             },
             {
               "id": "d2",
@@ -3992,20 +3992,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It exists independent of any consciousness, and it has a specific identity"
-            },
-            {
               "id": "b",
-              "text": "It exists only while some mind perceives it"
+              "text": "It exists only while some mind perceives it, so an unseen universe drops out"
             },
             {
               "id": "c",
-              "text": "It is the product of a divine consciousness"
+              "text": "It is the product of a divine consciousness, so a god's thought holds it in being"
             },
             {
               "id": "d",
-              "text": "It has no nature until a human mind assigns one"
+              "text": "It has no nature until a human mind assigns one, and identity waits on that mind"
+            },
+            {
+              "id": "a",
+              "text": "It exists independent of any consciousness, and it has a specific identity"
             }
           ],
           "feedback": {
@@ -4049,12 +4049,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The universe exists independent of any consciousness, and things have identity"
-            },
-            {
               "id": "b",
               "text": "The universe is the product of a consciousness"
+            },
+            {
+              "id": "a",
+              "text": "The universe exists independent of any consciousness, and things have identity"
             },
             {
               "id": "c",
@@ -4079,16 +4079,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Both human consciousness and divine consciousness"
-            },
-            {
               "id": "b",
               "text": "Human minds only, leaving a god as the author of existence"
             },
             {
               "id": "c",
               "text": "Divine minds only, leaving human agreement as the author"
+            },
+            {
+              "id": "a",
+              "text": "Both human consciousness and divine consciousness"
             },
             {
               "id": "d",
@@ -4138,20 +4138,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Primacy of consciousness: a mind, here divine, is the author of the universe"
-            },
-            {
               "id": "b",
-              "text": "Primacy of existence, because a god is not a human being"
+              "text": "Primacy of existence, because a god is not a human being, so a god is exempt"
             },
             {
               "id": "c",
-              "text": "Nothing but a restatement that A is A"
+              "text": "Nothing but a restatement that A is A, since a creating thought adds no new fact"
             },
             {
               "id": "d",
-              "text": "The classification of the universe as a man-made fact"
+              "text": "The classification of the universe as a man-made fact, as if a god built it"
+            },
+            {
+              "id": "a",
+              "text": "Primacy of consciousness: a mind, here divine, is the author of the universe"
             }
           ],
           "feedback": {
@@ -4180,10 +4180,10 @@
             }
           ],
           "bank": [
-            "consciousness",
             "wish",
             "vote",
-            "chance"
+            "chance",
+            "consciousness"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -4203,6 +4203,10 @@
             {
               "id": "t2",
               "text": "universe"
+            },
+            {
+              "id": "d1",
+              "text": "by"
             },
             {
               "id": "t3",
@@ -4225,16 +4229,12 @@
               "text": "with"
             },
             {
-              "id": "t8",
-              "text": "identity"
-            },
-            {
-              "id": "d1",
-              "text": "by"
-            },
-            {
               "id": "d2",
               "text": "decree"
+            },
+            {
+              "id": "t8",
+              "text": "identity"
             }
           ],
           "answer": [
@@ -4268,15 +4268,15 @@
             },
             {
               "id": "b",
-              "text": "It produces the objects it then seems to discover"
+              "text": "It produces the objects it then seems to discover, and finding is later"
             },
             {
               "id": "c",
-              "text": "It perceives only its own structure, never things"
+              "text": "It perceives only its own structure, never things, so objects are forms"
             },
             {
               "id": "d",
-              "text": "It replaces the identity of things with a feeling"
+              "text": "It replaces the identity of things with a feeling, which is the fact"
             }
           ],
           "feedback": {
@@ -4291,12 +4291,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The river exists, and seeing takes it in"
-            },
-            {
               "id": "b",
               "text": "Seeing brings the river into existence"
+            },
+            {
+              "id": "a",
+              "text": "The river exists, and seeing takes it in"
             },
             {
               "id": "c",
@@ -4320,20 +4320,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The something is created by the act of awareness, so no object precedes the act"
+            },
+            {
+              "id": "c",
+              "text": "Awareness of something means that only ideas exist, so the object is an idea"
+            },
+            {
               "id": "a",
               "text": "Awareness takes an object that is something; it is not awareness of nothing"
             },
             {
-              "id": "b",
-              "text": "The something is created by the act of awareness"
-            },
-            {
-              "id": "c",
-              "text": "Awareness of something means that only ideas exist"
-            },
-            {
               "id": "d",
-              "text": "The something is a mental form that hides the thing as it is"
+              "text": "The something is a mental form that hides the thing as it is, so awareness stops"
             }
           ],
           "feedback": {
@@ -4350,20 +4350,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "That story makes the object a mental product and gives up things as they are"
-            },
-            {
               "id": "b",
-              "text": "It agrees, and adds that the forms are wishes"
+              "text": "It agrees, and adds that the forms are wishes, so feeling structures the object"
             },
             {
               "id": "c",
-              "text": "It says the forms are settled by a vote of observers"
+              "text": "It says the forms are settled by a vote of observers, so the tally sets the forms"
             },
             {
               "id": "d",
-              "text": "It says identity forbids consciousness to perceive at all"
+              "text": "It says identity forbids consciousness to perceive at all, so seeing breaks identity"
+            },
+            {
+              "id": "a",
+              "text": "That story makes the object a mental product and gives up things as they are"
             }
           ],
           "feedback": {
@@ -4414,15 +4414,15 @@
             },
             {
               "id": "b",
-              "text": "An unconceived law is man-made, because no one has chosen it yet"
+              "text": "An unconceived law is man-made, because no one has chosen it yet, so it waits on us"
             },
             {
               "id": "c",
-              "text": "Conception creates the way entities act"
+              "text": "Conception creates the way entities act, so unthought action is not real yet"
             },
             {
               "id": "d",
-              "text": "An unconceived regularity is a contradiction in nature"
+              "text": "An unconceived regularity is a contradiction in nature, an error in the entities"
             }
           ],
           "feedback": {
@@ -4480,6 +4480,10 @@
               "text": "reality"
             },
             {
+              "id": "d1",
+              "text": "wishes"
+            },
+            {
               "id": "t4",
               "text": "and"
             },
@@ -4498,10 +4502,6 @@
             {
               "id": "t8",
               "text": "it"
-            },
-            {
-              "id": "d1",
-              "text": "wishes"
             },
             {
               "id": "d2",
@@ -4534,12 +4534,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "None of a wish, a belief, or an agreement can rewrite it"
-            },
-            {
               "id": "b",
               "text": "A wish cannot, but a formal agreement can rewrite a natural fact"
+            },
+            {
+              "id": "a",
+              "text": "None of a wish, a belief, or an agreement can rewrite it"
             },
             {
               "id": "c",
@@ -4562,16 +4562,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Nothing about the eclipse; the agreement is not a decree over the fact"
-            },
-            {
               "id": "b",
               "text": "The eclipse, which becomes unreal once the agreement is sincere"
             },
             {
               "id": "c",
               "text": "The fact, but only if the agreement counts as a perception"
+            },
+            {
+              "id": "a",
+              "text": "Nothing about the eclipse; the agreement is not a decree over the fact"
             },
             {
               "id": "d",
@@ -4591,20 +4591,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Facts are facts, independent of feelings, wishes, hopes, or fears"
-            },
-            {
               "id": "b",
-              "text": "Feelings are the test of which facts exist"
+              "text": "Feelings are the test of which facts exist, so a rejected fact drops out"
             },
             {
               "id": "c",
-              "text": "A hope can annul a fact the hoper rejects"
+              "text": "A hope can annul a fact the hoper rejects, so the hope ends the fact"
             },
             {
               "id": "d",
-              "text": "Facts are absolute only when everyone agrees to them"
+              "text": "Facts are absolute only when everyone agrees to them, so dissent ends it"
+            },
+            {
+              "id": "a",
+              "text": "Facts are facts, independent of feelings, wishes, hopes, or fears"
             }
           ],
           "feedback": {
@@ -4680,20 +4680,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A correct decree, because a working plan outranks a reef, so convenience moves the rock"
+            },
+            {
               "id": "a",
               "text": "Pragmatism: treating a convenient claim as if convenience could change the shoal"
             },
             {
-              "id": "b",
-              "text": "A correct decree, because a working plan outranks a reef"
-            },
-            {
               "id": "c",
-              "text": "Identity applied to action, because the shorter course was an action"
+              "text": "Identity applied to action, because the shorter course was an action proved by the wreck"
             },
             {
               "id": "d",
-              "text": "Apprehension, because the chart took the shoal in as it was"
+              "text": "Apprehension, because the chart took the shoal in as it was, and the rock departed"
             }
           ],
           "feedback": {
@@ -4722,8 +4722,8 @@
             }
           ],
           "bank": [
-            "obeyed",
             "wished",
+            "obeyed",
             "voted",
             "feared"
           ],
@@ -4751,20 +4751,20 @@
               "text": "independent"
             },
             {
-              "id": "t4",
-              "text": "of"
-            },
-            {
-              "id": "t5",
-              "text": "wishes"
-            },
-            {
               "id": "d1",
               "text": "created"
             },
             {
+              "id": "t4",
+              "text": "of"
+            },
+            {
               "id": "d2",
               "text": "by"
+            },
+            {
+              "id": "t5",
+              "text": "wishes"
             },
             {
               "id": "d3",
@@ -4794,20 +4794,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The claim that the universe exists whether or not any mind is aware of it, called this primacy"
+            },
+            {
+              "id": "c",
+              "text": "The claim that a thing cannot act against its nature, offered as this primacy's whole account"
+            },
+            {
               "id": "a",
               "text": "The claim that the universe is the product of a consciousness, human or divine or both"
             },
             {
-              "id": "b",
-              "text": "The claim that the universe exists whether or not any mind is aware of it"
-            },
-            {
-              "id": "c",
-              "text": "The claim that a thing cannot act against its nature"
-            },
-            {
               "id": "d",
-              "text": "The claim that man-made facts must be judged rather than worshipped"
+              "text": "The claim that man-made facts must be judged rather than worshipped, called this primacy"
             }
           ],
           "feedback": {
@@ -4822,20 +4822,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The universe exists on its own, versus the universe is a mind's product"
-            },
-            {
               "id": "b",
-              "text": "Wishes are rocks, versus rocks are wishes"
+              "text": "Wishes are rocks, versus rocks are wishes, and that pair is the real opposition"
             },
             {
               "id": "c",
-              "text": "Change over time, versus action that fits a nature"
+              "text": "Change over time, versus action that fits a nature, taken as real opposition"
             },
             {
               "id": "d",
-              "text": "A mountain, versus a building someone raised"
+              "text": "A mountain, versus a building someone raised, taken as the real opposition"
+            },
+            {
+              "id": "a",
+              "text": "The universe exists on its own, versus the universe is a mind's product"
             }
           ],
           "feedback": {
@@ -4881,20 +4881,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Primacy of existence allows a divine exception and forbids only human wishes, not divine acts"
+            },
+            {
               "id": "a",
               "text": "The axiom rules out any consciousness, divine included, as the author of the universe"
             },
             {
-              "id": "b",
-              "text": "Primacy of existence allows a divine exception and forbids only human wishes"
-            },
-            {
               "id": "c",
-              "text": "Only human feelings are barred; a sacred decree is just another fact"
+              "text": "Only human feelings are barred; a sacred decree is just another fact of the world"
             },
             {
               "id": "d",
-              "text": "Kant's forms are the same claim as a god's wish becoming a rock"
+              "text": "Kant's forms are the same claim as a god's wish becoming a rock, one error stated two ways"
             }
           ],
           "feedback": {
@@ -4940,16 +4940,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Primacy of consciousness: the object we may claim is structured by mind"
-            },
-            {
               "id": "b",
               "text": "Primacy of existence: the forms simply are the things as they are"
             },
             {
               "id": "c",
               "text": "Causality read as constant conjunction and nothing more"
+            },
+            {
+              "id": "a",
+              "text": "Primacy of consciousness: the object we may claim is structured by mind"
             },
             {
               "id": "d",
@@ -4982,9 +4982,9 @@
             }
           ],
           "bank": [
-            "product",
             "identity",
             "corollary",
+            "product",
             "standard"
           ],
           "feedback": {
@@ -5011,6 +5011,10 @@
               "text": "is"
             },
             {
+              "id": "d1",
+              "text": "wish"
+            },
+            {
               "id": "t4",
               "text": "not"
             },
@@ -5019,20 +5023,16 @@
               "text": "a"
             },
             {
+              "id": "d2",
+              "text": "decree"
+            },
+            {
               "id": "t6",
               "text": "mind's"
             },
             {
               "id": "t7",
               "text": "product"
-            },
-            {
-              "id": "d1",
-              "text": "wish"
-            },
-            {
-              "id": "d2",
-              "text": "decree"
             }
           ],
           "answer": [
@@ -5060,10 +5060,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The universe exists apart from minds, minds take it in, and no wish rewrites it"
-            },
-            {
               "id": "b",
               "text": "The universe is a mind's product, seeing creates it, and a vote can revise it"
             },
@@ -5074,6 +5070,10 @@
             {
               "id": "d",
               "text": "Facts are man-made, seeing is a chosen percept, and chance rules action"
+            },
+            {
+              "id": "a",
+              "text": "The universe exists apart from minds, minds take it in, and no wish rewrites it"
             }
           ],
           "feedback": {
@@ -5094,15 +5094,15 @@
             },
             {
               "id": "b",
-              "text": "The basic elements are whichever kind a mind prefers to posit"
+              "text": "The basic elements are whichever kind a mind prefers to posit, so preference decides them"
             },
             {
               "id": "c",
-              "text": "Chance is one form of the Law of Identity"
+              "text": "Chance is one form of the Law of Identity, so a break in causation is still identity"
             },
             {
               "id": "d",
-              "text": "A will may rule nature in any region identity leaves open"
+              "text": "A will may rule nature in any region identity leaves open, and there the law has stopped"
             }
           ],
           "feedback": {
@@ -5119,12 +5119,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The refusal of decree: a will does not suspend identity"
-            },
-            {
               "id": "b",
               "text": "Nothing: a one-day suspension is only change over time"
+            },
+            {
+              "id": "a",
+              "text": "The refusal of decree: a will does not suspend identity"
             },
             {
               "id": "c",
@@ -5147,20 +5147,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "He has stated all three lines, since forms are how apprehension works on things as they are"
+            },
+            {
+              "id": "c",
+              "text": "He has lost nothing: Kant's forms are things as they are, so the object stays independent"
+            },
+            {
               "id": "a",
               "text": "He has kept the refusal of whim and lost independence, because the object is now mental"
             },
             {
-              "id": "b",
-              "text": "He has stated all three lines, since forms are how apprehension works"
-            },
-            {
-              "id": "c",
-              "text": "He has lost nothing: Kant's forms are things as they are"
-            },
-            {
               "id": "d",
-              "text": "He has reduced the issue to the difference between a building and a mountain"
+              "text": "He has reduced the issue to the difference between a building and a mountain, which decides it"
             }
           ],
           "feedback": {
@@ -5206,20 +5206,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Independent existence, apprehension by the measurement, and no decree by the wish"
-            },
-            {
               "id": "b",
-              "text": "The rock is man-made, because a person measured it"
+              "text": "The rock is man-made, because a person measured it, so measuring makes the coast"
             },
             {
               "id": "c",
-              "text": "The wish is a metaphysically given fact about the rock"
+              "text": "The wish is a metaphysically given fact about the rock, so the harbor-wish is given too"
             },
             {
               "id": "d",
-              "text": "The measurement creates the coast it reports"
+              "text": "The measurement creates the coast it reports, so the reading gives the rock its shape"
+            },
+            {
+              "id": "a",
+              "text": "Independent existence, apprehension by the measurement, and no decree by the wish"
             }
           ],
           "feedback": {
@@ -5248,10 +5248,10 @@
             }
           ],
           "bank": [
-            "identity",
             "chance",
             "will",
-            "decree"
+            "decree",
+            "identity"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -5273,6 +5273,10 @@
               "text": "apprehends"
             },
             {
+              "id": "d1",
+              "text": "creates"
+            },
+            {
               "id": "t3",
               "text": "a"
             },
@@ -5285,6 +5289,10 @@
               "text": "it"
             },
             {
+              "id": "d2",
+              "text": "chance"
+            },
+            {
               "id": "t6",
               "text": "does"
             },
@@ -5295,14 +5303,6 @@
             {
               "id": "t8",
               "text": "decree"
-            },
-            {
-              "id": "d1",
-              "text": "creates"
-            },
-            {
-              "id": "d2",
-              "text": "chance"
             }
           ],
           "answer": [
@@ -5359,12 +5359,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Whether to focus"
-            },
-            {
               "id": "b",
               "text": "Which sensations the eyes would deliver"
+            },
+            {
+              "id": "a",
+              "text": "Whether to focus"
             },
             {
               "id": "c",
@@ -5388,16 +5388,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The choice to think or not is the choice to focus or not"
-            },
-            {
               "id": "b",
               "text": "Thinking is a percept, and focus is a later optional extra"
             },
             {
               "id": "c",
               "text": "To think or not means to pick which sensations arrive"
+            },
+            {
+              "id": "a",
+              "text": "The choice to think or not is the choice to focus or not"
             },
             {
               "id": "d",
@@ -5418,10 +5418,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The refusal to look is already the choice not to focus"
-            },
-            {
               "id": "b",
               "text": "Not looking is a percept he chose to have"
             },
@@ -5432,6 +5428,10 @@
             {
               "id": "d",
               "text": "Focus would be the same act as agreeing with a crowd"
+            },
+            {
+              "id": "a",
+              "text": "The refusal to look is already the choice not to focus"
             }
           ],
           "feedback": {
@@ -5548,6 +5548,10 @@
               "text": "choice"
             },
             {
+              "id": "d1",
+              "text": "perceive"
+            },
+            {
               "id": "t4",
               "text": "is"
             },
@@ -5560,20 +5564,16 @@
               "text": "focus"
             },
             {
+              "id": "d2",
+              "text": "decree"
+            },
+            {
               "id": "t7",
               "text": "or"
             },
             {
               "id": "t8",
               "text": "not"
-            },
-            {
-              "id": "d1",
-              "text": "perceive"
-            },
-            {
-              "id": "d2",
-              "text": "decree"
             }
           ],
           "answer": [
@@ -5602,12 +5602,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Focus is chosen; perception is not"
-            },
-            {
               "id": "b",
               "text": "Percepts are chosen, and focus is automatic"
+            },
+            {
+              "id": "a",
+              "text": "Focus is chosen; perception is not"
             },
             {
               "id": "c",
@@ -5630,16 +5630,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A percept, delivered without a choice"
-            },
-            {
               "id": "b",
               "text": "A syllogism"
             },
             {
               "id": "c",
               "text": "The primary choice"
+            },
+            {
+              "id": "a",
+              "text": "A percept, delivered without a choice"
             },
             {
               "id": "d",
@@ -5659,10 +5659,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Volition begins at the conceptual level; percepts are not chosen"
-            },
-            {
               "id": "b",
               "text": "Percepts are chosen, and the first syllogism is what a percept is"
             },
@@ -5673,6 +5669,10 @@
             {
               "id": "d",
               "text": "Volition begins by rewriting the deliveries of perception"
+            },
+            {
+              "id": "a",
+              "text": "Volition begins at the conceptual level; percepts are not chosen"
             }
           ],
           "feedback": {
@@ -5748,20 +5748,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Nothing: that reading is what nonvolitional means, so the sensation was chosen and logic runs alone"
+            },
+            {
               "id": "a",
               "text": "The pre-conceptual level is the nonvolitional one, and choice operates at the conceptual level"
             },
             {
-              "id": "b",
-              "text": "Nothing: that reading is what nonvolitional means"
-            },
-            {
               "id": "c",
-              "text": "Sensations, which are man-made facts"
+              "text": "Sensations, which are man-made facts, so the percept is a product of choice and inference only follows"
             },
             {
               "id": "d",
-              "text": "A syllogism, which is a metaphysically given flood of sound"
+              "text": "A syllogism, which is a metaphysically given flood of sound, so the inference had a storm's necessity"
             }
           ],
           "feedback": {
@@ -5790,8 +5790,8 @@
             }
           ],
           "bank": [
-            "chosen",
             "real",
+            "chosen",
             "given",
             "caused"
           ],
@@ -5807,8 +5807,16 @@
           "prompt": "Assemble what the choice to focus makes possible.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "percepts"
+            },
+            {
               "id": "t1",
               "text": "Focus"
+            },
+            {
+              "id": "d2",
+              "text": "chosen"
             },
             {
               "id": "t2",
@@ -5829,14 +5837,6 @@
             {
               "id": "t6",
               "text": "possible"
-            },
-            {
-              "id": "d1",
-              "text": "percepts"
-            },
-            {
-              "id": "d2",
-              "text": "chosen"
             }
           ],
           "answer": [
@@ -5863,16 +5863,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "An attempt to deny the choice already uses the choice to think"
-            },
-            {
               "id": "b",
               "text": "A vote has defined free will into existence"
             },
             {
               "id": "c",
               "text": "Volition is proved from a standpoint outside consciousness"
+            },
+            {
+              "id": "a",
+              "text": "An attempt to deny the choice already uses the choice to think"
             },
             {
               "id": "d",
@@ -5891,10 +5891,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "He is focusing in order to deny focus, so the denial uses the choice"
-            },
-            {
               "id": "b",
               "text": "He is reporting a percept that he chose to have"
             },
@@ -5905,6 +5901,10 @@
             {
               "id": "d",
               "text": "He has shown that thinking is a natural event of the same kind as a flood"
+            },
+            {
+              "id": "a",
+              "text": "He is focusing in order to deny focus, so the denial uses the choice"
             }
           ],
           "feedback": {
@@ -5925,15 +5925,15 @@
             },
             {
               "id": "b",
-              "text": "Free will is the power to make given facts be otherwise"
+              "text": "Free will is the power to make given facts be otherwise, so thinking can redraw a flood"
             },
             {
               "id": "c",
-              "text": "The soul is a thing apart from consciousness"
+              "text": "The soul is a thing apart from consciousness, and the will belongs to that second thing"
             },
             {
               "id": "d",
-              "text": "Character is innate, and the choice to think does not shape it"
+              "text": "Character is innate, and the choice to think does not shape it, so focus cannot remake a man"
             }
           ],
           "feedback": {
@@ -5950,20 +5950,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A cause means a divine decree, so volition would require one, and a god must choose before the mind"
+            },
+            {
               "id": "a",
               "text": "The cause is the nature of a volitional consciousness, which includes the alternative of focus"
             },
             {
-              "id": "b",
-              "text": "A cause means a divine decree, so volition would require one"
-            },
-            {
               "id": "c",
-              "text": "Volition has to be chance, or else it is not real"
+              "text": "Volition has to be chance, or else it is not real, so a caused focus is only a stone's kind of act"
             },
             {
               "id": "d",
-              "text": "Axioms apply only to bodies, so the mind is exempt from causality"
+              "text": "Axioms apply only to bodies, so the mind is exempt from causality and choice stands outside identity"
             }
           ],
           "feedback": {
@@ -6009,20 +6009,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Men and stones have the same kind of action, so a person falls into focus as a stone falls"
+            },
+            {
+              "id": "c",
+              "text": "Focus is a percept, so the contrast never arises, and choosing is one more sensation"
+            },
+            {
               "id": "a",
               "text": "A stone cannot choose; a volitional consciousness can, and that difference is its nature"
             },
             {
-              "id": "b",
-              "text": "Men and stones have the same kind of action"
-            },
-            {
-              "id": "c",
-              "text": "Focus is a percept, so the contrast never arises"
-            },
-            {
               "id": "d",
-              "text": "Rationality is a majority vote about who counts as a thinker"
+              "text": "Rationality is a majority vote about who counts as a thinker, and the tally assigns focus"
             }
           ],
           "feedback": {
@@ -6051,9 +6051,9 @@
             }
           ],
           "bank": [
-            "use",
             "escape",
             "perceive",
+            "use",
             "vote"
           ],
           "feedback": {
@@ -6088,6 +6088,10 @@
               "text": "think"
             },
             {
+              "id": "d1",
+              "text": "escapes"
+            },
+            {
               "id": "t6",
               "text": "already"
             },
@@ -6098,10 +6102,6 @@
             {
               "id": "t8",
               "text": "it"
-            },
-            {
-              "id": "d1",
-              "text": "escapes"
             },
             {
               "id": "d2",
@@ -6134,20 +6134,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The given is not chosen; choice can add man-made facts and cannot rewrite the given"
-            },
-            {
               "id": "b",
-              "text": "Volition's work is to vote the given out of existence"
+              "text": "Volition's work is to vote the given out of existence, so a firm choice erases the fact"
             },
             {
               "id": "c",
-              "text": "The given is whatever focus creates"
+              "text": "The given is whatever focus creates, so a natural fact starts when attention turns to it"
             },
             {
               "id": "d",
-              "text": "Man-made facts are outside choice, and the given is inside it"
+              "text": "Man-made facts are outside choice, and the given is inside it, so only nature is optional"
+            },
+            {
+              "id": "a",
+              "text": "The given is not chosen; choice can add man-made facts and cannot rewrite the given"
             }
           ],
           "feedback": {
@@ -6167,15 +6167,15 @@
             },
             {
               "id": "b",
-              "text": "Both are chosen, because you are present"
+              "text": "Both are chosen, because you are present, so presence chooses the water's depth"
             },
             {
               "id": "c",
-              "text": "The levee is given and the flood is a syllogism"
+              "text": "The levee is given and the flood is a syllogism, so the wall was necessary"
             },
             {
               "id": "d",
-              "text": "Focus makes the flood's depth whatever the plan requires"
+              "text": "Focus makes the flood's depth whatever the plan requires, so a plan sets the water"
             }
           ],
           "feedback": {
@@ -6191,20 +6191,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Volition creates nature, so how entities act is someone's choice to focus"
+            },
+            {
               "id": "a",
               "text": "No choice, including the choice to focus, can rewrite the nature of nature"
             },
             {
-              "id": "b",
-              "text": "Volition creates nature"
-            },
-            {
               "id": "c",
-              "text": "The given is outside volition only until the first syllogism"
+              "text": "The given is outside volition until the first syllogism, which then rewrites it"
             },
             {
               "id": "d",
-              "text": "Man-made facts are outside volition in the same way nature is"
+              "text": "Man-made facts are outside volition in the same way nature is, beyond repeal"
             }
           ],
           "feedback": {
@@ -6221,20 +6221,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The first syllogism chooses the sensations it rests on, so inference picks its own percepts"
+            },
+            {
+              "id": "c",
+              "text": "A percept is man-made because thinking follows it, and later thought turns the given into a choice"
+            },
+            {
               "id": "a",
               "text": "Focus does not reach back and make perception a choice, and it does not make the given optional"
             },
             {
-              "id": "b",
-              "text": "The first syllogism chooses the sensations it rests on"
-            },
-            {
-              "id": "c",
-              "text": "A percept is man-made because thinking follows it"
-            },
-            {
               "id": "d",
-              "text": "Outside the power of volition means outside existence"
+              "text": "Outside the power of volition means outside existence, so an unchosen percept is not there at all"
             }
           ],
           "feedback": {
@@ -6280,20 +6280,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It identified the orbit, or it failed to; it did not put the orbit under their choice"
-            },
-            {
               "id": "b",
-              "text": "It decreed the orbit"
+              "text": "It decreed the orbit, so honest focus moved the comet onto the path the plan had drawn"
             },
             {
               "id": "c",
-              "text": "It made the orbit man-made, because they thought about it"
+              "text": "It made the orbit man-made, because they thought about it, and attention moved the comet"
             },
             {
               "id": "d",
-              "text": "It made the plan metaphysically given, because the plan was sincere"
+              "text": "It made the plan metaphysically given, because the plan was sincere, so sincerity is nature"
+            },
+            {
+              "id": "a",
+              "text": "It identified the orbit, or it failed to; it did not put the orbit under their choice"
             }
           ],
           "feedback": {
@@ -6322,10 +6322,10 @@
             }
           ],
           "bank": [
-            "volition",
             "perception",
             "identity",
-            "flood"
+            "flood",
+            "volition"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -6338,6 +6338,10 @@
           "mode": "sentence",
           "prompt": "Assemble the boundary between choice and the given.",
           "tokens": [
+            {
+              "id": "d1",
+              "text": "rewrites"
+            },
             {
               "id": "t1",
               "text": "Choice"
@@ -6359,6 +6363,10 @@
               "text": "and"
             },
             {
+              "id": "d2",
+              "text": "nature"
+            },
+            {
               "id": "t6",
               "text": "leaves"
             },
@@ -6369,14 +6377,6 @@
             {
               "id": "t8",
               "text": "given"
-            },
-            {
-              "id": "d1",
-              "text": "rewrites"
-            },
-            {
-              "id": "d2",
-              "text": "nature"
             }
           ],
           "answer": [
@@ -6433,12 +6433,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A given he cannot rewrite, a focus his argument uses, and an axiom the denial enacts"
-            },
-            {
               "id": "b",
               "text": "A storm he chose and an argument that was only a percept"
+            },
+            {
+              "id": "a",
+              "text": "A given he cannot rewrite, a focus his argument uses, and an axiom the denial enacts"
             },
             {
               "id": "c",
@@ -6462,16 +6462,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The act of focusing is a matter of choice"
-            },
-            {
               "id": "b",
               "text": "The act of focusing is compelled, with no alternative open"
             },
             {
               "id": "c",
               "text": "The act of focusing creates the objects that are perceived"
+            },
+            {
+              "id": "a",
+              "text": "The act of focusing is a matter of choice"
             },
             {
               "id": "d",
@@ -6492,20 +6492,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It places the start of volition at the conceptual level, after a given that was not chosen"
-            },
-            {
               "id": "b",
-              "text": "It places volition before the given, as the author of nature"
+              "text": "It places volition before the given, as the author of nature, so the first choice writes the facts"
             },
             {
               "id": "c",
-              "text": "It makes the first percept into a syllogism"
+              "text": "It makes the first percept into a syllogism, so seeing is an inference the mind already elected"
             },
             {
               "id": "d",
-              "text": "It means there is no choice until a logic course has been completed"
+              "text": "It means there is no choice until a logic course has been completed, so the class starts volition"
+            },
+            {
+              "id": "a",
+              "text": "It places the start of volition at the conceptual level, after a given that was not chosen"
             }
           ],
           "feedback": {
@@ -6614,6 +6614,10 @@
               "text": "The"
             },
             {
+              "id": "d1",
+              "text": "creates"
+            },
+            {
               "id": "t2",
               "text": "given"
             },
@@ -6634,20 +6638,16 @@
               "text": "focus"
             },
             {
+              "id": "d2",
+              "text": "percepts"
+            },
+            {
               "id": "t7",
               "text": "is"
             },
             {
               "id": "t8",
               "text": "axiomatic"
-            },
-            {
-              "id": "d1",
-              "text": "creates"
-            },
-            {
-              "id": "d2",
-              "text": "percepts"
             }
           ],
           "answer": [
@@ -6676,12 +6676,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "To be something, as against the nothing of nonexistence"
-            },
-            {
               "id": "b",
               "text": "To be a floating attribute with no thing that has it"
+            },
+            {
+              "id": "a",
+              "text": "To be something, as against the nothing of nonexistence"
             },
             {
               "id": "c",
@@ -6704,20 +6704,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Nothing is an entity, and it has the attribute of vacancy, a real nature"
+            },
+            {
+              "id": "c",
+              "text": "A void of that kind is a man-made fact, produced by calling it a thing"
+            },
+            {
               "id": "a",
               "text": "Nonexistence is not a something; to exist is already to be something"
             },
             {
-              "id": "b",
-              "text": "Nothing is an entity, and it has the attribute of vacancy"
-            },
-            {
-              "id": "c",
-              "text": "A void of that kind is a man-made fact"
-            },
-            {
               "id": "d",
-              "text": "To be is to be perceived, so an unseen nothing is an entity"
+              "text": "To be is to be perceived, so an unseen nothing is an entity with no observer"
             }
           ],
           "feedback": {
@@ -6733,20 +6733,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "What exists is an entity of a specific nature, made of specific attributes"
-            },
-            {
               "id": "b",
-              "text": "What exists may be an attribute with no entity"
+              "text": "What exists may be an attribute with no entity, so red can exist alone"
             },
             {
               "id": "c",
-              "text": "Nonexistence is a place stocked with vague somethings"
+              "text": "Nonexistence is a place stocked with vague somethings, held there as contents"
             },
             {
               "id": "d",
-              "text": "Nature and attributes are optional extras on a bare existence"
+              "text": "Nature and attributes are optional extras on a bare existence, if one wants them"
+            },
+            {
+              "id": "a",
+              "text": "What exists is an entity of a specific nature, made of specific attributes"
             }
           ],
           "feedback": {
@@ -6822,12 +6822,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Nothing one can point to; what exists is some specific entity"
-            },
-            {
               "id": "b",
               "text": "The first entity, of which specific things are later cuts"
+            },
+            {
+              "id": "a",
+              "text": "Nothing one can point to; what exists is some specific entity"
             },
             {
               "id": "c",
@@ -6864,8 +6864,8 @@
             }
           ],
           "bank": [
-            "something",
             "nothing",
+            "something",
             "a wish",
             "an attribute"
           ],
@@ -6889,6 +6889,10 @@
               "text": "exist"
             },
             {
+              "id": "d1",
+              "text": "a"
+            },
+            {
               "id": "t3",
               "text": "is"
             },
@@ -6909,16 +6913,12 @@
               "text": "not"
             },
             {
-              "id": "t8",
-              "text": "nothing"
-            },
-            {
-              "id": "d1",
-              "text": "a"
-            },
-            {
               "id": "d2",
               "text": "wish"
+            },
+            {
+              "id": "t8",
+              "text": "nothing"
             }
           ],
           "answer": [
@@ -6947,20 +6947,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A feature floating free of any thing, with no bearer required"
+            },
+            {
+              "id": "c",
+              "text": "A word that need not refer to anything, and the name is enough"
+            },
+            {
               "id": "a",
               "text": "A something with a specific nature and specific attributes"
             },
             {
-              "id": "b",
-              "text": "A feature floating free of any thing"
-            },
-            {
-              "id": "c",
-              "text": "A word that need not refer to anything"
-            },
-            {
               "id": "d",
-              "text": "An action with no actor"
+              "text": "An action with no actor, real on its own with nothing that moves"
             }
           ],
           "feedback": {
@@ -6975,10 +6975,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The entity that has the attribute"
-            },
-            {
               "id": "b",
               "text": "A vote declaring that redness exists alone"
             },
@@ -6989,6 +6985,10 @@
             {
               "id": "d",
               "text": "A constant conjunction between two nothings"
+            },
+            {
+              "id": "a",
+              "text": "The entity that has the attribute"
             }
           ],
           "feedback": {
@@ -7031,12 +7031,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The entity: the attributes are its attributes, not a crowd that replaces it"
-            },
-            {
               "id": "b",
               "text": "Nothing: a crowd of attributes is the primacy of existence"
+            },
+            {
+              "id": "a",
+              "text": "The entity: the attributes are its attributes, not a crowd that replaces it"
             },
             {
               "id": "c",
@@ -7090,20 +7090,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Actions are the entities, and balls are their attributes of those actions"
+            },
+            {
+              "id": "c",
+              "text": "A ball is man-made and motion is a given nothing, so roundness was chosen"
+            },
+            {
               "id": "a",
               "text": "The motion is the ball's action; without the ball there is no motion"
             },
             {
-              "id": "b",
-              "text": "Actions are the entities, and balls are their attributes"
-            },
-            {
-              "id": "c",
-              "text": "A ball is man-made and motion is a given nothing"
-            },
-            {
               "id": "d",
-              "text": "Perception creates the ball around a free-floating motion"
+              "text": "Perception creates the ball around a free-floating motion, after the motion"
             }
           ],
           "feedback": {
@@ -7132,9 +7132,9 @@
             }
           ],
           "bank": [
-            "entity",
             "wish",
             "vote",
+            "entity",
             "void"
           ],
           "feedback": {
@@ -7161,6 +7161,10 @@
               "text": "is"
             },
             {
+              "id": "d1",
+              "text": "floating"
+            },
+            {
               "id": "t4",
               "text": "a"
             },
@@ -7179,10 +7183,6 @@
             {
               "id": "t8",
               "text": "attributes"
-            },
-            {
-              "id": "d1",
-              "text": "floating"
             },
             {
               "id": "d2",
@@ -7215,20 +7215,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A specific nature, not an open character that could be anything"
-            },
-            {
               "id": "b",
-              "text": "No nature, until a mind assigns one"
+              "text": "No nature, until a mind assigns one, so identity waits on the mind"
             },
             {
               "id": "c",
-              "text": "Every incompatible nature at once, in the same respect"
+              "text": "Every incompatible nature at once, in the same respect, none excluded"
             },
             {
               "id": "d",
-              "text": "A nature that forbids the entity to act"
+              "text": "A nature that forbids the entity to act, so specificity is stillness"
+            },
+            {
+              "id": "a",
+              "text": "A specific nature, not an open character that could be anything"
             }
           ],
           "feedback": {
@@ -7271,12 +7271,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Two natures, or two states, across time; not one contradiction"
-            },
-            {
               "id": "b",
               "text": "Proof that a specific nature forbids any later difference"
+            },
+            {
+              "id": "a",
+              "text": "Two natures, or two states, across time; not one contradiction"
             },
             {
               "id": "c",
@@ -7299,20 +7299,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A specific nature means the entity is only a word, so nothing there can act"
+            },
+            {
+              "id": "c",
+              "text": "Motion is the primacy of consciousness, so a moving body is a mental product"
+            },
+            {
               "id": "a",
               "text": "Those actions can be what that nature does; specificity is not stillness"
             },
             {
-              "id": "b",
-              "text": "A specific nature means the entity is only a word"
-            },
-            {
-              "id": "c",
-              "text": "Motion is the primacy of consciousness"
-            },
-            {
               "id": "d",
-              "text": "Melting is man-made, so the ban is right for natural entities"
+              "text": "Melting is man-made, so the ban is right for natural entities that stay still"
             }
           ],
           "feedback": {
@@ -7358,20 +7358,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "He has given it to the mind's structuring and dropped the entity's own identity"
-            },
-            {
               "id": "b",
-              "text": "He has stated what a specific nature means"
+              "text": "He has stated what a specific nature means, so a nature for us is the metal as it is"
             },
             {
               "id": "c",
-              "text": "He has reported Kant's claim that wishes are metals"
+              "text": "He has reported Kant's claim that wishes are metals, so feeling replaces the bar"
             },
             {
               "id": "d",
-              "text": "He has classified the metal as a man-made structure"
+              "text": "He has classified the metal as a man-made structure, because it was known"
+            },
+            {
+              "id": "a",
+              "text": "He has given it to the mind's structuring and dropped the entity's own identity"
             }
           ],
           "feedback": {
@@ -7400,10 +7400,10 @@
             }
           ],
           "bank": [
-            "specific",
             "optional",
             "voted",
-            "dual"
+            "dual",
+            "specific"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -7417,6 +7417,10 @@
           "prompt": "Assemble the rejection of an open character.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "wish"
+            },
+            {
               "id": "t1",
               "text": "A"
             },
@@ -7427,6 +7431,10 @@
             {
               "id": "t3",
               "text": "nature"
+            },
+            {
+              "id": "d2",
+              "text": "vote"
             },
             {
               "id": "t4",
@@ -7447,14 +7455,6 @@
             {
               "id": "t8",
               "text": "character"
-            },
-            {
-              "id": "d1",
-              "text": "wish"
-            },
-            {
-              "id": "d2",
-              "text": "vote"
             }
           ],
           "answer": [
@@ -7511,12 +7511,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Specific attributes of the glass"
-            },
-            {
               "id": "b",
               "text": "Entities that could remain if the glass were gone and only they were kept"
+            },
+            {
+              "id": "a",
+              "text": "Specific attributes of the glass"
             },
             {
               "id": "c",
@@ -7539,16 +7539,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Nothing one can call a specific something"
-            },
-            {
               "id": "b",
               "text": "The entity, correctly, since attributes are decorations"
             },
             {
               "id": "c",
               "text": "The metaphysically given, with the attributes as later votes"
+            },
+            {
+              "id": "a",
+              "text": "Nothing one can call a specific something"
             },
             {
               "id": "d",
@@ -7598,10 +7598,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "An error in the description, not a richer nature"
-            },
-            {
               "id": "b",
               "text": "A permissible feature of specific attributes"
             },
@@ -7612,6 +7608,10 @@
             {
               "id": "d",
               "text": "The blow, which functions as a vote"
+            },
+            {
+              "id": "a",
+              "text": "An error in the description, not a richer nature"
             }
           ],
           "feedback": {
@@ -7631,15 +7631,15 @@
             },
             {
               "id": "b",
-              "text": "Attributes are whatever the measurer wishes"
+              "text": "Attributes are whatever the measurer wishes, so brittleness is his feeling"
             },
             {
               "id": "c",
-              "text": "A glass with no attributes is still a specific entity"
+              "text": "A glass with no attributes is still a specific entity, bare and still something"
             },
             {
               "id": "d",
-              "text": "Measurement is constant conjunction and therefore the attribute"
+              "text": "Measurement is constant conjunction and therefore the attribute, not the glass"
             }
           ],
           "feedback": {
@@ -7701,6 +7701,10 @@
               "text": "up"
             },
             {
+              "id": "d1",
+              "text": "wishes"
+            },
+            {
               "id": "t5",
               "text": "the"
             },
@@ -7709,16 +7713,12 @@
               "text": "entity's"
             },
             {
-              "id": "t7",
-              "text": "nature"
-            },
-            {
-              "id": "d1",
-              "text": "wishes"
-            },
-            {
               "id": "d2",
               "text": "replace"
+            },
+            {
+              "id": "t7",
+              "text": "nature"
             }
           ],
           "answer": [
@@ -7746,12 +7746,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "What that entity is"
-            },
-            {
               "id": "b",
               "text": "A demand that ignores its nature"
+            },
+            {
+              "id": "a",
+              "text": "What that entity is"
             },
             {
               "id": "c",
@@ -7774,16 +7774,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Shattering follows from what the glass is"
-            },
-            {
               "id": "b",
               "text": "The blow is a decree and the glass has no nature"
             },
             {
               "id": "c",
               "text": "Rubber and glass share one nature, so the difference is unreal"
+            },
+            {
+              "id": "a",
+              "text": "Shattering follows from what the glass is"
             },
             {
               "id": "d",
@@ -7802,10 +7802,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "That the glass act against its nature"
-            },
-            {
               "id": "b",
               "text": "An ordinary change, which identity always permits"
             },
@@ -7816,6 +7812,10 @@
             {
               "id": "d",
               "text": "A minor cause the law of identity allows beside the nature"
+            },
+            {
+              "id": "a",
+              "text": "That the glass act against its nature"
             }
           ],
           "feedback": {
@@ -7835,15 +7835,15 @@
             },
             {
               "id": "b",
-              "text": "The choice follows from no nature at all"
+              "text": "The choice follows from no nature at all, so focus acts with nothing there to do the acting"
             },
             {
               "id": "c",
-              "text": "Focus is an attribute floating free of the person"
+              "text": "Focus is an attribute floating free of the person, so the choice needs no consciousness behind it"
             },
             {
               "id": "d",
-              "text": "The choice is metaphysically given and could not have been otherwise"
+              "text": "The choice is metaphysically given and could not have been otherwise, with a flood's kind of necessity"
             }
           ],
           "feedback": {
@@ -7889,20 +7889,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Nothing: this is identity applied to action, correctly stated, so no entity is required to act"
+            },
+            {
               "id": "a",
               "text": "The cause: actions are caused by entities, so an ownerless action is not an action of anything"
             },
             {
-              "id": "b",
-              "text": "Nothing: this is identity applied to action, correctly stated"
-            },
-            {
               "id": "c",
-              "text": "A wish, which can serve as the missing entity"
+              "text": "A wish, which can serve as the missing entity, so desire acts when no thing is there"
             },
             {
               "id": "d",
-              "text": "A constant conjunction, which supplies the entity"
+              "text": "A constant conjunction, which supplies the entity, so the bare sequence is the something required"
             }
           ],
           "feedback": {
@@ -7931,8 +7931,8 @@
             }
           ],
           "bank": [
-            "is",
             "wishes",
+            "is",
             "votes",
             "denies"
           ],
@@ -7968,16 +7968,16 @@
               "text": "the"
             },
             {
+              "id": "d1",
+              "text": "wishes"
+            },
+            {
               "id": "t6",
               "text": "entity"
             },
             {
               "id": "t7",
               "text": "is"
-            },
-            {
-              "id": "d1",
-              "text": "wishes"
             },
             {
               "id": "d2",
@@ -8009,16 +8009,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Nothing; whatever is, is within existence"
-            },
-            {
               "id": "b",
               "text": "A region of nonexistence, stocked with further facts"
             },
             {
               "id": "c",
               "text": "A divine consciousness that produced existence from beyond it"
+            },
+            {
+              "id": "a",
+              "text": "Nothing; whatever is, is within existence"
             },
             {
               "id": "d",
@@ -8037,10 +8037,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "\"Outside existence\" names no place; a fact that is, is existent"
-            },
-            {
               "id": "b",
               "text": "Outside existence is where man-made facts are stored"
             },
@@ -8051,6 +8047,10 @@
             {
               "id": "d",
               "text": "A vote can place a fact beyond existence and leave it real"
+            },
+            {
+              "id": "a",
+              "text": "\"Outside existence\" names no place; a fact that is, is existent"
             }
           ],
           "feedback": {
@@ -8070,15 +8070,15 @@
             },
             {
               "id": "b",
-              "text": "It has stated that the total cannot come into existence"
+              "text": "It has stated that the total cannot come into existence, the point to keep clear"
             },
             {
               "id": "c",
-              "text": "It has distinguished a man-made fact from a given one"
+              "text": "It has distinguished a man-made fact from a given one, and that is its work"
             },
             {
               "id": "d",
-              "text": "It has described an entity of a specific nature"
+              "text": "It has described an entity of a specific nature, namely the nature of nothing"
             }
           ],
           "feedback": {
@@ -8093,20 +8093,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "He has kept things as they are inside existence, where they belong, and the move stands"
+            },
+            {
               "id": "a",
               "text": "He has put real things in a nowhere, which is a primacy-of-consciousness picture"
             },
             {
-              "id": "b",
-              "text": "He has kept things as they are inside existence, where they belong"
-            },
-            {
               "id": "c",
-              "text": "He has classified the unknown as man-made"
+              "text": "He has classified the unknown as man-made, so the unknown is a product of choice"
             },
             {
               "id": "d",
-              "text": "He has applied identity only inside the mind and existence only past it"
+              "text": "He has applied identity only inside the mind and existence only past it, as two realms"
             }
           ],
           "feedback": {
@@ -8152,16 +8152,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The job of a container, though a container would itself exist"
-            },
-            {
               "id": "b",
               "text": "Nothing illegitimate: surroundings prove a second existence"
             },
             {
               "id": "c",
               "text": "The status of a wish"
+            },
+            {
+              "id": "a",
+              "text": "The job of a container, though a container would itself exist"
             },
             {
               "id": "d",
@@ -8194,9 +8194,9 @@
             }
           ],
           "bank": [
-            "nothing",
             "a place",
             "a god",
+            "nothing",
             "a void"
           ],
           "feedback": {
@@ -8211,6 +8211,10 @@
           "prompt": "Assemble the claim that existence has no exterior.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "a"
+            },
+            {
               "id": "t1",
               "text": "There"
             },
@@ -8223,20 +8227,16 @@
               "text": "nothing"
             },
             {
+              "id": "d2",
+              "text": "void"
+            },
+            {
               "id": "t4",
               "text": "outside"
             },
             {
               "id": "t5",
               "text": "existence"
-            },
-            {
-              "id": "d1",
-              "text": "a"
-            },
-            {
-              "id": "d2",
-              "text": "void"
             }
           ],
           "answer": [
@@ -8262,10 +8262,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Everything that exists"
-            },
-            {
               "id": "b",
               "text": "One object among other objects"
             },
@@ -8276,6 +8272,10 @@
             {
               "id": "d",
               "text": "A container larger than existence"
+            },
+            {
+              "id": "a",
+              "text": "Everything that exists"
             }
           ],
           "feedback": {
@@ -8318,20 +8318,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "It is nonexistence, correctly used as a frame, a nothing rightly containing the sum"
+            },
+            {
               "id": "a",
               "text": "If it exists, it is further existents, already included in everything that exists"
             },
             {
-              "id": "b",
-              "text": "It is nonexistence, correctly used as a frame"
-            },
-            {
               "id": "c",
-              "text": "It is a second total, standing beside the first"
+              "text": "It is a second total, standing beside the first, so two sums of everything stand apart"
             },
             {
               "id": "d",
-              "text": "It is a man-made fact, and the universe is the given half"
+              "text": "It is a man-made fact, and the universe is the given half, with choice as the outer frame"
             }
           ],
           "feedback": {
@@ -8346,16 +8346,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Yes, if they exist; the total is not limited to solid lumps"
-            },
-            {
               "id": "b",
               "text": "No: thoughts are outside existence, and only solids count"
             },
             {
               "id": "c",
               "text": "Thoughts count only while perceived, and otherwise drop out of the total"
+            },
+            {
+              "id": "a",
+              "text": "Yes, if they exist; the total is not limited to solid lumps"
             },
             {
               "id": "d",
@@ -8405,10 +8405,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "An epistemological limit into a pretended edge of existence"
-            },
-            {
               "id": "b",
               "text": "Nothing: the universe is man-made by the act of defining it"
             },
@@ -8419,6 +8415,10 @@
             {
               "id": "d",
               "text": "A definition into a flood, which must be accepted uncritically"
+            },
+            {
+              "id": "a",
+              "text": "An epistemological limit into a pretended edge of existence"
             }
           ],
           "feedback": {
@@ -8447,10 +8447,10 @@
             }
           ],
           "bank": [
-            "everything",
             "one object",
             "a part",
-            "a wish"
+            "a wish",
+            "everything"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -8472,8 +8472,16 @@
               "text": "universe"
             },
             {
+              "id": "d1",
+              "text": "one"
+            },
+            {
               "id": "t3",
               "text": "is"
+            },
+            {
+              "id": "d2",
+              "text": "object"
             },
             {
               "id": "t4",
@@ -8486,14 +8494,6 @@
             {
               "id": "t6",
               "text": "exists"
-            },
-            {
-              "id": "d1",
-              "text": "one"
-            },
-            {
-              "id": "d2",
-              "text": "object"
             }
           ],
           "answer": [
@@ -8548,12 +8548,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It has treated nonexistence as a place populated by entities"
-            },
-            {
               "id": "b",
               "text": "It has stated the axiom that existence exists"
+            },
+            {
+              "id": "a",
+              "text": "It has treated nonexistence as a place populated by entities"
             },
             {
               "id": "c",
@@ -8576,16 +8576,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A room, which would exist, under the word for what does not"
-            },
-            {
               "id": "b",
               "text": "A correct picture, because darkness is nonexistence"
             },
             {
               "id": "c",
               "text": "The unseen, correctly treated as outside existence"
+            },
+            {
+              "id": "a",
+              "text": "A room, which would exist, under the word for what does not"
             },
             {
               "id": "d",
@@ -8604,20 +8604,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "If the space is, it exists; it is not a sample of nonexistence used as a container"
-            },
-            {
               "id": "b",
-              "text": "Nothing: space is a vote, and the conclusion follows"
+              "text": "Nothing: space is a vote, and the conclusion follows, because the tally makes the place"
             },
             {
               "id": "c",
-              "text": "The universe is one object and the space is a second universe beside it"
+              "text": "The universe is one object and the space is a second universe beside it, outside the sum"
             },
             {
               "id": "d",
-              "text": "A container of nothing is a man-made fact, so the conclusion is a statute"
+              "text": "A container of nothing is a man-made fact, so the conclusion is a statute to be judged"
+            },
+            {
+              "id": "a",
+              "text": "If the space is, it exists; it is not a sample of nonexistence used as a container"
             }
           ],
           "feedback": {
@@ -8668,15 +8668,15 @@
             },
             {
               "id": "b",
-              "text": "Correctly locating things as they are, in nonexistence"
+              "text": "Correctly locating things as they are, in nonexistence, which is their actual address"
             },
             {
               "id": "c",
-              "text": "Naming a man-made place"
+              "text": "Naming a man-made place that builders raised past the forms for things as they are"
             },
             {
               "id": "d",
-              "text": "Reporting that things as they are are wishes"
+              "text": "Reporting that things as they are are wishes, so what lies past the forms is only a feeling"
             }
           ],
           "feedback": {
@@ -8742,6 +8742,10 @@
               "text": "region"
             },
             {
+              "id": "d1",
+              "text": "decree"
+            },
+            {
               "id": "t6",
               "text": "or"
             },
@@ -8752,10 +8756,6 @@
             {
               "id": "t8",
               "text": "background"
-            },
-            {
-              "id": "d1",
-              "text": "decree"
             },
             {
               "id": "d2",
@@ -8788,20 +8788,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Yes: nonexistence is that frame, and a nothing surrounds and holds the sum"
+            },
+            {
               "id": "a",
               "text": "No: a bigger frame would be something further, already inside existence"
             },
             {
-              "id": "b",
-              "text": "Yes: nonexistence is that frame"
-            },
-            {
               "id": "c",
-              "text": "Yes: a divine mind is the frame, and existence is its product"
+              "text": "Yes: a divine mind is the frame, and existence is its product, from outside"
             },
             {
               "id": "d",
-              "text": "Yes: the forms of intuition are the outer container"
+              "text": "Yes: the forms of intuition are the outer container, surrounding the sum"
             }
           ],
           "feedback": {
@@ -8816,20 +8816,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A divine consciousness as the proper cause of the total, correctly standing beyond it"
+            },
+            {
+              "id": "c",
+              "text": "Creation of the total as a harmless case of change over time, like any ordinary change"
+            },
+            {
               "id": "a",
               "text": "A maker outside the total, which would have to exist and so would already be included"
             },
             {
-              "id": "b",
-              "text": "A divine consciousness as the proper cause of the total, correctly"
-            },
-            {
-              "id": "c",
-              "text": "Creation of the total as a harmless case of change over time"
-            },
-            {
               "id": "d",
-              "text": "The universe as a man-made fact of the same kind as a building"
+              "text": "The universe as a man-made fact of the same kind as a building, raised from outside the sum"
             }
           ],
           "feedback": {
@@ -8845,20 +8845,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The universe as a whole cannot come into existence or go out of existence"
-            },
-            {
               "id": "b",
-              "text": "Particular entities cannot come into existence or pass away"
+              "text": "Particular entities cannot come into existence or pass away, stars included"
             },
             {
               "id": "c",
-              "text": "The universe is the product of a consciousness"
+              "text": "The universe is the product of a consciousness, made by a mind and unmade by one"
             },
             {
               "id": "d",
-              "text": "Annihilation is the method by which man-made facts are judged"
+              "text": "Annihilation is the method by which man-made facts are judged and removed"
+            },
+            {
+              "id": "a",
+              "text": "The universe as a whole cannot come into existence or go out of existence"
             }
           ],
           "feedback": {
@@ -8880,15 +8880,15 @@
             },
             {
               "id": "b",
-              "text": "Yes: any change annihilates the universe"
+              "text": "Yes: any change annihilates the universe, so one dying star ends everything that exists"
             },
             {
               "id": "c",
-              "text": "Yes, if no one now perceives the star"
+              "text": "Yes, if no one now perceives the star, because perception is what holds the total in being"
             },
             {
               "id": "d",
-              "text": "Yes: the star was the container of existence"
+              "text": "Yes: the star was the container of existence, so its death removes the frame around the sum"
             }
           ],
           "feedback": {
@@ -8934,12 +8934,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A choice about attention with a power over the total, which no volition has"
-            },
-            {
               "id": "b",
               "text": "Perception with the container of existence, correctly"
+            },
+            {
+              "id": "a",
+              "text": "A choice about attention with a power over the total, which no volition has"
             },
             {
               "id": "c",
@@ -8976,8 +8976,8 @@
             }
           ],
           "bank": [
-            "created",
             "observed",
+            "created",
             "measured",
             "named"
           ],
@@ -8993,12 +8993,20 @@
           "prompt": "Assemble the rejection of a frame around existence.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "void"
+            },
+            {
               "id": "t1",
               "text": "Existence"
             },
             {
               "id": "t2",
               "text": "is"
+            },
+            {
+              "id": "d2",
+              "text": "wish"
             },
             {
               "id": "t3",
@@ -9019,14 +9027,6 @@
             {
               "id": "t7",
               "text": "frame"
-            },
-            {
-              "id": "d1",
-              "text": "void"
-            },
-            {
-              "id": "d2",
-              "text": "wish"
             }
           ],
           "answer": [
@@ -9054,16 +9054,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Nothing is outside existence, and the universe is everything that exists"
-            },
-            {
               "id": "b",
               "text": "Nonexistence is a place, and the universe is one object inside it"
             },
             {
               "id": "c",
               "text": "The universe is a product of consciousness, and existence is what that mind perceives"
+            },
+            {
+              "id": "a",
+              "text": "Nothing is outside existence, and the universe is everything that exists"
             },
             {
               "id": "d",
@@ -9082,20 +9082,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Both name a beyond, and anything that is would already belong to the total"
-            },
-            {
               "id": "b",
-              "text": "Both are man-made facts that must be accepted uncritically"
+              "text": "Both are man-made facts that must be accepted uncritically, as if they were floods"
             },
             {
               "id": "c",
-              "text": "Both are ordinary change over time"
+              "text": "Both are ordinary change over time, a rearrangement of what already exists"
             },
             {
               "id": "d",
-              "text": "Both are actions against the nature of one particular rock"
+              "text": "Both are actions against the nature of one particular rock, and nothing wider"
+            },
+            {
+              "id": "a",
+              "text": "Both name a beyond, and anything that is would already belong to the total"
             }
           ],
           "feedback": {
@@ -9115,15 +9115,15 @@
             },
             {
               "id": "b",
-              "text": "Particular stars cannot form"
+              "text": "Particular stars cannot form, since a forming star would be the total coming into existence from nothing"
             },
             {
               "id": "c",
-              "text": "The total is man-made at the first moment"
+              "text": "The total is man-made at the first moment, so an opening choice produced existence itself from nothing"
             },
             {
               "id": "d",
-              "text": "Causality requires a divine decree before identity"
+              "text": "Causality requires a divine decree before identity, so a will must set that prior nothing moving at the start"
             }
           ],
           "feedback": {
@@ -9138,20 +9138,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Yes: every building creates existence from nothing, and each tower is a new sum"
+            },
+            {
               "id": "a",
               "text": "No: they have rearranged existents into a man-made fact, not created the total"
             },
             {
-              "id": "b",
-              "text": "Yes: every building creates existence from nothing"
-            },
-            {
               "id": "c",
-              "text": "The building is outside existence until someone perceives it"
+              "text": "The building is outside existence until someone perceives it, and sight puts it in"
             },
             {
               "id": "d",
-              "text": "The mountain beside it is man-made for the same reason"
+              "text": "The mountain beside it is man-made for the same reason, simply by being there"
             }
           ],
           "feedback": {
@@ -9197,20 +9197,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The region where A is not A, correctly located, so identity stops there and the clash is real"
+            },
+            {
+              "id": "c",
+              "text": "A zone where only man-made facts escape identity, so a building there need not be what it is"
+            },
+            {
               "id": "a",
               "text": "No place: a contradiction is an error in thinking, not a feature stored beyond existence"
             },
             {
-              "id": "b",
-              "text": "The region where A is not A, correctly located"
-            },
-            {
-              "id": "c",
-              "text": "A zone where only man-made facts escape identity"
-            },
-            {
               "id": "d",
-              "text": "The exemption of the total from causality"
+              "text": "The exemption of the total from causality, so the sum need not be what it is or act as it is"
             }
           ],
           "feedback": {
@@ -9239,9 +9239,9 @@
             }
           ],
           "bank": [
-            "inside",
             "outside",
             "before",
+            "inside",
             "above"
           ],
           "feedback": {
@@ -9258,6 +9258,10 @@
             {
               "id": "t1",
               "text": "Nothing"
+            },
+            {
+              "id": "d1",
+              "text": "a"
             },
             {
               "id": "t2",
@@ -9280,20 +9284,16 @@
               "text": "is"
             },
             {
+              "id": "d2",
+              "text": "void"
+            },
+            {
               "id": "t7",
               "text": "the"
             },
             {
               "id": "t8",
               "text": "total"
-            },
-            {
-              "id": "d1",
-              "text": "a"
-            },
-            {
-              "id": "d2",
-              "text": "void"
             }
           ],
           "answer": [

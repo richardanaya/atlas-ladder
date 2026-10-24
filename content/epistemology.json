@@ -39,20 +39,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The senses are a temporary source that finished concepts may replace. Words replace them."
+            },
+            {
               "id": "a",
               "text": "The senses are the only direct contact with reality and the only source of information."
             },
             {
-              "id": "b",
-              "text": "The senses are a temporary source that finished concepts may replace."
-            },
-            {
               "id": "c",
-              "text": "The mind's forms block contact, so things as they are stay unknown."
+              "text": "The mind's forms block contact, so things as they are stay unknown. No report arrives."
             },
             {
               "id": "d",
-              "text": "A feeling can inform you when the senses have nothing to add."
+              "text": "A feeling can inform you when the senses have nothing to add. Feeling supplies the rest."
             }
           ],
           "feedback": {
@@ -70,19 +70,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He treats the chart as material reason still has to identify"
+              "text": "He treats the chart as material reason still has to identify, before he sails"
+            },
+            {
+              "id": "c",
+              "text": "He refuses to let a wish stand in for the depth of the water, and he checks depth"
             },
             {
               "id": "b",
               "text": "He treats an emotion as a tool of cognition, a means that discovers facts"
             },
             {
-              "id": "c",
-              "text": "He refuses to let a wish stand in for the depth of the water"
-            },
-            {
               "id": "d",
-              "text": "He keeps the lookout's report inside the context of the crossing"
+              "text": "He keeps the lookout's report inside the context of the crossing, as evidence"
             }
           ],
           "feedback": {
@@ -162,19 +162,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "That a later judgment can misidentify what was perceived"
+              "text": "That a later judgment can misidentify what was perceived, only a warning about later slips"
             },
             {
               "id": "b",
-              "text": "That reason still has to integrate the material perception provides"
+              "text": "That reason still has to integrate the material perception provides, contact left intact"
+            },
+            {
+              "id": "d",
+              "text": "That two observers can compare identifications of one scene, as if only agreement were denied"
             },
             {
               "id": "c",
               "text": "That the senses are cognitive contact with reality and a source of information about it"
-            },
-            {
-              "id": "d",
-              "text": "That two observers can compare identifications of one scene"
             }
           ],
           "feedback": {
@@ -194,15 +194,15 @@
             },
             {
               "id": "b",
-              "text": "Concepts are forbidden once any percept has been grasped"
+              "text": "Concepts are forbidden once any percept has been grasped, so concepts stop after one look"
             },
             {
               "id": "c",
-              "text": "A word is valid only when it names a feeling rather than an entity"
+              "text": "A word is valid only when it names a feeling rather than an entity, feeling supplying it"
             },
             {
               "id": "d",
-              "text": "Science may skip concepts if the senses are already valid"
+              "text": "Science may skip concepts if the senses are already valid, with integration skipped"
             }
           ],
           "feedback": {
@@ -229,8 +229,16 @@
               "text": "not"
             },
             {
+              "id": "d1",
+              "text": "discoveries"
+            },
+            {
               "id": "t4",
               "text": "tools"
+            },
+            {
+              "id": "d2",
+              "text": "decrees"
             },
             {
               "id": "t5",
@@ -239,14 +247,6 @@
             {
               "id": "t6",
               "text": "cognition"
-            },
-            {
-              "id": "d1",
-              "text": "discoveries"
-            },
-            {
-              "id": "d2",
-              "text": "decrees"
             }
           ],
           "answer": [
@@ -275,20 +275,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Pure isolated sensations, stored one by one for later assembly, not yet entities"
+            },
+            {
               "id": "a",
               "text": "Percepts: sensations already retained and integrated into awareness of entities"
             },
             {
-              "id": "b",
-              "text": "Pure isolated sensations, stored one by one for later assembly"
-            },
-            {
               "id": "c",
-              "text": "Concepts, formed before any entity has been perceived"
+              "text": "Concepts, formed before any entity has been perceived, ahead of every percept"
             },
             {
               "id": "d",
-              "text": "Feelings, taken as the first report of what exists"
+              "text": "Feelings, taken as the first report of what exists, before any entity exists"
             }
           ],
           "feedback": {
@@ -308,12 +308,12 @@
               "text": "The given is a pure sensation, retained as a separate item."
             },
             {
-              "id": "b",
-              "text": "The given is the percept, not an isolated sensation."
-            },
-            {
               "id": "c",
               "text": "The given is a concept invented before any entity is perceived."
+            },
+            {
+              "id": "b",
+              "text": "The given is the percept, not an isolated sensation."
             },
             {
               "id": "d",
@@ -335,19 +335,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "A definition she must recite before the dog can be noticed"
+              "text": "A definition she must recite before the dog can be noticed, words before the dog"
             },
             {
               "id": "b",
-              "text": "A set of pure sensations she can later retrieve one by one"
+              "text": "A set of pure sensations she can later retrieve one by one, rebuilt afterward"
+            },
+            {
+              "id": "d",
+              "text": "An emotion that brings the dog into existence by being felt, which creates the dog"
             },
             {
               "id": "c",
               "text": "A percept: sensations automatically integrated into awareness of an entity"
-            },
-            {
-              "id": "d",
-              "text": "An emotion that brings the dog into existence by being felt"
             }
           ],
           "feedback": {
@@ -407,8 +407,8 @@
             }
           ],
           "bank": [
-            "perceptual",
             "sensational",
+            "perceptual",
             "mystical",
             "arbitrary"
           ],
@@ -429,15 +429,15 @@
             },
             {
               "id": "b",
-              "text": "Habit is the same act as omitting the measurements of a concept"
+              "text": "Habit is the same act as omitting the measurements of a concept, glued on by custom"
             },
             {
               "id": "c",
-              "text": "An impression is valid only after a group votes to keep it"
+              "text": "An impression is valid only after a group votes to keep it, the group creating it"
             },
             {
               "id": "d",
-              "text": "Concepts are forbidden to integrate more than one entity"
+              "text": "Concepts are forbidden to integrate more than one entity, a second entity forbidden"
             }
           ],
           "feedback": {
@@ -456,16 +456,16 @@
               "text": "Whatever is first in time is automatically first in the order of knowledge"
             },
             {
+              "id": "d",
+              "text": "The order of knowledge starts at the percept, whatever came first on the clock"
+            },
+            {
               "id": "b",
               "text": "Concepts come first in time, and percepts are an optional summary"
             },
             {
               "id": "c",
               "text": "A pure sensation is self-evident precisely because it cannot be remembered"
-            },
-            {
-              "id": "d",
-              "text": "The order of knowledge starts at the percept, whatever came first on the clock"
             }
           ],
           "feedback": {
@@ -496,20 +496,20 @@
               "text": "and integrated"
             },
             {
-              "id": "t5",
-              "text": "by the brain"
-            },
-            {
-              "id": "t6",
-              "text": "of a living organism"
-            },
-            {
               "id": "d1",
               "text": "by a vote"
             },
             {
+              "id": "t5",
+              "text": "by the brain"
+            },
+            {
               "id": "d2",
               "text": "a pure isolated sensation"
+            },
+            {
+              "id": "t6",
+              "text": "of a living organism"
             }
           ],
           "answer": [
@@ -538,20 +538,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "They invent the object whenever a later conclusion turns out wrong, so a miss is a fake"
+            },
+            {
+              "id": "c",
+              "text": "They distort at will whenever the observer has a preference, on the strength of a wish"
+            },
+            {
               "id": "a",
               "text": "They are physical and have no volition, so they have no power to invent or distort"
             },
             {
-              "id": "b",
-              "text": "They invent the object whenever a later conclusion turns out wrong"
-            },
-            {
-              "id": "c",
-              "text": "They distort at will whenever the observer has a preference"
-            },
-            {
               "id": "d",
-              "text": "They are guilty until a concept proves them innocent"
+              "text": "They are guilty until a concept proves them innocent, pending a later acquittal"
             }
           ],
           "feedback": {
@@ -571,16 +571,16 @@
               "text": "The evidence is absolute, so no identification remains to be done."
             },
             {
-              "id": "b",
-              "text": "The evidence is absolute, and the mind still has to learn to understand it."
-            },
-            {
               "id": "c",
               "text": "The evidence is provisional until a feeling confirms it."
             },
             {
               "id": "d",
               "text": "The mind may rewrite the evidence when an identification is difficult."
+            },
+            {
+              "id": "b",
+              "text": "The evidence is absolute, and the mind still has to learn to understand it."
             }
           ],
           "feedback": {
@@ -597,16 +597,16 @@
           "answer": "c",
           "choices": [
             {
+              "id": "c",
+              "text": "In the identification. The senses delivered evidence. They did not lie."
+            },
+            {
               "id": "a",
               "text": "In the eye, which chose to invent a bent stick"
             },
             {
               "id": "b",
               "text": "In the water, which ceases to be evidence because the look was odd"
-            },
-            {
-              "id": "c",
-              "text": "In the identification. The senses delivered evidence. They did not lie."
             },
             {
               "id": "d",
@@ -680,8 +680,8 @@
           ],
           "bank": [
             "invent",
-            "distort",
             "obey",
+            "distort",
             "vote"
           ],
           "feedback": {
@@ -698,20 +698,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "One illusion shows that percepts are wishes and should be replaced by faith, so sight yields to faith"
+            },
+            {
               "id": "a",
               "text": "An illusion is a misidentification of evidence, not a proof that the senses invent their objects"
             },
             {
-              "id": "b",
-              "text": "One illusion shows that percepts are wishes and should be replaced by faith"
-            },
-            {
               "id": "c",
-              "text": "The senses are valid only for a person who has never misidentified anything"
+              "text": "The senses are valid only for a person who has never misidentified anything, so one miss voids them"
             },
             {
               "id": "d",
-              "text": "Water is not perceived, so the example never reaches the senses"
+              "text": "Water is not perceived, so the example never reaches the senses, with refraction outside evidence"
             }
           ],
           "feedback": {
@@ -727,19 +727,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "The mind must learn to understand evidence the organs did not invent"
+              "text": "The mind must learn to understand evidence the organs did not invent, which reason must still read"
             },
             {
               "id": "b",
-              "text": "A false conclusion about a stick does not mean the eye chose to lie"
-            },
-            {
-              "id": "c",
-              "text": "Learning refraction is how the mind understands the look of the stick"
+              "text": "A false conclusion about a stick does not mean the eye chose to lie, since organs have no will"
             },
             {
               "id": "d",
               "text": "A percept needs no identification, because absolute evidence is already a finished conclusion"
+            },
+            {
+              "id": "c",
+              "text": "Learning refraction is how the mind understands the look of the stick, an act of understanding"
             }
           ],
           "feedback": {
@@ -754,6 +754,10 @@
           "prompt": "Build the claim that the senses do not lie, leaving the error in the mind.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "obey"
+            },
+            {
               "id": "t1",
               "text": "His"
             },
@@ -766,20 +770,16 @@
               "text": "cannot"
             },
             {
+              "id": "d2",
+              "text": "replace"
+            },
+            {
               "id": "t4",
               "text": "deceive"
             },
             {
               "id": "t5",
               "text": "him"
-            },
-            {
-              "id": "d1",
-              "text": "obey"
-            },
-            {
-              "id": "d2",
-              "text": "replace"
             }
           ],
           "answer": [
@@ -807,10 +807,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The stolen concept, because the attack depends on the evidence it denies"
-            },
-            {
               "id": "b",
               "text": "A harmless change of wording, with no claim about the evidence"
             },
@@ -821,6 +817,10 @@
             {
               "id": "d",
               "text": "An objective check that uses no perception at any step"
+            },
+            {
+              "id": "a",
+              "text": "The stolen concept, because the attack depends on the evidence it denies"
             }
           ],
           "feedback": {
@@ -836,12 +836,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "They succeed whenever two observers describe one scene in different words."
-            },
-            {
               "id": "b",
               "text": "They are variants of the stolen-concept fallacy."
+            },
+            {
+              "id": "a",
+              "text": "They succeed whenever two observers describe one scene in different words."
             },
             {
               "id": "c",
@@ -867,19 +867,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He has identified the diagram without relying on perception"
-            },
-            {
-              "id": "b",
-              "text": "He has shown that a concept needs no base in percepts"
+              "text": "He has identified the diagram without relying on perception, without eyes"
             },
             {
               "id": "c",
               "text": "He has used sensory evidence to deny the validity of sensory evidence"
             },
             {
+              "id": "b",
+              "text": "He has shown that a concept needs no base in percepts, seeing never required"
+            },
+            {
               "id": "d",
-              "text": "He has let a feeling do the work a percept would have done"
+              "text": "He has let a feeling do the work a percept would have done, by emotion alone"
             }
           ],
           "feedback": {
@@ -939,10 +939,10 @@
             }
           ],
           "bank": [
-            "stolen concept",
             "honest doubt",
             "valid proof",
-            "new source"
+            "new source",
+            "stolen concept"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -956,20 +956,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Any disagreement proves that percepts are manufactured by the mind, ridge left unseen"
+            },
+            {
+              "id": "c",
+              "text": "The senses are valid only when every observer utters the same sentence, sight then ends"
+            },
+            {
               "id": "a",
               "text": "A clash in identification is not a verdict against organs that have no volition"
             },
             {
-              "id": "b",
-              "text": "Any disagreement proves that percepts are manufactured by the mind"
-            },
-            {
-              "id": "c",
-              "text": "The senses are valid only when every observer utters the same sentence"
-            },
-            {
               "id": "d",
-              "text": "Distance is not the sort of fact perception can provide"
+              "text": "Distance is not the sort of fact perception can provide, so near and far are not seen"
             }
           ],
           "feedback": {
@@ -985,15 +985,15 @@
           "choices": [
             {
               "id": "a",
-              "text": "A circular argument is fine if the conclusion feels certain"
+              "text": "A circular argument is fine if the conclusion feels certain, so feeling can replace evidence"
             },
             {
               "id": "b",
-              "text": "The charge of circularity makes perception an optional extra"
+              "text": "The charge of circularity makes perception an optional extra, so the base may be dropped"
             },
             {
               "id": "c",
-              "text": "The circle is broken by switching the source of information to feeling"
+              "text": "The circle is broken by switching the source of information to feeling, from outside the senses"
             },
             {
               "id": "d",
@@ -1011,6 +1011,10 @@
           "mode": "sentence",
           "prompt": "Build the challenge issued to someone who rejects the validity of sensory perception.",
           "tokens": [
+            {
+              "id": "d1",
+              "text": "by pure faith"
+            },
             {
               "id": "t1",
               "text": "Let the witch doctor"
@@ -1032,6 +1036,10 @@
               "text": "try to prove it"
             },
             {
+              "id": "d2",
+              "text": "by a vote"
+            },
+            {
               "id": "t6",
               "text": "without using the data"
             },
@@ -1042,14 +1050,6 @@
             {
               "id": "t8",
               "text": "by sensory perception"
-            },
-            {
-              "id": "d1",
-              "text": "by pure faith"
-            },
-            {
-              "id": "d2",
-              "text": "by a vote"
             }
           ],
           "answer": [
@@ -1085,15 +1085,15 @@
             },
             {
               "id": "b",
-              "text": "A feeling, then a vote, then a percept invented to match the feeling"
+              "text": "A feeling, then a vote, then a percept invented to match the feeling, evidence last"
             },
             {
               "id": "c",
-              "text": "A concept with no percepts, then senses recruited to illustrate the word"
+              "text": "A concept with no percepts, then senses recruited to illustrate the word, evidence hired after"
             },
             {
               "id": "d",
-              "text": "Truth by revelation, then percepts edited to fit the message"
+              "text": "Truth by revelation, then percepts edited to fit the message, message overruling the percept"
             }
           ],
           "feedback": {
@@ -1222,8 +1222,8 @@
           ],
           "bank": [
             "concepts",
-            "language",
             "feelings",
+            "language",
             "votes"
           ],
           "feedback": {
@@ -1240,10 +1240,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Feeling is not a source of information and not a tool of cognition"
-            },
-            {
               "id": "b",
               "text": "The path already names feeling as the step between percepts and concepts"
             },
@@ -1254,6 +1250,10 @@
             {
               "id": "d",
               "text": "Knowledge needs no standard once the feeling is sincere"
+            },
+            {
+              "id": "a",
+              "text": "Feeling is not a source of information and not a tool of cognition"
             }
           ],
           "feedback": {
@@ -1268,20 +1268,20 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "Usefulness has been put in place of the recognition of reality as the standard of truth"
+            },
+            {
               "id": "a",
-              "text": "Reason remains the only standard, and utility is simply its nickname"
+              "text": "Reason remains the only standard, and utility is simply its nickname, so help means truth"
             },
             {
               "id": "b",
-              "text": "The percepts were optional, so utility had to become the source of information"
+              "text": "The percepts were optional, so utility had to become the source of information, evidence cut"
             },
             {
               "id": "c",
-              "text": "A useful error is still the recognition of what the sample is"
-            },
-            {
-              "id": "d",
-              "text": "Usefulness has been put in place of the recognition of reality as the standard of truth"
+              "text": "A useful error is still the recognition of what the sample is, so the mistake stays true"
             }
           ],
           "feedback": {
@@ -1328,16 +1328,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It has no evidence and no tie to the facts one knows"
-            },
-            {
               "id": "b",
               "text": "It is surprising, though the evidence for it is plain"
             },
             {
               "id": "c",
               "text": "It is false, and the evidence against it is conclusive"
+            },
+            {
+              "id": "a",
+              "text": "It has no evidence and no tie to the facts one knows"
             },
             {
               "id": "d",
@@ -1360,16 +1360,16 @@
               "text": "The lake is frozen, said while one is looking at the ice"
             },
             {
-              "id": "b",
-              "text": "An undetectable influence, tied to nothing known, changed the reading"
-            },
-            {
               "id": "c",
               "text": "The lake is boiling, said while one is looking at the ice"
             },
             {
               "id": "d",
               "text": "The reading changed, and the cause is still being sought in the apparatus"
+            },
+            {
+              "id": "b",
+              "text": "An undetectable influence, tied to nothing known, changed the reading"
             }
           ],
           "feedback": {
@@ -1384,16 +1384,16 @@
           "answer": "c",
           "choices": [
             {
+              "id": "c",
+              "text": "No. It has a tie to known facts, so it is not empty"
+            },
+            {
               "id": "a",
               "text": "Yes. Any claim short of certainty is arbitrary"
             },
             {
               "id": "b",
               "text": "Yes. A hypothesis is arbitrary until a vote accepts it"
-            },
-            {
-              "id": "c",
-              "text": "No. It has a tie to known facts, so it is not empty"
             },
             {
               "id": "d",
@@ -1457,8 +1457,8 @@
             }
           ],
           "bank": [
-            "facts",
             "feelings",
+            "facts",
             "votes",
             "wishes"
           ],
@@ -1474,20 +1474,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A real lack of evidence, which is what arbitrary means, so an unrepeated result is empty"
+            },
+            {
               "id": "a",
               "text": "His personal unfamiliarity with a tie to the facts that is already in the evidence"
             },
             {
-              "id": "b",
-              "text": "A real lack of evidence, which is what arbitrary means"
-            },
-            {
               "id": "c",
-              "text": "A contradiction in the measurement, which makes it neither true nor false"
+              "text": "A contradiction in the measurement, which makes it neither true nor false, by his absence"
             },
             {
               "id": "d",
-              "text": "The duty to believe a claim that has no connection to anything known"
+              "text": "The duty to believe a claim that has no connection to anything known, binding nobody yet"
             }
           ],
           "feedback": {
@@ -1503,19 +1503,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Saying it more loudly"
+              "text": "Saying it more loudly, until nobody asks what it names"
             },
             {
               "id": "b",
-              "text": "Calling it ancient, with no facts attached"
-            },
-            {
-              "id": "c",
-              "text": "Threatening anyone who sets it aside"
+              "text": "Calling it ancient, with no facts attached, age as evidence"
             },
             {
               "id": "d",
               "text": "Producing evidence, or a real tie to facts one already knows"
+            },
+            {
+              "id": "c",
+              "text": "Threatening anyone who sets it aside, fear replacing any known fact"
             }
           ],
           "feedback": {
@@ -1530,8 +1530,16 @@
           "prompt": "Build the two lacks that mark a claim as arbitrary.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "a strong wish"
+            },
+            {
               "id": "t1",
               "text": "No evidence"
+            },
+            {
+              "id": "d2",
+              "text": "a loud insistence"
             },
             {
               "id": "t2",
@@ -1544,14 +1552,6 @@
             {
               "id": "t4",
               "text": "to known facts"
-            },
-            {
-              "id": "d1",
-              "text": "a strong wish"
-            },
-            {
-              "id": "d2",
-              "text": "a loud insistence"
             }
           ],
           "answer": [
@@ -1576,10 +1576,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "None. It is neither true nor false, and it is set aside"
-            },
-            {
               "id": "b",
               "text": "False, because anything without evidence is a negative fact"
             },
@@ -1590,6 +1586,10 @@
             {
               "id": "d",
               "text": "Probable, at even odds, because emptiness is a kind of evidence"
+            },
+            {
+              "id": "a",
+              "text": "None. It is neither true nor false, and it is set aside"
             }
           ],
           "feedback": {
@@ -1604,12 +1604,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "Weigh it as a live candidate alongside claims that have evidence"
-            },
-            {
               "id": "b",
               "text": "Set it aside. Do not enter it as true, false, or possible"
+            },
+            {
+              "id": "a",
+              "text": "Weigh it as a live candidate alongside claims that have evidence"
             },
             {
               "id": "c",
@@ -1633,19 +1633,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Because the arbitrary is true, and falsehood would slander it"
-            },
-            {
-              "id": "b",
-              "text": "Because falsehood is impossible for any sentence"
+              "text": "Because the arbitrary is true, and falsehood would slander it, so emptiness stands until a fact is attached"
             },
             {
               "id": "c",
               "text": "Because falsehood is a verdict, and this claim has no relation to the facts on which a verdict could rest"
             },
             {
+              "id": "b",
+              "text": "Because falsehood is impossible for any sentence, and no sentence can be judged by the facts"
+            },
+            {
               "id": "d",
-              "text": "Because a louder repetition would make the same claim true"
+              "text": "Because a louder repetition would make the same claim true, volume standing in for a tie to reality"
             }
           ],
           "feedback": {
@@ -1705,9 +1705,9 @@
             }
           ],
           "bank": [
-            "false",
             "spoken",
             "old",
+            "false",
             "short"
           ],
           "feedback": {
@@ -1722,20 +1722,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "He is right. Whatever is not called false is thereby possible, so the empty influence stays open"
+            },
+            {
+              "id": "c",
+              "text": "He is right. An empty claim is the strongest kind of evidence, emptiness being the proof"
+            },
+            {
               "id": "a",
               "text": "Refusing a truth-value is not a confession of possibility. The claim is empty and is set aside"
             },
             {
-              "id": "b",
-              "text": "He is right. Whatever is not called false is thereby possible"
-            },
-            {
-              "id": "c",
-              "text": "He is right. An empty claim is the strongest kind of evidence"
-            },
-            {
               "id": "d",
-              "text": "The influence is false, and that falsehood needs no relation to any fact"
+              "text": "The influence is false, and that falsehood needs no relation to any fact, with nothing contradicted"
             }
           ],
           "feedback": {
@@ -1778,12 +1778,20 @@
           "prompt": "Build the status that keeps an empty claim out of the scales.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "therefore false"
+            },
+            {
               "id": "t1",
               "text": "Neither"
             },
             {
               "id": "t2",
               "text": "true"
+            },
+            {
+              "id": "d2",
+              "text": "therefore possible"
             },
             {
               "id": "t3",
@@ -1796,14 +1804,6 @@
             {
               "id": "t5",
               "text": "so set aside"
-            },
-            {
-              "id": "d1",
-              "text": "therefore false"
-            },
-            {
-              "id": "d2",
-              "text": "therefore possible"
             }
           ],
           "answer": [
@@ -1958,10 +1958,10 @@
             }
           ],
           "bank": [
-            "asserts",
             "listens",
             "doubts",
-            "sleeps"
+            "sleeps",
+            "asserts"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -1975,20 +1975,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Dismissal grants no truth-value. A universal negative, asserted as knowledge, would need evidence of its own"
-            },
-            {
               "id": "b",
-              "text": "They are the same, so every denial is knowledge for free"
+              "text": "They are the same, so every denial is knowledge for free, and dismissal proves the thing absent from the world"
             },
             {
               "id": "c",
-              "text": "The universal negative is arbitrary, and dismissal is a vote"
+              "text": "The universal negative is arbitrary, and dismissal is a vote, so setting it aside is merely a preference"
             },
             {
               "id": "d",
-              "text": "Dismissal proves the opposite claim in every context at once"
+              "text": "Dismissal proves the opposite claim in every context at once, and that dismissal counts as knowledge of the contrary"
+            },
+            {
+              "id": "a",
+              "text": "Dismissal grants no truth-value. A universal negative, asserted as knowledge, would need evidence of its own"
             }
           ],
           "feedback": {
@@ -2003,20 +2003,20 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "The claim does not stand. He asserted it, and he offered nothing to prove"
+            },
+            {
               "id": "a",
-              "text": "Claims stand until the audience completes an infinite search"
+              "text": "Claims stand until the audience completes an infinite search, and silence counts"
             },
             {
               "id": "b",
-              "text": "Any negative that has not been uttered is evidence for the claim"
+              "text": "Any negative that has not been uttered is evidence for the claim, used as proof"
             },
             {
               "id": "c",
-              "text": "The claim stands because it is neither arbitrary nor unsupported"
-            },
-            {
-              "id": "d",
-              "text": "The claim does not stand. He asserted it, and he offered nothing to prove"
+              "text": "The claim stands because it is neither arbitrary nor unsupported, name sufficing"
             }
           ],
           "feedback": {
@@ -2035,6 +2035,10 @@
               "text": "The burden"
             },
             {
+              "id": "d1",
+              "text": "who listens"
+            },
+            {
               "id": "t2",
               "text": "of proof"
             },
@@ -2043,20 +2047,16 @@
               "text": "is on"
             },
             {
+              "id": "d2",
+              "text": "until disproved"
+            },
+            {
               "id": "t4",
               "text": "the person"
             },
             {
               "id": "t5",
               "text": "who asserts"
-            },
-            {
-              "id": "d1",
-              "text": "who listens"
-            },
-            {
-              "id": "d2",
-              "text": "until disproved"
             }
           ],
           "answer": [
@@ -2082,20 +2082,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Knowing every fact in the universe, with no context required, so the lamp stays unknowable until the factory is known"
+            },
+            {
               "id": "a",
               "text": "Within the context of the evidence, nothing warrants doubt. It is not a claim to know every fact beyond that context"
             },
             {
-              "id": "b",
-              "text": "Knowing every fact in the universe, with no context required"
-            },
-            {
               "id": "c",
-              "text": "A warm feeling of conviction, with the evidence still open"
+              "text": "A warm feeling of conviction, with the evidence still open, so the feeling settles it once the percept is dropped"
             },
             {
               "id": "d",
-              "text": "A vote that the conclusion is settled"
+              "text": "A vote that the conclusion is settled, the show of hands replacing any look at the desk or the lamp"
             }
           ],
           "feedback": {
@@ -2111,19 +2111,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Unknowable, because the factory is unknown"
+              "text": "Unknowable, because the factory is unknown, and that gap voids the view of the lamp"
+            },
+            {
+              "id": "c",
+              "text": "Arbitrary, because some facts about the lamp are unknown, so outside gaps empty the view"
             },
             {
               "id": "b",
               "text": "Certain in this context. Nothing in the evidence warrants doubt that the lamp is there"
             },
             {
-              "id": "c",
-              "text": "Arbitrary, because some facts about the lamp are unknown"
-            },
-            {
               "id": "d",
-              "text": "Certain only as a feeling, not as a recognition of the desk"
+              "text": "Certain only as a feeling, not as a recognition of the desk, unless the feeling concurs"
             }
           ],
           "feedback": {
@@ -2146,12 +2146,12 @@
               "text": "He has distinguished the factory's history from the lamp's presence"
             },
             {
-              "id": "c",
-              "text": "He has turned context into a private story. That is subjectivism"
-            },
-            {
               "id": "d",
               "text": "He has shown that omniscience is required before any percept counts"
+            },
+            {
+              "id": "c",
+              "text": "He has turned context into a private story. That is subjectivism"
             }
           ],
           "feedback": {
@@ -2233,15 +2233,15 @@
             },
             {
               "id": "b",
-              "text": "Any unknown at all, including the lamp's year of manufacture"
+              "text": "Any unknown at all, including the lamp's year of manufacture, emptying the desk"
             },
             {
               "id": "c",
-              "text": "The unknown name of the factory, because every gap ruins every percept"
+              "text": "The unknown name of the factory, because every gap ruins every percept, percepts too"
             },
             {
               "id": "d",
-              "text": "A wish that the desk be empty, because wishes are contrary evidence"
+              "text": "A wish that the desk be empty, because wishes are contrary evidence, desire winning"
             }
           ],
           "feedback": {
@@ -2257,19 +2257,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "It is exposed as always having been arbitrary"
-            },
-            {
-              "id": "b",
-              "text": "It remains certain, and the window is ignored"
-            },
-            {
-              "id": "c",
-              "text": "It proves that no contextual certainty is ever allowed"
+              "text": "It is exposed as always having been arbitrary, because one correction proves the earlier percept never counted at all"
             },
             {
               "id": "d",
               "text": "The context has changed. The new evidence warrants a new conclusion, which does not make the old context omniscience or nothing"
+            },
+            {
+              "id": "b",
+              "text": "It remains certain, and the window is ignored, because a closed context cannot be reopened by evidence about the window"
+            },
+            {
+              "id": "c",
+              "text": "It proves that no contextual certainty is ever allowed, since correcting one percept retires certainty in every context after it"
             }
           ],
           "feedback": {
@@ -2296,12 +2296,12 @@
               "text": "nothing"
             },
             {
-              "id": "t4",
-              "text": "warrants doubt"
-            },
-            {
               "id": "d1",
               "text": "every unknown"
+            },
+            {
+              "id": "t4",
+              "text": "warrants doubt"
             },
             {
               "id": "d2",
@@ -2330,20 +2330,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A louder voice. Volume is what makes a maybe possible, insistence as the ground"
+            },
+            {
+              "id": "c",
+              "text": "Immunity to evidence. A possibility may not be tied to any fact, empty but immune"
+            },
+            {
               "id": "a",
               "text": "Some evidence. An arbitrary maybe has none and does not undercut certainty"
             },
             {
-              "id": "b",
-              "text": "A louder voice. Volume is what makes a maybe possible"
-            },
-            {
-              "id": "c",
-              "text": "Immunity to evidence. A possibility may not be tied to any fact"
-            },
-            {
               "id": "d",
-              "text": "The power to erase a contextual certainty by being uttered"
+              "text": "The power to erase a contextual certainty by being uttered, utterance sufficing"
             }
           ],
           "feedback": {
@@ -2359,19 +2359,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "A genuine possibility, because any maybe undercuts a percept"
+              "text": "A genuine possibility, because any maybe undercuts a percept, the story undercuts it"
+            },
+            {
+              "id": "c",
+              "text": "Proof that the lamp is absent, established by a story with no tie to the desk"
+            },
+            {
+              "id": "d",
+              "text": "Omniscience, because the demon explains every unknown, one maybe closing the unknown"
             },
             {
               "id": "b",
               "text": "Arbitrary. It does not undercut the contextual certainty that the lamp is there"
-            },
-            {
-              "id": "c",
-              "text": "Proof that the lamp is absent"
-            },
-            {
-              "id": "d",
-              "text": "Omniscience, because the demon explains every unknown"
             }
           ],
           "feedback": {
@@ -2386,20 +2386,20 @@
           "answer": "c",
           "choices": [
             {
-              "id": "a",
-              "text": "Arbitrary, because the future is a word with no evidence"
-            },
-            {
-              "id": "b",
-              "text": "Certain, because a frayed cord has already put the lamp out"
-            },
-            {
               "id": "c",
               "text": "A genuine possibility. There is some evidence, and it is not conclusive"
             },
             {
+              "id": "a",
+              "text": "Arbitrary, because the future is a word with no evidence, evidence denied"
+            },
+            {
+              "id": "b",
+              "text": "Certain, because a frayed cord has already put the lamp out, failure completed"
+            },
+            {
               "id": "d",
-              "text": "A refutation of the fact that the lamp is on now"
+              "text": "A refutation of the fact that the lamp is on now, the lit lamp erased"
             }
           ],
           "feedback": {
@@ -2459,8 +2459,8 @@
             }
           ],
           "bank": [
-            "evidence",
             "volume",
+            "evidence",
             "anxiety",
             "antiquity"
           ],
@@ -2476,12 +2476,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Contextual certainty. The maybe is arbitrary and warrants no doubt"
-            },
-            {
               "id": "b",
               "text": "Nothing. Any maybe reduces every measurement to a possibility"
+            },
+            {
+              "id": "a",
+              "text": "Contextual certainty. The maybe is arbitrary and warrants no doubt"
             },
             {
               "id": "c",
@@ -2505,19 +2505,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "The first result becomes arbitrary, as if no measurement had occurred"
+              "text": "The first result becomes arbitrary, as if no measurement had occurred, the bent ruler wiping out the first measurement"
             },
             {
               "id": "b",
-              "text": "The disagreement is ignored, because an earlier certainty can never be reopened"
-            },
-            {
-              "id": "c",
-              "text": "The bent ruler is a feeling, so the clash has no evidence in it"
+              "text": "The disagreement is ignored, because an earlier certainty can never be reopened, the second look being set aside"
             },
             {
               "id": "d",
               "text": "Doubt is warranted. There is now some evidence against the earlier result, which is more than an arbitrary maybe"
+            },
+            {
+              "id": "c",
+              "text": "The bent ruler is a feeling, so the clash has no evidence in it, and the second measurement cannot reopen anything"
             }
           ],
           "feedback": {
@@ -2532,6 +2532,10 @@
           "prompt": "Build the line that keeps an empty maybe from touching a solid conclusion.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "a genuine possibility"
+            },
+            {
               "id": "t1",
               "text": "An arbitrary maybe"
             },
@@ -2544,16 +2548,12 @@
               "text": "contextual"
             },
             {
-              "id": "t4",
-              "text": "certainty"
-            },
-            {
-              "id": "d1",
-              "text": "a genuine possibility"
-            },
-            {
               "id": "d2",
               "text": "some evidence"
+            },
+            {
+              "id": "t4",
+              "text": "certainty"
             }
           ],
           "answer": [
@@ -2578,20 +2578,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Isolate two or more units by a characteristic they share and the background lacks"
-            },
-            {
               "id": "b",
-              "text": "Write a definition before any units have been set apart"
+              "text": "Write a definition before any units have been set apart, the definition coming first"
             },
             {
               "id": "c",
-              "text": "Attach a word to one unique item that nothing else resembles"
+              "text": "Attach a word to one unique item that nothing else resembles, no second unit required"
             },
             {
               "id": "d",
-              "text": "Wait until the items feel alike, with no shared characteristic named"
+              "text": "Wait until the items feel alike, with no shared characteristic named, by a mood"
+            },
+            {
+              "id": "a",
+              "text": "Isolate two or more units by a characteristic they share and the background lacks"
             }
           ],
           "feedback": {
@@ -2606,12 +2606,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "A word chosen before she noticed any furniture"
-            },
-            {
               "id": "b",
               "text": "A distinguishing characteristic the tables share and the chairs and beds do not"
+            },
+            {
+              "id": "a",
+              "text": "A word chosen before she noticed any furniture"
             },
             {
               "id": "c",
@@ -2635,19 +2635,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Coins set apart from buttons by shape, metal, and use"
-            },
-            {
-              "id": "b",
-              "text": "Birds set apart from the wider background of animals that are not birds"
+              "text": "Coins set apart from buttons by shape, metal, and use, unlike nearby buttons"
             },
             {
               "id": "c",
               "text": "A spoon, a storm, and a Tuesday, joined by a label and by no shared characteristic"
             },
             {
+              "id": "b",
+              "text": "Birds set apart from the wider background of animals that are not birds, a real contrast"
+            },
+            {
               "id": "d",
-              "text": "Two lengths of rope set apart from a pile of stones"
+              "text": "Two lengths of rope set apart from a pile of stones, unlike the stones beside them"
             }
           ],
           "feedback": {
@@ -2707,9 +2707,9 @@
             }
           ],
           "bank": [
-            "characteristic",
             "feeling",
             "vote",
+            "characteristic",
             "definition"
           ],
           "feedback": {
@@ -2724,16 +2724,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Intrinsicism: the distinction is revealed in the object with no method"
-            },
-            {
               "id": "b",
               "text": "A factual differentiation of units from a wider background"
             },
             {
               "id": "c",
               "text": "Measurement of one characteristic possessed in different degree"
+            },
+            {
+              "id": "a",
+              "text": "Intrinsicism: the distinction is revealed in the object with no method"
             },
             {
               "id": "d",
@@ -2780,6 +2780,10 @@
           "prompt": "Build the first move so that the group rests on a fact, not on a label.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "by a private mood"
+            },
+            {
               "id": "t1",
               "text": "Isolate"
             },
@@ -2792,20 +2796,16 @@
               "text": "by a characteristic"
             },
             {
+              "id": "d2",
+              "text": "before looking"
+            },
+            {
               "id": "t4",
               "text": "they share"
             },
             {
               "id": "t5",
               "text": "against a wider background"
-            },
-            {
-              "id": "d1",
-              "text": "by a private mood"
-            },
-            {
-              "id": "d2",
-              "text": "before looking"
             }
           ],
           "answer": [
@@ -2860,7 +2860,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "Remembering each table as a separate item and never uniting them"
+              "text": "Remembering each table as a separate item and never uniting them, a bare list"
             },
             {
               "id": "b",
@@ -2868,11 +2868,11 @@
             },
             {
               "id": "c",
-              "text": "Nailing the three tables into a single piece of furniture"
+              "text": "Nailing the three tables into a single piece of furniture, integration by nails"
             },
             {
               "id": "d",
-              "text": "Declaring that the word table needs no units at all"
+              "text": "Declaring that the word table needs no units at all, the sound outliving its units"
             }
           ],
           "feedback": {
@@ -2960,10 +2960,10 @@
             }
           ],
           "bank": [
-            "units",
             "moods",
             "votes",
-            "definitions"
+            "definitions",
+            "units"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -2977,10 +2977,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Intrinsicism: it denies the mental act of uniting the units"
-            },
-            {
               "id": "b",
               "text": "Differentiation: it isolates a group from a wider background"
             },
@@ -2991,6 +2987,10 @@
             {
               "id": "d",
               "text": "A later definition that states the genus and the differentia"
+            },
+            {
+              "id": "a",
+              "text": "Intrinsicism: it denies the mental act of uniting the units"
             }
           ],
           "feedback": {
@@ -3005,6 +3005,10 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "The union of the spoons into one mental entity"
+            },
+            {
               "id": "a",
               "text": "The perceptual awareness of the spoons, which was never needed"
             },
@@ -3015,10 +3019,6 @@
             {
               "id": "c",
               "text": "A definition written before any spoon was seen"
-            },
-            {
-              "id": "d",
-              "text": "The union of the spoons into one mental entity"
             }
           ],
           "feedback": {
@@ -3033,8 +3033,16 @@
           "prompt": "Build the description of integration that keeps the concept mental and single.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "into a physical lump"
+            },
+            {
               "id": "t1",
               "text": "Unite"
+            },
+            {
+              "id": "d2",
+              "text": "by a private whim"
             },
             {
               "id": "t2",
@@ -3047,14 +3055,6 @@
             {
               "id": "t4",
               "text": "new mental entity"
-            },
-            {
-              "id": "d1",
-              "text": "into a physical lump"
-            },
-            {
-              "id": "d2",
-              "text": "by a private whim"
             }
           ],
           "answer": [
@@ -3079,20 +3079,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A feeling of likeness with no characteristic named, nothing measured"
+            },
+            {
               "id": "a",
               "text": "The same characteristic possessed by the units in different measure"
             },
             {
-              "id": "b",
-              "text": "A feeling of likeness with no characteristic named"
-            },
-            {
               "id": "c",
-              "text": "Identical measurements on every unit in the group"
+              "text": "Identical measurements on every unit in the group, heights must match"
             },
             {
               "id": "d",
-              "text": "Any items that happen to have been seen on the same day"
+              "text": "Any items that happen to have been seen on the same day, by the calendar"
             }
           ],
           "feedback": {
@@ -3111,12 +3111,12 @@
               "text": "They are similar only if all three are cut to the same length"
             },
             {
-              "id": "b",
-              "text": "They share length, possessed in three different measurements"
-            },
-            {
               "id": "c",
               "text": "They are similar because someone prefers rope to chain"
+            },
+            {
+              "id": "b",
+              "text": "They share length, possessed in three different measurements"
             },
             {
               "id": "d",
@@ -3143,12 +3143,12 @@
               "text": "Yes, because similarity is whatever a person feels like pairing"
             },
             {
-              "id": "c",
-              "text": "No, because the number measures different characteristics, not one characteristic"
-            },
-            {
               "id": "d",
               "text": "No, because similarity requires the measurements to be identical in every respect"
+            },
+            {
+              "id": "c",
+              "text": "No, because the number measures different characteristics, not one characteristic"
             }
           ],
           "feedback": {
@@ -3257,16 +3257,16 @@
               "text": "Concepts become easier, because every concrete is already identical"
             },
             {
+              "id": "d",
+              "text": "Concepts of more than one real unit become almost impossible"
+            },
+            {
               "id": "b",
               "text": "Concepts stay the same, because measurements were never involved"
             },
             {
               "id": "c",
               "text": "Concepts become feelings, which need no characteristic"
-            },
-            {
-              "id": "d",
-              "text": "Concepts of more than one real unit become almost impossible"
             }
           ],
           "feedback": {
@@ -3285,8 +3285,16 @@
               "text": "The same characteristic"
             },
             {
+              "id": "d1",
+              "text": "in identical"
+            },
+            {
               "id": "t2",
               "text": "possessed"
+            },
+            {
+              "id": "d2",
+              "text": "as a mere feeling"
             },
             {
               "id": "t3",
@@ -3295,14 +3303,6 @@
             {
               "id": "t4",
               "text": "measure"
-            },
-            {
-              "id": "d1",
-              "text": "in identical"
-            },
-            {
-              "id": "d2",
-              "text": "as a mere feeling"
             }
           ],
           "answer": [
@@ -3327,16 +3327,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The particular measurements are omitted, and the characteristic is retained"
-            },
-            {
               "id": "b",
               "text": "The characteristic is omitted, and one favored measurement is retained"
             },
             {
               "id": "c",
               "text": "Every measurement is denied, as if the units had no quantity at all"
+            },
+            {
+              "id": "a",
+              "text": "The particular measurements are omitted, and the characteristic is retained"
             },
             {
               "id": "d",
@@ -3356,19 +3356,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "It names one official height, and other heights are not tables"
+              "text": "It names one official height, and other heights are not tables, frozen to one size"
+            },
+            {
+              "id": "c",
+              "text": "It denies that any table has a height, so a table with height falls outside the concept"
+            },
+            {
+              "id": "d",
+              "text": "It treats height as unknowable, so measurement is forbidden, quantity ruled out entirely"
             },
             {
               "id": "b",
               "text": "It omits the particular heights while retaining the characteristic the tables share"
-            },
-            {
-              "id": "c",
-              "text": "It denies that any table has a height"
-            },
-            {
-              "id": "d",
-              "text": "It treats height as unknowable, so measurement is forbidden"
             }
           ],
           "feedback": {
@@ -3383,16 +3383,16 @@
           "answer": "c",
           "choices": [
             {
+              "id": "c",
+              "text": "When it possesses the same characteristic, whatever its particular measurements"
+            },
+            {
               "id": "a",
               "text": "Only if its height matches the first table he used as a prototype"
             },
             {
               "id": "b",
               "text": "Only if he denies that the new table has any height"
-            },
-            {
-              "id": "c",
-              "text": "When it possesses the same characteristic, whatever its particular measurements"
             },
             {
               "id": "d",
@@ -3456,8 +3456,8 @@
             }
           ],
           "bank": [
-            "measurements",
             "characteristic",
+            "measurements",
             "units",
             "percepts"
           ],
@@ -3473,20 +3473,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Omission means the units are identical in every measurement, different heights excluded"
+            },
+            {
               "id": "a",
               "text": "Omission specifies no particular quantity. It does not deny that some quantity exists"
             },
             {
-              "id": "b",
-              "text": "Omission means the units are identical in every measurement"
-            },
-            {
               "id": "c",
-              "text": "Omission means the characteristic itself is dropped as unknowable"
+              "text": "Omission means the characteristic itself is dropped as unknowable, trait dropped too"
             },
             {
               "id": "d",
-              "text": "Omission means a vote may assign any characteristic it likes"
+              "text": "Omission means a vote may assign any characteristic it likes, the trait assigned by vote"
             }
           ],
           "feedback": {
@@ -3509,12 +3509,12 @@
               "text": "He refused to distinguish blue cloth from silence and from Tuesdays"
             },
             {
-              "id": "c",
-              "text": "He refused to admit that the first cloth has any color"
-            },
-            {
               "id": "d",
               "text": "He refused to omit the particular measurement of the color"
+            },
+            {
+              "id": "c",
+              "text": "He refused to admit that the first cloth has any color"
             }
           ],
           "feedback": {
@@ -3537,20 +3537,20 @@
               "text": "the characteristic"
             },
             {
-              "id": "t3",
-              "text": "and omit"
-            },
-            {
-              "id": "t4",
-              "text": "the particular measurements"
-            },
-            {
               "id": "d1",
               "text": "and deny"
             },
             {
+              "id": "t3",
+              "text": "and omit"
+            },
+            {
               "id": "d2",
               "text": "every quantity"
+            },
+            {
+              "id": "t4",
+              "text": "the particular measurements"
             }
           ],
           "answer": [
@@ -3575,10 +3575,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Differentiate the units, integrate them, and omit the particular measurements"
-            },
-            {
               "id": "b",
               "text": "Stipulate a word, then look for items that might illustrate it"
             },
@@ -3589,6 +3585,10 @@
             {
               "id": "d",
               "text": "Wait for a form in the object to deliver the concept with no mental act"
+            },
+            {
+              "id": "a",
+              "text": "Differentiate the units, integrate them, and omit the particular measurements"
             }
           ],
           "feedback": {
@@ -3604,20 +3604,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "A concept is a form in the object, and the mind contributes no integration."
-            },
-            {
               "id": "b",
               "text": "A concept integrates units that share a distinguishing characteristic, with the particular measurements omitted."
             },
             {
+              "id": "a",
+              "text": "A concept is a form in the object, and the mind contributes no integration. No mind unites the units."
+            },
+            {
               "id": "c",
-              "text": "A concept is an arbitrary label, and the measurements are a matter of preference."
+              "text": "A concept is an arbitrary label, and the measurements are a matter of preference. Preference selects the measurements."
             },
             {
               "id": "d",
-              "text": "A concept keeps every particular measurement and drops the characteristic."
+              "text": "A concept keeps every particular measurement and drops the characteristic. Identical concretes alone can share it."
             }
           ],
           "feedback": {
@@ -3635,19 +3635,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Notice one table, keep its exact height, and ignore every other table"
-            },
-            {
-              "id": "b",
-              "text": "Feel that some objects belong together, and skip any shared characteristic"
+              "text": "Notice one table, keep its exact height, and ignore every other table, the concept reduced to one concrete"
             },
             {
               "id": "c",
               "text": "Set tables apart from other furniture, unite them as one mental unit, and omit the particular sizes"
             },
             {
+              "id": "b",
+              "text": "Feel that some objects belong together, and skip any shared characteristic, mood replacing the shared trait"
+            },
+            {
               "id": "d",
-              "text": "Find the concept already in the wood, then omit the need to look"
+              "text": "Find the concept already in the wood, then omit the need to look, the wood doing the integrating"
             }
           ],
           "feedback": {
@@ -3707,9 +3707,9 @@
             }
           ],
           "bank": [
-            "differentiation",
             "stipulation",
             "revelation",
+            "differentiation",
             "neutrality"
           ],
           "feedback": {
@@ -3724,16 +3724,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Differentiation. Nothing was isolated by a distinguishing characteristic"
-            },
-            {
               "id": "b",
               "text": "Nothing. Omission alone is enough, whatever the items are"
             },
             {
               "id": "c",
               "text": "A vote, which can supply the characteristic the items lack"
+            },
+            {
+              "id": "a",
+              "text": "Differentiation. Nothing was isolated by a distinguishing characteristic"
             },
             {
               "id": "d",
@@ -3753,15 +3753,15 @@
           "choices": [
             {
               "id": "a",
-              "text": "He undid perception, because ropes are not perceived"
+              "text": "He undid perception, because ropes are not perceived, the ropes having been invisible"
             },
             {
               "id": "b",
-              "text": "He undid differentiation, because length was never a characteristic"
+              "text": "He undid differentiation, because length was never a characteristic, no contrast drawn"
             },
             {
               "id": "c",
-              "text": "He undid nothing, because a concept should freeze one measurement"
+              "text": "He undid nothing, because a concept should freeze one measurement, prototypes required"
             },
             {
               "id": "d",
@@ -3792,12 +3792,12 @@
               "text": "by a method"
             },
             {
-              "id": "t4",
-              "text": "based on facts"
-            },
-            {
               "id": "d1",
               "text": "by revelation"
+            },
+            {
+              "id": "t4",
+              "text": "based on facts"
             },
             {
               "id": "d2",
@@ -3955,10 +3955,10 @@
             }
           ],
           "bank": [
-            "after",
             "before",
             "instead",
-            "never"
+            "never",
+            "after"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -3972,20 +3972,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The units. The definition condenses their kind. It does not replace them"
-            },
-            {
               "id": "b",
-              "text": "The sentence. A concept should have no statement of kind at all"
+              "text": "The sentence. A concept should have no statement of kind at all, meaning lost"
             },
             {
               "id": "c",
-              "text": "The percepts, which a definition is supposed to cancel"
+              "text": "The percepts, which a definition is supposed to cancel, erasure being the point"
             },
             {
               "id": "d",
-              "text": "Nothing. A concept is a sentence and the existents are optional"
+              "text": "Nothing. A concept is a sentence and the existents are optional, referents lost"
+            },
+            {
+              "id": "a",
+              "text": "The units. The definition condenses their kind. It does not replace them"
             }
           ],
           "feedback": {
@@ -4000,6 +4000,10 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "He states the kind of units he has already integrated"
+            },
+            {
               "id": "a",
               "text": "He points to the units and has no words for what sets them apart"
             },
@@ -4010,10 +4014,6 @@
             {
               "id": "c",
               "text": "He remembers each unit separately and never unites them"
-            },
-            {
-              "id": "d",
-              "text": "He states the kind of units he has already integrated"
             }
           ],
           "feedback": {
@@ -4036,6 +4036,10 @@
               "text": "the units"
             },
             {
+              "id": "d1",
+              "text": "before looking"
+            },
+            {
               "id": "t3",
               "text": "then"
             },
@@ -4044,16 +4048,12 @@
               "text": "state"
             },
             {
-              "id": "t5",
-              "text": "their kind"
-            },
-            {
-              "id": "d1",
-              "text": "before looking"
-            },
-            {
               "id": "d2",
               "text": "by stipulation"
+            },
+            {
+              "id": "t5",
+              "text": "their kind"
             }
           ],
           "answer": [
@@ -4079,20 +4079,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A differentia only, with no wider group named, the mark floating with no class around it"
+            },
+            {
               "id": "a",
               "text": "A genus, the wider group, and a differentia, the characteristic that sets these units apart"
             },
             {
-              "id": "b",
-              "text": "A differentia only, with no wider group named"
-            },
-            {
               "id": "c",
-              "text": "A genus only, wide enough that nothing is set apart"
+              "text": "A genus only, wide enough that nothing is set apart, the wider name being the whole definition"
             },
             {
               "id": "d",
-              "text": "Every attribute the units happen to have, listed without selection"
+              "text": "Every attribute the units happen to have, listed without selection, an inventory, not a definition"
             }
           ],
           "feedback": {
@@ -4111,12 +4111,12 @@
               "text": "Rational is the genus, and animal is the differentia"
             },
             {
-              "id": "b",
-              "text": "Animal is the genus, and rational is the differentia"
-            },
-            {
               "id": "c",
               "text": "Both words are differentiae, and no genus is stated"
+            },
+            {
+              "id": "b",
+              "text": "Animal is the genus, and rational is the differentia"
             },
             {
               "id": "d",
@@ -4136,19 +4136,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "A second differentia that repeats the first"
+              "text": "A second differentia that repeats the first, repeated before any genus"
             },
             {
               "id": "b",
-              "text": "A vote on whether sides are fashionable"
+              "text": "A vote on whether sides are fashionable, fashion completing the definition"
+            },
+            {
+              "id": "d",
+              "text": "The omission of the fact that triangles have sides, the stated trait deleted"
             },
             {
               "id": "c",
               "text": "The genus, the wider group inside which the differentia distinguishes"
-            },
-            {
-              "id": "d",
-              "text": "The omission of the fact that triangles have sides"
             }
           ],
           "feedback": {
@@ -4218,8 +4218,8 @@
           ],
           "bank": [
             "genus",
-            "differentia",
             "feeling",
+            "differentia",
             "vote"
           ],
           "feedback": {
@@ -4266,16 +4266,16 @@
               "text": "Add a second genus and still name no distinction"
             },
             {
+              "id": "d",
+              "text": "Add the differentia that sets human beings apart within animals"
+            },
+            {
               "id": "b",
               "text": "Replace animal with a feeling about people"
             },
             {
               "id": "c",
               "text": "Stipulate that animal will mean whatever is convenient today"
-            },
-            {
-              "id": "d",
-              "text": "Add the differentia that sets human beings apart within animals"
             }
           ],
           "feedback": {
@@ -4294,6 +4294,10 @@
               "text": "Man"
             },
             {
+              "id": "d1",
+              "text": "a featherless"
+            },
+            {
               "id": "t2",
               "text": "is"
             },
@@ -4304,10 +4308,6 @@
             {
               "id": "t4",
               "text": "animal"
-            },
-            {
-              "id": "d1",
-              "text": "a featherless"
             },
             {
               "id": "d2",
@@ -4336,20 +4336,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The oddest surface mark, chosen because it is rare, rarity standing in for explanation"
+            },
+            {
+              "id": "c",
+              "text": "The characteristic a speaker stipulates for private convenience, convenience defining them"
+            },
+            {
               "id": "a",
               "text": "The one that explains the greatest number of the other distinguishing characteristics"
             },
             {
-              "id": "b",
-              "text": "The oddest surface mark, chosen because it is rare"
-            },
-            {
-              "id": "c",
-              "text": "The characteristic a speaker stipulates for private convenience"
-            },
-            {
               "id": "d",
-              "text": "Any true attribute, even one the wider group shares as well"
+              "text": "Any true attribute, even one the wider group shares as well, distinction failing"
             }
           ],
           "feedback": {
@@ -4368,16 +4368,16 @@
               "text": "Because a tradition voted the other marks out"
             },
             {
-              "id": "b",
-              "text": "Because rationality explains far more of man's distinctive characteristics"
-            },
-            {
               "id": "c",
               "text": "Because surface marks are never perceived, so they cannot be mentioned"
             },
             {
               "id": "d",
               "text": "Because a differentia should be the attribute that is hardest to observe"
+            },
+            {
+              "id": "b",
+              "text": "Because rationality explains far more of man's distinctive characteristics"
             }
           ],
           "feedback": {
@@ -4392,20 +4392,20 @@
           "answer": "c",
           "choices": [
             {
-              "id": "a",
-              "text": "Speech is false, so it cannot be a human characteristic"
-            },
-            {
-              "id": "b",
-              "text": "Speech is fundamental because it is easier to hear than reason is to grasp"
-            },
-            {
               "id": "c",
               "text": "Speech is a consequence of rationality, so it explains less than the faculty that makes it possible"
             },
             {
+              "id": "a",
+              "text": "Speech is false, so it cannot be a human characteristic, a real consequence barred from mankind"
+            },
+            {
+              "id": "b",
+              "text": "Speech is fundamental because it is easier to hear than reason is to grasp, hearing outranking reason"
+            },
+            {
               "id": "d",
-              "text": "Any consequence is automatically more fundamental than its cause"
+              "text": "Any consequence is automatically more fundamental than its cause, the effect explaining its cause"
             }
           ],
           "feedback": {
@@ -4465,8 +4465,8 @@
             }
           ],
           "bank": [
-            "others",
             "exceptions",
+            "others",
             "feelings",
             "votes"
           ],
@@ -4482,12 +4482,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Intrinsicism: the essence is revealed, with no method of selection"
-            },
-            {
               "id": "b",
               "text": "The rule that the differentia must explain the greatest number of the others"
+            },
+            {
+              "id": "a",
+              "text": "Intrinsicism: the essence is revealed, with no method of selection"
             },
             {
               "id": "c",
@@ -4511,19 +4511,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Make it the differentia, because ease of observation is fundamentality"
+              "text": "Make it the differentia, because ease of observation is fundamentality, the shallow mark defining it"
             },
             {
               "id": "b",
-              "text": "Deny the mark, because only invisible traits are allowed in a definition"
-            },
-            {
-              "id": "c",
-              "text": "Stipulate it as the meaning, since the word is ours to assign"
+              "text": "Deny the mark, because only invisible traits are allowed in a definition, true marks struck out"
             },
             {
               "id": "d",
               "text": "Keep it as a fact, but do not use it as the differentia once a deeper characteristic is known"
+            },
+            {
+              "id": "c",
+              "text": "Stipulate it as the meaning, since the word is ours to assign, assignment replacing explanation"
             }
           ],
           "feedback": {
@@ -4538,6 +4538,10 @@
           "prompt": "Build the test that selects a differentia without using rarity as a shortcut.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "the oddest"
+            },
+            {
               "id": "t1",
               "text": "The fundamental"
             },
@@ -4550,20 +4554,16 @@
               "text": "explains"
             },
             {
+              "id": "d2",
+              "text": "surface mark"
+            },
+            {
               "id": "t4",
               "text": "the greatest number"
             },
             {
               "id": "t5",
               "text": "of the others"
-            },
-            {
-              "id": "d1",
-              "text": "the oddest"
-            },
-            {
-              "id": "d2",
-              "text": "surface mark"
             }
           ],
           "answer": [
@@ -4589,20 +4589,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "In a hierarchy: later concepts rest on earlier ones, not in a flat pile of labels"
-            },
-            {
               "id": "b",
-              "text": "In a pile: every concept is read directly off percepts at the same level"
+              "text": "In a pile: every concept is read directly off percepts at the same level, side by side"
             },
             {
               "id": "c",
-              "text": "By stipulation: each word is independent of every other word"
+              "text": "By stipulation: each word is independent of every other word, each word a separate base"
             },
             {
               "id": "d",
-              "text": "By feeling: the most vivid word is the base, whatever it refers to"
+              "text": "By feeling: the most vivid word is the base, whatever it refers to, intensity as order"
+            },
+            {
+              "id": "a",
+              "text": "In a hierarchy: later concepts rest on earlier ones, not in a flat pile of labels"
             }
           ],
           "feedback": {
@@ -4617,12 +4617,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "Only the word furniture, with no grasp of tables, chairs, or beds"
-            },
-            {
               "id": "b",
               "text": "Earlier concepts such as table, chair, and bed, themselves drawn from percepts"
+            },
+            {
+              "id": "a",
+              "text": "Only the word furniture, with no grasp of tables, chairs, or beds"
             },
             {
               "id": "c",
@@ -4649,12 +4649,12 @@
               "text": "Nowhere. Wider concepts are perceived directly and need no earlier concepts"
             },
             {
-              "id": "b",
-              "text": "It breaks perception, because organisms cannot be observed at all"
-            },
-            {
               "id": "c",
               "text": "The wider concept rests on earlier concepts of living things, which he has refused"
+            },
+            {
+              "id": "b",
+              "text": "It breaks perception, because organisms cannot be observed at all"
             },
             {
               "id": "d",
@@ -4718,9 +4718,9 @@
             }
           ],
           "bank": [
-            "pile",
             "percept",
             "genus",
+            "pile",
             "fact"
           ],
           "feedback": {
@@ -4735,16 +4735,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A later concept has been used to cancel the earlier knowledge it rests on"
-            },
-            {
               "id": "b",
               "text": "A first-level concept has been formed from percepts in the ordinary way"
             },
             {
               "id": "c",
               "text": "A wider concept has been reduced to the earlier concepts that support it"
+            },
+            {
+              "id": "a",
+              "text": "A later concept has been used to cancel the earlier knowledge it rests on"
             },
             {
               "id": "d",
@@ -4795,8 +4795,16 @@
               "text": "Later concepts"
             },
             {
+              "id": "d1",
+              "text": "float free of"
+            },
+            {
               "id": "t2",
               "text": "rest on"
+            },
+            {
+              "id": "d2",
+              "text": "cancel"
             },
             {
               "id": "t3",
@@ -4805,14 +4813,6 @@
             {
               "id": "t4",
               "text": "and cannot replace them"
-            },
-            {
-              "id": "d1",
-              "text": "float free of"
-            },
-            {
-              "id": "d2",
-              "text": "cancel"
             }
           ],
           "answer": [
@@ -4842,15 +4842,15 @@
             },
             {
               "id": "b",
-              "text": "It is a private stipulation that may change whenever the word feels different"
+              "text": "It is a private stipulation that may change whenever the word feels different, and the units may be dropped with the mood"
             },
             {
               "id": "c",
-              "text": "It drops the original units as soon as a deeper characteristic is known"
+              "text": "It drops the original units as soon as a deeper characteristic is known, the old referents discarded"
             },
             {
               "id": "d",
-              "text": "It is fixed to the first surface mark, and deeper knowledge is irrelevant"
+              "text": "It is fixed to the first surface mark, and deeper knowledge is irrelevant, restatement being forbidden"
             }
           ],
           "feedback": {
@@ -4966,10 +4966,10 @@
             }
           ],
           "bank": [
-            "units",
             "word",
             "mood",
-            "vote"
+            "vote",
+            "units"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -4983,20 +4983,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A private stipulation. Context here means the order of knowledge, not a license to reassign the word"
-            },
-            {
               "id": "b",
-              "text": "A restatement that keeps the same units under a deeper differentia"
+              "text": "A restatement that keeps the same units under a deeper differentia, as if a mood were that restatement"
             },
             {
               "id": "c",
-              "text": "A genus and a differentia stated after the units are integrated"
+              "text": "A genus and a differentia stated after the units are integrated, as if a whim were genus and differentia"
             },
             {
               "id": "d",
-              "text": "The omission of particular measurements inside a stable concept"
+              "text": "The omission of particular measurements inside a stable concept, as if a whim were measurement-omission"
+            },
+            {
+              "id": "a",
+              "text": "A private stipulation. Context here means the order of knowledge, not a license to reassign the word"
             }
           ],
           "feedback": {
@@ -5011,6 +5011,10 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "Hand the original word to the new set and declare the old units dropped"
+            },
+            {
               "id": "a",
               "text": "Leave the original concept with its own units and form a new concept for the new set"
             },
@@ -5021,10 +5025,6 @@
             {
               "id": "c",
               "text": "Keep the original units if the new characteristic is in fact theirs"
-            },
-            {
-              "id": "d",
-              "text": "Hand the original word to the new set and declare the old units dropped"
             }
           ],
           "feedback": {
@@ -5047,6 +5047,10 @@
               "text": "the fundamentality"
             },
             {
+              "id": "d1",
+              "text": "drop"
+            },
+            {
               "id": "t3",
               "text": "as knowledge deepens"
             },
@@ -5057,10 +5061,6 @@
             {
               "id": "t5",
               "text": "the same units"
-            },
-            {
-              "id": "d1",
-              "text": "drop"
             },
             {
               "id": "d2",
@@ -5090,12 +5090,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Volitional adherence to reality by the method of logic"
-            },
-            {
               "id": "b",
               "text": "Neutrality that gives a fact and a contradiction equal weight"
+            },
+            {
+              "id": "a",
+              "text": "Volitional adherence to reality by the method of logic"
             },
             {
               "id": "c",
@@ -5123,12 +5123,12 @@
               "text": "Facts become real when a feeling or a wish brings them into line."
             },
             {
-              "id": "b",
-              "text": "Facts are independent of feelings, wishes, hopes, and fears."
-            },
-            {
               "id": "c",
               "text": "Objectivity means staying neutral between a fact and a wish."
+            },
+            {
+              "id": "b",
+              "text": "Facts are independent of feelings, wishes, hopes, and fears."
             },
             {
               "id": "d",
@@ -5150,19 +5150,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Adherence to the crack by identifying what the beam is"
+              "text": "Adherence to the crack by identifying what the beam is, hope excluded"
             },
             {
               "id": "b",
-              "text": "Logic, understood as non-contradictory identification"
+              "text": "Logic, understood as non-contradictory identification, on the crack"
+            },
+            {
+              "id": "d",
+              "text": "A restatement of the evidence without dropping the beam, crack retained"
             },
             {
               "id": "c",
               "text": "Neutrality, which treats a hope as the equal of a perceived fact"
-            },
-            {
-              "id": "d",
-              "text": "A restatement of the evidence without dropping the beam"
             }
           ],
           "feedback": {
@@ -5271,16 +5271,16 @@
               "text": "Nothing. Objectivity means withholding judgment no matter what the evidence is"
             },
             {
+              "id": "d",
+              "text": "Adherence. Objectivity is the choice to judge by the facts, not the choice to abstain"
+            },
+            {
               "id": "b",
               "text": "The vote, which should have replaced the evidence"
             },
             {
               "id": "c",
               "text": "The wish, which should have been given equal standing with the result"
-            },
-            {
-              "id": "d",
-              "text": "Adherence. Objectivity is the choice to judge by the facts, not the choice to abstain"
             }
           ],
           "feedback": {
@@ -5295,12 +5295,20 @@
           "prompt": "Build the statement of objectivity that rules out neutrality and invention.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "neutrality between"
+            },
+            {
               "id": "t1",
               "text": "Objectivity"
             },
             {
               "id": "t2",
               "text": "is"
+            },
+            {
+              "id": "d2",
+              "text": "a mind that writes"
             },
             {
               "id": "t3",
@@ -5313,14 +5321,6 @@
             {
               "id": "t5",
               "text": "by the method of logic"
-            },
-            {
-              "id": "d1",
-              "text": "neutrality between"
-            },
-            {
-              "id": "d2",
-              "text": "a mind that writes"
             }
           ],
           "answer": [
@@ -5346,16 +5346,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Logic, the art of non-contradictory identification"
-            },
-            {
               "id": "b",
               "text": "Whatever works for the moment, whether or not it identifies the facts"
             },
             {
               "id": "c",
               "text": "A feeling of clarity, taken as proof that the conclusion is true"
+            },
+            {
+              "id": "a",
+              "text": "Logic, the art of non-contradictory identification"
             },
             {
               "id": "d",
@@ -5379,16 +5379,16 @@
               "text": "Logic is a word game that need not identify any fact."
             },
             {
-              "id": "b",
-              "text": "Logic is the art of identifying without contradiction."
-            },
-            {
               "id": "c",
               "text": "Logic is a contradiction maintained because it feels profound."
             },
             {
               "id": "d",
               "text": "Logic is whatever result happens to work this week."
+            },
+            {
+              "id": "b",
+              "text": "Logic is the art of identifying without contradiction."
             }
           ],
           "feedback": {
@@ -5405,20 +5405,20 @@
           "answer": "c",
           "choices": [
             {
-              "id": "a",
-              "text": "Yes. Non-contradiction among sentences is the whole of logic"
-            },
-            {
-              "id": "b",
-              "text": "Yes. The books work as a story, so they are an identification"
-            },
-            {
               "id": "c",
               "text": "No. The figures contradict nothing and identify nothing in the warehouse"
             },
             {
+              "id": "a",
+              "text": "Yes. Non-contradiction among sentences is the whole of logic, wish list included"
+            },
+            {
+              "id": "b",
+              "text": "Yes. The books work as a story, so they are an identification, by being tidy"
+            },
+            {
               "id": "d",
-              "text": "No. Logic forbids arithmetic even when the count is real"
+              "text": "No. Logic forbids arithmetic even when the count is real, real counts forbidden"
             }
           ],
           "feedback": {
@@ -5478,8 +5478,8 @@
             }
           ],
           "bank": [
-            "identification",
             "invention",
+            "identification",
             "neutrality",
             "feeling"
           ],
@@ -5497,20 +5497,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Objectivity accepts any consistent story, since facts are optional, fiction included"
+            },
+            {
               "id": "a",
               "text": "Nothing in reality has been identified. Consistency with an empty premise is not logic"
             },
             {
-              "id": "b",
-              "text": "Objectivity accepts any consistent story, since facts are optional"
-            },
-            {
               "id": "c",
-              "text": "A contradiction with the warehouse would be a better method"
+              "text": "A contradiction with the warehouse would be a better method, clashing preferred to naming"
             },
             {
               "id": "d",
-              "text": "The premise is objective precisely because no evidence ties it to anything"
+              "text": "The premise is objective precisely because no evidence ties it to anything, by being empty"
             }
           ],
           "feedback": {
@@ -5526,19 +5526,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Keep both reports, because a contradiction shows depth"
+              "text": "Keep both reports, because a contradiction shows depth, full and empty together"
             },
             {
               "id": "b",
-              "text": "Average the two reports and call the average what works"
-            },
-            {
-              "id": "c",
-              "text": "Let a feeling decide which report is kinder"
+              "text": "Average the two reports and call the average what works, a midpoint replacing the level"
             },
             {
               "id": "d",
               "text": "Treat the clash as a sign that an identification has failed, and find which one"
+            },
+            {
+              "id": "c",
+              "text": "Let a feeling decide which report is kinder, comfort choosing and the clash kept"
             }
           ],
           "feedback": {
@@ -5553,6 +5553,10 @@
           "prompt": "Build the method that objectivity actually uses.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "invention"
+            },
+            {
               "id": "t1",
               "text": "Non-contradictory"
             },
@@ -5565,16 +5569,12 @@
               "text": "of"
             },
             {
-              "id": "t4",
-              "text": "the facts"
-            },
-            {
-              "id": "d1",
-              "text": "invention"
-            },
-            {
               "id": "d2",
               "text": "of a wish"
+            },
+            {
+              "id": "t4",
+              "text": "the facts"
             }
           ],
           "answer": [
@@ -5599,10 +5599,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Percepts are given. Adherence to them by logic is a choice"
-            },
-            {
               "id": "b",
               "text": "Percepts are chosen, and the facts rewrite themselves to match"
             },
@@ -5613,6 +5609,10 @@
             {
               "id": "d",
               "text": "Nothing is given. Every content of awareness is a stipulation"
+            },
+            {
+              "id": "a",
+              "text": "Percepts are given. Adherence to them by logic is a choice"
             }
           ],
           "feedback": {
@@ -5628,20 +5628,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "Percepts are chosen, and inference is automatic."
-            },
-            {
               "id": "b",
               "text": "The pre-conceptual level is not chosen. Volition begins with conceptual inference."
             },
             {
+              "id": "a",
+              "text": "Percepts are chosen, and inference is automatic. Choice edits the given first."
+            },
+            {
               "id": "c",
-              "text": "Neither perception nor thought is chosen, so adherence is a myth."
+              "text": "Neither perception nor thought is chosen, so adherence is a myth. Evasion cannot occur."
             },
             {
               "id": "d",
-              "text": "Volition begins by rewriting the percepts the senses delivered."
+              "text": "Volition begins by rewriting the percepts the senses delivered. Before thought begins."
             }
           ],
           "feedback": {
@@ -5662,12 +5662,12 @@
               "text": "The reading itself, which his preference wrote onto the gauge"
             },
             {
-              "id": "b",
-              "text": "Nothing. Seeing and thinking are the same automatic event"
-            },
-            {
               "id": "c",
               "text": "The choice to focus and identify the reading. The percept was given"
+            },
+            {
+              "id": "b",
+              "text": "Nothing. Seeing and thinking are the same automatic event"
             },
             {
               "id": "d",
@@ -5731,9 +5731,9 @@
             }
           ],
           "bank": [
-            "nonvolitional",
             "optional",
             "mythical",
+            "nonvolitional",
             "voted"
           ],
           "feedback": {
@@ -5750,20 +5750,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The percept. Automatic awareness is a form of stipulation, the entity having been optional"
+            },
+            {
+              "id": "c",
+              "text": "Nothing. Objectivity is the name for a process no one can refuse, evasion identical with adherence"
+            },
+            {
               "id": "a",
               "text": "The choice to adhere. Conceptual identification is volitional even though the percept is not"
             },
             {
-              "id": "b",
-              "text": "The percept. Automatic awareness is a form of stipulation"
-            },
-            {
-              "id": "c",
-              "text": "Nothing. Objectivity is the name for a process no one can refuse"
-            },
-            {
               "id": "d",
-              "text": "Logic, which should be replaced by the feeling that follows a percept"
+              "text": "Logic, which should be replaced by the feeling that follows a percept, emotion taking over"
             }
           ],
           "feedback": {
@@ -5810,6 +5810,10 @@
               "text": "Percepts"
             },
             {
+              "id": "d1",
+              "text": "are invented"
+            },
+            {
               "id": "t2",
               "text": "are given"
             },
@@ -5820,10 +5824,6 @@
             {
               "id": "t4",
               "text": "is chosen"
-            },
-            {
-              "id": "d1",
-              "text": "are invented"
             },
             {
               "id": "d2",
@@ -5981,10 +5981,10 @@
             }
           ],
           "bank": [
-            "context-dropping",
             "adherence",
             "integration",
-            "perception"
+            "perception",
+            "context-dropping"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -5998,10 +5998,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The duty to keep the conclusion inside the evidence that supports it"
-            },
-            {
               "id": "b",
               "text": "The duty to let a hopeful outcome enlarge the evidence"
             },
@@ -6012,6 +6008,10 @@
             {
               "id": "d",
               "text": "The duty to remain neutral between the dose and a guess"
+            },
+            {
+              "id": "a",
+              "text": "The duty to keep the conclusion inside the evidence that supports it"
             }
           ],
           "feedback": {
@@ -6026,20 +6026,20 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "The temptation to treat a contextual conclusion as omniscience, or else as no conclusion"
+            },
+            {
               "id": "a",
-              "text": "The temptation to name the evidence before using the conclusion"
+              "text": "The temptation to name the evidence before using the conclusion, called the forbidden slide"
             },
             {
               "id": "b",
-              "text": "The temptation to distinguish a new test from an old slogan"
+              "text": "The temptation to distinguish a new test from an old slogan, called the blocked temptation"
             },
             {
               "id": "c",
-              "text": "The temptation to drop a limit because the slogan is shorter"
-            },
-            {
-              "id": "d",
-              "text": "The temptation to treat a contextual conclusion as omniscience, or else as no conclusion"
+              "text": "The temptation to drop a limit because the slogan is shorter, called the threatened slide"
             }
           ],
           "feedback": {
@@ -6054,8 +6054,16 @@
           "prompt": "Build the rule that keeps a conclusion tied to its evidence.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "in any story"
+            },
+            {
               "id": "t1",
               "text": "A conclusion"
+            },
+            {
+              "id": "d2",
+              "text": "without its limits"
             },
             {
               "id": "t2",
@@ -6068,14 +6076,6 @@
             {
               "id": "t4",
               "text": "of its evidence"
-            },
-            {
-              "id": "d1",
-              "text": "in any story"
-            },
-            {
-              "id": "d2",
-              "text": "without its limits"
             }
           ],
           "answer": [
@@ -6100,20 +6100,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Later conclusions are free to rewrite the earlier evidence, dependents rewriting the base"
+            },
+            {
               "id": "a",
               "text": "Later conclusions rest on earlier ones and cannot replace the base they depend on"
             },
             {
-              "id": "b",
-              "text": "Later conclusions are free to rewrite the earlier evidence"
-            },
-            {
               "id": "c",
-              "text": "Every conclusion is on one level and may cancel any other"
+              "text": "Every conclusion is on one level and may cancel any other, one flat cancelling level"
             },
             {
               "id": "d",
-              "text": "The latest theory is the base, and percepts are optional illustrations"
+              "text": "The latest theory is the base, and percepts are optional illustrations, mere ornament"
             }
           ],
           "feedback": {
@@ -6132,12 +6132,12 @@
               "text": "Nothing. A calculation may cancel the measurements it used"
             },
             {
-              "id": "b",
-              "text": "The order. A later conclusion has been used against the base it rests on"
-            },
-            {
               "id": "c",
               "text": "The arithmetic, which should have been replaced by a feeling about bridges"
+            },
+            {
+              "id": "b",
+              "text": "The order. A later conclusion has been used against the base it rests on"
             },
             {
               "id": "d",
@@ -6157,19 +6157,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Keep the calculation and discard the measurements as naive"
+              "text": "Keep the calculation and discard the measurements as naive, the figure outranking the percepts it used"
             },
             {
               "id": "b",
-              "text": "Keep the word bridge and drop every percept as optional"
+              "text": "Keep the word bridge and drop every percept as optional, the name surviving its cancelled evidence"
+            },
+            {
+              "id": "d",
+              "text": "Let a vote decide whether measurement was real, the count replacing the measurement of the span"
             },
             {
               "id": "c",
               "text": "Trace the calculation back to the measurements and the percepts, and correct it there if it clashes"
-            },
-            {
-              "id": "d",
-              "text": "Let a vote decide whether measurement was real"
             }
           ],
           "feedback": {
@@ -6251,15 +6251,15 @@
             },
             {
               "id": "b",
-              "text": "Science is the base, and percepts are a decorative extra"
+              "text": "Science is the base, and percepts are a decorative extra, observation cancelled by the theory"
             },
             {
               "id": "c",
-              "text": "Modesty requires every later conclusion to cancel the evidence it used"
+              "text": "Modesty requires every later conclusion to cancel the evidence it used, caution cancelling the base"
             },
             {
               "id": "d",
-              "text": "The sentence is sound because a contradiction in the base is a scientific result"
+              "text": "The sentence is sound because a contradiction in the base is a scientific result, error promoted"
             }
           ],
           "feedback": {
@@ -6275,19 +6275,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Throw out perception, since a later result outranks it"
-            },
-            {
-              "id": "b",
-              "text": "Throw out the experiment, since earlier items may never be rechecked"
-            },
-            {
-              "id": "c",
-              "text": "Keep both by saying each is true in its own story"
+              "text": "Throw out perception, since a later result outranks it, the percept discarded with the clash"
             },
             {
               "id": "d",
               "text": "Recheck both against the facts, without letting either cancel the nature of evidence"
+            },
+            {
+              "id": "b",
+              "text": "Throw out the experiment, since earlier items may never be rechecked, new evidence ignored"
+            },
+            {
+              "id": "c",
+              "text": "Keep both by saying each is true in its own story, two realities for one clash"
             }
           ],
           "feedback": {
@@ -6302,6 +6302,10 @@
           "prompt": "Build the hierarchical rule that blocks a dependent conclusion from erasing its base.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "rewrite"
+            },
+            {
               "id": "t1",
               "text": "Later conclusions"
             },
@@ -6314,20 +6318,16 @@
               "text": "earlier ones"
             },
             {
+              "id": "d2",
+              "text": "come before"
+            },
+            {
               "id": "t4",
               "text": "and cannot"
             },
             {
               "id": "t5",
               "text": "replace that base"
-            },
-            {
-              "id": "d1",
-              "text": "rewrite"
-            },
-            {
-              "id": "d2",
-              "text": "come before"
             }
           ],
           "answer": [
@@ -6353,16 +6353,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Reason, the faculty that identifies and integrates sensory material"
-            },
-            {
               "id": "b",
               "text": "Emotion, when the feeling is strong enough to count as proof"
             },
             {
               "id": "c",
               "text": "Faith, a means that bypasses sensory evidence"
+            },
+            {
+              "id": "a",
+              "text": "Reason, the faculty that identifies and integrates sensory material"
             },
             {
               "id": "d",
@@ -6383,19 +6383,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Truth is a feeling of recognition, and emotion is the standard."
+              "text": "Truth is a feeling of recognition, and emotion is the standard. A mood decides."
+            },
+            {
+              "id": "c",
+              "text": "Truth is whatever works, and practical success is the standard. Useful errors qualify."
+            },
+            {
+              "id": "d",
+              "text": "Truth is what a majority recognizes, and the count is the standard. The vote decides."
             },
             {
               "id": "b",
               "text": "Truth is the recognition of reality, and reason is the only standard of truth."
-            },
-            {
-              "id": "c",
-              "text": "Truth is whatever works, and practical success is the standard."
-            },
-            {
-              "id": "d",
-              "text": "Truth is what a majority recognizes, and the count is the standard."
             }
           ],
           "feedback": {
@@ -6412,16 +6412,16 @@
           "answer": "c",
           "choices": [
             {
+              "id": "c",
+              "text": "Reason identifying and integrating the sensory evidence"
+            },
+            {
               "id": "a",
               "text": "A revelation that arrived before the loads were measured"
             },
             {
               "id": "b",
               "text": "The crew's hope that the beam would hold"
-            },
-            {
-              "id": "c",
-              "text": "Reason identifying and integrating the sensory evidence"
             },
             {
               "id": "d",
@@ -6485,8 +6485,8 @@
             }
           ],
           "bank": [
-            "truth",
             "feeling",
+            "truth",
             "utility",
             "consensus"
           ],
@@ -6504,12 +6504,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A base in sensory evidence. Tidiness from a revelation is not reason"
-            },
-            {
               "id": "b",
               "text": "A stronger feeling, which would turn the revelation into evidence"
+            },
+            {
+              "id": "a",
+              "text": "A base in sensory evidence. Tidiness from a revelation is not reason"
             },
             {
               "id": "c",
@@ -6533,19 +6533,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "It does. A helpful error is true by the only standard"
+              "text": "It does. A helpful error is true by the only standard, so usefulness can overrule the beam"
             },
             {
               "id": "b",
-              "text": "It does. Reason is simply the name for what happens to work"
-            },
-            {
-              "id": "c",
-              "text": "It does not, because a true identification must be useless"
+              "text": "It does. Reason is simply the name for what happens to work, success replacing the identification"
             },
             {
               "id": "d",
               "text": "Usefulness is a consequence of recognizing reality, not the test that makes the recognition true"
+            },
+            {
+              "id": "c",
+              "text": "It does not, because a true identification must be useless, help to the builder making it false"
             }
           ],
           "feedback": {
@@ -6572,8 +6572,16 @@
               "text": "the only means"
             },
             {
+              "id": "d1",
+              "text": "one optional means"
+            },
+            {
               "id": "t4",
               "text": "of knowledge"
+            },
+            {
+              "id": "d2",
+              "text": "of feeling"
             },
             {
               "id": "t5",
@@ -6582,14 +6590,6 @@
             {
               "id": "t6",
               "text": "of truth"
-            },
-            {
-              "id": "d1",
-              "text": "one optional means"
-            },
-            {
-              "id": "d2",
-              "text": "of feeling"
             }
           ],
           "answer": [
@@ -6616,20 +6616,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A means that bypasses sensory evidence, such as faith, revelation, or feeling used as proof"
-            },
-            {
               "id": "b",
-              "text": "Reason, identifying and integrating what the senses provide"
+              "text": "Reason, identifying and integrating what the senses provide, later renamed faith"
             },
             {
               "id": "c",
-              "text": "The admission that knowledge is impossible"
+              "text": "The admission that knowledge is impossible, revelation being only a softer denial"
             },
             {
               "id": "d",
-              "text": "A method of non-contradictory identification of the facts"
+              "text": "A method of non-contradictory identification of the facts, carried out by consulting a feeling"
+            },
+            {
+              "id": "a",
+              "text": "A means that bypasses sensory evidence, such as faith, revelation, or feeling used as proof"
             }
           ],
           "feedback": {
@@ -6644,12 +6644,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "He used fear as a signal to go and check the evidence"
-            },
-            {
               "id": "b",
               "text": "He used a feeling as proof, which is mysticism"
+            },
+            {
+              "id": "a",
+              "text": "He used fear as a signal to go and check the evidence"
             },
             {
               "id": "c",
@@ -6676,12 +6676,12 @@
               "text": "Because the message was printed, and print is a percept"
             },
             {
-              "id": "b",
-              "text": "Because any unwelcome message is mystical by definition"
-            },
-            {
               "id": "c",
               "text": "Because the claim to knowledge bypasses sensory evidence on principle"
+            },
+            {
+              "id": "b",
+              "text": "Because any unwelcome message is mystical by definition"
             },
             {
               "id": "d",
@@ -6745,9 +6745,9 @@
             }
           ],
           "bank": [
-            "evidence",
             "error",
             "grammar",
+            "evidence",
             "courtesy"
           ],
           "feedback": {
@@ -6762,20 +6762,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Reason. Mysticism is the name for integrating sensory evidence, faith as integration"
+            },
+            {
+              "id": "c",
+              "text": "Nothing. Faith is the admission that no means of knowledge exists, faith as refusal"
+            },
+            {
               "id": "a",
               "text": "Skepticism. Mysticism claims a non-sensory means. It does not merely deny knowledge"
             },
             {
-              "id": "b",
-              "text": "Reason. Mysticism is the name for integrating sensory evidence"
-            },
-            {
-              "id": "c",
-              "text": "Nothing. Faith is the admission that no means of knowledge exists"
-            },
-            {
               "id": "d",
-              "text": "Pragmatism. Mysticism means truth is whatever works"
+              "text": "Pragmatism. Mysticism means truth is whatever works, success replacing identification"
             }
           ],
           "feedback": {
@@ -6791,15 +6791,15 @@
           "choices": [
             {
               "id": "a",
-              "text": "Trust based on evidence is mysticism, and the charge is correct"
+              "text": "Trust based on evidence is mysticism, and the charge is correct, observation counting as faith"
             },
             {
               "id": "b",
-              "text": "Any confidence about a method bypasses the senses"
+              "text": "Any confidence about a method bypasses the senses, checked records counting as revelation"
             },
             {
               "id": "c",
-              "text": "Observation cannot support a method, so the trust must be revelation"
+              "text": "Observation cannot support a method, so the trust must be revelation, a match treated as a bypass"
             },
             {
               "id": "d",
@@ -6826,6 +6826,10 @@
               "text": "claims"
             },
             {
+              "id": "d1",
+              "text": "that integrates"
+            },
+            {
               "id": "t3",
               "text": "a means"
             },
@@ -6836,10 +6840,6 @@
             {
               "id": "t5",
               "text": "sensory evidence"
-            },
-            {
-              "id": "d1",
-              "text": "that integrates"
             },
             {
               "id": "d2",
@@ -6898,7 +6898,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "They are known directly, because the forms copy things as they are."
+              "text": "They are known directly, because the forms copy things as they are. Direct acquaintance is claimed."
             },
             {
               "id": "b",
@@ -6906,11 +6906,11 @@
             },
             {
               "id": "c",
-              "text": "They are reached by faith, which bypasses the forms."
+              "text": "They are reached by faith, which bypasses the forms. Faith reaches past the forms anyway."
             },
             {
               "id": "d",
-              "text": "They change when a vote adopts a new set of forms."
+              "text": "They change when a vote adopts a new set of forms. A vote changes what the forms hide."
             }
           ],
           "feedback": {
@@ -6998,10 +6998,10 @@
             }
           ],
           "bank": [
-            "unknowable",
             "obvious",
             "optional",
-            "voted"
+            "voted",
+            "unknowable"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -7015,10 +7015,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "An error presupposes a standard. It does not show that knowledge cannot succeed"
-            },
-            {
               "id": "b",
               "text": "One error proves the senses invent their objects and that faith must replace them"
             },
@@ -7029,6 +7025,10 @@
             {
               "id": "d",
               "text": "A misidentification is a contradiction in reality, so reality cannot be known"
+            },
+            {
+              "id": "a",
+              "text": "An error presupposes a standard. It does not show that knowledge cannot succeed"
             }
           ],
           "feedback": {
@@ -7043,6 +7043,10 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "I do not yet know what is in the locked drawer. I do know the lamp is on"
+            },
+            {
               "id": "a",
               "text": "No one can know anything, including the contents of this room"
             },
@@ -7053,10 +7057,6 @@
             {
               "id": "c",
               "text": "Every claim is equally baseless, including the claim that the lamp is on"
-            },
-            {
-              "id": "d",
-              "text": "I do not yet know what is in the locked drawer. I do know the lamp is on"
             }
           ],
           "feedback": {
@@ -7071,6 +7071,10 @@
           "prompt": "Build the statement of what skepticism denies.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "that faith"
+            },
+            {
               "id": "t1",
               "text": "Skepticism"
             },
@@ -7083,16 +7087,12 @@
               "text": "that knowledge"
             },
             {
-              "id": "t4",
-              "text": "is possible"
-            },
-            {
-              "id": "d1",
-              "text": "that faith"
-            },
-            {
               "id": "d2",
               "text": "is a feeling"
+            },
+            {
+              "id": "t4",
+              "text": "is possible"
             }
           ],
           "answer": [
@@ -7117,12 +7117,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Action with no regard for the facts, or action against the facts"
-            },
-            {
               "id": "b",
               "text": "A second, equally valid means of knowing the facts"
+            },
+            {
+              "id": "a",
+              "text": "Action with no regard for the facts, or action against the facts"
             },
             {
               "id": "c",
@@ -7150,12 +7150,12 @@
               "text": "Rejecting reason leaves the facts in charge and the action rational."
             },
             {
-              "id": "b",
-              "text": "Rejecting reason means acting with no regard for the facts, or against them."
-            },
-            {
               "id": "c",
               "text": "Rejecting reason means adopting whatever works as the new standard of truth."
+            },
+            {
+              "id": "b",
+              "text": "Rejecting reason means acting with no regard for the facts, or against them."
             },
             {
               "id": "d",
@@ -7184,12 +7184,12 @@
               "text": "A contradiction openly chosen because the figures were judged false on evidence"
             },
             {
-              "id": "c",
-              "text": "Action regardless of the facts. The figures were not allowed to count"
-            },
-            {
               "id": "d",
               "text": "Mysticism avoided, because no one mentioned a revelation"
+            },
+            {
+              "id": "c",
+              "text": "Action regardless of the facts. The figures were not allowed to count"
             }
           ],
           "feedback": {
@@ -7298,16 +7298,16 @@
               "text": "Reason, followed by a check of the feeling against the figures"
             },
             {
+              "id": "d",
+              "text": "Mysticism in the means, and action in contradiction to the facts"
+            },
+            {
               "id": "b",
               "text": "Skepticism only, with no claim that the feeling knows anything"
             },
             {
               "id": "c",
               "text": "A valid second means of knowledge, since kindness is a fact the figures missed"
-            },
-            {
-              "id": "d",
-              "text": "Mysticism in the means, and action in contradiction to the facts"
             }
           ],
           "feedback": {
@@ -7326,6 +7326,10 @@
               "text": "Act"
             },
             {
+              "id": "d1",
+              "text": "in obedience to"
+            },
+            {
               "id": "t2",
               "text": "regardless of"
             },
@@ -7336,10 +7340,6 @@
             {
               "id": "t4",
               "text": "or against them"
-            },
-            {
-              "id": "d1",
-              "text": "in obedience to"
             },
             {
               "id": "d2",
@@ -7368,20 +7368,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "All three say knowledge is impossible, and they differ only in tone, reason included as the confident version"
+            },
+            {
+              "id": "c",
+              "text": "Mysticism says knowledge is impossible, and skepticism offers revelation, the two rivals having swapped their claims"
+            },
+            {
               "id": "a",
               "text": "Reason: it is possible by integrating evidence. Mysticism: by bypassing evidence. Skepticism: it is not possible"
             },
             {
-              "id": "b",
-              "text": "All three say knowledge is impossible, and they differ only in tone"
-            },
-            {
-              "id": "c",
-              "text": "Mysticism says knowledge is impossible, and skepticism offers revelation"
-            },
-            {
               "id": "d",
-              "text": "Reason says truth is whatever works, and the other two deny action"
+              "text": "Reason says truth is whatever works, and the other two deny action, usefulness left standing as the only means"
             }
           ],
           "feedback": {
@@ -7400,16 +7400,16 @@
               "text": "All three are reason, at different volumes"
             },
             {
-              "id": "b",
-              "text": "Revelation is mysticism, the denial is skepticism, and the checked measurement is reason"
-            },
-            {
               "id": "c",
               "text": "The denial is mysticism, the revelation is skepticism, and the instrument is a vote"
             },
             {
               "id": "d",
               "text": "The instrument is mysticism because it was built by people"
+            },
+            {
+              "id": "b",
+              "text": "Revelation is mysticism, the denial is skepticism, and the checked measurement is reason"
             }
           ],
           "feedback": {
@@ -7424,20 +7424,20 @@
           "answer": "c",
           "choices": [
             {
-              "id": "a",
-              "text": "With mysticism, because unknowability is a kind of faith"
-            },
-            {
-              "id": "b",
-              "text": "With reason, because forms are a method of integrating evidence"
-            },
-            {
               "id": "c",
               "text": "With skepticism, as the noumenal result, not as a non-sensory means of knowledge"
             },
             {
+              "id": "a",
+              "text": "With mysticism, because unknowability is a kind of faith, denial passed off as faith"
+            },
+            {
+              "id": "b",
+              "text": "With reason, because forms are a method of integrating evidence, objects constituted"
+            },
+            {
               "id": "d",
-              "text": "With pragmatism, because the forms are said to work"
+              "text": "With pragmatism, because the forms are said to work, success being all the forms claim"
             }
           ],
           "feedback": {
@@ -7497,8 +7497,8 @@
             }
           ],
           "bank": [
-            "impossible",
             "easy",
+            "impossible",
             "voted",
             "felt"
           ],
@@ -7514,12 +7514,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Mysticism supplies the means, and skepticism is the content"
-            },
-            {
               "id": "b",
               "text": "Reason, because a revelation is sensory evidence that has been integrated"
+            },
+            {
+              "id": "a",
+              "text": "Mysticism supplies the means, and skepticism is the content"
             },
             {
               "id": "c",
@@ -7543,19 +7543,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Reason, because expense is a measurement of the facts"
+              "text": "Reason, because expense is a measurement of the facts, price settling the reading"
             },
             {
               "id": "b",
-              "text": "Skepticism, because a contradiction shows knowledge is impossible"
-            },
-            {
-              "id": "c",
-              "text": "Mysticism, because an impressive machine is a revelation"
+              "text": "Skepticism, because a contradiction shows knowledge is impossible, knowledge ended"
             },
             {
               "id": "d",
               "text": "Pragmatism, or a close cousin: a substitute standard in place of identification"
+            },
+            {
+              "id": "c",
+              "text": "Mysticism, because an impressive machine is a revelation, price replacing the evidence"
             }
           ],
           "feedback": {
@@ -7572,6 +7572,10 @@
             {
               "id": "t1",
               "text": "Reason knows"
+            },
+            {
+              "id": "d1",
+              "text": "by a vote"
             },
             {
               "id": "t2",
@@ -7592,10 +7596,6 @@
             {
               "id": "t6",
               "text": "knowledge"
-            },
-            {
-              "id": "d1",
-              "text": "by a vote"
             },
             {
               "id": "d2",
@@ -7626,20 +7626,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The art of identifying what is, and of keeping those identifications free of contradiction"
-            },
-            {
               "id": "b",
-              "text": "A feeling that a sentence is clear"
+              "text": "A feeling that a sentence is clear, emotion certifying words that name no fact"
             },
             {
               "id": "c",
-              "text": "Whatever works, whether or not it identifies a fact"
+              "text": "Whatever works, whether or not it identifies a fact, a useful error counting as logic"
             },
             {
               "id": "d",
-              "text": "A game of consistent words about no fact at all"
+              "text": "A game of consistent words about no fact at all, consistent emptiness being enough"
+            },
+            {
+              "id": "a",
+              "text": "The art of identifying what is, and of keeping those identifications free of contradiction"
             }
           ],
           "feedback": {
@@ -7654,20 +7654,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "Because the facts rearrange themselves whenever the art is skipped"
-            },
-            {
               "id": "b",
               "text": "Because it is a method one practices by choice, not a stamp the mind applies with no effort"
             },
             {
+              "id": "a",
+              "text": "Because the facts rearrange themselves whenever the art is skipped, the tank rewritten"
+            },
+            {
               "id": "c",
-              "text": "Because only a revelation can perform an identification"
+              "text": "Because only a revelation can perform an identification, the art delivered without any look"
             },
             {
               "id": "d",
-              "text": "Because an art is a contradiction maintained on purpose"
+              "text": "Because an art is a contradiction maintained on purpose, the art consisting in holding the clash"
             }
           ],
           "feedback": {
@@ -7683,19 +7683,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "All of it. Non-contradiction is enough, and identification is optional"
-            },
-            {
-              "id": "b",
-              "text": "All of it, if the paragraph feels orderly"
+              "text": "All of it. Non-contradiction is enough, and identification is optional, empty peace included"
             },
             {
               "id": "c",
               "text": "None that matters. Without identification there is nothing logic can keep consistent"
             },
             {
+              "id": "b",
+              "text": "All of it, if the paragraph feels orderly, a tidy feeling supplying every missing fact"
+            },
+            {
               "id": "d",
-              "text": "Half, and the missing half can be supplied by a vote"
+              "text": "Half, and the missing half can be supplied by a vote, a vote supplying the identification"
             }
           ],
           "feedback": {
@@ -7755,9 +7755,9 @@
             }
           ],
           "bank": [
-            "identification",
             "invention",
             "feeling",
+            "identification",
             "success"
           ],
           "feedback": {
@@ -7774,20 +7774,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Neither. Praising one half is the whole art, so praise of consistency excuses a text that identifies nothing"
+            },
+            {
+              "id": "c",
+              "text": "Only the omission of a feeling, which is the real third half, logic failing unless that feeling is added"
+            },
+            {
               "id": "a",
               "text": "Either omission. Identification without non-contradiction, or non-contradiction without identification, is not logic"
             },
             {
-              "id": "b",
-              "text": "Neither. Praising one half is the whole art"
-            },
-            {
-              "id": "c",
-              "text": "Only the omission of a feeling, which is the real third half"
-            },
-            {
               "id": "d",
-              "text": "Only the omission of a vote, which makes identifications official"
+              "text": "Only the omission of a vote, which makes identifications official, the art waiting on a group's ratification"
             }
           ],
           "feedback": {
@@ -7803,15 +7803,15 @@
           "choices": [
             {
               "id": "a",
-              "text": "Keep both claims, because a contradiction shows thoroughness"
+              "text": "Keep both claims, because a contradiction shows thoroughness, contradiction preserved"
             },
             {
               "id": "b",
-              "text": "Drop the chart, because identification is optional once words agree"
+              "text": "Drop the chart, because identification is optional once words agree, words saved"
             },
             {
               "id": "c",
-              "text": "Let the more hopeful claim stand, because usefulness is logic"
+              "text": "Let the more hopeful claim stand, because usefulness is logic, hope declared real"
             },
             {
               "id": "d",
@@ -7834,8 +7834,16 @@
               "text": "Identify"
             },
             {
+              "id": "d1",
+              "text": "and follow"
+            },
+            {
               "id": "t2",
               "text": "what is"
+            },
+            {
+              "id": "d2",
+              "text": "the feeling"
             },
             {
               "id": "t3",
@@ -7844,14 +7852,6 @@
             {
               "id": "t4",
               "text": "the contradiction"
-            },
-            {
-              "id": "d1",
-              "text": "and follow"
-            },
-            {
-              "id": "d2",
-              "text": "the feeling"
             }
           ],
           "answer": [
@@ -7881,15 +7881,15 @@
             },
             {
               "id": "b",
-              "text": "It writes the facts so that a wish will come out true"
+              "text": "It writes the facts so that a wish will come out true, the wish rewritten into the fact"
             },
             {
               "id": "c",
-              "text": "It names a feeling and calls the feeling the fact"
+              "text": "It names a feeling and calls the feeling the fact, the feeling put in the tank's place"
             },
             {
               "id": "d",
-              "text": "It withholds every name, because naming would change the fact"
+              "text": "It withholds every name, because naming would change the fact, silence preferred to identity"
             }
           ],
           "feedback": {
@@ -8008,10 +8008,10 @@
             }
           ],
           "bank": [
-            "identification",
             "invention",
             "neutrality",
-            "feeling"
+            "feeling",
+            "identification"
           ],
           "feedback": {
             "kind": "quote",
@@ -8027,20 +8027,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "No. The choice made a fact. The identification names that fact. It does not wish a second contract into being"
-            },
-            {
               "id": "b",
-              "text": "Yes. Every identification rewrites the fact it names"
+              "text": "Yes. Every identification rewrites the fact it names, so the naming brings a second contract into force"
             },
             {
               "id": "c",
-              "text": "Yes. A man-made fact has no identity until a feeling approves it"
+              "text": "Yes. A man-made fact has no identity until a feeling approves it, approval required before the contract exists"
             },
             {
               "id": "d",
-              "text": "No. Man-made facts cannot be identified at all"
+              "text": "No. Man-made facts cannot be identified at all, so contracts, marriages, and laws stay outside cognition"
+            },
+            {
+              "id": "a",
+              "text": "No. The choice made a fact. The identification names that fact. It does not wish a second contract into being"
             }
           ],
           "feedback": {
@@ -8055,20 +8055,20 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "\"The tank is empty\" after a look is an identification. \"The tank is empty\" said to make it so is a wish"
+            },
+            {
               "id": "a",
-              "text": "Both are identifications, because both use the verb \"is\""
+              "text": "Both are identifications, because both use the verb \"is\", the wish counting as the same act as the look"
             },
             {
               "id": "b",
-              "text": "Both are wishes, because every report is a preference"
+              "text": "Both are wishes, because every report is a preference, so a gauge reading is only a preference about the level"
             },
             {
               "id": "c",
-              "text": "Neither can be told apart, because facts have no identity"
-            },
-            {
-              "id": "d",
-              "text": "\"The tank is empty\" after a look is an identification. \"The tank is empty\" said to make it so is a wish"
+              "text": "Neither can be told apart, because facts have no identity, a look and a wish being equally mute"
             }
           ],
           "feedback": {
@@ -8091,20 +8091,20 @@
               "text": "is identity"
             },
             {
-              "id": "t3",
-              "text": "consciousness"
-            },
-            {
-              "id": "t4",
-              "text": "is identification"
-            },
-            {
               "id": "d1",
               "text": "is a wish"
             },
             {
+              "id": "t3",
+              "text": "consciousness"
+            },
+            {
               "id": "d2",
               "text": "is invention"
+            },
+            {
+              "id": "t4",
+              "text": "is identification"
             }
           ],
           "answer": [
@@ -8131,20 +8131,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Any thing having more than one attribute, even in different respects, complexity forbidden"
+            },
+            {
               "id": "a",
               "text": "The same thing being two incompatible things at the same time and in the same respect"
             },
             {
-              "id": "b",
-              "text": "Any thing having more than one attribute, even in different respects"
-            },
-            {
               "id": "c",
-              "text": "Any change across time, as if a later state contradicted an earlier one"
+              "text": "Any change across time, as if a later state contradicted an earlier one, history contradicted"
             },
             {
               "id": "d",
-              "text": "A difference in measurement between two units of one concept"
+              "text": "A difference in measurement between two units of one concept, different heights forbidden"
             }
           ],
           "feedback": {
@@ -8164,12 +8164,12 @@
               "text": "A leaf may be all red and all green at the same time if the description is useful."
             },
             {
-              "id": "b",
-              "text": "A leaf cannot be incompatible things at the same time."
-            },
-            {
               "id": "c",
               "text": "A leaf cannot be red in one season and green in another."
+            },
+            {
+              "id": "b",
+              "text": "A leaf cannot be incompatible things at the same time."
             },
             {
               "id": "d",
@@ -8191,19 +8191,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Yes. Any two colors on one leaf violate identity"
+              "text": "Yes. Any two colors on one leaf violate identity, parts counting as one respect"
             },
             {
               "id": "b",
-              "text": "Yes. \"Same respect\" is a verbal trick, and parts do not count"
+              "text": "Yes. \"Same respect\" is a verbal trick, and parts do not count, complexity barred"
+            },
+            {
+              "id": "d",
+              "text": "Yes, unless a vote assigns the leaf a single official color, color by ballot"
             },
             {
               "id": "c",
               "text": "No. The colors are in different respects. It is not all red and all green"
-            },
-            {
-              "id": "d",
-              "text": "Yes, unless a vote assigns the leaf a single official color"
             }
           ],
           "feedback": {
@@ -8312,16 +8312,16 @@
               "text": "Say the leaf is all red and all green, and call the clash a higher truth"
             },
             {
+              "id": "d",
+              "text": "Specify the part or the time, and show that the incompatibles were not together"
+            },
+            {
               "id": "b",
               "text": "Say the colors are whatever works for the painter"
             },
             {
               "id": "c",
               "text": "Deny that the leaf has any color, so no respect remains"
-            },
-            {
-              "id": "d",
-              "text": "Specify the part or the time, and show that the incompatibles were not together"
             }
           ],
           "feedback": {
@@ -8348,12 +8348,12 @@
               "text": "and"
             },
             {
-              "id": "t4",
-              "text": "in the same respect"
-            },
-            {
               "id": "d1",
               "text": "at any time in history"
+            },
+            {
+              "id": "t4",
+              "text": "in the same respect"
             },
             {
               "id": "d2",
@@ -8382,16 +8382,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "In the thinking. Reality does not contradict itself"
-            },
-            {
               "id": "b",
               "text": "In the facts, which sometimes have incompatible identities"
             },
             {
               "id": "c",
               "text": "Nowhere. A contradiction is a higher truth one should keep"
+            },
+            {
+              "id": "a",
+              "text": "In the thinking. Reality does not contradict itself"
             },
             {
               "id": "d",
@@ -8411,19 +8411,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "The tank has no identity until the reports are averaged"
+              "text": "The tank has no identity until the reports are averaged, cured by a number neither gauge gave"
+            },
+            {
+              "id": "c",
+              "text": "The tank is both, and the contradiction is a discovery about liquids, liquids allowed to be both at once"
+            },
+            {
+              "id": "d",
+              "text": "The tank is whatever the more anxious reading feels like, anxiety replacing both gauges"
             },
             {
               "id": "b",
               "text": "The tank is something. At least one identification, or the claim that they are simultaneous, has failed"
-            },
-            {
-              "id": "c",
-              "text": "The tank is both, and the contradiction is a discovery about liquids"
-            },
-            {
-              "id": "d",
-              "text": "The tank is whatever the more anxious reading feels like"
             }
           ],
           "feedback": {
@@ -8438,20 +8438,20 @@
           "answer": "c",
           "choices": [
             {
-              "id": "a",
-              "text": "Nothing. Reality is the sort of thing that can be A and non-A together"
-            },
-            {
-              "id": "b",
-              "text": "The possibility that a reading can be mistaken"
-            },
-            {
               "id": "c",
               "text": "That a contradiction is an error in thinking rather than a feature of the facts"
             },
             {
+              "id": "a",
+              "text": "Nothing. Reality is the sort of thing that can be A and non-A together, as a fact"
+            },
+            {
+              "id": "b",
+              "text": "The possibility that a reading can be mistaken, no reading allowed to be wrong"
+            },
+            {
               "id": "d",
-              "text": "That two times can differ without clashing"
+              "text": "That two times can differ without clashing, change across an hour forbidden"
             }
           ],
           "feedback": {
@@ -8511,8 +8511,8 @@
             }
           ],
           "bank": [
-            "thinking",
             "senses",
+            "thinking",
             "facts",
             "feelings"
           ],
@@ -8528,20 +8528,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Yes. Change over an hour is a contradiction the world committed, a later filling having broken the tank"
+            },
+            {
               "id": "a",
               "text": "No. What looked like a contradiction was a difference in time, and the thinking had dropped that qualifier"
             },
             {
-              "id": "b",
-              "text": "Yes. Change over an hour is a contradiction the world committed"
-            },
-            {
               "id": "c",
-              "text": "Yes. Once two sentences clash on paper, reality has clashed, whatever the clock says"
+              "text": "Yes. Once two sentences clash on paper, reality has clashed, whatever the clock says, the clock irrelevant"
             },
             {
               "id": "d",
-              "text": "No. The hour proves that contradictions are a higher form of truth"
+              "text": "No. The hour proves that contradictions are a higher form of truth, and the mind should preserve the clash"
             }
           ],
           "feedback": {
@@ -8564,12 +8564,12 @@
               "text": "He has shown that reality contradicts itself only on Tuesdays"
             },
             {
-              "id": "c",
-              "text": "He has kept both sides, which is the proper use of a contradiction"
-            },
-            {
               "id": "d",
               "text": "He has turned one error into skepticism about knowledge as such"
+            },
+            {
+              "id": "c",
+              "text": "He has kept both sides, which is the proper use of a contradiction"
             }
           ],
           "feedback": {
@@ -8584,6 +8584,10 @@
           "prompt": "Build the placement that keeps the contradiction out of the facts.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "a feature"
+            },
+            {
               "id": "t1",
               "text": "A contradiction"
             },
@@ -8596,16 +8600,12 @@
               "text": "in thinking"
             },
             {
-              "id": "t4",
-              "text": "not in reality"
-            },
-            {
-              "id": "d1",
-              "text": "a feature"
-            },
-            {
               "id": "d2",
               "text": "of the facts"
+            },
+            {
+              "id": "t4",
+              "text": "not in reality"
             }
           ],
           "answer": [
@@ -8630,20 +8630,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Finding it exposes an error. Maintaining it gives up the mind's hold on the facts"
-            },
-            {
               "id": "b",
-              "text": "Finding it is the failure. Maintaining it is the cure"
+              "text": "Finding it is the failure. Maintaining it is the cure, maintenance praised as knowledge"
             },
             {
               "id": "c",
-              "text": "They are the same act, and both should be prolonged"
+              "text": "They are the same act, and both should be prolonged, exposure and surrender as one act"
             },
             {
               "id": "d",
-              "text": "Finding it rewrites the facts. Maintaining it restores them"
+              "text": "Finding it rewrites the facts. Maintaining it restores them, clash as restoration"
+            },
+            {
+              "id": "a",
+              "text": "Finding it exposes an error. Maintaining it gives up the mind's hold on the facts"
             }
           ],
           "feedback": {
@@ -8659,20 +8659,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "Both arriving at a contradiction and keeping it are ways of knowing the facts."
-            },
-            {
               "id": "b",
               "text": "Finding a contradiction exposes an error. Keeping it abandons the mind's hold on reality."
             },
             {
+              "id": "a",
+              "text": "Both arriving at a contradiction and keeping it are ways of knowing the facts. Both succeed."
+            },
+            {
               "id": "c",
-              "text": "A contradiction should be maintained, because the confession is optional."
+              "text": "A contradiction should be maintained, because the confession is optional. Replace the confession."
             },
             {
               "id": "d",
-              "text": "Reality includes the contradiction, so the mind is at fault for noticing it."
+              "text": "Reality includes the contradiction, so the mind is at fault for noticing it. Notice is the fault."
             }
           ],
           "feedback": {
@@ -8693,12 +8693,12 @@
               "text": "The scientist maintained the clash. The colleague found the error"
             },
             {
-              "id": "b",
-              "text": "Both maintained it, because any rechecking is a kind of loyalty to contradiction"
-            },
-            {
               "id": "c",
               "text": "The scientist used the contradiction to expose an error. The colleague maintained it"
+            },
+            {
+              "id": "b",
+              "text": "Both maintained it, because any rechecking is a kind of loyalty to contradiction"
             },
             {
               "id": "d",
@@ -8762,9 +8762,9 @@
             }
           ],
           "bank": [
-            "mind",
             "error",
             "evidence",
+            "mind",
             "doubt"
           ],
           "feedback": {
@@ -8781,16 +8781,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It maintains the contradiction by making truth depend on who is speaking"
-            },
-            {
               "id": "b",
               "text": "It finds which reading failed and withdraws that one"
             },
             {
               "id": "c",
               "text": "It specifies a difference of time that dissolves the clash"
+            },
+            {
+              "id": "a",
+              "text": "It maintains the contradiction by making truth depend on who is speaking"
             },
             {
               "id": "d",
@@ -8810,15 +8810,15 @@
           "choices": [
             {
               "id": "a",
-              "text": "Keep both readings and praise the clash"
+              "text": "Keep both readings and praise the clash, both readings kept as knowledge"
             },
             {
               "id": "b",
-              "text": "Declare that logic fails whenever readings differ"
+              "text": "Declare that logic fails whenever readings differ, logic retired with the bad reading"
             },
             {
               "id": "c",
-              "text": "Average the readings and call the average what works"
+              "text": "Average the readings and call the average what works, an average put in place of the report"
             },
             {
               "id": "d",
@@ -8853,20 +8853,20 @@
               "text": "maintaining it"
             },
             {
-              "id": "t5",
-              "text": "abandons"
-            },
-            {
-              "id": "t6",
-              "text": "the facts"
-            },
-            {
               "id": "d1",
               "text": "proves"
             },
             {
+              "id": "t5",
+              "text": "abandons"
+            },
+            {
               "id": "d2",
               "text": "a higher truth"
+            },
+            {
+              "id": "t6",
+              "text": "the facts"
             }
           ],
           "answer": [
@@ -8898,15 +8898,15 @@
             },
             {
               "id": "b",
-              "text": "A mood that makes the claim feel settled"
+              "text": "A mood that makes the claim feel settled, that feeling serving as the facts depended on"
             },
             {
               "id": "c",
-              "text": "A private story in which the claim is true for the speaker"
+              "text": "A private story in which the claim is true for the speaker, the story replacing those facts"
             },
             {
               "id": "d",
-              "text": "A vote that adopts the claim for this occasion"
+              "text": "A vote that adopts the claim for this occasion, agreement serving as the whole context"
             }
           ],
           "feedback": {
@@ -8922,7 +8922,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "The speaker's anxiety, and nothing about the substance"
+              "text": "The speaker's anxiety, and nothing about the substance, alarm replacing the substance and the dose"
             },
             {
               "id": "b",
@@ -8930,11 +8930,11 @@
             },
             {
               "id": "c",
-              "text": "A story in which the same dose is harmless because the speaker prefers it"
+              "text": "A story in which the same dose is harmless because the speaker prefers it, preference overriding it"
             },
             {
               "id": "d",
-              "text": "The word toxic, used with no facts attached"
+              "text": "The word toxic, used with no facts attached, the sound replacing substance, amount, and organism"
             }
           ],
           "feedback": {
@@ -8950,11 +8950,11 @@
           "choices": [
             {
               "id": "a",
-              "text": "Nothing. Context is a mood, and the mood was constant"
+              "text": "Nothing. Context is a mood, and the mood was constant, amount irrelevant"
             },
             {
               "id": "b",
-              "text": "The word, which now means its opposite by stipulation"
+              "text": "The word, which now means its opposite by stipulation, dose left unchanged"
             },
             {
               "id": "c",
@@ -8962,7 +8962,7 @@
             },
             {
               "id": "d",
-              "text": "Reality, which contradicts itself whenever doses differ"
+              "text": "Reality, which contradicts itself whenever doses differ, identity broken"
             }
           ],
           "feedback": {
@@ -9022,10 +9022,10 @@
             }
           ],
           "bank": [
-            "depends",
             "votes",
             "feels",
-            "wishes"
+            "wishes",
+            "depends"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -9039,20 +9039,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "To shelter a wish. No new fact has changed the body of knowledge the claim depends on"
-            },
-            {
               "id": "b",
-              "text": "To record a smaller dose, which would be a real change of context"
+              "text": "To record a smaller dose, which would be a real change of context, toxicity actually changing"
             },
             {
               "id": "c",
-              "text": "To restate a definition while keeping the same units"
+              "text": "To restate a definition while keeping the same units, the referents held fixed"
             },
             {
               "id": "d",
-              "text": "To trace a later conclusion back to the evidence it rests on"
+              "text": "To trace a later conclusion back to the evidence it rests on, substance and organism named"
+            },
+            {
+              "id": "a",
+              "text": "To shelter a wish. No new fact has changed the body of knowledge the claim depends on"
             }
           ],
           "feedback": {
@@ -9067,20 +9067,20 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "A different context means different relevant facts, not a different reality invented to save the sentence"
+            },
+            {
               "id": "a",
-              "text": "Context means the speaker's sincerity, so a sincere claim has a context"
+              "text": "Context means the speaker's sincerity, so a sincere claim has a context, sincerity making the dose harmless"
             },
             {
               "id": "b",
-              "text": "Context means the latest mood, so the claim changes when the mood does"
+              "text": "Context means the latest mood, so the claim changes when the mood does, the mood resetting toxicity"
             },
             {
               "id": "c",
-              "text": "Context means a vote, so the group's framing is the body of facts"
-            },
-            {
-              "id": "d",
-              "text": "A different context means different relevant facts, not a different reality invented to save the sentence"
+              "text": "Context means a vote, so the group's framing is the body of facts, the vote making the dose safe"
             }
           ],
           "feedback": {
@@ -9095,8 +9095,16 @@
           "prompt": "Build the account of context that keeps it tied to knowledge.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "a private mood"
+            },
+            {
               "id": "t1",
               "text": "The facts"
+            },
+            {
+              "id": "d2",
+              "text": "a convenient story"
             },
             {
               "id": "t2",
@@ -9109,14 +9117,6 @@
             {
               "id": "t4",
               "text": "depends on"
-            },
-            {
-              "id": "d1",
-              "text": "a private mood"
-            },
-            {
-              "id": "d2",
-              "text": "a convenient story"
             }
           ],
           "answer": [
@@ -9141,20 +9141,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Let it rest on earlier knowledge, including percepts, the later item drawn from that base"
+            },
+            {
               "id": "a",
               "text": "Use it as if it came first, or as if it could cancel the earlier knowledge it rests on"
             },
             {
-              "id": "b",
-              "text": "Let it rest on earlier knowledge, including percepts"
-            },
-            {
               "id": "c",
-              "text": "Trace a science back to the concepts and the evidence it required"
+              "text": "Trace a science back to the concepts and the evidence it required, then checked downward"
             },
             {
               "id": "d",
-              "text": "Correct a later conclusion when it clashes with an earlier fact"
+              "text": "Correct a later conclusion when it clashes with an earlier fact, the earlier fact retained"
             }
           ],
           "feedback": {
@@ -9171,19 +9171,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Science comes first and may cancel sensory evidence."
+              "text": "Science comes first and may cancel sensory evidence. The senses lose standing."
+            },
+            {
+              "id": "c",
+              "text": "Language creates the facts, and the senses illustrate the words. Words make facts."
             },
             {
               "id": "b",
               "text": "Sensory evidence, then concepts, then language, then knowledge and science."
             },
             {
-              "id": "c",
-              "text": "Language creates the facts, and the senses illustrate the words."
-            },
-            {
               "id": "d",
-              "text": "Feeling comes before evidence, and science rests on the feeling."
+              "text": "Feeling comes before evidence, and science rests on the feeling. Emotion is first."
             }
           ],
           "feedback": {
@@ -9201,19 +9201,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Its proper work. Later knowledge is the base of earlier knowledge"
+              "text": "Its proper work. Later knowledge is the base of earlier knowledge, earlier facts demoted"
             },
             {
               "id": "b",
-              "text": "A check, in which the theory is traced back to the percepts it needs"
+              "text": "A check, in which the theory is traced back to the percepts it needs, denial misnamed"
+            },
+            {
+              "id": "d",
+              "text": "A definitional restatement that keeps the same units, mislabeled as restatement"
             },
             {
               "id": "c",
               "text": "An inversion. A later item is used as if it came first and could cancel its base"
-            },
-            {
-              "id": "d",
-              "text": "A definitional restatement that keeps the same units"
             }
           ],
           "feedback": {
@@ -9297,15 +9297,15 @@
             },
             {
               "id": "b",
-              "text": "Language is first in the order, and evidence is a decoration of grammar"
+              "text": "Language is first in the order, and evidence is a decoration of grammar, the sentence creating what it names"
             },
             {
               "id": "c",
-              "text": "Words have no dependence, so each word may create the fact it names"
+              "text": "Words have no dependence, so each word may create the fact it names, senses kept on as illustrations"
             },
             {
               "id": "d",
-              "text": "The order runs backward whenever a sentence is published"
+              "text": "The order runs backward whenever a sentence is published, publication reversing which one is the base"
             }
           ],
           "feedback": {
@@ -9324,16 +9324,16 @@
               "text": "Nothing. A formula is valid precisely by having no earlier base"
             },
             {
+              "id": "d",
+              "text": "The order. He is using a later item as if it came first"
+            },
+            {
               "id": "b",
               "text": "The right to check the formula against new evidence"
             },
             {
               "id": "c",
               "text": "Only the spelling. The order is optional once the symbols are memorized"
-            },
-            {
-              "id": "d",
-              "text": "The order. He is using a later item as if it came first"
             }
           ],
           "feedback": {
@@ -9352,8 +9352,16 @@
               "text": "Later knowledge"
             },
             {
+              "id": "d1",
+              "text": "cancels"
+            },
+            {
               "id": "t2",
               "text": "rests on"
+            },
+            {
+              "id": "d2",
+              "text": "replaces"
             },
             {
               "id": "t3",
@@ -9362,14 +9370,6 @@
             {
               "id": "t4",
               "text": "and cannot come first"
-            },
-            {
-              "id": "d1",
-              "text": "cancels"
-            },
-            {
-              "id": "d2",
-              "text": "replaces"
             }
           ],
           "answer": [
@@ -9394,20 +9394,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Any concept wider than a single percept, even when it reduces to chairs and tables"
+            },
+            {
+              "id": "c",
+              "text": "A first-level concept formed directly from percepts, abstraction itself counting as detachment"
+            },
+            {
               "id": "a",
               "text": "A concept used with no context, cut off from the facts and the order that give it meaning"
             },
             {
-              "id": "b",
-              "text": "Any concept wider than a single percept"
-            },
-            {
-              "id": "c",
-              "text": "A first-level concept formed directly from percepts"
-            },
-            {
               "id": "d",
-              "text": "A definition restated when knowledge deepens, with the units kept"
+              "text": "A definition restated when knowledge deepens, with the units kept, depth cutting the word off"
             }
           ],
           "feedback": {
@@ -9423,19 +9423,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "A concept tied to adherence to stated evidence"
+              "text": "A concept tied to adherence to stated evidence, indecision still counting as adherence to facts"
+            },
+            {
+              "id": "c",
+              "text": "A first-level percept of objectivity, seen beside the furniture, an entity among the chairs"
+            },
+            {
+              "id": "d",
+              "text": "A contextual certainty about a named body of evidence, the missing facts somehow already settled"
             },
             {
               "id": "b",
               "text": "A floating concept: the word is cut off from the facts that give objectivity its meaning"
-            },
-            {
-              "id": "c",
-              "text": "A first-level percept of objectivity, seen beside the furniture"
-            },
-            {
-              "id": "d",
-              "text": "A contextual certainty about a named body of evidence"
             }
           ],
           "feedback": {
@@ -9450,20 +9450,20 @@
           "answer": "c",
           "choices": [
             {
-              "id": "a",
-              "text": "Both are floating, because proof is wider than a percept"
-            },
-            {
-              "id": "b",
-              "text": "The use that names the evidence is floating, and the bare shout is not"
-            },
-            {
               "id": "c",
               "text": "A shout of \"proved,\" with no premises, is floating. A proof that names its evidence is not"
             },
             {
+              "id": "a",
+              "text": "Both are floating, because proof is wider than a percept, width alone detaching every proof"
+            },
+            {
+              "id": "b",
+              "text": "The use that names the evidence is floating, and the bare shout is not, naming called floating"
+            },
+            {
               "id": "d",
-              "text": "Neither can float, because every abstract word is tied to facts automatically"
+              "text": "Neither can float, because every abstract word is tied to facts automatically, words already tied"
             }
           ],
           "feedback": {
@@ -9523,8 +9523,8 @@
             }
           ],
           "bank": [
-            "context",
             "volume",
+            "context",
             "sincerity",
             "repetition"
           ],
@@ -9540,20 +9540,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A floating word with a word that names its evidence, table and furniture charged alike"
+            },
+            {
               "id": "a",
               "text": "Hierarchy with detachment. A wider concept is not floating if it rests on earlier concepts"
             },
             {
-              "id": "b",
-              "text": "A floating word with a word that names its evidence"
-            },
-            {
               "id": "c",
-              "text": "A percept with a contradiction"
+              "text": "A percept with a contradiction, width treated as a broken identity among the chairs"
             },
             {
               "id": "d",
-              "text": "Nothing. Every concept above a percept is empty by definition"
+              "text": "Nothing. Every concept above a percept is empty by definition, width alone making furniture empty"
             }
           ],
           "feedback": {
@@ -9569,19 +9569,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Naming the evidence a proof actually uses"
+              "text": "Naming the evidence a proof actually uses, plus the conclusions those premises use"
             },
             {
               "id": "b",
-              "text": "Reducing furniture to the earlier concepts it integrates"
-            },
-            {
-              "id": "c",
-              "text": "Stating the facts one calls just or unjust"
+              "text": "Reducing furniture to the earlier concepts it integrates, down to the percepts"
             },
             {
               "id": "d",
               "text": "Adding a thicker abstraction, such as \"transcendental proof,\" with no facts added"
+            },
+            {
+              "id": "c",
+              "text": "Stating the facts one calls just or unjust, together with the standard used to judge them"
             }
           ],
           "feedback": {
@@ -9604,20 +9604,20 @@
               "text": "with no context"
             },
             {
-              "id": "t3",
-              "text": "cut off"
-            },
-            {
-              "id": "t4",
-              "text": "from the facts"
-            },
-            {
               "id": "d1",
               "text": "wider than a percept"
             },
             {
+              "id": "t3",
+              "text": "cut off"
+            },
+            {
               "id": "d2",
               "text": "and therefore empty"
+            },
+            {
+              "id": "t4",
+              "text": "from the facts"
             }
           ],
           "answer": [
@@ -9642,20 +9642,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "By naming the facts it refers to and the earlier knowledge it rests on"
-            },
-            {
               "id": "b",
-              "text": "By saying it more loudly"
+              "text": "By saying it more loudly, volume standing in for the missing facts"
             },
             {
               "id": "c",
-              "text": "By adding a thicker word and no facts"
+              "text": "By adding a thicker word and no facts, the new word doing duty as the facts"
             },
             {
               "id": "d",
-              "text": "By stipulating a new meaning that drops the original units"
+              "text": "By stipulating a new meaning that drops the original units, referents replaced"
+            },
+            {
+              "id": "a",
+              "text": "By naming the facts it refers to and the earlier knowledge it rests on"
             }
           ],
           "feedback": {
@@ -9670,12 +9670,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "A still louder repetition"
-            },
-            {
               "id": "b",
               "text": "Naming the evidence and the earlier conclusions the certainty depends on"
+            },
+            {
+              "id": "a",
+              "text": "A still louder repetition"
             },
             {
               "id": "c",
@@ -9702,12 +9702,12 @@
               "text": "Repeat \"absolutely proved\" until the audience is tired"
             },
             {
-              "id": "b",
-              "text": "Add \"in a higher sense,\" and still name no premise"
-            },
-            {
               "id": "c",
               "text": "State the evidence and the earlier conclusions the proof uses"
+            },
+            {
+              "id": "b",
+              "text": "Add \"in a higher sense,\" and still name no premise"
             },
             {
               "id": "d",
@@ -9771,9 +9771,9 @@
             }
           ],
           "bank": [
-            "knowledge",
             "volume",
             "sincerity",
+            "knowledge",
             "slogan"
           ],
           "feedback": {
@@ -9788,20 +9788,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The same act. Any new sentence about a word counts as putting it back, even when the units have been dropped"
+            },
+            {
+              "id": "c",
+              "text": "The same act, because dropping the units is what restatement means, the referents cut away on purpose"
+            },
+            {
               "id": "a",
               "text": "A different act. It deepens a concept that still has its units. Restoration is for a word cut off from its units"
             },
             {
-              "id": "b",
-              "text": "The same act. Any new sentence about a word counts as putting it back"
-            },
-            {
-              "id": "c",
-              "text": "The same act, because dropping the units is what restatement means"
-            },
-            {
               "id": "d",
-              "text": "Neither, because concepts cannot be reconnected to facts once spoken"
+              "text": "Neither, because concepts cannot be reconnected to facts once spoken, later naming powerless to restore it"
             }
           ],
           "feedback": {
@@ -9817,15 +9817,15 @@
           "choices": [
             {
               "id": "a",
-              "text": "Pointing to the tables a person meant by furniture"
+              "text": "Pointing to the tables a person meant by furniture, beds included"
             },
             {
               "id": "b",
-              "text": "Citing the measurements a certainty was based on"
+              "text": "Citing the measurements a certainty was based on, percepts included"
             },
             {
               "id": "c",
-              "text": "Naming the earlier concept a wider word integrates"
+              "text": "Naming the earlier concept a wider word integrates, percepts too"
             },
             {
               "id": "d",
@@ -9856,12 +9856,12 @@
               "text": "and the earlier"
             },
             {
-              "id": "t4",
-              "text": "knowledge"
-            },
-            {
               "id": "d1",
               "text": "the volume"
+            },
+            {
+              "id": "t4",
+              "text": "knowledge"
             },
             {
               "id": "d2",
@@ -9895,15 +9895,15 @@
             },
             {
               "id": "b",
-              "text": "How loudly it was said, and whether the room agreed"
+              "text": "How loudly it was said, and whether the room agreed, volume and assent being the test"
             },
             {
               "id": "c",
-              "text": "Does it feel certain, and does a story make it welcome"
+              "text": "Does it feel certain, and does a story make it welcome, comfort replacing dependence"
             },
             {
               "id": "d",
-              "text": "Can it cancel percepts, and can it float with no facts"
+              "text": "Can it cancel percepts, and can it float with no facts, cancellation treated as success"
             }
           ],
           "feedback": {
@@ -9919,7 +9919,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "No. Any use of earlier knowledge is an inversion"
+              "text": "No. Any use of earlier knowledge is an inversion, hierarchy made impossible by that order"
             },
             {
               "id": "b",
@@ -9927,11 +9927,11 @@
             },
             {
               "id": "c",
-              "text": "No. An indicator is a percept, so it cannot support a later claim"
+              "text": "No. An indicator is a percept, so it cannot support a later claim, color barred"
             },
             {
               "id": "d",
-              "text": "Yes, but only if a vote adopts the color"
+              "text": "Yes, but only if a vote adopts the color, the color admitted only by vote"
             }
           ],
           "feedback": {
@@ -9947,11 +9947,11 @@
           "choices": [
             {
               "id": "a",
-              "text": "It fails because language was spoken softly"
+              "text": "It fails because language was spoken softly, softness being what the check actually catches"
             },
             {
               "id": "b",
-              "text": "It passes, because a later item may cancel whatever it rests on"
+              "text": "It passes, because a later item may cancel whatever it rests on, later items cancelling their base"
             },
             {
               "id": "c",
@@ -9959,7 +9959,7 @@
             },
             {
               "id": "d",
-              "text": "It fails only because no vote was taken"
+              "text": "It fails only because no vote was taken, a missing vote being the only defect"
             }
           ],
           "feedback": {
@@ -10019,10 +10019,10 @@
             }
           ],
           "bank": [
-            "earlier",
             "louder",
             "kinder",
-            "newer"
+            "newer",
+            "earlier"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -10036,20 +10036,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The first. He has not named any knowledge the word depends on, so the concept is floating"
-            },
-            {
               "id": "b",
-              "text": "Neither. A word that depends only on itself is the base of the order"
+              "text": "Neither. A word that depends only on itself is the base of the order, self-reference as the base"
             },
             {
               "id": "c",
-              "text": "The second only. The facts are earlier, and he is using them"
+              "text": "The second only. The facts are earlier, and he is using them, despite no fact having been named"
             },
             {
               "id": "d",
-              "text": "Both pass, because repetition of the word is a context"
+              "text": "Both pass, because repetition of the word is a context, repetition counted as the body of facts"
+            },
+            {
+              "id": "a",
+              "text": "The first. He has not named any knowledge the word depends on, so the concept is floating"
             }
           ],
           "feedback": {
@@ -10064,20 +10064,20 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "The second. The dependence is named and then denied, so the later conclusion attacks its base"
+            },
+            {
               "id": "a",
-              "text": "The first. No dependence was named"
+              "text": "The first. No dependence was named, the citation somehow still naming nothing"
             },
             {
               "id": "b",
-              "text": "Neither. Naming experiments and denying them is ordinary adherence"
+              "text": "Neither. Naming experiments and denying them is ordinary adherence, denial called adherence"
             },
             {
               "id": "c",
-              "text": "The first, because experiments are not knowledge"
-            },
-            {
-              "id": "d",
-              "text": "The second. The dependence is named and then denied, so the later conclusion attacks its base"
+              "text": "The first, because experiments are not knowledge, a measurement barred from counting as knowledge"
             }
           ],
           "feedback": {
@@ -10092,6 +10092,10 @@
           "prompt": "Build the check so that both questions stay in force.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "louder"
+            },
+            {
               "id": "t1",
               "text": "What knowledge"
             },
@@ -10104,16 +10108,12 @@
               "text": "and is that knowledge"
             },
             {
-              "id": "t4",
-              "text": "earlier"
-            },
-            {
-              "id": "d1",
-              "text": "louder"
-            },
-            {
               "id": "d2",
               "text": "optional"
+            },
+            {
+              "id": "t4",
+              "text": "earlier"
             }
           ],
           "answer": [

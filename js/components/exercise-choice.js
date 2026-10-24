@@ -1,4 +1,4 @@
-import { escapeHtml } from '../dom.js';
+import { escapeHtml, shuffle } from '../dom.js';
 import { ExerciseElement } from '../exercise-element.js';
 
 export class ExerciseChoiceElement extends ExerciseElement {
@@ -27,7 +27,7 @@ export class ExerciseChoiceElement extends ExerciseElement {
 
   render() {
     if (!this.data) return;
-    const choices = this.data.choices.map((choice) => `
+    const choices = shuffle(this.data.choices).map((choice) => `
       <button type="button" class="option" data-id="${escapeHtml(choice.id)}" aria-pressed="false">
         <span>${escapeHtml(choice.text)}</span>
       </button>
