@@ -67,11 +67,11 @@
           "choices": [
             {
               "id": "a",
-              "text": "Yes. Only what was never chosen can be a fact about a person"
+              "text": "Yes. Only what was never chosen can be a fact about a person, so choice erases the fact"
             },
             {
               "id": "b",
-              "text": "Yes. A self is real only when other people stamp it"
+              "text": "Yes. A self is real only when other people stamp it, and his own choices leave nothing"
             },
             {
               "id": "c",
@@ -79,7 +79,7 @@
             },
             {
               "id": "d",
-              "text": "No, because it was innate and the appearance of choice is the illusion"
+              "text": "No, because it was innate and the appearance of choice is the illusion, so it was issued"
             }
           ],
           "feedback": {
@@ -125,10 +125,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Determinism. The virtue was built by his choices, so the achievement is his"
-            },
-            {
               "id": "b",
               "text": "The error is praising any virtue"
             },
@@ -139,6 +135,10 @@
             {
               "id": "d",
               "text": "A group mind performed the virtue and lent him the name"
+            },
+            {
+              "id": "a",
+              "text": "Determinism. The virtue was built by his choices, so the achievement is his"
             }
           ],
           "feedback": {
@@ -153,20 +153,20 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "Circumstances can change what he faces. They do not write the self. Further choice changes a policy"
+            },
+            {
               "id": "a",
-              "text": "Character is innate, so a neighborhood is irrelevant for that different reason"
+              "text": "Character is innate, so a neighborhood is irrelevant for that different reason, birth having fixed it"
             },
             {
               "id": "b",
-              "text": "The self is a whim, with no stability from one week to the next"
+              "text": "The self is a whim, with no stability from one week to the next, so no policy exists to replace"
             },
             {
               "id": "c",
-              "text": "Nothing is wrong. Other people are the mind that writes his policies"
-            },
-            {
-              "id": "d",
-              "text": "Circumstances can change what he faces. They do not write the self. Further choice changes a policy"
+              "text": "Nothing is wrong. Other people are the mind that writes his policies, and the new street is that mind"
             }
           ],
           "feedback": {
@@ -224,6 +224,10 @@
               "text": "a self"
             },
             {
+              "id": "d1",
+              "text": "an innate stamp"
+            },
+            {
               "id": "t4",
               "text": "built"
             },
@@ -232,20 +236,16 @@
               "text": "by choice"
             },
             {
+              "id": "d2",
+              "text": "a social product"
+            },
+            {
               "id": "t6",
               "text": "and"
             },
             {
               "id": "t7",
               "text": "still a fact"
-            },
-            {
-              "id": "d1",
-              "text": "an innate stamp"
-            },
-            {
-              "id": "d2",
-              "text": "a social product"
             }
           ],
           "answer": [
@@ -273,12 +273,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "By being repeated until it is his standing policy"
-            },
-            {
               "id": "b",
               "text": "By being felt on one occasion, however he acts afterward"
+            },
+            {
+              "id": "a",
+              "text": "By being repeated until it is his standing policy"
             },
             {
               "id": "c",
@@ -302,19 +302,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Yes. One act rewrites him into a standing virtue"
+              "text": "Yes. One act rewrites him into a standing virtue, and the later lies leave that virtue standing"
+            },
+            {
+              "id": "c",
+              "text": "Yes. The wish to be called honest is already the policy, and convenient lies leave it standing"
             },
             {
               "id": "b",
               "text": "No. A policy is the choice he repeats, not one act and not a wish to be described as honest"
             },
             {
-              "id": "c",
-              "text": "Yes. The wish to be called honest is already the policy"
-            },
-            {
               "id": "d",
-              "text": "No. Honesty cannot be a character, because only evasions become habitual"
+              "text": "No. Honesty cannot be a character, because only evasions become habitual, never a repeated truth"
             }
           ],
           "feedback": {
@@ -330,19 +330,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "The ease proves he never chose, because facility cancels origin"
+              "text": "The ease proves he never chose, because facility cancels origin and wipes out the history"
             },
             {
               "id": "b",
-              "text": "An instinct of self-preservation has taken the action over"
+              "text": "An instinct of self-preservation has taken the action over, so biology now acts for him"
+            },
+            {
+              "id": "d",
+              "text": "The capacity to choose has been repealed by the habit, which now owns the person"
             },
             {
               "id": "c",
               "text": "A chosen policy has become habitual. It is still his policy, not a foreign mechanism"
-            },
-            {
-              "id": "d",
-              "text": "The capacity to choose has been repealed by the habit"
             }
           ],
           "feedback": {
@@ -417,19 +417,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "No. Only virtues are character. A vice is always a mere lapse"
-            },
-            {
-              "id": "b",
-              "text": "No. A repeated evasion proves he never had a choice"
-            },
-            {
-              "id": "c",
-              "text": "No. Vices are stamped on by other people and have no agent"
+              "text": "No. Only virtues are character. A vice is always a mere lapse and never a built self"
             },
             {
               "id": "d",
               "text": "Yes. A bad policy is a self he has built. It is not a fate and not a single lapse"
+            },
+            {
+              "id": "b",
+              "text": "No. A repeated evasion proves he never had a choice, so the pattern is fate"
+            },
+            {
+              "id": "c",
+              "text": "No. Vices are stamped on by other people and have no agent, so the evasion is theirs"
             }
           ],
           "feedback": {
@@ -458,8 +458,8 @@
             }
           ],
           "bank": [
-            "policy",
             "instinct",
+            "policy",
             "mood",
             "alibi"
           ],
@@ -491,20 +491,20 @@
               "text": "are repeated"
             },
             {
-              "id": "t5",
-              "text": "until"
-            },
-            {
-              "id": "t6",
-              "text": "they are policy"
-            },
-            {
               "id": "d1",
               "text": "they are innate"
             },
             {
+              "id": "t5",
+              "text": "until"
+            },
+            {
               "id": "d2",
               "text": "they are excused"
+            },
+            {
+              "id": "t6",
+              "text": "they are policy"
             }
           ],
           "answer": [
@@ -531,20 +531,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A finished temperament, which causes the power to choose and precedes focus"
+            },
+            {
+              "id": "c",
+              "text": "Society, which writes both the temperament and the choices in his place"
+            },
+            {
               "id": "a",
               "text": "Volition, the choice to focus or not. Character is a product of choices"
             },
             {
-              "id": "b",
-              "text": "A finished temperament, which causes the power to choose"
-            },
-            {
-              "id": "c",
-              "text": "Society, which writes both the temperament and the choices"
-            },
-            {
               "id": "d",
-              "text": "An instinct that makes any choice to focus unnecessary"
+              "text": "An instinct that makes any choice to focus unnecessary, an inborn code instead"
             }
           ],
           "feedback": {
@@ -560,19 +560,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Because character is unreal, and thinking leaves no product"
+              "text": "Because character is unreal, and thinking leaves no product a policy could be built from"
+            },
+            {
+              "id": "c",
+              "text": "Because thinking is automatic, so nothing is foundational and focus is not a choice at all"
+            },
+            {
+              "id": "d",
+              "text": "Because which fact is basic is a matter of preference, and either order is open to him"
             },
             {
               "id": "b",
               "text": "Because the choices that build character include the choice to think. A product is not the source"
-            },
-            {
-              "id": "c",
-              "text": "Because thinking is automatic, so nothing is foundational"
-            },
-            {
-              "id": "d",
-              "text": "Because which fact is basic is a matter of preference"
             }
           ],
           "feedback": {
@@ -587,20 +587,20 @@
           "answer": "c",
           "choices": [
             {
-              "id": "a",
-              "text": "Nothing. Traits are innate causes of the power to think"
-            },
-            {
-              "id": "b",
-              "text": "It has wrongly admitted that people are able to think"
-            },
-            {
               "id": "c",
               "text": "The order. A policy of focusing or of evading is what builds the courage or the cowardice"
             },
             {
+              "id": "a",
+              "text": "Nothing. Traits are innate causes of the power to think, issued before any focus"
+            },
+            {
+              "id": "b",
+              "text": "It has wrongly admitted that people are able to think, and should have denied the faculty"
+            },
+            {
               "id": "d",
-              "text": "It has confused a personal policy with a group mind"
+              "text": "It has confused a personal policy with a group mind whose mood does the thinking"
             }
           ],
           "feedback": {
@@ -646,12 +646,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "No. Later names dependence on choice. The product is still a real fact"
-            },
-            {
               "id": "b",
               "text": "Yes. Only the present moment exists, so a policy is a fiction"
+            },
+            {
+              "id": "a",
+              "text": "No. Later names dependence on choice. The product is still a real fact"
             },
             {
               "id": "c",
@@ -682,12 +682,12 @@
               "text": "The culture, which is the base of both the child and the adult"
             },
             {
-              "id": "c",
-              "text": "The adult character, because it was innate and the childhood choice is a myth"
-            },
-            {
               "id": "d",
               "text": "The choice to focus or not. The later character is what repeated choices have made"
+            },
+            {
+              "id": "c",
+              "text": "The adult character, because it was innate and the childhood choice is a myth"
             }
           ],
           "feedback": {
@@ -716,9 +716,9 @@
             }
           ],
           "bank": [
-            "product",
             "cause",
             "substitute",
+            "product",
             "stamp"
           ],
           "feedback": {
@@ -753,12 +753,12 @@
               "text": "character"
             },
             {
-              "id": "t6",
-              "text": "is its later product"
-            },
-            {
               "id": "d1",
               "text": "the cause of volition"
+            },
+            {
+              "id": "t6",
+              "text": "is its later product"
             },
             {
               "id": "d2",
@@ -789,10 +789,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The present choice to focus on the facts now in front of him"
-            },
-            {
               "id": "b",
               "text": "Nothing. A good habit perceives those facts in his place"
             },
@@ -803,6 +799,10 @@
             {
               "id": "d",
               "text": "Permission from other people before he is allowed to look"
+            },
+            {
+              "id": "a",
+              "text": "The present choice to focus on the facts now in front of him"
             }
           ],
           "feedback": {
@@ -817,20 +817,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "He is right. A habit repeals the choice to focus"
-            },
-            {
               "id": "b",
               "text": "The policy was built by earlier choices, and the choice to focus remains open"
             },
             {
+              "id": "a",
+              "text": "He is right. A habit repeals the choice to focus and then evades for him"
+            },
+            {
               "id": "c",
-              "text": "The evasion was an innate code asserting itself"
+              "text": "The evasion was an innate code asserting itself, not a policy he built"
             },
             {
               "id": "d",
-              "text": "Other people made the choice and lent him the resulting character"
+              "text": "Other people made the choice and lent him the resulting character, so his focus ended"
             }
           ],
           "feedback": {
@@ -846,19 +846,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Good character is innate, and an innate policy cannot be lost"
-            },
-            {
-              "id": "b",
-              "text": "Watching a choice insults the policy and ought to be avoided"
+              "text": "Good character is innate, and an innate policy cannot be lost, so tomorrow's focus is guaranteed by what he was given"
             },
             {
               "id": "c",
               "text": "A good policy is not a substitute either. Tomorrow's focus is still a choice, which is why a virtue can be lost"
             },
             {
+              "id": "b",
+              "text": "Watching a choice insults the policy and ought to be avoided, because attention itself ruins the virtue"
+            },
+            {
               "id": "d",
-              "text": "A sincere self-description guarantees the actions that follow it"
+              "text": "A sincere self-description guarantees the actions that follow it, so the name makes evasion impossible"
             }
           ],
           "feedback": {
@@ -904,16 +904,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "He has treated character as a substitute for focusing on these facts"
-            },
-            {
               "id": "b",
               "text": "He has used reason as his means of dealing with the storm"
             },
             {
               "id": "c",
               "text": "He has rightly let a good character read the instruments for him"
+            },
+            {
+              "id": "a",
+              "text": "He has treated character as a substitute for focusing on these facts"
             },
             {
               "id": "d",
@@ -933,15 +933,15 @@
           "choices": [
             {
               "id": "a",
-              "text": "Yes. A virtue is a fiction unless it is infallible"
+              "text": "Yes. A virtue is a fiction unless it is infallible, and one evasion erases the whole policy"
             },
             {
               "id": "b",
-              "text": "Yes. Only the present second exists, so a policy is nothing"
+              "text": "Yes. Only the present second exists, so a policy is nothing and yesterday built no self"
             },
             {
               "id": "c",
-              "text": "No. The virtue chooses in his place, which is what gives it worth"
+              "text": "No. The virtue chooses in his place, which is what gives it worth, so he need not watch"
             },
             {
               "id": "d",
@@ -974,10 +974,10 @@
             }
           ],
           "bank": [
-            "focus",
             "drift",
             "inherit",
-            "conform"
+            "conform",
+            "focus"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -990,6 +990,10 @@
           "mode": "sentence",
           "prompt": "Build the principle that covers both a good policy and a bad one.",
           "tokens": [
+            {
+              "id": "d1",
+              "text": "an excuse"
+            },
             {
               "id": "t1",
               "text": "Neither"
@@ -1011,20 +1015,16 @@
               "text": "replaces"
             },
             {
+              "id": "d2",
+              "text": "a guarantee"
+            },
+            {
               "id": "t6",
               "text": "the choice"
             },
             {
               "id": "t7",
               "text": "to focus"
-            },
-            {
-              "id": "d1",
-              "text": "an excuse"
-            },
-            {
-              "id": "d2",
-              "text": "a guarantee"
             }
           ],
           "answer": [
@@ -1053,20 +1053,20 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "Free will is the freedom to think or not, and that choice determines one's character"
+            },
+            {
               "id": "a",
-              "text": "Free will is a detachable soul's power to rewrite facts it dislikes"
+              "text": "Free will is a detachable soul's power to rewrite facts it dislikes, not the power to think"
             },
             {
               "id": "b",
-              "text": "Free will is a guarantee that any whim will succeed without thought"
+              "text": "Free will is a guarantee that any whim will succeed without thought, character following"
             },
             {
               "id": "c",
-              "text": "Character is innate, so the choice to think does not determine it"
-            },
-            {
-              "id": "d",
-              "text": "Free will is the freedom to think or not, and that choice determines one's character"
+              "text": "Character is innate, so the choice to think does not determine it, the self arriving fixed"
             }
           ],
           "feedback": {
@@ -1084,7 +1084,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "Character first, with the freedom to think as a story told afterward"
+              "text": "Character first, with the freedom to think as a story told afterward about a finished self"
             },
             {
               "id": "b",
@@ -1092,11 +1092,11 @@
             },
             {
               "id": "c",
-              "text": "A detachable soul first, with neither thinking nor the body involved"
+              "text": "A detachable soul first, with neither thinking nor the body involved, choice never entering"
             },
             {
               "id": "d",
-              "text": "Success at a whim first, with the facts arranging themselves around it"
+              "text": "Success at a whim first, with the facts arranging themselves around it before thought"
             }
           ],
           "feedback": {
@@ -1111,16 +1111,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Volition is the choice to think or not, not a power to rewrite facts"
-            },
-            {
               "id": "b",
               "text": "He has stated that existence is independent of his declaration"
             },
             {
               "id": "c",
               "text": "Freedom means the door has no identity of its own"
+            },
+            {
+              "id": "a",
+              "text": "Volition is the choice to think or not, not a power to rewrite facts"
             },
             {
               "id": "d",
@@ -1171,19 +1171,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "The craft with an innate code, so study would be a confession that he is determined"
+              "text": "The craft with an innate code, so study would be a confession that he is determined by birth"
             },
             {
               "id": "b",
-              "text": "The wish with a value-judgment that has already discovered the craft"
+              "text": "The wish with a value-judgment that has already discovered the craft, so the wish is the finished study"
+            },
+            {
+              "id": "d",
+              "text": "Ambition with a power that creates the facts of the craft by wanting them into existence"
             },
             {
               "id": "c",
               "text": "The freedom to think with a guarantee that any whim will succeed. The work still has requirements"
-            },
-            {
-              "id": "d",
-              "text": "Ambition with a power that creates the facts of the craft by wanting them"
             }
           ],
           "feedback": {
@@ -1203,15 +1203,15 @@
             },
             {
               "id": "b",
-              "text": "The habit's reality, because only the present choice exists"
+              "text": "The habit's reality, because only the present choice exists and a formed evasion is only a fiction"
             },
             {
               "id": "c",
-              "text": "The open choice, because a formed policy repeals volition"
+              "text": "The open choice, because a formed policy repeals volition and the habit now evades in his place"
             },
             {
               "id": "d",
-              "text": "Both, because other people decide whether he evaded and whether he can think"
+              "text": "Both, because other people decide whether he evaded and whether he can think, so neither fact is his"
             }
           ],
           "feedback": {
@@ -1261,6 +1261,10 @@
               "text": "The choice"
             },
             {
+              "id": "d1",
+              "text": "rewrites the facts"
+            },
+            {
               "id": "t2",
               "text": "to think"
             },
@@ -1279,10 +1283,6 @@
             {
               "id": "t6",
               "text": "one builds"
-            },
-            {
-              "id": "d1",
-              "text": "rewrites the facts"
             },
             {
               "id": "d2",
@@ -1313,12 +1313,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "An automatic result of a value-judgment he holds"
-            },
-            {
               "id": "b",
               "text": "A tool that discovers facts the judgment has not reached"
+            },
+            {
+              "id": "a",
+              "text": "An automatic result of a value-judgment he holds"
             },
             {
               "id": "c",
@@ -1345,12 +1345,12 @@
               "text": "In the facts of the promotion, which differ for each viewer"
             },
             {
-              "id": "b",
-              "text": "In their value-judgments about the promotion, not in the event"
-            },
-            {
               "id": "c",
               "text": "In their eyes, which manufacture two different events"
+            },
+            {
+              "id": "b",
+              "text": "In their value-judgments about the promotion, not in the event"
             },
             {
               "id": "d",
@@ -1377,12 +1377,12 @@
               "text": "Yes. A decision to feel is a tool that discovers a new fact"
             },
             {
-              "id": "c",
-              "text": "No. An emotion follows from an evaluation. It is not painted on by will"
-            },
-            {
               "id": "d",
               "text": "No. Emotions are uncaused, so evaluations never give rise to them"
+            },
+            {
+              "id": "c",
+              "text": "No. An emotion follows from an evaluation. It is not painted on by will"
             }
           ],
           "feedback": {
@@ -1457,19 +1457,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "An appropriate emotion bypasses judgment and perceives the fact directly"
-            },
-            {
-              "id": "b",
-              "text": "Appropriateness means the feeling made the fact true"
-            },
-            {
-              "id": "c",
-              "text": "An appropriate emotion is one he willed into existence for the occasion"
+              "text": "An appropriate emotion bypasses judgment and perceives the fact directly, with no estimate"
             },
             {
               "id": "d",
               "text": "It is appropriate when the value-judgment is true. The truth lies in that judgment"
+            },
+            {
+              "id": "b",
+              "text": "Appropriateness means the feeling made the fact true, and the judgment copies it"
+            },
+            {
+              "id": "c",
+              "text": "An appropriate emotion is one he willed into existence for the occasion, judgment left out"
             }
           ],
           "feedback": {
@@ -1498,8 +1498,8 @@
             }
           ],
           "bank": [
-            "value-judgments",
             "bare sensations",
+            "value-judgments",
             "innate codes",
             "group orders"
           ],
@@ -1515,8 +1515,16 @@
           "prompt": "Build the principle that states what an emotion is.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "a tool of cognition"
+            },
+            {
               "id": "t1",
               "text": "An emotion"
+            },
+            {
+              "id": "d2",
+              "text": "an innate code"
             },
             {
               "id": "t2",
@@ -1537,14 +1545,6 @@
             {
               "id": "t6",
               "text": "a value-judgment"
-            },
-            {
-              "id": "d1",
-              "text": "a tool of cognition"
-            },
-            {
-              "id": "d2",
-              "text": "an innate code"
             }
           ],
           "answer": [
@@ -1571,16 +1571,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Nothing. Intensity shows how strong the estimate is, not whether it is true"
-            },
-            {
               "id": "b",
               "text": "That the estimate is true, because strength is a standard of truth"
             },
             {
               "id": "c",
               "text": "That the facts have rearranged themselves to match the feeling"
+            },
+            {
+              "id": "a",
+              "text": "Nothing. Intensity shows how strong the estimate is, not whether it is true"
             },
             {
               "id": "d",
@@ -1600,10 +1600,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A feeling reports your estimate of the facts and does not report the facts"
-            },
-            {
               "id": "b",
               "text": "A feeling reports the facts and reports nothing about the person who feels it"
             },
@@ -1614,6 +1610,10 @@
             {
               "id": "d",
               "text": "A feeling changes the facts until they match the estimate"
+            },
+            {
+              "id": "a",
+              "text": "A feeling reports your estimate of the facts and does not report the facts"
             }
           ],
           "feedback": {
@@ -1630,20 +1630,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "The laboratory facts, ahead of any test"
-            },
-            {
               "id": "b",
               "text": "Your estimate that the outcome will be bad, not the outcome itself"
             },
             {
+              "id": "a",
+              "text": "The laboratory facts, ahead of any test, already stored in the dread"
+            },
+            {
               "id": "c",
-              "text": "The physician's knowledge, transferred into the feeling"
+              "text": "The physician's knowledge, transferred into the feeling in place of a test"
             },
             {
               "id": "d",
-              "text": "A perception of the result that did not need the evidence"
+              "text": "A perception of the result that did not need the evidence of any test"
             }
           ],
           "feedback": {
@@ -1693,12 +1693,12 @@
               "text": "The error of consulting the relevant facts before acting"
             },
             {
-              "id": "b",
-              "text": "The error of forming any estimate at all"
-            },
-            {
               "id": "c",
               "text": "Subjectivism. Confidence is an estimate. The plan is sound only if the facts support it"
+            },
+            {
+              "id": "b",
+              "text": "The error of forming any estimate at all"
             },
             {
               "id": "d",
@@ -1717,20 +1717,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Anything at all, so every emotion should be discarded as noise, even a clue to his premise"
+            },
+            {
+              "id": "c",
+              "text": "A consequence of a value-judgment, because a clue has no cause and no premise behind it"
+            },
+            {
               "id": "a",
               "text": "Evidence of the external facts. It points to your estimate, which still has to be checked"
             },
             {
-              "id": "b",
-              "text": "Anything at all, so every emotion should be discarded as noise"
-            },
-            {
-              "id": "c",
-              "text": "A consequence of a value-judgment, because a clue has no cause"
-            },
-            {
               "id": "d",
-              "text": "A state of a living person, because only facts without knowers are real"
+              "text": "A state of a living person, because only facts without knowers are real, so the feeler is dropped"
             }
           ],
           "feedback": {
@@ -1759,9 +1759,9 @@
             }
           ],
           "bank": [
-            "estimate",
             "proof",
             "creation",
+            "estimate",
             "erasure"
           ],
           "feedback": {
@@ -1780,8 +1780,16 @@
               "text": "A feeling"
             },
             {
+              "id": "d1",
+              "text": "creates"
+            },
+            {
               "id": "t2",
               "text": "reports"
+            },
+            {
+              "id": "d2",
+              "text": "replaces"
             },
             {
               "id": "t3",
@@ -1798,14 +1806,6 @@
             {
               "id": "t6",
               "text": "themselves"
-            },
-            {
-              "id": "d1",
-              "text": "creates"
-            },
-            {
-              "id": "d2",
-              "text": "replaces"
             }
           ],
           "answer": [
@@ -1832,20 +1832,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It identifies facts and integrates them into knowledge"
-            },
-            {
               "id": "b",
-              "text": "It registers an evaluation one already holds"
+              "text": "It registers an evaluation one already holds as knowledge"
             },
             {
               "id": "c",
-              "text": "It punishes the body for having any desires"
+              "text": "It punishes the body for having any desires in order to know"
             },
             {
               "id": "d",
-              "text": "It takes a vote on what shall count as true"
+              "text": "It takes a vote on what shall count as true so the tally binds"
+            },
+            {
+              "id": "a",
+              "text": "It identifies facts and integrates them into knowledge"
             }
           ],
           "feedback": {
@@ -1861,12 +1861,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "Emotions are the primary means by which a person identifies facts"
-            },
-            {
               "id": "b",
               "text": "Emotions are not means of identifying and integrating facts"
+            },
+            {
+              "id": "a",
+              "text": "Emotions are the primary means by which a person identifies facts"
             },
             {
               "id": "c",
@@ -1978,20 +1978,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "They result from value-judgments. Denying that they discover facts does not make them causeless"
-            },
-            {
               "id": "b",
-              "text": "He has dropped nothing, because a cause would turn them into innate knowledge"
+              "text": "He has dropped nothing, because a cause would turn them into innate knowledge and make them infallible"
             },
             {
               "id": "c",
-              "text": "He should restore them as tools of cognition"
+              "text": "He should restore them as tools of cognition, because feelings are what discover the facts"
             },
             {
               "id": "d",
-              "text": "Ideas are feelings, so the dependence runs from the feeling to the fact"
+              "text": "Ideas are feelings, so the dependence runs from the feeling to the fact, judgment coming later"
+            },
+            {
+              "id": "a",
+              "text": "They result from value-judgments. Denying that they discover facts does not make them causeless"
             }
           ],
           "feedback": {
@@ -2020,10 +2020,10 @@
             }
           ],
           "bank": [
-            "knowledge",
             "metabolism",
             "exchange",
-            "motion"
+            "motion",
+            "knowledge"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -2045,6 +2045,10 @@
               "text": "does not"
             },
             {
+              "id": "d1",
+              "text": "create"
+            },
+            {
               "id": "t3",
               "text": "discover"
             },
@@ -2053,16 +2057,12 @@
               "text": "the facts"
             },
             {
-              "id": "t5",
-              "text": "it reacts to"
-            },
-            {
-              "id": "d1",
-              "text": "create"
-            },
-            {
               "id": "d2",
               "text": "replace"
+            },
+            {
+              "id": "t5",
+              "text": "it reacts to"
             }
           ],
           "answer": [
@@ -2145,11 +2145,11 @@
           "choices": [
             {
               "id": "a",
-              "text": "Yes, because a feeling is a tool of cognition"
+              "text": "Yes, because a feeling is a tool of cognition and summoning it collects the fact"
             },
             {
               "id": "b",
-              "text": "Yes, because the first feeling defines what the fact is"
+              "text": "Yes, because the first feeling defines what the fact is, and the world conforms"
             },
             {
               "id": "c",
@@ -2157,7 +2157,7 @@
             },
             {
               "id": "d",
-              "text": "No, because emotions have no relation to any evaluation"
+              "text": "No, because emotions have no relation to any evaluation and express nothing judged"
             }
           ],
           "feedback": {
@@ -2203,20 +2203,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The new judgment, because the emotion results from the estimate, and the estimate has changed"
-            },
-            {
               "id": "b",
-              "text": "Nothing. The original contempt remains proof that he cheated"
+              "text": "Nothing. The original contempt remains proof that he cheated, and the new evidence loses"
             },
             {
               "id": "c",
-              "text": "A decision to feel nothing, while the old estimate is carefully kept"
+              "text": "A decision to feel nothing, while the old estimate is carefully kept, because the order ends it"
             },
             {
               "id": "d",
-              "text": "A vote that the feeling, not the new evidence, settles what happened"
+              "text": "A vote that the feeling, not the new evidence, settles what happened, outvoting the judgment"
+            },
+            {
+              "id": "a",
+              "text": "The new judgment, because the emotion results from the estimate, and the estimate has changed"
             }
           ],
           "feedback": {
@@ -2231,20 +2231,20 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "An evaluation may be stored without a recited sentence. It is still first, and the emotion follows"
+            },
+            {
               "id": "a",
-              "text": "A feeling with no evaluation is the ordinary case, and it discovers the facts"
+              "text": "A feeling with no evaluation is the ordinary case, and it discovers the facts without any stored premise"
             },
             {
               "id": "b",
-              "text": "Implicit means innate, so the emotion is an infallible code"
+              "text": "Implicit means innate, so the emotion is an infallible code and a stored premise cannot be false"
             },
             {
               "id": "c",
-              "text": "What is stored was caused by the emotion, which came first"
-            },
-            {
-              "id": "d",
-              "text": "An evaluation may be stored without a recited sentence. It is still first, and the emotion follows"
+              "text": "What is stored was caused by the emotion, which came first, the premise being a later story"
             }
           ],
           "feedback": {
@@ -2302,8 +2302,16 @@
               "text": "first"
             },
             {
+              "id": "d1",
+              "text": "invents the facts"
+            },
+            {
               "id": "t4",
               "text": "and"
+            },
+            {
+              "id": "d2",
+              "text": "replaces reason"
             },
             {
               "id": "t5",
@@ -2312,14 +2320,6 @@
             {
               "id": "t6",
               "text": "follows"
-            },
-            {
-              "id": "d1",
-              "text": "invents the facts"
-            },
-            {
-              "id": "d2",
-              "text": "replaces reason"
             }
           ],
           "answer": [
@@ -2346,20 +2346,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The measurement, until it agrees with the feeling, since the calm reports the safety"
+            },
+            {
               "id": "a",
               "text": "The estimate behind the calm, against the measurement. You do not edit the measurement"
             },
             {
-              "id": "b",
-              "text": "The measurement, until it agrees with the feeling"
-            },
-            {
               "id": "c",
-              "text": "Nothing. A calm feeling outranks an instrument"
+              "text": "Nothing. A calm feeling outranks an instrument, and the unsafe reading is mere noise"
             },
             {
               "id": "d",
-              "text": "Your duty to feel whatever the people around you feel"
+              "text": "Your duty to feel whatever the people around you feel, their mood being the measurement"
             }
           ],
           "feedback": {
@@ -2375,19 +2375,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "A tool of cognition that can replace the inspection"
+              "text": "A tool of cognition that can replace the inspection, the fear having found the danger"
+            },
+            {
+              "id": "c",
+              "text": "A defect to be erased, because fear is never an appropriate result of a true judgment"
             },
             {
               "id": "b",
               "text": "An appropriate emotion, because the judgment is true. The fear is still not the evidence"
             },
             {
-              "id": "c",
-              "text": "A defect to be erased, because fear is never an appropriate result"
-            },
-            {
               "id": "d",
-              "text": "Proof that an emotion should be obeyed whenever it is strong"
+              "text": "Proof that an emotion should be obeyed whenever it is strong, judgment notwithstanding"
             }
           ],
           "feedback": {
@@ -2403,19 +2403,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Whenever it occurs, because feeling as such is an error"
+              "text": "Whenever it occurs, because feeling as such is an error and should not arise"
             },
             {
               "id": "b",
-              "text": "Only when it is unpleasant. A pleasant emotion is knowledge"
+              "text": "Only when it is unpleasant. A pleasant emotion is knowledge and cannot be false"
+            },
+            {
+              "id": "d",
+              "text": "When it differs from the mood of the surrounding group, which is the true judgment"
             },
             {
               "id": "c",
               "text": "When the value-judgment it expresses is false, however powerful the feeling"
-            },
-            {
-              "id": "d",
-              "text": "When it differs from the mood of the surrounding group"
             }
           ],
           "feedback": {
@@ -2466,15 +2466,15 @@
             },
             {
               "id": "b",
-              "text": "Nothing. Each rule is right during a different hour"
+              "text": "Nothing. Each rule is right during a different hour, and the clock picks the one that knows"
             },
             {
               "id": "c",
-              "text": "Fear's cause, because fear is an innate code with no judgment behind it"
+              "text": "Fear's cause, because fear is an innate code with no judgment behind it and no estimate to re-check"
             },
             {
               "id": "d",
-              "text": "The facts, which should be rewritten until one of the rules feels comfortable"
+              "text": "The facts, which should be rewritten until one of the rules feels comfortable and the danger yields"
             }
           ],
           "feedback": {
@@ -2490,19 +2490,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "The lag proves the fraud is unreal, because a good feeling outlasts evidence"
-            },
-            {
-              "id": "b",
-              "text": "The lag proves that emotions discover facts after the evidence is in"
-            },
-            {
-              "id": "c",
-              "text": "You should announce that the feeling is gone while the old estimate stays in place"
+              "text": "The lag proves the fraud is unreal, because a good feeling outlasts evidence and thereby revises the facts it outlasts"
             },
             {
               "id": "d",
               "text": "The old estimate is still at work, so the feeling has lagged. Re-check that estimate, and do not treat the lag as proof"
+            },
+            {
+              "id": "b",
+              "text": "The lag proves that emotions discover facts after the evidence is in, and the delay is the inspection that finds them"
+            },
+            {
+              "id": "c",
+              "text": "You should announce that the feeling is gone while the old estimate stays in place, and the announcement finishes the job"
             }
           ],
           "feedback": {
@@ -2531,8 +2531,8 @@
             }
           ],
           "bank": [
-            "judgment",
             "intensity",
+            "judgment",
             "crowd",
             "appetite"
           ],
@@ -2560,6 +2560,10 @@
               "text": "rather than"
             },
             {
+              "id": "d1",
+              "text": "rewriting the fact"
+            },
+            {
               "id": "t4",
               "text": "obeying"
             },
@@ -2568,20 +2572,16 @@
               "text": "the feeling"
             },
             {
+              "id": "d2",
+              "text": "polling the crowd"
+            },
+            {
               "id": "t6",
               "text": "or"
             },
             {
               "id": "t7",
               "text": "blanking it"
-            },
-            {
-              "id": "d1",
-              "text": "rewriting the fact"
-            },
-            {
-              "id": "d2",
-              "text": "polling the crowd"
             }
           ],
           "answer": [
@@ -2609,16 +2609,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A ghostly mind at war with a mechanical body"
-            },
-            {
               "id": "b",
               "text": "One organism, with awareness as a faculty of that living body"
             },
             {
               "id": "c",
               "text": "Reason as an attribute of the individual person"
+            },
+            {
+              "id": "a",
+              "text": "A ghostly mind at war with a mechanical body"
             },
             {
               "id": "d",
@@ -2638,19 +2638,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Man is one organism, so damaging the body damages the person"
+              "text": "Man is one organism, so damaging the body damages the person, as advice says"
+            },
+            {
+              "id": "c",
+              "text": "Consciousness is the faculty of awareness of a living organism, as advice says"
+            },
+            {
+              "id": "d",
+              "text": "Reason belongs to the individual, not to a detachable spirit, as advice claims"
             },
             {
               "id": "b",
               "text": "Mind and body are enemies, and the body is the lower one to be defeated"
-            },
-            {
-              "id": "c",
-              "text": "Consciousness is the faculty of awareness of a living organism"
-            },
-            {
-              "id": "d",
-              "text": "Reason belongs to the individual, not to a detachable spirit"
             }
           ],
           "feedback": {
@@ -2665,20 +2665,20 @@
           "answer": "c",
           "choices": [
             {
-              "id": "a",
-              "text": "The ghostly half, on which a soul thinks with no body at all"
-            },
-            {
-              "id": "b",
-              "text": "Neither half, because denying a ghost already affirms one organism"
-            },
-            {
               "id": "c",
               "text": "The mechanical half, on which the body is mindless and awareness is not real"
             },
             {
+              "id": "a",
+              "text": "The ghostly half, on which a soul thinks with no body at all, the body being unreal"
+            },
+            {
+              "id": "b",
+              "text": "Neither half, because denying a ghost already affirms one organism with awareness"
+            },
+            {
               "id": "d",
-              "text": "Both halves reconciled, because chemistry is a form of revelation"
+              "text": "Both halves reconciled, because chemistry is a form of revelation from a spirit"
             }
           ],
           "feedback": {
@@ -2724,20 +2724,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Minds do not exist, so only mindless machines are real, awareness included in the denial"
+            },
+            {
               "id": "a",
               "text": "Man is one entity of a specific nature, and awareness is a faculty of that organism"
             },
             {
-              "id": "b",
-              "text": "Minds do not exist, so only mindless machines are real"
-            },
-            {
               "id": "c",
-              "text": "Bodies are illusions projected by a soul"
+              "text": "Bodies are illusions projected by a soul, so there is no organism a war could split"
             },
             {
               "id": "d",
-              "text": "A vote can declare the two enemies reconciled"
+              "text": "A vote can declare the two enemies reconciled, and their nature has to follow the vote"
             }
           ],
           "feedback": {
@@ -2760,12 +2760,12 @@
               "text": "It is harmless, because a comparison cannot state a real split"
             },
             {
-              "id": "c",
-              "text": "It is true, because tools and living organisms are the same kind of entity"
-            },
-            {
               "id": "d",
               "text": "It makes consciousness a separate agent and the body a vehicle the agent uses"
+            },
+            {
+              "id": "c",
+              "text": "It is true, because tools and living organisms are the same kind of entity"
             }
           ],
           "feedback": {
@@ -2794,9 +2794,9 @@
             }
           ],
           "bank": [
-            "enemies",
             "wishes",
             "ballots",
+            "enemies",
             "moods"
           ],
           "feedback": {
@@ -2815,6 +2815,10 @@
               "text": "A ghostly mind"
             },
             {
+              "id": "d1",
+              "text": "a chosen ally"
+            },
+            {
               "id": "t2",
               "text": "is not"
             },
@@ -2827,16 +2831,12 @@
               "text": "with"
             },
             {
-              "id": "t5",
-              "text": "a mechanical body"
-            },
-            {
-              "id": "d1",
-              "text": "a chosen ally"
-            },
-            {
               "id": "d2",
               "text": "a mere fiction"
+            },
+            {
+              "id": "t5",
+              "text": "a mechanical body"
             }
           ],
           "answer": [
@@ -2862,10 +2862,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It is the faculty of awareness of that one organism, not a second tenant"
-            },
-            {
               "id": "b",
               "text": "It is a ghost that can depart and remain a mind without the organism"
             },
@@ -2876,6 +2872,10 @@
             {
               "id": "d",
               "text": "It is an attribute of the crowd, stored for a while in one body"
+            },
+            {
+              "id": "a",
+              "text": "It is the faculty of awareness of that one organism, not a second tenant"
             }
           ],
           "feedback": {
@@ -2890,12 +2890,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "The physician owns a machine, and the patient is only a ghost in it"
-            },
-            {
               "id": "b",
               "text": "One organism is both the living body and the being who is aware"
+            },
+            {
+              "id": "a",
+              "text": "The physician owns a machine, and the patient is only a ghost in it"
             },
             {
               "id": "c",
@@ -2950,19 +2950,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "That the organism has a body and acts according to its nature"
-            },
-            {
-              "id": "b",
-              "text": "That physical processes can be studied"
+              "text": "That the organism has a body and acts according to its nature, which it attacks"
             },
             {
               "id": "c",
               "text": "That the organism is really aware. The body is real, and so is the faculty"
             },
             {
+              "id": "b",
+              "text": "That physical processes can be studied, which this theory forbids"
+            },
+            {
               "id": "d",
-              "text": "That a ghost is required before any chemical process can occur"
+              "text": "That a ghost is required before any chemical process can occur, the permit voided"
             }
           ],
           "feedback": {
@@ -2977,20 +2977,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Yes. Otherwise mind and body would have to be two creatures rather than one lump"
+            },
+            {
+              "id": "c",
+              "text": "Yes. A bone thinks in concepts, and awareness is simply bone, a piece of the skeleton"
+            },
+            {
               "id": "a",
               "text": "No. Distinct attributes of one entity are not two enemies and not one featureless lump"
             },
             {
-              "id": "b",
-              "text": "Yes. Otherwise mind and body would have to be two creatures"
-            },
-            {
-              "id": "c",
-              "text": "Yes. A bone thinks in concepts, and awareness is simply bone"
-            },
-            {
               "id": "d",
-              "text": "No. They remain two creatures who merely share a name"
+              "text": "No. They remain two creatures who merely share a name, distinct attributes proving it"
             }
           ],
           "feedback": {
@@ -3047,10 +3047,10 @@
             }
           ],
           "bank": [
-            "organism",
             "ghost",
             "crowd",
-            "machine"
+            "machine",
+            "organism"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -3063,6 +3063,10 @@
           "mode": "sentence",
           "prompt": "Build the principle that places consciousness in one living organism.",
           "tokens": [
+            {
+              "id": "d1",
+              "text": "a second tenant"
+            },
             {
               "id": "t1",
               "text": "Consciousness"
@@ -3084,16 +3088,12 @@
               "text": "living"
             },
             {
-              "id": "t6",
-              "text": "organism"
-            },
-            {
-              "id": "d1",
-              "text": "a second tenant"
-            },
-            {
               "id": "d2",
               "text": "an illusion"
+            },
+            {
+              "id": "t6",
+              "text": "organism"
             }
           ],
           "answer": [
@@ -3177,11 +3177,11 @@
           "choices": [
             {
               "id": "a",
-              "text": "Yes. Bodies only obstruct a mind that thinks better without them"
+              "text": "Yes. Bodies only obstruct a mind that thinks better without them, the person too"
             },
             {
               "id": "b",
-              "text": "Yes. Concepts are real only when nobody holds them"
+              "text": "Yes. Concepts are real only when nobody holds them, a thinker making them unreal"
             },
             {
               "id": "c",
@@ -3189,7 +3189,7 @@
             },
             {
               "id": "d",
-              "text": "No. Reason is a reflex, and awareness of a conclusion is a fiction"
+              "text": "No. Reason is a reflex, and awareness of a conclusion is a fiction with no knower required"
             }
           ],
           "feedback": {
@@ -3235,10 +3235,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Each learner still has to think. Sharing a conclusion does not create a super-mind"
-            },
-            {
               "id": "b",
               "text": "Learning from others is impossible, because reason cannot use another person's work"
             },
@@ -3249,6 +3245,10 @@
             {
               "id": "d",
               "text": "Each person is born already knowing the culture's conclusions"
+            },
+            {
+              "id": "a",
+              "text": "Each learner still has to think. Sharing a conclusion does not create a super-mind"
             }
           ],
           "feedback": {
@@ -3263,6 +3263,10 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "The person who judges. He cannot hand the act of thinking to a collective"
+            },
+            {
               "id": "a",
               "text": "The collective, praised or blamed as the mind that judged"
             },
@@ -3273,10 +3277,6 @@
             {
               "id": "c",
               "text": "The body, conceived as a machine that thinks while the person does not"
-            },
-            {
-              "id": "d",
-              "text": "The person who judges. He cannot hand the act of thinking to a collective"
             }
           ],
           "feedback": {
@@ -3326,6 +3326,10 @@
               "text": "Reason"
             },
             {
+              "id": "d1",
+              "text": "of a spirit"
+            },
+            {
               "id": "t2",
               "text": "is"
             },
@@ -3344,10 +3348,6 @@
             {
               "id": "t6",
               "text": "of a group"
-            },
-            {
-              "id": "d1",
-              "text": "of a spirit"
             },
             {
               "id": "d2",
@@ -3378,12 +3378,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The faculty by which a living organism is aware of what exists"
-            },
-            {
               "id": "b",
               "text": "A disembodied spirit that occupies a body and may leave it"
+            },
+            {
+              "id": "a",
+              "text": "The faculty by which a living organism is aware of what exists"
             },
             {
               "id": "c",
@@ -3441,16 +3441,16 @@
               "text": "An account of consciousness as the organism's faculty of awareness"
             },
             {
-              "id": "b",
-              "text": "A ghost story, in which a mind exists and knows apart from the living organism"
-            },
-            {
               "id": "c",
               "text": "A reminder that awareness is always awareness of something that exists"
             },
             {
               "id": "d",
               "text": "A statement that the person is one entity of a specific nature"
+            },
+            {
+              "id": "b",
+              "text": "A ghost story, in which a mind exists and knows apart from the living organism"
             }
           ],
           "feedback": {
@@ -3528,16 +3528,16 @@
               "text": "The senses are unreliable, so deserting them is how reason begins"
             },
             {
+              "id": "d",
+              "text": "Knowledge is not a reward for deserting the organism. Awareness perceives what exists"
+            },
+            {
               "id": "b",
               "text": "The body should be conquered before any knowledge is possible"
             },
             {
               "id": "c",
               "text": "Revelation is reason under another name, so the turn is a method of identification"
-            },
-            {
-              "id": "d",
-              "text": "Knowledge is not a reward for deserting the organism. Awareness perceives what exists"
             }
           ],
           "feedback": {
@@ -3566,8 +3566,8 @@
             }
           ],
           "bank": [
-            "soul",
             "reflex",
+            "soul",
             "ballot",
             "mood"
           ],
@@ -3583,8 +3583,16 @@
           "prompt": "Build the principle that keeps consciousness in the living organism.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "a ghost"
+            },
+            {
               "id": "t1",
               "text": "Consciousness"
+            },
+            {
+              "id": "d2",
+              "text": "an illusion"
             },
             {
               "id": "t2",
@@ -3605,14 +3613,6 @@
             {
               "id": "t6",
               "text": "of awareness"
-            },
-            {
-              "id": "d1",
-              "text": "a ghost"
-            },
-            {
-              "id": "d2",
-              "text": "an illusion"
             }
           ],
           "answer": [
@@ -3639,20 +3639,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Nothing. Flesh cannot be part of a being that knows, so conquest starts awareness"
+            },
+            {
+              "id": "c",
+              "text": "The body is an illusion, and only a ghost is real, the organism being the mistake"
+            },
+            {
               "id": "a",
               "text": "The body is the living organism that is aware, not a device at war with a mind"
             },
             {
-              "id": "b",
-              "text": "Nothing. Flesh cannot be part of a being that knows"
-            },
-            {
-              "id": "c",
-              "text": "The body is an illusion, and only a ghost is real"
-            },
-            {
               "id": "d",
-              "text": "Machines and organisms differ only by a vote about words"
+              "text": "Machines and organisms differ only by a vote about words, and a new word ends it"
             }
           ],
           "feedback": {
@@ -3671,16 +3671,16 @@
               "text": "That organisms have bodies governed by their nature"
             },
             {
-              "id": "b",
-              "text": "The fact of awareness. The chemistry is real, and so is the faculty"
-            },
-            {
               "id": "c",
               "text": "That one may study the living body"
             },
             {
               "id": "d",
               "text": "That a ghost must approve a chemical process before it occurs"
+            },
+            {
+              "id": "b",
+              "text": "The fact of awareness. The chemistry is real, and so is the faculty"
             }
           ],
           "feedback": {
@@ -3695,20 +3695,20 @@
           "answer": "c",
           "choices": [
             {
-              "id": "a",
-              "text": "Yes. A body that is not a machine obeys wishes rather than its nature"
-            },
-            {
-              "id": "b",
-              "text": "Yes. Disease is then a moral choice with no physical cause"
-            },
-            {
               "id": "c",
               "text": "No. The organism acts by its nature. What is rejected is the mindless device to be conquered"
             },
             {
+              "id": "a",
+              "text": "Yes. A body that is not a machine obeys wishes rather than its nature, and preference rules health"
+            },
+            {
+              "id": "b",
+              "text": "Yes. Disease is then a moral choice with no physical cause and nothing left to study"
+            },
+            {
               "id": "d",
-              "text": "No, because the body is a ghost and ghosts cause health"
+              "text": "No, because the body is a ghost and ghosts cause health, a mood being the only cause"
             }
           ],
           "feedback": {
@@ -3754,20 +3754,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A plain statement that man is one integrated organism, since the trap states unity"
+            },
+            {
               "id": "a",
               "text": "The ghost's contempt for the organism. The body is not a trap set by an enemy"
             },
             {
-              "id": "b",
-              "text": "A plain statement that man is one integrated organism"
-            },
-            {
               "id": "c",
-              "text": "The claim that man's needs include the use of reason"
+              "text": "The claim that man's needs include the use of reason, with contempt as that list"
             },
             {
               "id": "d",
-              "text": "The claim that reason is an attribute of the individual"
+              "text": "The claim that reason is an attribute of the individual, the trap saying who thinks"
             }
           ],
           "feedback": {
@@ -3783,19 +3783,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "The denial of awareness, because a true account of the brain requires it"
+              "text": "The denial of awareness, because a true account of the brain requires it, with the managed machine kept"
             },
             {
               "id": "b",
-              "text": "Nothing about the brain, because an integrated person has no body"
-            },
-            {
-              "id": "c",
-              "text": "A ghost, brought in to perceive what the machine is not allowed to perceive"
+              "text": "Nothing about the brain, because an integrated person has no body, and the description must go"
             },
             {
               "id": "d",
               "text": "The reality of the body and of causal study. Drop the denial of awareness and the managed machine"
+            },
+            {
+              "id": "c",
+              "text": "A ghost, brought in to perceive what the machine is not allowed to perceive, so the faculty sits outside"
             }
           ],
           "feedback": {
@@ -3824,9 +3824,9 @@
             }
           ],
           "bank": [
-            "machine",
             "organism",
             "faculty",
+            "machine",
             "person"
           ],
           "feedback": {
@@ -3849,6 +3849,10 @@
               "text": "is"
             },
             {
+              "id": "d1",
+              "text": "a ghost's enemy"
+            },
+            {
               "id": "t3",
               "text": "the living organism"
             },
@@ -3857,16 +3861,12 @@
               "text": "rather than"
             },
             {
-              "id": "t5",
-              "text": "a mindless machine"
-            },
-            {
-              "id": "d1",
-              "text": "a ghost's enemy"
-            },
-            {
               "id": "d2",
               "text": "an illusion"
+            },
+            {
+              "id": "t5",
+              "text": "a mindless machine"
             }
           ],
           "answer": [
@@ -3892,10 +3892,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Self-generated action that sustains the organism"
-            },
-            {
               "id": "b",
               "text": "A static condition that continues without any action"
             },
@@ -3906,6 +3902,10 @@
             {
               "id": "d",
               "text": "A purpose assigned later by someone who watches the motion"
+            },
+            {
+              "id": "a",
+              "text": "Self-generated action that sustains the organism"
             }
           ],
           "feedback": {
@@ -3920,12 +3920,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "A watcher later decides to call the growth a purpose"
-            },
-            {
               "id": "b",
               "text": "The plant's own action is organized to keep the plant alive"
+            },
+            {
+              "id": "a",
+              "text": "A watcher later decides to call the growth a purpose"
             },
             {
               "id": "c",
@@ -3948,12 +3948,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "No. The direction of the self-sustaining action is enough, as in a plant"
-            },
-            {
               "id": "b",
               "text": "Yes. Only a being that states a purpose in words can have a goal"
+            },
+            {
+              "id": "a",
+              "text": "No. The direction of the self-sustaining action is enough, as in a plant"
             },
             {
               "id": "c",
@@ -4077,10 +4077,10 @@
             }
           ],
           "bank": [
-            "action",
             "stillness",
             "label",
-            "decree"
+            "decree",
+            "action"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -4102,8 +4102,16 @@
               "text": "is"
             },
             {
+              "id": "d1",
+              "text": "stillness"
+            },
+            {
               "id": "t3",
               "text": "action"
+            },
+            {
+              "id": "d2",
+              "text": "a decree"
             },
             {
               "id": "t4",
@@ -4116,14 +4124,6 @@
             {
               "id": "t6",
               "text": "the organism"
-            },
-            {
-              "id": "d1",
-              "text": "stillness"
-            },
-            {
-              "id": "d2",
-              "text": "a decree"
             }
           ],
           "answer": [
@@ -4207,11 +4207,11 @@
           "choices": [
             {
               "id": "a",
-              "text": "Any evidence that he is a living organism"
+              "text": "Any evidence that he is a living organism, the wish having erased that fact"
             },
             {
               "id": "b",
-              "text": "The possibility of choosing, which a desire cancels"
+              "text": "The possibility of choosing, which a desire cancels by acting in his place"
             },
             {
               "id": "c",
@@ -4219,7 +4219,7 @@
             },
             {
               "id": "d",
-              "text": "The fact that his life can succeed or fail"
+              "text": "The fact that his life can succeed or fail, the wish having settled it"
             }
           ],
           "feedback": {
@@ -4265,20 +4265,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "He has no such instinct. Wanting to live does not identify the actions that will keep him alive"
-            },
-            {
               "id": "b",
-              "text": "The error is wanting to live, which a rational being should not do"
+              "text": "The error is wanting to live, which a rational being should not do, the desire being the vice"
             },
             {
               "id": "c",
-              "text": "He has the instinct, and reason's job is to talk him out of survival"
+              "text": "He has the instinct, and reason's job is to talk him out of survival rather than to find its means"
             },
             {
               "id": "d",
-              "text": "Instincts are concepts he composes at birth and then forgets"
+              "text": "Instincts are concepts he composes at birth and then forgets, innate and conceptual at once"
+            },
+            {
+              "id": "a",
+              "text": "He has no such instinct. Wanting to live does not identify the actions that will keep him alive"
             }
           ],
           "feedback": {
@@ -4293,6 +4293,10 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "He has no nature, and therefore his life has no requirements"
+            },
+            {
               "id": "a",
               "text": "He must discover what his life requires"
             },
@@ -4303,10 +4307,6 @@
             {
               "id": "c",
               "text": "His conceptual faculty does not arrive already stocked with conclusions"
-            },
-            {
-              "id": "d",
-              "text": "He has no nature, and therefore his life has no requirements"
             }
           ],
           "feedback": {
@@ -4356,12 +4356,20 @@
               "text": "Man"
             },
             {
+              "id": "d1",
+              "text": "a finished instinct"
+            },
+            {
               "id": "t2",
               "text": "has"
             },
             {
               "id": "t3",
               "text": "no"
+            },
+            {
+              "id": "d2",
+              "text": "automatic certainty"
             },
             {
               "id": "t4",
@@ -4378,14 +4386,6 @@
             {
               "id": "t7",
               "text": "or of values"
-            },
-            {
-              "id": "d1",
-              "text": "a finished instinct"
-            },
-            {
-              "id": "d2",
-              "text": "automatic certainty"
             }
           ],
           "answer": [
@@ -4413,20 +4413,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "An instinct that already contains the knowledge his life requires, choice unused"
+            },
+            {
               "id": "a",
               "text": "Reason, the faculty that identifies and integrates what the senses provide"
             },
             {
-              "id": "b",
-              "text": "An instinct that already contains the knowledge his life requires"
-            },
-            {
               "id": "c",
-              "text": "Faith that bypasses the evidence of the senses"
+              "text": "Faith that bypasses the evidence of the senses and sets observation aside"
             },
             {
               "id": "d",
-              "text": "A group's consensus, accepted in place of his own identification"
+              "text": "A group's consensus, accepted in place of his own identification to sustain him"
             }
           ],
           "feedback": {
@@ -4442,16 +4442,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Reason identifies and integrates the material the senses provide"
-            },
-            {
               "id": "b",
               "text": "Reason creates the sensory material and then integrates what it created"
             },
             {
               "id": "c",
               "text": "The senses already deliver finished knowledge, so integration is optional"
+            },
+            {
+              "id": "a",
+              "text": "Reason identifies and integrates the material the senses provide"
             },
             {
               "id": "d",
@@ -4476,16 +4476,16 @@
               "text": "An instinct that already knew the harvest"
             },
             {
-              "id": "b",
-              "text": "Reason, working on the material his senses provide"
-            },
-            {
               "id": "c",
               "text": "A feeling that the crop will appear if he wants it strongly enough"
             },
             {
               "id": "d",
               "text": "Custom, followed without identifying what the field requires"
+            },
+            {
+              "id": "b",
+              "text": "Reason, working on the material his senses provide"
             }
           ],
           "feedback": {
@@ -4531,20 +4531,20 @@
           "answer": "c",
           "choices": [
             {
-              "id": "a",
-              "text": "Because it lets him ignore the facts and remain alive anyway"
-            },
-            {
-              "id": "b",
-              "text": "Because it runs by itself, as a plant's physical processes do"
-            },
-            {
               "id": "c",
               "text": "Because it can discover, from the facts, what his life requires and how to get it"
             },
             {
+              "id": "a",
+              "text": "Because it lets him ignore the facts and remain alive anyway, blindness meeting the need"
+            },
+            {
+              "id": "b",
+              "text": "Because it runs by itself, as a plant's physical processes do, with no choice to think"
+            },
+            {
               "id": "d",
-              "text": "Because survival does not require any knowledge of the world"
+              "text": "Because survival does not require any knowledge of the world, reason leaving it unknown"
             }
           ],
           "feedback": {
@@ -4559,12 +4559,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "He has no second means of knowledge. A revelation does not identify the facts"
-            },
-            {
               "id": "b",
               "text": "The error is using reason on evidence in the first place"
+            },
+            {
+              "id": "a",
+              "text": "He has no second means of knowledge. A revelation does not identify the facts"
             },
             {
               "id": "c",
@@ -4601,8 +4601,8 @@
             }
           ],
           "bank": [
-            "reason",
             "instinct",
+            "reason",
             "faith",
             "consensus"
           ],
@@ -4634,20 +4634,20 @@
               "text": "the material"
             },
             {
-              "id": "t5",
-              "text": "the senses"
-            },
-            {
-              "id": "t6",
-              "text": "provide"
-            },
-            {
               "id": "d1",
               "text": "creates"
             },
             {
+              "id": "t5",
+              "text": "the senses"
+            },
+            {
               "id": "d2",
               "text": "may ignore"
+            },
+            {
+              "id": "t6",
+              "text": "provide"
             }
           ],
           "answer": [
@@ -4674,16 +4674,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "No. The faculty works by his choice to focus his mind or not"
-            },
-            {
               "id": "b",
               "text": "Yes. Reason runs automatically, in the way digestion does"
             },
             {
               "id": "c",
               "text": "Yes. A group thinks for him whenever he possesses the faculty"
+            },
+            {
+              "id": "a",
+              "text": "No. The faculty works by his choice to focus his mind or not"
             },
             {
               "id": "d",
@@ -4707,16 +4707,16 @@
               "text": "Thinking and focusing are separate faculties, and only focusing is a choice"
             },
             {
-              "id": "b",
-              "text": "The choice to think and the choice to focus are one and the same choice"
-            },
-            {
               "id": "c",
               "text": "Focusing is an emotion, and that emotion reports the facts directly"
             },
             {
               "id": "d",
               "text": "Chemistry performs the choice, so the person himself does not"
+            },
+            {
+              "id": "b",
+              "text": "The choice to think and the choice to focus are one and the same choice"
             }
           ],
           "feedback": {
@@ -4733,12 +4733,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "An instinct of self-preservation that should have decided for him"
-            },
-            {
               "id": "b",
               "text": "Reason. The means of survival does not inspect the bridge in his place"
+            },
+            {
+              "id": "a",
+              "text": "An instinct of self-preservation that should have decided for him"
             },
             {
               "id": "c",
@@ -4793,19 +4793,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "A stronger feeling, to replace the conclusion he has reached"
-            },
-            {
-              "id": "b",
-              "text": "A declaration that rewrites the danger out of existence"
+              "text": "A stronger feeling, to replace the conclusion he has reached and revise the danger"
             },
             {
               "id": "c",
               "text": "Action in line with what he knows. An unused conclusion does not sustain him"
             },
             {
+              "id": "b",
+              "text": "A declaration that rewrites the danger out of existence, speech removing the threat"
+            },
+            {
               "id": "d",
-              "text": "Nothing further, because knowing is the whole of survival"
+              "text": "Nothing further, because knowing is the whole of survival, action being unnecessary"
             }
           ],
           "feedback": {
@@ -4820,20 +4820,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Other people can never know a fact he has not discovered entirely alone, so claims are barred"
+            },
+            {
+              "id": "c",
+              "text": "Their thinking changes the facts, so his own judgment would be a duplicate of a rewritten world"
+            },
+            {
               "id": "a",
               "text": "His life still depends on his own choice to judge his situation, including what others claim"
             },
             {
-              "id": "b",
-              "text": "Other people can never know a fact he has not discovered entirely alone"
-            },
-            {
-              "id": "c",
-              "text": "Their thinking changes the facts, so his own judgment would be a duplicate"
-            },
-            {
               "id": "d",
-              "text": "Security is a feeling, and a feeling is a means of knowledge"
+              "text": "Security is a feeling, and a feeling is a means of knowledge that identifies his situation for him"
             }
           ],
           "feedback": {
@@ -4862,9 +4862,9 @@
             }
           ],
           "bank": [
-            "focus",
             "drift",
             "obey",
+            "focus",
             "wish"
           ],
           "feedback": {
@@ -4891,6 +4891,10 @@
               "text": "life"
             },
             {
+              "id": "d1",
+              "text": "automatically"
+            },
+            {
               "id": "t4",
               "text": "only if"
             },
@@ -4899,20 +4903,16 @@
               "text": "one chooses"
             },
             {
+              "id": "d2",
+              "text": "without acting"
+            },
+            {
               "id": "t6",
               "text": "to think"
             },
             {
               "id": "t7",
               "text": "and to act"
-            },
-            {
-              "id": "d1",
-              "text": "automatically"
-            },
-            {
-              "id": "d2",
-              "text": "without acting"
             }
           ],
           "answer": [
@@ -4941,10 +4941,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Man's distinctive fact is that his consciousness operates by choice"
-            },
-            {
               "id": "b",
               "text": "Human nature is an innate code of knowledge he does not have to discover"
             },
@@ -4955,6 +4951,10 @@
             {
               "id": "d",
               "text": "Consciousness is an ornament added to an automatic animal code"
+            },
+            {
+              "id": "a",
+              "text": "Man's distinctive fact is that his consciousness operates by choice"
             }
           ],
           "feedback": {
@@ -4971,12 +4971,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "Animal names a machine, and rational names a ghost that lives in it"
-            },
-            {
               "id": "b",
               "text": "He is a living organism, and reason is his specific means of sustaining that life"
+            },
+            {
+              "id": "a",
+              "text": "Animal names a machine, and rational names a ghost that lives in it"
             },
             {
               "id": "c",
@@ -4999,20 +4999,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "That he is alive and that his actions can be aimed at his life, and that aim is the error"
+            },
+            {
               "id": "a",
               "text": "That he has no automatic code, and that reason is the means he must choose to use"
             },
             {
-              "id": "b",
-              "text": "That he is alive and that his actions can be aimed at his life"
-            },
-            {
               "id": "c",
-              "text": "That plants survive by forming conceptual plans"
+              "text": "That plants survive by forming conceptual plans, which is a plant method, not his means"
             },
             {
               "id": "d",
-              "text": "Nothing. An ornament and a means of survival are the same fact"
+              "text": "Nothing. An ornament and a means of survival are the same fact, decoration as that means"
             }
           ],
           "feedback": {
@@ -5059,19 +5059,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "A living being whose instinct is the code, with reason as decoration"
+              "text": "A living being whose instinct is the code, with reason as decoration and not a means"
             },
             {
               "id": "b",
-              "text": "A mind that is not an organism and needs no self-sustaining action"
-            },
-            {
-              "id": "c",
-              "text": "An organism whose wishes set the facts, which reason then records"
+              "text": "A mind that is not an organism and needs no self-sustaining action and no life"
             },
             {
               "id": "d",
               "text": "A living being with no automatic code, who survives by choosing to use reason"
+            },
+            {
+              "id": "c",
+              "text": "An organism whose wishes set the facts, which reason then records after the wish"
             }
           ],
           "feedback": {
@@ -5094,12 +5094,12 @@
               "text": "That the hunger proves reason is unnecessary for the problem of food"
             },
             {
-              "id": "c",
-              "text": "That he use reason to identify what will nourish him, and that he act on it"
-            },
-            {
               "id": "d",
               "text": "That he wait until an instinct labels the plants as safe or deadly"
+            },
+            {
+              "id": "c",
+              "text": "That he use reason to identify what will nourish him, and that he act on it"
             }
           ],
           "feedback": {
@@ -5128,10 +5128,10 @@
             }
           ],
           "bank": [
-            "reason",
             "instinct",
             "wishes",
-            "consensus"
+            "consensus",
+            "reason"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -5161,6 +5161,10 @@
               "text": "to use"
             },
             {
+              "id": "d1",
+              "text": "automatically"
+            },
+            {
               "id": "t5",
               "text": "reason"
             },
@@ -5169,16 +5173,12 @@
               "text": "rather than"
             },
             {
-              "id": "t7",
-              "text": "an innate code"
-            },
-            {
-              "id": "d1",
-              "text": "automatically"
-            },
-            {
               "id": "d2",
               "text": "by wishing"
+            },
+            {
+              "id": "t7",
+              "text": "an innate code"
             }
           ],
           "answer": [
@@ -5235,7 +5235,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "There is no difference, because both can be felt"
+              "text": "There is no difference, because both can be felt, and felt wants are what the life depends on"
             },
             {
               "id": "b",
@@ -5243,11 +5243,11 @@
             },
             {
               "id": "c",
-              "text": "The ornament is a need whenever the preference is strong"
+              "text": "The ornament is a need whenever the preference is strong, intensity making the requirement"
             },
             {
               "id": "d",
-              "text": "Food is a need only after a group declares it to be one"
+              "text": "Food is a need only after a group declares it to be one, and the ornament can be declared too"
             }
           ],
           "feedback": {
@@ -5263,11 +5263,11 @@
           "choices": [
             {
               "id": "a",
-              "text": "Pleasure is what proves that something is a need"
+              "text": "Pleasure is what proves that something is a need, so a delight outranks food"
             },
             {
               "id": "b",
-              "text": "Anything that can be bought is a need"
+              "text": "Anything that can be bought is a need, and the price is the proof of dependence"
             },
             {
               "id": "c",
@@ -5275,7 +5275,7 @@
             },
             {
               "id": "d",
-              "text": "Requirements of life are whatever happens to be scarce"
+              "text": "Requirements of life are whatever happens to be scarce, rarity being the test"
             }
           ],
           "feedback": {
@@ -5321,10 +5321,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Subjectivism. Wants vary, and the requirements of a living nature do not vanish with them"
-            },
-            {
               "id": "b",
               "text": "The error is admitting that organisms are alive"
             },
@@ -5335,6 +5331,10 @@
             {
               "id": "d",
               "text": "Needs are innate ideas, so the variation of wants is irrelevant for that other reason"
+            },
+            {
+              "id": "a",
+              "text": "Subjectivism. Wants vary, and the requirements of a living nature do not vanish with them"
             }
           ],
           "feedback": {
@@ -5349,20 +5349,20 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "No. A need is a requirement, and it can be unmet. The name does not mean it has been satisfied"
+            },
+            {
               "id": "a",
-              "text": "Yes. What is still unmet is only a whim"
+              "text": "Yes. What is still unmet is only a whim, and a requirement exists only once it has been met"
             },
             {
               "id": "b",
-              "text": "Yes. Hunger, for example, is knowledge that one has already eaten"
+              "text": "Yes. Hunger, for example, is knowledge that one has already eaten, the pang reporting that meal"
             },
             {
               "id": "c",
-              "text": "No. Needs do not exist until a law gives them a name"
-            },
-            {
-              "id": "d",
-              "text": "No. A need is a requirement, and it can be unmet. The name does not mean it has been satisfied"
+              "text": "No. Needs do not exist until a law gives them a name, and without the statute hunger is nothing"
             }
           ],
           "feedback": {
@@ -5412,6 +5412,10 @@
               "text": "A need"
             },
             {
+              "id": "d1",
+              "text": "a whim"
+            },
+            {
               "id": "t2",
               "text": "is"
             },
@@ -5430,10 +5434,6 @@
             {
               "id": "t6",
               "text": "requires"
-            },
-            {
-              "id": "d1",
-              "text": "a whim"
             },
             {
               "id": "d2",
@@ -5464,12 +5464,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Needs follow from the kind of organism, and their natures differ"
-            },
-            {
               "id": "b",
               "text": "They do share one list, because every living thing is interchangeable"
+            },
+            {
+              "id": "a",
+              "text": "Needs follow from the kind of organism, and their natures differ"
             },
             {
               "id": "c",
@@ -5493,19 +5493,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Whichever list happens to be longer"
+              "text": "Whichever list happens to be longer, so the fish inherits the longer human list"
+            },
+            {
+              "id": "c",
+              "text": "The element each of them happens to like more, and liking can replace the need"
             },
             {
               "id": "b",
               "text": "The kind of organism each is. One nature's requirement is not the other's"
             },
             {
-              "id": "c",
-              "text": "The element each of them happens to like more"
-            },
-            {
               "id": "d",
-              "text": "A decree that is free to ignore both natures"
+              "text": "A decree that is free to ignore both natures and hand the fish's water to the man"
             }
           ],
           "feedback": {
@@ -5521,19 +5521,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Nothing, if the copying is done in the name of science"
+              "text": "Nothing, if the copying is done in the name of science, the label making the borrowed list true"
             },
             {
               "id": "b",
-              "text": "Nothing, because needs are conventional and kinds are not real"
+              "text": "Nothing, because needs are conventional and kinds are not real, so any list fits any body"
+            },
+            {
+              "id": "d",
+              "text": "Nothing, if the person who copies the list is sincere, sincerity making the copy true of the man"
             },
             {
               "id": "c",
               "text": "The nature that sets the needs has been ignored. One kind's requirement is not the other's"
-            },
-            {
-              "id": "d",
-              "text": "Nothing, if the person who copies the list is sincere"
             }
           ],
           "feedback": {
@@ -5584,15 +5584,15 @@
             },
             {
               "id": "b",
-              "text": "The error is admitting that human beings have needs"
+              "text": "The error is admitting that human beings have needs, and man should be denied them too"
             },
             {
               "id": "c",
-              "text": "The error is drawing any comparison between kinds"
+              "text": "The error is drawing any comparison between kinds, since difference cannot be stated at all"
             },
             {
               "id": "d",
-              "text": "There is no error, because other natures are wishes we are free to edit"
+              "text": "There is no error, because other natures are wishes we are free to edit when human needs matter more"
             }
           ],
           "feedback": {
@@ -5608,19 +5608,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Yes. Needs are pure preferences, with one list invented per person"
-            },
-            {
-              "id": "b",
-              "text": "Yes. There is no nature for the members of a kind to share"
-            },
-            {
-              "id": "c",
-              "text": "No. Each person is his own species, so nothing can be shared"
+              "text": "Yes. Needs are pure preferences, with one list invented per person and nothing shared by the kind"
             },
             {
               "id": "d",
               "text": "No. Members of a kind share its requirements. Circumstances change the means, not the source"
+            },
+            {
+              "id": "b",
+              "text": "Yes. There is no nature for the members of a kind to share, each list starting at invention"
+            },
+            {
+              "id": "c",
+              "text": "No. Each person is his own species, so nothing can be shared, and water is not common to them"
             }
           ],
           "feedback": {
@@ -5649,8 +5649,8 @@
             }
           ],
           "bank": [
-            "kind",
             "wish",
+            "kind",
             "vote",
             "fashion"
           ],
@@ -5666,8 +5666,16 @@
           "prompt": "Build the principle that ties an organism's needs to its nature.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "the wish"
+            },
+            {
               "id": "t1",
               "text": "The kind"
+            },
+            {
+              "id": "d2",
+              "text": "the vote"
             },
             {
               "id": "t2",
@@ -5688,14 +5696,6 @@
             {
               "id": "t6",
               "text": "organism"
-            },
-            {
-              "id": "d1",
-              "text": "the wish"
-            },
-            {
-              "id": "d2",
-              "text": "the vote"
             }
           ],
           "answer": [
@@ -5722,16 +5722,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "His own nature, the kind of living organism he is"
-            },
-            {
               "id": "b",
               "text": "A plant's nature, used because it is simpler to copy"
             },
             {
               "id": "c",
               "text": "A herd's nature, as if he lived by an automatic tribal code"
+            },
+            {
+              "id": "a",
+              "text": "His own nature, the kind of living organism he is"
             },
             {
               "id": "d",
@@ -5751,19 +5751,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "It is a need whenever it feels natural"
+              "text": "It is a need whenever it feels natural, and his life depends on the pattern that feels easy"
+            },
+            {
+              "id": "c",
+              "text": "It is a need because some other animals live that way, and man inherits the grazer's pattern"
+            },
+            {
+              "id": "d",
+              "text": "Thinking is a luxury added onto an animal code, and the code is the real need, reason the extra"
             },
             {
               "id": "b",
               "text": "It is not a requirement of man's life. His kind survives by reason, not by a grazer's pattern"
-            },
-            {
-              "id": "c",
-              "text": "It is a need because some other animals live that way"
-            },
-            {
-              "id": "d",
-              "text": "Thinking is a luxury added onto an animal code, and the code is the real need"
             }
           ],
           "feedback": {
@@ -5778,16 +5778,16 @@
           "answer": "c",
           "choices": [
             {
+              "id": "c",
+              "text": "Their demands are not his nature. His needs are requirements of his own life"
+            },
+            {
               "id": "a",
               "text": "It fails only if the people making the demands are few"
             },
             {
               "id": "b",
               "text": "It does not fail. His nature is whatever the demands say"
-            },
-            {
-              "id": "c",
-              "text": "Their demands are not his nature. His needs are requirements of his own life"
             },
             {
               "id": "d",
@@ -5837,20 +5837,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "That people sometimes want things, so only a catalogue of wishes is lost"
+            },
+            {
               "id": "a",
               "text": "That he is a living organism of a definite kind, whose life has requirements"
             },
             {
-              "id": "b",
-              "text": "That people sometimes want things"
-            },
-            {
               "id": "c",
-              "text": "That societies sometimes pass laws"
+              "text": "That societies sometimes pass laws, so only statutes are lost with the denial"
             },
             {
               "id": "d",
-              "text": "That plants are alive"
+              "text": "That plants are alive, so what was denied is the life of plants and not of man"
             }
           ],
           "feedback": {
@@ -5866,19 +5866,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Keeping both, on the ground that he is one organism"
+              "text": "Keeping both, on the ground that he is one organism, and integration is the mistake"
             },
             {
               "id": "b",
-              "text": "Comparing him with a plant at all"
-            },
-            {
-              "id": "c",
-              "text": "Saying that a hive's pattern is a third list he must also copy"
+              "text": "Comparing him with a plant, because a contrast of kinds is what drops food or reason"
             },
             {
               "id": "d",
               "text": "Treating him as a mere body, or as a mere ghost, instead of as one rational animal"
+            },
+            {
+              "id": "c",
+              "text": "Saying that a hive's pattern is a third list he must also copy, the copy cancelling a need"
             }
           ],
           "feedback": {
@@ -5907,9 +5907,9 @@
             }
           ],
           "bank": [
-            "his nature",
             "a whim",
             "a herd",
+            "his nature",
             "a pose"
           ],
           "feedback": {
@@ -5928,8 +5928,16 @@
               "text": "Man's needs"
             },
             {
+              "id": "d1",
+              "text": "a plant"
+            },
+            {
               "id": "t2",
               "text": "are"
+            },
+            {
+              "id": "d2",
+              "text": "a whim"
             },
             {
               "id": "t3",
@@ -5946,14 +5954,6 @@
             {
               "id": "t6",
               "text": "animal"
-            },
-            {
-              "id": "d1",
-              "text": "a plant"
-            },
-            {
-              "id": "d2",
-              "text": "a whim"
             }
           ],
           "answer": [
@@ -5980,10 +5980,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "He has no automatic code, and his life depends on identifying the facts"
-            },
-            {
               "id": "b",
               "text": "Reason is a pleasure one may add after survival is already secure"
             },
@@ -5994,6 +5990,10 @@
             {
               "id": "d",
               "text": "Instincts already secure his life, and reason only decorates them"
+            },
+            {
+              "id": "a",
+              "text": "He has no automatic code, and his life depends on identifying the facts"
             }
           ],
           "feedback": {
@@ -6008,20 +6008,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "Nothing. Needs are only the physical items already in hand"
-            },
-            {
               "id": "b",
               "text": "Judging what he has, and dealing with what his life still requires, depend on reason"
             },
             {
+              "id": "a",
+              "text": "Nothing. Needs are only the physical items already in hand, and a full shelf ends them"
+            },
+            {
               "id": "c",
-              "text": "One stored meal changes his nature so that reason is no longer required"
+              "text": "One stored meal changes his nature so that reason is no longer required of the new kind"
             },
             {
               "id": "d",
-              "text": "Reason runs as an instinct while he refuses to think"
+              "text": "Reason runs as an instinct while he refuses to think, so blanking out still meets the need"
             }
           ],
           "feedback": {
@@ -6037,19 +6037,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Yes. Conclusions arrive on their own in a being of his kind"
-            },
-            {
-              "id": "b",
-              "text": "Yes. Error is impossible for a member of the rational kind"
+              "text": "Yes. Conclusions arrive on their own in a being of his kind, and effort interferes"
             },
             {
               "id": "c",
               "text": "No. The need is to exercise the faculty. It does not hand him the knowledge"
             },
             {
+              "id": "b",
+              "text": "Yes. Error is impossible for a member of the rational kind by membership alone"
+            },
+            {
               "id": "d",
-              "text": "No, because reason is unrelated to any need he has"
+              "text": "No, because reason is unrelated to any need he has, his life not depending on it"
             }
           ],
           "feedback": {
@@ -6095,16 +6095,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A revelation is not a means of knowledge. His nature, not the offer, sets the need"
-            },
-            {
               "id": "b",
               "text": "The revelation is reason under a new name, so the need has been met"
             },
             {
               "id": "c",
               "text": "The need is only a custom, and he may vote it away"
+            },
+            {
+              "id": "a",
+              "text": "A revelation is not a means of knowledge. His nature, not the offer, sets the need"
             },
             {
               "id": "d",
@@ -6124,15 +6124,15 @@
           "choices": [
             {
               "id": "a",
-              "text": "Possession of the faculty is a fiction"
+              "text": "Possession of the faculty is a fiction, so nothing in him exists for his life to require of him"
             },
             {
               "id": "b",
-              "text": "Use is automatic once the faculty is possessed"
+              "text": "Use is automatic once the faculty is possessed, so a man of his kind cannot fail to think"
             },
             {
               "id": "c",
-              "text": "Other people's thinking meets the need in his place"
+              "text": "Other people's thinking meets the need in his place, their conclusions counting as his"
             },
             {
               "id": "d",
@@ -6165,10 +6165,10 @@
             }
           ],
           "bank": [
-            "need",
             "luxury",
             "ornament",
-            "whim"
+            "whim",
+            "need"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -6190,6 +6190,10 @@
               "text": "needs"
             },
             {
+              "id": "d1",
+              "text": "may skip it"
+            },
+            {
               "id": "t3",
               "text": "to use"
             },
@@ -6208,10 +6212,6 @@
             {
               "id": "t7",
               "text": "depends on it"
-            },
-            {
-              "id": "d1",
-              "text": "may skip it"
             },
             {
               "id": "d2",
@@ -6272,7 +6272,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "A right to seize what someone else has produced to meet the same need"
+              "text": "A right to seize what someone else has produced to meet the same need, because the unmet need cancels the producer's title"
             },
             {
               "id": "b",
@@ -6280,11 +6280,11 @@
             },
             {
               "id": "c",
-              "text": "A duty in other people to serve the need, because the need is real"
+              "text": "A duty in other people to serve the need, because the need is real and their lives are the means assigned to meet it"
             },
             {
               "id": "d",
-              "text": "The conclusion that an unmet need was never more than a whim"
+              "text": "The conclusion that an unmet need was never more than a whim, real only after someone has satisfied it"
             }
           ],
           "feedback": {
@@ -6358,20 +6358,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The need is a real requirement of your life, and it is not a mortgage on his food"
-            },
-            {
               "id": "b",
-              "text": "His food is yours, because a real need transfers title"
+              "text": "His food is yours, because a real need transfers title, hunger being the deed"
             },
             {
               "id": "c",
-              "text": "The hunger stops being a need if he declines to hand the food over"
+              "text": "The hunger stops being a need if he declines to hand the food over, and the need ends"
             },
             {
               "id": "d",
-              "text": "His ownership ends if you feel the hunger strongly enough"
+              "text": "His ownership ends if you feel the hunger strongly enough, the sharper pang taking more"
+            },
+            {
+              "id": "a",
+              "text": "The need is a real requirement of your life, and it is not a mortgage on his food"
             }
           ],
           "feedback": {
@@ -6386,20 +6386,20 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "A fact about the organism and a moral claim on other people. Denying the claim leaves the requirement standing"
+            },
+            {
               "id": "a",
-              "text": "Two names for one fact, so the collapse is fair"
+              "text": "Two names for one fact, so the collapse is fair, and without the claim the organism's requirement vanishes"
             },
             {
               "id": "b",
-              "text": "A requirement and a whim, which were never different"
+              "text": "A requirement and a whim, which were never different, so an unmet need was never a fact about his life"
             },
             {
               "id": "c",
-              "text": "Production and seizure, which meet a need in the same way"
-            },
-            {
-              "id": "d",
-              "text": "A fact about the organism and a moral claim on other people. Denying the claim leaves the requirement standing"
+              "text": "Production and seizure, which meet a need in the same way, the need itself licensing the seizure of the product"
             }
           ],
           "feedback": {
@@ -6445,12 +6445,20 @@
           "prompt": "Build the principle that keeps a real need from becoming a right to take.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "a mere whim"
+            },
+            {
               "id": "t1",
               "text": "A need"
             },
             {
               "id": "t2",
               "text": "is"
+            },
+            {
+              "id": "d2",
+              "text": "another's duty"
             },
             {
               "id": "t3",
@@ -6471,14 +6479,6 @@
             {
               "id": "t7",
               "text": "seizure"
-            },
-            {
-              "id": "d1",
-              "text": "a mere whim"
-            },
-            {
-              "id": "d2",
-              "text": "another's duty"
             }
           ],
           "answer": [
@@ -6506,20 +6506,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "No. Other people are threats by the bare fact that they exist, and dealing with them is an attack"
+            },
+            {
               "id": "a",
               "text": "Yes. Knowledge, trade, friendship, and love can be values, and mere existence is not a threat"
             },
             {
-              "id": "b",
-              "text": "No. Other people are threats by the bare fact that they exist"
-            },
-            {
               "id": "c",
-              "text": "No. A rational being gains nothing from dealing with other people"
+              "text": "No. A rational being gains nothing from dealing with other people, isolation being his safety"
             },
             {
               "id": "d",
-              "text": "Yes, and therefore their purposes are automatically his duty"
+              "text": "Yes, and therefore their purposes are automatically his duty, the value arriving as a mortgage"
             }
           ],
           "feedback": {
@@ -6535,19 +6535,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "A member of a kind you are obliged to avoid"
+              "text": "A member of a kind you are obliged to avoid, so accepting the tool is an attack"
+            },
+            {
+              "id": "c",
+              "text": "A cell of one organism that includes both of you, and the sale is inside that body"
             },
             {
               "id": "b",
               "text": "A value to you, through an exchange you both chose, not a threat and not an owner"
             },
             {
-              "id": "c",
-              "text": "A cell of one organism that includes both of you"
-            },
-            {
               "id": "d",
-              "text": "A claim on you, created by the fact that he exists"
+              "text": "A claim on you, created by the fact that he exists, his birth setting what you owe"
             }
           ],
           "feedback": {
@@ -6563,19 +6563,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Whenever he is a separate person"
+              "text": "Whenever he is a separate person, because a life that is not yours is already an attack, not a gain"
             },
             {
               "id": "b",
-              "text": "Whenever he disagrees with a conclusion of yours"
+              "text": "Whenever he disagrees with a conclusion of yours, a contrary judgment being force against your life"
+            },
+            {
+              "id": "d",
+              "text": "Never. Every person is a value by being born, and no later act, force included, can remove it"
             },
             {
               "id": "c",
               "text": "When he initiates force. Existing as a person does not by itself make him a value or a threat"
-            },
-            {
-              "id": "d",
-              "text": "Never. Every person is a value by being born"
             }
           ],
           "feedback": {
@@ -6626,15 +6626,15 @@
             },
             {
               "id": "b",
-              "text": "The mix-up is the claim that reason belongs to the individual"
+              "text": "The mix-up is the claim that reason belongs to the individual rather than to the group"
             },
             {
               "id": "c",
-              "text": "Other people think in his place, which is why the faculty is not his"
+              "text": "Other people think in his place, which is why the faculty is not his but theirs"
             },
             {
               "id": "d",
-              "text": "Once he is rational, requirements of life no longer apply"
+              "text": "Once he is rational, requirements of life no longer apply, including what others offer"
             }
           ],
           "feedback": {
@@ -6650,19 +6650,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "A value counts only if he cannot last a day without that person"
-            },
-            {
-              "id": "b",
-              "text": "If he can last a day alone, then other people cannot be values"
-            },
-            {
-              "id": "c",
-              "text": "There is no line, because a value and a claim to seize someone are the same"
+              "text": "A value counts only if he cannot last a day without that person, dependence being the title"
             },
             {
               "id": "d",
               "text": "The values are gained by chosen dealing. They are not a license to seize a life or a product"
+            },
+            {
+              "id": "b",
+              "text": "If he can last a day alone, then other people cannot be values, sufficiency cancelling the gain"
+            },
+            {
+              "id": "c",
+              "text": "There is no line, because a value and a claim to seize someone are the same and the need licenses it"
             }
           ],
           "feedback": {
@@ -6691,8 +6691,8 @@
             }
           ],
           "bank": [
-            "value",
             "threat",
+            "value",
             "master",
             "organ"
           ],
@@ -6724,20 +6724,20 @@
               "text": "rather than"
             },
             {
-              "id": "t5",
-              "text": "a threat"
-            },
-            {
-              "id": "t6",
-              "text": "by merely existing"
-            },
-            {
               "id": "d1",
               "text": "a master"
             },
             {
+              "id": "t5",
+              "text": "a threat"
+            },
+            {
               "id": "d2",
               "text": "an enemy by birth"
+            },
+            {
+              "id": "t6",
+              "text": "by merely existing"
             }
           ],
           "answer": [
@@ -6764,16 +6764,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Both people choose it. He deals with others by voluntary agreement"
-            },
-            {
               "id": "b",
               "text": "One of them is not free to leave"
             },
             {
               "id": "c",
               "text": "The relationship was assigned before either person could consent"
+            },
+            {
+              "id": "a",
+              "text": "Both people choose it. He deals with others by voluntary agreement"
             },
             {
               "id": "d",
@@ -6796,16 +6796,16 @@
               "text": "A bond the client was born owing to the builder"
             },
             {
-              "id": "b",
-              "text": "A voluntary agreement, in which each deals with the other by choice"
-            },
-            {
               "id": "c",
               "text": "The function of an organ inside one common organism"
             },
             {
               "id": "d",
               "text": "A duty created by the client's need, even if the builder refuses"
+            },
+            {
+              "id": "b",
+              "text": "A voluntary agreement, in which each deals with the other by choice"
             }
           ],
           "feedback": {
@@ -6820,16 +6820,16 @@
           "answer": "c",
           "choices": [
             {
+              "id": "c",
+              "text": "No. The threat removes agreement. A person under force has not chosen the tie"
+            },
+            {
               "id": "a",
               "text": "Yes, because both parties are human beings"
             },
             {
               "id": "b",
               "text": "Yes, because the result is useful to the side that made the threat"
-            },
-            {
-              "id": "c",
-              "text": "No. The threat removes agreement. A person under force has not chosen the tie"
             },
             {
               "id": "d",
@@ -6879,20 +6879,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Nothing. Freedom to refuse shows that people are of no value to each other, and only captivity would show it"
+            },
+            {
               "id": "a",
               "text": "The value includes the freedom to refuse. A tie he cannot leave is not made better by being inescapable"
             },
             {
-              "id": "b",
-              "text": "Nothing. Freedom to refuse shows that people are of no value to each other"
-            },
-            {
               "id": "c",
-              "text": "An agreement is unreal whenever either person could have said no"
+              "text": "An agreement is unreal whenever either person could have said no, a real tie being one neither could decline"
             },
             {
               "id": "d",
-              "text": "Value requires that one side be unable to walk away"
+              "text": "Value requires that one side be unable to walk away, the bar on the exit being what improves the tie"
             }
           ],
           "feedback": {
@@ -6908,19 +6908,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Yes. A standard would make the choice involuntary"
+              "text": "Yes. A standard would make the choice involuntary, so an unjudged whim is the real agreement"
             },
             {
               "id": "b",
-              "text": "Yes. Once both people speak, reason has nothing left to judge"
-            },
-            {
-              "id": "c",
-              "text": "No. Speech itself is force, even when both understand and accept the terms"
+              "text": "Yes. Once both people speak, reason has nothing left to judge, and a demand to submit counts"
             },
             {
               "id": "d",
               "text": "No. An agreement is a chosen exchange each person judges. A demand that he submit is not one"
+            },
+            {
+              "id": "c",
+              "text": "No. Speech itself is force, even when both understand and accept the terms, words being coercion"
             }
           ],
           "feedback": {
@@ -6949,9 +6949,9 @@
             }
           ],
           "bank": [
-            "agreement",
             "ownership",
             "instinct",
+            "agreement",
             "decree"
           ],
           "feedback": {
@@ -6986,12 +6986,12 @@
               "text": "voluntary"
             },
             {
-              "id": "t6",
-              "text": "agreement"
-            },
-            {
               "id": "d1",
               "text": "by force"
+            },
+            {
+              "id": "t6",
+              "text": "agreement"
             },
             {
               "id": "d2",
@@ -7022,10 +7022,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "No. Society is a number of people. It has no mind and no life above theirs"
-            },
-            {
               "id": "b",
               "text": "Yes. The members are its cells, and its life is the one that counts"
             },
@@ -7036,6 +7032,10 @@
             {
               "id": "d",
               "text": "No, because people are unable to be of any value to one another"
+            },
+            {
+              "id": "a",
+              "text": "No. Society is a number of people. It has no mind and no life above theirs"
             }
           ],
           "feedback": {
@@ -7050,12 +7050,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "The group, as a mind the members can only repeat"
-            },
-            {
               "id": "b",
               "text": "The individuals who judged it. A group has no mind that thought in their place"
+            },
+            {
+              "id": "a",
+              "text": "The group, as a mind the members can only repeat"
             },
             {
               "id": "c",
@@ -7079,19 +7079,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "A voluntary agreement among the people who in fact want it"
-            },
-            {
-              "id": "b",
-              "text": "The ordinary fact that one person can be a value to another"
+              "text": "A voluntary agreement among the people who in fact want it, jointly chosen"
             },
             {
               "id": "c",
               "text": "A super-organism with purposes of its own. Only people have purposes"
             },
             {
+              "id": "b",
+              "text": "The ordinary fact that one person can be a value to another, only multiplied"
+            },
+            {
               "id": "d",
-              "text": "A reminder that people are able to communicate a judgment"
+              "text": "A reminder that people are able to communicate a judgment they already hold"
             }
           ],
           "feedback": {
@@ -7137,20 +7137,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Yes. Without a social organism, no relationship is real, trade being only an organ's motion"
+            },
+            {
+              "id": "c",
+              "text": "Yes. Values between people would require a group mind, one person's judgment being unable to find one"
+            },
+            {
               "id": "a",
               "text": "No. They can deal, trade, and care for one another. What fails is a life that owns them as organs"
             },
             {
-              "id": "b",
-              "text": "Yes. Without a social organism, no relationship is real"
-            },
-            {
-              "id": "c",
-              "text": "Yes. Values between people would require a group mind"
-            },
-            {
               "id": "d",
-              "text": "No, because the rejection was a mistake and society is an animal"
+              "text": "No, because the rejection was a mistake and society is an animal whose members are its organs"
             }
           ],
           "feedback": {
@@ -7166,15 +7166,15 @@
           "choices": [
             {
               "id": "a",
-              "text": "Yes. To be organized is the same fact as to be an organism"
+              "text": "Yes. To be organized is the same fact as to be an organism, the budget as its metabolism"
             },
             {
               "id": "b",
-              "text": "Yes. A budget is a purpose the association feels as a body"
+              "text": "Yes. A budget is a purpose the association feels as a body, the ledger as its sensation"
             },
             {
               "id": "c",
-              "text": "No. Associations are impossible unless they are organisms"
+              "text": "No. Associations are impossible unless they are organisms, since only an animal has it"
             },
             {
               "id": "d",
@@ -7207,10 +7207,10 @@
             }
           ],
           "bank": [
-            "organism",
             "agreement",
             "market",
-            "friendship"
+            "friendship",
+            "organism"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -7223,6 +7223,10 @@
           "mode": "sentence",
           "prompt": "Build the principle that says what a society is not.",
           "tokens": [
+            {
+              "id": "d1",
+              "text": "a marketplace"
+            },
             {
               "id": "t1",
               "text": "Society"
@@ -7244,16 +7248,12 @@
               "text": "above"
             },
             {
-              "id": "t6",
-              "text": "its members"
-            },
-            {
-              "id": "d1",
-              "text": "a marketplace"
-            },
-            {
               "id": "d2",
               "text": "a contract"
+            },
+            {
+              "id": "t6",
+              "text": "its members"
             }
           ],
           "answer": [
@@ -7285,15 +7285,15 @@
             },
             {
               "id": "b",
-              "text": "Yes, because he lives among them"
+              "text": "Yes, because he lives among them, and residence in the country is the deed to his life"
             },
             {
               "id": "c",
-              "text": "Yes, because he can gain values from them"
+              "text": "Yes, because he can gain values from them, and each gain purchases the man who takes it"
             },
             {
               "id": "d",
-              "text": "Yes, in the way an organ belongs to the animal that contains it"
+              "text": "Yes, in the way an organ belongs to the animal that contains it, which is society"
             }
           ],
           "feedback": {
@@ -7309,7 +7309,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "That he may trade with people who choose to trade with him"
+              "text": "That he may trade with people who choose to trade with him by mere residence"
             },
             {
               "id": "b",
@@ -7317,11 +7317,11 @@
             },
             {
               "id": "c",
-              "text": "That reason is an attribute of the person who works"
+              "text": "That reason is an attribute of the person who works, ownership meaning who thinks"
             },
             {
               "id": "d",
-              "text": "That a need is a requirement of the worker's life"
+              "text": "That a need is a requirement of the worker's life, the seizure restating the need"
             }
           ],
           "feedback": {
@@ -7395,20 +7395,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A benefit is not a purchase of the person. Past goods are not a title to his life"
-            },
-            {
               "id": "b",
-              "text": "The error is using a road"
+              "text": "The error is using a road, and he stays unowned only by refusing goods other people built"
             },
             {
               "id": "c",
-              "text": "Benefits are impossible if a person is not property"
+              "text": "Benefits are impossible if a person is not property, so users of a road must be owned"
             },
             {
               "id": "d",
-              "text": "The public is a biological organism, so the title is a fact of nature"
+              "text": "The public is a biological organism, so the title is a fact of nature, roads included"
+            },
+            {
+              "id": "a",
+              "text": "A benefit is not a purchase of the person. Past goods are not a title to his life"
             }
           ],
           "feedback": {
@@ -7423,20 +7423,20 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "He can pay for values and keep agreements. None of that makes him anyone's property"
+            },
+            {
               "id": "a",
-              "text": "Gratitude confesses that he is owned"
+              "text": "Gratitude confesses that he is owned, and a thank-you transfers the title to his life"
             },
             {
               "id": "b",
-              "text": "Trade transfers title to his life"
+              "text": "Trade transfers title to his life, and the price he pays is the sale of the man himself"
             },
             {
               "id": "c",
-              "text": "An agreement assigns him to the other party as property"
-            },
-            {
-              "id": "d",
-              "text": "He can pay for values and keep agreements. None of that makes him anyone's property"
+              "text": "An agreement assigns him to the other party as property, and keeping it delivers him"
             }
           ],
           "feedback": {
@@ -7490,6 +7490,10 @@
               "text": "does not"
             },
             {
+              "id": "d1",
+              "text": "their customer"
+            },
+            {
               "id": "t3",
               "text": "make"
             },
@@ -7498,16 +7502,12 @@
               "text": "a person"
             },
             {
-              "id": "t5",
-              "text": "their property"
-            },
-            {
-              "id": "d1",
-              "text": "their customer"
-            },
-            {
               "id": "d2",
               "text": "their neighbor"
+            },
+            {
+              "id": "t5",
+              "text": "their property"
             }
           ],
           "answer": [
@@ -7533,20 +7533,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Others are threats, and society must own him if he is to be safe, safety meaning property"
+            },
+            {
               "id": "a",
               "text": "Others can be a value by voluntary agreement, and society neither thinks nor owns him"
             },
             {
-              "id": "b",
-              "text": "Others are threats, and society must own him if he is to be safe"
-            },
-            {
               "id": "c",
-              "text": "He gains nothing from others, and agreement is a form of weakness"
+              "text": "He gains nothing from others, and agreement is a form of weakness, and every offer is a loss"
             },
             {
               "id": "d",
-              "text": "Society is the organism, and its purposes are a duty he is born into"
+              "text": "Society is the organism, and its purposes are a duty he is born into without any agreement"
             }
           ],
           "feedback": {
@@ -7562,19 +7562,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Because other people are incapable of being values"
+              "text": "Because other people are incapable of being values, and their company offers him nothing he could judge"
+            },
+            {
+              "id": "c",
+              "text": "Because duty is an instinct, and instinct is what he should follow instead of any judgment of his own"
             },
             {
               "id": "b",
               "text": "Their purposes are theirs. He joins them when he judges the dealing a value, not because company is a mortgage"
             },
             {
-              "id": "c",
-              "text": "Because duty is an instinct, and instinct is what he should follow instead"
-            },
-            {
               "id": "d",
-              "text": "Because a group mind's purposes outrank his judgment, so the question cannot arise"
+              "text": "Because a group mind's purposes outrank his judgment, so the question cannot arise, company having decided"
             }
           ],
           "feedback": {
@@ -7590,19 +7590,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He is a cell of the group, and his agreement is irrelevant"
+              "text": "He is a cell of the group, and his agreement is irrelevant, the tribal claim being the middle"
             },
             {
               "id": "b",
-              "text": "He needs no one, and a gain from another person confesses failure"
+              "text": "He needs no one, and a gain from another person confesses failure, which is the middle position"
+            },
+            {
+              "id": "d",
+              "text": "He deals with them by force, because a need cancels the other person's consent and seizes it"
             },
             {
               "id": "c",
               "text": "He needs the values other people can offer, and he deals with them by voluntary agreement"
-            },
-            {
-              "id": "d",
-              "text": "He deals with them by force, because a need cancels the other person's consent"
             }
           ],
           "feedback": {
@@ -7677,19 +7677,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Help and force, treated as the same action"
-            },
-            {
-              "id": "b",
-              "text": "A duty and a whim, so that helping is a form of knowledge"
-            },
-            {
-              "id": "c",
-              "text": "Their purposes and his, which a group mind makes identical"
+              "text": "Help and force, treated as the same action, so chosen help is an attack forbidden by the absence of a duty"
             },
             {
               "id": "d",
               "text": "A duty imposed by their purposes, and help he chooses because he values it. No duty is not a ban on chosen help"
+            },
+            {
+              "id": "b",
+              "text": "A duty and a whim, so that helping is a form of knowledge, the urge to help being what binds him"
+            },
+            {
+              "id": "c",
+              "text": "Their purposes and his, which a group mind makes identical, so refusing their end refuses his own life"
             }
           ],
           "feedback": {
@@ -7718,8 +7718,8 @@
             }
           ],
           "bank": [
-            "duty",
             "reason",
+            "duty",
             "trade",
             "choice"
           ],
@@ -7735,8 +7735,16 @@
           "prompt": "Build the principle that joins the need of other people with the form of the dealing.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "as their property"
+            },
+            {
               "id": "t1",
               "text": "He"
+            },
+            {
+              "id": "d2",
+              "text": "by tribal duty"
             },
             {
               "id": "t2",
@@ -7757,14 +7765,6 @@
             {
               "id": "t6",
               "text": "by voluntary agreement"
-            },
-            {
-              "id": "d1",
-              "text": "as their property"
-            },
-            {
-              "id": "d2",
-              "text": "by tribal duty"
             }
           ],
           "answer": [

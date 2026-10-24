@@ -45,6 +45,7 @@ export class ExerciseFillElement extends ExerciseElement {
   render() {
     if (!this.data) return;
     const sentence = this.data.mode === 'sentence' ? this._sentenceHtml() : this._blanksHtml();
+    // A new order on every render, including a retry. Grading uses token id or the word itself.
     const bank = this.data.mode === 'sentence'
       ? shuffle(this.data.tokens)
       : shuffle(this.data.bank.map((word, index) => ({ id: `w${index}`, text: word })));

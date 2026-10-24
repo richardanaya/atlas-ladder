@@ -34,7 +34,7 @@ export class ExerciseMatchElement extends ExerciseElement {
 
   render() {
     if (!this.data) return;
-    const left = this.data.pairs.map((pair) => ({ id: pair.id, text: pair.left }));
+    const left = shuffle(this.data.pairs.map((pair) => ({ id: pair.id, text: pair.left })));
     const right = shuffle(this.data.pairs.map((pair) => ({ id: pair.id, text: pair.right })));
     const chip = (item, side) => `
       <button type="button" class="chip" data-chip data-side="${side}" data-id="${escapeHtml(item.id)}">

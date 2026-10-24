@@ -1,5 +1,8 @@
 {
   "private": true,
   "type": "module",
-  "description": "Atlas Ladder is a static site. No install and no build step are required to run it."
+  "description": "Atlas Ladder is a static site. No install and no build step are required to run it.",
+  "devDependencies": {
+    "jsdom": "^30.1.3"
+  }
 }

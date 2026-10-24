@@ -10,12 +10,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "The particular sentences to recite, fixed before any facts are known."
-            },
-            {
               "id": "b",
               "text": "The kind of fact, and the kind of action that follows from that kind."
+            },
+            {
+              "id": "a",
+              "text": "The particular sentences to recite, fixed before any facts are known."
             },
             {
               "id": "c",
@@ -38,20 +38,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "That the actor must identify what kind of fact this situation is. The step is preset."
+            },
+            {
               "id": "a",
               "text": "That the particular moves are already listed, before this case has been judged."
             },
             {
-              "id": "b",
-              "text": "That the actor must identify what kind of fact this situation is."
-            },
-            {
               "id": "c",
-              "text": "That one principle can require a new action when the facts change."
+              "text": "That one principle can require a new action when the facts change. The move updates."
             },
             {
               "id": "d",
-              "text": "That later principles rest on earlier ones in a fixed order."
+              "text": "That later principles rest on earlier ones in a fixed order, already written down."
             }
           ],
           "feedback": {
@@ -132,12 +132,12 @@
               "text": "A principle of justice, because the replies were delivered in order."
             },
             {
-              "id": "b",
-              "text": "A script, because the moves were listed before the facts were judged."
-            },
-            {
               "id": "c",
               "text": "Epistemology, because memorizing is itself a way of knowing the case."
+            },
+            {
+              "id": "b",
+              "text": "A script, because the moves were listed before the facts were judged."
             },
             {
               "id": "d",
@@ -160,16 +160,16 @@
               "text": "Name the kind of fact that would show this contract is honest, and the action that follows."
             },
             {
-              "id": "b",
-              "text": "Give the exact sentences, so I do not have to judge this contract."
-            },
-            {
               "id": "c",
               "text": "State the virtue. I will read the terms before I sign."
             },
             {
               "id": "d",
               "text": "If the terms change, say whether the same virtue still applies."
+            },
+            {
+              "id": "b",
+              "text": "Give the exact sentences, so I do not have to judge this contract."
             }
           ],
           "feedback": {
@@ -192,6 +192,10 @@
               "text": "names"
             },
             {
+              "id": "d1",
+              "text": "a memorized speech"
+            },
+            {
               "id": "t3",
               "text": "the kind of fact"
             },
@@ -200,16 +204,12 @@
               "text": "and"
             },
             {
-              "id": "t5",
-              "text": "the kind of action"
-            },
-            {
-              "id": "d1",
-              "text": "a memorized speech"
-            },
-            {
               "id": "d2",
               "text": "someone's feeling"
+            },
+            {
+              "id": "t5",
+              "text": "the kind of action"
             }
           ],
           "answer": [
@@ -263,12 +263,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Judging the facts of this case under the kind the principle names."
-            },
-            {
               "id": "b",
               "text": "Repeating the principle until the case feels settled."
+            },
+            {
+              "id": "a",
+              "text": "Judging the facts of this case under the kind the principle names."
             },
             {
               "id": "c",
@@ -292,11 +292,11 @@
           "choices": [
             {
               "id": "a",
-              "text": "Sign at once, because the word honesty has a good reputation."
+              "text": "Sign at once, because the word honesty has a good reputation, so the good name settles the pages."
             },
             {
               "id": "b",
-              "text": "Recite a definition of honesty and leave the pages unread."
+              "text": "Recite a definition of honesty and leave the pages unread, so the recitation stands in for the pages."
             },
             {
               "id": "c",
@@ -304,7 +304,7 @@
             },
             {
               "id": "d",
-              "text": "Treat the other party's feeling as the content of the terms."
+              "text": "Treat the other party's feeling as the content of the terms, so the feeling clears the signature."
             }
           ],
           "feedback": {
@@ -364,8 +364,8 @@
             }
           ],
           "bank": [
-            "this case",
             "a slogan",
+            "this case",
             "last year",
             "a crowd"
           ],
@@ -382,19 +382,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He is applying the principle by refusing to be distracted by detail."
+              "text": "He is applying the principle by refusing to be distracted by detail, so this case drops out."
+            },
+            {
+              "id": "c",
+              "text": "He is tracing a contradicted conclusion back to an axiom, and the axiom replaces the dispute."
+            },
+            {
+              "id": "d",
+              "text": "He is changing the action because the facts of the case changed, so the record is dropped."
             },
             {
               "id": "b",
               "text": "He is letting the principle, shrunk to a slogan, stand in for the facts of this case."
-            },
-            {
-              "id": "c",
-              "text": "He is tracing a contradicted conclusion back to an axiom."
-            },
-            {
-              "id": "d",
-              "text": "He is changing the action because the facts of the case changed."
             }
           ],
           "feedback": {
@@ -449,16 +449,16 @@
               "text": "by judging"
             },
             {
+              "id": "d1",
+              "text": "by reciting"
+            },
+            {
               "id": "t4",
               "text": "the facts"
             },
             {
               "id": "t5",
               "text": "of this case"
-            },
-            {
-              "id": "d1",
-              "text": "by reciting"
             },
             {
               "id": "d2",
@@ -485,19 +485,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Praise both, because both acts are called a refusal."
-            },
-            {
-              "id": "b",
-              "text": "Blame both, because a refusal is always an evasion."
+              "text": "Praise both, because both acts are called a refusal, so the label is enough."
             },
             {
               "id": "c",
               "text": "Judge the facts of each case. The shared word does not say who faked reality."
             },
             {
+              "id": "b",
+              "text": "Blame both, because a refusal is always an evasion, so one penalty fits both."
+            },
+            {
               "id": "d",
-              "text": "Skip judgment, because similar gestures fall under one script."
+              "text": "Skip judgment, because similar gestures fall under one script. The gesture suffices."
             }
           ],
           "feedback": {
@@ -548,16 +548,16 @@
               "text": "Pay again, because a principled action must not change."
             },
             {
-              "id": "b",
-              "text": "Do not pay for work that was not done. The principle is unchanged."
-            },
-            {
               "id": "c",
               "text": "Drop justice, because a principle that allows two actions contradicts itself."
             },
             {
               "id": "d",
               "text": "Pay, because the worker feels that the payment is owed."
+            },
+            {
+              "id": "b",
+              "text": "Do not pay for work that was not done. The principle is unchanged."
             }
           ],
           "feedback": {
@@ -617,9 +617,9 @@
             }
           ],
           "bank": [
-            "concrete action",
             "moral code",
             "axiom",
+            "concrete action",
             "revelation"
           ],
           "feedback": {
@@ -634,16 +634,16 @@
           "answer": "c",
           "choices": [
             {
+              "id": "c",
+              "text": "A changed action can be the same principle applied to new facts."
+            },
+            {
               "id": "a",
               "text": "A changed action under the same standard is abandonment."
             },
             {
               "id": "b",
               "text": "The first action remains binding, because a principle is a script."
-            },
-            {
-              "id": "c",
-              "text": "A changed action can be the same principle applied to new facts."
             },
             {
               "id": "d",
@@ -690,6 +690,10 @@
           "prompt": "Build the line that keeps the standard while allowing a new action.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "must be abandoned"
+            },
+            {
               "id": "t1",
               "text": "The same principle"
             },
@@ -702,16 +706,12 @@
               "text": "a different"
             },
             {
-              "id": "t4",
-              "text": "concrete action"
-            },
-            {
-              "id": "d1",
-              "text": "must be abandoned"
-            },
-            {
               "id": "d2",
               "text": "forbids any change"
+            },
+            {
+              "id": "t4",
+              "text": "concrete action"
             }
           ],
           "answer": [
@@ -733,19 +733,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He has applied one principle to new facts and kept the principle."
+              "text": "He has applied one principle to new facts and kept the principle, so convenience did not touch it."
+            },
+            {
+              "id": "c",
+              "text": "He has shown that every principle is a script and ought to be dropped, so the rule expires."
             },
             {
               "id": "b",
               "text": "He has changed the action and also dropped the standard, which the new facts do not license."
             },
             {
-              "id": "c",
-              "text": "He has shown that every principle is a script and ought to be dropped."
-            },
-            {
               "id": "d",
-              "text": "He has followed determinism: the facts changed him without a judgment."
+              "text": "He has followed determinism: the facts changed him without a judgment, so no choice remained."
             }
           ],
           "feedback": {
@@ -768,16 +768,16 @@
               "text": "The philosophy, acting as a substitute that decides in your place."
             },
             {
-              "id": "b",
-              "text": "You, using the philosophy as a standard for your own thinking."
-            },
-            {
               "id": "c",
               "text": "A crowd, because a standard is whatever most people would feel."
             },
             {
               "id": "d",
               "text": "No one, because a real principle leaves nothing to judge."
+            },
+            {
+              "id": "b",
+              "text": "You, using the philosophy as a standard for your own thinking."
             }
           ],
           "feedback": {
@@ -792,20 +792,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "Nothing. A philosophy that cannot pick a meal is incomplete."
-            },
-            {
               "id": "b",
               "text": "It treats the philosophy as a substitute decider rather than as a standard you use."
             },
             {
+              "id": "a",
+              "text": "Nothing. A philosophy that cannot pick a meal is incomplete, so it must pick meals."
+            },
+            {
               "id": "c",
-              "text": "The question fails because meals fall outside the law of identity."
+              "text": "The question fails because meals fall outside the law of identity, so a meal is not a fact."
             },
             {
               "id": "d",
-              "text": "The question is right about the verdict and wrong only about the meal."
+              "text": "The question is right about the verdict and wrong only about the meal. Verdicts are exempt."
             }
           ],
           "feedback": {
@@ -865,10 +865,10 @@
             }
           ],
           "bank": [
-            "thinking",
             "feelings",
             "orders",
-            "habits"
+            "habits",
+            "thinking"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -886,12 +886,12 @@
               "text": "Name the principle. I will identify the facts and decide."
             },
             {
-              "id": "b",
-              "text": "Here are the facts. Name the kind of action, and I will look again if I misread them."
-            },
-            {
               "id": "c",
               "text": "Do not explain the standard. Deliver the verdict, so the philosophy has decided."
+            },
+            {
+              "id": "b",
+              "text": "Here are the facts. Name the kind of action, and I will look again if I misread them."
             },
             {
               "id": "d",
@@ -910,16 +910,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Determinism: it denies the judgment a standard exists to guide."
-            },
-            {
               "id": "b",
               "text": "A correct account of a standard, because standards describe and never guide."
             },
             {
               "id": "c",
               "text": "The trader principle, because every case is an exchange of feelings."
+            },
+            {
+              "id": "a",
+              "text": "Determinism: it denies the judgment a standard exists to guide."
             },
             {
               "id": "d",
@@ -942,6 +942,10 @@
               "text": "The philosophy"
             },
             {
+              "id": "d1",
+              "text": "a substitute decider"
+            },
+            {
               "id": "t2",
               "text": "is a standard"
             },
@@ -952,10 +956,6 @@
             {
               "id": "t4",
               "text": "to judge"
-            },
-            {
-              "id": "d1",
-              "text": "a substitute decider"
             },
             {
               "id": "d2",
@@ -981,19 +981,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Nothing. A standard guarantees the particular conclusion."
+              "text": "Nothing. A standard guarantees the particular conclusion, so you are not the one who erred."
+            },
+            {
+              "id": "c",
+              "text": "Justice cannot be applied to a record of figures, so the bad verdict lies outside justice."
+            },
+            {
+              "id": "d",
+              "text": "A wrong verdict shows that no principle can guide a case, so the standard is refuted."
             },
             {
               "id": "b",
               "text": "The excuse treats the philosophy as a substitute. The misreading is still your error."
-            },
-            {
-              "id": "c",
-              "text": "Justice cannot be applied to a record of figures."
-            },
-            {
-              "id": "d",
-              "text": "A wrong verdict shows that no principle can guide a case."
             }
           ],
           "feedback": {
@@ -1012,20 +1012,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "A ritual judges ordinary choices, while a principle only decorates them."
-            },
-            {
               "id": "b",
               "text": "A principle is used to judge ordinary choices. A ritual performs gestures and leaves the choice unjudged."
             },
             {
+              "id": "a",
+              "text": "A ritual judges ordinary choices, while a principle only decorates them, so the ceremony does the judging."
+            },
+            {
               "id": "c",
-              "text": "A principle is valid only inside a ceremony, so the ritual is the real standard."
+              "text": "A principle is valid only inside a ceremony, so the ritual is the real standard, and weekdays are exempt."
             },
             {
               "id": "d",
-              "text": "There is no distinction, because every repeated action is a ritual."
+              "text": "There is no distinction, because every repeated action is a ritual, so keeping a policy is already that error."
             }
           ],
           "feedback": {
@@ -1134,12 +1134,12 @@
               "text": "Wearing an emblem so that observers will classify you as principled."
             },
             {
-              "id": "b",
-              "text": "Comparing a wage to the work actually done before you agree to it."
-            },
-            {
               "id": "c",
               "text": "Reciting a motto at the table and leaving a contract unread."
+            },
+            {
+              "id": "b",
+              "text": "Comparing a wage to the work actually done before you agree to it."
             },
             {
               "id": "d",
@@ -1158,12 +1158,8 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Intrinsicism about the gesture: the performance is treated as carrying the value by itself."
-            },
-            {
               "id": "b",
-              "text": "Application: a correct form is the kind of fact a principle names."
+              "text": "Application: a correct form is the kind of fact a principle names, so form replaces the facts."
             },
             {
               "id": "c",
@@ -1171,7 +1167,11 @@
             },
             {
               "id": "d",
-              "text": "Hierarchy: gestures come first, and the facts are derived from them."
+              "text": "Hierarchy: gestures come first, and the facts are derived from them, ahead of whatever happened."
+            },
+            {
+              "id": "a",
+              "text": "Intrinsicism about the gesture: the performance is treated as carrying the value by itself."
             }
           ],
           "feedback": {
@@ -1186,8 +1186,16 @@
           "prompt": "Build the line that puts principles into ordinary choices.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "a public ceremony"
+            },
+            {
               "id": "t1",
               "text": "Hold the principles"
+            },
+            {
+              "id": "d2",
+              "text": "a checklist of poses"
             },
             {
               "id": "t2",
@@ -1200,14 +1208,6 @@
             {
               "id": "t4",
               "text": "a ritual of gestures"
-            },
-            {
-              "id": "d1",
-              "text": "a public ceremony"
-            },
-            {
-              "id": "d2",
-              "text": "a checklist of poses"
             }
           ],
           "answer": [
@@ -1228,20 +1228,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "None. Principles apply only on occasions large enough for a ceremony."
-            },
-            {
               "id": "b",
               "text": "You are confining the philosophy to ritual occasions and leaving an ordinary choice unjudged."
             },
             {
+              "id": "a",
+              "text": "None. Principles apply only on occasions large enough for a ceremony, so unseen errors do not count."
+            },
+            {
               "id": "c",
-              "text": "Honesty forbids correcting an error, because correction admits a fault."
+              "text": "Honesty forbids correcting an error, because correction admits a fault, so the error stays."
             },
             {
               "id": "d",
-              "text": "A small error is metaphysically given and cannot be changed."
+              "text": "A small error is metaphysically given and cannot be changed, so the line cannot be touched."
             }
           ],
           "feedback": {
@@ -1260,12 +1260,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "They form one integrated view of existence."
-            },
-            {
               "id": "b",
               "text": "Each line is kept because it sounds bold on its own."
+            },
+            {
+              "id": "a",
+              "text": "They form one integrated view of existence."
             },
             {
               "id": "c",
@@ -1293,12 +1293,12 @@
               "text": "It is a catalog that gathers the special sciences."
             },
             {
-              "id": "b",
-              "text": "It is one integrated view of existence."
-            },
-            {
               "id": "c",
               "text": "It is a mood that changes whenever feelings change."
+            },
+            {
+              "id": "b",
+              "text": "It is one integrated view of existence."
             },
             {
               "id": "d",
@@ -1373,10 +1373,10 @@
             }
           ],
           "bank": [
-            "integrated",
-            "pile",
             "private",
-            "shifting"
+            "integrated",
+            "shifting",
+            "pile"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -1394,16 +1394,16 @@
               "text": "One system, because any three sincere lines are a philosophy."
             },
             {
-              "id": "b",
-              "text": "A pile of slogans, because the lines were never required to fit."
-            },
-            {
               "id": "c",
               "text": "An integrated view, because conflict among lines shows depth."
             },
             {
               "id": "d",
               "text": "A hierarchy, because a list is already an order of dependence."
+            },
+            {
+              "id": "b",
+              "text": "A pile of slogans, because the lines were never required to fit."
             }
           ],
           "feedback": {
@@ -1450,8 +1450,16 @@
               "text": "A philosophic system"
             },
             {
+              "id": "d1",
+              "text": "a pile of slogans"
+            },
+            {
               "id": "t2",
               "text": "is"
+            },
+            {
+              "id": "d2",
+              "text": "whatever feels inspiring"
             },
             {
               "id": "t3",
@@ -1460,14 +1468,6 @@
             {
               "id": "t4",
               "text": "of existence"
-            },
-            {
-              "id": "d1",
-              "text": "a pile of slogans"
-            },
-            {
-              "id": "d2",
-              "text": "whatever feels inspiring"
             }
           ],
           "answer": [
@@ -1492,12 +1492,12 @@
               "text": "Sincerity integrates claims even when they contradict one another."
             },
             {
-              "id": "b",
-              "text": "Moral rules are decorations and never belong in a view of existence."
-            },
-            {
               "id": "c",
               "text": "A contradiction means the parts are not one view, so the added rule broke it."
+            },
+            {
+              "id": "b",
+              "text": "Moral rules are decorations and never belong in a view of existence."
             },
             {
               "id": "d",
@@ -1524,12 +1524,12 @@
               "text": "Politics, then ethics, then epistemology, then metaphysics."
             },
             {
-              "id": "b",
-              "text": "Metaphysics, then epistemology, then ethics, then politics."
-            },
-            {
               "id": "c",
               "text": "Ethics first, because values decide which facts exist."
+            },
+            {
+              "id": "b",
+              "text": "Metaphysics, then epistemology, then ethics, then politics."
             },
             {
               "id": "d",
@@ -1579,20 +1579,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Later principles rest on earlier ones, so a reversal leaves them without a base."
-            },
-            {
               "id": "b",
-              "text": "The labels are traditional, and any order would carry the same claims."
+              "text": "The labels are traditional, and any order would carry the same claims. No base is lost."
             },
             {
               "id": "c",
-              "text": "Politics is first in practice, and the other branches are commentary."
+              "text": "Politics is first in practice, and the other branches are commentary. Facts come second."
             },
             {
               "id": "d",
-              "text": "Each branch is self-contained, so the sequence is a matter of taste."
+              "text": "Each branch is self-contained, so the sequence is a matter of taste. Later claims stand."
+            },
+            {
+              "id": "a",
+              "text": "Later principles rest on earlier ones, so a reversal leaves them without a base."
             }
           ],
           "feedback": {
@@ -1621,9 +1621,9 @@
             }
           ],
           "bank": [
-            "earlier ones",
             "a majority",
             "a feeling",
+            "earlier ones",
             "a revelation"
           ],
           "feedback": {
@@ -1638,16 +1638,16 @@
           "answer": "c",
           "choices": [
             {
+              "id": "c",
+              "text": "It depends on the view of man and of existence."
+            },
+            {
               "id": "a",
               "text": "It is an optional extra, attached once the social principle is finished."
             },
             {
               "id": "b",
               "text": "It replaces metaphysics, because an image decides what exists."
-            },
-            {
-              "id": "c",
-              "text": "It depends on the view of man and of existence."
             },
             {
               "id": "d",
@@ -1702,20 +1702,20 @@
               "text": "rest"
             },
             {
-              "id": "t3",
-              "text": "on"
-            },
-            {
-              "id": "t4",
-              "text": "earlier ones"
-            },
-            {
               "id": "d1",
               "text": "on a vote"
             },
             {
+              "id": "t3",
+              "text": "on"
+            },
+            {
               "id": "d2",
               "text": "float free"
+            },
+            {
+              "id": "t4",
+              "text": "earlier ones"
             }
           ],
           "answer": [
@@ -1769,19 +1769,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "An axiom, stated before any other principle."
+              "text": "An axiom, stated before any other principle. It starts the chain."
+            },
+            {
+              "id": "c",
+              "text": "A concrete choice that nobody has faced yet. Lack of a case cuts it."
+            },
+            {
+              "id": "d",
+              "text": "A branch taught last, and therefore the deepest one. Order severs it."
             },
             {
               "id": "b",
               "text": "An idea cut away from the earlier principles that support it."
-            },
-            {
-              "id": "c",
-              "text": "A concrete choice that nobody has faced yet."
-            },
-            {
-              "id": "d",
-              "text": "A branch taught last, and therefore the deepest one."
             }
           ],
           "feedback": {
@@ -1827,20 +1827,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "He has validated the claim by refusing to dilute it."
-            },
-            {
               "id": "b",
               "text": "He has pulled the claim out of the middle, away from the premises that support it."
             },
             {
+              "id": "a",
+              "text": "He has validated the claim by refusing to dilute it, and silence is the proof."
+            },
+            {
               "id": "c",
-              "text": "He has returned the claim to metaphysics, where it belongs as an axiom."
+              "text": "He has returned the claim to metaphysics, where it belongs as an axiom. Inquiry spoils it."
             },
             {
               "id": "d",
-              "text": "He has applied the claim, because repetition is a form of use."
+              "text": "He has applied the claim, because repetition is a form of use, so repetition decides it."
             }
           ],
           "feedback": {
@@ -1869,10 +1869,10 @@
             }
           ],
           "bank": [
-            "earlier principles",
             "private feelings",
             "a revelation",
-            "voting totals"
+            "voting totals",
+            "earlier principles"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -1887,7 +1887,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "A right, asserted with no account of what a person is."
+              "text": "A right, asserted with no account of what a person is, treated as the whole of the case."
             },
             {
               "id": "b",
@@ -1899,7 +1899,7 @@
             },
             {
               "id": "d",
-              "text": "A social system, defended while every question about rights is waved away."
+              "text": "A social system, defended while every question about rights is waved away. Rights can wait."
             }
           ],
           "feedback": {
@@ -1914,20 +1914,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The right order: a political claim is true before anything exists, so existence comes later."
+            },
+            {
+              "id": "c",
+              "text": "A proper validation: slogans of this kind are axioms, with no account of man or of knowledge."
+            },
+            {
               "id": "a",
               "text": "Intrinsicism: the slogan is treated as carrying its truth, with no method and no base."
             },
             {
-              "id": "b",
-              "text": "The right order: a political claim is true before anything exists."
-            },
-            {
-              "id": "c",
-              "text": "A proper validation: slogans of this kind are axioms."
-            },
-            {
               "id": "d",
-              "text": "Esthetics: any striking sentence is thereby known to be true."
+              "text": "Esthetics: any striking sentence is thereby known to be true, so style proves it."
             }
           ],
           "feedback": {
@@ -1950,6 +1950,10 @@
               "text": "is cut away"
             },
             {
+              "id": "d1",
+              "text": "is an axiom"
+            },
+            {
               "id": "t3",
               "text": "from"
             },
@@ -1958,16 +1962,12 @@
               "text": "the premises"
             },
             {
-              "id": "t5",
-              "text": "that support it"
-            },
-            {
-              "id": "d1",
-              "text": "is an axiom"
-            },
-            {
               "id": "d2",
               "text": "needs no base"
+            },
+            {
+              "id": "t5",
+              "text": "that support it"
             }
           ],
           "answer": [
@@ -1997,12 +1997,12 @@
               "text": "Yes. Custom is the social principle, so the chain is restored."
             },
             {
-              "id": "c",
-              "text": "No. A foreign substitute is not the earlier principles that supported it."
-            },
-            {
               "id": "d",
               "text": "No. Justice is the sort of idea that cannot be used in a court."
+            },
+            {
+              "id": "c",
+              "text": "No. A foreign substitute is not the earlier principles that supported it."
             }
           ],
           "feedback": {
@@ -2049,20 +2049,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Noting that the word justice has an honorable sound, so nothing further has to be shown."
+            },
+            {
               "id": "a",
               "text": "Showing that it follows from what a person is, how one knows his actions, and what his life requires."
             },
             {
-              "id": "b",
-              "text": "Noting that the word justice has an honorable sound."
-            },
-            {
               "id": "c",
-              "text": "Observing that the wording helped a speaker win an argument this week."
+              "text": "Observing that the wording helped a speaker win an argument this week, so the week's victory is the proof."
             },
             {
               "id": "d",
-              "text": "Learning that most listeners already agree with the sentence."
+              "text": "Learning that most listeners already agree with the sentence, so numbers replace the premises about man."
             }
           ],
           "feedback": {
@@ -2139,16 +2139,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A feeling is not the earlier principle that could validate the virtue."
-            },
-            {
               "id": "b",
               "text": "A clean feeling is direct awareness of a moral fact, so the defense succeeds."
             },
             {
               "id": "c",
               "text": "Virtues are valid precisely when nobody derives them."
+            },
+            {
+              "id": "a",
+              "text": "A feeling is not the earlier principle that could validate the virtue."
             },
             {
               "id": "d",
@@ -2167,10 +2167,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Skepticism: one unvalidated slogan is treated as the collapse of knowledge."
-            },
-            {
               "id": "b",
               "text": "The right lesson: if a middle idea fails alone, nothing can be known."
             },
@@ -2181,6 +2177,10 @@
             {
               "id": "d",
               "text": "Statism: only an official announcement can say which principles are knowable."
+            },
+            {
+              "id": "a",
+              "text": "Skepticism: one unvalidated slogan is treated as the collapse of knowledge."
             }
           ],
           "feedback": {
@@ -2207,16 +2207,16 @@
               "text": "to validate"
             },
             {
+              "id": "d1",
+              "text": "A feeling"
+            },
+            {
               "id": "t4",
               "text": "a middle idea"
             },
             {
               "id": "t5",
               "text": "taken alone"
-            },
-            {
-              "id": "d1",
-              "text": "A feeling"
             },
             {
               "id": "d2",
@@ -2274,12 +2274,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Nothing is left to connect it to the facts of a particular case."
-            },
-            {
               "id": "b",
               "text": "Concrete choices fall outside philosophy once the axioms are known."
+            },
+            {
+              "id": "a",
+              "text": "Nothing is left to connect it to the facts of a particular case."
             },
             {
               "id": "c",
@@ -2306,12 +2306,12 @@
               "text": "Rationality forbids hiring, so both decisions are errors of the same kind."
             },
             {
-              "id": "b",
-              "text": "The detached phrase no longer says which facts matter or what action follows."
-            },
-            {
               "id": "c",
               "text": "Hiring is political, so an ethical phrase is not allowed to bear on it."
+            },
+            {
+              "id": "b",
+              "text": "The detached phrase no longer says which facts matter or what action follows."
             },
             {
               "id": "d",
@@ -2375,8 +2375,8 @@
             }
           ],
           "bank": [
-            "concrete choice",
             "louder slogan",
+            "concrete choice",
             "larger crowd",
             "private mood"
           ],
@@ -2392,10 +2392,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "With the premises gone, there is nothing left to apply to the dispute."
-            },
-            {
               "id": "b",
               "text": "Application improves once the idea is freed from any claim to truth."
             },
@@ -2406,6 +2402,10 @@
             {
               "id": "d",
               "text": "Contracts are metaphysically given, so no principle applies to them."
+            },
+            {
+              "id": "a",
+              "text": "With the premises gone, there is nothing left to apply to the dispute."
             }
           ],
           "feedback": {
@@ -2420,12 +2420,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "Name the facts the full principle selects in this case, then act on that identification."
-            },
-            {
               "id": "b",
               "text": "Recite the detached slogan over the case without identifying any fact it would select."
+            },
+            {
+              "id": "a",
+              "text": "Name the facts the full principle selects in this case, then act on that identification."
             },
             {
               "id": "c",
@@ -2448,6 +2448,10 @@
           "prompt": "Build the full consequence of taking a middle idea out of the system.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "A chant"
+            },
+            {
               "id": "t1",
               "text": "Nothing"
             },
@@ -2460,20 +2464,16 @@
               "text": "to validate it"
             },
             {
+              "id": "d2",
+              "text": "A vote"
+            },
+            {
               "id": "t4",
               "text": "or"
             },
             {
               "id": "t5",
               "text": "to apply it"
-            },
-            {
-              "id": "d1",
-              "text": "A chant"
-            },
-            {
-              "id": "d2",
-              "text": "A vote"
             }
           ],
           "answer": [
@@ -2496,19 +2496,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Nothing. A vivid draft is a fact by virtue of being vivid."
-            },
-            {
-              "id": "b",
-              "text": "Only a louder statement of the same maxim."
+              "text": "Nothing. A vivid draft is a fact by virtue of being vivid, so feeling picks the draft."
             },
             {
               "id": "c",
               "text": "The premises that would validate the maxim and connect it to what the drafts are."
             },
             {
+              "id": "b",
+              "text": "Only a louder statement of the same maxim, repeated until volume counts as a proof."
+            },
+            {
               "id": "d",
-              "text": "A vote of the readers, which would both validate and apply the maxim."
+              "text": "A vote of the readers, which would both validate and apply the maxim. Votes name facts."
             }
           ],
           "feedback": {
@@ -2527,16 +2527,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Two claims treated as though they were a single claim."
-            },
-            {
               "id": "b",
               "text": "Two claims judged separately, so a yes to one stays free of the other."
             },
             {
               "id": "c",
               "text": "A principle together with the concrete action it requires here."
+            },
+            {
+              "id": "a",
+              "text": "Two claims treated as though they were a single claim."
             },
             {
               "id": "d",
@@ -2559,16 +2559,16 @@
               "text": "One claim, because a single word can name only one thing."
             },
             {
-              "id": "b",
-              "text": "A package deal: two claims glued together and treated as one."
-            },
-            {
               "id": "c",
               "text": "A valid inference, because brutality follows from rational self-interest."
             },
             {
               "id": "d",
               "text": "An axiom, because the word is widely used."
+            },
+            {
+              "id": "b",
+              "text": "A package deal: two claims glued together and treated as one."
             }
           ],
           "feedback": {
@@ -2628,9 +2628,9 @@
             }
           ],
           "bank": [
-            "one",
             "opposites",
             "axioms",
+            "one",
             "facts"
           ],
           "feedback": {
@@ -2645,16 +2645,16 @@
           "answer": "c",
           "choices": [
             {
+              "id": "c",
+              "text": "Freedom from initiated force rules out a law that initiates force."
+            },
+            {
               "id": "a",
               "text": "Selfishness means rational self-interest, and therefore it means brutality."
             },
             {
               "id": "b",
               "text": "A right sanctions one's own action, and therefore it claims another person's product."
-            },
-            {
-              "id": "c",
-              "text": "Freedom from initiated force rules out a law that initiates force."
             },
             {
               "id": "d",
@@ -2673,20 +2673,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Package deals occur only in words of one syllable, so a longer word cannot hide one."
+            },
+            {
               "id": "a",
               "text": "A package deal is two claims treated as one, not the mere sharing of a sentence."
             },
             {
-              "id": "b",
-              "text": "Package deals occur only in words of one syllable."
-            },
-            {
               "id": "c",
-              "text": "Any two claims in one sentence really are a single claim."
+              "text": "Any two claims in one sentence really are a single claim, by grammar alone."
             },
             {
               "id": "d",
-              "text": "Only a revelation can identify the join between two claims."
+              "text": "Only a revelation can identify the join between two claims. Inspection cannot find it."
             }
           ],
           "feedback": {
@@ -2701,8 +2701,16 @@
           "prompt": "Build the statement that defines a package deal and keeps it distinct from a proof.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "as a proof"
+            },
+            {
               "id": "t1",
               "text": "A package deal"
+            },
+            {
+              "id": "d2",
+              "text": "as an axiom"
             },
             {
               "id": "t2",
@@ -2715,14 +2723,6 @@
             {
               "id": "t4",
               "text": "as one"
-            },
-            {
-              "id": "d1",
-              "text": "as a proof"
-            },
-            {
-              "id": "d2",
-              "text": "as an axiom"
             }
           ],
           "answer": [
@@ -2744,19 +2744,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Yes. Two clauses are always two claims glued together by grammar."
+              "text": "Yes. Two clauses are always two claims glued together by grammar, so this rule is guilty."
+            },
+            {
+              "id": "c",
+              "text": "Yes. Trade is a ritual, so any wording of it is a package, and a ritual cannot state one rule."
             },
             {
               "id": "b",
               "text": "No. The two clauses state one principle, and the second forbids a breach of the first."
             },
             {
-              "id": "c",
-              "text": "Yes. Trade is a ritual, so any wording of it is a package."
-            },
-            {
               "id": "d",
-              "text": "No. Package deals occur only in politics, never in ethics."
+              "text": "No. Package deals occur only in politics, never in ethics, so ethics is exempt."
             }
           ],
           "feedback": {
@@ -2779,16 +2779,16 @@
               "text": "A derivation that really shows the second claim follows from the first."
             },
             {
-              "id": "b",
-              "text": "A single word, used so that both claims seem to be its meaning."
-            },
-            {
               "id": "c",
               "text": "A laboratory result that confirms both claims at once."
             },
             {
               "id": "d",
               "text": "An axiom that makes the two claims identical."
+            },
+            {
+              "id": "b",
+              "text": "A single word, used so that both claims seem to be its meaning."
             }
           ],
           "feedback": {
@@ -2839,15 +2839,15 @@
             },
             {
               "id": "b",
-              "text": "Brutality itself, which is the whole meaning of rational self-interest."
+              "text": "Brutality itself, which is the whole meaning of rational self-interest. The word adds nothing."
             },
             {
               "id": "c",
-              "text": "A derivation showing that robbery follows from production."
+              "text": "A derivation showing that robbery follows from production, so the attack is a completed proof."
             },
             {
               "id": "d",
-              "text": "The principle that a person is an end in himself."
+              "text": "The principle that a person is an end in himself, and that premise is what fuses the attack."
             }
           ],
           "feedback": {
@@ -2876,10 +2876,10 @@
             }
           ],
           "bank": [
-            "word",
             "fact",
             "axiom",
-            "proof"
+            "proof",
+            "word"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -2894,19 +2894,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Delivery, fusing a clock reading to the existence of contracts."
-            },
-            {
-              "id": "b",
-              "text": "Reject, fusing a moral no to a refusal to look at any detail."
+              "text": "Delivery, fusing a clock reading to the existence of contracts, so the hour is the deal."
             },
             {
               "id": "c",
               "text": "Compromise, fusing a trade about a non-essential to a surrender of basic principle."
             },
             {
+              "id": "b",
+              "text": "Reject, fusing a moral no to a refusal to look at any detail, so refusing is the fused act."
+            },
+            {
               "id": "d",
-              "text": "Hour, fusing the passage of time to the law of identity."
+              "text": "Hour, fusing the passage of time to the law of identity, so the hour is the principle."
             }
           ],
           "feedback": {
@@ -2922,19 +2922,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "A defined term is glue whenever it is short."
+              "text": "A defined term is glue whenever it is short, so shortness joins claims a definition had kept apart."
+            },
+            {
+              "id": "c",
+              "text": "Initiated force names two claims: any force, and the existence of consciousness. Mind is smuggled in."
             },
             {
               "id": "b",
               "text": "A word is glue only when it treats two claims as one. A term that names one fact is not glue."
             },
             {
-              "id": "c",
-              "text": "Initiated force names two claims: any force, and the existence of consciousness."
-            },
-            {
               "id": "d",
-              "text": "Definitions are revelations, so every term hides a package."
+              "text": "Definitions are revelations, so every term hides a package, and naming cannot split them."
             }
           ],
           "feedback": {
@@ -2953,8 +2953,16 @@
               "text": "The glue"
             },
             {
+              "id": "d1",
+              "text": "a valid proof"
+            },
+            {
               "id": "t2",
               "text": "is"
+            },
+            {
+              "id": "d2",
+              "text": "an axiom"
             },
             {
               "id": "t3",
@@ -2963,14 +2971,6 @@
             {
               "id": "t4",
               "text": "a single word"
-            },
-            {
-              "id": "d1",
-              "text": "a valid proof"
-            },
-            {
-              "id": "d2",
-              "text": "an axiom"
             }
           ],
           "answer": [
@@ -2992,19 +2992,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Working as a precise term, because both clauses were printed."
+              "text": "Working as a precise term, because both clauses were printed, so printing welds the two clauses into one fact."
+            },
+            {
+              "id": "c",
+              "text": "Stating an axiom, because an editorial reports a basic metaphysical fact, so that license is safe."
+            },
+            {
+              "id": "d",
+              "text": "Serving as a script that tells the reader which sentence to recite, so reciting it replaces judgment of the seizure."
             },
             {
               "id": "b",
               "text": "Working as glue: one word treats the absence of initiated force and the license to initiate it as one claim."
-            },
-            {
-              "id": "c",
-              "text": "Stating an axiom, because an editorial reports a basic metaphysical fact."
-            },
-            {
-              "id": "d",
-              "text": "Serving as a script that tells the reader which sentence to recite."
             }
           ],
           "feedback": {
@@ -3051,12 +3051,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The absence of initiated force, and the license to initiate force."
-            },
-            {
               "id": "b",
               "text": "The absence of initiated force, stated twice in different tones."
+            },
+            {
+              "id": "a",
+              "text": "The absence of initiated force, and the license to initiate force."
             },
             {
               "id": "c",
@@ -3141,20 +3141,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Two sanctions of the same action, differing only in emphasis, so the house changes nothing."
+            },
+            {
+              "id": "c",
+              "text": "A trade about the paint color, and a trade about the delivery date. Only the details differ."
+            },
+            {
               "id": "a",
               "text": "A sanction of the producer's own action, and a claim on that other person's product."
             },
             {
-              "id": "b",
-              "text": "Two sanctions of the same action, differing only in emphasis."
-            },
-            {
-              "id": "c",
-              "text": "A trade about the paint color, and a trade about the delivery date."
-            },
-            {
               "id": "d",
-              "text": "Brutality, and a second brutality under another name."
+              "text": "Brutality, and a second brutality under another name, which is the selfishness package."
             }
           ],
           "feedback": {
@@ -3169,20 +3169,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Naming with judging. The names make two judgments possible; they are not those judgments."
-            },
-            {
               "id": "b",
-              "text": "An axiom with a theorem. The first claim he names is always axiomatic."
+              "text": "An axiom with a theorem. The first claim he names is always axiomatic. The name is assent."
             },
             {
               "id": "c",
-              "text": "Metaphysics with esthetics, because both use the word value."
+              "text": "Metaphysics with esthetics, because both use the word value, so value unites the fields."
             },
             {
               "id": "d",
-              "text": "A script with a ritual, because both were mentioned in the naming."
+              "text": "A script with a ritual, because both were mentioned in the naming, so the utterance judges."
+            },
+            {
+              "id": "a",
+              "text": "Naming with judging. The names make two judgments possible; they are not those judgments."
             }
           ],
           "feedback": {
@@ -3205,20 +3205,20 @@
               "text": "each claim"
             },
             {
-              "id": "t3",
-              "text": "separately"
-            },
-            {
-              "id": "t4",
-              "text": "from the other"
-            },
-            {
               "id": "d1",
               "text": "as one claim"
             },
             {
+              "id": "t3",
+              "text": "separately"
+            },
+            {
               "id": "d2",
               "text": "by the glue word"
+            },
+            {
+              "id": "t4",
+              "text": "from the other"
             }
           ],
           "answer": [
@@ -3300,16 +3300,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "There is a fundamental moral difference between them."
-            },
-            {
               "id": "b",
               "text": "They are the same moral claim under two names."
             },
             {
               "id": "c",
               "text": "Robbery is a slower form of production."
+            },
+            {
+              "id": "a",
+              "text": "There is a fundamental moral difference between them."
             },
             {
               "id": "d",
@@ -3375,8 +3375,8 @@
             }
           ],
           "bank": [
-            "other",
             "glue",
+            "other",
             "crowd",
             "ritual"
           ],
@@ -3392,10 +3392,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Force a no to both claims, as if rejecting brutality rejected self-interest."
-            },
-            {
               "id": "b",
               "text": "Judge each claim on its own and reject only the one that deserves it."
             },
@@ -3406,6 +3402,10 @@
             {
               "id": "d",
               "text": "Restore an ethical principle to the metaphysics it rests on."
+            },
+            {
+              "id": "a",
+              "text": "Force a no to both claims, as if rejecting brutality rejected self-interest."
             }
           ],
           "feedback": {
@@ -3420,20 +3420,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "He is right. A right is a claim on someone else's goods."
-            },
-            {
               "id": "b",
               "text": "A yes to the sanction of one's own action is not a yes to a claim on another person's product."
             },
             {
+              "id": "a",
+              "text": "He is right. A right is a claim on someone else's goods, and he may collect what the producer made."
+            },
+            {
               "id": "c",
-              "text": "Both claims should be rejected, because the word right was used."
+              "text": "Both claims should be rejected, because the word right was used, so the sanction is rejected too."
             },
             {
               "id": "d",
-              "text": "The taking is a non-essential, so a compromise requires handing the product over."
+              "text": "The taking is a non-essential, so a compromise requires handing the product over. It is a courtesy."
             }
           ],
           "feedback": {
@@ -3452,6 +3452,10 @@
               "text": "A yes"
             },
             {
+              "id": "d1",
+              "text": "to both claims"
+            },
+            {
               "id": "t2",
               "text": "to one claim"
             },
@@ -3460,20 +3464,16 @@
               "text": "is not"
             },
             {
+              "id": "d2",
+              "text": "to the glue"
+            },
+            {
               "id": "t4",
               "text": "a yes"
             },
             {
               "id": "t5",
               "text": "to the other"
-            },
-            {
-              "id": "d1",
-              "text": "to both claims"
-            },
-            {
-              "id": "d2",
-              "text": "to the glue"
             }
           ],
           "answer": [
@@ -3496,7 +3496,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "There is no error. Every concession is a surrender of principle."
+              "text": "There is no error. Every concession is a surrender of principle, and this hour counts."
             },
             {
               "id": "b",
@@ -3504,11 +3504,11 @@
             },
             {
               "id": "c",
-              "text": "He is applying justice, because an hour is another person's product."
+              "text": "He is applying justice, because an hour is another person's product. The hour stays put."
             },
             {
               "id": "d",
-              "text": "He is right because the hour was metaphysically fixed."
+              "text": "He is right because the hour was metaphysically fixed, and the clock left no other time."
             }
           ],
           "feedback": {
@@ -3531,12 +3531,12 @@
               "text": "One question, using the glue-word, so one answer covers both claims."
             },
             {
-              "id": "b",
-              "text": "Two questions, one for each claim, answered one at a time."
-            },
-            {
               "id": "c",
               "text": "A ritual recitation of the word, with no question asked."
+            },
+            {
+              "id": "b",
+              "text": "Two questions, one for each claim, answered one at a time."
             },
             {
               "id": "d",
@@ -3555,10 +3555,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Is concern with one's own rational interests good? Is brutality good?"
-            },
-            {
               "id": "b",
               "text": "Is selfishness good, asked slowly? Is selfishness good, asked loudly?"
             },
@@ -3569,6 +3565,10 @@
             {
               "id": "d",
               "text": "Is every concession a surrender? Is every right a claim on a product?"
+            },
+            {
+              "id": "a",
+              "text": "Is concern with one's own rational interests good? Is brutality good?"
             }
           ],
           "feedback": {
@@ -3628,9 +3628,9 @@
             }
           ],
           "bank": [
-            "one at a time",
             "as one verdict",
             "by applause",
+            "one at a time",
             "by gesture"
           ],
           "feedback": {
@@ -3650,15 +3650,15 @@
             },
             {
               "id": "b",
-              "text": "It leaves people free of initiated force, and the seizure is not force."
+              "text": "It leaves people free of initiated force, and the seizure is not force. Owners consented."
             },
             {
               "id": "c",
-              "text": "It is a trade about a non-essential, and no principle is involved."
+              "text": "It is a trade about a non-essential, and no principle is involved. It is negotiable."
             },
             {
               "id": "d",
-              "text": "It sanctions the printers' own action and claims nothing they produced."
+              "text": "It sanctions the printers' own action and claims nothing they produced. Nothing is lost."
             }
           ],
           "feedback": {
@@ -3709,6 +3709,10 @@
               "text": "two questions"
             },
             {
+              "id": "d1",
+              "text": "one glued question"
+            },
+            {
               "id": "t3",
               "text": "and"
             },
@@ -3717,16 +3721,12 @@
               "text": "answer each"
             },
             {
-              "id": "t5",
-              "text": "by itself"
-            },
-            {
-              "id": "d1",
-              "text": "one glued question"
-            },
-            {
               "id": "d2",
               "text": "with one feeling"
+            },
+            {
+              "id": "t5",
+              "text": "by itself"
             }
           ],
           "answer": [
@@ -3749,19 +3749,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "It is a right because the council used the word, and a compromise because the owner was mentioned."
+              "text": "It is a right because the council used the word, and a compromise because the owner was mentioned, so the wording alone justifies the seizure."
+            },
+            {
+              "id": "c",
+              "text": "It is freedom from force, and therefore a form of rational self-interest, so both words are precise, and the owner has suffered no loss."
             },
             {
               "id": "b",
               "text": "It claims another's product rather than sanctioning his action, and it surrenders the principle of rights rather than trading a non-essential."
             },
             {
-              "id": "c",
-              "text": "It is freedom from force, and therefore a form of rational self-interest, so both words are precise."
-            },
-            {
               "id": "d",
-              "text": "It is a ritual gesture, so neither word needs to be opened."
+              "text": "It is a ritual gesture, so neither word needs to be opened. The naming ceremony authorizes the seizure without checking either word."
             }
           ],
           "feedback": {
@@ -3780,10 +3780,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A conclusion that does not fit a known fact."
-            },
-            {
               "id": "b",
               "text": "Two feelings that pull in different directions."
             },
@@ -3794,6 +3790,10 @@
             {
               "id": "d",
               "text": "Two metaphysically given facts that contradict each other."
+            },
+            {
+              "id": "a",
+              "text": "A conclusion that does not fit a known fact."
             }
           ],
           "feedback": {
@@ -3808,12 +3808,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "There is none, because a plan is itself a fact about the road."
-            },
-            {
               "id": "b",
               "text": "The conclusion does not fit the known fact that the road is closed."
+            },
+            {
+              "id": "a",
+              "text": "There is none, because a plan is itself a fact about the road."
             },
             {
               "id": "c",
@@ -3881,10 +3881,10 @@
             }
           ],
           "bank": [
-            "fact",
             "mood",
             "vote",
-            "style"
+            "style",
+            "fact"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -3899,19 +3899,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "The scale reads ten pounds. The conclusion says the parcel weighs thirty."
-            },
-            {
-              "id": "b",
-              "text": "The witness was elsewhere. The conclusion says he saw the event."
+              "text": "The scale reads ten pounds. The conclusion says the parcel weighs thirty. The bill says thirty."
             },
             {
               "id": "c",
               "text": "You wish the scale read thirty, and your conclusion still says ten, matching the scale."
             },
             {
+              "id": "b",
+              "text": "The witness was elsewhere. The conclusion says he saw the event. He still claims the scene."
+            },
+            {
               "id": "d",
-              "text": "The reagent did not change color. The conclusion says it did."
+              "text": "The reagent did not change color. The conclusion says it did. The lab note records a change."
             }
           ],
           "feedback": {
@@ -3926,16 +3926,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A clash is a fault in a conclusion, not a feature of the facts."
-            },
-            {
               "id": "b",
               "text": "He is right, because two reports are two realities."
             },
             {
               "id": "c",
               "text": "He is right whenever the person who concluded was sincere."
+            },
+            {
+              "id": "a",
+              "text": "A clash is a fault in a conclusion, not a feature of the facts."
             },
             {
               "id": "d",
@@ -3958,6 +3958,10 @@
               "text": "A clash"
             },
             {
+              "id": "d1",
+              "text": "a disliked fact"
+            },
+            {
               "id": "t2",
               "text": "is a conclusion"
             },
@@ -3968,10 +3972,6 @@
             {
               "id": "t4",
               "text": "a known fact"
-            },
-            {
-              "id": "d1",
-              "text": "a disliked fact"
             },
             {
               "id": "d2",
@@ -3997,19 +3997,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Yes. A clash exists only after you announce it."
+              "text": "Yes. A clash exists only after you announce it, so silence about the mismatch removes it."
+            },
+            {
+              "id": "c",
+              "text": "Yes. A measurement is a wish written with decimal points, so the scale can be ignored."
+            },
+            {
+              "id": "d",
+              "text": "No. Every measurement abolishes the principle of identity, so facts cannot clash."
             },
             {
               "id": "b",
               "text": "No. The clash is the mismatch with the known fact, whether or not you have named it."
-            },
-            {
-              "id": "c",
-              "text": "Yes. A measurement is a wish written with decimal points."
-            },
-            {
-              "id": "d",
-              "text": "No. Every measurement abolishes the principle of identity."
             }
           ],
           "feedback": {
@@ -4028,12 +4028,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "The fact, rewritten until the conclusion sits comfortably."
-            },
-            {
               "id": "b",
               "text": "The conclusion. The fact holds."
+            },
+            {
+              "id": "a",
+              "text": "The fact, rewritten until the conclusion sits comfortably."
             },
             {
               "id": "c",
@@ -4147,19 +4147,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He keeps the fact and drops the plan."
+              "text": "He keeps the fact and drops the plan, and that surrender is the mistake."
+            },
+            {
+              "id": "c",
+              "text": "He traces the plan to the premise that the beam was long enough. Length must not accuse."
             },
             {
               "id": "b",
               "text": "He treats the clash as unknowable, and the conclusion is shielded from the fact."
             },
             {
-              "id": "c",
-              "text": "He traces the plan to the premise that the beam was long enough."
-            },
-            {
               "id": "d",
-              "text": "He distinguishes a given length from a man-made plan."
+              "text": "He distinguishes a given length from a man-made plan, apart from the mind's forms."
             }
           ],
           "feedback": {
@@ -4174,10 +4174,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Pragmatism: what works for the plan is allowed to rewrite the fact."
-            },
-            {
               "id": "b",
               "text": "A proper check, because a schedule is evidence about the beam."
             },
@@ -4188,6 +4184,10 @@
             {
               "id": "d",
               "text": "Hierarchy: a schedule rests on a measurement by coming before it."
+            },
+            {
+              "id": "a",
+              "text": "Pragmatism: what works for the plan is allowed to rewrite the fact."
             }
           ],
           "feedback": {
@@ -4202,6 +4202,10 @@
           "prompt": "Build the rule for the side of the clash that stands.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "is rewritten"
+            },
+            {
               "id": "t1",
               "text": "The fact"
             },
@@ -4214,20 +4218,16 @@
               "text": "and"
             },
             {
+              "id": "d2",
+              "text": "takes a vote"
+            },
+            {
               "id": "t4",
               "text": "the conclusion"
             },
             {
               "id": "t5",
               "text": "gives way"
-            },
-            {
-              "id": "d1",
-              "text": "is rewritten"
-            },
-            {
-              "id": "d2",
-              "text": "takes a vote"
             }
           ],
           "answer": [
@@ -4249,20 +4249,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "Letting the fact hold and withdrawing the conclusion."
-            },
-            {
               "id": "b",
               "text": "Hiding the clash, while still using the conclusion the fact refutes."
             },
             {
+              "id": "a",
+              "text": "Letting the fact hold and withdrawing the conclusion. Yielding is wrong."
+            },
+            {
               "id": "c",
-              "text": "Replacing the premise so the new conclusion fits the fact."
+              "text": "Replacing the premise so the new conclusion fits the fact. Fit is the error."
             },
             {
               "id": "d",
-              "text": "Showing that the fact was misreported."
+              "text": "Showing that the fact was misreported, so the record is what failed."
             }
           ],
           "feedback": {
@@ -4281,12 +4281,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Trace the conclusion to the premise that produced it."
-            },
-            {
               "id": "b",
               "text": "Rewrite the fact in milder language."
+            },
+            {
+              "id": "a",
+              "text": "Trace the conclusion to the premise that produced it."
             },
             {
               "id": "c",
@@ -4309,16 +4309,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The premise that a sincere plan succeeds."
-            },
-            {
               "id": "b",
               "text": "The claim that plans are human actions, which did not generate the guarantee."
             },
             {
               "id": "c",
               "text": "The axiom that existence exists, because every error refutes an axiom."
+            },
+            {
+              "id": "a",
+              "text": "The premise that a sincere plan succeeds."
             },
             {
               "id": "d",
@@ -4382,8 +4382,8 @@
             }
           ],
           "bank": [
-            "premise",
             "fact",
+            "premise",
             "audience",
             "gesture"
           ],
@@ -4400,19 +4400,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Nothing. An emotion is the cognition that produces a conclusion."
+              "text": "Nothing. An emotion is the cognition that produces a conclusion. Desire concluded it."
+            },
+            {
+              "id": "c",
+              "text": "The wanting refutes the known fact, and the evidence loses to the opposing wish."
+            },
+            {
+              "id": "d",
+              "text": "A strong want is an axiom, so the trace properly stops there, before the real premise."
             },
             {
               "id": "b",
               "text": "Wanting is not the premise. The premise is the claim that did the logical work."
-            },
-            {
-              "id": "c",
-              "text": "The wanting refutes the known fact."
-            },
-            {
-              "id": "d",
-              "text": "A strong want is an axiom, so the trace properly stops there."
             }
           ],
           "feedback": {
@@ -4427,20 +4427,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "He traced the conclusion to the premise that produced it."
-            },
-            {
               "id": "b",
               "text": "He traced it to a claim that did not produce it, because that claim was easier to attack."
             },
             {
+              "id": "a",
+              "text": "He traced the conclusion to the premise that produced it, so the guarantee was identified."
+            },
+            {
               "id": "c",
-              "text": "He kept the fact and dropped the contradicted conclusion."
+              "text": "He kept the fact and dropped the contradicted conclusion, and that sequence is the mistake."
             },
             {
               "id": "d",
-              "text": "He replaced the guarantee with a demand that the result be checked."
+              "text": "He replaced the guarantee with a demand that the result be checked, and the swap is the error."
             }
           ],
           "feedback": {
@@ -4459,8 +4459,16 @@
               "text": "Trace"
             },
             {
+              "id": "d1",
+              "text": "to the wish"
+            },
+            {
               "id": "t2",
               "text": "the conclusion"
+            },
+            {
+              "id": "d2",
+              "text": "to every axiom"
             },
             {
               "id": "t3",
@@ -4469,14 +4477,6 @@
             {
               "id": "t4",
               "text": "that produced it"
-            },
-            {
-              "id": "d1",
-              "text": "to the wish"
-            },
-            {
-              "id": "d2",
-              "text": "to every axiom"
             }
           ],
           "answer": [
@@ -4498,7 +4498,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "That he agreed, because the sentence mentions him."
+              "text": "That he agreed, because the sentence mentions him, so agreement is the failed premise."
             },
             {
               "id": "b",
@@ -4506,11 +4506,11 @@
             },
             {
               "id": "c",
-              "text": "Both equally, because every premise mentioned near a conclusion is guilty."
+              "text": "Both equally, because every premise mentioned near a conclusion is guilty. Both claims must go."
             },
             {
               "id": "d",
-              "text": "That he falsified the report, because the fact is the premise that failed."
+              "text": "That he falsified the report, because the fact is the premise that failed. The fact is replaced."
             }
           ],
           "feedback": {
@@ -4529,20 +4529,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Shield it, because the conclusion was wanted, treating the wish as confirmation."
+            },
+            {
+              "id": "c",
+              "text": "Rewrite the fact so the premise no longer has to face it. The fact is on trial."
+            },
+            {
               "id": "a",
               "text": "Check that premise against the fact, and see whether it can still stand."
             },
             {
-              "id": "b",
-              "text": "Shield it, because the conclusion was wanted."
-            },
-            {
-              "id": "c",
-              "text": "Rewrite the fact so the premise no longer has to face it."
-            },
-            {
               "id": "d",
-              "text": "Discard every idea you hold, in case the failure is total."
+              "text": "Discard every idea you hold, in case the failure is total. Knowledge ends there."
             }
           ],
           "feedback": {
@@ -4630,9 +4630,9 @@
             }
           ],
           "bank": [
-            "fact",
             "wish",
             "vote",
+            "fact",
             "slogan"
           ],
           "feedback": {
@@ -4647,12 +4647,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "The premise stands, because the wish was sincere."
-            },
-            {
               "id": "b",
               "text": "The premise does not stand. The wish did not change the measurement."
+            },
+            {
+              "id": "a",
+              "text": "The premise stands, because the wish was sincere."
             },
             {
               "id": "c",
@@ -4675,12 +4675,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Shielding the premise because the conclusion was wanted."
-            },
-            {
               "id": "b",
               "text": "A completed inspection, because a project is a form of proof."
+            },
+            {
+              "id": "a",
+              "text": "Shielding the premise because the conclusion was wanted."
             },
             {
               "id": "c",
@@ -4711,20 +4711,20 @@
               "text": "the premise"
             },
             {
-              "id": "t3",
-              "text": "against"
-            },
-            {
-              "id": "t4",
-              "text": "the fact"
-            },
-            {
               "id": "d1",
               "text": "against the wish"
             },
             {
+              "id": "t3",
+              "text": "against"
+            },
+            {
               "id": "d2",
               "text": "and drop every axiom"
+            },
+            {
+              "id": "t4",
+              "text": "the fact"
             }
           ],
           "answer": [
@@ -4746,19 +4746,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He inspected one premise and kept the ideas that did not produce the clash."
+              "text": "He inspected one premise and kept the ideas that did not produce the clash. Sparing them was wrong."
+            },
+            {
+              "id": "c",
+              "text": "He rewrote the fact in order to save the axioms, so the axioms never meet the measurement."
             },
             {
               "id": "b",
               "text": "He discarded every idea because one premise failed, which is more than the inspection showed."
             },
             {
-              "id": "c",
-              "text": "He rewrote the fact in order to save the axioms."
-            },
-            {
               "id": "d",
-              "text": "He shielded the failed premise because the conclusion was useful."
+              "text": "He shielded the failed premise because the conclusion was useful, so the useful result stands."
             }
           ],
           "feedback": {
@@ -4785,12 +4785,12 @@
               "text": "Be the emotional opposite of the old premise."
             },
             {
-              "id": "c",
-              "text": "Make the new conclusion fit the fact."
-            },
-            {
               "id": "d",
               "text": "Save as much of the old conclusion as the project still needs."
+            },
+            {
+              "id": "c",
+              "text": "Make the new conclusion fit the fact."
             }
           ],
           "feedback": {
@@ -4810,15 +4810,15 @@
             },
             {
               "id": "b",
-              "text": "Nothing about a result can be known, so the failure is neither real nor unreal."
+              "text": "Nothing about a result can be known, so the failure is neither real nor unreal, and repairs cannot be known."
             },
             {
               "id": "c",
-              "text": "The confidence was not intense enough, so the old premise stands in a stronger form."
+              "text": "The confidence was not intense enough, so the old premise stands in a stronger form. Intensity was lacking."
             },
             {
               "id": "d",
-              "text": "The record of failure was a mood, so the result succeeded."
+              "text": "The record of failure was a mood, so the result succeeded, and the failure should be struck from the books."
             }
           ],
           "feedback": {
@@ -4878,10 +4878,10 @@
             }
           ],
           "bank": [
-            "fact",
             "mood",
             "slogan",
-            "project"
+            "project",
+            "fact"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -4896,7 +4896,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "Yes, because it is the opposite of the old premise."
+              "text": "Yes, because it is the opposite of the old premise, and the opposite repairs itself."
             },
             {
               "id": "b",
@@ -4904,11 +4904,11 @@
             },
             {
               "id": "c",
-              "text": "Yes, because a stronger suspicion is always the safer premise."
+              "text": "Yes, because a stronger suspicion is always the safer premise. Safety settles it."
             },
             {
               "id": "d",
-              "text": "No, because the original premise should have been shielded."
+              "text": "No, because the original premise should have been shielded, so the fraud is irrelevant."
             }
           ],
           "feedback": {
@@ -4924,19 +4924,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "It performed the method, because saying the words is the method."
+              "text": "It performed the method, because saying the words is the method, so the utterance was the check."
+            },
+            {
+              "id": "c",
+              "text": "It rewrote the fact, which is the step the method requires, so the observation is altered."
             },
             {
               "id": "b",
               "text": "It named the method and did not use it. The premise was not traced, checked, or replaced."
             },
             {
-              "id": "c",
-              "text": "It rewrote the fact, which is the step the method requires."
-            },
-            {
               "id": "d",
-              "text": "It supplied evidence, because words about a method are a kind of proof."
+              "text": "It supplied evidence, because words about a method are a kind of proof. The conclusion survives."
             }
           ],
           "feedback": {
@@ -4963,12 +4963,12 @@
               "text": "the new conclusion"
             },
             {
-              "id": "t4",
-              "text": "fit the fact"
-            },
-            {
               "id": "d1",
               "text": "echo the wish"
+            },
+            {
+              "id": "t4",
+              "text": "fit the fact"
             },
             {
               "id": "d2",
@@ -4994,15 +4994,15 @@
           "choices": [
             {
               "id": "a",
-              "text": "Rewrite the gains as losses, so the exploitation premise survives."
+              "text": "Rewrite the gains as losses, so the exploitation premise survives, and both parties are recorded as victims."
             },
             {
               "id": "b",
-              "text": "Drop trade, rights, and identity together, because one conclusion failed."
+              "text": "Drop trade, rights, and identity together, because one conclusion failed, so the whole context goes."
             },
             {
               "id": "c",
-              "text": "Keep the exploitation premise, because the condemnation was the wanted conclusion."
+              "text": "Keep the exploitation premise, because the condemnation was the wanted conclusion, ahead of the facts."
             },
             {
               "id": "d",

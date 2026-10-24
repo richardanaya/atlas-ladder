@@ -10,12 +10,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "A state-run economy that grants favors to selected firms"
-            },
-            {
               "id": "b",
               "text": "Capitalism"
+            },
+            {
+              "id": "a",
+              "text": "A state-run economy that grants favors to selected firms"
             },
             {
               "id": "c",
@@ -39,20 +39,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Capitalism: government ownership, with private managers carrying out the plan the state sets"
+            },
+            {
               "id": "a",
               "text": "Capitalism: individual rights, including property rights, and fully private ownership"
             },
             {
-              "id": "b",
-              "text": "Capitalism: government ownership, with private managers under a plan"
-            },
-            {
               "id": "c",
-              "text": "Capitalism: a preference for growth, whether or not rights are recognized"
+              "text": "Capitalism: a preference for growth, whether or not rights are recognized in law"
             },
             {
               "id": "d",
-              "text": "Capitalism: the state's right to direct whatever is called private property"
+              "text": "Capitalism: the state's right to direct whatever is called private property, licenses and all"
             }
           ],
           "feedback": {
@@ -77,12 +77,12 @@
               "text": "Trade between private owners"
             },
             {
-              "id": "c",
-              "text": "Courts that protect contracts and punish fraud"
-            },
-            {
               "id": "d",
               "text": "The state as owner of the means of production"
+            },
+            {
+              "id": "c",
+              "text": "Courts that protect contracts and punish fraud"
             }
           ],
           "feedback": {
@@ -98,19 +98,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "There is no error, because any market word names the system"
+              "text": "There is no error, because any market word names the system, so favors to firms are capitalism"
             },
             {
               "id": "b",
-              "text": "Subsidies are private property in the state's hands"
+              "text": "Subsidies are private property in the state's hands, so a grant to a favored firm is private title"
+            },
+            {
+              "id": "d",
+              "text": "A license is the separation of state and economics, so permission to produce is laissez-faire"
             },
             {
               "id": "c",
               "text": "Licenses and subsidies are not a system of rights in which all property is privately owned"
-            },
-            {
-              "id": "d",
-              "text": "A license is the separation of state and economics"
             }
           ],
           "feedback": {
@@ -195,20 +195,20 @@
               "text": "recognizes"
             },
             {
-              "id": "t3",
-              "text": "rights"
-            },
-            {
-              "id": "t4",
-              "text": "and private property"
-            },
-            {
               "id": "d1",
               "text": "and state ownership"
             },
             {
+              "id": "t3",
+              "text": "rights"
+            },
+            {
               "id": "d2",
               "text": "and political favors"
+            },
+            {
+              "id": "t4",
+              "text": "and private property"
             }
           ],
           "answer": [
@@ -229,20 +229,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "He is right, because rights apply only inside a sector the state chooses to leave alone"
-            },
-            {
               "id": "b",
               "text": "The system requires that all property be privately owned, not a private corner beside state control"
             },
             {
+              "id": "a",
+              "text": "He is right, because rights apply only inside a sector the state chooses to leave alone, not beyond it"
+            },
+            {
               "id": "c",
-              "text": "State ownership is a form of private property"
+              "text": "State ownership is a form of private property, so a public title to the other firms still counts"
             },
             {
               "id": "d",
-              "text": "Direction by the state is laissez-faire whenever the firms keep their names"
+              "text": "Direction by the state is laissez-faire whenever the firms keep their names painted on the door"
             }
           ],
           "feedback": {
@@ -261,12 +261,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "From individual rights, including property rights"
-            },
-            {
               "id": "b",
               "text": "From a taste for busy markets"
+            },
+            {
+              "id": "a",
+              "text": "From individual rights, including property rights"
             },
             {
               "id": "c",
@@ -324,16 +324,16 @@
               "text": "State ownership, treated as the implementation of those rights"
             },
             {
-              "id": "b",
-              "text": "Capitalism, in which all property is privately owned"
-            },
-            {
               "id": "c",
               "text": "A system of special favors, as the reward of political virtue"
             },
             {
               "id": "d",
               "text": "No system, because rights are silent about property and production"
+            },
+            {
+              "id": "b",
+              "text": "Capitalism, in which all property is privately owned"
             }
           ],
           "feedback": {
@@ -348,6 +348,10 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "The case starts from rights, not from a growth figure"
+            },
+            {
               "id": "a",
               "text": "Nothing. Output is the moral base, and rights are a later decoration"
             },
@@ -358,10 +362,6 @@
             {
               "id": "c",
               "text": "Rights forbid private property, so the number is all that remains"
-            },
-            {
-              "id": "d",
-              "text": "The case starts from rights, not from a growth figure"
             }
           ],
           "feedback": {
@@ -421,8 +421,8 @@
             }
           ],
           "bank": [
-            "rights",
             "tastes",
+            "rights",
             "quotas",
             "omens"
           ],
@@ -450,12 +450,12 @@
               "text": "from"
             },
             {
-              "id": "t4",
-              "text": "individual rights"
-            },
-            {
               "id": "d1",
               "text": "from a growth number"
+            },
+            {
+              "id": "t4",
+              "text": "individual rights"
             },
             {
               "id": "d2",
@@ -480,20 +480,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "He is right, because only speech is a right and labor is a privilege the state may command at will"
+            },
+            {
               "id": "a",
               "text": "Rights are rights to action, including producing and keeping property, not a permit outside them"
             },
             {
-              "id": "b",
-              "text": "He is right, because only speech is a right and labor is a privilege"
-            },
-            {
               "id": "c",
-              "text": "Commanding production is retaliation against the act of trade"
+              "text": "Commanding production is retaliation against the act of trade, since working was the first force"
             },
             {
               "id": "d",
-              "text": "Property is not among the consequences of the right to life"
+              "text": "Property is not among the consequences of the right to life, so earnings fall outside rights"
             }
           ],
           "feedback": {
@@ -542,19 +542,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "It is justified by sacrificing each man to a collective good"
+              "text": "It is justified by sacrificing each man to a collective good, which is what his nature is for"
+            },
+            {
+              "id": "c",
+              "text": "It needs no moral justification, because it is only a preference, and justice does not apply"
+            },
+            {
+              "id": "d",
+              "text": "Its ruling principle is favoritism toward the well connected, so pull replaces what each man earned"
             },
             {
               "id": "b",
               "text": "It accords with man's rational nature, protects his survival as man, and is ruled by justice"
-            },
-            {
-              "id": "c",
-              "text": "It needs no moral justification, because it is only a preference"
-            },
-            {
-              "id": "d",
-              "text": "Its ruling principle is favoritism toward the well connected"
             }
           ],
           "feedback": {
@@ -576,15 +576,15 @@
             },
             {
               "id": "b",
-              "text": "The state assigns rewards by political pull"
+              "text": "The state assigns rewards by political pull, and that assignment by connection is justice"
             },
             {
               "id": "c",
-              "text": "The productive are sacrificed to those who produce nothing, as a duty"
+              "text": "The productive are sacrificed to those who produce nothing, as a duty justice imposes"
             },
             {
               "id": "d",
-              "text": "Outcomes are equalized regardless of what anyone did"
+              "text": "Outcomes are equalized regardless of what anyone did, and that result is justice"
             }
           ],
           "feedback": {
@@ -644,9 +644,9 @@
             }
           ],
           "bank": [
-            "justice",
             "sacrifice",
             "pull",
+            "justice",
             "chance"
           ],
           "feedback": {
@@ -661,6 +661,10 @@
           "prompt": "Build the principle in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "with a brute preference"
+            },
+            {
               "id": "t1",
               "text": "Capitalism"
             },
@@ -673,16 +677,12 @@
               "text": "with"
             },
             {
-              "id": "t4",
-              "text": "man's rational nature"
-            },
-            {
-              "id": "d1",
-              "text": "with a brute preference"
-            },
-            {
               "id": "d2",
               "text": "with an altruist sacrifice"
+            },
+            {
+              "id": "t4",
+              "text": "man's rational nature"
             }
           ],
           "answer": [
@@ -704,19 +704,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He is right, because politics stands outside morality"
-            },
-            {
-              "id": "b",
-              "text": "He is right, because both systems equally protect rights"
-            },
-            {
-              "id": "c",
-              "text": "A preference for control is justice"
+              "text": "He is right, because politics stands outside morality, so justice does not apply"
             },
             {
               "id": "d",
               "text": "The justification is moral: only capitalism accords with man's rational nature"
+            },
+            {
+              "id": "b",
+              "text": "He is right, because both systems equally protect rights, so either choice is just"
+            },
+            {
+              "id": "c",
+              "text": "A preference for control is justice, so production orders are what justice requires"
             }
           ],
           "feedback": {
@@ -732,19 +732,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He is right, because justice means group wealth"
+              "text": "He is right, because justice means group wealth, so using each man as a means to that wealth is the moral justification"
+            },
+            {
+              "id": "c",
+              "text": "Rational nature means the person exists for the nation, so his survival as man consists in service to that collective end"
             },
             {
               "id": "b",
               "text": "That is an altruist common-good defense; the justification is his nature as a rational being, not his use as a means"
             },
             {
-              "id": "c",
-              "text": "Rational nature means the person exists for the nation"
-            },
-            {
               "id": "d",
-              "text": "A common-good sacrifice is the same claim as the right to one's own life"
+              "text": "A common-good sacrifice is the same claim as the right to one's own life, so giving him up to the group fulfills it"
             }
           ],
           "feedback": {
@@ -763,10 +763,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Separation of state and economics"
-            },
-            {
               "id": "b",
               "text": "State direction of economics whenever the cause is called good"
             },
@@ -777,6 +773,10 @@
             {
               "id": "d",
               "text": "A license system that hands special favors to selected firms"
+            },
+            {
+              "id": "a",
+              "text": "Separation of state and economics"
             }
           ],
           "feedback": {
@@ -792,20 +792,20 @@
           "answer": "c",
           "choices": [
             {
-              "id": "a",
-              "text": "A regulated system of favors, with the state directing production"
-            },
-            {
-              "id": "b",
-              "text": "The state runs production but is kept out of the churches"
-            },
-            {
               "id": "c",
               "text": "Full laissez-faire, separating state and economics as state and church are separated"
             },
             {
+              "id": "a",
+              "text": "A regulated system of favors, with the state directing production and naming it capitalism"
+            },
+            {
+              "id": "b",
+              "text": "The state runs production but is kept out of the churches, and that split is the separation"
+            },
+            {
               "id": "d",
-              "text": "Unregulated means no protection of contracts and no courts"
+              "text": "Unregulated means no protection of contracts and no courts left to answer fraud"
             }
           ],
           "feedback": {
@@ -823,7 +823,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "It rules out the police, and it keeps subsidies to favored firms"
+              "text": "It rules out the police, and it keeps subsidies to favored firms as the function that remains"
             },
             {
               "id": "b",
@@ -831,11 +831,11 @@
             },
             {
               "id": "c",
-              "text": "It rules out private choices of what to produce, and it keeps a planning board"
+              "text": "It rules out private choices of what to produce, and it keeps a planning board in charge"
             },
             {
               "id": "d",
-              "text": "It rules out courts, and it keeps a bureau that sets prices"
+              "text": "It rules out courts, and it keeps a bureau that sets prices in place of private bargains"
             }
           ],
           "feedback": {
@@ -895,10 +895,10 @@
             }
           ],
           "bank": [
-            "economics",
             "property",
             "courts",
-            "defense"
+            "defense",
+            "economics"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -916,6 +916,10 @@
               "text": "Laissez-faire"
             },
             {
+              "id": "d1",
+              "text": "and merges them"
+            },
+            {
               "id": "t2",
               "text": "separates"
             },
@@ -926,10 +930,6 @@
             {
               "id": "t4",
               "text": "and economics"
-            },
-            {
-              "id": "d1",
-              "text": "and merges them"
             },
             {
               "id": "d2",
@@ -962,12 +962,12 @@
               "text": "Competition is initiated force, so the ban is retaliatory"
             },
             {
-              "id": "c",
-              "text": "Separation of state and economics requires bans of this kind"
-            },
-            {
               "id": "d",
               "text": "A ban that protects a favorite is a special favor, which laissez-faire rules out"
+            },
+            {
+              "id": "c",
+              "text": "Separation of state and economics requires bans of this kind"
             }
           ],
           "feedback": {
@@ -982,20 +982,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Laissez-faire separates state and economics; it does not abolish the protection of rights"
-            },
-            {
               "id": "b",
-              "text": "He is right, because any institution is economic control"
+              "text": "He is right, because any institution is economic control, so the police already run production"
             },
             {
               "id": "c",
-              "text": "Courts are special favors by definition"
+              "text": "Courts are special favors by definition, so judging a contract is a subsidy to one party"
             },
             {
               "id": "d",
-              "text": "Police work is government running of production"
+              "text": "Police work is government running of production, so arresting a thief directs the economy"
+            },
+            {
+              "id": "a",
+              "text": "Laissez-faire separates state and economics; it does not abolish the protection of rights"
             }
           ],
           "feedback": {
@@ -1014,20 +1014,20 @@
           "answer": "c",
           "choices": [
             {
-              "id": "a",
-              "text": "Growth figures come first, rights are optional, and the state may own the person"
-            },
-            {
-              "id": "b",
-              "text": "The state is the end, persons are its means, and favors follow"
-            },
-            {
               "id": "c",
               "text": "Each person is an end in himself; rights follow; laissez-faire capitalism respects those rights"
             },
             {
+              "id": "a",
+              "text": "Growth figures come first, rights are optional, and the state may own the person to lift the figures"
+            },
+            {
+              "id": "b",
+              "text": "The state is the end, persons are its means, and favors follow from the state's ownership of them"
+            },
+            {
               "id": "d",
-              "text": "Capitalism comes first, and rights are whatever surviving firms will allow"
+              "text": "Capitalism comes first, and rights are whatever surviving firms will allow after they have succeeded"
             }
           ],
           "feedback": {
@@ -1044,7 +1044,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "Man exists to be used for the state's ends"
+              "text": "Man exists to be used for the state's ends, and his highest purpose is whatever goal the state assigns to him"
             },
             {
               "id": "b",
@@ -1052,11 +1052,11 @@
             },
             {
               "id": "c",
-              "text": "Happiness is a whim with no tie to values he has achieved"
+              "text": "Happiness is a whim with no tie to values he has achieved, and the passage treats that whim as the purpose"
             },
             {
               "id": "d",
-              "text": "A person is a means to a common good, and that use is his purpose"
+              "text": "A person is a means to a common good, and that use is his purpose, so he exists for the group alone"
             }
           ],
           "feedback": {
@@ -1073,20 +1073,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Ownership of his life by the public, so his action waits on the nation"
+            },
+            {
+              "id": "c",
+              "text": "A duty to be disposed of for a national purpose, with his own ends set by the officials"
+            },
+            {
               "id": "a",
               "text": "Rights to action, including property, which laissez-faire capitalism recognizes"
             },
             {
-              "id": "b",
-              "text": "Ownership of his life by the public"
-            },
-            {
-              "id": "c",
-              "text": "A duty to be disposed of for a national purpose"
-            },
-            {
               "id": "d",
-              "text": "Permits that create his freedom after officials approve his ends"
+              "text": "Permits that create his freedom only after officials approve the ends he may hold"
             }
           ],
           "feedback": {
@@ -1163,8 +1163,16 @@
           "prompt": "Build the principle in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "the state is the end"
+            },
+            {
               "id": "t1",
               "text": "Because"
+            },
+            {
+              "id": "d2",
+              "text": "favors follow"
             },
             {
               "id": "t2",
@@ -1177,14 +1185,6 @@
             {
               "id": "t4",
               "text": "rights follow"
-            },
-            {
-              "id": "d1",
-              "text": "the state is the end"
-            },
-            {
-              "id": "d2",
-              "text": "favors follow"
             }
           ],
           "answer": [
@@ -1206,19 +1206,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He is right, because firms create rights by being successful"
+              "text": "He is right, because firms create rights by being successful, and success is the source"
             },
             {
               "id": "b",
-              "text": "Rights are a brute preference for growth, so the firms should write them"
+              "text": "Rights are a brute preference for growth, so the firms the planner likes should write them"
+            },
+            {
+              "id": "d",
+              "text": "Laissez-faire means favors for whichever firms the planner likes, with rights cut to match"
             },
             {
               "id": "c",
               "text": "The order is reversed: rights come first, and the system is the one that respects them"
-            },
-            {
-              "id": "d",
-              "text": "Laissez-faire means favors for whichever firms the planner likes"
             }
           ],
           "feedback": {
@@ -1233,20 +1233,20 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "Being an end sanctions his freedom of action; it is not a claim on other people's products"
+            },
+            {
               "id": "a",
-              "text": "He is right, because an end must be supplied by other people's effort"
+              "text": "He is right, because an end must be supplied by other people's effort and by their goods"
             },
             {
               "id": "b",
-              "text": "Other people's products are the fundamental right"
+              "text": "Other people's products are the fundamental right his standing as an end requires of them"
             },
             {
               "id": "c",
-              "text": "Laissez-faire means the state distributes goods to each person as an end"
-            },
-            {
-              "id": "d",
-              "text": "Being an end sanctions his freedom of action; it is not a claim on other people's products"
+              "text": "Laissez-faire means the state distributes goods to each person because he is an end"
             }
           ],
           "feedback": {
@@ -1293,16 +1293,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Physical force against the person"
-            },
-            {
               "id": "b",
               "text": "Only an opinion about where the other man should stay"
             },
             {
               "id": "c",
               "text": "Economic competition"
+            },
+            {
+              "id": "a",
+              "text": "Physical force against the person"
             },
             {
               "id": "d",
@@ -1349,16 +1349,16 @@
           "answer": "c",
           "choices": [
             {
+              "id": "c",
+              "text": "No, because persuasion leaves the listener's judgment intact"
+            },
+            {
               "id": "a",
               "text": "Yes, because any change of mind is compulsion against the body"
             },
             {
               "id": "b",
               "text": "Yes, because a firm conclusion is the same kind of act as a blow"
-            },
-            {
-              "id": "c",
-              "text": "No, because persuasion leaves the listener's judgment intact"
             },
             {
               "id": "d",
@@ -1422,8 +1422,8 @@
             }
           ],
           "bank": [
-            "force",
             "disagreement",
+            "force",
             "taste",
             "error"
           ],
@@ -1443,8 +1443,16 @@
               "text": "Physical force"
             },
             {
+              "id": "d1",
+              "text": "a strong opinion"
+            },
+            {
               "id": "t2",
               "text": "is"
+            },
+            {
+              "id": "d2",
+              "text": "a natural fact"
             },
             {
               "id": "t3",
@@ -1453,14 +1461,6 @@
             {
               "id": "t4",
               "text": "against body or property"
-            },
-            {
-              "id": "d1",
-              "text": "a strong opinion"
-            },
-            {
-              "id": "d2",
-              "text": "a natural fact"
             }
           ],
           "answer": [
@@ -1482,7 +1482,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "He is right, because every loss is an initiation of force by someone"
+              "text": "He is right, because every loss is an initiation of force by someone, crop loss included"
             },
             {
               "id": "b",
@@ -1490,11 +1490,11 @@
             },
             {
               "id": "c",
-              "text": "Robbery is only an opinion, so the harvest is the clearer case of force"
+              "text": "Robbery is only an opinion, so the ruined harvest is the clearer case of force"
             },
             {
               "id": "d",
-              "text": "Force means any strain, so both are force for the same reason"
+              "text": "Force means any strain, so both are force because each leaves him poorer"
             }
           ],
           "feedback": {
@@ -1513,16 +1513,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The person who starts it"
-            },
-            {
               "id": "b",
               "text": "The person who uses force only to stop the one who started it"
             },
             {
               "id": "c",
               "text": "Anyone who merely names the starter"
+            },
+            {
+              "id": "a",
+              "text": "The person who starts it"
             },
             {
               "id": "d",
@@ -1550,12 +1550,12 @@
               "text": "The starter and the person who resists him have the same standing"
             },
             {
-              "id": "c",
-              "text": "No man has the right to initiate physical force against another man"
-            },
-            {
               "id": "d",
               "text": "Starting force is proper whenever the starter succeeds"
+            },
+            {
+              "id": "c",
+              "text": "No man has the right to initiate physical force against another man"
             }
           ],
           "feedback": {
@@ -1572,12 +1572,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "The owner, because he used his hands"
-            },
-            {
               "id": "b",
               "text": "The mugger"
+            },
+            {
+              "id": "a",
+              "text": "The owner, because he used his hands"
             },
             {
               "id": "c",
@@ -1601,19 +1601,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "The first blow, provided the user feels injured"
-            },
-            {
-              "id": "b",
-              "text": "Any force a majority says it approves"
-            },
-            {
-              "id": "c",
-              "text": "Force used to make a peaceful person sign a trade"
+              "text": "The first blow, provided the user feels injured by the other man"
             },
             {
               "id": "d",
               "text": "Force used against the person who has already started force"
+            },
+            {
+              "id": "b",
+              "text": "Any force a majority says it approves, whoever happened to start it"
+            },
+            {
+              "id": "c",
+              "text": "Force used to make a peaceful person sign a trade he refuses"
             }
           ],
           "feedback": {
@@ -1673,9 +1673,9 @@
             }
           ],
           "bank": [
-            "initiate",
             "resist",
             "name",
+            "initiate",
             "describe"
           ],
           "feedback": {
@@ -1698,20 +1698,20 @@
               "text": "may"
             },
             {
-              "id": "t3",
-              "text": "initiate"
-            },
-            {
-              "id": "t4",
-              "text": "physical force"
-            },
-            {
               "id": "d1",
               "text": "may not resist"
             },
             {
+              "id": "t3",
+              "text": "initiate"
+            },
+            {
               "id": "d2",
               "text": "may debate"
+            },
+            {
+              "id": "t4",
+              "text": "physical force"
             }
           ],
           "answer": [
@@ -1732,16 +1732,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It erases the difference between starting force and using force to stop the starter"
-            },
-            {
               "id": "b",
               "text": "He is right, because resistance is always a second initiation"
             },
             {
               "id": "c",
               "text": "The victim's refusal to hand over his goods was itself the first use of force"
+            },
+            {
+              "id": "a",
+              "text": "It erases the difference between starting force and using force to stop the starter"
             },
             {
               "id": "d",
@@ -1772,12 +1772,12 @@
               "text": "Because it is evil only when the initiator happens to be unpopular"
             },
             {
-              "id": "c",
-              "text": "Because it replaces the victim's judgment with compulsion"
-            },
-            {
               "id": "d",
               "text": "Because it counts as evil only after a later vote says so"
+            },
+            {
+              "id": "c",
+              "text": "Because it replaces the victim's judgment with compulsion"
             }
           ],
           "feedback": {
@@ -1797,15 +1797,15 @@
             },
             {
               "id": "b",
-              "text": "Nothing, if the initiator sincerely believes the end is good"
+              "text": "Nothing, if the initiator believes the end is good, since the motive restores his control"
             },
             {
               "id": "c",
-              "text": "Only a mood, which the victim can ignore while his body is compelled"
+              "text": "Only a mood, which the victim can ignore while his body is compelled by the blow"
             },
             {
               "id": "d",
-              "text": "The initiator's own right to life, which he hands to the victim"
+              "text": "The initiator's own right to life, which he hands to the victim by choosing to compel him"
             }
           ],
           "feedback": {
@@ -1824,16 +1824,16 @@
               "text": "Yes, because he spoke the word yes, so the choice was fully his"
             },
             {
+              "id": "d",
+              "text": "No, because the threat replaced his judgment with compulsion"
+            },
+            {
               "id": "b",
               "text": "Yes, because a sale is voluntary whenever money changes hands"
             },
             {
               "id": "c",
               "text": "No, because commerce is outside politics even when a threat is used"
-            },
-            {
-              "id": "d",
-              "text": "No, because the threat replaced his judgment with compulsion"
             }
           ],
           "feedback": {
@@ -1849,19 +1849,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He is right, because a kindly end turns initiation into retaliation"
+              "text": "He is right, because a kindly end turns initiation into retaliation against the man he compels"
+            },
+            {
+              "id": "c",
+              "text": "The basic evil is disagreement, so the compulsion itself is secondary to the motive"
             },
             {
               "id": "b",
               "text": "A claimed good end does not change the fact that force has replaced the man's judgment"
             },
             {
-              "id": "c",
-              "text": "The basic evil is disagreement, so the compulsion itself is secondary"
-            },
-            {
               "id": "d",
-              "text": "Only a foreign invader can initiate force against a peaceful man"
+              "text": "Only a foreign invader can initiate force, so a domestic order for his good is innocent"
             }
           ],
           "feedback": {
@@ -1921,10 +1921,10 @@
             }
           ],
           "bank": [
-            "judgment",
             "comfort",
             "reputation",
-            "salary"
+            "salary",
+            "judgment"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -1950,12 +1950,12 @@
               "text": "judgment"
             },
             {
-              "id": "t4",
-              "text": "with compulsion"
-            },
-            {
               "id": "d1",
               "text": "with persuasion"
+            },
+            {
+              "id": "t4",
+              "text": "with compulsion"
             },
             {
               "id": "d2",
@@ -1988,12 +1988,12 @@
               "text": "Nothing, because politics judges the announced goal and not the compulsion"
             },
             {
-              "id": "c",
-              "text": "The plan still replaces each victim's judgment, which is what makes the force the basic evil"
-            },
-            {
               "id": "d",
               "text": "Only the absence of a written statute is left out, and the statute would cure the act"
+            },
+            {
+              "id": "c",
+              "text": "The plan still replaces each victim's judgment, which is what makes the force the basic evil"
             }
           ],
           "feedback": {
@@ -2017,15 +2017,15 @@
             },
             {
               "id": "b",
-              "text": "They are peaceful exceptions, because no blow has landed yet"
+              "text": "They are peaceful exceptions, because no blow has landed yet, so consent is still real"
             },
             {
               "id": "c",
-              "text": "They are force only when a bystander enjoys the result"
+              "text": "They are force only when a bystander enjoys the result, not because of the loss"
             },
             {
               "id": "d",
-              "text": "They are errors of taste, in the same class as a rude remark"
+              "text": "They are errors of taste, in the same class as a rude remark that obtains nothing"
             }
           ],
           "feedback": {
@@ -2041,19 +2041,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He has made a low offer, which the buyer was free to judge"
-            },
-            {
-              "id": "b",
-              "text": "He has competed by offering a different good at an open price"
+              "text": "He has made a low offer, which the buyer was free to judge from the open facts"
             },
             {
               "id": "c",
               "text": "He has initiated force by fraud, obtaining the money through destroyed consent"
             },
             {
+              "id": "b",
+              "text": "He has competed by offering a different good at an open price the buyer could refuse"
+            },
+            {
               "id": "d",
-              "text": "He has refused to deal, which leaves the buyer's money where it was"
+              "text": "He has refused to deal, which leaves the buyer's money where it was before the talk"
             }
           ],
           "feedback": {
@@ -2072,12 +2072,12 @@
               "text": "Ordinary bargaining about a price"
             },
             {
-              "id": "b",
-              "text": "A credible threat, and therefore an initiation of force"
-            },
-            {
               "id": "c",
               "text": "Retaliation, because he wants the money and wanting is a prior injury"
+            },
+            {
+              "id": "b",
+              "text": "A credible threat, and therefore an initiation of force"
             },
             {
               "id": "d",
@@ -2186,6 +2186,10 @@
           "prompt": "Build the principle in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "are peaceful bargains"
+            },
+            {
               "id": "t1",
               "text": "Fraud"
             },
@@ -2198,16 +2202,12 @@
               "text": "a credible threat"
             },
             {
-              "id": "t4",
-              "text": "initiate force"
-            },
-            {
-              "id": "d1",
-              "text": "are peaceful bargains"
-            },
-            {
               "id": "d2",
               "text": "are mere rudeness"
+            },
+            {
+              "id": "t4",
+              "text": "initiate force"
             }
           ],
           "answer": [
@@ -2228,16 +2228,16 @@
           "answer": "c",
           "choices": [
             {
+              "id": "c",
+              "text": "The lie obtained the payment by destroying consent, which is how fraud initiates force"
+            },
+            {
               "id": "a",
               "text": "Nothing, because force requires a landed blow and deceit is only speech"
             },
             {
               "id": "b",
               "text": "Nothing, because the buyer's payment shows he preferred the lie"
-            },
-            {
-              "id": "c",
-              "text": "The lie obtained the payment by destroying consent, which is how fraud initiates force"
             },
             {
               "id": "d",
@@ -2261,19 +2261,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Refusing to buy from a seller"
-            },
-            {
-              "id": "b",
-              "text": "Offering a price the seller thinks is low"
-            },
-            {
-              "id": "c",
-              "text": "Opening a shop that competes with his"
+              "text": "Refusing to buy from a seller, who may sell elsewhere"
             },
             {
               "id": "d",
               "text": "Taking his wallet by a credible threat of being shot"
+            },
+            {
+              "id": "b",
+              "text": "Offering a price he thinks is low, which he may refuse"
+            },
+            {
+              "id": "c",
+              "text": "Opening a shop that competes with his, and nothing more"
             }
           ],
           "feedback": {
@@ -2288,16 +2288,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "No. An insult does not compel body or property and does not destroy consent by fraud"
-            },
-            {
               "id": "b",
               "text": "Yes. Offense is the same act as physical compulsion"
             },
             {
               "id": "c",
               "text": "Yes. Words are force whenever the hearer dislikes them"
+            },
+            {
+              "id": "a",
+              "text": "No. An insult does not compel body or property and does not destroy consent by fraud"
             },
             {
               "id": "d",
@@ -2324,12 +2324,12 @@
               "text": "He is right, because any loss of customers is retaliation by the competitor"
             },
             {
-              "id": "c",
-              "text": "Competition is not force; the customers remain free to buy or not"
-            },
-            {
               "id": "d",
               "text": "Competition is fraud whenever a customer benefits from the lower price"
+            },
+            {
+              "id": "c",
+              "text": "Competition is not force; the customers remain free to buy or not"
             }
           ],
           "feedback": {
@@ -2344,12 +2344,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "He is right, because unequal need cancels consent even when the terms are open"
-            },
-            {
               "id": "b",
               "text": "Need does not turn the other person's open offer into force; nothing has been compelled"
+            },
+            {
+              "id": "a",
+              "text": "He is right, because unequal need cancels consent even when the terms are open"
             },
             {
               "id": "c",
@@ -2417,8 +2417,8 @@
             }
           ],
           "bank": [
-            "force",
             "trade",
+            "force",
             "speech",
             "error"
           ],
@@ -2438,6 +2438,10 @@
               "text": "A joke"
             },
             {
+              "id": "d1",
+              "text": "are credible threats"
+            },
+            {
               "id": "t2",
               "text": "an insult"
             },
@@ -2448,10 +2452,6 @@
             {
               "id": "t4",
               "text": "are not force"
-            },
-            {
-              "id": "d1",
-              "text": "are credible threats"
             },
             {
               "id": "d2",
@@ -2477,19 +2477,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "Both are force, because both use words"
-            },
-            {
-              "id": "b",
-              "text": "Neither can be force, because no blow landed in either act"
-            },
-            {
-              "id": "c",
-              "text": "The refusal is force, and the lie is only competition"
+              "text": "Both are force, because both use words, so the refusal starts force as the lie does"
             },
             {
               "id": "d",
               "text": "The refusal is not force, but the lie that takes the deed is fraud and so is force"
+            },
+            {
+              "id": "b",
+              "text": "Neither can be force, because no blow landed in either act, so the lie itself is peaceful"
+            },
+            {
+              "id": "c",
+              "text": "The refusal is force, and the lie is only competition, so the deed passed by open offers"
             }
           ],
           "feedback": {
@@ -2509,19 +2509,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "The owner of their lives"
+              "text": "The owner of their lives, free to dispose of their work and time"
+            },
+            {
+              "id": "c",
+              "text": "A private gang chosen by whoever is strongest at the moment"
             },
             {
               "id": "b",
               "text": "An agent that acts for a specific purpose, not their ruler"
             },
             {
-              "id": "c",
-              "text": "A private gang chosen by whoever is strongest"
-            },
-            {
               "id": "d",
-              "text": "A moral tutor who may force any ideal he prefers"
+              "text": "A moral tutor who may force any ideal he prefers upon them"
             }
           ],
           "feedback": {
@@ -2545,12 +2545,12 @@
               "text": "Consent means that any purpose a vote names becomes the government's right"
             },
             {
-              "id": "c",
-              "text": "It is the citizens' agent, with only the rights they delegate for a specific purpose"
-            },
-            {
               "id": "d",
               "text": "The government holds rights of its own, above any delegation by the citizens"
+            },
+            {
+              "id": "c",
+              "text": "It is the citizens' agent, with only the rights they delegate for a specific purpose"
             }
           ],
           "feedback": {
@@ -2572,15 +2572,15 @@
             },
             {
               "id": "b",
-              "text": "It correctly names the consent of the governed"
+              "text": "It correctly names the consent of the governed as limbs of one body"
             },
             {
               "id": "c",
-              "text": "It limits government to rights the citizens have delegated"
+              "text": "It limits government to rights the citizens have delegated to that agent"
             },
             {
               "id": "d",
-              "text": "It treats government as a servant and nothing more"
+              "text": "It treats government as a servant and nothing more than their hired agent"
             }
           ],
           "feedback": {
@@ -2596,19 +2596,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He is right, because consent has no content and covers whatever follows"
-            },
-            {
-              "id": "b",
-              "text": "He is right, because an agent stands above the rights of the clients"
-            },
-            {
-              "id": "c",
-              "text": "Purpose does not matter once any official has been elected"
+              "text": "He is right, because consent has no content and covers whatever follows, including any new purpose"
             },
             {
               "id": "d",
               "text": "Consent delegates authority only for a specific purpose; it is not a blank transfer of one's life"
+            },
+            {
+              "id": "b",
+              "text": "He is right, because an agent stands above the rights of the clients and may replace those rights at will"
+            },
+            {
+              "id": "c",
+              "text": "Purpose does not matter once any official has been elected, so the ballot transfers the voter's life"
             }
           ],
           "feedback": {
@@ -2668,9 +2668,9 @@
             }
           ],
           "bank": [
-            "agent",
             "owner",
             "ruler",
+            "agent",
             "master"
           ],
           "feedback": {
@@ -2685,8 +2685,16 @@
           "prompt": "Build the principle in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "owner"
+            },
+            {
               "id": "t1",
               "text": "Government"
+            },
+            {
+              "id": "d2",
+              "text": "ruler"
             },
             {
               "id": "t2",
@@ -2699,14 +2707,6 @@
             {
               "id": "t4",
               "text": "agent"
-            },
-            {
-              "id": "d1",
-              "text": "owner"
-            },
-            {
-              "id": "d2",
-              "text": "ruler"
             }
           ],
           "answer": [
@@ -2731,12 +2731,12 @@
               "text": "He is right, because an agent stands above the clients' rights"
             },
             {
-              "id": "b",
-              "text": "An agent for a delegated purpose may not initiate force to \"improve\" a client who refuses"
-            },
-            {
               "id": "c",
               "text": "Seizing the press is consent, because the client once agreed to be protected"
+            },
+            {
+              "id": "b",
+              "text": "An agent for a delegated purpose may not initiate force to \"improve\" a client who refuses"
             },
             {
               "id": "d",
@@ -2759,10 +2759,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "To protect individual rights"
-            },
-            {
               "id": "b",
               "text": "To make the citizens virtuous by force"
             },
@@ -2773,6 +2769,10 @@
             {
               "id": "d",
               "text": "To carry out whatever a majority happens to want"
+            },
+            {
+              "id": "a",
+              "text": "To protect individual rights"
             }
           ],
           "feedback": {
@@ -2788,20 +2788,20 @@
           "answer": "c",
           "choices": [
             {
-              "id": "a",
-              "text": "To protect him from disagreement, low offers, and his own errors"
-            },
-            {
-              "id": "b",
-              "text": "To supply him with goods produced by other people"
-            },
-            {
               "id": "c",
               "text": "To protect man's rights, which means to protect him from physical violence"
             },
             {
+              "id": "a",
+              "text": "To protect him from disagreement, low offers, and his own errors of judgment"
+            },
+            {
+              "id": "b",
+              "text": "To supply him with goods produced by other people, at the public expense"
+            },
+            {
               "id": "d",
-              "text": "To pursue many equal aims, of which rights are one optional extra"
+              "text": "To pursue many equal aims, of which rights are one optional extra among the rest"
             }
           ],
           "feedback": {
@@ -2819,7 +2819,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "It fits, because protection includes improving souls by compulsion"
+              "text": "It fits, because protection includes improving souls by forcing them into church"
             },
             {
               "id": "b",
@@ -2827,11 +2827,11 @@
             },
             {
               "id": "c",
-              "text": "It fits if most citizens dislike the people who stay away"
+              "text": "It fits if most citizens dislike the people who stay away, since dislike sets the aim"
             },
             {
               "id": "d",
-              "text": "It fits, because a church is a kind of court"
+              "text": "It fits, because a church is a kind of court, so attendance is retaliation"
             }
           ],
           "feedback": {
@@ -2847,19 +2847,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "There is no error, because running trade is what protecting rights means"
+              "text": "There is no error, because running trade is what protecting rights means, wage decrees included"
             },
             {
               "id": "b",
-              "text": "There is no error, because competition is physical violence"
-            },
-            {
-              "id": "c",
-              "text": "The program is retaliation against shopkeepers for existing"
+              "text": "There is no error, because competition is physical violence, so a ban on rivals answers it"
             },
             {
               "id": "d",
               "text": "Directing peaceful trade initiates force; protection is limited to rights against violence"
+            },
+            {
+              "id": "c",
+              "text": "The program is retaliation against shopkeepers for existing, since their shops were the force"
             }
           ],
           "feedback": {
@@ -2919,10 +2919,10 @@
             }
           ],
           "bank": [
-            "rights",
             "morals",
             "industries",
-            "tastes"
+            "tastes",
+            "rights"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -2940,8 +2940,16 @@
               "text": "Government's purpose"
             },
             {
+              "id": "d1",
+              "text": "to impose virtue"
+            },
+            {
               "id": "t2",
               "text": "is"
+            },
+            {
+              "id": "d2",
+              "text": "to run production"
             },
             {
               "id": "t3",
@@ -2950,14 +2958,6 @@
             {
               "id": "t4",
               "text": "rights"
-            },
-            {
-              "id": "d1",
-              "text": "to impose virtue"
-            },
-            {
-              "id": "d2",
-              "text": "to run production"
             }
           ],
           "answer": [
@@ -2979,19 +2979,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He is right, because the purpose covers blows and nothing else"
+              "text": "He is right, because the purpose covers blows and nothing else, fraud included"
             },
             {
               "id": "b",
-              "text": "Fraud is a foreign invasion, so only an army may notice it"
+              "text": "Fraud is a foreign invasion, so only an army may notice it, and no court has the case"
+            },
+            {
+              "id": "d",
+              "text": "Protecting rights excludes the courts, which have no work if only blows count"
             },
             {
               "id": "c",
               "text": "Fraud initiates force and violates rights, so stopping it belongs to the purpose"
-            },
-            {
-              "id": "d",
-              "text": "Protecting rights excludes the courts, which have no proper work"
             }
           ],
           "feedback": {
@@ -3010,12 +3010,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "Any force that officials expect to produce a good result"
-            },
-            {
               "id": "b",
               "text": "Only retaliatory force, against those who have initiated it"
+            },
+            {
+              "id": "a",
+              "text": "Any force that officials expect to produce a good result"
             },
             {
               "id": "c",
@@ -3039,12 +3039,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Government places retaliatory force under objectively defined laws"
-            },
-            {
               "id": "b",
               "text": "Government places initiated force under the ruler's personal whim"
+            },
+            {
+              "id": "a",
+              "text": "Government places retaliatory force under objectively defined laws"
             },
             {
               "id": "c",
@@ -3077,12 +3077,12 @@
               "text": "So officials need not name the crime they claim to answer"
             },
             {
-              "id": "c",
-              "text": "Because a defined law is optional once the governed have consented in general"
-            },
-            {
               "id": "d",
               "text": "So retaliation is defined in advance and does not become a new initiation by whim"
+            },
+            {
+              "id": "c",
+              "text": "Because a defined law is optional once the governed have consented in general"
             }
           ],
           "feedback": {
@@ -3105,12 +3105,12 @@
               "text": "Objective law, because a statute against the essay was passed the next day"
             },
             {
-              "id": "c",
-              "text": "An initiation of force, not retaliation"
-            },
-            {
               "id": "d",
               "text": "Protection of rights, because offense is the same thing as fraud"
+            },
+            {
+              "id": "c",
+              "text": "An initiation of force, not retaliation"
             }
           ],
           "feedback": {
@@ -3195,20 +3195,20 @@
               "text": "stands"
             },
             {
-              "id": "t3",
-              "text": "under"
-            },
-            {
-              "id": "t4",
-              "text": "objective law"
-            },
-            {
               "id": "d1",
               "text": "under a whim"
             },
             {
+              "id": "t3",
+              "text": "under"
+            },
+            {
               "id": "d2",
               "text": "as a fresh initiation"
+            },
+            {
+              "id": "t4",
+              "text": "objective law"
             }
           ],
           "answer": [
@@ -3234,15 +3234,15 @@
             },
             {
               "id": "b",
-              "text": "He is right, because publishing a command is the consent of every victim"
+              "text": "He is right, because publishing a command is the consent of every victim, so the statute is their agreement"
             },
             {
               "id": "c",
-              "text": "Retaliation needs no definition if the statute is popular"
+              "text": "Retaliation needs no definition if the statute is popular, so a vote turns initiation into defense"
             },
             {
               "id": "d",
-              "text": "Announcing a seizure makes the victim the initiator"
+              "text": "Announcing a seizure makes the victim the initiator, so the peaceful man is the one who started force"
             }
           ],
           "feedback": {
@@ -3265,12 +3265,12 @@
               "text": "A production ministry, a morals ministry, and the police"
             },
             {
-              "id": "b",
-              "text": "The police alone, because courts are private opinions"
-            },
-            {
               "id": "c",
               "text": "The police, the armed forces, and the courts"
+            },
+            {
+              "id": "b",
+              "text": "The police alone, because courts are private opinions"
             },
             {
               "id": "d",
@@ -3294,12 +3294,12 @@
               "text": "Police, a planning board, and a morals office are the three functions"
             },
             {
-              "id": "b",
-              "text": "The police, the army, and the courts are the only proper functions"
-            },
-            {
               "id": "c",
               "text": "The functions are to run industry, enforce a virtue, and direct taste"
+            },
+            {
+              "id": "b",
+              "text": "The police, the army, and the courts are the only proper functions"
             },
             {
               "id": "d",
@@ -3353,15 +3353,15 @@
             },
             {
               "id": "b",
-              "text": "A court, because it issues orders"
+              "text": "A court, because it issues orders, so a crop decree is a judgment"
             },
             {
               "id": "c",
-              "text": "An army, because food can matter in a future war"
+              "text": "An army, because food can matter in a future war, which makes the order defense"
             },
             {
               "id": "d",
-              "text": "Police work, because farmers who disobey can be punished"
+              "text": "Police work, because farmers who disobey can be punished for planting"
             }
           ],
           "feedback": {
@@ -3421,8 +3421,8 @@
             }
           ],
           "bank": [
-            "courts",
             "factories",
+            "courts",
             "churches",
             "censors"
           ],
@@ -3450,12 +3450,12 @@
               "text": "and courts"
             },
             {
-              "id": "t4",
-              "text": "protect rights"
-            },
-            {
               "id": "d1",
               "text": "factories"
+            },
+            {
+              "id": "t4",
+              "text": "protect rights"
             },
             {
               "id": "d2",
@@ -3481,19 +3481,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He is right, because any use of the army is proper once the army exists"
-            },
-            {
-              "id": "b",
-              "text": "Printers are foreign invaders by definition"
+              "text": "He is right, because any use of the army is proper once the army exists at all"
             },
             {
               "id": "c",
               "text": "The army's function is defense against foreign invaders, not domestic initiation of force"
             },
             {
+              "id": "b",
+              "text": "Printers are foreign invaders by definition, so a domestic press is an invasion"
+            },
+            {
               "id": "d",
-              "text": "The army is proper only if it replaces the police and the courts entirely"
+              "text": "The army is proper only if it replaces the police and the courts, taking every retaliatory task"
             }
           ],
           "feedback": {
@@ -3516,12 +3516,12 @@
               "text": "Nowhere, if the stated goal is a good society"
             },
             {
-              "id": "b",
-              "text": "Where the retaliatory protection of rights stops"
-            },
-            {
               "id": "c",
               "text": "At the border only, so that domestic life may be run by decree"
+            },
+            {
+              "id": "b",
+              "text": "Where the retaliatory protection of rights stops"
             },
             {
               "id": "d",
@@ -3541,10 +3541,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It holds the exclusive power to enforce certain rules of conduct in a territory"
-            },
-            {
               "id": "b",
               "text": "Each citizen properly runs his own retaliation as a standing private policy"
             },
@@ -3555,6 +3551,10 @@
             {
               "id": "d",
               "text": "Government is only a shared mood and enforces nothing"
+            },
+            {
+              "id": "a",
+              "text": "It holds the exclusive power to enforce certain rules of conduct in a territory"
             }
           ],
           "feedback": {
@@ -3571,6 +3571,10 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "Retaliatory force is left as private warfare, with no objective law to define it"
+            },
+            {
               "id": "a",
               "text": "Nothing dangerous, because an agent is forbidden to use force at all"
             },
@@ -3581,10 +3585,6 @@
             {
               "id": "c",
               "text": "Consent of the governed forbids every institution that could stop a criminal"
-            },
-            {
-              "id": "d",
-              "text": "Retaliatory force is left as private warfare, with no objective law to define it"
             }
           ],
           "feedback": {
@@ -3603,12 +3603,12 @@
               "text": "It has stayed inside retaliation, because competition is force"
             },
             {
-              "id": "b",
-              "text": "It has applied a court's objective law to prices"
-            },
-            {
               "id": "c",
               "text": "It has left its purpose, by initiating force to run the economy"
+            },
+            {
+              "id": "b",
+              "text": "It has applied a court's objective law to prices"
             },
             {
               "id": "d",
@@ -3672,9 +3672,9 @@
             }
           ],
           "bank": [
-            "warfare",
             "trade",
             "science",
+            "warfare",
             "worship"
           ],
           "feedback": {
@@ -3697,6 +3697,10 @@
               "text": "stops"
             },
             {
+              "id": "d1",
+              "text": "where a plan begins"
+            },
+            {
               "id": "t3",
               "text": "where"
             },
@@ -3705,16 +3709,12 @@
               "text": "protection of rights"
             },
             {
-              "id": "t5",
-              "text": "stops"
-            },
-            {
-              "id": "d1",
-              "text": "where a plan begins"
-            },
-            {
               "id": "d2",
               "text": "where salvation begins"
+            },
+            {
+              "id": "t5",
+              "text": "stops"
             }
           ],
           "answer": [
@@ -3736,16 +3736,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Consent to protect rights does not authorize initiated force, even for a moral ideal"
-            },
-            {
               "id": "b",
               "text": "He is described correctly, because a majority tally is the same thing as objective law"
             },
             {
               "id": "c",
               "text": "The dissenter initiated force by disagreeing"
+            },
+            {
+              "id": "a",
+              "text": "Consent to protect rights does not authorize initiated force, even for a moral ideal"
             },
             {
               "id": "d",
@@ -3769,19 +3769,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "A permission officials may grant today and withdraw tomorrow"
+              "text": "A permission officials may grant today and withdraw tomorrow at their own pleasure"
+            },
+            {
+              "id": "c",
+              "text": "A claim that other people must supply the goods one needs out of their own effort"
+            },
+            {
+              "id": "d",
+              "text": "A feeling that some arrangement is unfair, which binds others once it is intense"
             },
             {
               "id": "b",
               "text": "A moral principle defining and sanctioning freedom of action in a social context"
-            },
-            {
-              "id": "c",
-              "text": "A claim that other people must supply the goods one needs"
-            },
-            {
-              "id": "d",
-              "text": "A feeling that some arrangement is unfair"
             }
           ],
           "feedback": {
@@ -3826,19 +3826,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "A right is a permit, a promised income, and a private mood"
-            },
-            {
-              "id": "b",
-              "text": "A right is a majority vote, an old custom, and a personal wish"
+              "text": "A right is a permit, a promised income, and a private mood of unfairness"
             },
             {
               "id": "c",
               "text": "A right joins a moral principle, freedom of action, and a social context"
             },
             {
+              "id": "b",
+              "text": "A right is a majority vote, an old custom, and a personal wish one feels"
+            },
+            {
               "id": "d",
-              "text": "A right is a title to an object someone else produced"
+              "text": "A right is a title to an object someone else produced by his own work"
             }
           ],
           "feedback": {
@@ -3863,12 +3863,12 @@
               "text": "He names too few, because every interest is its own fundamental right"
             },
             {
-              "id": "c",
-              "text": "He should drop the right to life, because only a permit can be fundamental"
-            },
-            {
               "id": "d",
               "text": "Only the right to one's own life is fundamental; the others are its consequences"
+            },
+            {
+              "id": "c",
+              "text": "He should drop the right to life, because only a permit can be fundamental"
             }
           ],
           "feedback": {
@@ -3928,10 +3928,10 @@
             }
           ],
           "bank": [
-            "life",
             "income",
             "approval",
-            "favor"
+            "favor",
+            "life"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -3949,6 +3949,10 @@
               "text": "A right"
             },
             {
+              "id": "d1",
+              "text": "a revocable privilege"
+            },
+            {
               "id": "t2",
               "text": "is"
             },
@@ -3959,10 +3963,6 @@
             {
               "id": "t4",
               "text": "sanctioning freedom of action"
-            },
-            {
-              "id": "d1",
-              "text": "a revocable privilege"
             },
             {
               "id": "d2",
@@ -3991,16 +3991,16 @@
               "text": "He is right, because a vote can make liberty more basic than life"
             },
             {
-              "id": "b",
-              "text": "Life is the fundamental right, and liberty is a consequence, not the source"
-            },
-            {
               "id": "c",
               "text": "Neither life nor liberty can be stated as a principle at all"
             },
             {
               "id": "d",
               "text": "Life is a permission, while liberty is a claim on other people's effort"
+            },
+            {
+              "id": "b",
+              "text": "Life is the fundamental right, and liberty is a consequence, not the source"
             }
           ],
           "feedback": {
@@ -4051,12 +4051,12 @@
               "text": "Yes, because nature has initiated force against him"
             },
             {
-              "id": "b",
-              "text": "Yes, because a loss violates a right whenever the loser feels it"
-            },
-            {
               "id": "c",
               "text": "No, because no person interfered, and rights apply among people"
+            },
+            {
+              "id": "b",
+              "text": "Yes, because a loss violates a right whenever the loser feels it"
             },
             {
               "id": "d",
@@ -4077,19 +4077,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "A right governs a man alone, in his struggle with nature"
+              "text": "A right governs a man alone, in his struggle with nature and with chance"
+            },
+            {
+              "id": "c",
+              "text": "A right applies only after officials have recorded the dispute on paper"
             },
             {
               "id": "b",
               "text": "A right sanctions freedom of action in a social context, among people"
             },
             {
-              "id": "c",
-              "text": "A right applies only after officials have recorded a dispute"
-            },
-            {
               "id": "d",
-              "text": "A right is a claim that nature must yield a desired outcome"
+              "text": "A right is a claim that nature must yield a desired outcome to the man"
             }
           ],
           "feedback": {
@@ -4196,8 +4196,16 @@
           "prompt": "Build the principle in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "against nature alone"
+            },
+            {
               "id": "t1",
               "text": "A right"
+            },
+            {
+              "id": "d2",
+              "text": "in solitude"
             },
             {
               "id": "t2",
@@ -4210,14 +4218,6 @@
             {
               "id": "t4",
               "text": "other people"
-            },
-            {
-              "id": "d1",
-              "text": "against nature alone"
-            },
-            {
-              "id": "d2",
-              "text": "in solitude"
             }
           ],
           "answer": [
@@ -4243,15 +4243,15 @@
             },
             {
               "id": "b",
-              "text": "There is no error, because every natural obstacle is initiated force"
+              "text": "There is no error, because every natural obstacle is initiated force against him"
             },
             {
               "id": "c",
-              "text": "The error is that only a written contract can mention nature"
+              "text": "The error is that only a written contract can mention nature or the soil"
             },
             {
               "id": "d",
-              "text": "Soil is social, while health is a permission from other people"
+              "text": "Soil is social, while health is a permission other people may revoke"
             }
           ],
           "feedback": {
@@ -4274,12 +4274,12 @@
               "text": "A guaranteed share of other people's goods, rather than one's own action"
             },
             {
-              "id": "b",
-              "text": "Success at every attempt, rather than the freedom to attempt it"
-            },
-            {
               "id": "c",
               "text": "Freedom to act, not a claim on other people's products or effort"
+            },
+            {
+              "id": "b",
+              "text": "Success at every attempt, rather than the freedom to attempt it"
             },
             {
               "id": "d",
@@ -4299,20 +4299,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Property is a right to any object one names, apart from producing or earning it"
+            },
+            {
+              "id": "c",
+              "text": "Property is the one right that is not a right to action, but a right to the object"
+            },
+            {
               "id": "a",
               "text": "Like every right, property is a right to action, not a right to an object as such"
             },
             {
-              "id": "b",
-              "text": "Property is a right to any object one names, apart from producing it"
-            },
-            {
-              "id": "c",
-              "text": "Property is the one right that is not a right to action"
-            },
-            {
               "id": "d",
-              "text": "A right to an object includes whatever another person produced"
+              "text": "A right to an object includes whatever another person produced by his effort"
             }
           ],
           "feedback": {
@@ -4357,12 +4357,12 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "There is no error, because the right to life includes that employer's payroll"
-            },
-            {
               "id": "b",
               "text": "It converts a right into a claim on another person's effort and product"
+            },
+            {
+              "id": "a",
+              "text": "There is no error, because the right to life includes that employer's payroll"
             },
             {
               "id": "c",
@@ -4430,8 +4430,8 @@
             }
           ],
           "bank": [
-            "action",
             "outcomes",
+            "action",
             "applause",
             "obedience"
           ],
@@ -4451,8 +4451,16 @@
               "text": "Rights"
             },
             {
+              "id": "d1",
+              "text": "to other people's goods"
+            },
+            {
               "id": "t2",
               "text": "are"
+            },
+            {
+              "id": "d2",
+              "text": "to a guaranteed success"
             },
             {
               "id": "t3",
@@ -4461,14 +4469,6 @@
             {
               "id": "t4",
               "text": "to action"
-            },
-            {
-              "id": "d1",
-              "text": "to other people's goods"
-            },
-            {
-              "id": "d2",
-              "text": "to a guaranteed success"
             }
           ],
           "answer": [
@@ -4489,20 +4489,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "He is right, because any offer below what he prefers is a violation of his right to life"
+            },
+            {
               "id": "a",
               "text": "The right is his freedom to accept, refuse, or look elsewhere, not a claim on that offer"
             },
             {
-              "id": "b",
-              "text": "He is right, because any offer below what he prefers is a violation"
-            },
-            {
               "id": "c",
-              "text": "He is right, because the right to life is a guaranteed income"
+              "text": "He is right, because the right to life is a guaranteed income from that employer at his figure"
             },
             {
               "id": "d",
-              "text": "No right is at issue, because hiring is not a social dealing"
+              "text": "No right is at issue, because hiring is not a social dealing, so neither party is free to refuse"
             }
           ],
           "feedback": {
@@ -4554,16 +4554,16 @@
               "text": "A right must be renewed by a permit before anyone may use it"
             },
             {
-              "id": "b",
-              "text": "A right sanctions independent action and needs no one's permission"
-            },
-            {
               "id": "c",
               "text": "A right is valid only when the neighbors have agreed to it"
             },
             {
               "id": "d",
               "text": "A right is a claim that other people must perform the action"
+            },
+            {
+              "id": "b",
+              "text": "A right sanctions independent action and needs no one's permission"
             }
           ],
           "feedback": {
@@ -4585,15 +4585,15 @@
             },
             {
               "id": "b",
-              "text": "A shop is outside any social context, so no principle applies"
+              "text": "A shop is outside any social context, so no principle applies to the permit"
             },
             {
               "id": "c",
-              "text": "The owner has a right that customers must buy his goods"
+              "text": "The owner has a right that customers must buy his goods once the shop is open"
             },
             {
               "id": "d",
-              "text": "A printed permit is itself a right because the words are on paper"
+              "text": "A printed permit is itself a right because the words are on official paper"
             }
           ],
           "feedback": {
@@ -4612,16 +4612,16 @@
               "text": "He is right, because an agreement is what creates the right to live"
             },
             {
+              "id": "d",
+              "text": "A contract exercises rights; it is not a permission that creates the right"
+            },
+            {
               "id": "b",
               "text": "A contract is initiated force, so it cancels the rights of both parties"
             },
             {
               "id": "c",
               "text": "A contract is a majority vote, and the right expires at the next election"
-            },
-            {
-              "id": "d",
-              "text": "A contract exercises rights; it is not a permission that creates the right"
             }
           ],
           "feedback": {
@@ -4681,9 +4681,9 @@
             }
           ],
           "bank": [
-            "permission",
             "applause",
             "salary",
+            "permission",
             "omen"
           ],
           "feedback": {
@@ -4706,20 +4706,20 @@
               "text": "is exercised"
             },
             {
-              "id": "t3",
-              "text": "without"
-            },
-            {
-              "id": "t4",
-              "text": "anyone's permission"
-            },
-            {
               "id": "d1",
               "text": "under a revocable license"
             },
             {
+              "id": "t3",
+              "text": "without"
+            },
+            {
               "id": "d2",
               "text": "by a majority vote"
+            },
+            {
+              "id": "t4",
+              "text": "anyone's permission"
             }
           ],
           "answer": [
@@ -4741,19 +4741,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He is right, because society's allowance is what creates the right to life"
+              "text": "He is right, because society's allowance is what creates the right to life and can end it"
+            },
+            {
+              "id": "c",
+              "text": "He has confused life with a business contract the crowd negotiated and may later cancel"
             },
             {
               "id": "b",
               "text": "The right to life does not rest on society's allowance; a permission is not a right"
             },
             {
-              "id": "c",
-              "text": "He has confused life with a business contract the crowd negotiated"
-            },
-            {
               "id": "d",
-              "text": "A permission outranks a right, so revocation is the proper final step"
+              "text": "A permission outranks a right, so revocation is the proper final step against him"
             }
           ],
           "feedback": {
@@ -4772,20 +4772,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A moral principle that holds whether or not people feel it, inherit it, or vote for it"
-            },
-            {
               "id": "b",
-              "text": "A custom that binds people only because it is old"
+              "text": "A custom that binds people only because it is old, so age is what makes the practice a right"
             },
             {
               "id": "c",
-              "text": "A wish that becomes a right when someone feels it intensely"
+              "text": "A wish that becomes a right when someone feels it intensely, so feeling creates the principle"
             },
             {
               "id": "d",
-              "text": "A tally that is right because most people prefer it this year"
+              "text": "A tally that is right because most people prefer it this year, so the count is the principle"
+            },
+            {
+              "id": "a",
+              "text": "A moral principle that holds whether or not people feel it, inherit it, or vote for it"
             }
           ],
           "feedback": {
@@ -4801,20 +4801,20 @@
           "answer": "c",
           "choices": [
             {
-              "id": "a",
-              "text": "Rights are an unordered pile of customs, with no principle among them"
-            },
-            {
-              "id": "b",
-              "text": "Each person may invent a new fundamental right by preference"
-            },
-            {
               "id": "c",
               "text": "One right is fundamental, the right to one's own life, and the others follow from it"
             },
             {
+              "id": "a",
+              "text": "Rights are an unordered pile of customs, with no principle among them and no single source"
+            },
+            {
+              "id": "b",
+              "text": "Each person may invent a new fundamental right by preference, beside the right to life"
+            },
+            {
               "id": "d",
-              "text": "The fundamental right is a grant the state may redefine at will"
+              "text": "The fundamental right is a grant the state may redefine at will, officials being its authors"
             }
           ],
           "feedback": {
@@ -4832,7 +4832,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "The poll creates a right in the majority to silence him"
+              "text": "The poll creates a right to silence him, because the tally is the moral principle"
             },
             {
               "id": "b",
@@ -4840,11 +4840,11 @@
             },
             {
               "id": "c",
-              "text": "Rights are wishes, so the larger wish properly wins"
+              "text": "Rights are wishes, so the larger wish properly wins and his speech must yield"
             },
             {
               "id": "d",
-              "text": "He held only a permission, and the poll may withdraw it"
+              "text": "He held only a permission, and the poll may withdraw it, since the vote was its source"
             }
           ],
           "feedback": {
@@ -4867,12 +4867,12 @@
               "text": "Property is the fundamental right, and the right to life is the custom"
             },
             {
-              "id": "c",
-              "text": "A vote is the social context, so the count itself defines the right"
-            },
-            {
               "id": "d",
               "text": "Property is a consequence of the right to life, not a custom a vote may cancel"
+            },
+            {
+              "id": "c",
+              "text": "A vote is the social context, so the count itself defines the right"
             }
           ],
           "feedback": {
@@ -4932,10 +4932,10 @@
             }
           ],
           "bank": [
-            "principles",
             "customs",
             "moods",
-            "ballots"
+            "ballots",
+            "principles"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -4961,12 +4961,12 @@
               "text": "moral"
             },
             {
-              "id": "t4",
-              "text": "principles"
-            },
-            {
               "id": "d1",
               "text": "inherited customs"
+            },
+            {
+              "id": "t4",
+              "text": "principles"
             },
             {
               "id": "d2",
@@ -4991,20 +4991,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A feeling creates no right, and the demand is a claim on another person's product"
-            },
-            {
               "id": "b",
-              "text": "Feelings are the fundamental right, so the press is his by intensity"
+              "text": "Feelings are the fundamental right, so the press is his by the strength of the feeling"
             },
             {
               "id": "c",
-              "text": "He has named a proper consequence of the right to life"
+              "text": "He has named a proper consequence of the right to life, namely the other man's press"
             },
             {
               "id": "d",
-              "text": "A subjective claim is valid whenever it avoids other people"
+              "text": "A subjective claim is valid whenever it avoids other people by ignoring the owner"
+            },
+            {
+              "id": "a",
+              "text": "A feeling creates no right, and the demand is a claim on another person's product"
             }
           ],
           "feedback": {
@@ -5023,20 +5023,20 @@
           "answer": "c",
           "choices": [
             {
-              "id": "a",
-              "text": "A guarantee that one will earn a particular object"
-            },
-            {
-              "id": "b",
-              "text": "A title to something another person produced"
-            },
-            {
               "id": "c",
               "text": "The right to gain, keep, use, and dispose of what one produces or earns"
             },
             {
+              "id": "a",
+              "text": "A guarantee that one will earn a particular object, whatever one happens to do"
+            },
+            {
+              "id": "b",
+              "text": "A title to something another person produced, transferred by need alone"
+            },
+            {
               "id": "d",
-              "text": "A seasonal permission from the state to hold goods"
+              "text": "A seasonal permission from the state to hold goods the office may recall"
             }
           ],
           "feedback": {
@@ -5053,7 +5053,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "Property replaces the right to life and leaves it behind"
+              "text": "Property replaces the right to life and leaves it behind, so holding goods finishes that right"
             },
             {
               "id": "b",
@@ -5061,11 +5061,11 @@
             },
             {
               "id": "c",
-              "text": "Property is a privilege added after the rights are finished"
+              "text": "Property is a privilege added after the rights are finished, which a vote may later withdraw"
             },
             {
               "id": "d",
-              "text": "Life is implemented by a claim on other people's goods"
+              "text": "Life is implemented by a claim on other people's goods, not by control of one's own product"
             }
           ],
           "feedback": {
@@ -5082,20 +5082,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Because the state implements life by assigning him other people's goods for him to live on"
+            },
+            {
+              "id": "c",
+              "text": "Because wishing for an object is the same act as earning it and its title"
+            },
+            {
               "id": "a",
               "text": "To live, a person must be free to gain, keep, use, and dispose of what he produces"
             },
             {
-              "id": "b",
-              "text": "Because the state implements life by assigning him other people's goods"
-            },
-            {
-              "id": "c",
-              "text": "Because wishing for an object is the same act as earning it"
-            },
-            {
               "id": "d",
-              "text": "Because taking another person's goods is a form of production"
+              "text": "Because taking another person's goods is a form of production of that good"
             }
           ],
           "feedback": {
@@ -5172,6 +5172,10 @@
           "prompt": "Build the principle in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "cancels the right"
+            },
+            {
               "id": "t1",
               "text": "Property"
             },
@@ -5184,16 +5188,12 @@
               "text": "the right"
             },
             {
-              "id": "t4",
-              "text": "to life"
-            },
-            {
-              "id": "d1",
-              "text": "cancels the right"
-            },
-            {
               "id": "d2",
               "text": "replaces life"
+            },
+            {
+              "id": "t4",
+              "text": "to life"
             }
           ],
           "answer": [
@@ -5215,15 +5215,15 @@
           "choices": [
             {
               "id": "a",
-              "text": "He is right, because life needs no action and no means"
+              "text": "He is right, because life needs no action and no means, so the product may be seized"
             },
             {
               "id": "b",
-              "text": "Implementation means a temporary custom a vote may retire"
+              "text": "Implementation means a temporary custom a vote may retire without ending the right to life"
             },
             {
               "id": "c",
-              "text": "The right to life is a claim on other people's bodies, not on one's own action"
+              "text": "The right to life is a claim on other people's bodies, not on one's own action or product"
             },
             {
               "id": "d",
@@ -5242,20 +5242,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "He is right, because possession and right are the same fact"
-            },
-            {
               "id": "b",
               "text": "Property is the right to what one produces or earns; a seizure is not a title"
             },
             {
+              "id": "a",
+              "text": "He is right, because possession and right are the same fact, seizure included"
+            },
+            {
               "id": "c",
-              "text": "Theft implements the right to life of the thief"
+              "text": "Theft implements the right to life of the thief by supplying the object he wanted"
             },
             {
               "id": "d",
-              "text": "An object in hand is a right even when it was taken by force"
+              "text": "An object in hand is a right even when it was taken by force from its owner"
             }
           ],
           "feedback": {
@@ -5274,12 +5274,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "What one produces or earns by one's own effort"
-            },
-            {
               "id": "b",
               "text": "Whatever one wants from another person's effort"
+            },
+            {
+              "id": "a",
+              "text": "What one produces or earns by one's own effort"
             },
             {
               "id": "c",
@@ -5304,11 +5304,11 @@
           "choices": [
             {
               "id": "a",
-              "text": "It is a right to any object one can point to, apart from any action"
+              "text": "It is a right to any object one can point to, apart from any action, so pointing is what moves the title"
             },
             {
               "id": "b",
-              "text": "It is a right to the object another person produced, if one needs it"
+              "text": "It is a right to the object another person produced, if one needs it, so need turns his product into yours"
             },
             {
               "id": "c",
@@ -5316,7 +5316,7 @@
             },
             {
               "id": "d",
-              "text": "It guarantees that the object will be earned, whatever one does"
+              "text": "It guarantees that the object will be earned, whatever one does, so the right owes success without action"
             }
           ],
           "feedback": {
@@ -5337,16 +5337,16 @@
               "text": "Not property, because only land can be owned"
             },
             {
-              "id": "b",
-              "text": "Property, because he earned it by his work"
-            },
-            {
               "id": "c",
               "text": "Still the buyer's property, because money never changes owners"
             },
             {
               "id": "d",
               "text": "A permission the buyer may cancel at will after both sides have performed"
+            },
+            {
+              "id": "b",
+              "text": "Property, because he earned it by his work"
             }
           ],
           "feedback": {
@@ -5361,6 +5361,10 @@
           "answer": "d",
           "choices": [
             {
+              "id": "d",
+              "text": "Need does not transfer another person's product; the right covers the grower's effort"
+            },
+            {
               "id": "a",
               "text": "He is right, because need is a title"
             },
@@ -5371,10 +5375,6 @@
             {
               "id": "c",
               "text": "Growing food is a seizure from the soil, so his claim is equal to the grower's"
-            },
-            {
-              "id": "d",
-              "text": "Need does not transfer another person's product; the right covers the grower's effort"
             }
           ],
           "feedback": {
@@ -5434,8 +5434,8 @@
             }
           ],
           "bank": [
-            "earns",
             "seizes",
+            "earns",
             "demands",
             "imagines"
           ],
@@ -5455,6 +5455,10 @@
               "text": "The right"
             },
             {
+              "id": "d1",
+              "text": "what one seizes"
+            },
+            {
               "id": "t2",
               "text": "covers"
             },
@@ -5465,10 +5469,6 @@
             {
               "id": "t4",
               "text": "one earns"
-            },
-            {
-              "id": "d1",
-              "text": "what one seizes"
             },
             {
               "id": "d2",
@@ -5493,20 +5493,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "He is right, because only an unearned gift can be property, so wages for work are not earnings at all"
+            },
+            {
               "id": "a",
               "text": "The pay is earned by the work; a contract is not a permission and does not leave the product unowned"
             },
             {
-              "id": "b",
-              "text": "He is right, because only an unearned gift can be property"
-            },
-            {
               "id": "c",
-              "text": "Work produces nothing that a person can own"
+              "text": "Work produces nothing that a person can own, so the paying contract leaves the product unowned"
             },
             {
               "id": "d",
-              "text": "The payer remains the owner because he was kind enough to agree"
+              "text": "The payer remains the owner because he was kind enough to agree, and the work creates no title"
             }
           ],
           "feedback": {
@@ -5529,12 +5529,12 @@
               "text": "The full right, because a title on paper is all property is"
             },
             {
-              "id": "b",
-              "text": "Not the right. Use and disposal are part of what property is"
-            },
-            {
               "id": "c",
               "text": "A higher form of property, because the owner is protected from his own action"
+            },
+            {
+              "id": "b",
+              "text": "Not the right. Use and disposal are part of what property is"
             },
             {
               "id": "d",
@@ -5561,12 +5561,12 @@
               "text": "A stronger right, because the bureau is guarding the pages"
             },
             {
-              "id": "c",
-              "text": "A nominal title that denies the actions the right exists to sanction"
-            },
-            {
               "id": "d",
               "text": "A contract he must have wanted, since the bureau wrote it down"
+            },
+            {
+              "id": "c",
+              "text": "A nominal title that denies the actions the right exists to sanction"
             }
           ],
           "feedback": {
@@ -5654,9 +5654,9 @@
             }
           ],
           "bank": [
-            "use",
             "forfeit",
             "register",
+            "use",
             "admire"
           ],
           "feedback": {
@@ -5671,8 +5671,16 @@
           "prompt": "Build the principle in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "to display a plaque only"
+            },
+            {
               "id": "t1",
               "text": "Property"
+            },
+            {
+              "id": "d2",
+              "text": "to forfeit its use"
             },
             {
               "id": "t2",
@@ -5685,14 +5693,6 @@
             {
               "id": "t4",
               "text": "to use it"
-            },
-            {
-              "id": "d1",
-              "text": "to display a plaque only"
-            },
-            {
-              "id": "d2",
-              "text": "to forfeit its use"
             }
           ],
           "answer": [
@@ -5714,19 +5714,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He is right, because property is a record, not an action"
-            },
-            {
-              "id": "b",
-              "text": "Living in the house would be force against the bureau"
-            },
-            {
-              "id": "c",
-              "text": "Disposal would be a claim on other people's houses"
+              "text": "He is right, because property is a record, not an action, so a ban on use leaves it intact"
             },
             {
               "id": "d",
               "text": "Ownership that forbids the owner to act is not the right; use and disposal are the point"
+            },
+            {
+              "id": "b",
+              "text": "Living in the house would be force against the bureau, so the owner must stay out of it"
+            },
+            {
+              "id": "c",
+              "text": "Disposal would be a claim on other people's houses, so a sale takes the neighbors' title away"
             }
           ],
           "feedback": {
@@ -5742,11 +5742,11 @@
           "choices": [
             {
               "id": "a",
-              "text": "He is right, because use without their tools is only a wish"
+              "text": "He is right, because use without their tools is only a wish, so their effort is part of his right"
             },
             {
               "id": "b",
-              "text": "Tools are unowned until a neighbor needs them"
+              "text": "Tools are unowned until a neighbor needs them, so his need moves the title from the owner to him"
             },
             {
               "id": "c",
@@ -5754,7 +5754,7 @@
             },
             {
               "id": "d",
-              "text": "A low offer for their tools is force, so they must give the tools over"
+              "text": "A low offer for their tools is force, so they must hand the tools over or else violate his right to use"
             }
           ],
           "feedback": {
@@ -5773,10 +5773,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Because action needs control of its means and of its result"
-            },
-            {
               "id": "b",
               "text": "Because action needs a promise that other people will succeed for you"
             },
@@ -5787,6 +5783,10 @@
             {
               "id": "d",
               "text": "Because property replaces action and makes effort unnecessary"
+            },
+            {
+              "id": "a",
+              "text": "Because action needs control of its means and of its result"
             }
           ],
           "feedback": {
@@ -5801,16 +5801,16 @@
           "answer": "c",
           "choices": [
             {
+              "id": "c",
+              "text": "A form of words, without the control action requires"
+            },
+            {
               "id": "a",
               "text": "Full freedom of action"
             },
             {
               "id": "b",
               "text": "The right to life, fully implemented"
-            },
-            {
-              "id": "c",
-              "text": "A form of words, without the control action requires"
             },
             {
               "id": "d",
@@ -5902,10 +5902,10 @@
             }
           ],
           "bank": [
-            "result",
             "permit",
             "slogan",
-            "audience"
+            "audience",
+            "result"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -5923,8 +5923,16 @@
               "text": "Freedom of action"
             },
             {
+              "id": "d1",
+              "text": "cancels the right"
+            },
+            {
               "id": "t2",
               "text": "requires"
+            },
+            {
+              "id": "d2",
+              "text": "replaces property"
             },
             {
               "id": "t3",
@@ -5933,14 +5941,6 @@
             {
               "id": "t4",
               "text": "of property"
-            },
-            {
-              "id": "d1",
-              "text": "cancels the right"
-            },
-            {
-              "id": "d2",
-              "text": "replaces property"
             }
           ],
           "answer": [
@@ -5962,19 +5962,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He is right, because rights never cover material things"
+              "text": "He is right, because rights never cover material things such as a press or a hall"
             },
             {
               "id": "b",
-              "text": "A press is not the kind of thing that can be property"
-            },
-            {
-              "id": "c",
-              "text": "Controlling the earnings protects the speaker by guaranteeing an audience"
+              "text": "A press is not the kind of thing that can be property, so taking it leaves the speech free"
             },
             {
               "id": "d",
               "text": "Speaking requires means and a result; controlling those leaves no freedom of action"
+            },
+            {
+              "id": "c",
+              "text": "Controlling the earnings protects the speaker by guaranteeing an audience bound to listen"
             }
           ],
           "feedback": {
@@ -5989,20 +5989,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The right is the freedom to gain and keep what he produces; lacking goods now is not a license to command him"
-            },
-            {
               "id": "b",
-              "text": "He is right, because a right exists only after an object is already in hand"
+              "text": "He is right, because a right exists only after an object is already in hand, so empty hands may be commanded"
             },
             {
               "id": "c",
-              "text": "Commanding him implements his right to life"
+              "text": "Commanding him implements his right to life, because a man without goods has no freedom of his own"
             },
             {
               "id": "d",
-              "text": "The right to property guarantees that he already owns the goods"
+              "text": "The right to property guarantees that he already owns the goods, so their absence means the right has failed"
+            },
+            {
+              "id": "a",
+              "text": "The right is the freedom to gain and keep what he produces; lacking goods now is not a license to command him"
             }
           ],
           "feedback": {
@@ -6021,20 +6021,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "A person is guaranteed objects, and he holds a title to what others produce"
-            },
-            {
               "id": "b",
               "text": "He may gain, keep, use, and dispose of what he produces or earns, because freedom of action requires that control"
             },
             {
+              "id": "a",
+              "text": "A person is guaranteed objects, and he holds a title to what others produce, as freedom's claim on their effort"
+            },
+            {
               "id": "c",
-              "text": "He may hold goods only as a tenant of the state"
+              "text": "He may hold goods only as a tenant of the state, because the state owns what he produces and may recall the use"
             },
             {
               "id": "d",
-              "text": "Theft is property whenever the thief needs the goods"
+              "text": "Theft is property whenever the thief needs the goods, because need replaces production and moves the title to him"
             }
           ],
           "feedback": {
@@ -6050,20 +6050,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "He is guaranteed the object whether or not he earns it, success being owed to him"
+            },
+            {
               "id": "a",
               "text": "He is not guaranteed to earn property; he is guaranteed to own it if he earns it"
             },
             {
-              "id": "b",
-              "text": "He is guaranteed the object whether or not he earns it"
-            },
-            {
               "id": "c",
-              "text": "Ownership is withdrawn even when he has earned the object"
+              "text": "Ownership is withdrawn even when he has earned the object, so earning yields no title"
             },
             {
               "id": "d",
-              "text": "Earning creates only a permission, which another person may cancel"
+              "text": "Earning creates only a permission, which another person may cancel afterward"
             }
           ],
           "feedback": {
@@ -6088,12 +6088,12 @@
               "text": "Only his dealings with nature, since no person took the fee"
             },
             {
-              "id": "c",
-              "text": "His duty to seek permission, which is the right working as it should"
-            },
-            {
               "id": "d",
               "text": "Keeping, using, and disposing of what he earned"
+            },
+            {
+              "id": "c",
+              "text": "His duty to seek permission, which is the right working as it should"
             }
           ],
           "feedback": {
@@ -6178,20 +6178,20 @@
               "text": "will own it"
             },
             {
-              "id": "t3",
-              "text": "if"
-            },
-            {
-              "id": "t4",
-              "text": "he earns it"
-            },
-            {
               "id": "d1",
               "text": "if he seizes it"
             },
             {
+              "id": "t3",
+              "text": "if"
+            },
+            {
               "id": "d2",
               "text": "whether or not he earns it"
+            },
+            {
+              "id": "t4",
+              "text": "he earns it"
             }
           ],
           "answer": [
@@ -6213,19 +6213,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "The implementation of the right to life"
+              "text": "The implementation of the right to life, because a permit over the product is that control"
             },
             {
               "id": "b",
-              "text": "Laissez-faire, because work is still allowed"
+              "text": "Laissez-faire, because work is still allowed even though the public owns the product"
+            },
+            {
+              "id": "d",
+              "text": "Retaliation against theft, with the worker cast as the thief for producing"
             },
             {
               "id": "c",
               "text": "A denial of property and of freedom of action, replacing the right with a permission"
-            },
-            {
-              "id": "d",
-              "text": "Retaliation against theft, with the worker cast as the thief"
             }
           ],
           "feedback": {
@@ -6240,20 +6240,20 @@
           "answer": "b",
           "choices": [
             {
-              "id": "a",
-              "text": "He is right, because any possession is the right to property"
-            },
-            {
               "id": "b",
               "text": "Fraud is not earning; a value taken by destroying consent is not property"
             },
             {
+              "id": "a",
+              "text": "He is right, because any possession is the right to property, fraud included"
+            },
+            {
               "id": "c",
-              "text": "Fraud is a voluntary trade, so the title is ordinary"
+              "text": "Fraud is a voluntary trade, so the title is ordinary and the fee was earned"
             },
             {
               "id": "d",
-              "text": "The victim's consent is irrelevant to who holds title"
+              "text": "The victim's consent is irrelevant to who holds title to the fee that was paid"
             }
           ],
           "feedback": {
@@ -6300,16 +6300,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Who owns the individual's life"
-            },
-            {
               "id": "b",
               "text": "Which retaliatory procedures a court should publish"
             },
             {
               "id": "c",
               "text": "How a contract between private parties should be worded"
+            },
+            {
+              "id": "a",
+              "text": "Who owns the individual's life"
             },
             {
               "id": "d",
@@ -6329,15 +6329,15 @@
           "choices": [
             {
               "id": "a",
-              "text": "There is no error, because an agent is the same thing as an owner"
+              "text": "There is no error, because an agent is the same thing as an owner, so government is title to the citizens"
             },
             {
               "id": "b",
-              "text": "There is no error, because the existence of courts is the whole view"
+              "text": "There is no error, because the existence of courts is the whole view, so a court is the ownership claim"
             },
             {
               "id": "c",
-              "text": "Protecting rights is ownership of the person"
+              "text": "Protecting rights is ownership of the person, so a government of retaliation still holds title to his life"
             },
             {
               "id": "d",
@@ -6401,8 +6401,8 @@
             }
           ],
           "bank": [
-            "state",
             "person",
+            "state",
             "market",
             "court"
           ],
@@ -6430,12 +6430,12 @@
               "text": "a life"
             },
             {
-              "id": "t4",
-              "text": "belongs to the state"
-            },
-            {
               "id": "d1",
               "text": "belongs to the person"
+            },
+            {
+              "id": "t4",
+              "text": "belongs to the state"
             },
             {
               "id": "d2",
@@ -6460,16 +6460,16 @@
           "answer": "c",
           "choices": [
             {
+              "id": "c",
+              "text": "That ownership claim is statism, whatever name he prefers to avoid"
+            },
+            {
               "id": "a",
               "text": "He has described a proper government and nothing more"
             },
             {
               "id": "b",
               "text": "Public good means consent to protect rights and then to stop"
-            },
-            {
-              "id": "c",
-              "text": "That ownership claim is statism, whatever name he prefers to avoid"
             },
             {
               "id": "d",
@@ -6488,20 +6488,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "He is right, because the state is only an agent, and the name statism adds no further claim"
+            },
+            {
               "id": "a",
               "text": "Statism is the opposite claim: the life belongs to the state, not to the person who lives it"
             },
             {
-              "id": "b",
-              "text": "He is right, because the state is only an agent and the word adds nothing"
-            },
-            {
               "id": "c",
-              "text": "Being left free means the state may dispose of the person"
+              "text": "Being left free means the state may dispose of the person, and that disposal is what freedom names"
             },
             {
               "id": "d",
-              "text": "Leaving people free is public ownership of them"
+              "text": "Leaving people free is public ownership of them, so that wish is itself the statist claim"
             }
           ],
           "feedback": {
@@ -6552,16 +6552,16 @@
               "text": "As an end in himself, free to dispose of it"
             },
             {
-              "id": "b",
-              "text": "As someone whose life belongs to the state"
-            },
-            {
               "id": "c",
               "text": "As a right-holder who needs no one's permission to live"
             },
             {
               "id": "d",
               "text": "As the owner, with the state only an agent he can dismiss from that role"
+            },
+            {
+              "id": "b",
+              "text": "As someone whose life belongs to the state"
             }
           ],
           "feedback": {
@@ -6581,15 +6581,15 @@
             },
             {
               "id": "b",
-              "text": "No. Steward is a gentle word, so the claim cannot be statism"
+              "text": "No. Steward is a gentle word, so the claim cannot be statism, even with the state named as owner"
             },
             {
               "id": "c",
-              "text": "No. A steward is a trader exchanging value for value"
+              "text": "No. A steward is a trader exchanging value for value, so the state's title is only a trade"
             },
             {
               "id": "d",
-              "text": "No. Naming a steward is laissez-faire"
+              "text": "No. Naming a steward is laissez-faire, since a soft name for state ownership is private title"
             }
           ],
           "feedback": {
@@ -6649,9 +6649,9 @@
             }
           ],
           "bank": [
-            "steward",
             "owner",
             "trader",
+            "steward",
             "sovereign"
           ],
           "feedback": {
@@ -6666,6 +6666,10 @@
           "prompt": "Build the principle in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "names the person"
+            },
+            {
               "id": "t1",
               "text": "Statism"
             },
@@ -6678,16 +6682,12 @@
               "text": "the state"
             },
             {
-              "id": "t4",
-              "text": "as owner"
-            },
-            {
-              "id": "d1",
-              "text": "names the person"
-            },
-            {
               "id": "d2",
               "text": "names no one"
+            },
+            {
+              "id": "t4",
+              "text": "as owner"
             }
           ],
           "answer": [
@@ -6712,16 +6712,16 @@
               "text": "Nothing. The view names railroads and does not speak about lives"
             },
             {
+              "id": "d",
+              "text": "The distinctive claim assigns the life itself to the state, not merely a railroad"
+            },
+            {
               "id": "b",
               "text": "The life belongs to the person whenever the state owns a road"
             },
             {
               "id": "c",
               "text": "A railroad and a person are the same question, so the life was already included"
-            },
-            {
-              "id": "d",
-              "text": "The distinctive claim assigns the life itself to the state, not merely a railroad"
             }
           ],
           "feedback": {
@@ -6737,19 +6737,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He is right, because agency and ownership are the same relation"
+              "text": "He is right, because agency and ownership are the same relation under two names"
+            },
+            {
+              "id": "c",
+              "text": "Protection is possible only if the life belongs to the protector who is paid to guard it"
             },
             {
               "id": "b",
               "text": "Consent to an agent that protects rights does not transfer ownership of the life"
             },
             {
-              "id": "c",
-              "text": "Protection is possible only if the life belongs to the protector"
-            },
-            {
               "id": "d",
-              "text": "The owner is whoever is paid to help, so payment creates the title"
+              "text": "The owner is whoever is paid to help, so the fee itself is a sale of the person"
             }
           ],
           "feedback": {
@@ -6776,12 +6776,12 @@
               "text": "Only his speeches, not his hours"
             },
             {
-              "id": "c",
-              "text": "His work, his time, and his choices"
-            },
-            {
               "id": "d",
               "text": "A symbol, with work and time left outside the claim"
+            },
+            {
+              "id": "c",
+              "text": "His work, his time, and his choices"
             }
           ],
           "feedback": {
@@ -6825,19 +6825,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "It leaves the life untouched, because his thoughts were declared free"
-            },
-            {
-              "id": "b",
-              "text": "It is only a schedule, and a schedule cannot be a claim on a life"
-            },
-            {
-              "id": "c",
-              "text": "It protects property by assigning him customers"
+              "text": "It leaves the life untouched, because his thoughts were declared free of the decree"
             },
             {
               "id": "d",
               "text": "It claims his work and his time, which are parts of the life assigned to the state"
+            },
+            {
+              "id": "b",
+              "text": "It is only a schedule, and a schedule cannot be a claim on a life or on work"
+            },
+            {
+              "id": "c",
+              "text": "It protects property by assigning him customers the state has picked for him"
             }
           ],
           "feedback": {
@@ -6897,10 +6897,10 @@
             }
           ],
           "bank": [
-            "choice",
             "anthem",
             "border",
-            "monument"
+            "monument",
+            "choice"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -6918,6 +6918,10 @@
               "text": "The state"
             },
             {
+              "id": "d1",
+              "text": "only a passport"
+            },
+            {
               "id": "t2",
               "text": "claims"
             },
@@ -6926,20 +6930,16 @@
               "text": "work"
             },
             {
+              "id": "d2",
+              "text": "only a symbol"
+            },
+            {
               "id": "t4",
               "text": "time"
             },
             {
               "id": "t5",
               "text": "and choice"
-            },
-            {
-              "id": "d1",
-              "text": "only a passport"
-            },
-            {
-              "id": "d2",
-              "text": "only a symbol"
             }
           ],
           "answer": [
@@ -6965,16 +6965,16 @@
               "text": "He is right, because only the word life counts and the years are a separate topic"
             },
             {
+              "id": "c",
+              "text": "Time is not part of a person's life, so the draft cannot touch him, however many years it claims"
+            },
+            {
               "id": "b",
               "text": "Drafting his years claims his time, which is part of the life the view assigns to the state"
             },
             {
-              "id": "c",
-              "text": "Time is not part of a person's life, so the draft cannot touch it"
-            },
-            {
               "id": "d",
-              "text": "A draft is a contract by definition, whatever the man is told"
+              "text": "A draft is a contract by definition, whatever the man is told, so his years were given by agreement"
             }
           ],
           "feedback": {
@@ -6990,19 +6990,19 @@
           "choices": [
             {
               "id": "a",
-              "text": "He is right, because choice floats free of hours and of the product"
+              "text": "He is right, because choice floats free of hours and of the product, so owning them spares his choice"
             },
             {
               "id": "b",
-              "text": "A product is not part of work, so owning it leaves work untouched"
+              "text": "A product is not part of work, so owning it leaves the work free, and the hours may be seized as well"
+            },
+            {
+              "id": "d",
+              "text": "Owning the hours protects his freedom to direct his own action, since the schedule is that freedom"
             },
             {
               "id": "c",
               "text": "Hours and product are the work and the time; taking them takes the choice of what to do with them"
-            },
-            {
-              "id": "d",
-              "text": "Owning the hours protects his freedom to direct his own action"
             }
           ],
           "feedback": {
@@ -7026,15 +7026,15 @@
             },
             {
               "id": "b",
-              "text": "Because it protects him from initiated force and then stops"
+              "text": "Because it protects him from initiated force and then stops, making him a means"
             },
             {
               "id": "c",
-              "text": "Because he is an end in himself"
+              "text": "Because he is an end in himself, so the state must spend him to honor that"
             },
             {
               "id": "d",
-              "text": "Because he owns what he earns and may refuse a trade"
+              "text": "Because he owns what he earns and may refuse a trade, which makes him the tool"
             }
           ],
           "feedback": {
@@ -7053,16 +7053,16 @@
               "text": "To trade with him, value for value, by mutual consent"
             },
             {
+              "id": "d",
+              "text": "To use him for ends that are not his own"
+            },
+            {
               "id": "b",
               "text": "To act as his agent and only within a delegated purpose"
             },
             {
               "id": "c",
               "text": "To leave him free to keep the consequences of his own action"
-            },
-            {
-              "id": "d",
-              "text": "To use him for ends that are not his own"
             }
           ],
           "feedback": {
@@ -7081,12 +7081,12 @@
               "text": "As an end in himself"
             },
             {
-              "id": "b",
-              "text": "As a means to the nation's ends"
-            },
-            {
               "id": "c",
               "text": "As a trader whose own purpose sets the terms"
+            },
+            {
+              "id": "b",
+              "text": "As a means to the nation's ends"
             },
             {
               "id": "d",
@@ -7167,8 +7167,16 @@
           "prompt": "Build the principle in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "he is an end"
+            },
+            {
               "id": "t1",
               "text": "Because"
+            },
+            {
+              "id": "d2",
+              "text": "he is the owner"
             },
             {
               "id": "t2",
@@ -7181,14 +7189,6 @@
             {
               "id": "t4",
               "text": "he is a means"
-            },
-            {
-              "id": "d1",
-              "text": "he is an end"
-            },
-            {
-              "id": "d2",
-              "text": "he is the owner"
             }
           ],
           "answer": [
@@ -7214,15 +7214,15 @@
             },
             {
               "id": "b",
-              "text": "An end is someone who exists for another's plan"
+              "text": "An end is someone who exists for another's plan, so the state's plan is what makes him an end"
+            },
+            {
+              "id": "d",
+              "text": "Belonging to the state is what makes him an end, because its purpose becomes his sake"
             },
             {
               "id": "c",
               "text": "If the life belongs to the state, he is used for its ends and is not an end in himself"
-            },
-            {
-              "id": "d",
-              "text": "Belonging to the state is what makes him an end"
             }
           ],
           "feedback": {
@@ -7242,15 +7242,15 @@
             },
             {
               "id": "b",
-              "text": "He is right, because only iron chains are statism"
+              "text": "He is right, because only iron chains are statism, so a career assigned on paper still leaves him an end"
             },
             {
               "id": "c",
-              "text": "A career is not part of a life, so the command cannot use him"
+              "text": "A career is not part of a life, so the command cannot use him, and his working years stay outside that life"
             },
             {
               "id": "d",
-              "text": "A public plan is the right to one's own life under another name"
+              "text": "A public plan is the right to one's own life under another name, so obedience to the plan is what keeps him an end"
             }
           ],
           "feedback": {
@@ -7297,16 +7297,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Statism, worded as public ownership of the person"
-            },
-            {
               "id": "b",
               "text": "A statement of the right to one's own life"
             },
             {
               "id": "c",
               "text": "Laissez-faire capitalism"
+            },
+            {
+              "id": "a",
+              "text": "Statism, worded as public ownership of the person"
             },
             {
               "id": "d",
@@ -7326,15 +7326,15 @@
           "choices": [
             {
               "id": "a",
-              "text": "Only a polite slogan, with no claim on action"
+              "text": "Only a polite slogan, with no claim on action, work, or the time it takes"
             },
             {
               "id": "b",
-              "text": "The duty to respect other people's rights and nothing further"
+              "text": "The duty to respect other people's rights, and nothing that reaches his own work"
             },
             {
               "id": "c",
-              "text": "The duty to keep what one earns"
+              "text": "The duty to keep what one earns, which is all a national purpose can mean"
             },
             {
               "id": "d",
@@ -7398,8 +7398,8 @@
             }
           ],
           "bank": [
-            "nation",
             "contract",
+            "nation",
             "self",
             "facts"
           ],
@@ -7419,8 +7419,16 @@
               "text": "Duty"
             },
             {
+              "id": "d1",
+              "text": "denies state ownership"
+            },
+            {
               "id": "t2",
               "text": "to the nation"
+            },
+            {
+              "id": "d2",
+              "text": "limits the state to rights"
             },
             {
               "id": "t3",
@@ -7429,14 +7437,6 @@
             {
               "id": "t4",
               "text": "state ownership"
-            },
-            {
-              "id": "d1",
-              "text": "denies state ownership"
-            },
-            {
-              "id": "d2",
-              "text": "limits the state to rights"
             }
           ],
           "answer": [
@@ -7457,16 +7457,16 @@
           "answer": "c",
           "choices": [
             {
+              "id": "c",
+              "text": "Directing the career for the nation is the ownership claim under another name"
+            },
+            {
               "id": "a",
               "text": "He is right, because a new name creates a new doctrine"
             },
             {
               "id": "b",
               "text": "Patriotism, as he defines it, means the nation is only the individual's agent"
-            },
-            {
-              "id": "c",
-              "text": "Directing the career for the nation is the ownership claim under another name"
             },
             {
               "id": "d",
@@ -7486,7 +7486,7 @@
           "choices": [
             {
               "id": "a",
-              "text": "There is no error, because avoiding the word ownership avoids the claim"
+              "text": "There is no error, because avoiding the word ownership avoids the claim on his labor and years"
             },
             {
               "id": "b",
@@ -7494,11 +7494,11 @@
             },
             {
               "id": "c",
-              "text": "The error is that he described a contract the person freely made"
+              "text": "The error is that he described a contract the person freely made, rather than an order he never accepted"
             },
             {
               "id": "d",
-              "text": "He has restated the right to one's own life"
+              "text": "He has restated the right to one's own life, since labor and years given to the public are that right"
             }
           ],
           "feedback": {

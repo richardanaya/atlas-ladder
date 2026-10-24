@@ -38,12 +38,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The philosophical question, which is not yet an esthetic judgment"
-            },
-            {
               "id": "b",
               "text": "The esthetic question, because agreement is the whole of it"
+            },
+            {
+              "id": "a",
+              "text": "The philosophical question, which is not yet an esthetic judgment"
             },
             {
               "id": "c",
@@ -66,16 +66,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The philosophy can be rejected, and the esthetic question remains open"
-            },
-            {
               "id": "b",
               "text": "Disagreement ends the esthetic question, so the work fails as art"
             },
             {
               "id": "c",
               "text": "Disagreement is forbidden once the plot is clear"
+            },
+            {
+              "id": "a",
+              "text": "The philosophy can be rejected, and the esthetic question remains open"
             },
             {
               "id": "d",
@@ -149,8 +149,8 @@
           ],
           "bank": [
             "does",
-            "agree",
             "pay",
+            "agree",
             "obey"
           ],
           "feedback": {
@@ -165,10 +165,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "If the metaphysics is false, the work is esthetically worthless"
-            },
-            {
               "id": "b",
               "text": "I reject the metaphysics, and I can still judge the re-creation"
             },
@@ -179,6 +175,10 @@
             {
               "id": "d",
               "text": "The two questions can be answered in opposite ways"
+            },
+            {
+              "id": "a",
+              "text": "If the metaphysics is false, the work is esthetically worthless"
             }
           ],
           "feedback": {
@@ -198,15 +198,15 @@
             },
             {
               "id": "b",
-              "text": "They gave an esthetic judgment and skipped nothing"
+              "text": "They gave an esthetic judgment and skipped nothing the message required"
             },
             {
               "id": "c",
-              "text": "They judged the means and ignored a slogan"
+              "text": "They judged the means and ignored a slogan, so the praise was for craft"
             },
             {
               "id": "d",
-              "text": "They separated the questions and answered both"
+              "text": "They separated the questions and answered both, so efficacy settled the art"
             }
           ],
           "feedback": {
@@ -229,20 +229,20 @@
               "text": "asks what the work does"
             },
             {
-              "id": "t3",
-              "text": "as a selective re-creation"
-            },
-            {
-              "id": "t4",
-              "text": ", and agreement is a separate question"
-            },
-            {
               "id": "d1",
               "text": "is the same as agreement"
             },
             {
+              "id": "t3",
+              "text": "as a selective re-creation"
+            },
+            {
               "id": "d2",
               "text": "with the artist's loyalty test"
+            },
+            {
+              "id": "t4",
+              "text": ", and agreement is a separate question"
             }
           ],
           "answer": [
@@ -267,20 +267,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A slogan printed beside it that stands in for the work"
+            },
+            {
               "id": "a",
               "text": "The selective re-creation it actually presents"
             },
             {
-              "id": "b",
-              "text": "A slogan printed beside it"
-            },
-            {
               "id": "c",
-              "text": "The author's biography"
+              "text": "The author's biography, taken as what the work does"
             },
             {
               "id": "d",
-              "text": "A lecture that could replace the work"
+              "text": "A lecture that could replace the work as the judgment"
             }
           ],
           "feedback": {
@@ -295,16 +295,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The story actually presented, which does not show volition"
-            },
-            {
               "id": "b",
               "text": "The preface, because a slogan is the work"
             },
             {
               "id": "c",
               "text": "The preface, because the purpose of art is to teach the sentence"
+            },
+            {
+              "id": "a",
+              "text": "The story actually presented, which does not show volition"
             },
             {
               "id": "d",
@@ -323,10 +323,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A propaganda command stands in for the re-creation the work was to show"
-            },
-            {
               "id": "b",
               "text": "The film fails because it uses pictures rather than a lecture"
             },
@@ -337,6 +333,10 @@
             {
               "id": "d",
               "text": "The film succeeds because a card is a metaphysical value-judgment by itself"
+            },
+            {
+              "id": "a",
+              "text": "A propaganda command stands in for the re-creation the work was to show"
             }
           ],
           "feedback": {
@@ -405,10 +405,10 @@
             }
           ],
           "bank": [
-            "show",
-            "teach",
             "order",
-            "record"
+            "show",
+            "record",
+            "teach"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -428,15 +428,15 @@
             },
             {
               "id": "b",
-              "text": "The purpose is to teach, and showing is a lesser substitute"
+              "text": "The purpose is to teach, and showing is a lesser substitute that drops the image"
             },
             {
               "id": "c",
-              "text": "The purpose is to issue a command, as a propaganda poster does"
+              "text": "The purpose is to issue a command, as a propaganda poster does, so viewers obey"
             },
             {
               "id": "d",
-              "text": "The purpose is to record an event, as a news photograph does"
+              "text": "The purpose is to record an event, as a news photograph does, with nothing omitted"
             }
           ],
           "feedback": {
@@ -453,12 +453,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A play that shows an intelligible image of a man facing a choice he could refuse"
-            },
-            {
               "id": "b",
               "text": "A tract that teaches the same sentence and calls the binding a work of art"
+            },
+            {
+              "id": "a",
+              "text": "A play that shows an intelligible image of a man facing a choice he could refuse"
             },
             {
               "id": "c",
@@ -493,12 +493,12 @@
               "text": "as a selective re-creation"
             },
             {
-              "id": "t4",
-              "text": ", not a slogan beside it"
-            },
-            {
               "id": "d1",
               "text": "the lecture in the preface"
+            },
+            {
+              "id": "t4",
+              "text": ", not a slogan beside it"
             },
             {
               "id": "d2",
@@ -527,16 +527,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Artistic skill and the truth of the philosophy the work embodies"
-            },
-            {
               "id": "b",
               "text": "An intelligible subject and the requirement of intelligibility"
             },
             {
               "id": "c",
               "text": "Inclusion and the act of selection"
+            },
+            {
+              "id": "a",
+              "text": "Artistic skill and the truth of the philosophy the work embodies"
             },
             {
               "id": "d",
@@ -555,10 +555,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The skill can be recognized, and the philosophy can still be rejected"
-            },
-            {
               "id": "b",
               "text": "The skill is a vote that the philosophy is true"
             },
@@ -569,6 +565,10 @@
             {
               "id": "d",
               "text": "Rejection of the philosophy forbids noticing the plot's control"
+            },
+            {
+              "id": "a",
+              "text": "The skill can be recognized, and the philosophy can still be rejected"
             }
           ],
           "feedback": {
@@ -588,15 +588,15 @@
             },
             {
               "id": "b",
-              "text": "Agreement makes the work esthetically successful"
+              "text": "Agreement makes the work esthetically successful even if the events are accidents"
             },
             {
               "id": "c",
-              "text": "The true view turns the accidents into a plot"
+              "text": "The true view turns the accidents into a plot and thereby supplies the skill"
             },
             {
               "id": "d",
-              "text": "A speech is skill, because the philosophy is true"
+              "text": "A speech is skill, because the philosophy is true and truth stands in for the plot"
             }
           ],
           "feedback": {
@@ -666,8 +666,8 @@
           ],
           "bank": [
             "skill",
-            "true",
             "mood",
+            "true",
             "price"
           ],
           "feedback": {
@@ -682,12 +682,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The philosophy is true because the book works on an audience"
-            },
-            {
               "id": "b",
               "text": "The book can be skilled while the philosophy is false"
+            },
+            {
+              "id": "a",
+              "text": "The philosophy is true because the book works on an audience"
             },
             {
               "id": "c",
@@ -710,20 +710,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "You judge by the selective re-creation the work presents, and agreement is skill"
+            },
+            {
+              "id": "c",
+              "text": "Skill is identified by looking at how the means are controlled by a true view"
+            },
+            {
               "id": "a",
               "text": "The worth is revealed in the work, so judging what it does is unnecessary"
             },
             {
-              "id": "b",
-              "text": "You judge by the selective re-creation the work presents"
-            },
-            {
-              "id": "c",
-              "text": "Skill is identified by looking at how the means are controlled"
-            },
-            {
               "id": "d",
-              "text": "A false view can still be embodied with great control"
+              "text": "A false view can still be embodied with great control, which makes the view true"
             }
           ],
           "feedback": {
@@ -738,6 +738,10 @@
           "prompt": "Build the independence of the verdicts in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "are one vote"
+            },
+            {
               "id": "t1",
               "text": "Skill and truth"
             },
@@ -750,16 +754,12 @@
               "text": "in either direction"
             },
             {
-              "id": "t4",
-              "text": ", so neither verdict substitutes for the other"
-            },
-            {
-              "id": "d1",
-              "text": "are one vote"
-            },
-            {
               "id": "d2",
               "text": "cast by a crowd's reaction"
+            },
+            {
+              "id": "t4",
+              "text": ", so neither verdict substitutes for the other"
             }
           ],
           "answer": [
@@ -784,10 +784,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "When the work's own means carry the abstract meaning"
-            },
-            {
               "id": "b",
               "text": "When a lecture beside the work states a true sentence"
             },
@@ -798,6 +794,10 @@
             {
               "id": "d",
               "text": "When the theme is printed on a card and the work is blank"
+            },
+            {
+              "id": "a",
+              "text": "When the work's own means carry the abstract meaning"
             }
           ],
           "feedback": {
@@ -817,15 +817,15 @@
             },
             {
               "id": "b",
-              "text": "The fault is that speeches use words"
+              "text": "The fault is that speeches use words, so dialogue itself ruins the re-creation"
             },
             {
               "id": "c",
-              "text": "The fault is that a theme is an abstract meaning"
+              "text": "The fault is that a theme is an abstract meaning, so any meaning ruins the work"
             },
             {
               "id": "d",
-              "text": "There is no fault, because teaching is the purpose of art"
+              "text": "There is no fault, because teaching is the purpose of art and the speech teaches"
             }
           ],
           "feedback": {
@@ -840,12 +840,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Carried by the concretes of the story"
-            },
-            {
               "id": "b",
               "text": "Missing, because a theme exists only as a slogan in a preface"
+            },
+            {
+              "id": "a",
+              "text": "Carried by the concretes of the story"
             },
             {
               "id": "c",
@@ -922,10 +922,10 @@
             }
           ],
           "bank": [
-            "carry",
-            "replaces",
             "erases",
-            "prices"
+            "carry",
+            "prices",
+            "replaces"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -939,16 +939,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The work should show the meaning, not teach it in place of the re-creation"
-            },
-            {
               "id": "b",
               "text": "The work should teach the meaning and treat the scenes as optional"
             },
             {
               "id": "c",
               "text": "The work should hide every meaning so judgment has nothing to see"
+            },
+            {
+              "id": "a",
+              "text": "The work should show the meaning, not teach it in place of the re-creation"
             },
             {
               "id": "d",
@@ -967,10 +967,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The esthetic question of what the work does, not which theme is philosophically true"
-            },
-            {
               "id": "b",
               "text": "That the true theme is the better art, however badly it is carried"
             },
@@ -981,6 +977,10 @@
             {
               "id": "d",
               "text": "Nothing, because carrying refers only to the printer"
+            },
+            {
+              "id": "a",
+              "text": "The esthetic question of what the work does, not which theme is philosophically true"
             }
           ],
           "feedback": {
@@ -999,6 +999,10 @@
               "text": "The theme"
             },
             {
+              "id": "d1",
+              "text": "by a true slogan"
+            },
+            {
               "id": "t2",
               "text": "must be carried"
             },
@@ -1009,10 +1013,6 @@
             {
               "id": "t4",
               "text": ", not by a lecture beside it"
-            },
-            {
-              "id": "d1",
-              "text": "by a true slogan"
             },
             {
               "id": "d2",
@@ -1069,20 +1069,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The standard is relaxed, because allies need not show their theme in the concretes"
+            },
+            {
               "id": "a",
               "text": "The standard stays the same, and welcome is not a gift of esthetic success"
             },
             {
-              "id": "b",
-              "text": "The standard is relaxed, because allies need not show their theme"
-            },
-            {
               "id": "c",
-              "text": "The standard is replaced by gratitude"
+              "text": "The standard is replaced by gratitude, which passes any work you welcome"
             },
             {
               "id": "d",
-              "text": "The standard now asks only whether you agree"
+              "text": "The standard now asks only whether you agree, and agreement is esthetic success"
             }
           ],
           "feedback": {
@@ -1097,20 +1097,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Both succeed, because you welcome the view and welcome is the esthetic standard"
+            },
+            {
+              "id": "c",
+              "text": "Both fail, because a view you hold cannot be judged by any esthetic standard"
+            },
+            {
               "id": "a",
               "text": "By the same standard: the first carries the view, and the second does not"
             },
             {
-              "id": "b",
-              "text": "Both succeed, because you welcome the view"
-            },
-            {
-              "id": "c",
-              "text": "Both fail, because a view you hold cannot be judged"
-            },
-            {
               "id": "d",
-              "text": "The second succeeds more, because it teaches the line outright"
+              "text": "The second succeeds more, because it teaches the line outright as art's purpose"
             }
           ],
           "feedback": {
@@ -1180,8 +1180,8 @@
           ],
           "bank": [
             "standard",
-            "welcome",
             "slogan",
+            "welcome",
             "price"
           ],
           "feedback": {
@@ -1196,20 +1196,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It drops one standard for two loyalties, which is subjectivism about judgment"
-            },
-            {
               "id": "b",
-              "text": "It keeps what the work does at the center of both cases"
+              "text": "It keeps what the work does at the center of both cases and ignores loyalty"
             },
             {
               "id": "c",
-              "text": "It separates philosophical agreement from esthetic judgment"
+              "text": "It separates philosophical agreement from esthetic judgment and drops both loyalties"
             },
             {
               "id": "d",
-              "text": "It allows skill and truth to come apart"
+              "text": "It allows skill and truth to come apart, so a skilled enemy must be called true"
+            },
+            {
+              "id": "a",
+              "text": "It drops one standard for two loyalties, which is subjectivism about judgment"
             }
           ],
           "feedback": {
@@ -1229,15 +1229,15 @@
             },
             {
               "id": "b",
-              "text": "The welcomed view is automatically the better art"
+              "text": "The welcomed view is automatically the better art, and the rigorous rival must lose"
             },
             {
               "id": "c",
-              "text": "The opposed view cannot be skillfully embodied"
+              "text": "The opposed view cannot be skillfully embodied, so its rigor is only apparent"
             },
             {
               "id": "d",
-              "text": "Skill on the opposed side must be renamed clumsiness"
+              "text": "Skill on the opposed side must be renamed clumsiness, because opposition settles the art"
             }
           ],
           "feedback": {
@@ -1252,8 +1252,16 @@
           "prompt": "Build the rule of application in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "a loyalty test"
+            },
+            {
               "id": "t1",
               "text": "Apply"
+            },
+            {
+              "id": "d2",
+              "text": "that changes with agreement"
             },
             {
               "id": "t2",
@@ -1266,14 +1274,6 @@
             {
               "id": "t4",
               "text": "and to works you oppose"
-            },
-            {
-              "id": "d1",
-              "text": "a loyalty test"
-            },
-            {
-              "id": "d2",
-              "text": "that changes with agreement"
             }
           ],
           "answer": [
@@ -1298,12 +1298,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It is a school of art inside esthetics, named by its view of man"
-            },
-            {
               "id": "b",
               "text": "It is a further branch beside metaphysics, epistemology, ethics, and politics"
+            },
+            {
+              "id": "a",
+              "text": "It is a school of art inside esthetics, named by its view of man"
             },
             {
               "id": "c",
@@ -1326,20 +1326,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Feeling is the premise that defines every school in the same way and locates this one"
+            },
+            {
+              "id": "c",
+              "text": "Esthetics studies moods, and views of man belong only to politics rather than to art"
+            },
+            {
               "id": "a",
               "text": "A school is classified by its premise about man, not by an emotion-oriented mood"
             },
             {
-              "id": "b",
-              "text": "Feeling is the premise that defines every school in the same way"
-            },
-            {
-              "id": "c",
-              "text": "Esthetics studies moods, and views of man belong only to politics"
-            },
-            {
               "id": "d",
-              "text": "Romanticism sits outside art, in a treatise with no works"
+              "text": "Romanticism sits outside art, in a treatise with no works, so no plot can embody it"
             }
           ],
           "feedback": {
@@ -1354,10 +1354,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The classification by a view of man, replaced by a thrill"
-            },
-            {
               "id": "b",
               "text": "The placement of the school inside esthetics, which the thrill preserves"
             },
@@ -1368,6 +1364,10 @@
             {
               "id": "d",
               "text": "The possibility that a work of art can have a premise"
+            },
+            {
+              "id": "a",
+              "text": "The classification by a view of man, replaced by a thrill"
             }
           ],
           "feedback": {
@@ -1431,10 +1431,10 @@
             }
           ],
           "bank": [
-            "school",
-            "man",
             "mood",
-            "price"
+            "school",
+            "price",
+            "man"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -1476,12 +1476,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A period mood replaces classification by a view of man"
-            },
-            {
               "id": "b",
               "text": "A school may not be discussed in historical order at all"
+            },
+            {
+              "id": "a",
+              "text": "A period mood replaces classification by a view of man"
             },
             {
               "id": "c",
@@ -1508,8 +1508,16 @@
               "text": "Romanticism"
             },
             {
+              "id": "d1",
+              "text": "an emotion-oriented mood"
+            },
+            {
               "id": "t2",
               "text": "is a school"
+            },
+            {
+              "id": "d2",
+              "text": "a branch of politics"
             },
             {
               "id": "t3",
@@ -1518,14 +1526,6 @@
             {
               "id": "t4",
               "text": "named by its view of man"
-            },
-            {
-              "id": "d1",
-              "text": "an emotion-oriented mood"
-            },
-            {
-              "id": "d2",
-              "text": "a branch of politics"
             }
           ],
           "answer": [
@@ -1550,16 +1550,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Man possesses the faculty of volition"
-            },
-            {
               "id": "b",
               "text": "Man is determined by forces he cannot choose"
             },
             {
               "id": "c",
               "text": "Man knows by feeling rather than by reason"
+            },
+            {
+              "id": "a",
+              "text": "Man possesses the faculty of volition"
             },
             {
               "id": "d",
@@ -1578,10 +1578,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The recognition that man possesses volition"
-            },
-            {
               "id": "b",
               "text": "The premise that the hero's act was fixed before his birth"
             },
@@ -1592,6 +1588,10 @@
             {
               "id": "d",
               "text": "The premise that choice is an illusion the style should hide"
+            },
+            {
+              "id": "a",
+              "text": "The recognition that man possesses volition"
             }
           ],
           "feedback": {
@@ -1611,15 +1611,15 @@
             },
             {
               "id": "b",
-              "text": "Volition, because the word choose appears"
+              "text": "Volition, because the word choose appears even when fate planted it"
             },
             {
               "id": "c",
-              "text": "A grammar correction of the characters' motives"
+              "text": "A grammar correction of the characters' motives, not a view of man"
             },
             {
               "id": "d",
-              "text": "A price set on the outcome"
+              "text": "A price set on the outcome, which decides whether they chose"
             }
           ],
           "feedback": {
@@ -1684,8 +1684,8 @@
           ],
           "bank": [
             "volition",
-            "determinism",
             "mysticism",
+            "determinism",
             "escape"
           ],
           "feedback": {
@@ -1701,20 +1701,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "It is a category of art based on the denial that man can choose his course"
+            },
+            {
               "id": "a",
               "text": "It is a category of art based on the recognition that man possesses volition"
             },
             {
-              "id": "b",
-              "text": "It is a category of art based on the denial that man can choose"
-            },
-            {
               "id": "c",
-              "text": "It is a mood based on the intensity of emotion"
+              "text": "It is a mood based on the intensity of emotion, and choice is not the basis"
             },
             {
               "id": "d",
-              "text": "It is an escape from facts, based on mysticism"
+              "text": "It is an escape from facts, based on mysticism, and volition is not required"
             }
           ],
           "feedback": {
@@ -1731,16 +1731,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The school can keep the label and present men as unable to choose"
-            },
-            {
               "id": "b",
               "text": "A Romantic plot depends on a choice that could have gone another way"
             },
             {
               "id": "c",
               "text": "The premise is about man's faculty, not about a costume"
+            },
+            {
+              "id": "a",
+              "text": "The school can keep the label and present men as unable to choose"
             },
             {
               "id": "d",
@@ -1767,20 +1767,20 @@
               "text": "is based on"
             },
             {
-              "id": "t3",
-              "text": "the recognition"
-            },
-            {
-              "id": "t4",
-              "text": "that man possesses volition"
-            },
-            {
               "id": "d1",
               "text": "that man is determined"
             },
             {
+              "id": "t3",
+              "text": "the recognition"
+            },
+            {
               "id": "d2",
               "text": "that feeling replaces facts"
+            },
+            {
+              "id": "t4",
+              "text": "that man possesses volition"
             }
           ],
           "answer": [
@@ -1805,10 +1805,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Men as determined"
-            },
-            {
               "id": "b",
               "text": "Men as beings who possess volition"
             },
@@ -1819,6 +1815,10 @@
             {
               "id": "d",
               "text": "Men as moods, with no nature to present"
+            },
+            {
+              "id": "a",
+              "text": "Men as determined"
             }
           ],
           "feedback": {
@@ -1861,12 +1861,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The presentation of a determined man, without a value-directed plot"
-            },
-            {
               "id": "b",
               "text": "Romanticism, because the man suffers and suffering is feeling"
+            },
+            {
+              "id": "a",
+              "text": "The presentation of a determined man, without a value-directed plot"
             },
             {
               "id": "c",
@@ -1938,10 +1938,10 @@
             }
           ],
           "bank": [
-            "determined",
-            "plot",
             "volitional",
-            "sermon"
+            "determined",
+            "sermon",
+            "plot"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -1955,20 +1955,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "It correctly uses suffering as the definition of volition and of the school"
+            },
+            {
+              "id": "c",
+              "text": "It shows that Naturalism denies the existence of pain and therefore of suffering"
+            },
+            {
               "id": "a",
               "text": "It treats Romanticism as feeling more, and misses the contrast with determinism"
             },
             {
-              "id": "b",
-              "text": "It correctly uses suffering as the definition of volition"
-            },
-            {
-              "id": "c",
-              "text": "It shows that Naturalism denies the existence of pain"
-            },
-            {
               "id": "d",
-              "text": "It shows that a plot is any sad event"
+              "text": "It shows that a plot is any sad event, so suffering itself is the climax"
             }
           ],
           "feedback": {
@@ -1983,20 +1983,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Determined men, and an attempt to record without a value-directed plot"
-            },
-            {
               "id": "b",
-              "text": "Volition, embodied in a chosen climax"
+              "text": "Volition, embodied in a chosen climax, with the camera order as the purpose"
             },
             {
               "id": "c",
-              "text": "A fantasy cut off from any intelligible subject"
+              "text": "A fantasy cut off from any intelligible subject by the weight of the details"
             },
             {
               "id": "d",
-              "text": "A metaphysics proved by the number of details"
+              "text": "A metaphysics proved by the number of details, so the count is the premise"
+            },
+            {
+              "id": "a",
+              "text": "Determined men, and an attempt to record without a value-directed plot"
             }
           ],
           "feedback": {
@@ -2023,12 +2023,12 @@
               "text": "as determined"
             },
             {
-              "id": "t4",
-              "text": "and tries to record them without a value-directed plot"
-            },
-            {
               "id": "d1",
               "text": "as volitional beings"
+            },
+            {
+              "id": "t4",
+              "text": "and tries to record them without a value-directed plot"
             },
             {
               "id": "d2",
@@ -2085,12 +2085,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Emotion is not the fundamental characteristic; volition is"
-            },
-            {
               "id": "b",
               "text": "A Romantic work is required to be emotionally blank"
+            },
+            {
+              "id": "a",
+              "text": "Emotion is not the fundamental characteristic; volition is"
             },
             {
               "id": "c",
@@ -2113,20 +2113,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The recognition that man possesses volition, revealed by refusing the facts"
+            },
+            {
+              "id": "c",
+              "text": "A value-directed plot about a human choice disclosed by the vision"
+            },
+            {
               "id": "a",
               "text": "Mysticism and escape from facts, not the volition-oriented definition"
             },
             {
-              "id": "b",
-              "text": "The recognition that man possesses volition"
-            },
-            {
-              "id": "c",
-              "text": "A value-directed plot about a human choice"
-            },
-            {
               "id": "d",
-              "text": "A re-creation of an intelligible subject"
+              "text": "A re-creation of an intelligible subject supplied by the vision alone"
             }
           ],
           "feedback": {
@@ -2196,8 +2196,8 @@
           ],
           "bank": [
             "volition-oriented",
-            "mood",
             "mystic",
+            "mood",
             "escapist"
           ],
           "feedback": {
@@ -2213,20 +2213,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It must be defined as the volition-oriented school, by that essential trait"
-            },
-            {
               "id": "b",
-              "text": "It must be defined as an emotion-oriented mood"
+              "text": "It must be defined as an emotion-oriented mood, and volition is inessential"
             },
             {
               "id": "c",
-              "text": "It must be defined as mysticism, by the feeling of escape"
+              "text": "It must be defined as mysticism, by the feeling of escape from reality"
             },
             {
               "id": "d",
-              "text": "It must be defined by the fashions of one historical decade"
+              "text": "It must be defined by the fashions of one historical decade, not by volition"
+            },
+            {
+              "id": "a",
+              "text": "It must be defined as the volition-oriented school, by that essential trait"
             }
           ],
           "feedback": {
@@ -2248,15 +2248,15 @@
             },
             {
               "id": "b",
-              "text": "If the work moves the reader, it is Romantic, whatever it says about choice"
+              "text": "If the work moves the reader, it is Romantic, whatever it says about choice, and the feeling is the school"
             },
             {
               "id": "c",
-              "text": "If the work acknowledges choice, any feeling disqualifies it"
+              "text": "If the work acknowledges choice, any feeling disqualifies it and expels the work from the school"
             },
             {
               "id": "d",
-              "text": "Escape from facts is Romantic whenever the escape is passionate"
+              "text": "Escape from facts is Romantic whenever the escape is passionate, since passion replaces volition"
             }
           ],
           "feedback": {
@@ -2271,6 +2271,10 @@
           "prompt": "Build the definitional rule in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "as mysticism"
+            },
+            {
               "id": "t1",
               "text": "Romanticism"
             },
@@ -2283,16 +2287,12 @@
               "text": "as the volition-oriented school"
             },
             {
-              "id": "t4",
-              "text": ", not as an emotion-oriented mood"
-            },
-            {
-              "id": "d1",
-              "text": "as mysticism"
-            },
-            {
               "id": "d2",
               "text": "as an escape from facts"
+            },
+            {
+              "id": "t4",
+              "text": ", not as an emotion-oriented mood"
             }
           ],
           "answer": [
@@ -2317,20 +2317,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Any sequence of episodes, including a chain of accidents, counts as a purposeful plot"
+            },
+            {
               "id": "a",
               "text": "A purposeful progression of logically connected events leading to the resolution of a climax"
             },
             {
-              "id": "b",
-              "text": "Any sequence of episodes, including a chain of accidents"
-            },
-            {
               "id": "c",
-              "text": "The theme stated as a slogan in the preface"
+              "text": "The theme stated as a slogan in the preface, which resolves the climax by announcement"
             },
             {
               "id": "d",
-              "text": "A mood sustained for the length of the work"
+              "text": "A mood sustained for the length of the work, which substitutes for a resolved climax"
             }
           ],
           "feedback": {
@@ -2345,16 +2345,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Purpose and a climax that resolves chosen action depend on men who can choose"
-            },
-            {
               "id": "b",
               "text": "A plot is possible only if men are determined, so events cannot branch"
             },
             {
               "id": "c",
               "text": "A plot replaces reality with an escape, so volition is irrelevant"
+            },
+            {
+              "id": "a",
+              "text": "Purpose and a climax that resolves chosen action depend on men who can choose"
             },
             {
               "id": "d",
@@ -2373,10 +2373,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The work shows volition in a plot, a selective re-creation of a view of man"
-            },
-            {
               "id": "b",
               "text": "The work proves volition by a formal deduction printed as dialogue"
             },
@@ -2387,6 +2383,10 @@
             {
               "id": "d",
               "text": "The work is Romantic only because the climax produces a strong feeling"
+            },
+            {
+              "id": "a",
+              "text": "The work shows volition in a plot, a selective re-creation of a view of man"
             }
           ],
           "feedback": {
@@ -2455,10 +2455,10 @@
             }
           ],
           "bank": [
-            "purposeful",
-            "climax",
             "accidental",
-            "mood"
+            "purposeful",
+            "mood",
+            "climax"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -2478,15 +2478,15 @@
             },
             {
               "id": "b",
-              "text": "A plot is a chain of accidents with no purpose connecting them"
+              "text": "A plot is a chain of accidents with no purpose connecting them or resolving a climax"
             },
             {
               "id": "c",
-              "text": "A plot is an emotion-oriented mood, not a progression of events"
+              "text": "A plot is an emotion-oriented mood, not a progression of events toward a climax"
             },
             {
               "id": "d",
-              "text": "A plot is a record of determined men with no chosen climax"
+              "text": "A plot is a record of determined men with no chosen climax they could have adopted"
             }
           ],
           "feedback": {
@@ -2503,20 +2503,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "It lacks a plot because it mentions human beings, and mention is the whole defect"
+            },
+            {
               "id": "a",
               "text": "It has no purposeful progression toward the resolution of a chosen climax"
             },
             {
-              "id": "b",
-              "text": "It lacks a plot because it mentions human beings"
-            },
-            {
               "id": "c",
-              "text": "It lacks a plot because the sentences are grammatical"
+              "text": "It lacks a plot because the sentences are grammatical, so grammar blocks purpose"
             },
             {
               "id": "d",
-              "text": "It has a plot, because disasters in a row are a purpose"
+              "text": "It has a plot, because disasters in a row are a purpose heredity adopted for them"
             }
           ],
           "feedback": {
@@ -2535,6 +2535,10 @@
               "text": "A plot"
             },
             {
+              "id": "d1",
+              "text": "a chain of accidents"
+            },
+            {
               "id": "t2",
               "text": "is a purposeful progression"
             },
@@ -2545,10 +2549,6 @@
             {
               "id": "t4",
               "text": "leading to the resolution of a climax"
-            },
-            {
-              "id": "d1",
-              "text": "a chain of accidents"
             },
             {
               "id": "d2",
@@ -2577,20 +2577,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "An unselective record of everything in front of the artist, with no appraisal at all"
+            },
+            {
+              "id": "c",
+              "text": "A fantasy cut off from reality, with no intelligible subject a viewer could grasp"
+            },
+            {
               "id": "a",
               "text": "A selective re-creation of reality according to metaphysical value-judgments"
             },
             {
-              "id": "b",
-              "text": "An unselective record of everything in front of the artist"
-            },
-            {
-              "id": "c",
-              "text": "A fantasy cut off from reality, with no intelligible subject"
-            },
-            {
               "id": "d",
-              "text": "A useful object, identified by the job it can perform"
+              "text": "A useful object, identified by the job it can perform rather than by any re-creation"
             }
           ],
           "feedback": {
@@ -2605,10 +2605,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Selection according to a metaphysical value-judgment"
-            },
-            {
               "id": "b",
               "text": "A duty to record every event at equal weight"
             },
@@ -2619,6 +2615,10 @@
             {
               "id": "d",
               "text": "A calculation of what the book will cost to print"
+            },
+            {
+              "id": "a",
+              "text": "Selection according to a metaphysical value-judgment"
             }
           ],
           "feedback": {
@@ -2638,15 +2638,15 @@
             },
             {
               "id": "b",
-              "text": "It meets the definition only if the sitter agrees"
+              "text": "It meets the definition only if the sitter agrees with the appraisal"
             },
             {
               "id": "c",
-              "text": "It meets the definition because the paint was costly"
+              "text": "It meets the definition because the paint was costly enough to count"
             },
             {
               "id": "d",
-              "text": "It meets the definition because nothing was omitted"
+              "text": "It meets the definition because nothing was omitted from the room"
             }
           ],
           "feedback": {
@@ -2711,8 +2711,8 @@
           ],
           "bank": [
             "selective",
-            "value-judgments",
             "unselective",
+            "value-judgments",
             "prices"
           ],
           "feedback": {
@@ -2728,12 +2728,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Art selectively re-creates reality by metaphysical value-judgments"
-            },
-            {
               "id": "b",
               "text": "Art records everything and adds no appraisal of man or existence"
+            },
+            {
+              "id": "a",
+              "text": "Art selectively re-creates reality by metaphysical value-judgments"
             },
             {
               "id": "c",
@@ -2758,20 +2758,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The definition really does mean the work's sale price, and price is the appraisal"
+            },
+            {
+              "id": "c",
+              "text": "The definition really does mean a rule of grammar, and usage is the standard"
+            },
+            {
               "id": "a",
               "text": "They are fundamental appraisals of man and existence, not a price or a grammar tip"
             },
             {
-              "id": "b",
-              "text": "The definition really does mean the work's sale price"
-            },
-            {
-              "id": "c",
-              "text": "The definition really does mean a rule of grammar"
-            },
-            {
               "id": "d",
-              "text": "The definition names no standard of selection at all"
+              "text": "The definition names no standard of selection at all, so any record qualifies"
             }
           ],
           "feedback": {
@@ -2786,8 +2786,16 @@
           "prompt": "Build the definition in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "an unselective record"
+            },
+            {
               "id": "t1",
               "text": "Art is"
+            },
+            {
+              "id": "d2",
+              "text": "a fantasy cut off from reality"
             },
             {
               "id": "t2",
@@ -2800,14 +2808,6 @@
             {
               "id": "t4",
               "text": "according to metaphysical value-judgments"
-            },
-            {
-              "id": "d1",
-              "text": "an unselective record"
-            },
-            {
-              "id": "d2",
-              "text": "a fantasy cut off from reality"
             }
           ],
           "answer": [
@@ -2832,10 +2832,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The artist includes, omits, and stresses aspects of reality"
-            },
-            {
               "id": "b",
               "text": "The artist records every aspect at equal emphasis"
             },
@@ -2846,6 +2842,10 @@
             {
               "id": "d",
               "text": "The artist copies a scene and then refuses to emphasize anything"
+            },
+            {
+              "id": "a",
+              "text": "The artist includes, omits, and stresses aspects of reality"
             }
           ],
           "feedback": {
@@ -2865,15 +2865,15 @@
             },
             {
               "id": "b",
-              "text": "It fails only when the printing is uneven"
+              "text": "It fails only when the printing is uneven, and the ink is the judgment"
             },
             {
               "id": "c",
-              "text": "It fails because reality cannot be referred to at all"
+              "text": "It fails because reality cannot be referred to at all by a work of art"
             },
             {
               "id": "d",
-              "text": "It fails because any stress is a lie about the facts"
+              "text": "It fails because any stress is a lie about the facts, so emphasis is fraud"
             }
           ],
           "feedback": {
@@ -2888,12 +2888,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Omission of some events and stress on the one that matters"
-            },
-            {
               "id": "b",
               "text": "A failure, because a re-creation must keep every subplot"
+            },
+            {
+              "id": "a",
+              "text": "Omission of some events and stress on the one that matters"
             },
             {
               "id": "c",
@@ -2965,10 +2965,10 @@
             }
           ],
           "bank": [
-            "includes",
-            "omits",
             "invents",
-            "prices"
+            "includes",
+            "prices",
+            "omits"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -2982,16 +2982,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Yes. Selection follows the appraisal, including a bleak one"
-            },
-            {
               "id": "b",
               "text": "No. Selection may stress only victories"
             },
             {
               "id": "c",
               "text": "No. Omission is allowed only when the omitted thing is ugly"
+            },
+            {
+              "id": "a",
+              "text": "Yes. Selection follows the appraisal, including a bleak one"
             },
             {
               "id": "d",
@@ -3010,10 +3010,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "If the artist omits anything, the work is no longer about reality"
-            },
-            {
               "id": "b",
               "text": "Omission can keep the aspects the artist judges fundamental"
             },
@@ -3024,6 +3020,10 @@
             {
               "id": "d",
               "text": "Inclusion still draws the subject from reality"
+            },
+            {
+              "id": "a",
+              "text": "If the artist omits anything, the work is no longer about reality"
             }
           ],
           "feedback": {
@@ -3042,8 +3042,16 @@
               "text": "Selective means"
             },
             {
+              "id": "d1",
+              "text": "records everything equally"
+            },
+            {
               "id": "t2",
               "text": "the artist"
+            },
+            {
+              "id": "d2",
+              "text": "invents a private world"
             },
             {
               "id": "t3",
@@ -3052,14 +3060,6 @@
             {
               "id": "t4",
               "text": "aspects of reality"
-            },
-            {
-              "id": "d1",
-              "text": "records everything equally"
-            },
-            {
-              "id": "d2",
-              "text": "invents a private world"
             }
           ],
           "answer": [
@@ -3089,15 +3089,15 @@
             },
             {
               "id": "b",
-              "text": "A complete inventory of a place, with nothing omitted"
+              "text": "A complete inventory of a place, with nothing omitted and nothing judged"
             },
             {
               "id": "c",
-              "text": "A private world the viewer is not meant to recognize"
+              "text": "A private world the viewer is not meant to recognize as any part of reality"
             },
             {
               "id": "d",
-              "text": "A copy that becomes art by the addition of a caption"
+              "text": "A copy that becomes art by the addition of a caption naming the subject"
             }
           ],
           "feedback": {
@@ -3112,12 +3112,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It stays within art, because stylization is limited by intelligibility"
-            },
-            {
               "id": "b",
               "text": "It ceases to be art, because any departure from a body-cast is fantasy"
+            },
+            {
+              "id": "a",
+              "text": "It stays within art, because stylization is limited by intelligibility"
             },
             {
               "id": "c",
@@ -3140,20 +3140,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "It is a higher art, because absence of a subject is pure creation beyond reality"
+            },
+            {
+              "id": "c",
+              "text": "It is an unselective record of everything the eye might see in the empty field"
+            },
+            {
               "id": "a",
               "text": "It ceases to be art, because a re-creation must present a graspable subject"
             },
             {
-              "id": "b",
-              "text": "It is a higher art, because absence of a subject is pure creation"
-            },
-            {
-              "id": "c",
-              "text": "It is an unselective record of everything the eye might see"
-            },
-            {
               "id": "d",
-              "text": "It remains art, because the maker's feeling needs no subject"
+              "text": "It remains art, because the maker's feeling needs no subject to re-create"
             }
           ],
           "feedback": {
@@ -3218,8 +3218,8 @@
           ],
           "bank": [
             "intelligible",
-            "art",
             "hidden",
+            "art",
             "news"
           ],
           "feedback": {
@@ -3235,20 +3235,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Stylization is limited by intelligibility, and no intelligible subject means it is not art"
-            },
-            {
               "id": "b",
-              "text": "Any stylization is forbidden, so only an unselective record counts"
+              "text": "Any stylization is forbidden, so only an unselective record counts as a work of art"
             },
             {
               "id": "c",
-              "text": "Stylization may erase the subject and the work remains art"
+              "text": "Stylization may erase the subject and the work remains art, because purity needs no subject"
             },
             {
               "id": "d",
-              "text": "Intelligibility is a viewer's whim, not a requirement"
+              "text": "Intelligibility is a viewer's whim, not a requirement, so a blank subject still counts"
+            },
+            {
+              "id": "a",
+              "text": "Stylization is limited by intelligibility, and no intelligible subject means it is not art"
             }
           ],
           "feedback": {
@@ -3270,15 +3270,15 @@
             },
             {
               "id": "b",
-              "text": "It restates the limit that stylization must remain intelligible"
+              "text": "It restates the limit that stylization must remain intelligible or the work fails"
             },
             {
               "id": "c",
-              "text": "It separates an unselective record from a re-creation"
+              "text": "It separates an unselective record from a re-creation and endorses the record"
             },
             {
               "id": "d",
-              "text": "It keeps the subject tied to what exists"
+              "text": "It keeps the subject tied to what exists, so skepticism about the mind is required"
             }
           ],
           "feedback": {
@@ -3301,20 +3301,20 @@
               "text": "presents"
             },
             {
-              "id": "t3",
-              "text": "an intelligible subject"
-            },
-            {
-              "id": "t4",
-              "text": "drawn from reality"
-            },
-            {
               "id": "d1",
               "text": "an unselective inventory"
             },
             {
+              "id": "t3",
+              "text": "an intelligible subject"
+            },
+            {
               "id": "d2",
               "text": "a world cut off from reality"
+            },
+            {
+              "id": "t4",
+              "text": "drawn from reality"
             }
           ],
           "answer": [
@@ -3339,12 +3339,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A fundamental appraisal of man and of existence"
-            },
-            {
               "id": "b",
               "text": "The sale price the artist hopes to get"
+            },
+            {
+              "id": "a",
+              "text": "A fundamental appraisal of man and of existence"
             },
             {
               "id": "c",
@@ -3367,16 +3367,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Is the universe knowable, can man choose, and can he achieve his values?"
-            },
-            {
               "id": "b",
               "text": "What will the frame cost, and how should the caption be punctuated?"
             },
             {
               "id": "c",
               "text": "Which slogan should be printed beside an unrelated picture?"
+            },
+            {
+              "id": "a",
+              "text": "Is the universe knowable, can man choose, and can he achieve his values?"
             },
             {
               "id": "d",
@@ -3395,20 +3395,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "That man can know, can choose, and can achieve a value by that choice"
-            },
-            {
               "id": "b",
-              "text": "That man is a puppet of forces he cannot know or resist"
+              "text": "That man is a puppet of forces he cannot know or resist in any outcome"
             },
             {
               "id": "c",
-              "text": "That the ticket price should be high"
+              "text": "That the ticket price should be high, and price is the metaphysical standard"
             },
             {
               "id": "d",
-              "text": "That the dialogue should avoid commas"
+              "text": "That the dialogue should avoid commas, and punctuation is the appraisal"
+            },
+            {
+              "id": "a",
+              "text": "That man can know, can choose, and can achieve a value by that choice"
             }
           ],
           "feedback": {
@@ -3472,10 +3472,10 @@
             }
           ],
           "bank": [
-            "man",
-            "existence",
             "price",
-            "grammar"
+            "man",
+            "grammar",
+            "existence"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -3517,20 +3517,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The question of whether man can choose, so the call to donate is merely an example"
+            },
+            {
               "id": "a",
               "text": "A moral demand, offered as the purpose, in place of an appraisal of man and existence"
             },
             {
-              "id": "b",
-              "text": "The question of whether man can choose"
-            },
-            {
               "id": "c",
-              "text": "The question of whether the universe is knowable"
+              "text": "The question of whether the universe is knowable, so guilt is just a fact about that world"
             },
             {
               "id": "d",
-              "text": "The question of whether man can achieve his values"
+              "text": "The question of whether man can achieve his values, so a donation is such an achievement"
             }
           ],
           "feedback": {
@@ -3557,12 +3557,12 @@
               "text": "man and existence,"
             },
             {
-              "id": "t4",
-              "text": "and guide selection"
-            },
-            {
               "id": "d1",
               "text": "set a sale price"
+            },
+            {
+              "id": "t4",
+              "text": "and guide selection"
             },
             {
               "id": "d2",
@@ -3591,20 +3591,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A play records every hour of a day at equal weight and with no appraisal, treating volition as irrelevant"
+            },
+            {
+              "id": "c",
+              "text": "A play invents an unrecognizable realm and puts the moral in the program, so the stage need not be intelligible"
+            },
+            {
               "id": "a",
               "text": "A play shows a human choice, omits the trivial hours, and stresses the choice because man possesses volition"
             },
             {
-              "id": "b",
-              "text": "A play records every hour of a day at equal weight and with no appraisal"
-            },
-            {
-              "id": "c",
-              "text": "A play invents an unrecognizable realm and puts the moral in the program"
-            },
-            {
               "id": "d",
-              "text": "A play is cast by auction, and the highest price decides the meaning"
+              "text": "A play is cast by auction, and the highest price decides the meaning in place of any appraisal of man"
             }
           ],
           "feedback": {
@@ -3619,20 +3619,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Metaphysical value-judgments as the standard of selection"
-            },
-            {
               "id": "b",
-              "text": "An alphabet in which the book can be printed"
+              "text": "An alphabet in which the book can be printed does the selecting"
             },
             {
               "id": "c",
-              "text": "An unselective inventory of a street"
+              "text": "An unselective inventory of a street, offered as what is missing"
             },
             {
               "id": "d",
-              "text": "A subject no reader can identify"
+              "text": "A subject no reader can identify, so the shock has no object"
+            },
+            {
+              "id": "a",
+              "text": "Metaphysical value-judgments as the standard of selection"
             }
           ],
           "feedback": {
@@ -3652,15 +3652,15 @@
             },
             {
               "id": "b",
-              "text": "It fails only because paper cannot carry ink"
+              "text": "It fails only because paper cannot carry ink, and that physical limit is the whole defect"
             },
             {
               "id": "c",
-              "text": "It succeeds because a command is the basic purpose of art"
+              "text": "It succeeds because a command is the basic purpose of art and the figures may be interchangeable"
             },
             {
               "id": "d",
-              "text": "It succeeds because moral pressure replaces the need for a subject"
+              "text": "It succeeds because moral pressure replaces the need for a subject and for any view of man"
             }
           ],
           "feedback": {
@@ -3730,8 +3730,8 @@
           ],
           "bank": [
             "consequence",
-            "purpose",
             "price",
+            "purpose",
             "caption"
           ],
           "feedback": {
@@ -3747,12 +3747,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Art puts a metaphysical view into concrete form"
-            },
-            {
               "id": "b",
               "text": "Art discards metaphysics and keeps only a mood"
+            },
+            {
+              "id": "a",
+              "text": "Art puts a metaphysical view into concrete form"
             },
             {
               "id": "c",
@@ -3777,20 +3777,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "One that omits a crowd in order to stress a single human choice, which is the news record"
+            },
+            {
+              "id": "c",
+              "text": "One that remains intelligible while simplifying a face, which counts as an unselective record"
+            },
+            {
               "id": "a",
               "text": "One that tries to record every bystander at equal weight, with no metaphysical selection"
             },
             {
-              "id": "b",
-              "text": "One that omits a crowd in order to stress a single human choice"
-            },
-            {
-              "id": "c",
-              "text": "One that remains intelligible while simplifying a face"
-            },
-            {
               "id": "d",
-              "text": "One whose selection is guided by the appraisal that man can choose"
+              "text": "One whose selection is guided by the appraisal that man can choose, which makes it a news record"
             }
           ],
           "feedback": {
@@ -3805,6 +3805,10 @@
           "prompt": "Build the full claim in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "a morality play"
+            },
+            {
               "id": "t1",
               "text": "Art is"
             },
@@ -3817,16 +3821,12 @@
               "text": "according to metaphysical value-judgments"
             },
             {
-              "id": "t4",
-              "text": ", and its purpose is to show, not to teach"
-            },
-            {
-              "id": "d1",
-              "text": "a morality play"
-            },
-            {
               "id": "d2",
               "text": "a news photograph"
+            },
+            {
+              "id": "t4",
+              "text": ", and its purpose is to show, not to teach"
             }
           ],
           "answer": [
@@ -3851,10 +3851,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A pre-conceptual, emotional appraisal of man and of existence"
-            },
-            {
               "id": "b",
               "text": "An explicit philosophy, stated in definitions and proofs"
             },
@@ -3865,6 +3861,10 @@
             {
               "id": "d",
               "text": "A passing reaction to one inconvenience"
+            },
+            {
+              "id": "a",
+              "text": "A pre-conceptual, emotional appraisal of man and of existence"
             }
           ],
           "feedback": {
@@ -3907,12 +3907,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Treating a feeling as a tool that discovers facts"
-            },
-            {
               "id": "b",
               "text": "Treating a sense of life as an appraisal of man"
+            },
+            {
+              "id": "a",
+              "text": "Treating a feeling as a tool that discovers facts"
             },
             {
               "id": "c",
@@ -3984,10 +3984,10 @@
             }
           ],
           "bank": [
-            "metaphysics",
-            "proof",
             "price",
-            "caption"
+            "metaphysics",
+            "caption",
+            "proof"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -4002,16 +4002,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It is a pre-conceptual emotional appraisal of man and of existence"
-            },
-            {
               "id": "b",
               "text": "It is an explicit philosophy that proves what exists"
             },
             {
               "id": "c",
               "text": "It is a tool of cognition that discovers facts by feeling"
+            },
+            {
+              "id": "a",
+              "text": "It is a pre-conceptual emotional appraisal of man and of existence"
             },
             {
               "id": "d",
@@ -4032,10 +4032,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It is simply the system you could already write out, with the same proofs"
-            },
-            {
               "id": "b",
               "text": "It appraises before it has been translated into explicit ideas"
             },
@@ -4046,6 +4042,10 @@
             {
               "id": "d",
               "text": "It concerns both what one takes man to be and what one takes existence to be"
+            },
+            {
+              "id": "a",
+              "text": "It is simply the system you could already write out, with the same proofs"
             }
           ],
           "feedback": {
@@ -4064,6 +4064,10 @@
               "text": "A sense of life"
             },
             {
+              "id": "d1",
+              "text": "a finished proof"
+            },
+            {
               "id": "t2",
               "text": "is"
             },
@@ -4074,10 +4078,6 @@
             {
               "id": "t4",
               "text": "of man and of existence"
-            },
-            {
-              "id": "d1",
-              "text": "a finished proof"
             },
             {
               "id": "d2",
@@ -4134,12 +4134,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Man, as a being able to face difficulty by the use of his mind"
-            },
-            {
               "id": "b",
               "text": "The objects in the room, listed as existence"
+            },
+            {
+              "id": "a",
+              "text": "Man, as a being able to face difficulty by the use of his mind"
             },
             {
               "id": "c",
@@ -4162,20 +4162,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A syllogism that derives volition from prior premises and therefore is the sense of life"
+            },
+            {
+              "id": "c",
+              "text": "A set of citations assembled to answer a critic, which is the pre-conceptual appraisal"
+            },
+            {
               "id": "a",
               "text": "A settled emotional conviction that a human being is a chooser, held before it is argued"
             },
             {
-              "id": "b",
-              "text": "A syllogism that derives volition from prior premises"
-            },
-            {
-              "id": "c",
-              "text": "A set of citations assembled to answer a critic"
-            },
-            {
               "id": "d",
-              "text": "A definition read aloud from a glossary"
+              "text": "A definition read aloud from a glossary, which holds the appraisal before argument"
             }
           ],
           "feedback": {
@@ -4240,8 +4240,8 @@
           ],
           "bank": [
             "human being",
-            "proof",
             "sale price",
+            "proof",
             "grammar tip"
           ],
           "feedback": {
@@ -4256,20 +4256,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It emotionally states what he takes a human being to be, and it does not prove the helplessness"
-            },
-            {
               "id": "b",
-              "text": "It discovers, by its gloom, that man is in fact helpless"
+              "text": "It discovers, by its gloom, that man is in fact helpless, and gloom is the demonstration"
             },
             {
               "id": "c",
-              "text": "It is already an explicit treatise on determinism"
+              "text": "It is already an explicit treatise on determinism, because the feeling has been written out"
             },
             {
               "id": "d",
-              "text": "It appraises only existence, and says nothing about man"
+              "text": "It appraises only existence, and says nothing about man, so helplessness is a fact about the world"
+            },
+            {
+              "id": "a",
+              "text": "It emotionally states what he takes a human being to be, and it does not prove the helplessness"
             }
           ],
           "feedback": {
@@ -4289,15 +4289,15 @@
             },
             {
               "id": "b",
-              "text": "The number of people in the street, which the feeling counts"
+              "text": "The number of people in the street, which the feeling counts as the appraisal of man"
             },
             {
               "id": "c",
-              "text": "Nothing, because the stronger feeling is automatically true"
+              "text": "Nothing, because the stronger feeling is automatically true and settles what man is"
             },
             {
               "id": "d",
-              "text": "Their grammar, because an appraisal of man is a usage rule"
+              "text": "Their grammar, because an appraisal of man is a usage rule that the feeling enforces"
             }
           ],
           "feedback": {
@@ -4312,8 +4312,16 @@
           "prompt": "Build the claim about the appraisal of man in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "proves a fact"
+            },
+            {
               "id": "t1",
               "text": "A sense of life"
+            },
+            {
+              "id": "d2",
+              "text": "by the intensity of a feeling"
             },
             {
               "id": "t2",
@@ -4326,14 +4334,6 @@
             {
               "id": "t4",
               "text": "a human being to be"
-            },
-            {
-              "id": "d1",
-              "text": "proves a fact"
-            },
-            {
-              "id": "d2",
-              "text": "by the intensity of a feeling"
             }
           ],
           "answer": [
@@ -4358,12 +4358,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "What one takes the world a human being faces to be"
-            },
-            {
               "id": "b",
               "text": "Only what one takes a human being's faculty of choice to be"
+            },
+            {
+              "id": "a",
+              "text": "What one takes the world a human being faces to be"
             },
             {
               "id": "c",
@@ -4386,20 +4386,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Is this person a chooser or a puppet in this universe?"
+            },
+            {
+              "id": "c",
+              "text": "What did this witness say at Tuesday's hearing about the world?"
+            },
+            {
               "id": "a",
               "text": "Is the universe knowable, and is achievement possible in it?"
             },
             {
-              "id": "b",
-              "text": "Is this person a chooser or a puppet?"
-            },
-            {
-              "id": "c",
-              "text": "What did this witness say at Tuesday's hearing?"
-            },
-            {
               "id": "d",
-              "text": "Which policy should win the next vote?"
+              "text": "Which policy should win the next vote, as the feeling directs?"
             }
           ],
           "feedback": {
@@ -4414,20 +4414,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "An emotional appraisal of existence as closed to human achievement"
-            },
-            {
               "id": "b",
-              "text": "A proof that the task is impossible"
+              "text": "A proof that the task is impossible, settled by the feeling itself"
             },
             {
               "id": "c",
-              "text": "An appraisal of the grammar in the instructions"
+              "text": "An appraisal of the grammar in the instructions, which decides the task"
             },
             {
               "id": "d",
-              "text": "An explicit metaphysical essay"
+              "text": "An explicit metaphysical essay, already finished before the feeling"
+            },
+            {
+              "id": "a",
+              "text": "An emotional appraisal of existence as closed to human achievement"
             }
           ],
           "feedback": {
@@ -4491,10 +4491,10 @@
             }
           ],
           "bank": [
-            "the world",
-            "proof",
             "a price",
-            "a vote"
+            "the world",
+            "a vote",
+            "proof"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -4513,15 +4513,15 @@
             },
             {
               "id": "b",
-              "text": "I feel the world is knowable, and I still have to look at the evidence"
+              "text": "I feel the world is knowable, and I still have to look at the evidence before art can exist"
             },
             {
               "id": "c",
-              "text": "My appraisal of existence can later be stated as an idea"
+              "text": "My appraisal of existence can later be stated as an idea that the feeling has proved"
             },
             {
               "id": "d",
-              "text": "My appraisal of man is a different object from my appraisal of existence"
+              "text": "My appraisal of man is a different object from my appraisal of existence and replaces it"
             }
           ],
           "feedback": {
@@ -4536,12 +4536,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A passing mood about one occasion does not estimate what one takes existence to be"
-            },
-            {
               "id": "b",
               "text": "Any pleasure is already a metaphysics of a benevolent universe"
+            },
+            {
+              "id": "a",
+              "text": "A passing mood about one occasion does not estimate what one takes existence to be"
             },
             {
               "id": "c",
@@ -4568,8 +4568,16 @@
               "text": "An appraisal of existence"
             },
             {
+              "id": "d1",
+              "text": "proves the facts"
+            },
+            {
               "id": "t2",
               "text": "estimates"
+            },
+            {
+              "id": "d2",
+              "text": "by a passing mood"
             },
             {
               "id": "t3",
@@ -4578,14 +4586,6 @@
             {
               "id": "t4",
               "text": "the world to be"
-            },
-            {
-              "id": "d1",
-              "text": "proves the facts"
-            },
-            {
-              "id": "d2",
-              "text": "by a passing mood"
             }
           ],
           "answer": [
@@ -4610,16 +4610,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Before it is translated into explicit ideas"
-            },
-            {
               "id": "b",
               "text": "Only after a system has been written and memorized"
             },
             {
               "id": "c",
               "text": "Only while a proof is being recited"
+            },
+            {
+              "id": "a",
+              "text": "Before it is translated into explicit ideas"
             },
             {
               "id": "d",
@@ -4638,10 +4638,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It can be translated into explicit ideas, and then examined"
-            },
-            {
               "id": "b",
               "text": "It becomes infallible once it is intense"
             },
@@ -4652,6 +4648,10 @@
             {
               "id": "d",
               "text": "It must be discarded, because translation is impossible"
+            },
+            {
+              "id": "a",
+              "text": "It can be translated into explicit ideas, and then examined"
             }
           ],
           "feedback": {
@@ -4744,8 +4744,8 @@
           ],
           "bank": [
             "ideas",
-            "proof",
             "price",
+            "proof",
             "command"
           ],
           "feedback": {
@@ -4760,20 +4760,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A finished philosophical system, reached without any stated metaphysics"
+            },
+            {
               "id": "a",
               "text": "A sense of life, pre-conceptual and not yet an explicit philosophy"
             },
             {
-              "id": "b",
-              "text": "A finished philosophical system"
-            },
-            {
               "id": "c",
-              "text": "A demonstration that ruin is metaphysically necessary"
+              "text": "A demonstration that ruin is metaphysically necessary for these people"
             },
             {
               "id": "d",
-              "text": "No appraisal, because words are absent"
+              "text": "No appraisal, because words are absent and a feeling cannot appraise"
             }
           ],
           "feedback": {
@@ -4788,16 +4788,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The ideas can be tested, but the feeling still did not discover the facts"
-            },
-            {
               "id": "b",
               "text": "Once translated, the feeling retroactively becomes the evidence"
             },
             {
               "id": "c",
               "text": "The feeling already proved the claim, so the ideas are optional"
+            },
+            {
+              "id": "a",
+              "text": "The ideas can be tested, but the feeling still did not discover the facts"
             },
             {
               "id": "d",
@@ -4824,20 +4824,20 @@
               "text": "comes before"
             },
             {
-              "id": "t3",
-              "text": "explicit philosophy"
-            },
-            {
-              "id": "t4",
-              "text": "and is not a proof"
-            },
-            {
               "id": "d1",
               "text": "replaces the evidence"
             },
             {
+              "id": "t3",
+              "text": "explicit philosophy"
+            },
+            {
               "id": "d2",
               "text": "as a tool of cognition"
+            },
+            {
+              "id": "t4",
+              "text": "and is not a proof"
             }
           ],
           "answer": [
@@ -4862,20 +4862,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "An emotional, subconsciously integrated, pre-conceptual appraisal of both man and existence"
-            },
-            {
               "id": "b",
-              "text": "An explicit proof about man only"
+              "text": "An explicit proof about man only, with existence left out and the feeling treated as logic"
             },
             {
               "id": "c",
-              "text": "A tool that discovers facts about existence only"
+              "text": "A tool that discovers facts about existence only, and the discovery needs no check against reason"
             },
             {
               "id": "d",
-              "text": "A passing mood with no object"
+              "text": "A passing mood with no object, so neither man nor existence is appraised by the feeling"
+            },
+            {
+              "id": "a",
+              "text": "An emotional, subconsciously integrated, pre-conceptual appraisal of both man and existence"
             }
           ],
           "feedback": {
@@ -4895,15 +4895,15 @@
             },
             {
               "id": "b",
-              "text": "An appraisal of man, with existence left out"
+              "text": "An appraisal of man, with existence left out, so effort has no place in the feeling"
             },
             {
               "id": "c",
-              "text": "A proof of both claims by the warmth of the feeling"
+              "text": "A proof of both claims by the warmth of the feeling, which no evidence can overturn"
             },
             {
               "id": "d",
-              "text": "An explicit system, because two objects require a treatise"
+              "text": "An explicit system, because two objects require a treatise before any feeling can count"
             }
           ],
           "feedback": {
@@ -4918,20 +4918,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Holding the appraisal below the level of a stated philosophy is the omission"
+            },
+            {
               "id": "a",
               "text": "Appraising man and saying nothing about what one takes existence to be"
             },
             {
-              "id": "b",
-              "text": "Holding the appraisal below the level of a stated philosophy"
-            },
-            {
               "id": "c",
-              "text": "Integrating the estimates subconsciously"
+              "text": "Integrating the estimates subconsciously, which leaves the account unfinished"
             },
             {
               "id": "d",
-              "text": "Admitting that the result is emotional"
+              "text": "Admitting that the result is emotional, which drops the appraisal of existence"
             }
           ],
           "feedback": {
@@ -5000,10 +5000,10 @@
             }
           ],
           "bank": [
-            "pre-conceptual",
-            "proof",
             "price",
-            "command"
+            "pre-conceptual",
+            "command",
+            "proof"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -5017,20 +5017,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A proof was felt, so the ideas need no further check against the facts"
+            },
+            {
+              "id": "c",
+              "text": "Only a mood about one scene was renamed, and the two ideas were never in it"
+            },
+            {
               "id": "a",
               "text": "A sense of life was put into ideas; the feeling did not discover those facts"
             },
             {
-              "id": "b",
-              "text": "A proof was felt, so the ideas need no further check"
-            },
-            {
-              "id": "c",
-              "text": "Only a mood about one scene was renamed"
-            },
-            {
               "id": "d",
-              "text": "An appraisal of price and grammar was clarified"
+              "text": "An appraisal of price and grammar was clarified into those two ideas"
             }
           ],
           "feedback": {
@@ -5045,20 +5045,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It is an ineffable revelation, beyond any later statement in ideas"
-            },
-            {
               "id": "b",
-              "text": "It can be translated into ideas and then checked"
+              "text": "It can be translated into ideas and then checked by the feeling alone"
             },
             {
               "id": "c",
-              "text": "It appraises man and existence together"
+              "text": "It appraises man and existence together, and the feeling discovers both"
             },
             {
               "id": "d",
-              "text": "It is not a tool that discovers facts"
+              "text": "It is not a tool that discovers facts, so it cannot be an appraisal at all"
+            },
+            {
+              "id": "a",
+              "text": "It is an ineffable revelation, beyond any later statement in ideas"
             }
           ],
           "feedback": {
@@ -5085,12 +5085,12 @@
               "text": "an appraisal of man"
             },
             {
-              "id": "t4",
-              "text": "with an appraisal of existence"
-            },
-            {
               "id": "d1",
               "text": "an explicit proof"
+            },
+            {
+              "id": "t4",
+              "text": "with an appraisal of existence"
             },
             {
               "id": "d2",
@@ -5147,20 +5147,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "It has no use for perception of any kind, so art has nothing to address"
+            },
+            {
               "id": "a",
               "text": "Its widest abstractions are not present as one immediate perception"
             },
             {
-              "id": "b",
-              "text": "It has no use for perception of any kind"
-            },
-            {
               "id": "c",
-              "text": "It knows only by a revelation beyond concepts"
+              "text": "It knows only by a revelation beyond concepts, so perception cannot help"
             },
             {
               "id": "d",
-              "text": "It cannot form abstractions, so nothing needs integrating"
+              "text": "It cannot form abstractions, so nothing needs integrating into a view"
             }
           ],
           "feedback": {
@@ -5175,20 +5175,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Any organism whose senses register a color, which is enough to need art"
+            },
+            {
+              "id": "c",
+              "text": "A mind that acquires nothing by abstraction, which is the mind art is for"
+            },
+            {
               "id": "a",
               "text": "Man, because he lives by concepts rather than by the immediate moment alone"
             },
             {
-              "id": "b",
-              "text": "Any organism whose senses register a color"
-            },
-            {
-              "id": "c",
-              "text": "A mind that acquires nothing by abstraction"
-            },
-            {
               "id": "d",
-              "text": "A crowd, taken as a consciousness above the individuals in it"
+              "text": "A crowd, taken as a consciousness above the individuals in it, knows in their place"
             }
           ],
           "feedback": {
@@ -5253,8 +5253,8 @@
           ],
           "bank": [
             "abstractions",
-            "moment",
             "visions",
+            "moment",
             "orders"
           ],
           "feedback": {
@@ -5269,20 +5269,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Abstractions never reach reality, so there is nothing for art to make perceptible"
-            },
-            {
               "id": "b",
-              "text": "Man knows by abstractions formed from what the senses provide"
+              "text": "Man knows by abstractions formed from what the senses provide as single percepts"
             },
             {
               "id": "c",
-              "text": "A conceptual mind can hold a view of existence"
+              "text": "A conceptual mind can hold a view of existence only as an unstatable revelation"
             },
             {
               "id": "d",
-              "text": "Metaphysical abstractions are wider than a single percept"
+              "text": "Metaphysical abstractions are wider than a single percept and already fully perceived"
+            },
+            {
+              "id": "a",
+              "text": "Abstractions never reach reality, so there is nothing for art to make perceptible"
             }
           ],
           "feedback": {
@@ -5302,15 +5302,15 @@
             },
             {
               "id": "b",
-              "text": "Art is a need of a mind that stays inside one percept"
+              "text": "Art is a need of a mind that stays inside one percept and never forms an abstraction"
             },
             {
               "id": "c",
-              "text": "Concepts are a spare pleasure added after art is finished"
+              "text": "Concepts are a spare pleasure added after art is finished, so thought comes later"
             },
             {
               "id": "d",
-              "text": "Abstractions are already single perceptions, so no need arises"
+              "text": "Abstractions are already single perceptions, so no need arises from their width"
             }
           ],
           "feedback": {
@@ -5325,6 +5325,10 @@
           "prompt": "Build the claim about who has the need in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "of a mind stuck in the moment"
+            },
+            {
               "id": "t1",
               "text": "Art"
             },
@@ -5337,16 +5341,12 @@
               "text": "of a conceptual consciousness"
             },
             {
-              "id": "t4",
-              "text": "that knows by abstractions"
-            },
-            {
-              "id": "d1",
-              "text": "of a mind stuck in the moment"
-            },
-            {
               "id": "d2",
               "text": "that knows by revelation"
+            },
+            {
+              "id": "t4",
+              "text": "that knows by abstractions"
             }
           ],
           "answer": [
@@ -5371,12 +5371,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "That art is a luxury one may skip once practical needs are met"
-            },
-            {
               "id": "b",
               "text": "That a conceptual consciousness needs it"
+            },
+            {
+              "id": "a",
+              "text": "That art is a luxury one may skip once practical needs are met"
             },
             {
               "id": "c",
@@ -5399,16 +5399,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Treating art as a spare pleasure that practical comfort can retire"
-            },
-            {
               "id": "b",
               "text": "Noticing that food and shelter are needs of a living organism"
             },
             {
               "id": "c",
               "text": "Admitting that a free evening can be spent on a work of art"
+            },
+            {
+              "id": "a",
+              "text": "Treating art as a spare pleasure that practical comfort can retire"
             },
             {
               "id": "d",
@@ -5427,20 +5427,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The need follows from the kind of consciousness man has, not from an empty purse"
-            },
-            {
               "id": "b",
-              "text": "Practical needs are unreal, so only art is a need"
+              "text": "Practical needs are unreal, so only art is a need, and bread never counts as one"
             },
             {
               "id": "c",
-              "text": "Art is a luxury, and luxuries become duties when one is rich"
+              "text": "Art is a luxury, and luxuries become duties when one is rich enough to be comfortable"
             },
             {
               "id": "d",
-              "text": "Comfort proves that abstractions are already perceptual"
+              "text": "Comfort proves that abstractions are already perceptual and art has nothing to show"
+            },
+            {
+              "id": "a",
+              "text": "The need follows from the kind of consciousness man has, not from an empty purse"
             }
           ],
           "feedback": {
@@ -5509,10 +5509,10 @@
             }
           ],
           "bank": [
-            "need",
-            "luxury",
             "ornament",
-            "extra"
+            "need",
+            "extra",
+            "luxury"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -5531,15 +5531,15 @@
             },
             {
               "id": "b",
-              "text": "Man needs art because his knowledge is conceptual"
+              "text": "Man needs art because his knowledge is conceptual, so feeling must discover his facts"
             },
             {
               "id": "c",
-              "text": "Food does not take the place of a concretized metaphysics"
+              "text": "Food does not take the place of a concretized metaphysics, because food is not a need"
             },
             {
               "id": "d",
-              "text": "A need of man's kind of consciousness is not optional"
+              "text": "A need of man's kind of consciousness is not optional, because comfort is what creates it"
             }
           ],
           "feedback": {
@@ -5554,20 +5554,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "It shows that only bread is real, and any need that does not bake is unreal"
+            },
+            {
               "id": "a",
               "text": "It confuses a need of conceptual consciousness with a tool of physical production"
             },
             {
-              "id": "b",
-              "text": "It shows that only bread is real"
-            },
-            {
               "id": "c",
-              "text": "It shows that art is identical with a loaf"
+              "text": "It shows that art is identical with a loaf, so the same act bakes and concretizes"
             },
             {
               "id": "d",
-              "text": "It shows that production and consciousness are the same fact"
+              "text": "It shows that production and consciousness are the same fact, measured by bread"
             }
           ],
           "feedback": {
@@ -5586,6 +5586,10 @@
               "text": "Art"
             },
             {
+              "id": "d1",
+              "text": "is a spare pleasure"
+            },
+            {
               "id": "t2",
               "text": "is not a luxury"
             },
@@ -5596,10 +5600,6 @@
             {
               "id": "t4",
               "text": "practical needs are met"
-            },
-            {
-              "id": "d1",
-              "text": "is a spare pleasure"
             },
             {
               "id": "d2",
@@ -5628,16 +5628,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Thinking is finished first, and art is attached afterward as decoration"
-            },
-            {
               "id": "b",
               "text": "Art concretizes the metaphysical abstractions thinking has to grasp"
             },
             {
               "id": "c",
               "text": "A conceptual mind needs its abstractions in perceptual form"
+            },
+            {
+              "id": "a",
+              "text": "Thinking is finished first, and art is attached afterward as decoration"
             },
             {
               "id": "d",
@@ -5656,20 +5656,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It treats art as trim added when thinking is over, not as a need of the conceptual mind"
-            },
-            {
               "id": "b",
-              "text": "It admits that thought uses concepts"
+              "text": "It admits that thought uses concepts, which is the error in calling art decoration"
             },
             {
               "id": "c",
-              "text": "It admits that a work of art can be perceived"
+              "text": "It admits that a work of art can be perceived, and perception ends the need to think"
             },
             {
               "id": "d",
-              "text": "It rightly makes the decoration do the work of knowing the facts"
+              "text": "It rightly makes the decoration do the work of knowing the facts the concepts missed"
+            },
+            {
+              "id": "a",
+              "text": "It treats art as trim added when thinking is over, not as a need of the conceptual mind"
             }
           ],
           "feedback": {
@@ -5767,8 +5767,8 @@
           ],
           "bank": [
             "decoration",
-            "finished",
             "proof",
+            "finished",
             "optional"
           ],
           "feedback": {
@@ -5783,12 +5783,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "First complete your philosophy, and only then, if effort remains, look at art"
-            },
-            {
               "id": "b",
               "text": "A philosophy of existence is among the abstractions art can concretize"
+            },
+            {
+              "id": "a",
+              "text": "First complete your philosophy, and only then, if effort remains, look at art"
             },
             {
               "id": "c",
@@ -5811,20 +5811,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Nothing, because the prose has finished the thinking and already showed the abstractions"
+            },
+            {
+              "id": "c",
+              "text": "A decoration that must not refer to the metaphysics and must not show that view"
+            },
+            {
               "id": "a",
               "text": "The abstractions in a form one can perceive, which finished prose does not supply"
             },
             {
-              "id": "b",
-              "text": "Nothing, because the prose has finished the thinking"
-            },
-            {
-              "id": "c",
-              "text": "A decoration that must not refer to the metaphysics"
-            },
-            {
               "id": "d",
-              "text": "An escape from the metaphysics into a mood"
+              "text": "An escape from the metaphysics into a mood in which the abstractions are dropped"
             }
           ],
           "feedback": {
@@ -5839,8 +5839,16 @@
           "prompt": "Build the rejected timing in the order that keeps the error clear.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "is a spare reward"
+            },
+            {
               "id": "t1",
               "text": "Art"
+            },
+            {
+              "id": "d2",
+              "text": "once philosophy is done"
             },
             {
               "id": "t2",
@@ -5853,14 +5861,6 @@
             {
               "id": "t4",
               "text": "thinking is finished"
-            },
-            {
-              "id": "d1",
-              "text": "is a spare reward"
-            },
-            {
-              "id": "d2",
-              "text": "once philosophy is done"
             }
           ],
           "answer": [
@@ -5885,20 +5885,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Man must bring his widest metaphysical abstractions into immediate perceptual awareness"
-            },
-            {
               "id": "b",
-              "text": "Man is bored once food and shelter are secure"
+              "text": "Man is bored once food and shelter are secure, so comfort is what creates the need"
             },
             {
               "id": "c",
-              "text": "Man needs a decoration once thinking is finished"
+              "text": "Man needs a decoration once thinking is finished, and the decoration must not mean anything"
             },
             {
               "id": "d",
-              "text": "Man needs feeling to discover the facts his concepts cannot reach"
+              "text": "Man needs feeling to discover the facts his concepts cannot reach and cannot judge"
+            },
+            {
+              "id": "a",
+              "text": "Man must bring his widest metaphysical abstractions into immediate perceptual awareness"
             }
           ],
           "feedback": {
@@ -5918,15 +5918,15 @@
             },
             {
               "id": "b",
-              "text": "A proof that replaces the need to think"
+              "text": "A proof that replaces the need to think, so the concretization is the demonstration"
             },
             {
               "id": "c",
-              "text": "A record of every fact, with nothing omitted"
+              "text": "A record of every fact, with nothing omitted, offered as the concretization"
             },
             {
               "id": "d",
-              "text": "A fantasy cut off from existence"
+              "text": "A fantasy cut off from existence, which still counts as seeing the metaphysics"
             }
           ],
           "feedback": {
@@ -5941,20 +5941,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A proof of volition that no reasoning could approach or later check"
+            },
+            {
               "id": "a",
               "text": "The abstraction in immediate perceptual form, which is the need art meets"
             },
             {
-              "id": "b",
-              "text": "A proof of volition that no reasoning could approach"
-            },
-            {
               "id": "c",
-              "text": "A luxury, because the concept was already possessed"
+              "text": "A luxury, because the concept was already possessed and therefore already seen"
             },
             {
               "id": "d",
-              "text": "Decoration, because the thinking was finished before the curtain"
+              "text": "Decoration, because the thinking was finished before the curtain opened on it"
             }
           ],
           "feedback": {
@@ -6023,10 +6023,10 @@
             }
           ],
           "bank": [
-            "concretizing",
-            "proving",
             "erasing",
-            "pricing"
+            "concretizing",
+            "pricing",
+            "proving"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -6040,16 +6040,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Perceptual awareness of a view is treated as a proof of that view"
-            },
-            {
               "id": "b",
               "text": "The widest abstractions are treated as too large for one percept"
             },
             {
               "id": "c",
               "text": "Art is treated as showing a metaphysics rather than lecturing it"
+            },
+            {
+              "id": "a",
+              "text": "Perceptual awareness of a view is treated as a proof of that view"
             },
             {
               "id": "d",
@@ -6068,20 +6068,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Art opens a revelation beyond reason, so the abstractions need not be ones the mind can define"
-            },
-            {
               "id": "b",
-              "text": "Art makes a reasoned view of existence perceptible"
+              "text": "Art makes a reasoned view of existence perceptible, so the percept replaces the concepts"
             },
             {
               "id": "c",
-              "text": "The abstractions belong to a conceptual consciousness"
+              "text": "The abstractions belong to a conceptual consciousness, yet comfort removes any need to see them"
             },
             {
               "id": "d",
-              "text": "The need is to see what one can already hold in concepts"
+              "text": "The need is to see what one can already hold in concepts, and the seeing proves those concepts"
+            },
+            {
+              "id": "a",
+              "text": "Art opens a revelation beyond reason, so the abstractions need not be ones the mind can define"
             }
           ],
           "feedback": {
@@ -6100,8 +6100,16 @@
               "text": "A conceptual mind"
             },
             {
+              "id": "d1",
+              "text": "stored as a luxury"
+            },
+            {
               "id": "t2",
               "text": "needs its widest abstractions"
+            },
+            {
+              "id": "d2",
+              "text": "after thinking is finished"
             },
             {
               "id": "t3",
@@ -6110,14 +6118,6 @@
             {
               "id": "t4",
               "text": "immediate perceptual awareness"
-            },
-            {
-              "id": "d1",
-              "text": "stored as a luxury"
-            },
-            {
-              "id": "d2",
-              "text": "after thinking is finished"
             }
           ],
           "answer": [
@@ -6147,15 +6147,15 @@
             },
             {
               "id": "b",
-              "text": "Art is a luxury of a conceptual consciousness, added after thought is finished"
+              "text": "Art is a luxury of a conceptual consciousness, added after thought finishes and nothing remains"
             },
             {
               "id": "c",
-              "text": "Art is a need of a mind that never forms concepts"
+              "text": "Art is a need of a mind that never forms concepts, because concepts block awareness"
             },
             {
               "id": "d",
-              "text": "Art is decoration attached once a philosophy has been proved"
+              "text": "Art is decoration attached once a philosophy has been proved and no longer needs showing"
             }
           ],
           "feedback": {
@@ -6170,20 +6170,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A mere slip about the spelling of need, which misnames both comfort and the finished idea"
+            },
+            {
               "id": "a",
               "text": "The luxury error and the afterward error: comfort and a finished idea are treated as retiring the need"
             },
             {
-              "id": "b",
-              "text": "A mere slip about the spelling of need"
-            },
-            {
               "id": "c",
-              "text": "A correct statement that concepts are already perceptions"
+              "text": "A correct statement that concepts are already perceptions, so neither comfort nor argument matters"
             },
             {
               "id": "d",
-              "text": "A correct statement that art has proved the metaphysics she accepts"
+              "text": "A correct statement that art has proved the metaphysics she accepts and comfort has ended the rest"
             }
           ],
           "feedback": {
@@ -6198,16 +6198,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Bringing those abstractions into immediate perceptual awareness"
-            },
-            {
               "id": "b",
               "text": "Nothing esthetic, because both excuses have been satisfied"
             },
             {
               "id": "c",
               "text": "A propaganda poster that orders agreement with the prose"
+            },
+            {
+              "id": "a",
+              "text": "Bringing those abstractions into immediate perceptual awareness"
             },
             {
               "id": "d",
@@ -6281,8 +6281,8 @@
           ],
           "bank": [
             "conceptual",
-            "finished",
             "perceptual",
+            "finished",
             "optional"
           ],
           "feedback": {
@@ -6297,20 +6297,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The scale of the metaphysical abstractions the mind must make perceptible"
-            },
-            {
               "id": "b",
-              "text": "The fact that man eats"
+              "text": "The fact that man eats, treated as the scale of those abstractions"
             },
             {
               "id": "c",
-              "text": "The fact that a poster can be printed"
+              "text": "The fact that a poster can be printed, mistaken for the scale of the abstractions"
             },
             {
               "id": "d",
-              "text": "The rule that art should teach a slogan"
+              "text": "The rule that art should teach a slogan, which is the scale the mind must see"
+            },
+            {
+              "id": "a",
+              "text": "The scale of the metaphysical abstractions the mind must make perceptible"
             }
           ],
           "feedback": {
@@ -6330,15 +6330,15 @@
             },
             {
               "id": "b",
-              "text": "Because man knows by abstractions, art is a spare pleasure he may skip"
+              "text": "Because man knows by abstractions, art is a spare pleasure he may skip, since comfort and a finished argument retire the need"
             },
             {
               "id": "c",
-              "text": "Because man knows by the immediate moment alone, art is his metaphysical need"
+              "text": "Because man knows by the immediate moment alone, art is his metaphysical need, and abstractions would only obscure that moment"
             },
             {
               "id": "d",
-              "text": "Because feelings discover facts, art is the proof of his metaphysics"
+              "text": "Because feelings discover facts, art is the proof of his metaphysics, and the emotion settles the claim against any later check"
             }
           ],
           "feedback": {
@@ -6361,20 +6361,20 @@
               "text": "is a need"
             },
             {
-              "id": "t3",
-              "text": "of a conceptual consciousness"
-            },
-            {
-              "id": "t4",
-              "text": ", not a luxury after thought is finished"
-            },
-            {
               "id": "d1",
               "text": "a spare pleasure"
             },
             {
+              "id": "t3",
+              "text": "of a conceptual consciousness"
+            },
+            {
               "id": "d2",
               "text": "attached as decoration"
+            },
+            {
+              "id": "t4",
+              "text": ", not a luxury after thought is finished"
             }
           ],
           "answer": [
@@ -6399,12 +6399,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The work's abstract meaning"
-            },
-            {
               "id": "b",
               "text": "The list of events in their order"
+            },
+            {
+              "id": "a",
+              "text": "The work's abstract meaning"
             },
             {
               "id": "c",
@@ -6427,16 +6427,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "What abstract meaning do these chosen concretes carry?"
-            },
-            {
               "id": "b",
               "text": "What happens in one chapter, and then in the next?"
             },
             {
               "id": "c",
               "text": "What price did the manuscript bring?"
+            },
+            {
+              "id": "a",
+              "text": "What abstract meaning do these chosen concretes carry?"
             },
             {
               "id": "d",
@@ -6455,20 +6455,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The work's abstract meaning is replaced by the reader's preference"
-            },
-            {
               "id": "b",
-              "text": "A theme is correctly identified as an abstract meaning"
+              "text": "A theme is correctly identified as an abstract meaning the reader prefers"
             },
             {
               "id": "c",
-              "text": "The concretes are correctly treated as the carriers"
+              "text": "The concretes are correctly treated as the carriers of a preference"
             },
             {
               "id": "d",
-              "text": "A plot summary is correctly kept out of the theme"
+              "text": "A plot summary is correctly kept out of the theme in favor of a liking"
+            },
+            {
+              "id": "a",
+              "text": "The work's abstract meaning is replaced by the reader's preference"
             }
           ],
           "feedback": {
@@ -6537,10 +6537,10 @@
             }
           ],
           "bank": [
-            "meaning",
-            "summary",
             "price",
-            "mood"
+            "meaning",
+            "mood",
+            "summary"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -6582,20 +6582,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The author's label is the theme by his stipulation, whatever the concretes show"
+            },
+            {
               "id": "a",
               "text": "A word the author likes is not the theme if it is not the work's meaning"
             },
             {
-              "id": "b",
-              "text": "The author's label is the theme by his stipulation"
-            },
-            {
               "id": "c",
-              "text": "Any single noun is an abstract meaning of the work"
+              "text": "Any single noun is an abstract meaning of the work, so loyalty names this one"
             },
             {
               "id": "d",
-              "text": "A theme does not have to be in the work"
+              "text": "A theme does not have to be in the work, because the author's word creates it"
             }
           ],
           "feedback": {
@@ -6622,12 +6622,12 @@
               "text": "the work's"
             },
             {
-              "id": "t4",
-              "text": "abstract meaning"
-            },
-            {
               "id": "d1",
               "text": "a plot summary"
+            },
+            {
+              "id": "t4",
+              "text": "abstract meaning"
             },
             {
               "id": "d2",
@@ -6656,16 +6656,16 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "A theme is the abstract meaning; a plot summary retells the events"
-            },
-            {
               "id": "b",
               "text": "They are two names for the same chapter list"
             },
             {
               "id": "c",
               "text": "A plot summary is the meaning, and the theme is the list of events"
+            },
+            {
+              "id": "a",
+              "text": "A theme is the abstract meaning; a plot summary retells the events"
             },
             {
               "id": "d",
@@ -6684,20 +6684,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It retells events, and the theme would be the abstract meaning those events carry"
-            },
-            {
               "id": "b",
-              "text": "It is already the theme, because events are abstractions"
+              "text": "It is already the theme, because events are abstractions and need no further meaning"
             },
             {
               "id": "c",
-              "text": "It is the theme because it is shorter than the novel"
+              "text": "It is the theme because it is shorter than the novel and shortness is meaning"
             },
             {
               "id": "d",
-              "text": "It is the theme because a friend is mentioned"
+              "text": "It is the theme because a friend is mentioned, and a friend is an abstract meaning"
+            },
+            {
+              "id": "a",
+              "text": "It retells events, and the theme would be the abstract meaning those events carry"
             }
           ],
           "feedback": {
@@ -6717,15 +6717,15 @@
             },
             {
               "id": "b",
-              "text": "Mara refuses the bribe in chapter twelve and walks home"
+              "text": "Mara refuses the bribe in chapter twelve and walks home, hence the theme"
             },
             {
               "id": "c",
-              "text": "The book has forty chapters and a coastal setting"
+              "text": "The book has forty chapters and a coastal setting, and that is the theme"
             },
             {
               "id": "d",
-              "text": "The actress who played Mara later gave an interview"
+              "text": "The actress who played Mara later gave an interview stating the theme"
             }
           ],
           "feedback": {
@@ -6795,8 +6795,8 @@
           ],
           "bank": [
             "events",
-            "meaning",
             "chapters",
+            "meaning",
             "prices"
           ],
           "feedback": {
@@ -6811,20 +6811,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A plot and a theme are identical by definition, so the progression is the meaning"
+            },
+            {
               "id": "a",
               "text": "The progression is the concrete action; the theme is the abstract meaning it carries"
             },
             {
-              "id": "b",
-              "text": "A plot and a theme are identical by definition"
-            },
-            {
               "id": "c",
-              "text": "A climax is the theme because it comes last"
+              "text": "A climax is the theme because it comes last, and whatever ends the work is the meaning"
             },
             {
               "id": "d",
-              "text": "Purpose erases meaning, so a plotted work has no theme"
+              "text": "Purpose erases meaning, so a plotted work has no theme and no abstract content"
             }
           ],
           "feedback": {
@@ -6839,20 +6839,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The coat is a concrete that may help carry a meaning the feeling proves"
+            },
+            {
+              "id": "c",
+              "text": "Repeating a detail is not itself an abstract meaning and carries nothing"
+            },
+            {
               "id": "a",
               "text": "The theme is the red coat, because the coat appears in three scenes"
             },
             {
-              "id": "b",
-              "text": "The coat is a concrete that may help carry a meaning"
-            },
-            {
-              "id": "c",
-              "text": "Repeating a detail is not itself an abstract meaning"
-            },
-            {
               "id": "d",
-              "text": "A meaning has to be wider than one prop"
+              "text": "A meaning has to be wider than one prop, so the price is that meaning"
             }
           ],
           "feedback": {
@@ -6867,6 +6867,10 @@
           "prompt": "Build the contrast in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "a list of chapters"
+            },
+            {
               "id": "t1",
               "text": "A theme"
             },
@@ -6879,16 +6883,12 @@
               "text": "a retelling"
             },
             {
-              "id": "t4",
-              "text": "of the events"
-            },
-            {
-              "id": "d1",
-              "text": "a list of chapters"
-            },
-            {
               "id": "d2",
               "text": "in the order they occur"
+            },
+            {
+              "id": "t4",
+              "text": "of the events"
             }
           ],
           "answer": [
@@ -6913,10 +6913,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The particulars the artist chose to include, omit, or stress"
-            },
-            {
               "id": "b",
               "text": "Every particular that existed near the artist, chosen or not"
             },
@@ -6927,6 +6923,10 @@
             {
               "id": "d",
               "text": "A slogan the publisher attaches later"
+            },
+            {
+              "id": "a",
+              "text": "The particulars the artist chose to include, omit, or stress"
             }
           ],
           "feedback": {
@@ -6969,20 +6969,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The sentence on the wall label, taken as one of the concretes"
+            },
+            {
               "id": "a",
               "text": "The figure, the omitted crowd, and the stressed light"
             },
             {
-              "id": "b",
-              "text": "The sentence on the wall label"
-            },
-            {
               "id": "c",
-              "text": "The viewer's agreement with that sentence"
+              "text": "The viewer's agreement with that sentence as the concrete"
             },
             {
               "id": "d",
-              "text": "The price of the frame"
+              "text": "The price of the frame, counted among the picture's concretes"
             }
           ],
           "feedback": {
@@ -7051,10 +7051,10 @@
             }
           ],
           "bank": [
-            "concretes",
-            "chose",
             "slogans",
-            "guessed"
+            "concretes",
+            "guessed",
+            "chose"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -7068,20 +7068,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A street cannot appear in a work of art, so no chosen street can carry a theme"
+            },
+            {
+              "id": "c",
+              "text": "Choice would make the work deterministic, and a chosen carrier is a fated one"
+            },
+            {
               "id": "a",
               "text": "The carriers are the particulars the artist chose, not the unselected remainder"
             },
             {
-              "id": "b",
-              "text": "A street cannot appear in a work of art"
-            },
-            {
-              "id": "c",
-              "text": "Choice would make the work deterministic"
-            },
-            {
               "id": "d",
-              "text": "Omission always turns the work into a fantasy"
+              "text": "Omission always turns the work into a fantasy, so selection destroys the subject"
             }
           ],
           "feedback": {
@@ -7096,10 +7096,6 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "It would put in a concrete that does not carry the theme"
-            },
-            {
               "id": "b",
               "text": "It would automatically widen the abstract meaning"
             },
@@ -7110,6 +7106,10 @@
             {
               "id": "d",
               "text": "It would make selection unnecessary"
+            },
+            {
+              "id": "a",
+              "text": "It would put in a concrete that does not carry the theme"
             }
           ],
           "feedback": {
@@ -7128,6 +7128,10 @@
               "text": "The concretes"
             },
             {
+              "id": "d1",
+              "text": "a pasted slogan"
+            },
+            {
               "id": "t2",
               "text": "the artist chose"
             },
@@ -7138,10 +7142,6 @@
             {
               "id": "t4",
               "text": "the theme"
-            },
-            {
-              "id": "d1",
-              "text": "a pasted slogan"
             },
             {
               "id": "d2",
@@ -7175,15 +7175,15 @@
             },
             {
               "id": "b",
-              "text": "It is the card beside the work, whatever the concretes do"
+              "text": "It is the card beside the work, whatever the concretes do or fail to carry"
             },
             {
               "id": "c",
-              "text": "It is a plot summary read aloud at the door"
+              "text": "It is a plot summary read aloud at the door, and the summary supplies the meaning"
             },
             {
               "id": "d",
-              "text": "It is the viewer's vote"
+              "text": "It is the viewer's vote, and the vote creates the meaning the concretes lack"
             }
           ],
           "feedback": {
@@ -7198,12 +7198,12 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The meaning the pictured choice carries, not the catalog's word"
-            },
-            {
               "id": "b",
               "text": "Despair, because the catalog is attached"
+            },
+            {
+              "id": "a",
+              "text": "The meaning the pictured choice carries, not the catalog's word"
             },
             {
               "id": "c",
@@ -7226,20 +7226,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "Truth makes the slogan the theme of the muddled work even when nothing carries it"
+            },
+            {
+              "id": "c",
+              "text": "The muddle makes the true slogan false, so a failed work falsifies the philosophy"
+            },
+            {
               "id": "a",
               "text": "The slogan may be true as philosophy, and it is still not the work's theme"
             },
             {
-              "id": "b",
-              "text": "Truth makes the slogan the theme of the muddled work"
-            },
-            {
-              "id": "c",
-              "text": "The muddle makes the true slogan false"
-            },
-            {
               "id": "d",
-              "text": "A theme is whatever is true, whether or not this work carries it"
+              "text": "A theme is whatever is true, whether or not this work carries it in its concretes"
             }
           ],
           "feedback": {
@@ -7309,8 +7309,8 @@
           ],
           "bank": [
             "carried",
-            "pasted",
             "proved",
+            "pasted",
             "priced"
           ],
           "feedback": {
@@ -7325,20 +7325,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "Letting the slogan do the work, while the concretes are only an excuse for the order"
-            },
-            {
               "id": "b",
-              "text": "Selecting concretes that show a view of man"
+              "text": "Selecting concretes that show a view of man, which makes the view true by the showing"
             },
             {
               "id": "c",
-              "text": "Omitting particulars that do not carry the meaning"
+              "text": "Omitting particulars that do not carry the meaning, thereby proving that meaning"
             },
             {
               "id": "d",
-              "text": "Stressing the act that embodies the theme"
+              "text": "Stressing the act that embodies the theme, which makes the theme true by emphasis"
+            },
+            {
+              "id": "a",
+              "text": "Letting the slogan do the work, while the concretes are only an excuse for the order"
             }
           ],
           "feedback": {
@@ -7358,15 +7358,15 @@
             },
             {
               "id": "b",
-              "text": "That man is free, because the wall text says so"
+              "text": "That man is free, because the wall text says so and outranks the concretes"
             },
             {
               "id": "c",
-              "text": "That man is free, because you welcome that conclusion"
+              "text": "That man is free, because you welcome that conclusion and can rewrite the work"
             },
             {
               "id": "d",
-              "text": "There is no theme, because you oppose determinism"
+              "text": "There is no theme, because you oppose determinism and opposition deletes it"
             }
           ],
           "feedback": {
@@ -7381,8 +7381,16 @@
           "prompt": "Build the contrast in the order that keeps its meaning.",
           "tokens": [
             {
+              "id": "d1",
+              "text": "by the wall text"
+            },
+            {
               "id": "t1",
               "text": "A theme"
+            },
+            {
+              "id": "d2",
+              "text": "as a command"
             },
             {
               "id": "t2",
@@ -7395,14 +7403,6 @@
             {
               "id": "t4",
               "text": ", not pasted on as a slogan"
-            },
-            {
-              "id": "d1",
-              "text": "by the wall text"
-            },
-            {
-              "id": "d2",
-              "text": "as a command"
             }
           ],
           "answer": [
@@ -7427,20 +7427,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "A theme is a plot summary, pasted beside the work as a slogan that creates the meaning"
+            },
+            {
               "id": "a",
               "text": "A theme is the work's abstract meaning, carried by the concretes the artist chose"
             },
             {
-              "id": "b",
-              "text": "A theme is a plot summary, pasted beside the work as a slogan"
-            },
-            {
               "id": "c",
-              "text": "A theme is the artist's mood, discovered by feeling as a fact"
+              "text": "A theme is the artist's mood, discovered by feeling as a fact no concretes need carry"
             },
             {
               "id": "d",
-              "text": "A theme is the reader's agreement, which creates the meaning"
+              "text": "A theme is the reader's agreement, which creates the meaning the concretes do not carry"
             }
           ],
           "feedback": {
@@ -7455,20 +7455,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "That a scientist publishes, which is the plot summary and counts as the abstract meaning"
+            },
+            {
+              "id": "c",
+              "text": "Nothing, because the preface is blank and a missing slogan means the concretes carry nothing"
+            },
+            {
               "id": "a",
               "text": "A mind can choose truth over a flattering falsehood, which is the meaning those concretes carry"
             },
             {
-              "id": "b",
-              "text": "That a scientist publishes, which is the plot summary"
-            },
-            {
-              "id": "c",
-              "text": "Nothing, because the preface is blank"
-            },
-            {
               "id": "d",
-              "text": "The cost, because a cost is a concrete and a concrete is a theme"
+              "text": "The cost, because a cost is a concrete and a concrete is a theme, so the price is the meaning"
             }
           ],
           "feedback": {
@@ -7483,20 +7483,20 @@
           "answer": "a",
           "choices": [
             {
-              "id": "a",
-              "text": "The summary retells events, and the poster pastes a slogan the concretes do not carry"
-            },
-            {
               "id": "b",
-              "text": "Both are themes, because a summary and a slogan are meanings"
+              "text": "Both are themes, because a summary and a slogan are meanings the work must accept"
             },
             {
               "id": "c",
-              "text": "The poster is the theme, because an order outranks a story"
+              "text": "The poster is the theme, because an order outranks a story and replaces its meaning"
             },
             {
               "id": "d",
-              "text": "The summary is the theme, because it is complete"
+              "text": "The summary is the theme, because it is complete and completeness is abstraction"
+            },
+            {
+              "id": "a",
+              "text": "The summary retells events, and the poster pastes a slogan the concretes do not carry"
             }
           ],
           "feedback": {
@@ -7565,10 +7565,10 @@
             }
           ],
           "bank": [
-            "meaning",
-            "concretes",
             "summary",
-            "slogan"
+            "meaning",
+            "slogan",
+            "concretes"
           ],
           "feedback": {
             "kind": "paraphrase",
@@ -7587,15 +7587,15 @@
             },
             {
               "id": "b",
-              "text": "The theme is your own philosophy, because you oppose the book"
+              "text": "The theme is your own philosophy, because you oppose the book and opposition installs your view"
             },
             {
               "id": "c",
-              "text": "There is no theme, because a false meaning cannot be carried"
+              "text": "There is no theme, because a false meaning cannot be carried, however rigorous the re-creation"
             },
             {
               "id": "d",
-              "text": "The theme is the skill itself"
+              "text": "The theme is the skill itself, and the deterministic meaning is merely the proof of that skill"
             }
           ],
           "feedback": {
@@ -7610,20 +7610,20 @@
           "answer": "a",
           "choices": [
             {
+              "id": "b",
+              "text": "The events are listed, and the meaning is whatever a crowd feels, so no chosen meaning is required"
+            },
+            {
               "id": "a",
               "text": "The particulars were chosen so their meaning is that man can choose, and no external slogan is required"
             },
             {
-              "id": "b",
-              "text": "The events are listed, and the meaning is whatever a crowd feels"
-            },
-            {
               "id": "c",
-              "text": "A true sentence is framed beside an unrelated pattern"
+              "text": "A true sentence is framed beside an unrelated pattern, and the frame alone is enough to carry it"
             },
             {
               "id": "d",
-              "text": "Every street fact is recorded at equal weight, and no meaning is stressed"
+              "text": "Every street fact is recorded at equal weight, and no meaning is stressed, so the record is the theme"
             }
           ],
           "feedback": {
@@ -7642,8 +7642,16 @@
               "text": "A theme"
             },
             {
+              "id": "d1",
+              "text": "a plot summary"
+            },
+            {
               "id": "t2",
               "text": "is the work's abstract meaning"
+            },
+            {
+              "id": "d2",
+              "text": "a slogan pasted beside it"
             },
             {
               "id": "t3",
@@ -7652,14 +7660,6 @@
             {
               "id": "t4",
               "text": "the concretes the artist chose"
-            },
-            {
-              "id": "d1",
-              "text": "a plot summary"
-            },
-            {
-              "id": "d2",
-              "text": "a slogan pasted beside it"
             }
           ],
           "answer": [
